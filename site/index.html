@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northland Events</title>
+<meta name="description" content="Community events across the Duluth region — Northern Minnesota, Northwest Wisconsin, and the western U.P.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
+<style>
+  :root {
+    --bg: #f7f6f3; --panel: #ffffff; --ink: #1e2a32; --muted: #5c6b74;
+    --line: #e3e0d8; --accent: #1f6f6b; --accent-ink: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--ink); }
+  header { padding: 18px 20px 10px; }
+  h1 { margin: 0; font-size: 20px; letter-spacing: .2px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px 40px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+  .filters select { padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+                    background: var(--panel); color: var(--ink); font-size: 14px; }
+  #calendar { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+              padding: 12px; }
+  .fc .fc-button-primary { background: var(--accent); border-color: var(--accent); }
+  .fc .fc-button-primary:not(:disabled).fc-button-active { background: #17504d; border-color: #17504d; }
+  .fc-event { cursor: pointer; }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  dialog { border: none; border-radius: 12px; padding: 0; max-width: 460px; width: 92vw;
+           box-shadow: 0 12px 40px rgba(0,0,0,.25); }
+  dialog::backdrop { background: rgba(20,28,32,.45); }
+  .card { padding: 20px; }
+  .card h2 { margin: 0 0 4px; font-size: 18px; }
+  .card .when { color: var(--accent); font-weight: 600; font-size: 14px; }
+  .card .where { color: var(--muted); font-size: 13px; margin: 2px 0 12px; }
+  .card p { font-size: 14px; white-space: pre-wrap; }
+  .card a.src { display: inline-block; margin-top: 10px; color: var(--accent); font-weight: 600;
+                text-decoration: none; }
+  .card .tag { display: inline-block; background: var(--bg); border: 1px solid var(--line);
+               border-radius: 999px; padding: 2px 9px; font-size: 12px; margin-right: 6px; }
+  .card button.close { position: absolute; top: 10px; right: 12px; border: none; background: none;
+                       font-size: 22px; cursor: pointer; color: var(--muted); }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161a1c; --panel:#1f2528; --ink:#e8eaeb; --muted:#9aa7ad; --line:#333c40; --accent:#3aa39d; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding-bottom:0">
+    <h1>Northland Events</h1>
+    <p>Community events across the Duluth region — Northern Minnesota, Northwest Wisconsin, and Ironwood, MI.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="filters">
+    <select id="area"><option value="">All areas</option></select>
+    <select id="category"><option value="">All categories</option></select>
+  </div>
+  <div id="calendar"></div>
+  <p class="meta" id="stamp"></p>
+</div>
+
+<dialog id="detail"><div class="card">
+  <button class="close" aria-label="Close" onclick="detail.close()">&times;</button>
+  <div id="detail-body"></div>
+</div></dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<script>
+const CAT_LABELS = {
+  "music":"Music","arts":"Arts & Theater","family":"Family","food-drink":"Food & Drink",
+  "sports-rec":"Sports & Rec","community":"Community","education":"Classes & Talks",
+  "holiday":"Holiday","other":"Other"
+};
+
+let ALL = [];
+const areaSel = document.getElementById('area');
+const catSel = document.getElementById('category');
+const detail = document.getElementById('detail');
+
+function fmtRange(startISO, endISO, allDay) {
+  const s = new Date(startISO);
+  const opts = { weekday:'short', month:'short', day:'numeric' };
+  let out = s.toLocaleDateString(undefined, opts);
+  if (!allDay) out += ' · ' + s.toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit'});
+  if (endISO) {
+    const e = new Date(endISO);
+    if (e.toDateString() === s.toDateString() && !allDay)
+      out += '–' + e.toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit'});
+    else if (e.toDateString() !== s.toDateString())
+      out += ' – ' + e.toLocaleDateString(undefined, opts);
+  }
+  return out;
+}
+
+function openDetail(ev) {
+  const b = document.getElementById('detail-body');
+  b.innerHTML = '';
+  const h = document.createElement('h2'); h.textContent = ev.title; b.appendChild(h);
+  const when = document.createElement('div'); when.className = 'when';
+  when.textContent = fmtRange(ev.start, ev.end, ev.all_day); b.appendChild(when);
+  const where = document.createElement('div'); where.className = 'where';
+  where.textContent = [ev.venue, ev.city || ev.area].filter(Boolean).join(' · '); b.appendChild(where);
+  const tags = document.createElement('div');
+  if (ev.category) tags.innerHTML += `<span class="tag">${CAT_LABELS[ev.category]||ev.category}</span>`;
+  if (ev.price) tags.innerHTML += `<span class="tag">${ev.price}</span>`;
+  b.appendChild(tags);
+  if (ev.description) { const p = document.createElement('p'); p.textContent = ev.description; b.appendChild(p); }
+  if (ev.url) {
+    const a = document.createElement('a'); a.className = 'src'; a.href = ev.url; a.target = '_blank';
+    a.rel = 'noopener'; a.textContent = 'Event details ↗'; b.appendChild(a);
+  }
+  detail.showModal();
+}
+
+function applyFilters(cal) {
+  const a = areaSel.value, c = catSel.value;
+  cal.removeAllEvents();
+  cal.addEventSource(ALL
+    .filter(e => (!a || e.area === a) && (!c || e.category === c))
+    .map(e => ({
+      title: e.title, start: e.start, end: e.end, allDay: e.all_day, extendedProps: e
+    })));
+}
+
+fetch('data/events.json').then(r => r.json()).then(data => {
+  ALL = data.events || [];
+  for (const area of data.areas || []) areaSel.add(new Option(area, area));
+  for (const cat of data.categories || []) catSel.add(new Option(CAT_LABELS[cat] || cat, cat));
+  document.getElementById('stamp').textContent =
+    `${data.count} events · updated ${new Date(data.generated).toLocaleString()}`;
+
+  const cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
+    initialView: window.innerWidth < 640 ? 'listMonth' : 'dayGridMonth',
+    headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,timeGridWeek,listMonth' },
+    height: 'auto',
+    eventDisplay: 'block',
+    eventClick: info => { info.jsEvent.preventDefault(); openDetail(info.event.extendedProps); },
+  });
+  cal.render();
+  applyFilters(cal);
+  areaSel.onchange = () => applyFilters(cal);
+  catSel.onchange = () => applyFilters(cal);
+}).catch(err => {
+  document.getElementById('calendar').textContent = 'Could not load events. ' + err;
+});
+</script>
+</body>
+</html>

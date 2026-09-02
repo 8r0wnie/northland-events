@@ -1,0 +1,47 @@
+{
+  "when": "2026-09-02T23:15:45Z",
+  "raw": 744,
+  "deduped": 709,
+  "sources": [
+    {
+      "source": "visit-duluth",
+      "detail": "tribe: 600 events",
+      "events": 600
+    },
+    {
+      "source": "duluth-chamber",
+      "detail": "weblink: 22 events (tenant duluthmncoc)",
+      "events": 22
+    },
+    {
+      "source": "superior-chamber",
+      "detail": "chambermaster: 32 events via https://superiorchamber.org",
+      "events": 31
+    },
+    {
+      "source": "hibbing-chamber",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ely-chamber",
+      "detail": "jsonld: 3 events (rendered)",
+      "events": 3
+    },
+    {
+      "source": "grand-rapids-mn",
+      "detail": "tribe: 10 events",
+      "events": 10
+    },
+    {
+      "source": "mcgregor-chamber",
+      "detail": "tribe: 1 events",
+      "events": 1
+    },
+    {
+      "source": "spooner-chamber",
+      "detail": "tribe: 77 events",
+      "events": 77
+    }
+  ]
+}
