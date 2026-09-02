@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-02T23:15:45Z",
-  "raw": 744,
-  "deduped": 709,
+  "when": "2026-09-02T23:46:37Z",
+  "raw": 667,
+  "deduped": 632,
   "sources": [
     {
       "source": "visit-duluth",
@@ -40,8 +40,8 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
-      "events": 77
+      "detail": "no adapter produced events",
+      "events": 0
     }
   ]
 }
