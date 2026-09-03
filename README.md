@@ -65,13 +65,15 @@ Tried in order; first one to return events wins.
 |--------------------|--------|
 | `tribe`            | WordPress "The Events Calendar" REST API (`/wp-json/tribe/events/v1/events`) |
 | `weblink`          | WebLink Connect ("Atlas") chambers — public `api-internal.weblinkconnect.com/api/Events` with an `x-tenant` header |
+| `civicplus`        | CivicPlus / CivicEngage municipal sites — combined calendar RSS feed |
+| `revize`           | Revize municipal CMS — FullCalendar JSON handler (`calendar_data_handler.php`), expands recurring rules |
 | `jsonld`           | any page embedding schema.org `Event` JSON-LD (headless render fallback, then samples detail pages) |
 | `ics`              | a discoverable iCal / `.ics` feed |
 | `chamberorganizer` | ChamberOrganizer chambers — `auth.chamberwidgets.com/cn-api/org/calendar/events` month POSTs |
 | `chambermaster`    | ChamberMaster / GrowthZone hosted MIC — walks month calendars, parses detail-page microdata |
 
-Planned: `simpleview` (CVBs), `civicplus` / `revize` / `govoffice` (municipal
-sites), `perfectduluthday` (bespoke — Cloudflare-fronted).
+Planned: `simpleview` (CVBs), `govoffice` (some municipal sites),
+`perfectduluthday` (bespoke — Cloudflare-fronted).
 
 ## Scope boundaries
 

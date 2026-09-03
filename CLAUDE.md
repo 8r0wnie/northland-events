@@ -43,6 +43,8 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 |--------------------|----------|
 | `tribe`            | WordPress "The Events Calendar" REST API |
 | `weblink`          | WebLink Connect / "Atlas" chambers (public `api-internal.weblinkconnect.com/api/Events`, `x-tenant` header) |
+| `civicplus`        | CivicPlus/CivicEngage gov sites (combined calendar RSS `/RSSFeed.aspx?ModID=58&CID=All-calendar.xml`) |
+| `revize`           | Revize gov CMS (`/_assets_/plugins/revizeCalendar/calendar_data_handler.php?webspace=<slug>…` JSON) |
 | `jsonld`           | schema.org Event JSON-LD (headless-render fallback, samples detail pages) |
 | `ics`              | discoverable iCal feed |
 | `chamberorganizer` | ChamberOrganizer (`auth.chamberwidgets.com` month POSTs) |
@@ -51,11 +53,11 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
 generic chain runs.
 
-**In progress:** government-site adapters. Recon findings — of 62 gov sources:
-CivicPlus ≈8 (RSS feed at `/RSSFeed.aspx?ModID=58&CID=All-calendar.xml`),
-Revize ≈8 (`calendar.php`), WordPress+Tribe ≈7 (use `tribe`), Weebly 1,
-~15 dead/bad URLs, ~16 unknown. Plan: `civicplus` + `revize` adapters, then
-activate `tribe` for the WordPress gov sites.
+**Government sites:** `civicplus` + `revize` built and active for the verified
+counties/cities. Still to do: the pinned-but-`todo` sites in `sources.yaml`, the
+other WordPress gov sites (check `tribe`), the ~16 "unknown" govs (duluth-mn,
+stlouis-county-mn, etc.), and ~15 dead/bad-URL entries (several are wrong URLs
+from the appendix).
 
 **Also planned:** `simpleview` (Bayfield, Visit Ashland), Perfect Duluth Day
 (bespoke, Cloudflare-fronted), Explore Minnesota / Iron Range, a Google Form →

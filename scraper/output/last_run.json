@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-02T23:46:37Z",
-  "raw": 667,
-  "deduped": 632,
+  "when": "2026-09-03T00:06:37Z",
+  "raw": 1236,
+  "deduped": 1199,
   "sources": [
     {
       "source": "visit-duluth",
@@ -40,8 +40,58 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 77 events",
+      "events": 77
+    },
+    {
+      "source": "hermantown-mn",
+      "detail": "tribe: 44 events",
+      "events": 44
+    },
+    {
+      "source": "proctor-mn",
+      "detail": "tribe: 33 events",
+      "events": 33
+    },
+    {
+      "source": "carlton-county-mn",
+      "detail": "civicplus: 2 events",
+      "events": 2
+    },
+    {
+      "source": "two-harbors-mn",
+      "detail": "revize: 125 events (webspace twoharborsmn)",
+      "events": 121
+    },
+    {
+      "source": "silver-bay-mn",
+      "detail": "revize: 81 events (webspace silverbaymn)",
+      "events": 81
+    },
+    {
+      "source": "cook-county-mn",
+      "detail": "revize: 91 events (webspace cookcountymn)",
+      "events": 89
+    },
+    {
+      "source": "douglas-county-wi",
+      "detail": "civicplus: 7 events",
+      "events": 7
+    },
+    {
+      "source": "superior-wi",
+      "detail": "civicplus: 4 events",
+      "events": 4
+    },
+    {
+      "source": "bayfield-county-wi",
+      "detail": "civicplus: 108 events",
+      "events": 108
+    },
+    {
+      "source": "ashland-city-wi",
+      "detail": "civicplus: 3 events",
+      "events": 3
     }
   ]
 }
