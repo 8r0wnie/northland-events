@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-03T23:49:22Z",
-  "raw": 2723,
-  "deduped": 2591,
+  "when": "2026-09-03T23:58:10Z",
+  "raw": 2623,
+  "deduped": 2491,
   "sources": [
     {
       "source": "perfect-duluth-day",
@@ -40,8 +40,8 @@
     },
     {
       "source": "mcgregor-chamber",
-      "detail": "tribe: 1 events",
-      "events": 1
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "bayfield-chamber",
@@ -49,9 +49,14 @@
       "events": 138
     },
     {
+      "source": "visit-ashland",
+      "detail": "jsonld: 4 events (rendered)",
+      "events": 4
+    },
+    {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
-      "events": 77
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "duluth-mn",
@@ -65,8 +70,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "tribe: 33 events",
-      "events": 33
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "virginia-mn",
@@ -100,8 +105,8 @@
     },
     {
       "source": "gilbert-mn",
-      "detail": "mycalendar: 5 events",
-      "events": 5
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "babbitt-mn",
@@ -142,6 +147,11 @@
       "source": "esko-township-mn",
       "detail": "heygov: 15 events",
       "events": 14
+    },
+    {
+      "source": "lake-county-mn",
+      "detail": "jsonld: 12 events (rendered)",
+      "events": 12
     },
     {
       "source": "two-harbors-mn",
