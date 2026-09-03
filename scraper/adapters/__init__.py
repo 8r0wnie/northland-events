@@ -14,6 +14,9 @@ from .tribe import TribeEventsAdapter
 from .weblink import WebLinkAdapter
 from .civicplus import CivicPlusAdapter
 from .revize import RevizeAdapter
+from .mycalendar import MyCalendarAdapter
+from .webcalendar import WebCalendarAdapter
+from .govoffice import GovOfficeAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -24,6 +27,9 @@ GENERIC: list[Adapter] = [
     WebLinkAdapter(),          # one API call once the tenant is known
     CivicPlusAdapter(),        # one RSS feed fetch
     RevizeAdapter(),           # one JSON handler fetch
+    MyCalendarAdapter(),       # one REST call
+    WebCalendarAdapter(),      # ~6 month POSTs (DocAccess .NET calendar)
+    GovOfficeAdapter(),        # ~6 month calendar-grid pages
     JsonLdAdapter(),           # page fetch (+ optional render)
     IcsAdapter(),              # page fetch + feed fetch
     ChamberOrganizerAdapter(), # ~6 month POSTs
@@ -37,6 +43,9 @@ BY_PLATFORM: dict[str, Adapter] = {
     "weblink": WebLinkAdapter(),
     "civicplus": CivicPlusAdapter(),
     "revize": RevizeAdapter(),
+    "mycalendar": MyCalendarAdapter(),
+    "webcalendar": WebCalendarAdapter(),
+    "govoffice": GovOfficeAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
     "chambermaster": ChamberMasterAdapter(),
     "growthzone": ChamberMasterAdapter(),

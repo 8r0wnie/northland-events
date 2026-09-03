@@ -16,7 +16,7 @@ The `<slug>` is discovered from `webspace=<slug>` in the site's HTML.
 from __future__ import annotations
 
 import re
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 from dateutil import rrule as _rr
 from selectolax.parser import HTMLParser
@@ -93,26 +93,85 @@ def _occurrences(node: dict, start: datetime, end: datetime | None,
         return [(start, end)] if in_window else []
 
 
+def _old_xml_events(root: str, now: datetime, horizon: datetime) -> list[Event]:
+    """Older Revize calendars serve per-month XML at
+    /calendar_app/db/calendar_1_activemonthsdata_YYYY-MM.xml with a pre-expanded
+    <dates> list (MM-DD-YYYY, comma separated)."""
+    from selectolax.parser import HTMLParser as _HP
+    seen: set[str] = set()
+    out: list[Event] = []
+    month = date(now.year, now.month, 1)
+    for _ in range(7):
+        url = f"{root}/calendar_app/db/calendar_1_activemonthsdata_{month:%Y-%m}.xml"
+        xml = fetch.get_text(url)
+        month = date(month.year + (month.month // 12), (month.month % 12) + 1, 1)
+        if not xml or "<event" not in xml:
+            continue
+        for m in re.finditer(r"<event\b[^>]*>(.*?)</event>", xml, re.S):
+            block = m.group(1)
+
+            def tag(name: str) -> str:
+                mm = re.search(rf"<{name}[^>]*>(.*?)</{name}>", block, re.S)
+                if not mm:
+                    return ""
+                val = mm.group(1)
+                cd = re.match(r"\s*<!\[CDATA\[(.*?)\]\]>\s*$", val, re.S)
+                return clean_text(cd.group(1) if cd else val)
+
+            eid = re.search(r'id="(\d+)"', m.group(0))
+            eid = eid.group(1) if eid else tag("name")
+            title = tag("name")
+            if not title:
+                continue
+            tstart = tag("time_begin")
+            detail = tag("detail") or tag("summary")
+            dates = tag("dates") or ""
+            day_list = [d.strip() for d in dates.split(",") if d.strip()] or [tag("date_begin")]
+            for d in day_list:
+                dt = parse_dt(f"{d} {tstart}".strip())
+                if not dt or not (now <= dt <= horizon):
+                    continue
+                key = f"{eid}|{dt.date()}"
+                if key in seen:
+                    continue
+                seen.add(key)
+                out.append(Event(
+                    source_id="", title=title, start=dt,
+                    all_day=not tstart,
+                    description=clean_text(_HP(detail).text() if "<" in detail else detail),
+                    url=f"{root}/calendar.php", category="community",
+                ))
+    return out
+
+
 class RevizeAdapter:
     name = "revize"
 
     def scrape(self, source: Source) -> AdapterResult:
         slug = _webspace(source)
-        if not slug:
-            return AdapterResult(self.name, ok=False, detail="no Revize webspace found")
         root = _root(source.url)
-        url = (f"{root}{HANDLER}?webspace={slug}"
-               f"&relative_revize_url=//webgen1.revize.com&protocol=https:")
-        r = fetch.get(url)
-        if r is None:
-            return AdapterResult(self.name, ok=False, detail="handler request failed")
-        try:
-            rows = r.json()
-        except ValueError:
-            return AdapterResult(self.name, ok=False, detail="handler did not return JSON")
-
         now = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         horizon = now + timedelta(days=HORIZON_DAYS)
+
+        rows = None
+        if slug:
+            url = (f"{root}{HANDLER}?webspace={slug}"
+                   f"&relative_revize_url=//webgen1.revize.com&protocol=https:")
+            r = fetch.get(url)
+            if r is not None:
+                try:
+                    rows = r.json()
+                except ValueError:
+                    rows = None
+
+        if rows is None:
+            # Fall back to the older per-month XML calendar.
+            events = tag_from_source(_old_xml_events(root, now, horizon), source)
+            if events:
+                return AdapterResult(self.name, events=events, ok=True,
+                                     detail=f"{len(events)} events (old XML)")
+            return AdapterResult(self.name, ok=False, detail="no Revize calendar data")
+
         events: list[Event] = []
         for node in rows:
             start = parse_dt(node.get("start"))
