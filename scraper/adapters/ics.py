@@ -8,6 +8,7 @@ then parses it with the icalendar library.
 """
 from __future__ import annotations
 
+import re
 from datetime import datetime, date, time
 from urllib.parse import urljoin
 
@@ -28,9 +29,15 @@ def _discover(html: str, base: str) -> list[str]:
         if href:
             found.append(urljoin(base, href))
     for a in tree.css("a[href]"):
-        href = (a.attributes.get("href") or "").lower()
+        raw = a.attributes.get("href") or ""
+        href = raw.lower()
         if href.endswith(".ics") or "ical=1" in href or "outlook-ical" in href or "format=ical" in href:
-            found.append(urljoin(base, a.attributes["href"]))
+            found.append(urljoin(base, raw.replace("webcal://", "https://")))
+    # Google Calendar embeds expose a public .ics per calendar id
+    for iframe in tree.css('iframe[src*="calendar.google.com"]'):
+        for cid in re.findall(r"[?&]src=([^&]+)", iframe.attributes.get("src", "")):
+            cid = cid.replace("%40", "%40")  # keep encoded
+            found.append(f"https://calendar.google.com/calendar/ical/{cid}/public/basic.ics")
     # common conventions
     found.append(base.rstrip("/") + "/?ical=1")
     # de-dup, keep order
@@ -80,10 +87,19 @@ class IcsAdapter:
         return out
 
     def scrape(self, source: Source) -> AdapterResult:
-        html = fetch.get_text(source.target)
+        target = source.target.replace("webcal://", "https://")
+        # events_url may itself be an .ics feed
+        if target.lower().split("?")[0].endswith(".ics"):
+            text = fetch.get_text(target)
+            if text and "BEGIN:VCALENDAR" in text:
+                events = tag_from_source(self._parse(text, target), source)
+                return AdapterResult(self.name, events=events, ok=bool(events),
+                                     detail=f"{len(events)} events from {target}")
+
+        html = fetch.get_text(target)
         if not html:
             return AdapterResult(self.name, ok=False, detail="fetch failed")
-        for feed in _discover(html, source.target):
+        for feed in _discover(html, target):
             text = fetch.get_text(feed)
             if not text or "BEGIN:VCALENDAR" not in text:
                 continue

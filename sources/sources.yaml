@@ -54,93 +54,93 @@ sources:
   - {id: ironwood-chamber,     name: "Ironwood Area Chamber",         url: "https://www.ironwoodchamber.org",      events_url: "", category: chamber, state: MI, area: "Ironwood",        platform: "", status: todo, notes: ""}
 
   # ─────────────────────────── Government — St. Louis County, MN ───────────────────────────
-  - {id: stlouis-county-mn,    name: "St. Louis County, MN",          url: "https://www.stlouiscountymn.gov",     events_url: "", category: gov, state: MN, area: "St. Louis County", platform: "", status: todo, notes: ""}
-  - {id: duluth-mn,            name: "City of Duluth",                url: "https://duluthmn.gov",                events_url: "", category: gov, state: MN, area: "Duluth",           platform: "", status: todo, notes: ""}
-  - {id: hermantown-mn,        name: "City of Hermantown",            url: "https://www.hermantownmn.com",        events_url: "", category: gov, state: MN, area: "Hermantown",       platform: "tribe", status: active, notes: ""}
-  - {id: proctor-mn,          name: "City of Proctor",               url: "https://www.proctormn.gov",           events_url: "", category: gov, state: MN, area: "Proctor",          platform: "tribe", status: active, notes: ""}
-  - {id: virginia-mn,         name: "City of Virginia",              url: "https://www.virginiamn.us",           events_url: "", category: gov, state: MN, area: "Virginia",         platform: "revize", status: todo, notes: ""}
-  - {id: hibbing-mn,          name: "City of Hibbing",               url: "https://www.hibbing.mn.us",           events_url: "", category: gov, state: MN, area: "Hibbing",          platform: "", status: todo, notes: ""}
-  - {id: eveleth-mn,          name: "City of Eveleth",               url: "https://www.evelethmn.com",           events_url: "", category: gov, state: MN, area: "Eveleth",          platform: "", status: todo, notes: ""}
-  - {id: chisholm-mn,         name: "City of Chisholm",              url: "https://www.ci.chisholm.mn.us",       events_url: "", category: gov, state: MN, area: "Chisholm",         platform: "", status: todo, notes: ""}
-  - {id: ely-mn,              name: "City of Ely",                   url: "https://ely.mn.us",                   events_url: "", category: gov, state: MN, area: "Ely",              platform: "", status: todo, notes: ""}
-  - {id: mountain-iron-mn,    name: "City of Mountain Iron",         url: "https://www.mtniron.com",             events_url: "", category: gov, state: MN, area: "Mountain Iron",     platform: "", status: todo, notes: ""}
-  - {id: gilbert-mn,          name: "City of Gilbert",               url: "https://www.gilbertmn.org",           events_url: "", category: gov, state: MN, area: "Gilbert",          platform: "", status: todo, notes: ""}
-  - {id: hoyt-lakes-mn,       name: "City of Hoyt Lakes",            url: "https://www.hoytlakes.com",           events_url: "", category: gov, state: MN, area: "Hoyt Lakes",        platform: "", status: todo, notes: ""}
-  - {id: babbitt-mn,          name: "City of Babbitt",               url: "https://babbittmn.gov",               events_url: "", category: gov, state: MN, area: "Babbitt",          platform: "", status: todo, notes: ""}
-  - {id: cook-mn,             name: "City of Cook",                  url: "https://www.cookmn.com",              events_url: "", category: gov, state: MN, area: "Cook",             platform: "", status: todo, notes: ""}
-  - {id: floodwood-mn,        name: "City of Floodwood",             url: "https://www.floodwoodmn.org",         events_url: "", category: gov, state: MN, area: "Floodwood",        platform: "", status: todo, notes: ""}
-  - {id: tower-mn,            name: "City of Tower",                 url: "https://www.cityoftower.com",         events_url: "", category: gov, state: MN, area: "Tower",            platform: "", status: todo, notes: ""}
+  - {id: stlouis-county-mn,    name: "St. Louis County, MN",          url: "https://www.stlouiscountymn.gov",     events_url: "", category: gov, state: MN, area: "St. Louis County", platform: "", status: no-calendar, notes: "Custom CMS; only board-meeting articles, no event calendar"}
+  - {id: duluth-mn,            name: "City of Duluth",                url: "https://duluthmn.gov",                events_url: "", category: gov, state: MN, area: "Duluth",           platform: "webcalendar", status: active, notes: ""}
+  - {id: hermantown-mn,        name: "City of Hermantown",            url: "https://hermantownmn.com",        events_url: "", category: gov, state: MN, area: "Hermantown",       platform: "tribe", status: active, notes: ""}
+  - {id: proctor-mn,          name: "City of Proctor",               url: "https://proctormn.gov",           events_url: "", category: gov, state: MN, area: "Proctor",          platform: "tribe", status: active, notes: ""}
+  - {id: virginia-mn,         name: "City of Virginia",              url: "https://www.virginiamn.us",           events_url: "", category: gov, state: MN, area: "Virginia",         platform: "revize", status: active, notes: ""}
+  - {id: hibbing-mn,          name: "City of Hibbing",               url: "https://www.hibbingmn.gov",           events_url: "", category: gov, state: MN, area: "Hibbing",          platform: "civicplus", status: active, notes: ""}
+  - {id: eveleth-mn,          name: "City of Eveleth",               url: "https://eveleth.gov",           events_url: "", category: gov, state: MN, area: "Eveleth",          platform: "govoffice", status: active, notes: ""}
+  - {id: chisholm-mn,         name: "City of Chisholm",              url: "https://www.ci.chisholm.mn.us",       events_url: "", category: gov, state: MN, area: "Chisholm",         platform: "govoffice", status: active, notes: ""}
+  - {id: ely-mn,              name: "City of Ely",                   url: "https://www.ely.mn.us",                   events_url: "", category: gov, state: MN, area: "Ely",              platform: "govoffice", status: active, notes: ""}
+  - {id: mountain-iron-mn,    name: "City of Mountain Iron",         url: "https://mountainiron.gov",             events_url: "", category: gov, state: MN, area: "Mountain Iron",     platform: "mycalendar", status: active, notes: ""}
+  - {id: gilbert-mn,          name: "City of Gilbert",               url: "https://gilbertmn.org",           events_url: "", category: gov, state: MN, area: "Gilbert",          platform: "mycalendar", status: active, notes: ""}
+  - {id: hoyt-lakes-mn,       name: "City of Hoyt Lakes",            url: "https://hoytlakesmn.gov",           events_url: "", category: gov, state: MN, area: "Hoyt Lakes",        platform: "", status: no-calendar, notes: "static HTML events page; low volume"}
+  - {id: babbitt-mn,          name: "City of Babbitt",               url: "https://www.babbittmn.gov",               events_url: "", category: gov, state: MN, area: "Babbitt",          platform: "govoffice", status: active, notes: ""}
+  - {id: cook-mn,             name: "City of Cook",                  url: "https://cookmn.com",              events_url: "", category: gov, state: MN, area: "Cook",             platform: "tribe", status: active, notes: ""}
+  - {id: floodwood-mn,        name: "City of Floodwood",             url: "https://floodwoodmn.gov",         events_url: "", category: gov, state: MN, area: "Floodwood",        platform: "govoffice", status: active, notes: ""}
+  - {id: tower-mn,            name: "City of Tower",                 url: "https://cityoftower.com",         events_url: "", category: gov, state: MN, area: "Tower",            platform: "", status: no-calendar, notes: "agendas/minutes only, no event calendar"}
 
   # ─────────────────────────── Government — Carlton County, MN ───────────────────────────
-  - {id: carlton-county-mn,   name: "Carlton County, MN",            url: "https://www.co.carlton.mn.us",        events_url: "", category: gov, state: MN, area: "Carlton County",   platform: "civicplus", status: active, notes: ""}
-  - {id: cloquet-mn,          name: "City of Cloquet",               url: "https://www.cloquetmn.gov",           events_url: "", category: gov, state: MN, area: "Cloquet",          platform: "", status: todo, notes: ""}
-  - {id: moose-lake-mn,       name: "City of Moose Lake",            url: "https://www.mooselakemn.gov",         events_url: "", category: gov, state: MN, area: "Moose Lake",       platform: "", status: todo, notes: ""}
-  - {id: carlton-mn,          name: "City of Carlton",               url: "https://www.cityofcarlton.com",       events_url: "", category: gov, state: MN, area: "Carlton",          platform: "", status: todo, notes: ""}
-  - {id: barnum-mn,           name: "City of Barnum",                url: "https://www.cityofbarnum.com",        events_url: "", category: gov, state: MN, area: "Barnum",           platform: "", status: todo, notes: ""}
-  - {id: cromwell-mn,         name: "City of Cromwell",              url: "https://www.cromwellmn.org",          events_url: "", category: gov, state: MN, area: "Cromwell",         platform: "revize", status: todo, notes: ""}
-  - {id: wrenshall-mn,        name: "City of Wrenshall",             url: "https://www.wrenshall.com",           events_url: "", category: gov, state: MN, area: "Wrenshall",        platform: "", status: todo, notes: ""}
-  - {id: esko-township-mn,    name: "Esko Township",                 url: "https://www.eskotownship.com",        events_url: "", category: gov, state: MN, area: "Esko",             platform: "", status: todo, notes: ""}
+  - {id: carlton-county-mn,   name: "Carlton County, MN",            url: "https://www.carltoncountymn.gov",        events_url: "", category: gov, state: MN, area: "Carlton County",   platform: "civicplus", status: active, notes: ""}
+  - {id: cloquet-mn,          name: "City of Cloquet",               url: "https://www.cloquetmn.gov",           events_url: "", category: gov, state: MN, area: "Cloquet",          platform: "", status: no-calendar, notes: "403 to bot UA; needs render"}
+  - {id: moose-lake-mn,       name: "City of Moose Lake",            url: "https://www.cityofmooselake.gov",         events_url: "", category: gov, state: MN, area: "Moose Lake",       platform: "civicplus", status: active, notes: ""}
+  - {id: carlton-mn,          name: "City of Carlton",               url: "https://www.cityofcarlton.com",       events_url: "", category: gov, state: MN, area: "Carlton",          platform: "", status: no-calendar, notes: "agendas/minutes only, no event calendar"}
+  - {id: barnum-mn,           name: "City of Barnum",                url: "https://www.barnummn.us",        events_url: "", category: gov, state: MN, area: "Barnum",           platform: "govoffice", status: active, notes: ""}
+  - {id: cromwell-mn,         name: "City of Cromwell",              url: "https://www.cromwellmn.org",          events_url: "", category: gov, state: MN, area: "Cromwell",         platform: "revize", status: active, notes: ""}
+  - {id: wrenshall-mn,        name: "City of Wrenshall",             url: "https://www.wrenshall.com",           events_url: "", category: gov, state: MN, area: "Wrenshall",        platform: "", status: no-calendar, notes: "no event calendar"}
+  - {id: esko-township-mn,    name: "Thomson Township (Esko)",                 url: "https://townofthomsonmn.gov",        events_url: "", category: gov, state: MN, area: "Esko",             platform: "heygov", status: active, notes: ""}
 
   # ─────────────────────────── Government — Lake County, MN ───────────────────────────
-  - {id: lake-county-mn,      name: "Lake County, MN",               url: "https://www.co.lake.mn.us",           events_url: "", category: gov, state: MN, area: "Lake County",      platform: "", status: todo, notes: ""}
+  - {id: lake-county-mn,      name: "Lake County, MN",               url: "https://lakecountymn.gov",           events_url: "", category: gov, state: MN, area: "Lake County",      platform: "", status: no-calendar, notes: "WordPress lsvr_event CPT; date not in REST, needs detail-page scrape"}
   - {id: two-harbors-mn,      name: "City of Two Harbors",           url: "https://www.twoharborsmn.gov",        events_url: "", category: gov, state: MN, area: "Two Harbors",      platform: "revize", status: active, notes: ""}
-  - {id: silver-bay-mn,       name: "City of Silver Bay",            url: "https://www.silverbay.com",           events_url: "", category: gov, state: MN, area: "Silver Bay",       platform: "revize", status: active, notes: ""}
-  - {id: knife-river-mn,      name: "Knife River Township",          url: "https://www.kniferivermn.gov",        events_url: "", category: gov, state: MN, area: "Knife River",      platform: "", status: todo, notes: ""}
+  - {id: silver-bay-mn,       name: "City of Silver Bay",            url: "https://www.silverbaymn.gov",           events_url: "", category: gov, state: MN, area: "Silver Bay",       platform: "revize", status: active, notes: ""}
+  - {id: knife-river-mn,      name: "Knife River Township",          url: "https://www.kniferivermn.com",        events_url: "", category: gov, state: MN, area: "Knife River",      platform: "", status: no-calendar, notes: "tiny township, no event calendar"}
 
   # ─────────────────────────── Government — Cook County, MN ───────────────────────────
-  - {id: cook-county-mn,      name: "Cook County, MN",               url: "https://www.co.cook.mn.us",           events_url: "", category: gov, state: MN, area: "Cook County",      platform: "revize", status: active, notes: ""}
-  - {id: grand-marais-city-mn, name: "City of Grand Marais",         url: "https://www.ci.grand-marais.mn.us",   events_url: "", category: gov, state: MN, area: "Grand Marais",     platform: "", status: todo, notes: ""}
-  - {id: grand-portage-mn,    name: "Grand Portage Band",            url: "https://www.grandportage.com",        events_url: "", category: gov, state: MN, area: "Grand Portage",    platform: "", status: todo, notes: "Tribal government."}
+  - {id: cook-county-mn,      name: "Cook County, MN",               url: "https://cookcountymn.gov",           events_url: "", category: gov, state: MN, area: "Cook County",      platform: "revize", status: active, notes: ""}
+  - {id: grand-marais-city-mn, name: "City of Grand Marais",         url: "https://www.ci.grand-marais.mn.us",   events_url: "", category: gov, state: MN, area: "Grand Marais",     platform: "govoffice", status: active, notes: ""}
+  - {id: grand-portage-mn,    name: "Grand Portage Band",            url: "https://www.grandportage.com",        events_url: "", category: gov, state: MN, area: "Grand Portage",    platform: "", status: no-calendar, notes: "Joomla com_content; feed disabled"}
 
   # ─────────────────────────── Government — Koochiching County, MN ───────────────────────────
-  - {id: koochiching-county-mn, name: "Koochiching County, MN",      url: "https://www.koochichingcountymn.gov", events_url: "", category: gov, state: MN, area: "Koochiching County", platform: "", status: todo, notes: ""}
-  - {id: international-falls-mn, name: "City of International Falls", url: "https://www.ci.international-falls.mn.us", events_url: "", category: gov, state: MN, area: "International Falls", platform: "", status: todo, notes: ""}
+  - {id: koochiching-county-mn, name: "Koochiching County, MN",      url: "https://www.koochiching.gov", events_url: "", category: gov, state: MN, area: "Koochiching County", platform: "civicplus", status: active, notes: ""}
+  - {id: international-falls-mn, name: "City of International Falls", url: "https://www.ci.international-falls.mn.us", events_url: "", category: gov, state: MN, area: "International Falls", platform: "", status: no-calendar, notes: "Google Calendar iframe embed; extract src id + build gcal .ics"}
 
   # ─────────────────────────── Government — Itasca County, MN ───────────────────────────
-  - {id: itasca-county-mn,    name: "Itasca County, MN",             url: "https://www.co.itasca.mn.us",         events_url: "", category: gov, state: MN, area: "Itasca County",    platform: "civicplus", status: todo, notes: ""}
-  - {id: grand-rapids-city-mn, name: "City of Grand Rapids",         url: "https://www.cityofgrandrapidsmn.com", events_url: "", category: gov, state: MN, area: "Grand Rapids",     platform: "", status: todo, notes: ""}
-  - {id: deer-river-mn,       name: "City of Deer River",            url: "https://www.cityofdeerriver.com",     events_url: "", category: gov, state: MN, area: "Deer River",       platform: "", status: todo, notes: ""}
-  - {id: bovey-mn,            name: "City of Bovey",                 url: "https://www.cityofbovey.com",         events_url: "", category: gov, state: MN, area: "Bovey",            platform: "", status: todo, notes: ""}
+  - {id: itasca-county-mn,    name: "Itasca County, MN",             url: "https://www.itascacountymn.gov",         events_url: "", category: gov, state: MN, area: "Itasca County",    platform: "civicplus", status: active, notes: ""}
+  - {id: grand-rapids-city-mn, name: "City of Grand Rapids",         url: "https://cityofgrandrapidsmn.com", events_url: "https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics", category: gov, state: MN, area: "Grand Rapids",     platform: "ics", status: active, notes: ""}
+  - {id: deer-river-mn,       name: "City of Deer River",            url: "https://www.deerrivercity.com",     events_url: "", category: gov, state: MN, area: "Deer River",       platform: "", status: no-calendar, notes: "Wix site; Wix calendar hard to scrape"}
+  - {id: bovey-mn,            name: "City of Bovey",                 url: "https://boveymn.gov",         events_url: "", category: gov, state: MN, area: "Bovey",            platform: "", status: no-calendar, notes: "no event calendar found"}
 
   # ─────────────────────────── Government — Aitkin County, MN ───────────────────────────
-  - {id: aitkin-county-mn,    name: "Aitkin County, MN",             url: "https://www.co.aitkin.mn.us",         events_url: "", category: gov, state: MN, area: "Aitkin County",    platform: "", status: todo, notes: "Southern edge of DMA — triage scope."}
-  - {id: mcgregor-mn,         name: "City of McGregor",              url: "https://cityofmcgregor.com",          events_url: "", category: gov, state: MN, area: "McGregor",         platform: "", status: todo, notes: ""}
-  - {id: hill-city-mn,        name: "City of Hill City",             url: "https://www.hillcity-mn.com",         events_url: "", category: gov, state: MN, area: "Hill City",        platform: "revize", status: todo, notes: ""}
-  - {id: aitkin-mn,           name: "City of Aitkin",                url: "https://www.cityofaitkin.com",        events_url: "", category: gov, state: MN, area: "Aitkin",           platform: "", status: todo, notes: "URL from appendix — verify (possible typo)."}
+  - {id: aitkin-county-mn,    name: "Aitkin County, MN",             url: "https://www.co.aitkin.mn.us",         events_url: "", category: gov, state: MN, area: "Aitkin County",    platform: "", status: no-calendar, notes: "only a PDF clinic calendar"}
+  - {id: mcgregor-mn,         name: "City of McGregor",              url: "https://cityofmcgregor.com",          events_url: "", category: gov, state: MN, area: "McGregor",         platform: "", status: no-calendar, notes: "Elementor WordPress, no events plugin"}
+  - {id: hill-city-mn,        name: "City of Hill City",             url: "https://www.hillcity-mn.com",         events_url: "", category: gov, state: MN, area: "Hill City",        platform: "revize", status: active, notes: ""}
+  - {id: aitkin-mn,           name: "City of Aitkin",                url: "https://www.ci.aitkin.mn.us",        events_url: "", category: gov, state: MN, area: "Aitkin",           platform: "govoffice", status: active, notes: "URL from appendix — verify (possible typo)."}
 
   # ─────────────────────────── Government — Pine County, MN ───────────────────────────
-  - {id: pine-county-mn,      name: "Pine County, MN",               url: "https://www.co.pine.mn.us",           events_url: "", category: gov, state: MN, area: "Pine County",      platform: "revize", status: todo, notes: "Southern edge of DMA — triage scope."}
-  - {id: sandstone-mn,        name: "City of Sandstone",             url: "https://www.sandstonemn.com",         events_url: "", category: gov, state: MN, area: "Sandstone",        platform: "", status: todo, notes: ""}
-  - {id: pine-city-mn,        name: "City of Pine City",             url: "https://pinecity.govoffice.com",      events_url: "", category: gov, state: MN, area: "Pine City",        platform: "civicplus", status: todo, notes: "govoffice.com URL — GovOffice/Vision platform."}
+  - {id: pine-county-mn,      name: "Pine County, MN",               url: "https://www.pinecountymn.gov",           events_url: "", category: gov, state: MN, area: "Pine County",      platform: "revize", status: active, notes: "Southern edge of DMA — triage scope."}
+  - {id: sandstone-mn,        name: "City of Sandstone",             url: "https://sandstone.govoffice.com",         events_url: "", category: gov, state: MN, area: "Sandstone",        platform: "govoffice", status: active, notes: ""}
+  - {id: pine-city-mn,        name: "City of Pine City",             url: "https://pinecitymn.gov",      events_url: "", category: gov, state: MN, area: "Pine City",        platform: "govoffice", status: active, notes: "govoffice.com URL — GovOffice/Vision platform."}
 
   # ─────────────────────────── Government — Douglas County, WI ───────────────────────────
-  - {id: douglas-county-wi,   name: "Douglas County, WI",            url: "https://www.douglascountywi.org",     events_url: "", category: gov, state: WI, area: "Douglas County",   platform: "civicplus", status: active, notes: ""}
-  - {id: superior-wi,         name: "City of Superior",              url: "https://www.ci.superior.wi.us",       events_url: "", category: gov, state: WI, area: "Superior",         platform: "civicplus", status: active, notes: ""}
-  - {id: solon-springs-wi,    name: "Village of Solon Springs",      url: "https://www.solonsprings.org",        events_url: "", category: gov, state: WI, area: "Solon Springs",    platform: "", status: todo, notes: ""}
+  - {id: douglas-county-wi,   name: "Douglas County, WI",            url: "https://www.douglascountywi.gov",     events_url: "", category: gov, state: WI, area: "Douglas County",   platform: "civicplus", status: active, notes: ""}
+  - {id: superior-wi,         name: "City of Superior",              url: "https://www.superiorwi.gov",       events_url: "", category: gov, state: WI, area: "Superior",         platform: "civicplus", status: active, notes: ""}
+  - {id: solon-springs-wi,    name: "Village of Solon Springs",      url: "https://villageofsolonsprings.com",        events_url: "", category: gov, state: WI, area: "Solon Springs",    platform: "heygov", status: active, notes: ""}
 
   # ─────────────────────────── Government — Bayfield County, WI ───────────────────────────
   - {id: bayfield-county-wi,  name: "Bayfield County, WI",           url: "https://www.bayfieldcounty.wi.gov",   events_url: "", category: gov, state: WI, area: "Bayfield County",   platform: "civicplus", status: active, notes: ""}
-  - {id: bayfield-city-wi,    name: "City of Bayfield",              url: "https://cityofbayfield.com",          events_url: "", category: gov, state: WI, area: "Bayfield",         platform: "", status: todo, notes: ""}
-  - {id: washburn-wi,         name: "City of Washburn",              url: "https://www.cityofwashburn.org",      events_url: "", category: gov, state: WI, area: "Washburn",         platform: "", status: todo, notes: ""}
-  - {id: cable-wi,            name: "Town of Cable",                 url: "https://townofcable.com",             events_url: "", category: gov, state: WI, area: "Cable",            platform: "", status: todo, notes: ""}
+  - {id: bayfield-city-wi,    name: "City of Bayfield",              url: "https://www.cityofbayfield.com",          events_url: "", category: gov, state: WI, area: "Bayfield",         platform: "", status: no-calendar, notes: "Weebly site"}
+  - {id: washburn-wi,         name: "City of Washburn",              url: "https://www.cityofwashburnwi.gov",      events_url: "", category: gov, state: WI, area: "Washburn",         platform: "", status: no-calendar, notes: "403 to bot UA; needs render"}
+  - {id: cable-wi,            name: "Town of Cable",                 url: "https://townofcable.com",             events_url: "", category: gov, state: WI, area: "Cable",            platform: "heygov", status: active, notes: ""}
 
   # ─────────────────────────── Government — Ashland County, WI ───────────────────────────
-  - {id: ashland-county-wi,   name: "Ashland County, WI",            url: "https://www.ashlandcountywi.gov",     events_url: "", category: gov, state: WI, area: "Ashland County",   platform: "", status: todo, notes: ""}
+  - {id: ashland-county-wi,   name: "Ashland County, WI",            url: "https://ashlandcountywi.gov",     events_url: "", category: gov, state: WI, area: "Ashland County",   platform: "govoffice", status: active, notes: ""}
   - {id: ashland-city-wi,     name: "City of Ashland",               url: "https://www.coawi.org",               events_url: "", category: gov, state: WI, area: "Ashland",          platform: "civicplus", status: active, notes: ""}
 
   # ─────────────────────────── Government — Burnett County, WI ───────────────────────────
-  - {id: burnett-county-wi,   name: "Burnett County, WI",            url: "https://www.burnettcounty.com",       events_url: "", category: gov, state: WI, area: "Burnett County",   platform: "", status: todo, notes: "Southern/western edge — triage scope."}
-  - {id: siren-wi,            name: "Village of Siren",              url: "https://www.villageofsiren.com",      events_url: "", category: gov, state: WI, area: "Siren",            platform: "", status: todo, notes: ""}
+  - {id: burnett-county-wi,   name: "Burnett County, WI",            url: "https://www.burnettcountywi.gov",       events_url: "", category: gov, state: WI, area: "Burnett County",   platform: "civicplus", status: active, notes: "Southern/western edge — triage scope."}
+  - {id: siren-wi,            name: "Village of Siren",              url: "https://www.villageofsirenwi.gov",      events_url: "", category: gov, state: WI, area: "Siren",            platform: "", status: no-calendar, notes: "Weebly site; /village-calendar.html"}
 
   # ─────────────────────────── Government — Washburn County, WI ───────────────────────────
-  - {id: washburn-county-wi,  name: "Washburn County, WI",           url: "https://www.washburncounty.com",      events_url: "", category: gov, state: WI, area: "Washburn County",  platform: "", status: todo, notes: "Southern edge — triage scope."}
-  - {id: spooner-wi,          name: "City of Spooner",               url: "https://www.cityofspoonerwi.gov",     events_url: "", category: gov, state: WI, area: "Spooner",          platform: "", status: todo, notes: ""}
+  - {id: washburn-county-wi,  name: "Washburn County, WI",           url: "https://www.washburncounty.org",      events_url: "", category: gov, state: WI, area: "Washburn County",  platform: "", status: no-calendar, notes: "WordPress events section; revisit"}
+  - {id: spooner-wi,          name: "City of Spooner",               url: "https://cityofspoonerwi.gov",     events_url: "", category: gov, state: WI, area: "Spooner",          platform: "tribe", status: active, notes: ""}
 
   # ─────────────────────────── Government — Sawyer County, WI ───────────────────────────
-  - {id: sawyer-county-wi,    name: "Sawyer County, WI",             url: "https://www.sawyercountygov.org",     events_url: "", category: gov, state: WI, area: "Sawyer County",    platform: "civicplus", status: todo, notes: "Southern edge — triage scope."}
-  - {id: hayward-wi,          name: "City of Hayward",               url: "https://www.cityofhaywardwi.gov",     events_url: "", category: gov, state: WI, area: "Hayward",          platform: "", status: todo, notes: ""}
+  - {id: sawyer-county-wi,    name: "Sawyer County, WI",             url: "https://www.sawyercounty.gov",     events_url: "", category: gov, state: WI, area: "Sawyer County",    platform: "civicplus", status: active, notes: "Southern edge — triage scope."}
+  - {id: hayward-wi,          name: "City of Hayward",               url: "https://cityofhaywardwi.gov",     events_url: "", category: gov, state: WI, area: "Hayward",          platform: "", status: no-calendar, notes: "403 on /events/; WordPress, revisit with render"}
 
   # ─────────────────────────── Government — Gogebic County, MI ───────────────────────────
-  - {id: gogebic-county-mi,   name: "Gogebic County, MI",            url: "https://www.gogebiccountymi.gov",     events_url: "", category: gov, state: MI, area: "Gogebic County",   platform: "revize", status: todo, notes: ""}
-  - {id: ironwood-mi,         name: "City of Ironwood",              url: "https://cityofironwood.org",          events_url: "", category: gov, state: MI, area: "Ironwood",         platform: "", status: todo, notes: ""}
-  - {id: wakefield-mi,        name: "City of Wakefield",             url: "https://www.cityofwakefield.org",     events_url: "", category: gov, state: MI, area: "Wakefield",        platform: "", status: todo, notes: ""}
+  - {id: gogebic-county-mi,   name: "Gogebic County, MI",            url: "https://www.gogebic.gov",     events_url: "", category: gov, state: MI, area: "Gogebic County",   platform: "revize", status: active, notes: ""}
+  - {id: ironwood-mi,         name: "City of Ironwood",              url: "https://ironwoodmi.gov",          events_url: "", category: gov, state: MI, area: "Ironwood",         platform: "civicplus", status: active, notes: ""}
+  - {id: wakefield-mi,        name: "City of Wakefield",             url: "https://cityofwakefieldmi.gov",     events_url: "", category: gov, state: MI, area: "Wakefield",        platform: "", status: no-calendar, notes: "403 to bot UA; needs render"}
