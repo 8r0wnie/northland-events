@@ -17,6 +17,7 @@ from .revize import RevizeAdapter
 from .mycalendar import MyCalendarAdapter
 from .webcalendar import WebCalendarAdapter
 from .govoffice import GovOfficeAdapter
+from .heygov import HeyGovAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -30,6 +31,7 @@ GENERIC: list[Adapter] = [
     MyCalendarAdapter(),       # one REST call
     WebCalendarAdapter(),      # ~6 month POSTs (DocAccess .NET calendar)
     GovOfficeAdapter(),        # ~6 month calendar-grid pages
+    HeyGovAdapter(),           # ~6 month API calls
     JsonLdAdapter(),           # page fetch (+ optional render)
     IcsAdapter(),              # page fetch + feed fetch
     ChamberOrganizerAdapter(), # ~6 month POSTs
@@ -46,6 +48,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "mycalendar": MyCalendarAdapter(),
     "webcalendar": WebCalendarAdapter(),
     "govoffice": GovOfficeAdapter(),
+    "heygov": HeyGovAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
     "chambermaster": ChamberMasterAdapter(),
     "growthzone": ChamberMasterAdapter(),
