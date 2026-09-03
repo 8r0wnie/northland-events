@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-03T02:29:34Z",
-  "raw": 1861,
-  "deduped": 1780,
+  "when": "2026-09-03T15:09:47Z",
+  "raw": 1903,
+  "deduped": 1822,
   "sources": [
     {
       "source": "visit-duluth",
@@ -15,7 +15,7 @@
     },
     {
       "source": "superior-chamber",
-      "detail": "chambermaster: 32 events via https://superiorchamber.org",
+      "detail": "chambermaster: 33 events via https://superiorchamber.org",
       "events": 31
     },
     {
@@ -46,7 +46,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 537
+      "events": 533
     },
     {
       "source": "hermantown-mn",
@@ -55,8 +55,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 33 events",
+      "events": 33
     },
     {
       "source": "virginia-mn",
@@ -65,8 +65,8 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 10 events",
-      "events": 10
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "eveleth-mn",
@@ -110,13 +110,13 @@
     },
     {
       "source": "carlton-county-mn",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "moose-lake-mn",
-      "detail": "civicplus: 6 events",
-      "events": 6
+      "detail": "civicplus: 7 events",
+      "events": 7
     },
     {
       "source": "barnum-mn",
@@ -125,8 +125,8 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 65 events (webspace cromwellmn)",
-      "events": 63
+      "detail": "revize: 68 events (webspace cromwellmn)",
+      "events": 66
     },
     {
       "source": "esko-township-mn",
@@ -195,8 +195,8 @@
     },
     {
       "source": "douglas-county-wi",
-      "detail": "civicplus: 7 events",
-      "events": 7
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "superior-wi",
@@ -210,8 +210,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 103 events",
-      "events": 101
+      "detail": "civicplus: 109 events",
+      "events": 109
     },
     {
       "source": "cable-wi",
@@ -230,8 +230,8 @@
     },
     {
       "source": "burnett-county-wi",
-      "detail": "civicplus: 8 events",
-      "events": 8
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "spooner-wi",
