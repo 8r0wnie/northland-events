@@ -1,8 +1,13 @@
 {
-  "when": "2026-09-03T02:29:34Z",
-  "raw": 1861,
-  "deduped": 1780,
+  "when": "2026-09-03T23:49:22Z",
+  "raw": 2723,
+  "deduped": 2591,
   "sources": [
+    {
+      "source": "perfect-duluth-day",
+      "detail": "tribehtml: 388 events (16 feed pages)",
+      "events": 388
+    },
     {
       "source": "visit-duluth",
       "detail": "tribe: 600 events",
@@ -15,7 +20,7 @@
     },
     {
       "source": "superior-chamber",
-      "detail": "chambermaster: 32 events via https://superiorchamber.org",
+      "detail": "chambermaster: 33 events via https://superiorchamber.org",
       "events": 31
     },
     {
@@ -25,8 +30,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "jsonld: 3 events (rendered)",
-      "events": 3
+      "detail": "simpleview: 229 events (2 pages)",
+      "events": 229
     },
     {
       "source": "grand-rapids-mn",
@@ -39,14 +44,19 @@
       "events": 1
     },
     {
+      "source": "bayfield-chamber",
+      "detail": "simpleview: 138 events (4 pages)",
+      "events": 138
+    },
+    {
       "source": "spooner-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 77 events",
+      "events": 77
     },
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 537
+      "events": 528
     },
     {
       "source": "hermantown-mn",
@@ -55,8 +65,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 33 events",
+      "events": 33
     },
     {
       "source": "virginia-mn",
@@ -65,13 +75,13 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 10 events",
-      "events": 10
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "eveleth-mn",
-      "detail": "govoffice: 8 events",
-      "events": 8
+      "detail": "govoffice: 9 events",
+      "events": 9
     },
     {
       "source": "chisholm-mn",
@@ -110,13 +120,13 @@
     },
     {
       "source": "carlton-county-mn",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "moose-lake-mn",
-      "detail": "civicplus: 6 events",
-      "events": 6
+      "detail": "civicplus: 7 events",
+      "events": 7
     },
     {
       "source": "barnum-mn",
@@ -125,8 +135,8 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 65 events (webspace cromwellmn)",
-      "events": 63
+      "detail": "revize: 68 events (webspace cromwellmn)",
+      "events": 66
     },
     {
       "source": "esko-township-mn",
@@ -155,8 +165,8 @@
     },
     {
       "source": "koochiching-county-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "itasca-county-mn",
@@ -165,8 +175,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 11 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 11
+      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 13
     },
     {
       "source": "hill-city-mn",
@@ -195,13 +205,13 @@
     },
     {
       "source": "douglas-county-wi",
-      "detail": "civicplus: 7 events",
-      "events": 7
+      "detail": "civicplus: 8 events",
+      "events": 8
     },
     {
       "source": "superior-wi",
-      "detail": "civicplus: 4 events",
-      "events": 4
+      "detail": "civicplus: 3 events",
+      "events": 3
     },
     {
       "source": "solon-springs-wi",
@@ -210,8 +220,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 103 events",
-      "events": 101
+      "detail": "civicplus: 105 events",
+      "events": 105
     },
     {
       "source": "cable-wi",
@@ -230,8 +240,8 @@
     },
     {
       "source": "burnett-county-wi",
-      "detail": "civicplus: 8 events",
-      "events": 8
+      "detail": "civicplus: 7 events",
+      "events": 7
     },
     {
       "source": "spooner-wi",
