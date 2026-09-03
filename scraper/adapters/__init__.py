@@ -6,6 +6,8 @@ sources.yaml), otherwise it walks GENERIC in order and takes the first adapter
 that returns events.
 
 GENERIC order matters: cheap/precise first, expensive/broad last.
+`simpleview` and `tribehtml` drive a headless browser, so they are pin-only
+(BY_PLATFORM) and never run in the generic chain.
 """
 from __future__ import annotations
 
@@ -19,6 +21,7 @@ from .webcalendar import WebCalendarAdapter
 from .govoffice import GovOfficeAdapter
 from .heygov import HeyGovAdapter
 from .simpleview import SimpleviewAdapter
+from .tribehtml import TribeHtmlAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -33,7 +36,6 @@ GENERIC: list[Adapter] = [
     WebCalendarAdapter(),      # ~6 month POSTs (DocAccess .NET calendar)
     GovOfficeAdapter(),        # ~6 month calendar-grid pages
     HeyGovAdapter(),           # ~6 month API calls
-    SimpleviewAdapter(),       # headless browser, paginated
     JsonLdAdapter(),           # page fetch (+ optional render)
     IcsAdapter(),              # page fetch + feed fetch
     ChamberOrganizerAdapter(), # ~6 month POSTs
@@ -52,6 +54,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "govoffice": GovOfficeAdapter(),
     "heygov": HeyGovAdapter(),
     "simpleview": SimpleviewAdapter(),
+    "tribehtml": TribeHtmlAdapter(),
     "ics": IcsAdapter(),
     "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
