@@ -101,10 +101,12 @@ def _old_xml_events(root: str, now: datetime, horizon: datetime) -> list[Event]:
     seen: set[str] = set()
     out: list[Event] = []
     month = date(now.year, now.month, 1)
-    for _ in range(7):
+    for i in range(7):
         url = f"{root}/calendar_app/db/calendar_1_activemonthsdata_{month:%Y-%m}.xml"
         xml = fetch.get_text(url)
         month = date(month.year + (month.month // 12), (month.month % 12) + 1, 1)
+        if xml is None and i == 0:
+            break  # not a legacy Revize calendar site
         if not xml or "<event" not in xml:
             continue
         for m in re.finditer(r"<event\b[^>]*>(.*?)</event>", xml, re.S):

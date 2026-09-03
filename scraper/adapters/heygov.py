@@ -51,9 +51,12 @@ class HeyGovAdapter:
         events: list[Event] = []
         ok_any = False
 
-        for month in _months(MONTHS_AHEAD):
+        for i, month in enumerate(_months(MONTHS_AHEAD)):
             r = fetch.get(api, params={"month": month, "expand": "parent", "source": "calendar-embed"})
             if r is None:
+                # a hard failure on the first month means this isn't a HeyGov site
+                if i == 0:
+                    return AdapterResult(self.name, ok=False, detail="HeyGov API rejected domain")
                 continue
             try:
                 rows = r.json()

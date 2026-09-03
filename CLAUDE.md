@@ -42,22 +42,25 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 | adapter            | platform |
 |--------------------|----------|
 | `tribe`            | WordPress "The Events Calendar" REST API |
-| `weblink`          | WebLink Connect / "Atlas" chambers (public `api-internal.weblinkconnect.com/api/Events`, `x-tenant` header) |
-| `civicplus`        | CivicPlus/CivicEngage gov sites (combined calendar RSS `/RSSFeed.aspx?ModID=58&CID=All-calendar.xml`) |
-| `revize`           | Revize gov CMS (`/_assets_/plugins/revizeCalendar/calendar_data_handler.php?webspace=<slug>…` JSON) |
+| `weblink`          | WebLink Connect / "Atlas" chambers (`api-internal.weblinkconnect.com/api/Events`, `x-tenant` header) |
+| `civicplus`        | CivicPlus/CivicEngage gov sites (calendar RSS `/RSSFeed.aspx?ModID=58&CID=All-calendar.xml`) |
+| `revize`           | Revize gov CMS (JSON `calendar_data_handler.php`, or legacy `/calendar_app/db/*.xml`) |
+| `mycalendar`       | WordPress "My Calendar" plugin (`/wp-json/my-calendar/v1/events`) |
+| `webcalendar`      | DocAccess .NET municipal calendar — City of Duluth (`POST /WebCalendar/CreateCalendarAndEvents`) |
+| `govoffice`        | Vision/GovOffice `/repository/designs/` sites (`/events` calendar grid) |
+| `heygov`           | HeyGov (`api.heygov.com/<domain>/events?month=`) |
 | `jsonld`           | schema.org Event JSON-LD (headless-render fallback, samples detail pages) |
-| `ics`              | discoverable iCal feed |
+| `ics`              | iCal feed — discovered, `webcal://`, direct `.ics`, or a Google Calendar embed |
 | `chamberorganizer` | ChamberOrganizer (`auth.chamberwidgets.com` month POSTs) |
 | `chambermaster`    | ChamberMaster / GrowthZone hosted MIC (month calendars → detail-page microdata) |
 
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
 generic chain runs.
 
-**Government sites:** `civicplus` + `revize` built and active for the verified
-counties/cities. Still to do: the pinned-but-`todo` sites in `sources.yaml`, the
-other WordPress gov sites (check `tribe`), the ~16 "unknown" govs (duluth-mn,
-stlouis-county-mn, etc.), and ~15 dead/bad-URL entries (several are wrong URLs
-from the appendix).
+**Government sites:** all 62 triaged — 42 `status: active` with a pinned
+platform, 20 `status: no-calendar` (each with a note: Weebly/Wix/Joomla, 403
+bot-blockers needing render, or agendas-only). 18 dead appendix URLs were
+corrected. Revisit candidates are noted in `sources.yaml` and the project memory.
 
 **Also planned:** `simpleview` (Bayfield, Visit Ashland), Perfect Duluth Day
 (bespoke, Cloudflare-fronted), Explore Minnesota / Iron Range, a Google Form →

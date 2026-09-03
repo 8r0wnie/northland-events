@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-03T00:11:02Z",
-  "raw": 1158,
-  "deduped": 1122,
+  "when": "2026-09-03T02:21:30Z",
+  "raw": 1973,
+  "deduped": 1891,
   "sources": [
     {
       "source": "visit-duluth",
@@ -40,8 +40,13 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 77 events",
+      "events": 77
+    },
+    {
+      "source": "duluth-mn",
+      "detail": "webcalendar: 542 events",
+      "events": 537
     },
     {
       "source": "hermantown-mn",
@@ -54,14 +59,84 @@
       "events": 33
     },
     {
+      "source": "virginia-mn",
+      "detail": "revize: 19 events (old XML)",
+      "events": 19
+    },
+    {
+      "source": "hibbing-mn",
+      "detail": "civicplus: 10 events",
+      "events": 10
+    },
+    {
+      "source": "eveleth-mn",
+      "detail": "govoffice: 8 events",
+      "events": 8
+    },
+    {
+      "source": "chisholm-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ely-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "mountain-iron-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "gilbert-mn",
+      "detail": "mycalendar: 5 events",
+      "events": 5
+    },
+    {
+      "source": "babbitt-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "cook-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "floodwood-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
       "source": "carlton-county-mn",
       "detail": "civicplus: 2 events",
       "events": 2
     },
     {
+      "source": "moose-lake-mn",
+      "detail": "civicplus: 6 events",
+      "events": 6
+    },
+    {
+      "source": "barnum-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "cromwell-mn",
+      "detail": "revize: 65 events (webspace cromwellmn)",
+      "events": 63
+    },
+    {
+      "source": "esko-township-mn",
+      "detail": "heygov: 15 events",
+      "events": 14
+    },
+    {
       "source": "two-harbors-mn",
       "detail": "revize: 125 events (webspace twoharborsmn)",
-      "events": 123
+      "events": 121
     },
     {
       "source": "silver-bay-mn",
@@ -71,7 +146,52 @@
     {
       "source": "cook-county-mn",
       "detail": "revize: 91 events (webspace cookcountymn)",
-      "events": 88
+      "events": 89
+    },
+    {
+      "source": "grand-marais-city-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "koochiching-county-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "itasca-county-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "grand-rapids-city-mn",
+      "detail": "ics: 11 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 11
+    },
+    {
+      "source": "hill-city-mn",
+      "detail": "revize: 7 events (old XML)",
+      "events": 7
+    },
+    {
+      "source": "aitkin-mn",
+      "detail": "govoffice: 9 events",
+      "events": 9
+    },
+    {
+      "source": "pine-county-mn",
+      "detail": "revize: 37 events (webspace pinecounty)",
+      "events": 36
+    },
+    {
+      "source": "sandstone-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "pine-city-mn",
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "douglas-county-wi",
@@ -84,14 +204,54 @@
       "events": 4
     },
     {
+      "source": "solon-springs-wi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 108 events",
-      "events": 106
+      "detail": "civicplus: 103 events",
+      "events": 103
+    },
+    {
+      "source": "cable-wi",
+      "detail": "heygov: 1 events",
+      "events": 1
+    },
+    {
+      "source": "ashland-county-wi",
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "ashland-city-wi",
       "detail": "civicplus: 3 events",
       "events": 3
+    },
+    {
+      "source": "burnett-county-wi",
+      "detail": "civicplus: 8 events",
+      "events": 8
+    },
+    {
+      "source": "spooner-wi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "sawyer-county-wi",
+      "detail": "civicplus: 1 events",
+      "events": 1
+    },
+    {
+      "source": "gogebic-county-mi",
+      "detail": "revize: 7 events (old XML)",
+      "events": 7
+    },
+    {
+      "source": "ironwood-mi",
+      "detail": "no adapter produced events",
+      "events": 0
     }
   ]
 }

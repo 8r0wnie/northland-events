@@ -51,11 +51,15 @@ class WebCalendarAdapter:
         events: list[Event] = []
         ok_any = False
 
-        for year, month in _months(MONTHS_AHEAD):
+        for i, (year, month) in enumerate(_months(MONTHS_AHEAD)):
             body = f"{CATEGORIES}&selectedMonth={month}&selectedYear={year}&view=calendar"
             html = fetch.post_text(endpoint, data=body,
                                    headers={"Content-Type": "application/x-www-form-urlencoded"})
-            if not html or "calendaritem" not in html:
+            if not html:
+                if i == 0:
+                    return AdapterResult(self.name, ok=False, detail="no WebCalendar endpoint")
+                continue
+            if "calendaritem" not in html:
                 continue
             ok_any = True
             tree = HTMLParser(html)

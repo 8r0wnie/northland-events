@@ -49,6 +49,8 @@ BY_PLATFORM: dict[str, Adapter] = {
     "webcalendar": WebCalendarAdapter(),
     "govoffice": GovOfficeAdapter(),
     "heygov": HeyGovAdapter(),
+    "ics": IcsAdapter(),
+    "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
     "chambermaster": ChamberMasterAdapter(),
     "growthzone": ChamberMasterAdapter(),
