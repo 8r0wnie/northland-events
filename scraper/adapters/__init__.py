@@ -18,6 +18,7 @@ from .mycalendar import MyCalendarAdapter
 from .webcalendar import WebCalendarAdapter
 from .govoffice import GovOfficeAdapter
 from .heygov import HeyGovAdapter
+from .simpleview import SimpleviewAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -32,6 +33,7 @@ GENERIC: list[Adapter] = [
     WebCalendarAdapter(),      # ~6 month POSTs (DocAccess .NET calendar)
     GovOfficeAdapter(),        # ~6 month calendar-grid pages
     HeyGovAdapter(),           # ~6 month API calls
+    SimpleviewAdapter(),       # headless browser, paginated
     JsonLdAdapter(),           # page fetch (+ optional render)
     IcsAdapter(),              # page fetch + feed fetch
     ChamberOrganizerAdapter(), # ~6 month POSTs
@@ -49,6 +51,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "webcalendar": WebCalendarAdapter(),
     "govoffice": GovOfficeAdapter(),
     "heygov": HeyGovAdapter(),
+    "simpleview": SimpleviewAdapter(),
     "ics": IcsAdapter(),
     "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
