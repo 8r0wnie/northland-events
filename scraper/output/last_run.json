@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-03T00:06:37Z",
-  "raw": 1236,
-  "deduped": 1199,
+  "when": "2026-09-03T00:11:02Z",
+  "raw": 1158,
+  "deduped": 1122,
   "sources": [
     {
       "source": "visit-duluth",
@@ -40,8 +40,8 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
-      "events": 77
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "hermantown-mn",
@@ -61,7 +61,7 @@
     {
       "source": "two-harbors-mn",
       "detail": "revize: 125 events (webspace twoharborsmn)",
-      "events": 121
+      "events": 123
     },
     {
       "source": "silver-bay-mn",
@@ -71,7 +71,7 @@
     {
       "source": "cook-county-mn",
       "detail": "revize: 91 events (webspace cookcountymn)",
-      "events": 89
+      "events": 88
     },
     {
       "source": "douglas-county-wi",
@@ -86,7 +86,7 @@
     {
       "source": "bayfield-county-wi",
       "detail": "civicplus: 108 events",
-      "events": 108
+      "events": 106
     },
     {
       "source": "ashland-city-wi",
