@@ -27,6 +27,7 @@ from .sidearm import SidearmAdapter
 from .ovationtix import OvationTixAdapter
 from .decc import DeccAdapter
 from .eventscalendar import EventsCalendarAdapter
+from .spektrix import SpektrixAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -65,6 +66,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "ovationtix": OvationTixAdapter(),
     "decc": DeccAdapter(),
     "eventscalendar": EventsCalendarAdapter(),
+    "spektrix": SpektrixAdapter(),
     "ics": IcsAdapter(),
     "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
