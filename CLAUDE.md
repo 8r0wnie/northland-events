@@ -56,6 +56,7 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 | `allevents`        | allevents.in aggregator (Facebook events), 8 DMA cities — JSON-LD, `?page=N` |
 | `sidearm`          | college athletics — Sidearm public iCal `<host>/calendar.ashx/calendar.ics`, home games only |
 | `ovationtix`       | OvationTix/AudienceView venues — headless browser captures `api.ovationtix.com` production JSON |
+| `decc`             | The DECC — WordPress swim-events-calendar `.event-list-item` blocks |
 
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
 generic chain runs. `allevents` (allevents.in Facebook-events aggregator, 8 DMA
