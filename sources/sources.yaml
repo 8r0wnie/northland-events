@@ -155,3 +155,8 @@ sources:
   - {id: allevents-ashland,     name: "AllEvents — Ashland",        url: "https://allevents.in/ashland-wi",              events_url: "", category: social, state: WI, area: "Ashland",            platform: "allevents", status: active, notes: ""}
   - {id: allevents-intl-falls,  name: "AllEvents — International Falls", url: "https://allevents.in/international-falls", events_url: "", category: social, state: MN, area: "International Falls", platform: "allevents", status: active, notes: ""}
   - {id: allevents-virginia,    name: "AllEvents — Virginia/Iron Range", url: "https://allevents.in/virginia-minnesota", events_url: "", category: social, state: MN, area: "Virginia",           platform: "allevents", status: todo, notes: "Sparse."}
+
+  # ─────────────────────────── Venues — college athletics (Sidearm) ───────────────────────────
+  - {id: umd-bulldogs,    name: "UMD Bulldogs Athletics",       url: "https://umdbulldogs.com",       events_url: "", category: venue, state: MN, area: "Duluth",   platform: "sidearm", status: active, notes: "D-I hockey; iCal at /calendar.ashx/calendar.ics, home+neutral only."}
+  - {id: uws-yellowjackets, name: "UW-Superior Yellowjackets",  url: "https://uwsyellowjackets.com",  events_url: "", category: venue, state: WI, area: "Superior", platform: "sidearm", status: active, notes: "D-III athletics."}
+  - {id: css-saints,      name: "St. Scholastica Saints",       url: "https://csssaints.com",         events_url: "", category: venue, state: MN, area: "Duluth",   platform: "sidearm", status: active, notes: "D-III incl. hockey at Mars Lakeview Arena."}
