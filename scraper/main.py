@@ -166,8 +166,17 @@ def cmd_scrape(args) -> None:
     published.sort(key=lambda e: e["start"] or "")
     queue.sort(key=lambda q: q["start"] or "")
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
     generated = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+    if args.only:
+        # a partial run must not overwrite the published site data
+        print(f"\n[--only] {len(all_events)} raw → {len(merged)} merged → "
+              f"{len(published)} would publish, {len(queue)} would queue "
+              f"(site/data/ NOT written)")
+        fetch.shutdown()
+        return
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     (DATA_DIR / "events.json").write_text(json.dumps({
         "generated": generated,
         "count": len(published),
