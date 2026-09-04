@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-03T23:58:10Z",
-  "raw": 2623,
-  "deduped": 2491,
+  "when": "2026-09-04T01:26:18Z",
+  "raw": 2653,
+  "deduped": 2522,
   "sources": [
     {
       "source": "perfect-duluth-day",
@@ -30,8 +30,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 229 events (2 pages)",
-      "events": 229
+      "detail": "simpleview: 224 events (2 pages)",
+      "events": 224
     },
     {
       "source": "grand-rapids-mn",
@@ -40,13 +40,13 @@
     },
     {
       "source": "mcgregor-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 1 events",
+      "events": 1
     },
     {
       "source": "bayfield-chamber",
       "detail": "simpleview: 138 events (4 pages)",
-      "events": 138
+      "events": 135
     },
     {
       "source": "visit-ashland",
@@ -70,8 +70,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 33 events",
+      "events": 33
     },
     {
       "source": "virginia-mn",
@@ -105,8 +105,8 @@
     },
     {
       "source": "gilbert-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "mycalendar: 5 events",
+      "events": 5
     },
     {
       "source": "babbitt-mn",
@@ -140,7 +140,7 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 68 events (webspace cromwellmn)",
+      "detail": "revize: 69 events (webspace cromwellmn)",
       "events": 66
     },
     {
@@ -165,7 +165,7 @@
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 91 events (webspace cookcountymn)",
+      "detail": "revize: 90 events (webspace cookcountymn)",
       "events": 88
     },
     {
@@ -185,8 +185,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 13
+      "detail": "ics: 12 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 12
     },
     {
       "source": "hill-city-mn",
@@ -201,7 +201,7 @@
     {
       "source": "pine-county-mn",
       "detail": "revize: 36 events (webspace pinecounty)",
-      "events": 35
+      "events": 36
     },
     {
       "source": "sandstone-mn",
@@ -230,8 +230,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 105 events",
-      "events": 105
+      "detail": "civicplus: 104 events",
+      "events": 104
     },
     {
       "source": "cable-wi",
