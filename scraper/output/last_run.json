@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T02:21:13Z",
-  "raw": 3147,
-  "merged": 2472,
-  "published": 2135,
-  "queued": 337,
+  "when": "2026-09-04T02:37:15Z",
+  "raw": 3380,
+  "merged": 2605,
+  "published": 2276,
+  "queued": 329,
   "verification": {
-    "confirmed": 2135,
-    "multi_source": 175,
-    "trusted_single": 1960,
+    "confirmed": 2276,
+    "multi_source": 202,
+    "trusted_single": 2074,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 337
+    "queued": 329
   },
   "sources": [
     {
@@ -285,8 +285,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 203 events",
-      "events": 203
+      "detail": "allevents: 206 events",
+      "events": 206
     },
     {
       "source": "allevents-superior",
@@ -322,6 +322,26 @@
       "source": "allevents-intl-falls",
       "detail": "allevents: 1 events",
       "events": 1
+    },
+    {
+      "source": "umd-bulldogs",
+      "detail": "sidearm: 53 home/neutral events",
+      "events": 53
+    },
+    {
+      "source": "uws-yellowjackets",
+      "detail": "sidearm: 112 home/neutral events",
+      "events": 112
+    },
+    {
+      "source": "css-saints",
+      "detail": "sidearm: 65 home/neutral events",
+      "events": 65
+    },
+    {
+      "source": "norshor-playhouse",
+      "detail": "no adapter produced events",
+      "events": 0
     }
   ]
 }

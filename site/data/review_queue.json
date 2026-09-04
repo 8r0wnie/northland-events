@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T02:21:13Z",
-  "count": 337,
+  "generated": "2026-09-04T02:37:15Z",
+  "count": 329,
   "events": [
     {
       "key": "16b71af32cac24dc",
@@ -39,24 +39,6 @@
       }
     },
     {
-      "key": "078242786963a1fc",
-      "title": "Canta Conmigo (Spanish music class for ages 0-12 + Caregivers)",
-      "start": "2026-09-04T00:00:00",
-      "end": "2026-09-04T00:00:00",
-      "all_day": true,
-      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy80YzNiZGE1NDhlMTJjZjU1NDY4ODZiMDU4MWE2MjQyZTk5NDczZDlhOTExNTQ3MmI2MjI5MjJlOGYwNDJmY2UyLXJpbWctdzEwODAtaDEzNTAtZGNlOGU4ZDgtZ21pcj92PTE3ODgxOTAyNzk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/canta-conmigo-spanish-music-class-for-ages-0-12-caregivers/200030637319019"
-      }
-    },
-    {
       "key": "adc77ce1bbe5c04b",
       "title": "Trivia!",
       "start": "2026-09-04T00:00:00",
@@ -72,6 +54,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/trivia/200030557191210"
+      }
+    },
+    {
+      "key": "078242786963a1fc",
+      "title": "Canta Conmigo (Spanish music class for ages 0-12 + Caregivers)",
+      "start": "2026-09-04T00:00:00",
+      "end": "2026-09-04T00:00:00",
+      "all_day": true,
+      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy80YzNiZGE1NDhlMTJjZjU1NDY4ODZiMDU4MWE2MjQyZTk5NDczZDlhOTExNTQ3MmI2MjI5MjJlOGYwNDJmY2UyLXJpbWctdzEwODAtaDEzNTAtZGNlOGU4ZDgtZ21pcj92PTE3ODgxOTAyNzk.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/canta-conmigo-spanish-music-class-for-ages-0-12-caregivers/200030637319019"
       }
     },
     {
@@ -597,24 +597,6 @@
       }
     },
     {
-      "key": "ca69af5a5a79c741",
-      "title": "UW-Superior Women's Soccer vs. UW-Stout",
-      "start": "2026-09-06T00:00:00",
-      "end": "2026-09-06T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy82NGQzZTIzMzM3OTAzNGNkYWJlN2M0YmY0NWQwNjU0YWMxZDcyMjIwZDU3NzU4MjdhMmNjZjRhYzI3NGM1OWU4LXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkwNA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-womens-soccer-vs-uw-stout/200030269732721"
-      }
-    },
-    {
       "key": "f2b96a5439e1f6a2",
       "title": "\ud83e\uddf6Makers Market on the Patio at Wired Whisker Cat Cafe",
       "start": "2026-09-06T00:00:00",
@@ -741,6 +723,24 @@
       }
     },
     {
+      "key": "c4c363582844d7f1",
+      "title": "CISSP Training Program \u2013 Become a Cybersecurity Leader in Duluth, MN",
+      "start": "2026-09-07T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "230 W Superior St suite 400",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMWNmNjY1NzIwNjhkYmRjYWY1ZjRkNmNhYTZkZGRjMjk5N2Q3YjFjMTZjMDJkODk0NjQzYjYzZTJlN2VjOTJjLXJpbWctdzEyMDAtaDY3NS1kYzAzMGYxZC1nbWlyLmpwZz92PTE3ODUzODIyNjg.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/cissp-training-program-become-a-cybersecurity-leader-in-duluth-mn/100001980843283584"
+      }
+    },
+    {
       "key": "d3cfdcebc71aa3a4",
       "title": "Big Wheel Bingo Tuesdays!",
       "start": "2026-09-08T00:00:00",
@@ -756,6 +756,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/big-wheel-bingo-tuesdays/200030648730410"
+      }
+    },
+    {
+      "key": "0a5756c8c4255fa9",
+      "title": "Drag Bingo with Zenith City Horror",
+      "start": "2026-09-08T00:00:00",
+      "end": "2026-09-08T00:00:00",
+      "all_day": true,
+      "venue": "2515 West Superior Street, Duluth, MN, United States, Minnesota 55806",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zNTViM2RjODY4YzM1MGRmOGE4ZmNmZjc0OWM0NjBkZjExOTUxYWI2MmEyNWJhOGMyMWZjYTc3OTUxMzE1YjA5LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc4NzExMjkyNw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/drag-bingo-with-zenith-city-horror/200030581964928"
       }
     },
     {
@@ -954,24 +972,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/embroidery-101-embroidered-needle-book/200030613285158"
-      }
-    },
-    {
-      "key": "0d39fbcec381d523",
-      "title": "UW-Superior Men's Soccer vs Gustavus Adolphus",
-      "start": "2026-09-09T00:00:00",
-      "end": "2026-09-09T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9jODc3OWRlZGJhYzBlNGJmZWI2NzJhYzM4YWY0MjdmMjQxMGE3YTU3ZjNmMTlkYzMzM2YwNDI5NGVhMWY4ZmVjLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkwNg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-gustavus-adolphus/200030263804358"
       }
     },
     {
@@ -1656,24 +1656,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/sasquatch-921-metal-night-pronoya-vvakefield-protolith-kalopsya/100001996917559175"
-      }
-    },
-    {
-      "key": "042392c6c6a2d0eb",
-      "title": "UW-Superior Men's Soccer vs Saint John's",
-      "start": "2026-09-12T00:00:00",
-      "end": "2026-09-12T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8xZGEzODViYzhkM2ZhNzhjNGE5YmVkNWRjNDFlZmZjMjBmNmIzOTJjYmMxYTEwMzdhNTJjMDQ4N2U5ODdiODMwLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkwMA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-saint-johns/200030263810603"
       }
     },
     {
@@ -2415,24 +2397,6 @@
       }
     },
     {
-      "key": "208540116bb73b3c",
-      "title": "UW-Superior Women's Soccer vs. UW-River Falls",
-      "start": "2026-09-17T00:00:00",
-      "end": "2026-09-17T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85NGNiNzEyZDQwMDA5MjA1YzkzZWM0YjRjMWVkNmYxNDljYmI4ZTM4NzViZDY2NWM2ZjZmNTA0YTc0MGY5MTkyLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDg5OQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-womens-soccer-vs-uw-river-falls/200030275013121"
-      }
-    },
-    {
       "key": "398bd458531e1604",
       "title": "Yoga Strength - 6-Week Series",
       "start": "2026-09-17T00:00:00",
@@ -3024,24 +2988,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/gatherings-by-sheraton-live-with-mark-connolly/100001999702696596"
-      }
-    },
-    {
-      "key": "7fd4728d66e97b93",
-      "title": "UW-Superior Men's Soccer vs Northwestern",
-      "start": "2026-09-22T00:00:00",
-      "end": "2026-09-22T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy80YjA0YTMyMzVjMGQ4MmM4NzBiM2ZjNTgxYWE4Yzk5ODFjM2YzNTJkZGUxZTI0ZmQwNzI3OTA3ODllNGU5OTQ5LXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDg5Nw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-northwestern/200030310809446"
       }
     },
     {
@@ -3801,24 +3747,6 @@
       }
     },
     {
-      "key": "cf7690161ee91734",
-      "title": "UW-Superior Men's Soccer vs Bethel",
-      "start": "2026-09-29T00:00:00",
-      "end": "2026-09-29T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8xODI1MDAyNTkxMGE3NDRmODU1YzYyMmYwNmU3OWY4MWM1YWE0ZDI4ZDNkNmQ4Y2U1M2Y0MTc2OTM3ZTk4ZDBlLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDg5OA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-bethel/200030361811422"
-      }
-    },
-    {
       "key": "e6268bb23965ea39",
       "title": "Starry Skies at Woodstock Bay",
       "start": "2026-09-29T00:00:00",
@@ -4071,24 +3999,6 @@
       }
     },
     {
-      "key": "0655bd565a8af0df",
-      "title": "UW-Superior Men's Soccer vs Bethany Lutheran",
-      "start": "2026-10-03T00:00:00",
-      "end": "2026-10-03T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8xNGMzNDQzNDNiZWJkZTUxNjBjYzQxZjQyZDIzMTljYTg0NzhmNDI3YzA5ZmNkODRlNmYyZTlmOTU3YWYzOTZjLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkyMA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-bethany-lutheran/200030361805811"
-      }
-    },
-    {
       "key": "59593f0cc47de484",
       "title": "Pawsitive Project",
       "start": "2026-10-03T00:00:00",
@@ -4248,24 +4158,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/1031-exchange-from-the-basics-to-the-complex-in-real-estate-transactions/100001993947014195"
-      }
-    },
-    {
-      "key": "b442f63e8961e52e",
-      "title": "UW-Superior Women's Soccer vs. St. Scholastica",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9jODFkNWI0ZGE4ZDI3ZWI4ZGJkYzMwZWJjOGE4ZTE5ZmNlNDc1YTZlOWUyZDdlZjc0NTBlZTA5NWIwZWNjYmFjLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkxNw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-womens-soccer-vs-st-scholastica/200030383758440"
       }
     },
     {
@@ -4431,6 +4323,24 @@
       }
     },
     {
+      "key": "cdd550756ea2d0ac",
+      "title": "High School Musical - Encore Edition (One Night Only!)",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "Proctor Senior High",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy81ZGYyZWQxMjU4NTZmMGFjNTU0NDU3YTk0ODU1NTQ0N2M5ZTJhYmIyZWYzYmFmNThhYWJhYTE0YmMyYWU2NTM0LXJpbWctdzEwOTgtaDczMi1kY2M4MDgwOC1nbWlyP3Y9MTc4ODI3ODY5Ng.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/high-school-musical-encore-edition-one-night-only/200030643844957"
+      }
+    },
+    {
       "key": "12bdd669d992d482",
       "title": "Fairytopia (Saturday night)",
       "start": "2026-10-10T00:00:00",
@@ -4482,6 +4392,24 @@
       "source": {
         "name": "AllEvents \u2014 Hibbing",
         "url": "https://allevents.in/hibbing/lets-paint-fundraiser-for-iron-range-women-of-today/200030607607437"
+      }
+    },
+    {
+      "key": "29b030f60456a514",
+      "title": "Ross Thorn Residency at Ursa Minor",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Ursa Minor Brewing",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iZWMxNjRmNmI2N2I1MzA2ODJlZTZkYWU1MWRhZjU0ODY4ODc5MzUxODc2MDhiNTc1OTIyN2NmN2Y2MzU3MzRkLXJpbWctdzEyMDAtaDYyOC1kYzI4Mzg0OC1nbWlyP3Y9MTc4Nzg2MDc0NA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/ross-thorn-residency-at-ursa-minor/200030399129944"
       }
     },
     {
@@ -4773,24 +4701,6 @@
       }
     },
     {
-      "key": "a0e9cb6e80cc0789",
-      "title": "UW-Superior Women's Soccer vs. Crown",
-      "start": "2026-10-17T00:00:00",
-      "end": "2026-10-17T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy84N2Y3ODY2Njk5MjdkZGY0N2NlNTRhY2ZlYmUzNzVlYzdjNzlmNjM0NDljZTc2M2Y0MDM3ODgxYTg0MmJkNmQzLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkwNg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-womens-soccer-vs-crown/200030436604040"
-      }
-    },
-    {
       "key": "7b78d0f669ce549c",
       "title": "Minnesota Golden Gophers at Minnesota Duluth Bulldogs Hockey",
       "start": "2026-10-17T00:00:00",
@@ -4842,42 +4752,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/wild-duluth-races-harder-n-heck-half-marathon-and-terribly-tough-10k/200029382593132"
-      }
-    },
-    {
-      "key": "fad14c5a28a83529",
-      "title": "UW-Superior Women's Soccer vs. North Central (Minn.)",
-      "start": "2026-10-20T00:00:00",
-      "end": "2026-10-20T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9mMzI3MWQ5MGEyMTQ0OWQ1NmM4YzhjOWJiMzVhNWNmZTNkODNkMmZmOWM4OGMzMjUxYjAzODZjZjUyZGQ2MzFkLXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDg5Mw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-womens-soccer-vs-north-central-minn/200030446304038"
-      }
-    },
-    {
-      "key": "df15cf827a03e621",
-      "title": "\"ANNIE\" AT CHANHASSEN DINNER THEATRE",
-      "start": "2026-10-21T00:00:00",
-      "end": "2026-10-21T00:00:00",
-      "all_day": true,
-      "venue": "151 W. Linden Street Duluth, MN",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wMzMyMmIyYTk0YjVlNzFlY2JkNzY5M2U4ZmU5NjEzMjhkMWJiOWRlMmUyMjIwNTE3MTI1NDMwNzc2YTk1YzNlLXJpbWctdzkyMC1oOTU0LWRjMDgwODA4LWdtaXI_dj0xNzg3MjEzNjky.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/annie-at-chanhassen-dinner-theatre/200030448187115"
       }
     },
     {
@@ -4986,24 +4860,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/uw-superior-volleyball-vs-martin-luther/200030468436218"
-      }
-    },
-    {
-      "key": "7e58ce26036b9ec4",
-      "title": "UW-Superior Men's Soccer vs Augsburg",
-      "start": "2026-10-23T00:00:00",
-      "end": "2026-10-23T00:00:00",
-      "all_day": true,
-      "venue": "Superior Choice Credit Union Stadium",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81ZGQ3YWY2ZWEyNWU4ZWFiMDI0YTc0OTEzNjMxMTkzY2NkODE4NGU2M2NlMmUwOTMzMzc4MWQ0YzMyMGViYmM5LXJpbWctdzEyMDAtaDU3Mi1kY2U4ZThmOC1nbWlyP3Y9MTc4ODIxNDkxMg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-augsburg/200030468422652"
       }
     },
     {
@@ -5148,6 +5004,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/pumpkin-land-at-fairlawn-mansion/200030602763229"
+      }
+    },
+    {
+      "key": "f671c2034f40f754",
+      "title": "A path to restoring body, mind & spirit-with Guido Kury, M.D. , Germany",
+      "start": "2026-10-27T00:00:00",
+      "end": "2026-10-27T00:00:00",
+      "all_day": true,
+      "venue": "Hampton Inn Duluth Canal Park",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84NzViYjc2ZGZkZjRhYWI2MmM4ODhjZGE2Njc5ODA4YTg5OWM0YThmNDNhNTY4MzE1NjBiYjAzMzJmMzMxNzA1LXJpbWctdzEyMDAtaDYwMC1kYzU4NzhiOC1nbWlyLmpwZz92PTE3ODg0MTQzNzc.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/a-path-to-restoring-body-mind-and-spirit-with-guido-kury-md-germany/100001999569181248"
       }
     },
     {
@@ -5400,24 +5274,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/zach-williams-tickets/200030525675307"
-      }
-    },
-    {
-      "key": "0a8d2a81e3c9f497",
-      "title": "The Bishop's Dinner 2026",
-      "start": "2026-11-05T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Clyde Iron Works",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "food-drink",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy82ZWQ3MGJlYTNhMjdiMzEwNjlmOGRjNDU0MDIzNTVmYTE4MjI5NDIwZTExNTFhMmQ4NDkxNWJmNDAwMTg5ZmVhLXJpbWctdzEyMDAtaDg1Ny1kYzA4MDgwOC1nbWlyP3Y9MTc4ODQzMjIwOA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/the-bishops-dinner-2026/200030652455129"
       }
     },
     {
