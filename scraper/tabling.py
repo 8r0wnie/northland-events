@@ -21,7 +21,13 @@ from __future__ import annotations
 
 import re
 
-_EXCLUDE = re.compile(r"farmers?.?s?\s*market", re.I)
+_EXCLUDE = re.compile(
+    r"farmers?.?s?\s*market"
+    # Fairgrounds sources bring their own governance calendars along with them
+    # (e.g. "Fair Board Meeting-September") — an administrative meeting *about*
+    # a fair/parade is never itself a place to set up a table.
+    r"|\bmeeting\b",
+    re.I)
 
 # "fest"/"festival" is matched as a bare substring (not \bfest\b) because it
 # routinely appears fused into a compound name with no word boundary in

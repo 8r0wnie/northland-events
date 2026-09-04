@@ -1,13 +1,13 @@
 {
-  "when": "2026-09-04T15:31:50Z",
-  "raw": 3746,
-  "merged": 2860,
-  "published": 2530,
+  "when": "2026-09-04T20:15:57Z",
+  "raw": 3847,
+  "merged": 2947,
+  "published": 2617,
   "queued": 330,
   "verification": {
-    "confirmed": 2530,
-    "multi_source": 254,
-    "trusted_single": 2276,
+    "confirmed": 2617,
+    "multi_source": 256,
+    "trusted_single": 2361,
     "reviewed_in": 0,
     "reviewed_out": 0,
     "queued": 330
@@ -31,7 +31,7 @@
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 33 events via https://superiorchamber.org",
-      "events": 31
+      "events": 30
     },
     {
       "source": "hibbing-chamber",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 141 events (4 pages)",
-      "events": 140
+      "detail": "simpleview: 142 events (4 pages)",
+      "events": 141
     },
     {
       "source": "visit-ashland",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 527
+      "events": 526
     },
     {
       "source": "hermantown-mn",
@@ -96,7 +96,7 @@
     {
       "source": "eveleth-mn",
       "detail": "govoffice: 9 events",
-      "events": 9
+      "events": 8
     },
     {
       "source": "chisholm-mn",
@@ -185,8 +185,8 @@
     },
     {
       "source": "koochiching-county-mn",
-      "detail": "civicplus: 1 events",
-      "events": 1
+      "detail": "civicplus: 2 events",
+      "events": 2
     },
     {
       "source": "itasca-county-mn",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 108 events",
-      "events": 108
+      "detail": "civicplus: 107 events",
+      "events": 107
     },
     {
       "source": "cable-wi",
@@ -255,8 +255,8 @@
     },
     {
       "source": "ashland-city-wi",
-      "detail": "civicplus: 3 events",
-      "events": 3
+      "detail": "civicplus: 4 events",
+      "events": 4
     },
     {
       "source": "burnett-county-wi",
@@ -290,13 +290,13 @@
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 139 events",
-      "events": 139
+      "detail": "allevents: 140 events",
+      "events": 140
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 26 events",
-      "events": 26
+      "detail": "allevents: 27 events",
+      "events": 27
     },
     {
       "source": "allevents-hibbing",
@@ -397,6 +397,36 @@
       "source": "big-top",
       "detail": "spektrix: 17 performances (client ashwabayalliance)",
       "events": 17
+    },
+    {
+      "source": "askov-rutabaga-fest",
+      "detail": "civicplus: 1 events",
+      "events": 1
+    },
+    {
+      "source": "koochiching-county-fair",
+      "detail": "civicplus: 2 events",
+      "events": 2
+    },
+    {
+      "source": "ashland-county-fair",
+      "detail": "jsonld: 12 events",
+      "events": 12
+    },
+    {
+      "source": "spirit-mountain",
+      "detail": "tribe: 2 events",
+      "events": 2
+    },
+    {
+      "source": "wolf-ridge",
+      "detail": "tribe: 2 events",
+      "events": 2
+    },
+    {
+      "source": "fond-du-lac-band",
+      "detail": "revize: 81 events (webspace fonddulac)",
+      "events": 81
     }
   ]
 }
