@@ -1,43 +1,7 @@
 {
-  "generated": "2026-09-04T02:50:38Z",
-  "count": 319,
+  "generated": "2026-09-04T03:00:34Z",
+  "count": 320,
   "events": [
-    {
-      "key": "16b71af32cac24dc",
-      "title": "Ghosted - A M**der Mystery Dinner Theatre",
-      "start": "2026-09-03T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Fitger's Complex (The Spirit of the North Theater)",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8yODgxZWNlZTc2MGM1YTI0N2UyYjg5Y2E0OGNhODhjZjkzN2RkNTJlOGVjZDQ2NWI4YmVjNWYyNjEyM2QxY2MyLXJpbWctdzEyMDAtaDUwNS1kYzA4MDgwOC1nbWlyLnBuZz92PTE3ODcwODU0ODU.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/ghosted-a-mder-mystery-dinner-theatre/100001997939218987"
-      }
-    },
-    {
-      "key": "2202914adf9857c5",
-      "title": "Monthly Coffee Break - Every First Thursday!",
-      "start": "2026-09-03T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Harbor Theater",
-      "city": "Two Harbors",
-      "area": "Two Harbors",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84OGI4MGQyNzZhNzU5NzhkZTY3MzVkZjc0Yjg1ZDMyZmYyNTY2OWE2M2E2YWFlYTdjMGU5ODUyZmQ3ZmMzNzYxLXJpbWctdzU1NC1oMzA2LWRjZmZmZmZmLWdtaXI_dj0xNzgwMDM3MjA4.avif",
-      "source": {
-        "name": "AllEvents \u2014 Two Harbors",
-        "url": "https://allevents.in/two-harbors/monthly-coffee-break-every-first-thursday/200030096052025"
-      }
-    },
     {
       "key": "adc77ce1bbe5c04b",
       "title": "Trivia!",
@@ -1224,6 +1188,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/volunteer-manoomin-wild-rice-planting-kingsbury-bay-duluth-mn/200030614111100"
+      }
+    },
+    {
+      "key": "5ca7f6ebcbddb92e",
+      "title": "Independent Hustle Tour:Duluth",
+      "start": "2026-09-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Gopher Bar and Grill",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMGUzOGQwOGM3YzVkN2MxMGZlZjQ2MzYwNjgyNDkzMDVlNDY0Njk3NTU5ZWI0NjViMWZhNTFhZTc0NGQwY2RiNi1yaW1nLXcxMDM0LWgxNTIxLWRjMDgwODA4LWdtaXI_dj0xNzg3MDQzOTc4.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/independent-hustle-tour-duluth/200030376520750"
       }
     },
     {
@@ -3585,6 +3567,24 @@
       }
     },
     {
+      "key": "d1b491c3ef533bae",
+      "title": "Adirondack Pack Basket Workshop with Lori from Suku Mokki",
+      "start": "2026-09-27T00:00:00",
+      "end": "2026-09-27T00:00:00",
+      "all_day": true,
+      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hYWYyMDE3MGFjMmI4MzFjMjM3YzY5NTM4YmU5ZGIwZTczZTQ4NmM2MzBiNDZhYmExODQwY2NmYTI2NWFjYWI1LXJpbWctdzEwODAtaDEzNTAtZGM1ODQ4MzgtZ21pcj92PTE3ODgzODMzNTY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/adirondack-pack-basket-workshop-with-lori-from-suku-mokki/200030650025016"
+      }
+    },
+    {
       "key": "41d8a818ad5bfc9c",
       "title": "Celebrate The Night",
       "start": "2026-09-27T00:00:00",
@@ -4392,6 +4392,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/witches-bells-wreath-class/200030613283949"
+      }
+    },
+    {
+      "key": "ac874e60ecf08075",
+      "title": "MSFCA- Annual Conference Vendor Show",
+      "start": "2026-10-14T00:00:00",
+      "end": "2026-10-17T00:00:00",
+      "all_day": true,
+      "venue": "DECC",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mZDI0Y2IyODU3YjM0NDkzNzk0OTFlNWJjMjc0NjM5ZDU1MWU5ODA2NDAzOTE3YWIyMDM5MTU3NjE3MWFhOTY4LXJpbWctdzEyMDAtaDkwMC1kYzQ4NTg2OC1nbWlyP3Y9MTc4ODE4MjA5OA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/msfca-annual-conference-vendor-show/200030412633631"
       }
     },
     {

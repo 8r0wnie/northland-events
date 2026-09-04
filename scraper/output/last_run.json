@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T02:50:38Z",
-  "raw": 3722,
-  "merged": 2846,
-  "published": 2527,
-  "queued": 319,
+  "when": "2026-09-04T03:00:34Z",
+  "raw": 3552,
+  "merged": 2709,
+  "published": 2389,
+  "queued": 320,
   "verification": {
-    "confirmed": 2527,
-    "multi_source": 254,
-    "trusted_single": 2273,
+    "confirmed": 2389,
+    "multi_source": 230,
+    "trusted_single": 2159,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 319
+    "queued": 320
   },
   "sources": [
     {
@@ -40,8 +40,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 229 events (2 pages)",
-      "events": 229
+      "detail": "simpleview: 224 events (2 pages)",
+      "events": 224
     },
     {
       "source": "grand-rapids-mn",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 130 events (3 pages)",
-      "events": 130
+      "detail": "simpleview: 138 events (4 pages)",
+      "events": 135
     },
     {
       "source": "visit-ashland",
@@ -65,8 +65,8 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
-      "events": 77
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "duluth-mn",
@@ -80,8 +80,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "tribe: 33 events",
-      "events": 33
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "virginia-mn",
@@ -150,7 +150,7 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 68 events (webspace cromwellmn)",
+      "detail": "revize: 69 events (webspace cromwellmn)",
       "events": 66
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 91 events (webspace cookcountymn)",
+      "detail": "revize: 90 events (webspace cookcountymn)",
       "events": 88
     },
     {
@@ -195,8 +195,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 13
+      "detail": "ics: 12 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 12
     },
     {
       "source": "hill-city-mn",
@@ -211,7 +211,7 @@
     {
       "source": "pine-county-mn",
       "detail": "revize: 36 events (webspace pinecounty)",
-      "events": 35
+      "events": 36
     },
     {
       "source": "sandstone-mn",
@@ -285,8 +285,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 203 events",
-      "events": 203
+      "detail": "allevents: 206 events",
+      "events": 205
     },
     {
       "source": "allevents-superior",
@@ -311,7 +311,7 @@
     {
       "source": "allevents-two-harbors",
       "detail": "allevents: 12 events",
-      "events": 12
+      "events": 11
     },
     {
       "source": "allevents-ashland",
@@ -345,8 +345,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 31 events",
+      "events": 31
     },
     {
       "source": "sacred-heart",
@@ -360,13 +360,13 @@
     },
     {
       "source": "duluth-art-institute",
-      "detail": "tribe: 85 events",
-      "events": 85
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "ls-railroad-museum",
-      "detail": "tribe: 7 events",
-      "events": 7
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "mn-discovery-center",
@@ -375,13 +375,13 @@
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 23 events",
-      "events": 23
+      "detail": "tribe: 22 events",
+      "events": 22
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 145 events",
-      "events": 145
+      "detail": "tribe: 146 events",
+      "events": 146
     },
     {
       "source": "decc",
