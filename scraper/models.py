@@ -27,6 +27,103 @@ CATEGORIES = [
 
 _WS = re.compile(r"\s+")
 
+# Keyword -> category. Checked in this order; first hit wins, so put the more
+# specific buckets before the catch-all "community". Multi-word phrases are
+# matched as substrings; single tokens are matched on word boundaries.
+_CATEGORY_RULES: list[tuple[str, list[str]]] = [
+    ("holiday", [
+        "christmas", "halloween", "thanksgiving", "new year", "hanukkah", "easter",
+        "4th of july", "fourth of july", "independence day", "valentine",
+        "st. patrick", "st patrick", "tree lighting", "trunk or treat",
+        "pumpkin patch", "santa", "holiday market", "holiday concert", "menorah",
+    ]),
+    ("music", [
+        "concert", "live music", "orchestra", "symphony", "chorale",
+        "acoustic", "open mic", "openmic", "jam session", "karaoke", "vinyl",
+        "hip hop", "hip-hop", " jazz", "blues band", "bluegrass", "folk music", "punk",
+        "metal show", "tribute band", "singer-songwriter", "songwriter", "recital",
+        "porchfest", "music festival", "opera", "feat.", " & the ", "& friends",
+        "live at", "live in the lounge",
+    ]),
+    ("arts", [
+        "theatre", "theater", "musical", "playhouse", "gallery", "exhibit",
+        "art opening", "art show", "artist reception", "film ", "movie", "cinema",
+        "screening", "author", "poetry", "poems", "book club", "book signing",
+        "literary", "storytelling", "dance ", "ballet", "improv", "comedy",
+        "stand-up", "standup", "painting", "pottery", "watercolor", "printmaking",
+        "sculpture", "plein air", "craft fair", "quilt", "photography exhibit",
+        "art crawl", "art walk", "open studio",
+    ]),
+    ("family", [
+        "story time", "storytime", "story hour", "kids ", "kid's", "children",
+        "toddler", "preschool", "all ages", "family fun", "family-friendly",
+        "petting zoo", "playground", "egg hunt", "lego", "puppet", "youth ",
+        "teen ", "baby ", "sensory-friendly", "family day",
+    ]),
+    ("food-drink", [
+        "dinner", "brunch", "luncheon", "tasting", "wine ", "winery", "beer ",
+        "brewery", "brewing", "taproom", "cocktail", "happy hour", "food truck",
+        "farmers market", "farmers' market", "farmer's market", "supper", "pancake",
+        "chili ", "bbq", "barbecue", "cook-off", "cookoff", "bake sale", "brewfest",
+        "wine walk", "distillery", "mead", "cider", "potluck", "fish fry",
+        "oktoberfest", "beer garden", "tap takeover",
+    ]),
+    ("sports-rec", [
+        "5k", "10k", "half marathon", "marathon", "fun run", "color run", "glow run",
+        " run", "run/walk", "walk/run", " ride", "bike ride", "tournament",
+        "hockey", "basketball", "soccer", " game", "baseball", "softball", "volleyball",
+        "golf scramble", "golf outing", "golf tournament", "disc golf", "pickleball",
+        "ski ", "skiing", "snowshoe", "fat bike", "paddle", "kayak", "canoe", "hike",
+        "fishing", "regatta", "yoga", "zumba", "bootcamp", "fitness", "workout",
+        "rec league", "climbing", "curling", "derby", "race ",
+    ]),
+    ("education", [
+        "workshop", "class", "seminar", "lecture", "training", "webinar",
+        "info session", "informational meeting", "tutorial", "how to",
+        "how-to", "certification", "course", "lesson", "presentation",
+        "learn to", "demonstration", "info night", "orientation", "book talk",
+    ]),
+    ("community", [
+        "festival", "fair", "parade", "fundraiser", "fund raiser", "benefit ",
+        "gala", "market", "city council", "county board", "planning commission",
+        "town board", "village board", "school board", " meeting", "board of",
+        "committee", "public hearing", "forum", "celebration", "pride", "cleanup",
+        "clean-up", "blood drive", "ceremony", "open house", "grand opening",
+        "ribbon cutting", "town hall", "rummage", "garage sale", "flea market",
+        "craft show", "vendor", "expo", "conference", "networking", "chamber",
+        "volunteer", "clinic", "food shelf", "food drive", "auction", "raffle",
+        "commission", "council", "caucus",
+    ]),
+]
+_WORD_KEYS = {kw for _, kws in _CATEGORY_RULES for kw in kws if " " not in kw and not kw.endswith(" ") and not kw.startswith(" ")}
+_WORD_RE = {kw: re.compile(rf"\b{re.escape(kw)}\b", re.I) for kw in _WORD_KEYS}
+
+
+def _match(hay: str) -> Optional[str]:
+    for cat, keywords in _CATEGORY_RULES:
+        for kw in keywords:
+            if kw in _WORD_RE:
+                if _WORD_RE[kw].search(hay):
+                    return cat
+            elif kw in hay:
+                return cat
+    return None
+
+
+def infer_category(title: str, description: str = "", fallback: str = "other") -> str:
+    """Guess a category bucket from an event's text; return `fallback` if nothing hits.
+
+    The title is checked first (high confidence); the description is only
+    consulted when the title gives nothing.
+    """
+    hit = _match(f" {(title or '').lower()} ")
+    if hit:
+        return hit
+    hit = _match(f" {(description or '').lower()[:400]} ")
+    if hit:
+        return hit
+    return fallback if fallback in CATEGORIES else "other"
+
 
 def clean_text(value: Optional[str]) -> str:
     if not value:
@@ -80,6 +177,10 @@ class Event:
         self.price = clean_text(self.price)
         if self.category not in CATEGORIES:
             self.category = "other"
+        # Adapters that can't determine a real category leave "other" or a coarse
+        # "community" default — refine those from the event text.
+        if self.category in ("other", "community"):
+            self.category = infer_category(self.title, self.description, fallback=self.category)
         if self.end and self.end < self.start:
             self.end = None
         return self
