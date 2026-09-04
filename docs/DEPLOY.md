@@ -61,7 +61,8 @@ Cloudflare's static-asset server auto-redirects `/review.html` → `/review`
 in the footer stamp. Open `/review.html`, unlock with the passphrase, confirm
 the queue loads. (Confirmed working 2026-09-04.)
 
-## 4. Google Site (the stable public address) — not yet done
+## 4. Google Site (the stable public address) — DONE, live at
+**https://sites.google.com/view/northland-regional-events/home**
 
 1. [sites.google.com](https://sites.google.com) → **+ Blank** (new site).
 2. Name the site (top left, e.g. "Northland Events").
@@ -74,6 +75,11 @@ the queue loads. (Confirmed working 2026-09-04.)
 6. Share that Google Sites URL — that's the one to give out; it never changes
    even if the Cloudflare project ever gets rebuilt.
 
+This is the address to hand out publicly. It just iframes the Cloudflare Worker
+URL above, so every daily data refresh and every UI change (color-coding,
+search bar, etc.) shows up here automatically — nothing to re-publish on this
+end unless the embedded URL itself changes.
+
 If you ever want a page for the review queue too, repeat with
 `https://northland-events.cbrown21.workers.dev/review.html` as a second page
 (mark it unlisted in the site's nav, or don't add it to the menu — it's still
@@ -85,3 +91,20 @@ passphrase-gated).
    Category, Description, Link.
 2. Form responses → Google Sheet → **File → Share → Publish to web** as CSV.
 3. Add a `manual` adapter that reads that CSV URL and a registry entry for it.
+
+## 6. PBS North tabling list — DONE, private
+
+**https://northland-events.cbrown21.workers.dev/tabling.html** — passphrase-gated
+(same mechanism as `/review.html`), passphrase **`pbsnorth-tabling`**. Not linked
+from anywhere public and marked `noindex, nofollow`.
+
+Lists only upcoming events flagged as a good tabling opportunity for PBS North —
+fairs/festivals, expos/health fairs/resource days, and parades/large public
+gatherings (farmers markets excluded on purpose). The flag is computed once
+per scrape in `scraper/tabling.py` from the event *title* and stored on each
+event in `site/data/events.json` as `tabling` / `tabling_reasons`. It never
+appears on the public calendar or its filters — this page is the only consumer.
+
+To change the passphrase: compute `sha256("yournewpassphrase")` (browser
+console snippet is in a comment at the top of `tabling.html`'s script) and
+swap `PASS_HASH` in [`site/tabling.html`](../site/tabling.html).
