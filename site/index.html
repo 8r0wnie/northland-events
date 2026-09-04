@@ -21,6 +21,10 @@
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
   .filters select { padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
                     background: var(--panel); color: var(--ink); font-size: 14px; }
+  .filters input[type="search"] { flex: 1 1 200px; min-width: 160px; padding: 7px 10px;
+                    border: 1px solid var(--line); border-radius: 8px;
+                    background: var(--panel); color: var(--ink); font-size: 14px; }
+  .filters input[type="search"]::placeholder { color: var(--muted); }
   .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 14px; font-size: 12.5px; color: var(--muted); }
   .legend .item { display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
                    padding: 2px 4px; border-radius: 6px; }
@@ -63,6 +67,7 @@
 
 <div class="wrap">
   <div class="filters">
+    <input type="search" id="search" placeholder="Search events…" autocomplete="off">
     <select id="area"><option value="">All areas</option></select>
     <select id="category"><option value="">All categories</option></select>
   </div>
@@ -97,9 +102,19 @@ const CAT_OTHER = { bg: "#64748b", text: "#ffffff" };
 function catColor(cat) { return CAT_COLORS[cat] || CAT_OTHER; }
 
 let ALL = [];
+let LAST_UPDATED = '';
 const areaSel = document.getElementById('area');
 const catSel = document.getElementById('category');
+const searchBox = document.getElementById('search');
 const detail = document.getElementById('detail');
+
+function matchesSearch(e, q) {
+  if (!q) return true;
+  const hay = [e.title, e.description, e.venue, e.city, e.area,
+               ...(e.sources || []).map(s => s.name)]
+    .filter(Boolean).join(' \n ').toLowerCase();
+  return q.split(/\s+/).filter(Boolean).every(term => hay.includes(term));
+}
 
 function fmtRange(startISO, endISO, allDay) {
   const s = new Date(startISO);
@@ -151,9 +166,10 @@ function openDetail(ev) {
 
 function applyFilters(cal) {
   const a = areaSel.value, c = catSel.value;
+  const q = searchBox.value.trim().toLowerCase();
   cal.removeAllEvents();
-  cal.addEventSource(ALL
-    .filter(e => (!a || e.area === a) && (!c || e.category === c))
+  const shown = ALL.filter(e => (!a || e.area === a) && (!c || e.category === c) && matchesSearch(e, q));
+  cal.addEventSource(shown
     .map(e => {
       const col = catColor(e.category);
       return {
@@ -162,6 +178,10 @@ function applyFilters(cal) {
       };
     }));
   renderLegend();
+  const stamp = document.getElementById('stamp');
+  stamp.textContent = (q || a || c)
+    ? `${shown.length} of ${ALL.length} events match`
+    : `${ALL.length} events · updated ${LAST_UPDATED}`;
 }
 
 function renderLegend(categories) {
@@ -183,10 +203,9 @@ function renderLegend(categories) {
 
 fetch('data/events.json').then(r => r.json()).then(data => {
   ALL = data.events || [];
+  LAST_UPDATED = new Date(data.generated).toLocaleString();
   for (const area of data.areas || []) areaSel.add(new Option(area, area));
   for (const cat of data.categories || []) catSel.add(new Option(CAT_LABELS[cat] || cat, cat));
-  document.getElementById('stamp').textContent =
-    `${data.count} events · updated ${new Date(data.generated).toLocaleString()}`;
 
   const cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
     initialView: window.innerWidth < 640 ? 'listMonth' : 'dayGridMonth',
@@ -199,6 +218,11 @@ fetch('data/events.json').then(r => r.json()).then(data => {
   applyFilters(cal);
   areaSel.onchange = () => applyFilters(cal);
   catSel.onchange = () => applyFilters(cal);
+  let searchTimer;
+  searchBox.oninput = () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => applyFilters(cal), 150);
+  };
 }).catch(err => {
   document.getElementById('calendar').textContent = 'Could not load events. ' + err;
 });
