@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T02:37:15Z",
-  "raw": 3380,
-  "merged": 2605,
-  "published": 2276,
-  "queued": 329,
+  "when": "2026-09-04T02:50:38Z",
+  "raw": 3722,
+  "merged": 2846,
+  "published": 2527,
+  "queued": 319,
   "verification": {
-    "confirmed": 2276,
-    "multi_source": 202,
-    "trusted_single": 2074,
+    "confirmed": 2527,
+    "multi_source": 254,
+    "trusted_single": 2273,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 329
+    "queued": 319
   },
   "sources": [
     {
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 138 events (4 pages)",
-      "events": 138
+      "detail": "simpleview: 130 events (3 pages)",
+      "events": 130
     },
     {
       "source": "visit-ashland",
@@ -285,8 +285,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 206 events",
-      "events": 206
+      "detail": "allevents: 203 events",
+      "events": 203
     },
     {
       "source": "allevents-superior",
@@ -342,6 +342,51 @@
       "source": "norshor-playhouse",
       "detail": "no adapter produced events",
       "events": 0
+    },
+    {
+      "source": "reif-center",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "sacred-heart",
+      "detail": "tribe: 7 events",
+      "events": 7
+    },
+    {
+      "source": "minnesota-ballet",
+      "detail": "tribe: 4 events",
+      "events": 4
+    },
+    {
+      "source": "duluth-art-institute",
+      "detail": "tribe: 85 events",
+      "events": 85
+    },
+    {
+      "source": "ls-railroad-museum",
+      "detail": "tribe: 7 events",
+      "events": 7
+    },
+    {
+      "source": "mn-discovery-center",
+      "detail": "tribe: 21 events",
+      "events": 21
+    },
+    {
+      "source": "wild-state-cider",
+      "detail": "tribe: 23 events",
+      "events": 23
+    },
+    {
+      "source": "castle-danger",
+      "detail": "tribe: 145 events",
+      "events": 145
+    },
+    {
+      "source": "decc",
+      "detail": "decc: 65 events",
+      "events": 61
     }
   ]
 }
