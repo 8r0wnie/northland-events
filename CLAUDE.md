@@ -55,7 +55,24 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 | `chambermaster`    | ChamberMaster / GrowthZone hosted MIC (month calendars → detail-page microdata) |
 
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
-generic chain runs.
+generic chain runs. `allevents` (allevents.in Facebook-events aggregator, 8 DMA
+cities, `category: social`) is pin-only.
+
+## Verification & the review queue (`scraper/verify.py`)
+
+After scraping, events are fuzzy-grouped ("same real-world event" = title
+similarity + date ±1d + place). A merged event is **confirmed** — published —
+when it has 2+ sources, or one `trust: high` source (default for everything
+except `category: social`/`aggregator`). A merged event with a single low-trust
+source is **held for review**: it stays out of `events.json` until
+`moderation/decisions.csv` (key,decision) green-lights (`approve` → published,
+tagged "reviewed") or drops it (`reject`).
+
+- `site/data/review_queue.json` — pending items (written each run)
+- `site/data/decisions.csv` — published copy of `moderation/decisions.csv`
+- `site/review.html` — passphrase-gated admin page (sha256 in the file — the
+  default is `northland-admin`, change it); Approve/Reject/Skip each item, Export
+  writes back the full `moderation/decisions.csv` to commit.
 
 **Government sites:** all 62 triaged — 42 `status: active` with a pinned
 platform, 20 `status: no-calendar` (each with a note: Weebly/Wix/Joomla, 403

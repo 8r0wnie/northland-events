@@ -21,11 +21,20 @@ class Source:
     platform: str
     status: str
     notes: str = ""
+    trust: str = ""          # high | low — set explicitly, else derived from category
 
     @property
     def target(self) -> str:
         """Where a scrape should start: the events page if known, else the root."""
         return self.events_url or self.url
+
+    @property
+    def trust_tier(self) -> str:
+        """A single event from a 'high' source is trusted; a single event from a
+        'low' source (aggregators, hard-to-verify origins) goes to review."""
+        if self.trust in ("high", "low"):
+            return self.trust
+        return "low" if self.category in ("social", "aggregator") else "high"
 
 
 def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
@@ -43,6 +52,7 @@ def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
             platform=(row.get("platform") or "").strip(),
             status=row.get("status", "todo"),
             notes=row.get("notes", ""),
+            trust=(row.get("trust") or "").strip(),
         ))
     return out
 

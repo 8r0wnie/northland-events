@@ -25,14 +25,11 @@ import fetch
 from registry import load_sources, save_sources, Source
 from adapters import GENERIC, BY_PLATFORM
 from models import Event
+from verify import group_events, classify, load_decisions, append_decisions_seen
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data"
 REPORT_DIR = ROOT / "scraper" / "output"
-
-# When the same event shows up from multiple sources, keep the one whose
-# category earliest in this list "owns" it (dedicated calendars > aggregators).
-SOURCE_PRIORITY = ["tourism", "news", "chamber", "venue", "gov"]
 
 HORIZON_DAYS = 200
 
@@ -49,19 +46,6 @@ def scrape_source(source: Source) -> tuple[list[Event], str]:
         if result.ok and result.events:
             return result.events, f"{adapter.name}: {result.detail}"
     return [], "no adapter produced events"
-
-
-def dedup(events: list[Event], sources: dict[str, Source]) -> list[Event]:
-    def rank(e: Event) -> tuple:
-        src = sources.get(e.source_id)
-        cat_rank = SOURCE_PRIORITY.index(src.category) if src and src.category in SOURCE_PRIORITY else 99
-        richness = sum(bool(x) for x in (e.description, e.image, e.venue, e.price))
-        return (cat_rank, -richness)
-
-    best: dict[str, Event] = {}
-    for e in sorted(events, key=rank):
-        best.setdefault(e.fingerprint, e)
-    return list(best.values())
 
 
 def cmd_scrape(args) -> None:
@@ -89,25 +73,90 @@ def cmd_scrape(args) -> None:
         all_events.extend(events)
         report.append({"source": s.id, "detail": detail, "events": len(events)})
 
-    deduped = dedup(all_events, by_id)
-    deduped.sort(key=lambda e: e.start)
+    # ── cross-source confirmation + review queue ──────────────────────────
+    all_sources = {s.id: s for s in load_sources()}
+    merged = group_events(all_events, all_sources)
+    decisions = load_decisions()
+
+    published: list[dict] = []
+    queue: list[dict] = []
+    stats = {"confirmed": 0, "multi_source": 0, "trusted_single": 0,
+             "reviewed_in": 0, "reviewed_out": 0, "queued": 0}
+
+    for m in sorted(merged, key=lambda x: x.event.start):
+        verdict = classify(m, all_sources)
+        d = m.event.to_dict()
+        d["sources"] = m.source_links
+        d["source_count"] = len(set(m.source_ids))
+
+        if verdict == "confirmed":
+            d["verification"] = "confirmed"
+            stats["confirmed"] += 1
+            stats["multi_source" if d["source_count"] >= 2 else "trusted_single"] += 1
+            published.append(d)
+            continue
+
+        decision = decisions.get(m.key)
+        if decision == "approve":
+            d["verification"] = "reviewed"
+            stats["reviewed_in"] += 1
+            published.append(d)
+        elif decision == "reject":
+            stats["reviewed_out"] += 1
+        else:
+            stats["queued"] += 1
+            queue.append({
+                "key": m.key,
+                "title": d["title"],
+                "start": d["start"],
+                "end": d["end"],
+                "all_day": d["all_day"],
+                "venue": d["venue"],
+                "city": d["city"],
+                "area": d["area"],
+                "category": d["category"],
+                "price": d["price"],
+                "description": d["description"][:600],
+                "image": d["image"],
+                "source": m.source_links[0] if m.source_links else {"name": "", "url": ""},
+            })
+
+    published.sort(key=lambda e: e["start"] or "")
+    queue.sort(key=lambda q: q["start"] or "")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "generated": datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "count": len(deduped),
-        "areas": sorted({e.area for e in deduped if e.area}),
-        "categories": sorted({e.category for e in deduped}),
-        "events": [e.to_dict() for e in deduped],
-    }
-    (DATA_DIR / "events.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    generated = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    (DATA_DIR / "events.json").write_text(json.dumps({
+        "generated": generated,
+        "count": len(published),
+        "areas": sorted({e["area"] for e in published if e["area"]}),
+        "categories": sorted({e["category"] for e in published}),
+        "events": published,
+    }, indent=2), encoding="utf-8")
+    (DATA_DIR / "review_queue.json").write_text(json.dumps({
+        "generated": generated,
+        "count": len(queue),
+        "events": queue,
+    }, indent=2), encoding="utf-8")
+
+    append_decisions_seen(queue, decisions)
+    # publish a read-only copy of the decisions file so review.html (served from
+    # site/) can seed its state from what's already been decided
+    from verify import DECISIONS_PATH
+    if DECISIONS_PATH.exists():
+        (DATA_DIR / "decisions.csv").write_text(
+            DECISIONS_PATH.read_text(encoding="utf-8"), encoding="utf-8")
 
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     (REPORT_DIR / "last_run.json").write_text(json.dumps(
-        {"when": payload["generated"], "raw": len(all_events),
-         "deduped": len(deduped), "sources": report}, indent=2), encoding="utf-8")
+        {"when": generated, "raw": len(all_events), "merged": len(merged),
+         "published": len(published), "queued": len(queue),
+         "verification": stats, "sources": report}, indent=2), encoding="utf-8")
 
-    print(f"\n{len(all_events)} raw → {len(deduped)} after dedup → site/data/events.json")
+    print(f"\n{len(all_events)} raw → {len(merged)} merged → "
+          f"{len(published)} published ({stats['multi_source']} multi-source, "
+          f"{stats['trusted_single']} trusted, {stats['reviewed_in']} admin-approved), "
+          f"{len(queue)} in review queue")
     fetch.shutdown()
 
 

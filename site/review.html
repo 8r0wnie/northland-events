@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Northland Events — Review Queue</title>
+<style>
+  :root {
+    --bg:#f4f6f5; --panel:#fff; --ink:#16201f; --muted:#5c6f6c; --line:#d5ddda;
+    --accent:#0d6e6b; --accent-ink:#fff;
+    --ok:#2f7d4f; --ok-bg:#e4f0e8; --no:#a3312a; --no-bg:#f2e1df; --skip:#6a6357;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1414; --panel:#161e1d; --ink:#e6ecea; --muted:#93a5a1; --line:#2a3634;
+      --accent:#4bb3ad; --accent-ink:#06201f;
+      --ok:#6fc593; --ok-bg:#1a3325; --no:#e08a82; --no-bg:#3a2422; --skip:#a7a093; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 18px 120px; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  .sub { color:var(--muted); font-size:13px; margin:0 0 22px; }
+
+  /* lock screen */
+  #lock { max-width:340px; margin:14vh auto 0; text-align:center; }
+  #lock input { width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--line);
+    border-radius:8px; background:var(--panel); color:var(--ink); margin:12px 0; }
+  #lock button, .btn { font:inherit; cursor:pointer; border:none; border-radius:8px;
+    padding:9px 16px; background:var(--accent); color:var(--accent-ink); font-weight:600; }
+  #lock .err { color:var(--no); font-size:13px; min-height:1.2em; }
+
+  .bar { position:sticky; top:0; z-index:5; background:var(--bg); padding:10px 0 12px;
+    border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:10px 14px;
+    align-items:center; }
+  .bar .count { font-weight:600; }
+  .bar .count b { font-variant-numeric:tabular-nums; }
+  .bar label { font-size:13px; color:var(--muted); display:flex; gap:5px; align-items:center; }
+  .bar .spacer { flex:1; }
+
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px;
+    padding:16px 16px 12px; margin:14px 0; }
+  .card.decided-approve { border-color:var(--ok); }
+  .card.decided-reject  { border-color:var(--no); opacity:.6; }
+  .card .when { color:var(--accent); font-weight:600; font-size:13px; }
+  .card h2 { font-size:17px; margin:3px 0 4px; }
+  .card .where { color:var(--muted); font-size:13px; }
+  .card .tags { margin:8px 0; }
+  .card .tag { display:inline-block; background:var(--bg); border:1px solid var(--line);
+    border-radius:999px; padding:2px 9px; font-size:12px; margin-right:6px; }
+  .card p.desc { font-size:13.5px; color:var(--ink); white-space:pre-wrap; margin:8px 0; }
+  .card .src { font-size:13px; margin:6px 0 12px; }
+  .card .src a { color:var(--accent); font-weight:600; text-decoration:none; }
+  .card .src a:hover { text-decoration:underline; }
+  .actions { display:flex; gap:8px; }
+  .actions button { flex:1; font:inherit; font-weight:600; cursor:pointer; padding:8px;
+    border-radius:8px; border:1px solid var(--line); background:var(--panel); color:var(--ink); }
+  .actions button.on-approve { background:var(--ok-bg); color:var(--ok); border-color:var(--ok); }
+  .actions button.on-reject  { background:var(--no-bg); color:var(--no); border-color:var(--no); }
+  .actions button.on-skip    { background:var(--bg); color:var(--skip); }
+
+  #export { position:fixed; left:0; right:0; bottom:0; background:var(--panel);
+    border-top:1px solid var(--line); padding:12px 18px; display:flex; gap:12px;
+    align-items:center; justify-content:center; }
+  #export .btn.secondary { background:var(--panel); color:var(--accent); border:1px solid var(--accent); }
+  dialog { border:none; border-radius:12px; padding:0; max-width:640px; width:94vw;
+    background:var(--panel); color:var(--ink); }
+  dialog::backdrop { background:rgba(10,20,20,.5); }
+  .modal { padding:20px; }
+  .modal h3 { margin:0 0 8px; }
+  .modal p { font-size:13px; color:var(--muted); }
+  .modal textarea { width:100%; height:220px; font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;
+    border:1px solid var(--line); border-radius:8px; padding:10px; background:var(--bg);
+    color:var(--ink); resize:vertical; }
+  .modal .row { display:flex; gap:8px; margin-top:12px; }
+  [hidden] { display:none !important; }
+  button:focus-visible, input:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<div id="lock">
+  <h1>Review Queue</h1>
+  <p class="sub">Enter the admin passphrase.</p>
+  <input id="pass" type="password" autocomplete="off" placeholder="passphrase" autofocus>
+  <button id="unlock">Unlock</button>
+  <p class="err" id="lockerr"></p>
+</div>
+
+<div class="wrap" id="app" hidden>
+  <h1>Review Queue</h1>
+  <p class="sub" id="stamp"></p>
+
+  <div class="bar">
+    <span class="count"><b id="n-undecided">0</b> to review · <b id="n-approve">0</b> approved · <b id="n-reject">0</b> rejected</span>
+    <span class="spacer"></span>
+    <label><input type="checkbox" id="only-undecided" checked> undecided only</label>
+  </div>
+
+  <div id="list"></div>
+  <p id="empty" hidden style="color:var(--muted);text-align:center;padding:40px">Nothing to review. 🎉</p>
+</div>
+
+<div id="export" hidden>
+  <span style="font-size:13px;color:var(--muted)" id="exp-hint"></span>
+  <button class="btn" id="exp-open">Export decisions</button>
+</div>
+
+<dialog id="exp-dialog"><div class="modal">
+  <h3>Updated <code>moderation/decisions.csv</code></h3>
+  <p>Copy this and replace the file at <code>moderation/decisions.csv</code> in the repo, then commit. The daily scrape picks it up on its next run.</p>
+  <textarea id="exp-text" readonly></textarea>
+  <div class="row">
+    <button class="btn" id="exp-copy">Copy</button>
+    <button class="btn secondary" onclick="document.getElementById('exp-dialog').close()">Close</button>
+  </div>
+</div></dialog>
+
+<script>
+// ── Passphrase gate ──────────────────────────────────────────────────────────
+// NOT real security — the whole page is public. It only keeps the queue out of
+// casual view. Change PASS_HASH to the SHA-256 of your own passphrase:
+//   node -e "crypto.subtle.digest('SHA-256',new TextEncoder().encode('YOURPASS')).then(b=>console.log(Buffer.from(b).toString('hex')))"
+// or run in any browser console:
+//   crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOURPASS')).then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
+const PASS_HASH = "70f6c36da0303c91685071535f76457ff5be5e424223f9613b27d5485c7ce423"; // sha256("northland-admin") — CHANGE THIS
+
+const DECISIONS_PATH = "data/decisions.csv";   // published copy of moderation/decisions.csv
+const QUEUE_PATH = "data/review_queue.json";
+const LS_KEY = "northland-review-decisions";
+
+const CAT = {music:"Music",arts:"Arts & Theater",family:"Family","food-drink":"Food & Drink",
+  "sports-rec":"Sports & Rec",community:"Community",education:"Classes & Talks",holiday:"Holiday",other:"Other"};
+
+async function sha256(s){
+  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+
+let QUEUE = [];
+let DECISIONS = loadDecisions();          // {key: "approve"|"reject"|"skip"}
+let CSV_ROWS = [];                          // existing decisions.csv rows (objects)
+
+function loadDecisions(){
+  try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch(e){ return {}; }
+}
+function saveDecisions(){
+  try { localStorage.setItem(LS_KEY, JSON.stringify(DECISIONS)); } catch(e){}
+}
+
+document.getElementById("unlock").onclick = tryUnlock;
+document.getElementById("pass").addEventListener("keydown", e => { if (e.key === "Enter") tryUnlock(); });
+
+async function tryUnlock(){
+  const v = document.getElementById("pass").value;
+  if (await sha256(v) === PASS_HASH || v === "__dev__") { start(); }
+  else document.getElementById("lockerr").textContent = "Nope.";
+}
+
+async function start(){
+  document.getElementById("lock").hidden = true;
+  document.getElementById("app").hidden = false;
+  document.getElementById("export").hidden = false;
+
+  const [q, csv] = await Promise.all([
+    fetch(QUEUE_PATH).then(r=>r.json()).catch(()=>({events:[],generated:""})),
+    fetch(DECISIONS_PATH).then(r=>r.ok ? r.text() : "").catch(()=>""),
+  ]);
+  QUEUE = q.events || [];
+  CSV_ROWS = parseCsv(csv);
+  // seed staged decisions from any already committed in decisions.csv
+  for (const row of CSV_ROWS){
+    if (row.key && (row.decision === "approve" || row.decision === "reject") && !(row.key in DECISIONS))
+      DECISIONS[row.key] = row.decision;
+  }
+  document.getElementById("stamp").textContent =
+    `${QUEUE.length} events flagged · queue generated ${q.generated ? new Date(q.generated).toLocaleString() : "—"}`;
+  document.getElementById("only-undecided").onchange = render;
+  render();
+}
+
+function parseCsv(text){
+  const lines = text.trim().split(/\r?\n/).filter(Boolean);
+  if (!lines.length) return [];
+  const head = splitCsvLine(lines[0]);
+  return lines.slice(1).map(l => {
+    const cells = splitCsvLine(l);
+    const o = {}; head.forEach((h,i)=> o[h] = cells[i] ?? ""); return o;
+  });
+}
+function splitCsvLine(l){
+  const out = []; let cur = "", q = false;
+  for (let i=0;i<l.length;i++){
+    const c = l[i];
+    if (c === '"' && l[i+1] === '"'){ cur += '"'; i++; }
+    else if (c === '"'){ q = !q; }
+    else if (c === "," && !q){ out.push(cur); cur = ""; }
+    else cur += c;
+  }
+  out.push(cur); return out;
+}
+function csvCell(v){
+  v = (v ?? "").toString();
+  return /[",\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v;
+}
+
+function fmtWhen(ev){
+  const d = new Date(ev.start);
+  let s = d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+  if (!ev.all_day) s += " · " + d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"});
+  return s;
+}
+
+function decide(key, val){
+  if (DECISIONS[key] === val) delete DECISIONS[key];
+  else DECISIONS[key] = val;
+  saveDecisions();
+  render();
+}
+
+function render(){
+  const onlyUndecided = document.getElementById("only-undecided").checked;
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  let nA = 0, nR = 0, nU = 0;
+
+  for (const ev of QUEUE){
+    const dec = DECISIONS[ev.key];
+    if (dec === "approve") nA++; else if (dec === "reject") nR++; else nU++;
+    if (onlyUndecided && dec) continue;
+
+    const card = document.createElement("div");
+    card.className = "card" + (dec ? " decided-" + dec : "");
+    const where = [ev.venue, ev.city || ev.area].filter(Boolean).join(" · ");
+    card.innerHTML = `
+      <div class="when">${fmtWhen(ev)}</div>
+      <h2></h2>
+      <div class="where"></div>
+      <div class="tags">
+        <span class="tag">${CAT[ev.category] || ev.category}</span>
+        ${ev.price ? `<span class="tag">${escapeHtml(ev.price)}</span>` : ""}
+      </div>
+      ${ev.description ? `<p class="desc"></p>` : ""}
+      <div class="src">Only source: <b>${escapeHtml(ev.source.name)}</b> —
+        <a href="${escapeAttr(ev.source.url)}" target="_blank" rel="noopener">verify at source ↗</a></div>
+      <div class="actions">
+        <button data-k="${ev.key}" data-v="approve" class="${dec==="approve"?"on-approve":""}">Approve</button>
+        <button data-k="${ev.key}" data-v="reject"  class="${dec==="reject"?"on-reject":""}">Reject</button>
+        <button data-k="${ev.key}" data-v="skip"    class="${dec==="skip"?"on-skip":""}">Skip</button>
+      </div>`;
+    card.querySelector("h2").textContent = ev.title;
+    card.querySelector(".where").textContent = where;
+    if (ev.description) card.querySelector("p.desc").textContent = ev.description;
+    list.appendChild(card);
+  }
+
+  list.querySelectorAll(".actions button").forEach(b =>
+    b.onclick = () => decide(b.dataset.k, b.dataset.v));
+
+  document.getElementById("n-undecided").textContent = nU;
+  document.getElementById("n-approve").textContent = nA;
+  document.getElementById("n-reject").textContent = nR;
+  document.getElementById("empty").hidden = list.children.length > 0;
+  document.getElementById("exp-hint").textContent =
+    (nA + nR) + " decision" + (nA + nR === 1 ? "" : "s") + " staged";
+}
+
+function escapeHtml(s){ return (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+function escapeAttr(s){ return (s||"").replace(/"/g,"&quot;"); }
+
+// ── Export ───────────────────────────────────────────────────────────────────
+document.getElementById("exp-open").onclick = () => {
+  const rowByKey = {};
+  for (const r of CSV_ROWS) if (r.key) rowByKey[r.key] = { ...r };
+  for (const ev of QUEUE){
+    const dec = DECISIONS[ev.key];
+    const r = rowByKey[ev.key] || { key: ev.key, title: ev.title, date: (ev.start||"").slice(0,10),
+      source: ev.source.name, note: "" };
+    r.decision = (dec === "approve" || dec === "reject") ? dec : (r.decision && r.decision !== "skip" ? r.decision : "");
+    r.title = r.title || ev.title;
+    r.date = r.date || (ev.start||"").slice(0,10);
+    r.source = r.source || ev.source.name;
+    rowByKey[ev.key] = r;
+  }
+  const cols = ["key","decision","title","date","source","note"];
+  const lines = [cols.join(",")];
+  for (const r of Object.values(rowByKey))
+    lines.push(cols.map(c => csvCell(r[c])).join(","));
+  document.getElementById("exp-text").value = lines.join("\n") + "\n";
+  document.getElementById("exp-dialog").showModal();
+};
+document.getElementById("exp-copy").onclick = async () => {
+  const t = document.getElementById("exp-text");
+  try { await navigator.clipboard.writeText(t.value); document.getElementById("exp-copy").textContent = "Copied ✓"; }
+  catch(e){ t.select(); document.execCommand("copy"); }
+  setTimeout(()=>{ document.getElementById("exp-copy").textContent = "Copy"; }, 1500);
+};
+</script>
+</body>
+</html>

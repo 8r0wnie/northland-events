@@ -113,6 +113,16 @@ function openDetail(ev) {
     const a = document.createElement('a'); a.className = 'src'; a.href = ev.url; a.target = '_blank';
     a.rel = 'noopener'; a.textContent = 'Event details ↗'; b.appendChild(a);
   }
+  const src = document.createElement('div'); src.className = 'meta';
+  const list = (ev.sources || []).map(s => s.name).filter(Boolean);
+  if (ev.verification === 'reviewed') {
+    src.textContent = 'Added after manual review';
+  } else if (list.length >= 2) {
+    src.textContent = 'Confirmed by ' + list.length + ' sources: ' + list.join(', ');
+  } else if (list.length === 1) {
+    src.textContent = 'Source: ' + list[0];
+  }
+  if (src.textContent) b.appendChild(src);
   detail.showModal();
 }
 
