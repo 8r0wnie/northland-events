@@ -21,11 +21,17 @@
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
   .filters select { padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
                     background: var(--panel); color: var(--ink); font-size: 14px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 14px; font-size: 12.5px; color: var(--muted); }
+  .legend .item { display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+                   padding: 2px 4px; border-radius: 6px; }
+  .legend .item.off { opacity: .35; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
   #calendar { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
               padding: 12px; }
   .fc .fc-button-primary { background: var(--accent); border-color: var(--accent); }
   .fc .fc-button-primary:not(:disabled).fc-button-active { background: #17504d; border-color: #17504d; }
-  .fc-event { cursor: pointer; }
+  .fc-event { cursor: pointer; border-width: 0 !important; }
+  .fc-daygrid-event, .fc-timegrid-event, .fc-list-event-dot { border: none !important; }
   .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
   dialog { border: none; border-radius: 12px; padding: 0; max-width: 460px; width: 92vw;
            box-shadow: 0 12px 40px rgba(0,0,0,.25); }
@@ -39,6 +45,7 @@
                 text-decoration: none; }
   .card .tag { display: inline-block; background: var(--bg); border: 1px solid var(--line);
                border-radius: 999px; padding: 2px 9px; font-size: 12px; margin-right: 6px; }
+  .card .tag.cat { border: none; font-weight: 600; }
   .card button.close { position: absolute; top: 10px; right: 12px; border: none; background: none;
                        font-size: 22px; cursor: pointer; color: var(--muted); }
   @media (prefers-color-scheme: dark) {
@@ -59,6 +66,7 @@
     <select id="area"><option value="">All areas</option></select>
     <select id="category"><option value="">All categories</option></select>
   </div>
+  <div class="legend" id="legend"></div>
   <div id="calendar"></div>
   <p class="meta" id="stamp"></p>
 </div>
@@ -75,6 +83,18 @@ const CAT_LABELS = {
   "sports-rec":"Sports & Rec","community":"Community","education":"Classes & Talks",
   "holiday":"Holiday","other":"Other"
 };
+// The five categories people actually browse by get their own distinct color;
+// everything more procedural (meetings, classes, seasonal notices, catch-all)
+// shares one neutral so it recedes instead of adding a sixth-through-ninth hue.
+const CAT_COLORS = {
+  "music":      { bg: "#E69F00", text: "#1a1206" },
+  "sports-rec": { bg: "#009E73", text: "#04150f" },
+  "arts":       { bg: "#CC79A7", text: "#1f0e18" },
+  "family":     { bg: "#56B4E9", text: "#071b26" },
+  "food-drink": { bg: "#D55E00", text: "#1a0c00" },
+};
+const CAT_OTHER = { bg: "#64748b", text: "#ffffff" };
+function catColor(cat) { return CAT_COLORS[cat] || CAT_OTHER; }
 
 let ALL = [];
 const areaSel = document.getElementById('area');
@@ -105,7 +125,10 @@ function openDetail(ev) {
   const where = document.createElement('div'); where.className = 'where';
   where.textContent = [ev.venue, ev.city || ev.area].filter(Boolean).join(' · '); b.appendChild(where);
   const tags = document.createElement('div');
-  if (ev.category) tags.innerHTML += `<span class="tag">${CAT_LABELS[ev.category]||ev.category}</span>`;
+  if (ev.category) {
+    const c = catColor(ev.category);
+    tags.innerHTML += `<span class="tag cat" style="background:${c.bg};color:${c.text}">${CAT_LABELS[ev.category]||ev.category}</span>`;
+  }
   if (ev.price) tags.innerHTML += `<span class="tag">${ev.price}</span>`;
   b.appendChild(tags);
   if (ev.description) { const p = document.createElement('p'); p.textContent = ev.description; b.appendChild(p); }
@@ -131,9 +154,31 @@ function applyFilters(cal) {
   cal.removeAllEvents();
   cal.addEventSource(ALL
     .filter(e => (!a || e.area === a) && (!c || e.category === c))
-    .map(e => ({
-      title: e.title, start: e.start, end: e.end, allDay: e.all_day, extendedProps: e
-    })));
+    .map(e => {
+      const col = catColor(e.category);
+      return {
+        title: e.title, start: e.start, end: e.end, allDay: e.all_day, extendedProps: e,
+        backgroundColor: col.bg, borderColor: col.bg, textColor: col.text,
+      };
+    }));
+  renderLegend();
+}
+
+function renderLegend(categories) {
+  const legend = document.getElementById('legend');
+  const cats = categories || Array.from(catSel.options).slice(1).map(o => o.value);
+  legend.innerHTML = '';
+  for (const cat of cats) {
+    const col = catColor(cat);
+    const item = document.createElement('span');
+    item.className = 'item' + (catSel.value && catSel.value !== cat ? ' off' : '');
+    item.innerHTML = `<span class="dot" style="background:${col.bg}"></span>${CAT_LABELS[cat] || cat}`;
+    item.onclick = () => {
+      catSel.value = (catSel.value === cat) ? '' : cat;
+      catSel.dispatchEvent(new Event('change'));
+    };
+    legend.appendChild(item);
+  }
 }
 
 fetch('data/events.json').then(r => r.json()).then(data => {

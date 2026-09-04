@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T15:09:20Z",
-  "raw": 3745,
-  "merged": 2858,
-  "published": 2527,
-  "queued": 331,
+  "when": "2026-09-04T15:31:50Z",
+  "raw": 3746,
+  "merged": 2860,
+  "published": 2530,
+  "queued": 330,
   "verification": {
-    "confirmed": 2527,
-    "multi_source": 257,
-    "trusted_single": 2270,
+    "confirmed": 2530,
+    "multi_source": 254,
+    "trusted_single": 2276,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 331
+    "queued": 330
   },
   "sources": [
     {
@@ -31,7 +31,7 @@
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 33 events via https://superiorchamber.org",
-      "events": 30
+      "events": 31
     },
     {
       "source": "hibbing-chamber",
@@ -65,13 +65,13 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
+      "detail": "tribe: 77 events",
       "events": 77
     },
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 526
+      "events": 527
     },
     {
       "source": "hermantown-mn",
@@ -96,7 +96,7 @@
     {
       "source": "eveleth-mn",
       "detail": "govoffice: 9 events",
-      "events": 8
+      "events": 9
     },
     {
       "source": "chisholm-mn",
@@ -285,13 +285,13 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 210 events",
-      "events": 210
+      "detail": "allevents: 207 events",
+      "events": 207
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 138 events",
-      "events": 138
+      "detail": "allevents: 139 events",
+      "events": 139
     },
     {
       "source": "allevents-cloquet",
@@ -360,7 +360,7 @@
     },
     {
       "source": "duluth-art-institute",
-      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
+      "detail": "tribe: 84 events",
       "events": 84
     },
     {

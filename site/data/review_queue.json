@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T15:09:20Z",
-  "count": 331,
+  "generated": "2026-09-04T15:31:50Z",
+  "count": 330,
   "events": [
     {
       "key": "adc77ce1bbe5c04b",
@@ -18,6 +18,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/trivia/200030557191210"
+      }
+    },
+    {
+      "key": "078242786963a1fc",
+      "title": "Canta Conmigo (Spanish music class for ages 0-12 + Caregivers)",
+      "start": "2026-09-04T00:00:00",
+      "end": "2026-09-04T00:00:00",
+      "all_day": true,
+      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy80YzNiZGE1NDhlMTJjZjU1NDY4ODZiMDU4MWE2MjQyZTk5NDczZDlhOTExNTQ3MmI2MjI5MjJlOGYwNDJmY2UyLXJpbWctdzEwODAtaDEzNTAtZGNlOGU4ZDgtZ21pcj92PTE3ODgxOTAyNzk.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/canta-conmigo-spanish-music-class-for-ages-0-12-caregivers/200030637319019"
       }
     },
     {
@@ -1292,7 +1310,7 @@
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODg0OTE2Njg.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODc3OTcyMzY.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/duluth-east-vs-brainerd-football-9-11-2026/200030581964322"
@@ -1443,24 +1461,6 @@
       }
     },
     {
-      "key": "e46c9452535c5659",
-      "title": "Faith Full Flea Market",
-      "start": "2026-09-11T00:00:00",
-      "end": "2026-09-12T00:00:00",
-      "all_day": true,
-      "venue": "1001 5th Street, International Falls, MN, United States, Minnesota 56649",
-      "city": "International Falls",
-      "area": "International Falls",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDQwNjYyMTQxMWJmNjg4YTk5Zjc4MjJhZGRkNjlkZmIyODM5YzY3ZWQ2OGFhMDk1ODMwYmYxMDU2NWNlOTBmZi1yaW1nLXcxMjAwLWg2MjgtZGNmOGY4ZTgtZ21pcj92PTE3ODg0ODA0MDU.avif",
-      "source": {
-        "name": "AllEvents \u2014 International Falls",
-        "url": "https://allevents.in/international-falls/faith-full-flea-market/200030655368845"
-      }
-    },
-    {
       "key": "9d1622989fc2e89f",
       "title": "Voyageurs Benefit Bash",
       "start": "2026-09-11T00:00:00",
@@ -1476,6 +1476,24 @@
       "source": {
         "name": "AllEvents \u2014 International Falls",
         "url": "https://allevents.in/international-falls/voyageurs-benefit-bash/200030539132603"
+      }
+    },
+    {
+      "key": "e46c9452535c5659",
+      "title": "Faith Full Flea Market",
+      "start": "2026-09-11T00:00:00",
+      "end": "2026-09-12T00:00:00",
+      "all_day": true,
+      "venue": "1001 5th Street, International Falls, MN, United States, Minnesota 56649",
+      "city": "International Falls",
+      "area": "International Falls",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDQwNjYyMTQxMWJmNjg4YTk5Zjc4MjJhZGRkNjlkZmIyODM5YzY3ZWQ2OGFhMDk1ODMwYmYxMDU2NWNlOTBmZi1yaW1nLXcxMjAwLWg2MjgtZGNmOGY4ZTgtZ21pcj92PTE3ODg0ODA0MDU.avif",
+      "source": {
+        "name": "AllEvents \u2014 International Falls",
+        "url": "https://allevents.in/international-falls/faith-full-flea-market/200030655368845"
       }
     },
     {
@@ -2361,24 +2379,6 @@
       }
     },
     {
-      "key": "5551379d72f99d43",
-      "title": "Open Mic hosted by Severio Mancieri",
-      "start": "2026-09-16T00:00:00",
-      "end": "2026-09-16T00:00:00",
-      "all_day": true,
-      "venue": "Wussow's Concert Cafe",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lOTFlZjk2ODY0ZjM2OTk2YmZjOWI5Y2M2OTc2ZDc1ZDZjNGM3MDhhMDMxMThjMTBmNDE4NTIzNWIzMGE0OWQzLXJpbWctdzk2MC1oOTYwLWRjMDgwODA4LWdtaXI_dj0xNzg4MTkwMjcw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/open-mic-hosted-by-severio-mancieri/200030637318810"
-      }
-    },
-    {
       "key": "c49b0a6c0a654841",
       "title": "Long-Form Improv Foundations",
       "start": "2026-09-16T00:00:00",
@@ -2934,24 +2934,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/30th-annual-northshore-inline-marathon/200029083248255"
-      }
-    },
-    {
-      "key": "9fe5244a2b2060ba",
-      "title": "Glen Gilderman Retirement Party",
-      "start": "2026-09-19T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8yZGFlMDA4YzY0ZGI1MWEzMWUxMzI4OTg1ZjNmYzcxZDRlMjQ5OThkMjE1YzVlZjM2ZjM5ZjJjMzk5MjAzNDBkLXJpbWctdzc5Mi1oMTAyNC1kYzc4Nzg3OC1nbWlyP3Y9MTc4NzkyMzM4MQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/glen-gilderman-retirement-party/200030588465128"
       }
     },
     {
@@ -3564,24 +3546,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/lunch-and-leaves-cruise-on-the-vista-fleet/200030588086810"
-      }
-    },
-    {
-      "key": "0b36a505c3211c00",
-      "title": "Annual Autumn Market!",
-      "start": "2026-09-26T00:00:00",
-      "end": "2026-09-26T00:00:00",
-      "all_day": true,
-      "venue": "601 N 56th Ave W, 55807",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9hMzc0MWQyMmFhODg4MTEwMzRlNTQ1NDk1ZWFkYmY1ZDFmYzg4YzU0MTg4ZThmNzRmNGNhYzM0NDFlOGM3MjRmLXJpbWctdzEyMDAtaDY3NS1kYzg4OTg4OC1nbWlyP3Y9MTc4ODA2NjUzNQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/annual-autumn-market/200030602762927"
       }
     },
     {
@@ -5040,6 +5004,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/bemidji-state-beavers-at-minnesota-duluth-bulldogs-hockey/200030550879410"
+      }
+    },
+    {
+      "key": "5a4ec8ffd95d555c",
+      "title": "BTL & Sterling Silver Studio @ the Superior Spooktacular Parade",
+      "start": "2026-10-23T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Superior Wisc",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8yMzgyZjAwMDM1MTYyMzU5MTc5N2ZiOWI5NmI5MzQ4YWIyMmYwMWQ5NTMwZDAwYzMxZjEyNzZlODdiOWFhMjY1LXJpbWctdzgwOC1oMTAxNC1kYzg4ODg4OC1nbWlyP3Y9MTc4ODIxNDg4Nw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/btl-and-sterling-silver-studio-the-superior-spooktacular-parade/200030468421645"
       }
     },
     {
