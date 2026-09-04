@@ -1,6 +1,7 @@
 """HTTP + optional headless-browser fetching, with per-domain politeness."""
 from __future__ import annotations
 
+import random
 import time
 import threading
 from typing import Optional
@@ -15,6 +16,15 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 )
+# Tried on retry — some WAFs / rate limiters key on the exact UA string, and a
+# GitHub Actions IP hammering with one UA gets throttled where a browser doesn't.
+_RETRY_UA = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+    "(KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
+]
+RETRIES = 2                      # extra attempts after the first
+RETRYABLE = {403, 429, 500, 502, 503, 504}
 
 # Minimum seconds between requests to the same host.
 CRAWL_DELAY = 2.0
@@ -51,15 +61,32 @@ def client() -> httpx.Client:
     return _client
 
 
+def _request(method: str, url: str, **kwargs) -> Optional[httpx.Response]:
+    headers = dict(kwargs.pop("headers", {}) or {})
+    last_exc: Optional[Exception] = None
+    for attempt in range(RETRIES + 1):
+        _throttle(url)
+        if attempt:
+            time.sleep(min(8.0, 1.5 * (2 ** attempt)) + random.uniform(0, 1.2))
+            headers["User-Agent"] = _RETRY_UA[(attempt - 1) % len(_RETRY_UA)]
+        try:
+            r = client().request(method, url, headers=headers or None, **kwargs)
+        except (httpx.TransportError, httpx.InvalidURL) as exc:
+            last_exc = exc                      # connection/timeout — worth a retry
+            continue
+        if r.is_success:
+            if attempt:
+                print(f"    · recovered {url} on retry {attempt}")
+            return r
+        last_exc = httpx.HTTPStatusError(f"HTTP {r.status_code}", request=r.request, response=r)
+        if r.status_code not in RETRYABLE:
+            break                               # 404/401/... won't change on retry
+    print(f"    ! {method} failed {url}: {last_exc}")
+    return None
+
+
 def get(url: str, **kwargs) -> Optional[httpx.Response]:
-    _throttle(url)
-    try:
-        r = client().get(url, **kwargs)
-        r.raise_for_status()
-        return r
-    except (httpx.HTTPError, httpx.InvalidURL) as exc:
-        print(f"    ! GET failed {url}: {exc}")
-        return None
+    return _request("GET", url, **kwargs)
 
 
 def get_text(url: str, **kwargs) -> Optional[str]:
@@ -68,14 +95,8 @@ def get_text(url: str, **kwargs) -> Optional[str]:
 
 
 def post_text(url: str, **kwargs) -> Optional[str]:
-    _throttle(url)
-    try:
-        r = client().post(url, **kwargs)
-        r.raise_for_status()
-        return r.text
-    except (httpx.HTTPError, httpx.InvalidURL) as exc:
-        print(f"    ! POST failed {url}: {exc}")
-        return None
+    r = _request("POST", url, **kwargs)
+    return r.text if r is not None else None
 
 
 # ── Headless browser (lazy; only spun up when an adapter asks for it) ──────────

@@ -204,3 +204,16 @@ class Event:
         d["end"] = self.end.isoformat() if self.end else None
         d["fingerprint"] = self.fingerprint
         return d
+
+    @classmethod
+    def from_dict(cls, d: dict) -> Optional["Event"]:
+        start = parse_dt(d.get("start"))
+        if not start:
+            return None
+        ev = cls(source_id=d.get("source_id", ""), title=d.get("title", ""), start=start)
+        ev.end = parse_dt(d.get("end"))
+        for f in ("all_day", "venue", "city", "state", "area", "address", "url",
+                  "description", "category", "price", "image"):
+            if d.get(f) is not None:
+                setattr(ev, f, d[f])
+        return ev

@@ -30,8 +30,10 @@ from verify import group_events, classify, load_decisions, append_decisions_seen
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data"
 REPORT_DIR = ROOT / "scraper" / "output"
+CACHE_PATH = REPORT_DIR / "source_cache.json"
 
 HORIZON_DAYS = 200
+CACHE_MAX_AGE_DAYS = 6      # carry a source's last-good events forward this long
 
 
 def adapters_for(source: Source):
@@ -48,6 +50,23 @@ def scrape_source(source: Source) -> tuple[list[Event], str]:
     return [], "no adapter produced events"
 
 
+def _load_cache() -> dict:
+    try:
+        return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def _save_cache(cache: dict) -> None:
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+
+
+def _age_days(entry: dict) -> float:
+    when = datetime.fromisoformat(entry["when"])
+    return (datetime.now() - when).total_seconds() / 86400
+
+
 def cmd_scrape(args) -> None:
     sources = load_sources()
     if args.only:
@@ -60,18 +79,41 @@ def cmd_scrape(args) -> None:
         print("No matching sources (need status: active, or pass --only).")
         return
 
-    by_id = {s.id: s for s in sources}
     all_events: list[Event] = []
     report = []
-    horizon = datetime.now() + timedelta(days=HORIZON_DAYS)
+    now = datetime.now()
+    horizon = now + timedelta(days=HORIZON_DAYS)
+
+    cache = _load_cache()
+    carried = 0
 
     for s in sources:
         print(f"→ {s.id} ({s.name})")
         events, detail = scrape_source(s)
-        events = [e for e in events if e.start <= horizon and e.start >= datetime.now() - timedelta(days=1)]
+        events = [e for e in events if now - timedelta(days=1) <= e.start <= horizon]
+
+        if events:
+            cache[s.id] = {"when": now.isoformat(timespec="seconds"),
+                           "events": [e.to_dict() for e in events]}
+        else:
+            stale = cache.get(s.id)
+            age_days = _age_days(stale) if stale else 999
+            if stale and age_days <= CACHE_MAX_AGE_DAYS:
+                revived = [Event.from_dict(d) for d in stale["events"]]
+                events = [e for e in revived if e and now - timedelta(days=1) <= e.start <= horizon]
+                for e in events:
+                    e.source_id = s.id
+                if events:
+                    carried += 1
+                    detail += f"  [carried forward from {stale['when'][:10]}]"
+
         print(f"   {detail} → {len(events)} in window")
         all_events.extend(events)
         report.append({"source": s.id, "detail": detail, "events": len(events)})
+
+    _save_cache(cache)
+    if carried:
+        print(f"   ({carried} source(s) carried forward from cache after an empty scrape)")
 
     # ── cross-source confirmation + review queue ──────────────────────────
     all_sources = {s.id: s for s in load_sources()}
