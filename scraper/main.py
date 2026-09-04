@@ -26,6 +26,7 @@ from registry import load_sources, save_sources, Source
 from adapters import GENERIC, BY_PLATFORM
 from models import Event
 from verify import group_events, classify, load_decisions, append_decisions_seen
+from tabling import classify_tabling
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data"
@@ -130,6 +131,8 @@ def cmd_scrape(args) -> None:
         d = m.event.to_dict()
         d["sources"] = m.source_links
         d["source_count"] = len(set(m.source_ids))
+        d["tabling_reasons"] = classify_tabling(d["title"], d.get("description", ""))
+        d["tabling"] = bool(d["tabling_reasons"])
 
         if verdict == "confirmed":
             d["verification"] = "confirmed"
