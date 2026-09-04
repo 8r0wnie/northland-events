@@ -57,10 +57,20 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 | `sidearm`          | college athletics — Sidearm public iCal `<host>/calendar.ashx/calendar.ics`, home games only |
 | `ovationtix`       | OvationTix/AudienceView venues — headless browser captures `api.ovationtix.com` production JSON |
 | `decc`             | The DECC — WordPress swim-events-calendar `.event-list-item` blocks |
+| `eventscalendar`   | Wix "Events Calendar" app — headless browser captures `broker.eventscalendar.co` feeds |
+| `spektrix`         | Spektrix ticketing — `system.spektrix.com/<client>/api/v3/events`; events_url `spektrix:<client>` |
 
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
 generic chain runs. `allevents` (allevents.in Facebook-events aggregator, 8 DMA
 cities, `category: social`) is pin-only.
+
+## CI resilience
+
+`fetch` retries `403/429/5xx` + connection errors twice (backoff + jitter, UA
+rotation) — non-retryable statuses fail fast. `scraper/output/source_cache.json`
+(committed) holds each source's last-good events; a source that scrapes empty is
+**carried forward** up to 6 days so a transient CI failure doesn't drop it.
+`scrape --only` prints a summary and does **not** write `site/data/`.
 
 ## Verification & the review queue (`scraper/verify.py`)
 
