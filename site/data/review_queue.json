@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T03:00:34Z",
-  "count": 320,
+  "generated": "2026-09-04T08:39:46Z",
+  "count": 325,
   "events": [
     {
       "key": "adc77ce1bbe5c04b",
@@ -72,6 +72,24 @@
       "source": {
         "name": "AllEvents \u2014 Grand Rapids",
         "url": "https://allevents.in/grand-falls-windsor/grand-falls-big-game/200030640786723"
+      }
+    },
+    {
+      "key": "d0fd507b7720a6a8",
+      "title": "Ghosted - A M**der Mystery Dinner Theatre",
+      "start": "2026-09-04T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Fitger's Complex (The Spirit of the North Theater)",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8yODgxZWNlZTc2MGM1YTI0N2UyYjg5Y2E0OGNhODhjZjkzN2RkNTJlOGVjZDQ2NWI4YmVjNWYyNjEyM2QxY2MyLXJpbWctdzEyMDAtaDUwNS1kYzA4MDgwOC1nbWlyLnBuZz92PTE3ODcwODU0ODU.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/ghosted-a-mder-mystery-dinner-theatre/100001997939218987"
       }
     },
     {
@@ -1083,6 +1101,60 @@
       }
     },
     {
+      "key": "ab5941efb307d784",
+      "title": "Lake Superior Live Music Cruise",
+      "start": "2026-09-10T00:00:00",
+      "end": "2026-09-10T00:00:00",
+      "all_day": true,
+      "venue": "323 Harbor Dr, Duluth, MN, United States, Minnesota 55802",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "music",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82OWFhZTVkNjIzYTJjYWE5M2Q5OTBkNjkyNzRkMTc4NjRhMTFlYzY5ZmVkZmM5Njk0Nzk4YTg5YzEzYWU0MWIxLXJpbWctdzEyMDAtaDE4MDAtZGM0ODc4OTgtZ21pcj92PTE3ODg1MDYwMjQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/lake-superior-live-music-cruise/200030657381045"
+      }
+    },
+    {
+      "key": "efd144baeccfa3b9",
+      "title": "NAMI Connection Support Group",
+      "start": "2026-09-10T00:00:00",
+      "end": "2026-09-10T00:00:00",
+      "all_day": true,
+      "venue": "Trinity Lutheran Church",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hNDUzNzdjMzQwOTdkNThkY2JlNWIwNzRjODIyYTE1ZmI4Njc1NTE0MGEwNDM0NTQwZjMwNzYyZjg1MTUyZTQyLXJpbWctdzExNjgtaDQ5NC1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODUwNjAyNQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/nami-connection-support-group/200030657380945"
+      }
+    },
+    {
+      "key": "fb72764fa9f1497e",
+      "title": "RavenFed is Open!",
+      "start": "2026-09-10T00:00:00",
+      "end": "2026-09-10T00:00:00",
+      "all_day": true,
+      "venue": "30 N 58th Ave W, Duluth, MN, United States, Minnesota 55807",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hNTMxYmEwNTU0NGZjNzY1YzgxYTY4OTg2ZTAwYzQwYmFiMTQyMGJhNjQxZGQ3M2U1NGNkZmRkMGRjNjljMzkxLXJpbWctdzEyMDAtaDY3NS1kYzQ4NTg2OC1nbWlyP3Y9MTc4ODUwNjAyOQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/ravenfed-is-open/200030657381249"
+      }
+    },
+    {
       "key": "1b99976662ff5300",
       "title": "Denfeld Jazz",
       "start": "2026-09-10T00:00:00",
@@ -1256,7 +1328,7 @@
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODc3OTcyMzY.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODg0OTE2Njg.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/duluth-east-vs-brainerd-football-9-11-2026/200030581964322"
@@ -1422,6 +1494,24 @@
       "source": {
         "name": "AllEvents \u2014 International Falls",
         "url": "https://allevents.in/international-falls/voyageurs-benefit-bash/200030539132603"
+      }
+    },
+    {
+      "key": "e46c9452535c5659",
+      "title": "Faith Full Flea Market",
+      "start": "2026-09-11T00:00:00",
+      "end": "2026-09-12T00:00:00",
+      "all_day": true,
+      "venue": "1001 5th Street, International Falls, MN, United States, Minnesota 56649",
+      "city": "International Falls",
+      "area": "International Falls",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDQwNjYyMTQxMWJmNjg4YTk5Zjc4MjJhZGRkNjlkZmIyODM5YzY3ZWQ2OGFhMDk1ODMwYmYxMDU2NWNlOTBmZi1yaW1nLXcxMjAwLWg2MjgtZGNmOGY4ZTgtZ21pcj92PTE3ODg0ODA0MDU.avif",
+      "source": {
+        "name": "AllEvents \u2014 International Falls",
+        "url": "https://allevents.in/international-falls/faith-full-flea-market/200030655368845"
       }
     },
     {
@@ -2109,24 +2199,6 @@
       }
     },
     {
-      "key": "1cb2d70ec3ea1da1",
-      "title": "Public Dinner for Adult Delegation from Japan",
-      "start": "2026-09-15T00:00:00",
-      "end": "2026-09-15T00:00:00",
-      "all_day": true,
-      "venue": "Duluth Entertainment Convention Center",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "food-drink",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wNDk5MmFmZGY3MjdkMmNmMTE1YjA3YzY3NWIyOTgxODI3MDU1OWQ4Y2I5N2I2ZjUwMjg5MDJlZmM5ZTNiOGY2LXJpbWctdzEyMDAtaDYwMC1kYzA4MTg0OC1nbWlyLmpwZz92PTE3ODYyNDQ1MjQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/public-dinner-for-adult-delegation-from-japan/100001997151309328"
-      }
-    },
-    {
       "key": "109ed67ad6f20933",
       "title": "Mark Making in Watercolors: Pouring It On",
       "start": "2026-09-15T00:00:00",
@@ -2678,7 +2750,7 @@
       "category": "food-drink",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84ZWJhZjU1ZjYyYzMyOGZjYzUzZmExYmU4MjA3M2NkNmI3ZGMyNDIyZGFmNjE3OTFkZWZjNWE0OTkzZDg5ODA1LXJpbWctdzEyMDAtaDE1NTMtZGNmOGQ4YjgtZ21pcj92PTE3ODc0NDg1MTU.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84ZWJhZjU1ZjYyYzMyOGZjYzUzZmExYmU4MjA3M2NkNmI3ZGMyNDIyZGFmNjE3OTFkZWZjNWE0OTkzZDg5ODA1LXJpbWctdzEyMDAtaDE1NTMtZGNmOGQ4YjgtZ21pcj92PTE3ODg0OTg4MDQ.avif",
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/maranatha-craft-and-vendor-show-and-bake-sale/200030602318835"
@@ -2718,24 +2790,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/30th-annual-northshore-inline-marathon/200029083248255"
-      }
-    },
-    {
-      "key": "ead0afcb574b2439",
-      "title": "Bach to Pop Strings at the DSSO",
-      "start": "2026-09-19T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Duluth Entertainment Convention Center",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hM2YzZTFjYjcyNDA2OTc2NjNhYWQ1ODNkMzY4OTRhNWM4NzY1YWUwYjk0ZDNmMTQxNmQwODIzZGQ3Y2FhNzYxLXJpbWctdzEyMDAtaDExOTYtZGNjOGQ4ZDgtZ21pcj92PTE3ODgxOTAyNzI.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/bach-to-pop-strings-at-the-dsso/200030637318912"
       }
     },
     {
@@ -3819,6 +3873,24 @@
       }
     },
     {
+      "key": "ca1a0816310c190f",
+      "title": "Monthly Coffee Break - Every First Thursday!",
+      "start": "2026-10-01T00:00:00",
+      "end": "2026-10-01T00:00:00",
+      "all_day": true,
+      "venue": "Harbor Theater",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMTYyZmQxMmNiOTZkNTZlOGE4MTJlYzAzZDVmYzA1NWY3N2ZhMmJlZjQ3ODJiMzk3NDQ5OGFkNjdiZTkxZTI2NC1yaW1nLXc1NTQtaDMwNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODQ3NDIwOQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Two Harbors",
+        "url": "https://allevents.in/two-harbors/monthly-coffee-break-every-first-thursday/200030654965629"
+      }
+    },
+    {
       "key": "b8decdc3cf2ef728",
       "title": "Comedy & Waffles",
       "start": "2026-10-02T00:00:00",
@@ -4125,6 +4197,24 @@
       }
     },
     {
+      "key": "88797b1f3647eace",
+      "title": "Witches bells wreath class",
+      "start": "2026-10-07T00:00:00",
+      "end": "2026-10-07T00:00:00",
+      "all_day": true,
+      "venue": "All American Club",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNzQzNTJhZjM2ZjIzMzNiM2ZmYTNhYjMyMjc4MDNhY2EyYzYwODZkZmM1MjExNGJlODk2Yjg3NWRiMzRmNjY2NC1yaW1nLXc4NDMtaDIwMTAtZGM2ODY4NjgtZ21pcj92PTE3ODg0OTk4OTQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/witches-bells-wreath-class/200030613283949"
+      }
+    },
+    {
       "key": "a3e96b1a17191d20",
       "title": "Jason Owen at Jack's Place",
       "start": "2026-10-07T00:00:00",
@@ -4374,24 +4464,6 @@
       "source": {
         "name": "AllEvents \u2014 Cloquet",
         "url": "https://allevents.in/cloquet/cloquet-river-run-5k-and-1-mile/200030138004809"
-      }
-    },
-    {
-      "key": "79d083512f5d1e4d",
-      "title": "Witches bells wreath class",
-      "start": "2026-10-11T00:00:00",
-      "end": "2026-10-11T00:00:00",
-      "all_day": true,
-      "venue": "All American Club",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNzQzNTJhZjM2ZjIzMzNiM2ZmYTNhYjMyMjc4MDNhY2EyYzYwODZkZmM1MjExNGJlODk2Yjg3NWRiMzRmNjY2NC1yaW1nLXc4NDMtaDIwMTAtZGM2ODY4NjgtZ21pcj92PTE3ODc2Mzc2NDg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/witches-bells-wreath-class/200030613283949"
       }
     },
     {
@@ -5259,6 +5331,24 @@
       }
     },
     {
+      "key": "7f141291d77fb60e",
+      "title": "Anchors Aweigh Craft & Vendor Show",
+      "start": "2026-11-07T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1114 E 23rd Street, Hibbing, MN, United States, Minnesota 55746",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84NzVhOGE2ZTBjMjhiOWQxNjMzZjQwYWFmZjhiYTkzYzAwZDkxZWI4M2U1MmU5N2RiOGE0YWE3ZjVhOTY3MWI4LXJpbWctdzEyMDAtaDEyMDAtZGNmOGU4ZTgtZ21pcj92PTE3ODg0OTk0NjQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Hibbing",
+        "url": "https://allevents.in/hibbing/anchors-aweigh-craft-and-vendor-show/200030656959924"
+      }
+    },
+    {
       "key": "f322dba2294b93da",
       "title": "21st Annual Fur Ball - Red, White, & Blue Edition",
       "start": "2026-11-07T00:00:00",
@@ -5400,24 +5490,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/gary-owen-vancouver/200030573665004"
-      }
-    },
-    {
-      "key": "dceac12373adade9",
-      "title": "Northland Roadshow - Duluth",
-      "start": "2026-11-17T00:00:00",
-      "end": "2026-11-17T00:00:00",
-      "all_day": true,
-      "venue": "Holiday Inn & Suites Duluth-Downtown by IHG",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mZDZjYjVjYzZlNDIyNDUyN2NmMDgzMjFmZGU3MTk2MDkxZDk4Yjc3OGI4OWIzYTBmMWU4ZjU4ZDJkYTIzOWFiLXJpbWctdzEyMDAtaDYwMC1kYzE4OThhOC1nbWlyLmpwZz92PTE3ODgzNjg0NzE.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/northland-roadshow-duluth/100001999303461473"
       }
     },
     {
@@ -5688,6 +5760,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/santas-market-craft-and-gift-show/200030468593303"
+      }
+    },
+    {
+      "key": "dc6db10606cf946c",
+      "title": "Holiday Maker Market: Craft & Vendor Sale",
+      "start": "2026-12-12T00:00:00",
+      "end": "2026-12-12T00:00:00",
+      "all_day": true,
+      "venue": "The Do You",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80YzY0MThjY2M4YTVmYjE0ODg3ODQxOWE5MDAyODVlYWZlMDk5ZGU5NjUwZWY5Y2EzZDNkYjc2ZGVmZTMzYWVlLXJpbWctdzc3NC1oMTAwMS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODUwMTc2NQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Hibbing",
+        "url": "https://allevents.in/hibbing/holiday-maker-market-craft-and-vendor-sale/200030657071645"
       }
     },
     {

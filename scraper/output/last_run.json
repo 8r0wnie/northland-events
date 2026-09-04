@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T03:00:34Z",
-  "raw": 3552,
-  "merged": 2709,
-  "published": 2389,
-  "queued": 320,
+  "when": "2026-09-04T08:39:46Z",
+  "raw": 3740,
+  "merged": 2855,
+  "published": 2530,
+  "queued": 325,
   "verification": {
-    "confirmed": 2389,
-    "multi_source": 230,
-    "trusted_single": 2159,
+    "confirmed": 2530,
+    "multi_source": 255,
+    "trusted_single": 2275,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 320
+    "queued": 325
   },
   "sources": [
     {
@@ -40,8 +40,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 224 events (2 pages)",
-      "events": 224
+      "detail": "simpleview: 176 events (2 pages)",
+      "events": 176
     },
     {
       "source": "grand-rapids-mn",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 138 events (4 pages)",
-      "events": 135
+      "detail": "simpleview: 141 events (4 pages)",
+      "events": 140
     },
     {
       "source": "visit-ashland",
@@ -65,8 +65,8 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 77 events",
+      "events": 77
     },
     {
       "source": "duluth-mn",
@@ -80,8 +80,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 33 events",
+      "events": 33
     },
     {
       "source": "virginia-mn",
@@ -90,8 +90,8 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 9 events",
-      "events": 9
+      "detail": "civicplus: 10 events",
+      "events": 10
     },
     {
       "source": "eveleth-mn",
@@ -225,8 +225,8 @@
     },
     {
       "source": "douglas-county-wi",
-      "detail": "civicplus: 8 events",
-      "events": 8
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "superior-wi",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 103 events",
-      "events": 103
+      "detail": "civicplus: 108 events",
+      "events": 108
     },
     {
       "source": "cable-wi",
@@ -270,8 +270,8 @@
     },
     {
       "source": "sawyer-county-wi",
-      "detail": "civicplus: 1 events",
-      "events": 1
+      "detail": "civicplus: 2 events",
+      "events": 2
     },
     {
       "source": "gogebic-county-mi",
@@ -286,7 +286,7 @@
     {
       "source": "allevents-duluth",
       "detail": "allevents: 206 events",
-      "events": 205
+      "events": 206
     },
     {
       "source": "allevents-superior",
@@ -300,8 +300,8 @@
     },
     {
       "source": "allevents-hibbing",
-      "detail": "allevents: 17 events",
-      "events": 17
+      "detail": "allevents: 19 events",
+      "events": 19
     },
     {
       "source": "allevents-grand-rapids",
@@ -311,7 +311,7 @@
     {
       "source": "allevents-two-harbors",
       "detail": "allevents: 12 events",
-      "events": 11
+      "events": 12
     },
     {
       "source": "allevents-ashland",
@@ -320,8 +320,8 @@
     },
     {
       "source": "allevents-intl-falls",
-      "detail": "allevents: 1 events",
-      "events": 1
+      "detail": "allevents: 2 events",
+      "events": 2
     },
     {
       "source": "umd-bulldogs",
@@ -360,13 +360,13 @@
     },
     {
       "source": "duluth-art-institute",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 84 events",
+      "events": 84
     },
     {
       "source": "ls-railroad-museum",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "tribe: 7 events",
+      "events": 7
     },
     {
       "source": "mn-discovery-center",
@@ -387,6 +387,16 @@
       "source": "decc",
       "detail": "decc: 65 events",
       "events": 61
+    },
+    {
+      "source": "earth-rider",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "big-top",
+      "detail": "spektrix: 17 performances (client ashwabayalliance)",
+      "events": 17
     }
   ]
 }
