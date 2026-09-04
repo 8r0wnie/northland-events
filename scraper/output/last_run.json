@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T08:49:20Z",
-  "raw": 3736,
-  "merged": 2852,
-  "published": 2530,
-  "queued": 322,
+  "when": "2026-09-04T15:09:20Z",
+  "raw": 3745,
+  "merged": 2858,
+  "published": 2527,
+  "queued": 331,
   "verification": {
-    "confirmed": 2530,
-    "multi_source": 254,
-    "trusted_single": 2276,
+    "confirmed": 2527,
+    "multi_source": 257,
+    "trusted_single": 2270,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 322
+    "queued": 331
   },
   "sources": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "source": "superior-chamber",
-      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
-      "events": 31
+      "detail": "chambermaster: 33 events via https://superiorchamber.org",
+      "events": 30
     },
     {
       "source": "hibbing-chamber",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 528
+      "events": 526
     },
     {
       "source": "hermantown-mn",
@@ -96,7 +96,7 @@
     {
       "source": "eveleth-mn",
       "detail": "govoffice: 9 events",
-      "events": 9
+      "events": 8
     },
     {
       "source": "chisholm-mn",
@@ -245,8 +245,8 @@
     },
     {
       "source": "cable-wi",
-      "detail": "heygov: 1 events",
-      "events": 1
+      "detail": "heygov: 2 events",
+      "events": 2
     },
     {
       "source": "ashland-county-wi",
@@ -285,18 +285,18 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 203 events",
-      "events": 203
+      "detail": "allevents: 210 events",
+      "events": 210
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 134 events",
-      "events": 134
+      "detail": "allevents: 138 events",
+      "events": 138
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 25 events",
-      "events": 25
+      "detail": "allevents: 26 events",
+      "events": 26
     },
     {
       "source": "allevents-hibbing",
