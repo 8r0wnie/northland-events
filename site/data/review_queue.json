@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T08:39:46Z",
-  "count": 325,
+  "generated": "2026-09-04T08:49:20Z",
+  "count": 322,
   "events": [
     {
       "key": "adc77ce1bbe5c04b",
@@ -1155,24 +1155,6 @@
       }
     },
     {
-      "key": "1b99976662ff5300",
-      "title": "Denfeld Jazz",
-      "start": "2026-09-10T00:00:00",
-      "end": "2026-09-10T00:00:00",
-      "all_day": true,
-      "venue": "Wussow's Concert Cafe",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8xMTNiNTcyZTQ1ZGY4MmE2ZTAwZTFiNjExYmM3YWVlYjZlYjBjZDdjMmY2ZGUzODI1Yjk1YmM0MzVjYWQ0MTU4LXJpbWctdzk2MC1oNjIxLWRjMDgwODA4LWdtaXI_dj0xNzg4MTgyMDk1.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/denfeld-jazz/200030238714823"
-      }
-    },
-    {
       "key": "08413841acf18547",
       "title": "Fall Open House",
       "start": "2026-09-10T00:00:00",
@@ -1328,7 +1310,7 @@
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODg0OTE2Njg.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTM3NDVjZjY3NTY3MGI4NTlkMjg5M2RjMzNhOGQxNzEzZWY2NmFlNzJkMjBjZDY2MDliZTVhM2ZkYzU0ZDM2MC1yaW1nLXcxMjAwLWg3OTgtZGM2ODY4NDgtZ21pcj92PTE3ODc3OTcyMzY.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/duluth-east-vs-brainerd-football-9-11-2026/200030581964322"
@@ -2199,6 +2181,24 @@
       }
     },
     {
+      "key": "1cb2d70ec3ea1da1",
+      "title": "Public Dinner for Adult Delegation from Japan",
+      "start": "2026-09-15T00:00:00",
+      "end": "2026-09-15T00:00:00",
+      "all_day": true,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wNDk5MmFmZGY3MjdkMmNmMTE1YjA3YzY3NWIyOTgxODI3MDU1OWQ4Y2I5N2I2ZjUwMjg5MDJlZmM5ZTNiOGY2LXJpbWctdzEyMDAtaDYwMC1kYzA4MTg0OC1nbWlyLmpwZz92PTE3ODYyNDQ1MjQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/public-dinner-for-adult-delegation-from-japan/100001997151309328"
+      }
+    },
+    {
       "key": "109ed67ad6f20933",
       "title": "Mark Making in Watercolors: Pouring It On",
       "start": "2026-09-15T00:00:00",
@@ -2253,24 +2253,6 @@
       }
     },
     {
-      "key": "5551379d72f99d43",
-      "title": "Open Mic hosted by Severio Mancieri",
-      "start": "2026-09-16T00:00:00",
-      "end": "2026-09-16T00:00:00",
-      "all_day": true,
-      "venue": "Wussow's Concert Cafe",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lOTFlZjk2ODY0ZjM2OTk2YmZjOWI5Y2M2OTc2ZDc1ZDZjNGM3MDhhMDMxMThjMTBmNDE4NTIzNWIzMGE0OWQzLXJpbWctdzk2MC1oOTYwLWRjMDgwODA4LWdtaXI_dj0xNzg4MTkwMjcw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/open-mic-hosted-by-severio-mancieri/200030637318810"
-      }
-    },
-    {
       "key": "952a3dfd4ba45318",
       "title": "Speed Booking - All Genres",
       "start": "2026-09-16T00:00:00",
@@ -2286,6 +2268,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/speed-booking-all-genres/100001996317813319"
+      }
+    },
+    {
+      "key": "5551379d72f99d43",
+      "title": "Open Mic hosted by Severio Mancieri",
+      "start": "2026-09-16T00:00:00",
+      "end": "2026-09-16T00:00:00",
+      "all_day": true,
+      "venue": "Wussow's Concert Cafe",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "music",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lOTFlZjk2ODY0ZjM2OTk2YmZjOWI5Y2M2OTc2ZDc1ZDZjNGM3MDhhMDMxMThjMTBmNDE4NTIzNWIzMGE0OWQzLXJpbWctdzk2MC1oOTYwLWRjMDgwODA4LWdtaXI_dj0xNzg4MTkwMjcw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/open-mic-hosted-by-severio-mancieri/200030637318810"
       }
     },
     {
@@ -2750,7 +2750,7 @@
       "category": "food-drink",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84ZWJhZjU1ZjYyYzMyOGZjYzUzZmExYmU4MjA3M2NkNmI3ZGMyNDIyZGFmNjE3OTFkZWZjNWE0OTkzZDg5ODA1LXJpbWctdzEyMDAtaDE1NTMtZGNmOGQ4YjgtZ21pcj92PTE3ODg0OTg4MDQ.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84ZWJhZjU1ZjYyYzMyOGZjYzUzZmExYmU4MjA3M2NkNmI3ZGMyNDIyZGFmNjE3OTFkZWZjNWE0OTkzZDg5ODA1LXJpbWctdzEyMDAtaDE1NTMtZGNmOGQ4YjgtZ21pcj92PTE3ODc0NDg1MTU.avif",
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/maranatha-craft-and-vendor-show-and-bake-sale/200030602318835"
@@ -2793,21 +2793,21 @@
       }
     },
     {
-      "key": "9fe5244a2b2060ba",
-      "title": "Glen Gilderman Retirement Party",
+      "key": "ead0afcb574b2439",
+      "title": "Bach to Pop Strings at the DSSO",
       "start": "2026-09-19T00:00:00",
       "end": null,
       "all_day": true,
-      "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
+      "venue": "Duluth Entertainment Convention Center",
       "city": "Duluth",
       "area": "Duluth",
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8yZGFlMDA4YzY0ZGI1MWEzMWUxMzI4OTg1ZjNmYzcxZDRlMjQ5OThkMjE1YzVlZjM2ZjM5ZjJjMzk5MjAzNDBkLXJpbWctdzc5Mi1oMTAyNC1kYzc4Nzg3OC1nbWlyP3Y9MTc4NzkyMzM4MQ.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hM2YzZTFjYjcyNDA2OTc2NjNhYWQ1ODNkMzY4OTRhNWM4NzY1YWUwYjk0ZDNmMTQxNmQwODIzZGQ3Y2FhNzYxLXJpbWctdzEyMDAtaDExOTYtZGNjOGQ4ZDgtZ21pcj92PTE3ODgxOTAyNzI.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/glen-gilderman-retirement-party/200030588465128"
+        "url": "https://allevents.in/duluth/bach-to-pop-strings-at-the-dsso/200030637318912"
       }
     },
     {
@@ -4431,24 +4431,6 @@
       }
     },
     {
-      "key": "29b030f60456a514",
-      "title": "Ross Thorn Residency at Ursa Minor",
-      "start": "2026-10-10T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Ursa Minor Brewing",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iZWMxNjRmNmI2N2I1MzA2ODJlZTZkYWU1MWRhZjU0ODY4ODc5MzUxODc2MDhiNTc1OTIyN2NmN2Y2MzU3MzRkLXJpbWctdzEyMDAtaDYyOC1kYzI4Mzg0OC1nbWlyP3Y9MTc4Nzg2MDc0NA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/ross-thorn-residency-at-ursa-minor/200030399129944"
-      }
-    },
-    {
       "key": "f09ccb200a233afb",
       "title": "Cloquet River Run 5K & 1 Mile",
       "start": "2026-10-10T00:00:00",
@@ -4734,24 +4716,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/wild-duluth-races-100k-and-50k/200029370552618"
-      }
-    },
-    {
-      "key": "0df7a8ad43b63ac1",
-      "title": "Wild Duluth Races Harder 'n Heck Half Marathon & Terribly Tough 10K",
-      "start": "2026-10-18T00:00:00",
-      "end": "2026-10-18T00:00:00",
-      "all_day": true,
-      "venue": "Grand Avenue Nordic Center",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8zMjFlZTk0MjM5ZjZjMGUzM2ViYWUyZmYyNmM4NTM4MjE1YTc5MDZlMmQ3NDA0Y2VjN2Q4OGNlMWExZTdmZmY3LXJpbWctdzEyMDAtaDkwMC1kYzY4NDg0OC1nbWlyP3Y9MTc4ODE4MjEwMw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/wild-duluth-races-harder-n-heck-half-marathon-and-terribly-tough-10k/200029382593132"
       }
     },
     {
@@ -5094,24 +5058,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/the-halloween-bar-crawl-duluth/100001583858305829"
-      }
-    },
-    {
-      "key": "c365f2e2b86ec4aa",
-      "title": "Duluth Official Halloween Bar Crawl",
-      "start": "2026-10-31T00:00:00",
-      "end": "2026-10-31T00:00:00",
-      "all_day": true,
-      "venue": "Duluth",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hMWVkMjAwMGI2MGY2NGM4YmIyY2E0ZGRiOTRiNTU3OTVlY2RmMjBiODI1ZWUxNDA1ZDkwYTdhZDM2NDUzODcyLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODYyNDQ1MjQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/duluth-official-halloween-bar-crawl/100001997147839951"
       }
     },
     {

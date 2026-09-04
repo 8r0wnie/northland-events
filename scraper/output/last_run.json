@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T08:39:46Z",
-  "raw": 3740,
-  "merged": 2855,
+  "when": "2026-09-04T08:49:20Z",
+  "raw": 3736,
+  "merged": 2852,
   "published": 2530,
-  "queued": 325,
+  "queued": 322,
   "verification": {
     "confirmed": 2530,
-    "multi_source": 255,
-    "trusted_single": 2275,
+    "multi_source": 254,
+    "trusted_single": 2276,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 325
+    "queued": 322
   },
   "sources": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "source": "superior-chamber",
-      "detail": "chambermaster: 33 events via https://superiorchamber.org",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 31
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 77
     },
     {
@@ -285,13 +285,13 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 206 events",
-      "events": 206
+      "detail": "allevents: 203 events",
+      "events": 203
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 135 events",
-      "events": 135
+      "detail": "allevents: 134 events",
+      "events": 134
     },
     {
       "source": "allevents-cloquet",
@@ -360,7 +360,7 @@
     },
     {
       "source": "duluth-art-institute",
-      "detail": "tribe: 84 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 84
     },
     {
