@@ -88,8 +88,10 @@ class IcsAdapter:
 
     def scrape(self, source: Source) -> AdapterResult:
         target = source.target.replace("webcal://", "https://")
-        # events_url may itself be an .ics feed
-        if target.lower().split("?")[0].endswith(".ics"):
+        # events_url may itself be a calendar feed
+        low = target.lower()
+        if (low.split("?")[0].endswith(".ics") or "ical=1" in low
+                or "format=ical" in low or "outlook-ical" in low):
             text = fetch.get_text(target)
             if text and "BEGIN:VCALENDAR" in text:
                 events = tag_from_source(self._parse(text, target), source)
