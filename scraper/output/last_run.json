@@ -1,7 +1,7 @@
 {
-  "when": "2026-09-04T01:26:18Z",
-  "raw": 2653,
-  "deduped": 2522,
+  "when": "2026-09-04T01:59:01Z",
+  "raw": 3030,
+  "deduped": 2870,
   "sources": [
     {
       "source": "perfect-duluth-day",
@@ -70,8 +70,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "tribe: 33 events",
-      "events": 33
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "virginia-mn",
@@ -230,8 +230,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 104 events",
-      "events": 104
+      "detail": "civicplus: 103 events",
+      "events": 103
     },
     {
       "source": "cable-wi",
@@ -272,6 +272,46 @@
       "source": "ironwood-mi",
       "detail": "no adapter produced events",
       "events": 0
+    },
+    {
+      "source": "allevents-duluth",
+      "detail": "allevents: 206 events",
+      "events": 205
+    },
+    {
+      "source": "allevents-superior",
+      "detail": "allevents: 135 events",
+      "events": 135
+    },
+    {
+      "source": "allevents-cloquet",
+      "detail": "allevents: 25 events",
+      "events": 25
+    },
+    {
+      "source": "allevents-hibbing",
+      "detail": "allevents: 17 events",
+      "events": 17
+    },
+    {
+      "source": "allevents-grand-rapids",
+      "detail": "allevents: 9 events",
+      "events": 9
+    },
+    {
+      "source": "allevents-two-harbors",
+      "detail": "allevents: 12 events",
+      "events": 11
+    },
+    {
+      "source": "allevents-ashland",
+      "detail": "allevents: 8 events",
+      "events": 8
+    },
+    {
+      "source": "allevents-intl-falls",
+      "detail": "allevents: 1 events",
+      "events": 1
     }
   ]
 }
