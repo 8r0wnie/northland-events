@@ -42,5 +42,13 @@ jobs:
           git add site/data/events.json site/data/review_queue.json site/data/decisions.csv \
                   scraper/output/last_run.json scraper/output/source_cache.json \
                   moderation/decisions.csv
-          git diff --staged --quiet || git commit -m "data: refresh events $(date -u +%Y-%m-%d)"
-          git push
+          git diff --staged --quiet && { echo "no changes"; exit 0; }
+          git commit -m "data: refresh events $(date -u +%Y-%m-%d)"
+          # another push (a manual commit, or the review-queue edit) may have
+          # landed while this run was scraping — rebase our data commit on top
+          for attempt in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push $attempt rejected — rebasing on origin/main"
+            git pull --rebase --autostash --strategy-option=theirs origin main
+          done
+          echo "push failed after retries"; exit 1
