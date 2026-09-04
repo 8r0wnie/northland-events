@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T20:15:57Z",
-  "raw": 3847,
-  "merged": 2947,
-  "published": 2617,
-  "queued": 330,
+  "when": "2026-09-04T23:54:12Z",
+  "raw": 3659,
+  "merged": 2809,
+  "published": 2607,
+  "queued": 202,
   "verification": {
-    "confirmed": 2617,
-    "multi_source": 256,
-    "trusted_single": 2361,
+    "confirmed": 2607,
+    "multi_source": 226,
+    "trusted_single": 2381,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 330
+    "queued": 202
   },
   "sources": [
     {
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 142 events (4 pages)",
-      "events": 141
+      "detail": "simpleview: 119 events (3 pages)",
+      "events": 118
     },
     {
       "source": "visit-ashland",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 526
+      "events": 525
     },
     {
       "source": "hermantown-mn",
@@ -90,8 +90,8 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 10 events",
-      "events": 10
+      "detail": "civicplus: 9 events",
+      "events": 9
     },
     {
       "source": "eveleth-mn",
@@ -156,7 +156,7 @@
     {
       "source": "esko-township-mn",
       "detail": "heygov: 15 events",
-      "events": 14
+      "events": 13
     },
     {
       "source": "lake-county-mn",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 107 events",
-      "events": 107
+      "detail": "civicplus: 105 events",
+      "events": 105
     },
     {
       "source": "cable-wi",
@@ -285,18 +285,18 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 207 events",
-      "events": 207
+      "detail": "allevents: 32 events",
+      "events": 32
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 140 events",
-      "events": 140
+      "detail": "allevents: 141 events",
+      "events": 141
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 27 events",
-      "events": 27
+      "detail": "allevents: 26 events",
+      "events": 26
     },
     {
       "source": "allevents-hibbing",
@@ -326,7 +326,7 @@
     {
       "source": "umd-bulldogs",
       "detail": "sidearm: 53 home/neutral events",
-      "events": 53
+      "events": 52
     },
     {
       "source": "uws-yellowjackets",
@@ -417,6 +417,16 @@
       "source": "spirit-mountain",
       "detail": "tribe: 2 events",
       "events": 2
+    },
+    {
+      "source": "birkie",
+      "detail": "birkie: 11 events",
+      "events": 9
+    },
+    {
+      "source": "north-house-folk-school",
+      "detail": "northhouse: 86 events",
+      "events": 7
     },
     {
       "source": "wolf-ridge",
