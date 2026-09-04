@@ -48,11 +48,19 @@ class EventsCalendarAdapter:
                             pass
 
                 page.on("response", on_response)
-                page.goto(events_url, wait_until="domcontentloaded", timeout=40000)
-                page.wait_for_timeout(6000)
-                for _ in range(3):
-                    page.mouse.wheel(0, 3000)
-                    page.wait_for_timeout(1500)
+                for attempt in range(2):
+                    try:
+                        page.goto(events_url, wait_until="domcontentloaded", timeout=40000)
+                    except Exception:
+                        continue
+                    # the widget is in an iframe that loads its data a beat later
+                    for _ in range(6):
+                        page.wait_for_timeout(2500)
+                        page.mouse.wheel(0, 2500)
+                        if batches:
+                            break
+                    if batches:
+                        break
                 browser.close()
         except Exception as exc:  # noqa: BLE001
             return AdapterResult(self.name, ok=False, detail=f"browser error: {str(exc)[:60]}")
