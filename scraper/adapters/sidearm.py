@@ -33,6 +33,15 @@ _SCHOOL = re.compile(
 _SHORT = {"university of minnesota duluth": "UMD",
           "university of wisconsin-superior": "UW-Superior",
           "the college of st. scholastica": "St. Scholastica"}
+# Fallback by source id: some schools' Sidearm feeds (St. Scholastica) never
+# spell out the school name in SUMMARY at all, so title-prefix matching alone
+# misses them — every event needs the team named, not just the ones whose feed
+# happens to include it.
+_SOURCE_SHORT = {
+    "umd-bulldogs": "UMD",
+    "uws-yellowjackets": "UW-Superior",
+    "css-saints": "St. Scholastica",
+}
 
 
 def _dt(v):
@@ -72,6 +81,9 @@ class SidearmAdapter:
             m = _SCHOOL.match(title)
             if m:
                 title = f"{_SHORT.get(m.group(1).lower(), m.group(1))} {title[m.end():]}".strip()
+            short = _SOURCE_SHORT.get(source.id)
+            if short and not title.lower().startswith(short.lower()):
+                title = f"{short} {title}"
             loc = clean_text(str(comp.get("location") or ""))
             low = f" {title.lower()} "
             # Home games read "X vs Y"; away/tournament games read "X at Y" or
