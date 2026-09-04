@@ -135,17 +135,25 @@ def clean_text(value: Optional[str]) -> str:
 
 
 def parse_dt(value, *, default_tz=None, dayfirst=False) -> Optional[datetime]:
-    """Best-effort parse of a date/datetime string or object."""
+    """Best-effort parse of a date/datetime string or object.
+
+    Always returns a naive datetime (wall-clock time as published) — every
+    adapter and Event.normalize() assumes naive throughout, and a source that
+    mixes offset-bearing and offset-free strings (JSON-LD startDate/endDate is
+    a repeat offender) would otherwise produce a naive/aware pair that crashes
+    the < comparison in normalize().
+    """
     if value is None or value == "":
         return None
     if isinstance(value, datetime):
-        return value
+        return value.replace(tzinfo=None) if value.tzinfo else value
     if isinstance(value, date):
         return datetime.combine(value, time.min)
     try:
-        return dateparser.parse(str(value), dayfirst=dayfirst, fuzzy=True)
+        dt = dateparser.parse(str(value), dayfirst=dayfirst, fuzzy=True)
     except (ValueError, OverflowError, TypeError):
         return None
+    return dt.replace(tzinfo=None) if dt and dt.tzinfo else dt
 
 
 @dataclass
