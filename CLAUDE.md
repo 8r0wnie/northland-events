@@ -53,6 +53,9 @@ Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 | `ics`              | iCal feed — discovered, `webcal://`, direct `.ics`, or a Google Calendar embed |
 | `chamberorganizer` | ChamberOrganizer (`auth.chamberwidgets.com` month POSTs) |
 | `chambermaster`    | ChamberMaster / GrowthZone hosted MIC (month calendars → detail-page microdata) |
+| `allevents`        | allevents.in aggregator (Facebook events), 8 DMA cities — JSON-LD, `?page=N` |
+| `sidearm`          | college athletics — Sidearm public iCal `<host>/calendar.ashx/calendar.ics`, home games only |
+| `ovationtix`       | OvationTix/AudienceView venues — headless browser captures `api.ovationtix.com` production JSON |
 
 Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
 generic chain runs. `allevents` (allevents.in Facebook-events aggregator, 8 DMA
