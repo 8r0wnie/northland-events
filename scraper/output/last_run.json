@@ -1,18 +1,348 @@
 {
-  "when": "2026-09-04T08:22:50Z",
-  "raw": 38,
-  "merged": 33,
-  "published": 33,
-  "queued": 0,
+  "when": "2026-09-04T03:00:34Z",
+  "raw": 3552,
+  "merged": 2709,
+  "published": 2389,
+  "queued": 320,
   "verification": {
-    "confirmed": 33,
-    "multi_source": 0,
-    "trusted_single": 33,
+    "confirmed": 2389,
+    "multi_source": 230,
+    "trusted_single": 2159,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 0
+    "queued": 320
   },
   "sources": [
+    {
+      "source": "perfect-duluth-day",
+      "detail": "tribehtml: 388 events (16 feed pages)",
+      "events": 388
+    },
+    {
+      "source": "visit-duluth",
+      "detail": "tribe: 600 events",
+      "events": 600
+    },
+    {
+      "source": "duluth-chamber",
+      "detail": "weblink: 22 events (tenant duluthmncoc)",
+      "events": 22
+    },
+    {
+      "source": "superior-chamber",
+      "detail": "chambermaster: 33 events via https://superiorchamber.org",
+      "events": 31
+    },
+    {
+      "source": "hibbing-chamber",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ely-chamber",
+      "detail": "simpleview: 224 events (2 pages)",
+      "events": 224
+    },
+    {
+      "source": "grand-rapids-mn",
+      "detail": "tribe: 10 events",
+      "events": 10
+    },
+    {
+      "source": "mcgregor-chamber",
+      "detail": "tribe: 1 events",
+      "events": 1
+    },
+    {
+      "source": "bayfield-chamber",
+      "detail": "simpleview: 138 events (4 pages)",
+      "events": 135
+    },
+    {
+      "source": "visit-ashland",
+      "detail": "jsonld: 4 events (rendered)",
+      "events": 4
+    },
+    {
+      "source": "spooner-chamber",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "duluth-mn",
+      "detail": "webcalendar: 542 events",
+      "events": 528
+    },
+    {
+      "source": "hermantown-mn",
+      "detail": "tribe: 44 events",
+      "events": 44
+    },
+    {
+      "source": "proctor-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "virginia-mn",
+      "detail": "revize: 19 events (old XML)",
+      "events": 19
+    },
+    {
+      "source": "hibbing-mn",
+      "detail": "civicplus: 9 events",
+      "events": 9
+    },
+    {
+      "source": "eveleth-mn",
+      "detail": "govoffice: 9 events",
+      "events": 9
+    },
+    {
+      "source": "chisholm-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ely-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "mountain-iron-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "gilbert-mn",
+      "detail": "mycalendar: 5 events",
+      "events": 5
+    },
+    {
+      "source": "babbitt-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "cook-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "floodwood-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "carlton-county-mn",
+      "detail": "civicplus: 1 events",
+      "events": 1
+    },
+    {
+      "source": "moose-lake-mn",
+      "detail": "civicplus: 7 events",
+      "events": 7
+    },
+    {
+      "source": "barnum-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "cromwell-mn",
+      "detail": "revize: 69 events (webspace cromwellmn)",
+      "events": 66
+    },
+    {
+      "source": "esko-township-mn",
+      "detail": "heygov: 15 events",
+      "events": 14
+    },
+    {
+      "source": "lake-county-mn",
+      "detail": "jsonld: 12 events (rendered)",
+      "events": 12
+    },
+    {
+      "source": "two-harbors-mn",
+      "detail": "revize: 125 events (webspace twoharborsmn)",
+      "events": 123
+    },
+    {
+      "source": "silver-bay-mn",
+      "detail": "revize: 81 events (webspace silverbaymn)",
+      "events": 81
+    },
+    {
+      "source": "cook-county-mn",
+      "detail": "revize: 90 events (webspace cookcountymn)",
+      "events": 88
+    },
+    {
+      "source": "grand-marais-city-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "koochiching-county-mn",
+      "detail": "civicplus: 1 events",
+      "events": 1
+    },
+    {
+      "source": "itasca-county-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "grand-rapids-city-mn",
+      "detail": "ics: 12 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 12
+    },
+    {
+      "source": "hill-city-mn",
+      "detail": "revize: 7 events (old XML)",
+      "events": 7
+    },
+    {
+      "source": "aitkin-mn",
+      "detail": "govoffice: 9 events",
+      "events": 9
+    },
+    {
+      "source": "pine-county-mn",
+      "detail": "revize: 36 events (webspace pinecounty)",
+      "events": 36
+    },
+    {
+      "source": "sandstone-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "pine-city-mn",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "douglas-county-wi",
+      "detail": "civicplus: 8 events",
+      "events": 8
+    },
+    {
+      "source": "superior-wi",
+      "detail": "civicplus: 3 events",
+      "events": 3
+    },
+    {
+      "source": "solon-springs-wi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "bayfield-county-wi",
+      "detail": "civicplus: 103 events",
+      "events": 103
+    },
+    {
+      "source": "cable-wi",
+      "detail": "heygov: 1 events",
+      "events": 1
+    },
+    {
+      "source": "ashland-county-wi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ashland-city-wi",
+      "detail": "civicplus: 3 events",
+      "events": 3
+    },
+    {
+      "source": "burnett-county-wi",
+      "detail": "civicplus: 7 events",
+      "events": 7
+    },
+    {
+      "source": "spooner-wi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "sawyer-county-wi",
+      "detail": "civicplus: 1 events",
+      "events": 1
+    },
+    {
+      "source": "gogebic-county-mi",
+      "detail": "revize: 7 events (old XML)",
+      "events": 7
+    },
+    {
+      "source": "ironwood-mi",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "allevents-duluth",
+      "detail": "allevents: 206 events",
+      "events": 205
+    },
+    {
+      "source": "allevents-superior",
+      "detail": "allevents: 135 events",
+      "events": 135
+    },
+    {
+      "source": "allevents-cloquet",
+      "detail": "allevents: 25 events",
+      "events": 25
+    },
+    {
+      "source": "allevents-hibbing",
+      "detail": "allevents: 17 events",
+      "events": 17
+    },
+    {
+      "source": "allevents-grand-rapids",
+      "detail": "allevents: 9 events",
+      "events": 9
+    },
+    {
+      "source": "allevents-two-harbors",
+      "detail": "allevents: 12 events",
+      "events": 11
+    },
+    {
+      "source": "allevents-ashland",
+      "detail": "allevents: 8 events",
+      "events": 8
+    },
+    {
+      "source": "allevents-intl-falls",
+      "detail": "allevents: 1 events",
+      "events": 1
+    },
+    {
+      "source": "umd-bulldogs",
+      "detail": "sidearm: 53 home/neutral events",
+      "events": 53
+    },
+    {
+      "source": "uws-yellowjackets",
+      "detail": "sidearm: 112 home/neutral events",
+      "events": 112
+    },
+    {
+      "source": "css-saints",
+      "detail": "sidearm: 65 home/neutral events",
+      "events": 65
+    },
+    {
+      "source": "norshor-playhouse",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
     {
       "source": "reif-center",
       "detail": "tribe: 31 events",
@@ -22,6 +352,41 @@
       "source": "sacred-heart",
       "detail": "tribe: 7 events",
       "events": 7
+    },
+    {
+      "source": "minnesota-ballet",
+      "detail": "tribe: 4 events",
+      "events": 4
+    },
+    {
+      "source": "duluth-art-institute",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "ls-railroad-museum",
+      "detail": "no adapter produced events",
+      "events": 0
+    },
+    {
+      "source": "mn-discovery-center",
+      "detail": "tribe: 21 events",
+      "events": 21
+    },
+    {
+      "source": "wild-state-cider",
+      "detail": "tribe: 22 events",
+      "events": 22
+    },
+    {
+      "source": "castle-danger",
+      "detail": "tribe: 146 events",
+      "events": 146
+    },
+    {
+      "source": "decc",
+      "detail": "decc: 65 events",
+      "events": 61
     }
   ]
 }
