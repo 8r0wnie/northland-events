@@ -160,3 +160,6 @@ sources:
   - {id: umd-bulldogs,    name: "UMD Bulldogs Athletics",       url: "https://umdbulldogs.com",       events_url: "", category: venue, state: MN, area: "Duluth",   platform: "sidearm", status: active, notes: "D-I hockey; iCal at /calendar.ashx/calendar.ics, home+neutral only."}
   - {id: uws-yellowjackets, name: "UW-Superior Yellowjackets",  url: "https://uwsyellowjackets.com",  events_url: "", category: venue, state: WI, area: "Superior", platform: "sidearm", status: active, notes: "D-III athletics."}
   - {id: css-saints,      name: "St. Scholastica Saints",       url: "https://csssaints.com",         events_url: "", category: venue, state: MN, area: "Duluth",   platform: "sidearm", status: active, notes: "D-III incl. hockey at Mars Lakeview Arena."}
+
+  # ─────────────────────────── Venues — theaters ───────────────────────────
+  - {id: norshor-playhouse, name: "NorShor Theatre / Duluth Playhouse", url: "https://www.norshortheatre.com", events_url: "https://www.norshortheatre.com/events", category: venue, state: MN, area: "Duluth", platform: "ovationtix", status: active, notes: "OvationTix client 35679 = Duluth Playhouse; covers NorShor + Playhouse productions."}

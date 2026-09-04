@@ -24,6 +24,7 @@ from .simpleview import SimpleviewAdapter
 from .tribehtml import TribeHtmlAdapter
 from .allevents import AllEventsAdapter
 from .sidearm import SidearmAdapter
+from .ovationtix import OvationTixAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -59,6 +60,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "tribehtml": TribeHtmlAdapter(),
     "allevents": AllEventsAdapter(),
     "sidearm": SidearmAdapter(),
+    "ovationtix": OvationTixAdapter(),
     "ics": IcsAdapter(),
     "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
