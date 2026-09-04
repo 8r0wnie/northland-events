@@ -22,6 +22,7 @@ from .govoffice import GovOfficeAdapter
 from .heygov import HeyGovAdapter
 from .simpleview import SimpleviewAdapter
 from .tribehtml import TribeHtmlAdapter
+from .allevents import AllEventsAdapter
 from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
@@ -55,6 +56,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "heygov": HeyGovAdapter(),
     "simpleview": SimpleviewAdapter(),
     "tribehtml": TribeHtmlAdapter(),
+    "allevents": AllEventsAdapter(),
     "ics": IcsAdapter(),
     "jsonld": JsonLdAdapter(),
     "chamberorganizer": ChamberOrganizerAdapter(),
