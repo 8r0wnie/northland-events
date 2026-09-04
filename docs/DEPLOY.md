@@ -27,37 +27,46 @@ Already configured in [.github/workflows/scrape.yml](../.github/workflows/scrape
 Nothing to configure — `GITHUB_TOKEN` is provided automatically and the workflow
 has `contents: write`.
 
-## 3. Cloudflare Pages (the website)
+## 3. Cloudflare (the website) — DONE, live at
+**https://northland-events.cbrown21.workers.dev**
 
-1. Log in at [dash.cloudflare.com](https://dash.cloudflare.com).
-2. Left sidebar → **Workers & Pages** → **Create** (top right).
-3. **Pages** tab → **Connect to Git**.
-4. Authorize Cloudflare for GitHub if asked, then pick the **`northland-events`**
-   repo → **Begin setup**.
-5. Build settings:
-   - Project name: `northland-events` (this becomes the `.pages.dev` subdomain)
-   - Production branch: `main`
-   - Framework preset: **None**
-   - Build command: *(leave blank)*
-   - Build output directory: **`site`**
-   - Root directory: *(leave as `/`)*
-6. **Save and Deploy.** First deploy takes ~30 seconds.
-7. You get **`https://northland-events.pages.dev`** — the calendar is at the
-   root, the admin review queue at `/review.html` (passphrase-gated).
+Cloudflare's dashboard has folded classic "Pages" into a unified **Workers**
+Git-connect flow, so this deploys as a Workers **static assets** project rather
+than a Pages project — same free tier, same auto-redeploy-on-push behavior,
+different URL shape (`workers.dev` instead of `pages.dev`).
+
+What made it work: [`wrangler.toml`](../wrangler.toml) at the repo root —
+
+```toml
+name = "northland-events"
+compatibility_date = "2026-09-04"
+
+[assets]
+directory = "./site"
+```
+
+Setup steps taken (for reference / redoing elsewhere):
+1. dash.cloudflare.com → **Compute** → **Workers** → **Create** → connect the
+   `northland-events` GitHub repo.
+2. Build command: blank. Deploy command: `npx wrangler deploy` (default).
+3. Deploy — Cloudflare reads `wrangler.toml` and serves `site/` as static assets.
 
 Every push to `main` — including the daily data commit from GitHub Actions —
 auto-redeploys. No CLI, no build step, nothing to re-run.
 
-**Verify:** open the `.pages.dev` URL, confirm the calendar loads with today's
-event count in the footer stamp. Open `/review.html`, unlock with your
-passphrase, confirm the queue loads.
+Cloudflare's static-asset server auto-redirects `/review.html` → `/review`
+(307, clean-URL convention) — both paths work, it's cosmetic.
 
-## 4. Google Site (the stable public address)
+**Verify:** open the URL, confirm the calendar loads with today's event count
+in the footer stamp. Open `/review.html`, unlock with the passphrase, confirm
+the queue loads. (Confirmed working 2026-09-04.)
+
+## 4. Google Site (the stable public address) — not yet done
 
 1. [sites.google.com](https://sites.google.com) → **+ Blank** (new site).
 2. Name the site (top left, e.g. "Northland Events").
 3. Right-hand **Insert** panel → **Embed** → **By URL** tab →
-   `https://northland-events.pages.dev` → **Insert**.
+   `https://northland-events.cbrown21.workers.dev` → **Insert**.
 4. Drag the embed's corner handles to fill the page — Google Sites gives it a
    small default box.
 5. Top right → **Publish**. Pick a web address (e.g. `sites.google.com/view/northland-events`
@@ -66,8 +75,8 @@ passphrase, confirm the queue loads.
    even if the Cloudflare project ever gets rebuilt.
 
 If you ever want a page for the review queue too, repeat with
-`https://northland-events.pages.dev/review.html` as a second page (mark it
-unlisted in the site's nav, or don't add it to the menu — it's still
+`https://northland-events.cbrown21.workers.dev/review.html` as a second page
+(mark it unlisted in the site's nav, or don't add it to the menu — it's still
 passphrase-gated).
 
 ## 5. Manual events (Facebook-only, word-of-mouth) — later
