@@ -32,6 +32,8 @@ from .jsonld import JsonLdAdapter
 from .ics import IcsAdapter
 from .chamberorganizer import ChamberOrganizerAdapter
 from .chambermaster import ChamberMasterAdapter
+from .birkie import BirkieAdapter
+from .northhouse import NorthHouseAdapter
 
 GENERIC: list[Adapter] = [
     TribeEventsAdapter(),      # one API call, unambiguous when present
@@ -72,6 +74,8 @@ BY_PLATFORM: dict[str, Adapter] = {
     "chamberorganizer": ChamberOrganizerAdapter(),
     "chambermaster": ChamberMasterAdapter(),
     "growthzone": ChamberMasterAdapter(),
+    "birkie": BirkieAdapter(),
+    "northhouse": NorthHouseAdapter(),
 }
 
 __all__ = ["Adapter", "AdapterResult", "GENERIC", "BY_PLATFORM"]
