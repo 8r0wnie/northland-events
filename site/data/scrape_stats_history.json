@@ -1,21 +1,21 @@
 [
  {
   "date": "2026-09-05",
-  "raw": 3855,
-  "merged": 2958,
-  "published": 2630,
-  "queued": 328,
+  "raw": 3866,
+  "merged": 2984,
+  "published": 2649,
+  "queued": 335,
   "active_sources": 85,
   "categories": {
-   "music": 169,
-   "food-drink": 203,
-   "other": 76,
-   "community": 1193,
-   "arts": 222,
-   "family": 253,
-   "sports-rec": 334,
-   "education": 135,
-   "holiday": 45
+   "sports-rec": 337,
+   "family": 252,
+   "community": 1217,
+   "food-drink": 201,
+   "music": 167,
+   "other": 77,
+   "arts": 218,
+   "education": 134,
+   "holiday": 46
   }
  }
 ]

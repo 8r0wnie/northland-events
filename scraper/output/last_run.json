@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-05T01:08:55Z",
-  "raw": 3855,
-  "merged": 2958,
-  "published": 2630,
-  "queued": 328,
+  "when": "2026-09-05T14:04:07Z",
+  "raw": 3866,
+  "merged": 2984,
+  "published": 2649,
+  "queued": 335,
   "verification": {
-    "confirmed": 2630,
-    "multi_source": 256,
-    "trusted_single": 2374,
+    "confirmed": 2649,
+    "multi_source": 259,
+    "trusted_single": 2390,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 328
+    "queued": 335
   },
   "sources": [
     {
@@ -41,7 +41,7 @@
     {
       "source": "ely-chamber",
       "detail": "simpleview: 176 events (2 pages)",
-      "events": 176
+      "events": 175
     },
     {
       "source": "grand-rapids-mn",
@@ -56,7 +56,7 @@
     {
       "source": "bayfield-chamber",
       "detail": "simpleview: 142 events (4 pages)",
-      "events": 141
+      "events": 142
     },
     {
       "source": "visit-ashland",
@@ -65,13 +65,13 @@
     },
     {
       "source": "spooner-chamber",
-      "detail": "tribe: 77 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 77
     },
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 542 events",
-      "events": 525
+      "events": 523
     },
     {
       "source": "hermantown-mn",
@@ -150,8 +150,8 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 69 events (webspace cromwellmn)",
-      "events": 66
+      "detail": "revize: 68 events (webspace cromwellmn)",
+      "events": 65
     },
     {
       "source": "esko-township-mn",
@@ -166,7 +166,7 @@
     {
       "source": "two-harbors-mn",
       "detail": "revize: 125 events (webspace twoharborsmn)",
-      "events": 123
+      "events": 124
     },
     {
       "source": "silver-bay-mn",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 105 events",
-      "events": 105
+      "detail": "civicplus: 111 events",
+      "events": 111
     },
     {
       "source": "cable-wi",
@@ -285,8 +285,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 209 events",
-      "events": 209
+      "detail": "allevents: 212 events",
+      "events": 212
     },
     {
       "source": "allevents-superior",
@@ -305,27 +305,27 @@
     },
     {
       "source": "allevents-grand-rapids",
-      "detail": "allevents: 9 events",
-      "events": 9
+      "detail": "allevents: 6 events",
+      "events": 6
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 12 events",
-      "events": 12
+      "detail": "allevents: 13 events",
+      "events": 13
     },
     {
       "source": "allevents-ashland",
-      "detail": "allevents: 8 events",
-      "events": 8
+      "detail": "allevents: 15 events",
+      "events": 15
     },
     {
       "source": "allevents-intl-falls",
-      "detail": "allevents: 2 events",
-      "events": 2
+      "detail": "allevents: 3 events",
+      "events": 3
     },
     {
       "source": "umd-bulldogs",
-      "detail": "sidearm: 53 home/neutral events",
+      "detail": "sidearm: 52 home/neutral events",
       "events": 52
     },
     {
@@ -360,7 +360,7 @@
     },
     {
       "source": "duluth-art-institute",
-      "detail": "tribe: 84 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 84
     },
     {
@@ -375,13 +375,13 @@
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 22 events",
-      "events": 22
+      "detail": "tribe: 21 events",
+      "events": 21
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 146 events",
-      "events": 146
+      "detail": "tribe: 145 events",
+      "events": 145
     },
     {
       "source": "decc",
@@ -430,7 +430,7 @@
     },
     {
       "source": "wolf-ridge",
-      "detail": "tribe: 2 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-04]",
       "events": 2
     },
     {
