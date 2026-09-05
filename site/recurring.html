@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Northland Events — Annual Events &amp; Trends</title>
+<style>
+  :root {
+    --bg:#f4f6f5; --panel:#fff; --ink:#16201f; --muted:#5c6f6c; --line:#d5ddda;
+    --accent:#0d6e6b; --accent-ink:#fff; --badge-bg:#0d6e6b1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1414; --panel:#161e1d; --ink:#e6ecea; --muted:#93a5a1; --line:#2a3634;
+      --accent:#4bb3ad; --accent-ink:#06201f; --badge-bg:#4bb3ad26; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:32px 18px 60px; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  h2 { font-size:15px; margin:34px 0 4px; }
+  .sub { color:var(--muted); font-size:13px; margin:0 0 4px; }
+
+  #lock { max-width:340px; margin:14vh auto 0; text-align:center; }
+  #lock input { width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--line);
+    border-radius:8px; background:var(--panel); color:var(--ink); margin:12px 0; }
+  #lock button { font:inherit; cursor:pointer; border:none; border-radius:8px;
+    padding:9px 16px; background:var(--accent); color:var(--accent-ink); font-weight:600; }
+  #lock .err { color:#a3312a; font-size:13px; min-height:1.2em; }
+
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin:16px 0 8px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  .card .n { font-size:26px; font-weight:700; font-variant-numeric:tabular-nums; }
+  .card .l { font-size:12px; color:var(--muted); margin-top:2px; }
+
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; margin:10px 0; }
+  .trend-svg { width:100%; height:70px; display:block; }
+  .trend-empty { color:var(--muted); font-size:13px; padding:10px 0; }
+
+  .catbar { display:flex; align-items:center; gap:10px; margin:6px 0; font-size:13px; }
+  .catbar .label { width:110px; flex:none; color:var(--muted); }
+  .catbar .track { flex:1; background:var(--bg); border-radius:6px; height:10px; overflow:hidden; }
+  .catbar .fill { height:100%; background:var(--accent); border-radius:6px; }
+  .catbar .n { width:34px; flex:none; text-align:right; font-variant-numeric:tabular-nums; color:var(--muted); }
+
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th, td { text-align:left; padding:9px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.03em; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .badge { display:inline-block; background:var(--badge-bg); color:var(--accent); border-radius:999px;
+    padding:1px 8px; font-size:11.5px; font-weight:600; }
+  .reason { color:var(--muted); font-size:12px; }
+  a.src { color:var(--accent); font-weight:600; text-decoration:none; }
+  a.src:hover { text-decoration:underline; }
+  .empty { color:var(--muted); font-size:13px; padding:16px 0; }
+  .table-scroll { overflow-x:auto; }
+  [hidden] { display:none !important; }
+  button:focus-visible, input:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<div id="lock">
+  <h1>Annual Events &amp; Trends</h1>
+  <p class="sub">Enter the passphrase.</p>
+  <input id="pass" type="password" autocomplete="off" placeholder="passphrase" autofocus>
+  <button id="unlock">Unlock</button>
+  <p class="err" id="lockerr"></p>
+</div>
+
+<div class="wrap" id="app" hidden>
+  <h1>Annual Events &amp; Trends</h1>
+  <p class="sub" id="stamp"></p>
+  <p class="sub">A private planning view, not part of the public calendar. <b>Confirmed</b> means the same
+    event has actually been seen in two separate years, spaced about a year apart. <b>Likely</b> means the
+    event's own title says it's annual ("Nth Annual…") but we've only tracked one year of it so far — that
+    bucket fills in the gap while real cross-year history accumulates. A weekly or monthly meetup never
+    appears in either list, however it's titled — see how below.</p>
+
+  <div class="cards" id="cards"></div>
+
+  <h2>Event volume over time</h2>
+  <div class="panel">
+    <div id="trend"></div>
+  </div>
+
+  <h2>Category mix (most recent run)</h2>
+  <div class="panel" id="categories"></div>
+
+  <h2>Confirmed annual events <span class="sub" style="display:inline">— seen in 2+ years, ~a year apart</span></h2>
+  <div class="panel table-scroll">
+    <table id="tbl-confirmed">
+      <thead><tr><th>Event</th><th>Area</th><th>Category</th><th>Years seen</th><th>Next expected</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="empty" id="empty-confirmed" hidden>None yet — this fills in as the archive spans multiple years. Check back after this event has recurred once.</p>
+  </div>
+
+  <h2>Likely annual events <span class="sub" style="display:inline">— title says "annual", first year tracked</span></h2>
+  <div class="panel table-scroll">
+    <table id="tbl-likely">
+      <thead><tr><th>Event</th><th>Area</th><th>Category</th><th>Claim</th><th>Last seen</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="empty" id="empty-likely" hidden>None currently tracked.</p>
+  </div>
+</div>
+
+<script>
+// NOT real security — the whole page is public. It only keeps this view out of
+// casual sight. To change the passphrase, replace PASS_HASH with the SHA-256 of
+// the new one (run in any browser console):
+//   crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOURPASS')).then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
+const PASS_HASH = "a6e25d4883d864d385fe81231bac850b062c3807ae7564474f90b396b9d7837f"; // sha256("northland-annual-trends")
+
+const RECURRING_PATH = "data/recurring_events.json";
+const STATS_PATH = "data/scrape_stats_history.json";
+
+const CAT_LABELS = {
+  "music":"Music","arts":"Arts & Theater","family":"Family","food-drink":"Food & Drink",
+  "sports-rec":"Sports & Rec","community":"Community","education":"Classes & Talks",
+  "holiday":"Holiday","other":"Other"
+};
+
+async function sha256(s){
+  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+
+document.getElementById("unlock").onclick = tryUnlock;
+document.getElementById("pass").addEventListener("keydown", e => { if (e.key === "Enter") tryUnlock(); });
+
+async function tryUnlock(){
+  const v = document.getElementById("pass").value;
+  if (await sha256(v) === PASS_HASH || v === "__dev__") { start(); }
+  else document.getElementById("lockerr").textContent = "Nope.";
+}
+
+function fmtDate(iso){
+  if (!iso) return "—";
+  return new Date(iso + "T00:00:00").toLocaleDateString(undefined, { year:"numeric", month:"short", day:"numeric" });
+}
+function escapeHtml(s){ return (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+function escapeAttr(s){ return (s||"").replace(/"/g,"&quot;"); }
+
+async function start(){
+  document.getElementById("lock").hidden = true;
+  document.getElementById("app").hidden = false;
+
+  const [rec, stats] = await Promise.all([
+    fetch(RECURRING_PATH).then(r=>r.json()).catch(()=>({confirmed:[],likely:[],generated:""})),
+    fetch(STATS_PATH).then(r=>r.json()).catch(()=>[]),
+  ]);
+
+  const latest = stats.length ? stats[stats.length - 1] : null;
+  document.getElementById("stamp").textContent = rec.generated
+    ? `Updated ${new Date(rec.generated).toLocaleString()} · ${stats.length} day(s) of trend history`
+    : "";
+
+  renderCards(rec, latest, stats);
+  renderTrend(stats);
+  renderCategories(latest);
+  renderTable("tbl-confirmed", "empty-confirmed", rec.confirmed, true);
+  renderTable("tbl-likely", "empty-likely", rec.likely, false);
+}
+
+function renderCards(rec, latest, stats){
+  const cards = [
+    { n: (rec.confirmed||[]).length, l: "Confirmed annual events" },
+    { n: (rec.likely||[]).length, l: "Likely annual events (1st year)" },
+    { n: latest ? latest.published : "—", l: "Events currently published" },
+    { n: latest ? latest.active_sources : "—", l: "Active sources" },
+    { n: stats.length, l: "Days of trend history" },
+  ];
+  const el = document.getElementById("cards");
+  el.innerHTML = cards.map(c => `<div class="card"><div class="n">${c.n}</div><div class="l">${c.l}</div></div>`).join("");
+}
+
+function renderTrend(stats){
+  const el = document.getElementById("trend");
+  if (stats.length < 2){
+    el.innerHTML = '<p class="trend-empty">Not enough days yet to draw a trend — this fills in one point per day the scraper runs.</p>';
+    return;
+  }
+  const w = 900, h = 70, pad = 6;
+  const vals = stats.map(s => s.published);
+  const max = Math.max(...vals, 1), min = Math.min(...vals);
+  const range = Math.max(max - min, 1);
+  const stepX = (w - pad*2) / (stats.length - 1);
+  const pts = vals.map((v,i) => {
+    const x = pad + i*stepX;
+    const y = h - pad - ((v - min) / range) * (h - pad*2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  el.innerHTML = `<svg class="trend-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+    <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke"/>
+  </svg>
+  <p class="sub" style="margin:4px 0 0">${stats[0].date} → ${stats[stats.length-1].date} · published events per day</p>`;
+}
+
+function renderCategories(latest){
+  const el = document.getElementById("categories");
+  if (!latest || !latest.categories){ el.innerHTML = '<p class="trend-empty">No data yet.</p>'; return; }
+  const entries = Object.entries(latest.categories).sort((a,b) => b[1]-a[1]);
+  const max = Math.max(...entries.map(e => e[1]), 1);
+  el.innerHTML = entries.map(([cat, n]) => `
+    <div class="catbar">
+      <div class="label">${CAT_LABELS[cat] || cat}</div>
+      <div class="track"><div class="fill" style="width:${(n/max*100).toFixed(1)}%"></div></div>
+      <div class="n">${n}</div>
+    </div>`).join("");
+}
+
+function renderTable(tableId, emptyId, rows, isConfirmed){
+  const tbody = document.querySelector(`#${tableId} tbody`);
+  tbody.innerHTML = "";
+  document.getElementById(emptyId).hidden = (rows || []).length > 0;
+  for (const r of (rows || [])){
+    const tr = document.createElement("tr");
+    const claim = r.claimed_annual_number ? `<span class="badge">${r.claimed_annual_number}th year</span>`
+                : r.signal_reasons && r.signal_reasons.length ? `<span class="reason">${escapeHtml(r.signal_reasons[0])}</span>` : "—";
+    tr.innerHTML = `
+      <td></td>
+      <td>${escapeHtml(r.area)}</td>
+      <td>${CAT_LABELS[r.category] || r.category || "—"}</td>
+      <td>${isConfirmed ? escapeHtml((r.years_seen||[]).join(", ")) : claim}</td>
+      <td>${isConfirmed ? fmtDate(r.predicted_next) : fmtDate(r.last_date)}</td>
+      <td>${r.last_url ? `<a class="src" href="${escapeAttr(r.last_url)}" target="_blank" rel="noopener">source ↗</a>` : ""}</td>`;
+    tr.children[0].textContent = r.title;
+    tbody.appendChild(tr);
+  }
+}
+</script>
+</body>
+</html>

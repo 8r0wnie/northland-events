@@ -27,11 +27,15 @@ from adapters import GENERIC, BY_PLATFORM
 from models import Event
 from verify import group_events, classify, load_decisions, append_decisions_seen
 from tabling import classify_tabling
+import recurrence
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data"
 REPORT_DIR = ROOT / "scraper" / "output"
 CACHE_PATH = REPORT_DIR / "source_cache.json"
+HISTORY_PATH = DATA_DIR / "event_history.json"
+RECURRING_PATH = DATA_DIR / "recurring_events.json"
+STATS_HISTORY_PATH = DATA_DIR / "scrape_stats_history.json"
 
 HORIZON_DAYS = 200
 CACHE_MAX_AGE_DAYS = 6      # carry a source's last-good events forward this long
@@ -207,10 +211,29 @@ def cmd_scrape(args) -> None:
          "published": len(published), "queued": len(queue),
          "verification": stats, "sources": report}, indent=2), encoding="utf-8")
 
+    # ── recurring-event tracking + trend stats (private dashboard feeds) ──────
+    hist_stats = recurrence.update_history(published, HISTORY_PATH)
+    history = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+    RECURRING_PATH.write_text(
+        json.dumps(recurrence.build_recurring_view(history), indent=2), encoding="utf-8")
+
+    category_counts: dict[str, int] = {}
+    for e in published:
+        category_counts[e["category"]] = category_counts.get(e["category"], 0) + 1
+    recurrence.append_stats_snapshot(STATS_HISTORY_PATH, {
+        "date": generated[:10],
+        "raw": len(all_events), "merged": len(merged),
+        "published": len(published), "queued": len(queue),
+        "active_sources": len(sources),
+        "categories": category_counts,
+    })
+
     print(f"\n{len(all_events)} raw → {len(merged)} merged → "
           f"{len(published)} published ({stats['multi_source']} multi-source, "
           f"{stats['trusted_single']} trusted, {stats['reviewed_in']} admin-approved), "
           f"{len(queue)} in review queue")
+    print(f"recurrence: {hist_stats['series_total']} series tracked "
+          f"(+{hist_stats['new_series']} new, +{hist_stats['new_occurrences']} new occurrences)")
     fetch.shutdown()
 
 

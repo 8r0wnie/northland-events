@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-04T23:54:12Z",
-  "raw": 3659,
-  "merged": 2809,
-  "published": 2607,
-  "queued": 202,
+  "when": "2026-09-05T01:08:55Z",
+  "raw": 3855,
+  "merged": 2958,
+  "published": 2630,
+  "queued": 328,
   "verification": {
-    "confirmed": 2607,
-    "multi_source": 226,
-    "trusted_single": 2381,
+    "confirmed": 2630,
+    "multi_source": 256,
+    "trusted_single": 2374,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 202
+    "queued": 328
   },
   "sources": [
     {
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 119 events (3 pages)",
-      "events": 118
+      "detail": "simpleview: 142 events (4 pages)",
+      "events": 141
     },
     {
       "source": "visit-ashland",
@@ -285,13 +285,13 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 32 events",
-      "events": 32
+      "detail": "allevents: 209 events",
+      "events": 209
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 141 events",
-      "events": 141
+      "detail": "allevents: 139 events",
+      "events": 139
     },
     {
       "source": "allevents-cloquet",
@@ -385,8 +385,8 @@
     },
     {
       "source": "decc",
-      "detail": "decc: 65 events",
-      "events": 61
+      "detail": "decc: 64 events",
+      "events": 60
     },
     {
       "source": "earth-rider",
@@ -395,8 +395,8 @@
     },
     {
       "source": "big-top",
-      "detail": "spektrix: 17 performances (client ashwabayalliance)",
-      "events": 17
+      "detail": "spektrix: 16 performances (client ashwabayalliance)",
+      "events": 16
     },
     {
       "source": "askov-rutabaga-fest",

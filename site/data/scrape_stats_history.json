@@ -1,0 +1,21 @@
+[
+ {
+  "date": "2026-09-05",
+  "raw": 3855,
+  "merged": 2958,
+  "published": 2630,
+  "queued": 328,
+  "active_sources": 85,
+  "categories": {
+   "music": 169,
+   "food-drink": 203,
+   "other": 76,
+   "community": 1193,
+   "arts": 222,
+   "family": 253,
+   "sports-rec": 334,
+   "education": 135,
+   "holiday": 45
+  }
+ }
+]
