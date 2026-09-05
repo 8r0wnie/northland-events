@@ -108,3 +108,25 @@ appears on the public calendar or its filters — this page is the only consumer
 To change the passphrase: compute `sha256("yournewpassphrase")` (browser
 console snippet is in a comment at the top of `tabling.html`'s script) and
 swap `PASS_HASH` in [`site/tabling.html`](../site/tabling.html).
+
+## 7. Annual events & trends dashboard — DONE, private
+
+**https://northland-events.cbrown21.workers.dev/recurring.html** — same
+passphrase-gate mechanism, passphrase **`northland-annual-trends`**. Not
+linked from anywhere public and marked `noindex, nofollow`.
+
+Tracks recurring events year-over-year and regional coverage trends over
+time — `events.json` is only a rolling ~200-day window and remembers
+nothing on its own, so `scraper/recurrence.py` files every published event
+into a persistent archive (`site/data/event_history.json`, never trimmed)
+each run. An event graduates to **confirmed** once it's been seen in two
+separate years spaced ~a year apart; before that it can show as **likely**
+from title context clues alone ("Nth Annual…"). A weekly/monthly meetup is
+guarded against ever qualifying, however it's titled — see the long comment
+in `recurrence.py` for the clustering logic. `site/data/scrape_stats_history.json`
+is a capped daily snapshot (published count, category mix) feeding the
+trend line and category chart; both start accumulating from the day this
+shipped and get more useful over time, especially past the one-year mark.
+
+To change the passphrase: same recipe as above, swap `PASS_HASH` in
+[`site/recurring.html`](../site/recurring.html).
