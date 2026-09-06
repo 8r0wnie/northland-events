@@ -24,10 +24,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "Bayfield BBQ Company at Elsie Blue",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-elsie-blue/5902/"
+     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-elsie-blue/5903/"
     }
    },
    "too_frequent": false
@@ -94,10 +94,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "Live Music at Staudemeyer's Four Seasons",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12226"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11323"
     }
    },
    "too_frequent": false
@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-07",
+     "date": "2027-02-12",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-07/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-12/"
     }
    },
    "too_frequent": false
@@ -336,10 +336,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "Sips on Superior Cocktail Cruise",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/sips-on-superior-cocktail-cruise/2026-09-05/"
+     "url": "https://visitduluth.com/event/sips-on-superior-cocktail-cruise/2026-09-06/"
     }
    },
    "too_frequent": false
@@ -634,16 +634,16 @@
   },
   "september duluth studio makers market|duluth": {
    "title": "September Duluth Studio Makers Market",
-   "venue": "369 Canal Park Drive, Duluth, MN, United States, Minnesota 55802",
+   "venue": "Duluth Studio Market",
    "city": "Duluth",
    "area": "Duluth",
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "September Duluth Studio Makers Market",
-     "source_count": 3,
-     "url": "https://allevents.in/duluth/september-duluth-studio-makers-market/200030534899113"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/september-duluth-studio-makers-market/2026-09-06/"
     }
    },
    "too_frequent": false
@@ -998,10 +998,10 @@
      "url": "https://visitduluth.com/event/hadestown-teen-edition/2026-12-26/"
     },
     "2027": {
-     "date": "2027-02-06",
+     "date": "2027-02-13",
      "title": "Hadestown: Teen Edition",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-06/"
+     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-13/"
     }
    },
    "too_frequent": false
@@ -1110,10 +1110,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "Family Fun Cruise with the Vista Fleet",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/family-fun-cruise-with-the-vista-fleet/2026-09-05/"
+     "url": "https://visitduluth.com/event/family-fun-cruise-with-the-vista-fleet/2026-09-06/"
     }
    },
    "too_frequent": false
@@ -1238,10 +1238,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-09-06",
      "title": "Sunset Dinner Cruise on Lake Superior",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/sunset-dinner-cruise-on-lake-superior/2026-09-05/"
+     "url": "https://visitduluth.com/event/sunset-dinner-cruise-on-lake-superior/2026-09-06/"
     }
    },
    "too_frequent": false
@@ -1306,6 +1306,12 @@
      "title": "Ping pong",
      "source_count": 1,
      "url": "https://www.ely.org/event/ping-pong/9295/"
+    },
+    "2027": {
+     "date": "2027-01-03",
+     "title": "Ping pong",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/ping-pong/9295/"
     }
    },
    "too_frequent": false
@@ -1354,6 +1360,12 @@
      "title": "Sunday Worship Service",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/sunday-worship-service/3105/"
+    },
+    "2027": {
+     "date": "2027-01-03",
+     "title": "Sunday Worship Service",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/sunday-worship-service/3105/"
     }
    },
    "too_frequent": false
@@ -1367,6 +1379,12 @@
    "occurrences": {
     "2026": {
      "date": "2026-12-27",
+     "title": "Sunday Worship in Historic Chapel",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/sunday-worship-in-historic-chapel/3200/"
+    },
+    "2027": {
+     "date": "2027-01-03",
      "title": "Sunday Worship in Historic Chapel",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/sunday-worship-in-historic-chapel/3200/"
@@ -1401,7 +1419,7 @@
      "date": "2026-09-06",
      "title": "Great Northern Classic Rodeo 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/great-northern-classic-rodeo/2026-09-05/"
+     "url": "https://www.perfectduluthday.com/the-event/great-northern-classic-rodeo/2026-09-06/"
     }
    },
    "too_frequent": false
@@ -1558,10 +1576,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-13",
+     "date": "2026-09-20",
      "title": "Breakfast Bingo",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11886"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11887"
     }
    },
    "too_frequent": false
@@ -1676,10 +1694,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-13",
+     "date": "2026-09-20",
      "title": "4-H Equine Council Meeting",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11769"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11770"
     }
    },
    "too_frequent": false
@@ -1960,10 +1978,10 @@
      "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2026-12-28/"
     },
     "2027": {
-     "date": "2027-02-01",
+     "date": "2027-02-08",
      "title": "Between Howls | September Residency in The Yard!",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-02-01/"
+     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-02-08/"
     }
    },
    "too_frequent": false
@@ -2106,10 +2124,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-05",
+     "date": "2026-10-12",
      "title": "Twin Ports Chess Club",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-05/"
+     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-12/"
     }
    },
    "too_frequent": false
@@ -2592,10 +2610,10 @@
      "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2026-12-31/"
     },
     "2027": {
-     "date": "2027-02-04",
+     "date": "2027-02-11",
      "title": "Teen Open Studio (Fall 2026)",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-04/"
+     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-11/"
     }
    },
    "too_frequent": false
@@ -2926,10 +2944,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "title": "Bingo, Beer & Gear",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-06/"
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-13/"
     }
    },
    "too_frequent": false
@@ -2942,10 +2960,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "title": "Midweek Sound Bath",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-06/"
+     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-13/"
     }
    },
    "too_frequent": false
@@ -3718,10 +3736,10 @@
      "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2026-12-30/"
     },
     "2027": {
-     "date": "2027-02-03",
+     "date": "2027-02-10",
      "title": "Weekly Wine Gatherings",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-02-03/"
+     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-02-10/"
     }
    },
    "too_frequent": false
@@ -5148,7 +5166,7 @@
   },
   "youth robotics open house|duluth": {
    "title": "Youth Robotics Open House",
-   "venue": "",
+   "venue": "3802 Grand Avenue, Duluth, MN, United States, Minnesota 55807",
    "city": "Duluth",
    "area": "Duluth",
    "category": "family",
@@ -5156,7 +5174,7 @@
     "2026": {
      "date": "2026-09-11",
      "title": "Youth Robotics Open House",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.perfectduluthday.com/the-event/youth-robotics-open-house/"
     }
    },
@@ -6072,13 +6090,13 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-09-13",
+     "date": "2026-10-11",
      "title": "Community Sound Bath",
-     "source_count": 2,
-     "url": "https://visitduluth.com/event/community-sound-bath-4/"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/community-sound-bath-2026/2026-10-11/"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "women in leadership conference|duluth": {
    "title": "Women in Leadership Conference",
@@ -6506,10 +6524,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-05",
+     "date": "2026-10-12",
      "title": "Teague Alexy",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-05/"
+     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-12/"
     }
    },
    "too_frequent": false
@@ -7236,10 +7254,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-30",
+     "date": "2026-10-14",
      "title": "Live Music Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-09-29/"
+     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-13/"
     }
    },
    "too_frequent": false
@@ -8721,7 +8739,7 @@
      "date": "2026-09-19",
      "title": "Minnesota Duluth vs. Winona State Warriors \u2013 Duluth",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth/"
+     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth-2/"
     }
    },
    "too_frequent": false
@@ -8910,7 +8928,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-22",
+     "date": "2026-09-24",
      "title": "Ashland County Fair",
      "source_count": 1,
      "url": "https://ashlandcountyfair.com/events/ashland-county-fair-7/"
@@ -9734,7 +9752,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-02-25",
+     "date": "2027-03-25",
      "title": "Public Arts & Beautification Meeting",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -9756,7 +9774,7 @@
      "url": "https://cookcountymn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-02-25",
+     "date": "2027-03-25",
      "title": "Firewise Committee",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -11374,7 +11392,7 @@
   },
   "dj trivia at caddy shack|duluth": {
    "title": "DJ Trivia at the Caddy Shack",
-   "venue": "",
+   "venue": "Duluth Folk School",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -11450,10 +11468,10 @@
      "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-12-25/"
     },
     "2027": {
-     "date": "2027-02-05",
+     "date": "2027-02-12",
      "title": "Glensheen Lantern Tours",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-05/"
+     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-12/"
     }
    },
    "too_frequent": false
@@ -12458,16 +12476,16 @@
   },
   "junk journaling with denise voie de vie|duluth": {
    "title": "Junk Journaling with Denise Voie de Vie",
-   "venue": "Duluth Art Institute (Lincoln Park Building)",
+   "venue": "DAI Lincoln Park Building",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "arts",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-09",
      "title": "Junk Journaling with Denise Voie de Vie",
-     "source_count": 3,
-     "url": "https://visitduluth.com/event/junk-journaling-with-denise-voie-de-vie/2026-10-09/"
+     "source_count": 1,
+     "url": "https://duluthart.org/event/junk-journaling-with-denise-voie-de-vie/2026-10-09/"
     }
    },
    "too_frequent": false
@@ -12594,8 +12612,8 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Spirit of the Times 2026",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/spirit-of-the-times-2026/200030576631417"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/spirit-of-the-times-2026/"
     }
    },
    "too_frequent": false
@@ -17238,8 +17256,8 @@
     "2027": {
      "date": "2027-02-12",
      "title": "UMD Women\u2019s Hockey vs University of Wisconsin",
-     "source_count": 1,
-     "url": "https://decc.org/event/umd-womens-hockey-vs-university-of-wisconsin-feb12/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/umd-womens-hockey-vs-university-of-wisconsin-2/"
     }
    },
    "too_frequent": false
@@ -17720,6 +17738,262 @@
      "title": "Cirque Alice",
      "source_count": 1,
      "url": "https://visitduluth.com/event/cirque-alice/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wallflowers|bayfield": {
+   "title": "The Wallflowers",
+   "venue": "",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-05",
+     "title": "The Wallflowers",
+     "source_count": 1,
+     "url": "spektrix:ashwabayalliance"
+    }
+   },
+   "too_frequent": false
+  },
+  "st scholastica postponed men s soccer vs central college|duluth": {
+   "title": "St. Scholastica POSTPONED Men's Soccer vs Central College",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-06",
+     "title": "St. Scholastica POSTPONED Men's Soccer vs Central College",
+     "source_count": 1,
+     "url": "https://csssaints.com/calendar.aspx?game_id=17820&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "under blue umbrella concert series sugar on roof|duluth": {
+   "title": "Under the Blue Umbrella Concert Series: Sugar on the Roof",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-07",
+     "title": "Under the Blue Umbrella Concert Series: Sugar on the Roof",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/under-the-blue-umbrella-concert-series-2026-09-06/"
+    }
+   },
+   "too_frequent": false
+  },
+  "darn it intro to creative mending|ely": {
+   "title": "Darn It! Intro to Creative Mending",
+   "venue": "Ely Folk School",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-09",
+     "title": "Darn It! Intro to Creative Mending",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/darn-it!-intro-to-creative-mending/9682/"
+    }
+   },
+   "too_frequent": false
+  },
+  "handmade yarn on a drop sindle|ely": {
+   "title": "Handmade Yarn on a Drop Sindle",
+   "venue": "Ely Folk School",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-09",
+     "title": "Handmade Yarn on a Drop Sindle",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/handmade-yarn-on-a-drop-sindle/9683/"
+    }
+   },
+   "too_frequent": false
+  },
+  "introduction to kado zen flower arrangement|duluth": {
+   "title": "Introduction to Kado: Zen Flower Arrangement",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-09",
+     "title": "Introduction to Kado: Zen Flower Arrangement",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/introduction-to-kado-zen-flower-arrangement/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall clothing swap|duluth": {
+   "title": "Fall Clothing Swap",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-10",
+     "title": "Fall Clothing Swap",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/fall-clothing-swap-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "sauna hot time in old town tonight|duluth": {
+   "title": "Sauna: Hot Time in the Old Town Tonight",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-11",
+     "title": "Sauna: Hot Time in the Old Town Tonight",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/sauna-hot-time-in-the-old-town-tonight/"
+    }
+   },
+   "too_frequent": false
+  },
+  "whiskey river|duluth": {
+   "title": "Whiskey River",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-11",
+     "title": "Whiskey River",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/whiskey-river/"
+    }
+   },
+   "too_frequent": false
+  },
+  "9 11 remembrance stair climb|duluth": {
+   "title": "9/11 Remembrance Stair Climb 2026",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-11",
+     "title": "9/11 Remembrance Stair Climb 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/9-11-remembrance-stair-climb-2026/"
+    }
+   },
+   "too_frequent": false
+  },
+  "9 11 observance remembrance ceremony|duluth": {
+   "title": "9/11 Observance/Remembrance Ceremony 2026",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-11",
+     "title": "9/11 Observance/Remembrance Ceremony 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/9-11-observance-remembrance-ceremony-2026/"
+    }
+   },
+   "too_frequent": false
+  },
+  "birch bark earrings with pizzazz|ely": {
+   "title": "Birch Bark Earrings...With Pizzazz!",
+   "venue": "Ely Folk School",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-12",
+     "title": "Birch Bark Earrings...With Pizzazz!",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/birch-bark-earrings-with-pizzazz!/9670/"
+    }
+   },
+   "too_frequent": false
+  },
+  "marketing resource fair|duluth": {
+   "title": "Marketing Resource Fair",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-14",
+     "title": "Marketing Resource Fair",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/marketing-resource-fair/"
+    }
+   },
+   "too_frequent": false
+  },
+  "superior fall fest|duluth": {
+   "title": "Superior Fall Fest 2026",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-19",
+     "title": "Superior Fall Fest 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/superior-fall-fest-2026/"
+    }
+   },
+   "too_frequent": false
+  },
+  "gatherings by sheraton live with mark connolly|duluth": {
+   "title": "Gatherings by Sheraton: Live with Mark Connolly",
+   "venue": "Sheraton Duluth Hotel",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-22",
+     "title": "Gatherings by Sheraton: Live with Mark Connolly",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/gatherings-by-sheraton-live-with-mark-connolly/100001999702696596"
+    }
+   },
+   "too_frequent": false
+  },
+  "music on river woodblind|duluth": {
+   "title": "Music on the River: Woodblind",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-27",
+     "title": "Music on the River: Woodblind",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/music-by-the-river-woodblind/"
     }
    },
    "too_frequent": false

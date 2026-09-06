@@ -17,5 +17,24 @@
    "education": 134,
    "holiday": 46
   }
+ },
+ {
+  "date": "2026-09-06",
+  "raw": 3825,
+  "merged": 2957,
+  "published": 2618,
+  "queued": 339,
+  "active_sources": 85,
+  "categories": {
+   "education": 133,
+   "family": 255,
+   "community": 1206,
+   "music": 160,
+   "food-drink": 196,
+   "sports-rec": 332,
+   "arts": 214,
+   "holiday": 47,
+   "other": 75
+  }
  }
 ]
