@@ -78,7 +78,7 @@
      "url": "https://www.cromwellmn.org/calendar.php"
     },
     "2027": {
-     "date": "2027-03-19",
+     "date": "2027-03-26",
      "title": "Meat Raffle",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-12",
+     "date": "2027-02-19",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-12/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-19/"
     }
    },
    "too_frequent": false
@@ -608,10 +608,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-19",
+     "date": "2026-09-21",
      "title": "Live Music at Hoop's Fish Dockside",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11144"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11145"
     }
    },
    "too_frequent": false
@@ -816,10 +816,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-18",
+     "date": "2026-09-21",
      "title": "Nature's Canvas - Tiny Art Show",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11745"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11747"
     }
    },
    "too_frequent": false
@@ -998,10 +998,10 @@
      "url": "https://visitduluth.com/event/hadestown-teen-edition/2026-12-26/"
     },
     "2027": {
-     "date": "2027-02-13",
+     "date": "2027-02-20",
      "title": "Hadestown: Teen Edition",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-13/"
+     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-20/"
     }
    },
    "too_frequent": false
@@ -1480,7 +1480,7 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-09-06",
+     "date": "2026-09-13",
      "title": "Similar Sundays at Ritual Marketplace",
      "source_count": 2,
      "url": "https://allevents.in/superior/similar-sundays-at-ritual-marketplace/100001980301487056"
@@ -1678,10 +1678,10 @@
      "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-07",
+     "date": "2027-02-14",
      "title": "Going Solar in the Northland",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-02-07/"
+     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-02-14/"
     }
    },
    "too_frequent": false
@@ -1826,6 +1826,12 @@
      "title": "Women\u2019s Coffee & Connect",
      "source_count": 1,
      "url": "https://www.ely.org/event/women%e2%80%99s-coffee-%26-connect/9408/"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Women\u2019s Coffee & Connect",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/women%e2%80%99s-coffee-%26-connect/9408/"
     }
    },
    "too_frequent": false
@@ -1888,7 +1894,7 @@
     "2026": {
      "date": "2026-09-07",
      "title": "Labor Day \u2013 Offices Closed",
-     "source_count": 4,
+     "source_count": 3,
      "url": "https://proctormn.gov/event/labor-day-offices-closed/"
     }
    },
@@ -1960,6 +1966,12 @@
      "title": "Walking Club",
      "source_count": 1,
      "url": "https://www.ely.org/event/walking-club/8398/"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Walking Club",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/walking-club/8398/"
     }
    },
    "too_frequent": false
@@ -1978,10 +1990,10 @@
      "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2026-12-28/"
     },
     "2027": {
-     "date": "2027-02-08",
+     "date": "2027-02-15",
      "title": "Between Howls | September Residency in The Yard!",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-02-08/"
+     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-02-15/"
     }
    },
    "too_frequent": false
@@ -2032,10 +2044,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-14",
+     "date": "2026-09-21",
      "title": "Washburn Food Truck Mondays",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11006"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11007"
     }
    },
    "too_frequent": false
@@ -2108,10 +2120,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-14",
+     "date": "2026-09-21",
      "title": "Xtreme Bar Bingo at Scenic Drive Resort",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11865"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11866"
     }
    },
    "too_frequent": false
@@ -2610,10 +2622,10 @@
      "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2026-12-31/"
     },
     "2027": {
-     "date": "2027-02-11",
+     "date": "2027-02-18",
      "title": "Teen Open Studio (Fall 2026)",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-11/"
+     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-18/"
     }
    },
    "too_frequent": false
@@ -3196,10 +3208,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Bruce Woodman and the Occasional 20-Minute Timeouts",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-06/"
+     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-13/"
     }
    },
    "too_frequent": false
@@ -3570,10 +3582,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Superior Downtown Farmers Market",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market-2026-10-07/"
+     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market-2026-10-14/"
     }
    },
    "too_frequent": false
@@ -3682,13 +3694,13 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-09",
+     "date": "2026-10-14",
      "title": "West Duluth Business Club Lunch Meeting",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/west-duluth-business-club-lunch-meeting-2026/2026-09-09/"
+     "url": "https://www.perfectduluthday.com/the-event/west-duluth-business-club-lunch-meeting-2026/2026-10-14/"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "creative writing club|hibbing": {
    "title": "Creative Writing Club",
@@ -3736,10 +3748,10 @@
      "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2026-12-30/"
     },
     "2027": {
-     "date": "2027-02-10",
+     "date": "2027-02-17",
      "title": "Weekly Wine Gatherings",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-02-10/"
+     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-02-17/"
     }
    },
    "too_frequent": false
@@ -3950,10 +3962,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Cribbage and Game Night",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-07/"
+     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-14/"
     }
    },
    "too_frequent": false
@@ -3966,10 +3978,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Open Mic Night at the Backstage",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/open-mic-night-at-the-backstage-2026/2026-10-07/"
+     "url": "https://www.perfectduluthday.com/the-event/open-mic-night-at-the-backstage-2026/2026-10-14/"
     }
    },
    "too_frequent": false
@@ -3982,10 +3994,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Wednesday Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/wednesday-open-mic/2026-10-07/"
+     "url": "https://www.perfectduluthday.com/the-event/wednesday-open-mic/2026-10-14/"
     }
    },
    "too_frequent": false
@@ -4452,10 +4464,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-08",
+     "date": "2026-10-15",
      "title": "MNsure Application Assistance",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/mnsure-application-assistance/2026-10-08/"
+     "url": "https://www.perfectduluthday.com/the-event/mnsure-application-assistance/2026-10-15/"
     }
    },
    "too_frequent": false
@@ -8739,7 +8751,7 @@
      "date": "2026-09-19",
      "title": "Minnesota Duluth vs. Winona State Warriors \u2013 Duluth",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth-2/"
+     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth/"
     }
    },
    "too_frequent": false
@@ -11468,10 +11480,10 @@
      "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-12-25/"
     },
     "2027": {
-     "date": "2027-02-12",
+     "date": "2027-02-19",
      "title": "Glensheen Lantern Tours",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-12/"
+     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-19/"
     }
    },
    "too_frequent": false
@@ -12612,8 +12624,8 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Spirit of the Times 2026",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/spirit-of-the-times-2026/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/spirit-of-the-times-2026/200030576631417"
     }
    },
    "too_frequent": false
@@ -14814,9 +14826,15 @@
      "title": "UW-Superior Club Men's Ice Hockey Minnesota Duluth",
      "source_count": 1,
      "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11845&sport_id=21"
+    },
+    "2027": {
+     "date": "2027-02-03",
+     "title": "UW-Superior Club Men's Ice Hockey Minnesota Duluth",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11854&sport_id=21"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "st scholastica women s hockey vs university of wisconsin river falls|duluth": {
    "title": "St. Scholastica Women's Hockey vs University of Wisconsin - River Falls",
@@ -15756,8 +15774,8 @@
     "2026": {
      "date": "2026-11-27",
      "title": "Mason Jennings",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/mason-jennings/100001999055502822"
+     "source_count": 1,
+     "url": "https://sacredheartmusic.org/event/mason-jennings-5/"
     }
    },
    "too_frequent": false
@@ -17288,8 +17306,8 @@
     "2027": {
      "date": "2027-02-20",
      "title": "DSSO Masterworks 5 \u2013 In Sacred Light",
-     "source_count": 1,
-     "url": "https://decc.org/event/masterworks-5-in-sacred-light/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/dsso-masterworks-5-in-sacred-light/"
     }
    },
    "too_frequent": false
@@ -17536,16 +17554,16 @@
   },
   "chair yoga|bayfield": {
    "title": "Chair Yoga",
-   "venue": "Bayfield Presbyterian Church, Santuary",
+   "venue": "Bayfield Presbyterian Church",
    "city": "Bayfield",
    "area": "Bayfield",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-09-24",
+     "date": "2026-10-07",
      "title": "Chair Yoga",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/chair-yoga/5894/"
+     "url": "https://www.bayfield.org/event/chair-yoga/5895/"
     }
    },
    "too_frequent": false
@@ -17994,6 +18012,182 @@
      "title": "Music on the River: Woodblind",
      "source_count": 1,
      "url": "https://www.perfectduluthday.com/the-event/music-by-the-river-woodblind/"
+    }
+   },
+   "too_frequent": false
+  },
+  "van and free candies|ely": {
+   "title": "Van and the Free Candies",
+   "venue": "Zaverl's Bar",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-30",
+     "title": "Van and the Free Candies",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/van-and-the-free-candies/9680/"
+    }
+   },
+   "too_frequent": false
+  },
+  "light weight training|ely": {
+   "title": "Light Weight Training",
+   "venue": "Northwoods Partners",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-30",
+     "title": "Light Weight Training",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/light-weight-training/9409/"
+    }
+   },
+   "too_frequent": false
+  },
+  "atv club camping|bayfield county": {
+   "title": "ATV Club Camping",
+   "venue": "",
+   "city": "Iron River",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-21",
+     "title": "ATV Club Camping",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11774"
+    }
+   },
+   "too_frequent": false
+  },
+  "sheriff s committee meeting|bayfield county": {
+   "title": "Sheriff's Committee Meeting",
+   "venue": "Washburn, WI 54891",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-21",
+     "title": "Sheriff's Committee Meeting",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10475"
+    }
+   },
+   "too_frequent": false
+  },
+  "human resources committee meets 3rd monday of each month|superior": {
+   "title": "Human Resources Committee (Meets 3rd Monday of each month)",
+   "venue": "",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-21",
+     "title": "Human Resources Committee (Meets 3rd Monday of each month)",
+     "source_count": 1,
+     "url": "https://www.superiorwi.gov/Calendar.aspx?EID=3717"
+    }
+   },
+   "too_frequent": false
+  },
+  "tipsy sol field dinner|duluth": {
+   "title": "Tipsy Sol Field Dinner",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-22",
+     "title": "Tipsy Sol Field Dinner",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/tipsy-sol-field-dinner/"
+    }
+   },
+   "too_frequent": false
+  },
+  "oktoberfest at wussows|duluth": {
+   "title": "Oktoberfest at Wussows",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-24",
+     "title": "Oktoberfest at Wussows",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/oktoberfest-at-wussows/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lake county board of commissioners agenda meeting|lake county": {
+   "title": "Lake County Board of Commissioners \u2013 Agenda Meeting",
+   "venue": "Split Rock River Room",
+   "city": "",
+   "area": "Lake County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-06",
+     "title": "Lake County Board of Commissioners \u2013 Agenda Meeting",
+     "source_count": 1,
+     "url": "https://lakecountymn.gov/events/lake-county-board-of-commissioners-agenda-meeting/"
+    }
+   },
+   "too_frequent": false
+  },
+  "st scholastica men s basketball vs augsburg university|duluth": {
+   "title": "St. Scholastica Men's Basketball vs Augsburg University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-03",
+     "title": "St. Scholastica Men's Basketball vs Augsburg University",
+     "source_count": 1,
+     "url": "https://csssaints.com/calendar.aspx?game_id=17947&sport_id=7"
+    }
+   },
+   "too_frequent": false
+  },
+  "duluth sport show|duluth": {
+   "title": "Duluth Sport Show",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-18",
+     "title": "Duluth Sport Show",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/duluth-sport-show-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "reif dance company in concert|grand rapids": {
+   "title": "Reif Dance Presents: The Company in Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-06",
+     "title": "Reif Dance Presents: The Company in Concert",
+     "source_count": 1,
+     "url": "https://www.reifcenter.org/event/reif-dance-presents-the-company-in-concert-3/2027-03-06/"
     }
    },
    "too_frequent": false
