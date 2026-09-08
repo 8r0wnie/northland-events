@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-19",
+     "date": "2027-02-21",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-19/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-21/"
     }
    },
    "too_frequent": false
@@ -1678,10 +1678,10 @@
      "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-14",
+     "date": "2027-02-21",
      "title": "Going Solar in the Northland",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-02-14/"
+     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-02-21/"
     }
    },
    "too_frequent": false
@@ -2156,6 +2156,12 @@
      "title": "Chair Yoga",
      "source_count": 1,
      "url": "https://www.ely.org/event/chair-yoga/8460/"
+    },
+    "2027": {
+     "date": "2027-01-05",
+     "title": "Chair Yoga",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/chair-yoga/8460/"
     }
    },
    "too_frequent": false
@@ -2257,6 +2263,12 @@
    "occurrences": {
     "2026": {
      "date": "2026-12-29",
+     "title": "Community Exercise Tower",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/community-exercise-tower/6630/"
+    },
+    "2027": {
+     "date": "2027-01-05",
      "title": "Community Exercise Tower",
      "source_count": 1,
      "url": "https://www.ely.org/event/community-exercise-tower/6630/"
@@ -2412,10 +2424,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-09-15",
+     "date": "2026-09-22",
      "title": "Story Time at Hibbing Public Library",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1889"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1890"
     }
    },
    "too_frequent": false
@@ -3208,10 +3220,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-07",
      "title": "Bruce Woodman and the Occasional 20-Minute Timeouts",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-06/"
     }
    },
    "too_frequent": false
@@ -3582,10 +3594,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-07",
      "title": "Superior Downtown Farmers Market",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market-2026-10-14/"
+     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market/2026-10-07/"
     }
    },
    "too_frequent": false
@@ -3694,10 +3706,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-09-09",
      "title": "West Duluth Business Club Lunch Meeting",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/west-duluth-business-club-lunch-meeting-2026/2026-10-14/"
+     "url": "https://www.perfectduluthday.com/the-event/west-duluth-business-club-lunch-meeting-2026/2026-09-09/"
     }
    },
    "too_frequent": true
@@ -3962,10 +3974,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-07",
      "title": "Cribbage and Game Night",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-14/"
+     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-07/"
     }
    },
    "too_frequent": false
@@ -3978,10 +3990,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-07",
      "title": "Open Mic Night at the Backstage",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/open-mic-night-at-the-backstage-2026/2026-10-14/"
+     "url": "https://www.perfectduluthday.com/the-event/open-mic-night-at-the-backstage-2026/2026-10-07/"
     }
    },
    "too_frequent": false
@@ -3994,10 +4006,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-07",
      "title": "Wednesday Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/wednesday-open-mic/2026-10-14/"
+     "url": "https://www.perfectduluthday.com/the-event/wednesday-open-mic/2026-10-07/"
     }
    },
    "too_frequent": false
@@ -4464,10 +4476,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-10-08",
      "title": "MNsure Application Assistance",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/mnsure-application-assistance/2026-10-15/"
+     "url": "https://www.perfectduluthday.com/the-event/mnsure-application-assistance/2026-10-08/"
     }
    },
    "too_frequent": false
@@ -7266,10 +7278,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-09-30",
      "title": "Live Music Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-09-29/"
     }
    },
    "too_frequent": false
@@ -7559,17 +7571,17 @@
    "too_frequent": false
   },
   "tomassoni tour cycle for als|duluth": {
-   "title": "Tomassoni Tour \u2013 Cycle for ALS",
+   "title": "Tomassoni Tour 2026: Cycle for ALS",
    "venue": "Giants Ridge",
-   "city": "Biwabik",
+   "city": "Duluth",
    "area": "Duluth",
-   "category": "sports-rec",
+   "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-17",
-     "title": "Tomassoni Tour \u2013 Cycle for ALS",
+     "date": "2026-09-18",
+     "title": "Tomassoni Tour 2026: Cycle for ALS",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/tomassoni-tour-cycle-for-als/"
+     "url": "https://www.perfectduluthday.com/the-event/tomassoni-tour-2026-cycle-for-als/"
     }
    },
    "too_frequent": false
@@ -10368,7 +10380,7 @@
      "url": "https://www.cromwellmn.org/calendar.php"
     },
     "2027": {
-     "date": "2027-02-27",
+     "date": "2027-03-27",
      "title": "Free Jukebox",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -17516,6 +17528,12 @@
      "title": "SAIL - Stay Active and Independent for Life",
      "source_count": 1,
      "url": "https://www.ely.org/event/sail-stay-active-and-independent-for-life/9546/"
+    },
+    "2027": {
+     "date": "2027-01-05",
+     "title": "SAIL - Stay Active and Independent for Life",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/sail-stay-active-and-independent-for-life/9546/"
     }
    },
    "too_frequent": false
@@ -17529,6 +17547,12 @@
    "occurrences": {
     "2026": {
      "date": "2026-12-29",
+     "title": "Outdoor Walking Club",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/outdoor-walking-club/9629/"
+    },
+    "2027": {
+     "date": "2027-01-05",
      "title": "Outdoor Walking Club",
      "source_count": 1,
      "url": "https://www.ely.org/event/outdoor-walking-club/9629/"
@@ -18154,7 +18178,7 @@
     "2027": {
      "date": "2027-02-03",
      "title": "St. Scholastica Men's Basketball vs Augsburg University",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://csssaints.com/calendar.aspx?game_id=17947&sport_id=7"
     }
    },
@@ -18188,6 +18212,390 @@
      "title": "Reif Dance Presents: The Company in Concert",
      "source_count": 1,
      "url": "https://www.reifcenter.org/event/reif-dance-presents-the-company-in-concert-3/2027-03-06/"
+    }
+   },
+   "too_frequent": false
+  },
+  "men s memories movement|ely": {
+   "title": "Men's Memories & Movement",
+   "venue": "Northwoods Partners",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-30",
+     "title": "Men's Memories & Movement",
+     "source_count": 1,
+     "url": "https://www.ely.org/event/mens-memories-%26-movement/9410/"
+    }
+   },
+   "too_frequent": false
+  },
+  "canceled public works mtg|silver bay": {
+   "title": "Canceled Public Works Mtg",
+   "venue": "",
+   "city": "Silver Bay",
+   "area": "Silver Bay",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-09",
+     "title": "Canceled Public Works Mtg",
+     "source_count": 1,
+     "url": "https://www.silverbaymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "canceled planning zoning mtg|silver bay": {
+   "title": "Canceled Planning & Zoning Mtg",
+   "venue": "",
+   "city": "Silver Bay",
+   "area": "Silver Bay",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-09",
+     "title": "Canceled Planning & Zoning Mtg",
+     "source_count": 1,
+     "url": "https://www.silverbaymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "free community dinner in west duluth|duluth": {
+   "title": "Free Community Dinner in West Duluth",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-07",
+     "title": "Free Community Dinner in West Duluth",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/free-community-dinner-in-west-duluth/2026-10-07/"
+    }
+   },
+   "too_frequent": false
+  },
+  "similar dogs|duluth": {
+   "title": "Similar Dogs",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Similar Dogs",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/similar-dogs-saturdays/2026-10-10/"
+    }
+   },
+   "too_frequent": false
+  },
+  "sasquatch 92 1 metal night with pronoya vvakefield protolith kalopsya and mishipeshu|duluth": {
+   "title": "Sasquatch 92.1 Metal Night with Pronoya, Vvakefield, Protolith, Kalopsya and Mishipeshu",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-13",
+     "title": "Sasquatch 92.1 Metal Night with Pronoya, Vvakefield, Protolith, Kalopsya and Mishipeshu",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/sasquatch-92-1-metal-night-pronoya-vvakefield-protolith-kalopsya-mishipeshu/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lake superior cluster dog shows|superior": {
+   "title": "Lake Superior Cluster Dog Shows",
+   "venue": "Head of the Lakes Fairgrounds",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-17",
+     "title": "Lake Superior Cluster Dog Shows",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/lake-superior-cluster-dog-shows-21685"
+    }
+   },
+   "too_frequent": false
+  },
+  "friends of hibbing public library meeting|hibbing": {
+   "title": "Friends of the Hibbing Public Library meeting",
+   "venue": "",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-22",
+     "title": "Friends of the Hibbing Public Library meeting",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1895"
+    }
+   },
+   "too_frequent": false
+  },
+  "trusted elections|duluth": {
+   "title": "Trusted Elections",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-24",
+     "title": "Trusted Elections",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/trusted-elections/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs carleton college|duluth": {
+   "title": "UMD Men's Basketball vs Carleton College",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-01",
+     "title": "UMD Men's Basketball vs Carleton College",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11029&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs concordia st paul|duluth": {
+   "title": "UMD Men's Basketball vs Concordia-St. Paul",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-09",
+     "title": "UMD Men's Basketball vs Concordia-St. Paul",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11030&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs northern michigan university|duluth": {
+   "title": "UMD Men's Basketball vs Northern Michigan University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "UMD Men's Basketball vs Northern Michigan University",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11035&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of minnesota crookston|duluth": {
+   "title": "UMD Men's Basketball vs University of Minnesota Crookston",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "UMD Men's Basketball vs University of Minnesota Crookston",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11037&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs northern state university|duluth": {
+   "title": "UMD Men's Basketball vs Northern State University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-10",
+     "title": "UMD Men's Basketball vs Northern State University",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11038&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of jamestown|duluth": {
+   "title": "UMD Men's Basketball vs University of Jamestown",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "UMD Men's Basketball vs University of Jamestown",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11039&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of wisconsin superior|duluth": {
+   "title": "UMD Men's Basketball vs University of Wisconsin-Superior",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-29",
+     "title": "UMD Men's Basketball vs University of Wisconsin-Superior",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11042&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday new year s day|cloquet": {
+   "title": "Holiday: New Year's Day",
+   "venue": "",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "holiday",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-01",
+     "title": "Holiday: New Year's Day",
+     "source_count": 1,
+     "url": "https://fdlband.org/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs bemidji state university|duluth": {
+   "title": "UMD Men's Basketball vs Bemidji State University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-02",
+     "title": "UMD Men's Basketball vs Bemidji State University",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11043&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs st cloud state university|duluth": {
+   "title": "UMD Men's Basketball vs St. Cloud State University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-15",
+     "title": "UMD Men's Basketball vs St. Cloud State University",
+     "source_count": 2,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11046&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday martin luther king jr day|cloquet": {
+   "title": "Holiday: Martin Luther King, Jr. Day",
+   "venue": "",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-18",
+     "title": "Holiday: Martin Luther King, Jr. Day",
+     "source_count": 2,
+     "url": "https://fdlband.org/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs augustana university sd|duluth": {
+   "title": "UMD Men's Basketball vs Augustana University (SD)",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-22",
+     "title": "UMD Men's Basketball vs Augustana University (SD)",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11048&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs wayne state college|duluth": {
+   "title": "UMD Men's Basketball vs Wayne State College",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-23",
+     "title": "UMD Men's Basketball vs Wayne State College",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11050&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday washington s birthday|cloquet": {
+   "title": "Holiday: Washington's Birthday",
+   "venue": "",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-15",
+     "title": "Holiday: Washington's Birthday",
+     "source_count": 1,
+     "url": "https://fdlband.org/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday good friday|cloquet": {
+   "title": "Holiday: Good Friday",
+   "venue": "",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-26",
+     "title": "Holiday: Good Friday",
+     "source_count": 1,
+     "url": "https://fdlband.org/calendar.php"
     }
    },
    "too_frequent": false

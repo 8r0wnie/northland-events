@@ -55,5 +55,24 @@
    "food-drink": 196,
    "sports-rec": 331
   }
+ },
+ {
+  "date": "2026-09-08",
+  "raw": 3843,
+  "merged": 2977,
+  "published": 2635,
+  "queued": 342,
+  "active_sources": 85,
+  "categories": {
+   "sports-rec": 342,
+   "community": 1224,
+   "arts": 212,
+   "family": 238,
+   "food-drink": 197,
+   "education": 148,
+   "other": 74,
+   "music": 152,
+   "holiday": 48
+  }
  }
 ]
