@@ -93,5 +93,24 @@
    "music": 155,
    "holiday": 46
   }
+ },
+ {
+  "date": "2026-09-10",
+  "raw": 3844,
+  "merged": 2946,
+  "published": 2619,
+  "queued": 327,
+  "active_sources": 85,
+  "categories": {
+   "education": 145,
+   "community": 1230,
+   "sports-rec": 347,
+   "arts": 212,
+   "music": 151,
+   "family": 226,
+   "food-drink": 186,
+   "other": 76,
+   "holiday": 46
+  }
  }
 ]
