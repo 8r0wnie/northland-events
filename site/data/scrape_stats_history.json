@@ -112,5 +112,24 @@
    "other": 76,
    "holiday": 46
   }
+ },
+ {
+  "date": "2026-09-11",
+  "raw": 3630,
+  "merged": 2754,
+  "published": 2424,
+  "queued": 330,
+  "active_sources": 85,
+  "categories": {
+   "community": 1165,
+   "sports-rec": 344,
+   "music": 150,
+   "food-drink": 190,
+   "family": 216,
+   "education": 72,
+   "arts": 202,
+   "other": 38,
+   "holiday": 47
+  }
  }
 ]
