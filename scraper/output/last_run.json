@@ -1,22 +1,22 @@
 {
-  "when": "2026-09-12T14:50:55Z",
-  "raw": 3576,
-  "merged": 2705,
-  "published": 2383,
-  "queued": 322,
+  "when": "2026-09-13T15:05:59Z",
+  "raw": 3520,
+  "merged": 2673,
+  "published": 2362,
+  "queued": 311,
   "verification": {
-    "confirmed": 2383,
+    "confirmed": 2362,
     "multi_source": 217,
-    "trusted_single": 2166,
+    "trusted_single": 2145,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 322
+    "queued": 311
   },
   "sources": [
     {
       "source": "perfect-duluth-day",
-      "detail": "tribehtml: 385 events (16 feed pages)",
-      "events": 385
+      "detail": "tribehtml: 384 events (16 feed pages)",
+      "events": 384
     },
     {
       "source": "visit-duluth",
@@ -31,7 +31,7 @@
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 40 events via https://superiorchamber.org",
-      "events": 33
+      "events": 31
     },
     {
       "source": "hibbing-chamber",
@@ -40,8 +40,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 157 events (2 pages)",
-      "events": 155
+      "detail": "simpleview: 140 events (2 pages)",
+      "events": 140
     },
     {
       "source": "grand-rapids-mn",
@@ -55,13 +55,13 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 140 events (4 pages)",
-      "events": 140
+      "detail": "simpleview: 132 events (3 pages)",
+      "events": 131
     },
     {
       "source": "visit-ashland",
-      "detail": "jsonld: 4 events (rendered)",
-      "events": 4
+      "detail": "jsonld: 2 events (rendered)",
+      "events": 2
     },
     {
       "source": "spooner-chamber",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 543 events",
-      "events": 499
+      "events": 497
     },
     {
       "source": "hermantown-mn",
@@ -90,7 +90,7 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
+      "detail": "civicplus: 11 events",
       "events": 11
     },
     {
@@ -140,7 +140,7 @@
     },
     {
       "source": "moose-lake-mn",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
+      "detail": "civicplus: 4 events",
       "events": 4
     },
     {
@@ -150,8 +150,8 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 69 events (webspace cromwellmn)",
-      "events": 66
+      "detail": "revize: 68 events (webspace cromwellmn)",
+      "events": 65
     },
     {
       "source": "esko-township-mn",
@@ -170,13 +170,13 @@
     },
     {
       "source": "silver-bay-mn",
-      "detail": "revize: 72 events (webspace silverbaymn)",
-      "events": 71
+      "detail": "revize: 71 events (webspace silverbaymn)",
+      "events": 70
     },
     {
       "source": "cook-county-mn",
       "detail": "revize: 87 events (webspace cookcountymn)",
-      "events": 85
+      "events": 86
     },
     {
       "source": "grand-marais-city-mn",
@@ -230,7 +230,7 @@
     },
     {
       "source": "superior-wi",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
+      "detail": "civicplus: 2 events",
       "events": 2
     },
     {
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
-      "events": 97
+      "detail": "civicplus: 98 events",
+      "events": 95
     },
     {
       "source": "cable-wi",
@@ -255,12 +255,12 @@
     },
     {
       "source": "ashland-city-wi",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "burnett-county-wi",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
+      "detail": "civicplus: 3 events",
       "events": 3
     },
     {
@@ -270,7 +270,7 @@
     },
     {
       "source": "sawyer-county-wi",
-      "detail": "no adapter produced events  [carried forward from 2026-09-11]",
+      "detail": "civicplus: 2 events",
       "events": 2
     },
     {
@@ -290,33 +290,33 @@
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 124 events",
-      "events": 124
+      "detail": "allevents: 121 events",
+      "events": 121
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 20 events",
-      "events": 20
+      "detail": "allevents: 18 events",
+      "events": 18
     },
     {
       "source": "allevents-hibbing",
-      "detail": "allevents: 16 events",
-      "events": 16
+      "detail": "allevents: 13 events",
+      "events": 13
     },
     {
       "source": "allevents-grand-rapids",
-      "detail": "allevents: 6 events",
-      "events": 6
+      "detail": "allevents: 5 events",
+      "events": 5
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 9 events",
-      "events": 9
+      "detail": "allevents: 8 events",
+      "events": 8
     },
     {
       "source": "allevents-ashland",
-      "detail": "allevents: 26 events",
-      "events": 26
+      "detail": "allevents: 21 events",
+      "events": 21
     },
     {
       "source": "allevents-intl-falls",
@@ -331,7 +331,7 @@
     {
       "source": "uws-yellowjackets",
       "detail": "sidearm: 114 home/neutral events",
-      "events": 114
+      "events": 111
     },
     {
       "source": "css-saints",
@@ -380,13 +380,13 @@
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 137 events",
-      "events": 137
+      "detail": "tribe: 136 events",
+      "events": 136
     },
     {
       "source": "decc",
-      "detail": "decc: 63 events",
-      "events": 59
+      "detail": "decc: 62 events",
+      "events": 58
     },
     {
       "source": "earth-rider",
@@ -395,8 +395,8 @@
     },
     {
       "source": "big-top",
-      "detail": "spektrix: 11 performances (client ashwabayalliance)",
-      "events": 11
+      "detail": "spektrix: 10 performances (client ashwabayalliance)",
+      "events": 10
     },
     {
       "source": "askov-rutabaga-fest",
