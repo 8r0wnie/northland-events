@@ -245,5 +245,24 @@
    "arts": 199,
    "holiday": 50
   }
+ },
+ {
+  "date": "2026-09-18",
+  "raw": 3514,
+  "merged": 2658,
+  "published": 2381,
+  "queued": 277,
+  "active_sources": 85,
+  "categories": {
+   "sports-rec": 339,
+   "community": 1116,
+   "music": 152,
+   "arts": 204,
+   "family": 222,
+   "food-drink": 183,
+   "other": 45,
+   "education": 71,
+   "holiday": 49
+  }
  }
 ]

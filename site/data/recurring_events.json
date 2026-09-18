@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T15:44:04",
+  "generated": "2026-09-18T15:12:23",
   "confirmed": [],
   "likely": [
     {
@@ -193,6 +193,25 @@
       "predicted_next": "2027-09-19"
     },
     {
+      "key": "joe s fest|superior",
+      "title": "3rd Annual Joe's Fest",
+      "venue": "Average Joe's Pub",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "music",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-09-19",
+      "last_url": "https://www.superiorchamber.org/events/details/3rd-annual-joe-s-fest-21701",
+      "predicted_next": "2027-09-19"
+    },
+    {
       "key": "one week live vol 24 live recordings featuring songwriter contest with ryan lane|duluth",
       "title": "One Week Live Vol. 24 Live Recordings featuring the 21st Annual Songwriter Contest with Ryan Lane",
       "venue": "",
@@ -248,6 +267,25 @@
       "last_date": "2026-10-20",
       "last_url": "https://visitduluth.com/event/mn-recreation-and-park-association-annual-conference/",
       "predicted_next": "2027-10-20"
+    },
+    {
+      "key": "mn gis lis consortium conference|duluth",
+      "title": "MN GIS/LIS Consortium Annual Conference",
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-28",
+      "last_url": "https://visitduluth.com/event/mn-gis-lis-consortium-annual-conference-2/",
+      "predicted_next": "2027-10-28"
     },
     {
       "key": "meeting dinner|duluth",

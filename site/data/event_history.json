@@ -148,7 +148,7 @@
      "url": "https://www.ely.org/event/preschool-storytime/9355/"
     },
     "2027": {
-     "date": "2027-01-08",
+     "date": "2027-01-15",
      "title": "Preschool Storytime",
      "source_count": 1,
      "url": "https://www.ely.org/event/preschool-storytime/9355/"
@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-02-28",
+     "date": "2027-02-21",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-28/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-02-21/"
     }
    },
    "too_frequent": false
@@ -608,10 +608,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-28",
+     "date": "2026-10-02",
      "title": "Live Music at Hoop's Fish Dockside",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11147"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12333"
     }
    },
    "too_frequent": false
@@ -688,10 +688,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-17",
      "title": "Old Time Folk Jam",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/old-time-folk-jam-2026-07-04/2026-10-03/"
+     "url": "https://www.perfectduluthday.com/the-event/old-time-folk-jam/2026-10-17/"
     }
    },
    "too_frequent": false
@@ -898,7 +898,7 @@
     "2026": {
      "date": "2026-10-17",
      "title": "Duluth River Train Excursion",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/duluth-river-train-excursion/2026-10-17/"
     }
    },
@@ -976,10 +976,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-10-02",
      "title": "Live Music at Honest Dog Books",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11973"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11415"
     }
    },
    "too_frequent": false
@@ -998,10 +998,10 @@
      "url": "https://visitduluth.com/event/hadestown-teen-edition/2026-12-26/"
     },
     "2027": {
-     "date": "2027-02-27",
+     "date": "2027-02-20",
      "title": "Hadestown: Teen Edition",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-27/"
+     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-02-20/"
     }
    },
    "too_frequent": false
@@ -1302,16 +1302,16 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-30",
+     "date": "2026-12-27",
      "title": "Ping pong",
      "source_count": 1,
-     "url": "https://www.ely.org/event/ping-pong/6581/"
+     "url": "https://www.ely.org/event/ping-pong/9295/"
     },
     "2027": {
-     "date": "2027-01-13",
+     "date": "2027-01-10",
      "title": "Ping pong",
      "source_count": 1,
-     "url": "https://www.ely.org/event/ping-pong/6581/"
+     "url": "https://www.ely.org/event/ping-pong/9295/"
     }
    },
    "too_frequent": false
@@ -2136,10 +2136,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "title": "Twin Ports Chess Club",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-12/"
+     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-19/"
     }
    },
    "too_frequent": false
@@ -2634,10 +2634,10 @@
      "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2026-12-31/"
     },
     "2027": {
-     "date": "2027-02-25",
+     "date": "2027-02-23",
      "title": "Teen Open Studio (Fall 2026)",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-25/"
+     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-02-23/"
     }
    },
    "too_frequent": false
@@ -2968,10 +2968,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "title": "Bingo, Beer & Gear",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-13/"
+     "source_count": 2,
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-20/"
     }
    },
    "too_frequent": false
@@ -2984,10 +2984,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "title": "Midweek Sound Bath",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-20/"
     }
    },
    "too_frequent": false
@@ -3006,10 +3006,10 @@
      "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2026-12-30/"
     },
     "2027": {
-     "date": "2027-03-10",
+     "date": "2027-03-17",
      "title": "Double-Points for Loyalty Members",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2027-03-10/"
+     "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2027-03-17/"
     }
    },
    "too_frequent": false
@@ -3226,10 +3226,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-21",
      "title": "Bruce Woodman and the Occasional 20-Minute Timeouts",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-20/"
     }
    },
    "too_frequent": false
@@ -3322,10 +3322,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-30",
+     "date": "2026-10-02",
      "title": "Tai Ji Quan- Moving for Better Balance",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12112"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12113"
     }
    },
    "too_frequent": false
@@ -3804,10 +3804,10 @@
      "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2026-12-30/"
     },
     "2027": {
-     "date": "2027-03-10",
+     "date": "2027-03-17",
      "title": "Castle Danger Game Night",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2027-03-10/"
+     "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2027-03-17/"
     }
    },
    "too_frequent": false
@@ -4666,7 +4666,7 @@
      "url": "spektrix:ashwabayalliance"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "trampled by turtles|bayfield": {
    "title": "Trampled By Turtles",
@@ -4964,10 +4964,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-25",
+     "date": "2026-10-02",
      "title": "Friday Farm Stand",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11935"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11936"
     }
    },
    "too_frequent": false
@@ -6572,10 +6572,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "title": "Teague Alexy",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-12/"
+     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-19/"
     }
    },
    "too_frequent": false
@@ -7852,7 +7852,7 @@
     "2026": {
      "date": "2026-09-17",
      "title": "Moose Lake Township Board Meeting 5pm",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.cityofmooselake.gov/Calendar.aspx?EID=1286"
     }
    },
@@ -8496,7 +8496,7 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-18",
+     "date": "2026-09-19",
      "title": "Freak Show Circus",
      "source_count": 1,
      "url": "https://www.perfectduluthday.com/the-event/freak-show-circus/"
@@ -8787,7 +8787,7 @@
      "date": "2026-09-19",
      "title": "Minnesota Duluth vs. Winona State Warriors \u2013 Duluth",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth/"
+     "url": "https://visitduluth.com/event/minnesota-duluth-vs-winona-state-warriors-duluth-2/"
     }
    },
    "too_frequent": false
@@ -8896,10 +8896,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-19",
+     "date": "2026-10-17",
      "title": "J Streitz and Jimmy Rogers",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/j-streitz-and-jimmy-rogers-2026-09-19/"
+     "url": "https://www.perfectduluthday.com/the-event/j-streitz-and-jimmy-rogers-2026-10-17/"
     }
    },
    "too_frequent": true
@@ -10080,7 +10080,7 @@
     "2026": {
      "date": "2026-09-25",
      "title": "UMD Women\u2019s Hockey vs Mercyhurst University",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://decc.org/event/umd-womens-hockey-vs-mercyhurst-university-sep25/"
     }
    },
@@ -10144,24 +10144,24 @@
     "2026": {
      "date": "2026-09-25",
      "title": "Storyfolk",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/storyfolk-2026-2026-07-24/2026-09-25/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/storyfolk/200030049385914"
     }
    },
    "too_frequent": false
   },
   "art at lot|superior": {
    "title": "Art at The Lot",
-   "venue": "The Lot",
+   "venue": "The Lot: a Superior Community Space",
    "city": "Superior",
    "area": "Superior",
-   "category": "other",
+   "category": "community",
    "occurrences": {
     "2026": {
      "date": "2026-09-25",
      "title": "Art at The Lot",
-     "source_count": 1,
-     "url": "https://www.superiorchamber.org/events/details/art-at-the-lot-09-25-2026-21654"
+     "source_count": 2,
+     "url": "https://allevents.in/superior/art-at-the-lot/200030468433346"
     }
    },
    "too_frequent": false
@@ -10774,8 +10774,8 @@
     "2026": {
      "date": "2026-09-27",
      "title": "Organ concert: From Baroque to Classical Brilliance",
-     "source_count": 3,
-     "url": "https://allevents.in/duluth/organ-concert-from-baroque-to-classical-brilliance/100001998921706634"
+     "source_count": 2,
+     "url": "https://sacredheartmusic.org/event/organ-concert-from-baroque-to-classical-brilliance/"
     }
    },
    "too_frequent": false
@@ -11352,8 +11352,8 @@
     "2026": {
      "date": "2026-10-02",
      "title": "UMD Men\u2019s Hockey vs Long Island University",
-     "source_count": 3,
-     "url": "https://visitduluth.com/event/umd-mens-hockey-vs-long-island-university-2/"
+     "source_count": 1,
+     "url": "https://decc.org/event/umd-mens-hockey-vs-long-island-university/"
     }
    },
    "too_frequent": false
@@ -11516,10 +11516,10 @@
      "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-12-25/"
     },
     "2027": {
-     "date": "2027-02-26",
+     "date": "2027-02-19",
      "title": "Glensheen Lantern Tours",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-26/"
+     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-02-19/"
     }
    },
    "too_frequent": false
@@ -11836,10 +11836,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-11",
+     "date": "2026-10-18",
      "title": "Pro Comedy Tour",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/pro-comedy-tour-2026-08-08/2026-10-10/"
+     "url": "https://www.perfectduluthday.com/the-event/pro-comedy-tour-2026-08-08/2026-10-17/"
     }
    },
    "too_frequent": false
@@ -11916,10 +11916,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-18",
      "title": "Learn and Sing Sea Shanties",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/learn-sing-sea-shanties-2-2026-08-02/2026-10-04/"
+     "url": "https://www.perfectduluthday.com/the-event/learn-sing-sea-shanties-2-2026-08-16/2026-10-18/"
     }
    },
    "too_frequent": false
@@ -11986,7 +11986,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-02",
+     "date": "2027-04-06",
      "title": "THEDA Meeting",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -12008,7 +12008,7 @@
      "url": "Zoom Link - Planning Commission"
     },
     "2027": {
-     "date": "2027-03-02",
+     "date": "2027-04-06",
      "title": "Planning and Zoning Meeting",
      "source_count": 1,
      "url": "Zoom Link - Planning Commission"
@@ -12030,7 +12030,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-02",
+     "date": "2027-04-06",
      "title": "Housing Meeting",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -12068,7 +12068,7 @@
      "url": "https://fdlband.org/calendar.php"
     },
     "2027": {
-     "date": "2027-03-02",
+     "date": "2027-04-06",
      "title": "Economic Development Committee Meeting",
      "source_count": 1,
      "url": "https://fdlband.org/calendar.php"
@@ -13434,7 +13434,7 @@
     "2026": {
      "date": "2026-10-19",
      "title": "Hadestown",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://visitduluth.com/event/hadestown-2/"
     }
    },
@@ -13466,7 +13466,7 @@
     "2026": {
      "date": "2026-10-20",
      "title": "Sugarland Ride or Die Tour",
-     "source_count": 3,
+     "source_count": 4,
      "url": "https://visitduluth.com/event/sugarland-ride-or-die-tour/"
     }
    },
@@ -13591,17 +13591,17 @@
    "too_frequent": false
   },
   "umd men s hockey vs bemidji state university|duluth": {
-   "title": "UMD Men's Hockey vs Bemidji State University",
-   "venue": "Duluth",
+   "title": "UMD Men\u2019s Hockey vs Bemidji State University",
+   "venue": "AMSOIL Arena",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
      "date": "2026-10-23",
-     "title": "UMD Men's Hockey vs Bemidji State University",
+     "title": "UMD Men\u2019s Hockey vs Bemidji State University",
      "source_count": 1,
-     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10933&sport_id=6"
+     "url": "https://decc.org/event/umd-mens-hockey-vs-bemidji-state-university/"
     }
    },
    "too_frequent": false
@@ -16008,8 +16008,8 @@
     "2026": {
      "date": "2026-12-04",
      "title": "UMD Women\u2019s Hockey vs St. Cloud",
-     "source_count": 3,
-     "url": "https://visitduluth.com/event/umd-womens-hockey-vs-st-cloud-4/"
+     "source_count": 1,
+     "url": "https://decc.org/event/umd-womens-hockey-vs-stcloud-dec4/"
     }
    },
    "too_frequent": false
@@ -16661,7 +16661,7 @@
    "too_frequent": false
   },
   "umd men s hockey vs university of manitoba|duluth": {
-   "title": "UMD Men\u2019s Hockey vs University of Manitoba",
+   "title": "UMD Men's Hockey vs University of Manitoba",
    "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
@@ -16669,9 +16669,9 @@
    "occurrences": {
     "2027": {
      "date": "2027-01-02",
-     "title": "UMD Men\u2019s Hockey vs University of Manitoba",
-     "source_count": 2,
-     "url": "https://visitduluth.com/event/umd-mens-hockey-vs-university-of-manitoba-2/"
+     "title": "UMD Men's Hockey vs University of Manitoba",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10999&sport_id=6"
     }
    },
    "too_frequent": false
@@ -16782,7 +16782,7 @@
     "2027": {
      "date": "2027-01-08",
      "title": "UMD Women\u2019s Hockey vs Ohio State",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-womens-hockey-vs-ohio-state-jan8/"
     }
    },
@@ -17045,17 +17045,17 @@
    "too_frequent": false
   },
   "umd men s hockey vs university of denver|duluth": {
-   "title": "UMD Men\u2019s Hockey vs University of Denver",
-   "venue": "AMSOIL Arena",
+   "title": "UMD Men's Hockey vs University of Denver",
+   "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2027": {
      "date": "2027-01-22",
-     "title": "UMD Men\u2019s Hockey vs University of Denver",
+     "title": "UMD Men's Hockey vs University of Denver",
      "source_count": 1,
-     "url": "https://decc.org/event/umd-mens-hockey-vs-university-of-denver/"
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10951&sport_id=6"
     }
    },
    "too_frequent": false
@@ -17278,8 +17278,8 @@
     "2027": {
      "date": "2027-02-05",
      "title": "UMD Women\u2019s Hockey vs Bemidji",
-     "source_count": 1,
-     "url": "https://decc.org/event/umd-womens-hockey-vs-bemidji-feb5/"
+     "source_count": 3,
+     "url": "https://visitduluth.com/event/umd-womens-hockey-vs-bemidji-4/"
     }
    },
    "too_frequent": false
@@ -17301,17 +17301,17 @@
    "too_frequent": false
   },
   "umd women s hockey vs university of wisconsin|duluth": {
-   "title": "UMD Women\u2019s Hockey vs University of Wisconsin",
-   "venue": "AMSOIL Arena",
+   "title": "UMD Women's Hockey vs University of Wisconsin",
+   "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2027": {
      "date": "2027-02-12",
-     "title": "UMD Women\u2019s Hockey vs University of Wisconsin",
-     "source_count": 2,
-     "url": "https://decc.org/event/umd-womens-hockey-vs-university-of-wisconsin-feb12/"
+     "title": "UMD Women's Hockey vs University of Wisconsin",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10995&sport_id=11"
     }
    },
    "too_frequent": false
@@ -17406,8 +17406,8 @@
     "2027": {
      "date": "2027-02-26",
      "title": "UMD Men\u2019s Hockey vs University of North Dakota",
-     "source_count": 2,
-     "url": "https://visitduluth.com/event/umd-mens-hockey-vs-university-of-north-dakota-2/"
+     "source_count": 1,
+     "url": "https://decc.org/event/umd-mens-hockey-vs-university-of-north-dakota/"
     }
    },
    "too_frequent": false
@@ -18330,10 +18330,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-10",
+     "date": "2026-10-17",
      "title": "Similar Dogs",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/similar-dogs-saturdays/2026-10-10/"
+     "url": "https://www.perfectduluthday.com/the-event/similar-dogs-saturdays/2026-10-17/"
     }
    },
    "too_frequent": false
@@ -18902,10 +18902,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-19",
+     "date": "2026-09-18",
      "title": "Markquart RV Duluth Grand Opening Super Sale",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/markquart-rv-duluth-grand-opening-super-sale/2026-09-19/"
+     "url": "https://www.perfectduluthday.com/the-event/markquart-rv-duluth-grand-opening-super-sale/2026-09-18/"
     }
    },
    "too_frequent": false
@@ -20392,7 +20392,7 @@
     "2026": {
      "date": "2026-09-18",
      "title": "The Making of America Film Screening",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/the-making-of-america-film-screening/"
     }
    },
@@ -21916,10 +21916,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-30",
+     "date": "2026-10-02",
      "title": "Herbster: Tai Ji Quan- Moving for Better Balance",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12130"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12131"
     }
    },
    "too_frequent": false
@@ -22142,15 +22142,15 @@
     "2026": {
      "date": "2026-12-05",
      "title": "UMD Men\u2019s Hockey vs USA U18 (Exhibition)",
-     "source_count": 1,
-     "url": "https://decc.org/event/umd-mens-hockey-vs-usa-u18/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/umd-mens-hockey-vs-usa-u18-exhibition/"
     }
    },
    "too_frequent": false
   },
   "umd men s hockey vs university of manitoba exhibition|duluth": {
    "title": "UMD Men\u2019s Hockey vs University of Manitoba (Exhibition)",
-   "venue": "Duluth",
+   "venue": "AMSOIL Arena",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
@@ -22204,10 +22204,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-19",
+     "date": "2026-09-20",
      "title": "Bayfield BBQ Company at Copper Crow Distillery",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5941/"
+     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5942/"
     }
    },
    "too_frequent": false
@@ -22953,7 +22953,7 @@
    "venue": "",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "community",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-14",
@@ -23072,6 +23072,652 @@
      "title": "St. Scholastica Men's Hockey vs St. Olaf College",
      "source_count": 1,
      "url": "https://csssaints.com/calendar.aspx?game_id=17996&sport_id=8"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior women s soccer vs uw river falls food truck superior corn dogs|superior": {
+   "title": "UW-Superior Women's Soccer vs UW-River Falls - Food Truck - Superior Corn Dogs",
+   "venue": "Superior",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-17",
+     "title": "UW-Superior Women's Soccer vs UW-River Falls - Food Truck - Superior Corn Dogs",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11689&sport_id=13"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs augustana university sd military appreciation hall of fame alumni weekend|duluth": {
+   "title": "UMD Soccer vs Augustana University (SD) - Military Appreciation/ Hall of Fame/ Alumni Weekend",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-18",
+     "title": "UMD Soccer vs Augustana University (SD) - Military Appreciation/ Hall of Fame/ Alumni Weekend",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10907&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "cultural ceremonies women s sweat lodge|cloquet": {
+   "title": "Cultural Ceremonies - Women's Sweat Lodge",
+   "venue": "1713 Animikii Road, Cloquet, MN",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-18",
+     "title": "Cultural Ceremonies - Women's Sweat Lodge",
+     "source_count": 1,
+     "url": "https://fdlband.org/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "joe s fest|superior": {
+   "title": "3rd Annual Joe's Fest",
+   "venue": "Average Joe's Pub",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-19",
+     "title": "3rd Annual Joe's Fest",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/3rd-annual-joe-s-fest-21701"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs wayne state college military appreciation hall of fame alumni weekend|duluth": {
+   "title": "UMD Soccer vs Wayne State College - Military Appreciation/ Hall of Fame/ Alumni Weekend",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-20",
+     "title": "UMD Soccer vs Wayne State College - Military Appreciation/ Hall of Fame/ Alumni Weekend",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10908&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "raqs and reset a weekend of bellydance and balance|duluth": {
+   "title": "Raqs and Reset: A Weekend of Bellydance and Balance",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-20",
+     "title": "Raqs and Reset: A Weekend of Bellydance and Balance",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/raqs-reset-a-weekend-of-bellydance-and-balance/2026-09-20/"
+    }
+   },
+   "too_frequent": false
+  },
+  "youth photo club session 1 of 8|duluth": {
+   "title": "Youth Photo Club (Session 1 of 8)",
+   "venue": "Duluth Art Institute (Lincoln Park Building)",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-20",
+     "title": "Youth Photo Club (Session 1 of 8)",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/youth-photo-club-session-1-of-8/"
+    }
+   },
+   "too_frequent": false
+  },
+  "felt making demonstartions|bayfield": {
+   "title": "Felt Making Demonstartions",
+   "venue": "Wildblue Gallery and Studios",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Felt Making Demonstartions",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/felt-making-demonstartions/5938/"
+    }
+   },
+   "too_frequent": false
+  },
+  "parks trails commission|cook county": {
+   "title": "Parks & Trails Commission",
+   "venue": "",
+   "city": "",
+   "area": "Cook County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-22",
+     "title": "Parks & Trails Commission",
+     "source_count": 1,
+     "url": "https://cookcountymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "public notice vcc cc chamber fall gala|cook county": {
+   "title": "PUBLIC NOTICE - VCC & CC Chamber Fall Gala",
+   "venue": "",
+   "city": "",
+   "area": "Cook County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-23",
+     "title": "PUBLIC NOTICE - VCC & CC Chamber Fall Gala",
+     "source_count": 1,
+     "url": "https://cookcountymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "friday night frequency dj wildflower|bayfield": {
+   "title": "FRIDAY NIGHT FREQUENCY: DJ WILDFLOWER",
+   "venue": "StageNorth",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-25",
+     "title": "FRIDAY NIGHT FREQUENCY: DJ WILDFLOWER",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/friday-night-frequency%3a-dj-wildflower/5930/"
+    }
+   },
+   "too_frequent": false
+  },
+  "nglvc animals after dark|bayfield county": {
+   "title": "NGLVC: Animals after Dark",
+   "venue": "29270 County Highway G, Ashland, WI, United States, Wisconsin 54806",
+   "city": "Ashland",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-25",
+     "title": "NGLVC: Animals after Dark",
+     "source_count": 2,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11922"
+    }
+   },
+   "too_frequent": false
+  },
+  "bienvenue coffee festival|duluth": {
+   "title": "Bienvenue Coffee Festival",
+   "venue": "506 West Michigan Street, Duluth, MN, United States, Minnesota 55802",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-26",
+     "title": "Bienvenue Coffee Festival",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/bienvenue-coffee-festival/200030566833720"
+    }
+   },
+   "too_frequent": false
+  },
+  "heck fest featuring charlie parr|duluth": {
+   "title": "Heck Fest Featuring Charlie Parr",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-26",
+     "title": "Heck Fest Featuring Charlie Parr",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/heck-fest-featuring-charlie-parr/"
+    }
+   },
+   "too_frequent": false
+  },
+  "live in lounge nick kuka|bayfield": {
+   "title": "LIVE IN THE LOUNGE: NICK KUKA",
+   "venue": "StageNorth",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-01",
+     "title": "LIVE IN THE LOUNGE: NICK KUKA",
+     "source_count": 3,
+     "url": "https://www.bayfield.org/event/live-in-the-lounge%3a-nick-kuka/5931/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lunch learn retirement plans reimagined|hibbing": {
+   "title": "Lunch & Learn- Retirement Plans Reimagined",
+   "venue": "Red Rock Hotel & Suites",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-01",
+     "title": "Lunch & Learn- Retirement Plans Reimagined",
+     "source_count": 1,
+     "url": "https://www.chamberorganizer.com/Calendar/moreinfo.php?eventid=579076"
+    }
+   },
+   "too_frequent": false
+  },
+  "bayfield apple festival|bayfield county": {
+   "title": "Bayfield Apple Festival",
+   "venue": "Bayfield, WI 54814",
+   "city": "Bayfield",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-02",
+     "title": "Bayfield Apple Festival",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9464"
+    }
+   },
+   "too_frequent": false
+  },
+  "art of aging northern great lakes visitor center|bayfield county": {
+   "title": "The Art of Aging - Northern Great Lakes Visitor Center",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-02",
+     "title": "The Art of Aging - Northern Great Lakes Visitor Center",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12180"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs st cloud state university family weekend 1 tickets|duluth": {
+   "title": "UMD Soccer vs St. Cloud State University - Family Weekend/ $1 Tickets",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-02",
+     "title": "UMD Soccer vs St. Cloud State University - Family Weekend/ $1 Tickets",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10911&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "bernstein sondheim regards to broadway|duluth": {
+   "title": "Bernstein & Sondheim: Regards to Broadway!",
+   "venue": "Denfeld High School",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "Bernstein & Sondheim: Regards to Broadway!",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/bernstein-sondheim-regards-to-broadway/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs minnesota state university mankato family weekend parent day|duluth": {
+   "title": "UMD Soccer vs Minnesota State University, Mankato - Family Weekend/ Parent Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-04",
+     "title": "UMD Soccer vs Minnesota State University, Mankato - Family Weekend/ Parent Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10912&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "speaker series uss indianapolis|superior": {
+   "title": "Speaker Series - USS Indianapolis",
+   "venue": "Richard I. Bong Veterans Historical Center",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-06",
+     "title": "Speaker Series - USS Indianapolis",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/speaker-series-uss-indianapolis-21699"
+    }
+   },
+   "too_frequent": false
+  },
+  "wine wednesday|duluth": {
+   "title": "Wine Wednesday",
+   "venue": "Bellisio\u2019s Italian Restaurant",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-02",
+     "title": "Wine Wednesday",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/wine-wednesday-2/2026-12-02/"
+    },
+    "2027": {
+     "date": "2027-02-03",
+     "title": "Wine Wednesday",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/wine-wednesday-2/2027-02-03/"
+    }
+   },
+   "too_frequent": true
+  },
+  "live in lounge idle rose|bayfield": {
+   "title": "LIVE IN THE LOUNGE: IDLE ROSE",
+   "venue": "StageNorth",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "LIVE IN THE LOUNGE: IDLE ROSE",
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/live-in-the-lounge%3a-idle-rose/5932/"
+    }
+   },
+   "too_frequent": false
+  },
+  "hope in dark times|duluth": {
+   "title": "Hope in Dark Times",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "Hope in Dark Times",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/hope-in-dark-times/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fire light reiki i ii training courses|duluth": {
+   "title": "Fire & Light Reiki I & II Training Courses",
+   "venue": "Reiki Magick",
+   "city": "DULUTH",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Fire & Light Reiki I & II Training Courses",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/fire-light-reiki-i-ii-training-courses/2026-10-10/"
+    }
+   },
+   "too_frequent": false
+  },
+  "spindropolis iii after party w jambronies|duluth": {
+   "title": "Spindropolis III After Party w/ The Jambronies",
+   "venue": "The Caddy Shack Indoor Golf & Pub",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Spindropolis III After Party w/ The Jambronies",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/spindropolis-iii-after-party-w-the-jambronies/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs university of minnesota crookston homecoming senior day|duluth": {
+   "title": "UMD Soccer vs University of Minnesota Crookston - Homecoming/ Senior Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-11",
+     "title": "UMD Soccer vs University of Minnesota Crookston - Homecoming/ Senior Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10914&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "110th anniversary of bay front generating plant|bayfield": {
+   "title": "110th Anniversary Celebration of the Bay Front Generating Plant",
+   "venue": "Xcel Energy",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-14",
+     "title": "110th Anniversary Celebration of the Bay Front Generating Plant",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/110th-anniversary-celebration-of-the-bay-front-generating-plant/5943/"
+    }
+   },
+   "too_frequent": false
+  },
+  "live in lounge between howls|bayfield": {
+   "title": "LIVE IN THE LOUNGE: BETWEEN HOWLS",
+   "venue": "StageNorth",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-15",
+     "title": "LIVE IN THE LOUNGE: BETWEEN HOWLS",
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/live-in-the-lounge%3a-between-howls/5933/"
+    }
+   },
+   "too_frequent": false
+  },
+  "coral collective circus of dead drag show|duluth": {
+   "title": "Coral Collective Presents: Circus Of The Dead drag show",
+   "venue": "The Caddy Shack Indoor Golf & Pub",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-18",
+     "title": "Coral Collective Presents: Circus Of The Dead drag show",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/coral-collective-presents-circus-of-the-dead-drag-show/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd soccer vs northern state university umd faculty staff appreciation|duluth": {
+   "title": "UMD Soccer vs Northern State University - UMD Faculty/Staff Appreciation",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-23",
+     "title": "UMD Soccer vs Northern State University - UMD Faculty/Staff Appreciation",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10917&sport_id=12"
+    }
+   },
+   "too_frequent": false
+  },
+  "tcs vena sera la cuda seven bridges shaken not stirred|duluth": {
+   "title": "TCS Presents: Vena Sera, La Cuda, Seven Bridges, & Shaken Not Stirred",
+   "venue": "The Caddy Shack Indoor Golf & Pub",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-23",
+     "title": "TCS Presents: Vena Sera, La Cuda, Seven Bridges, & Shaken Not Stirred",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/tcs-presents-vena-sera-la-cuda-seven-bridges-shaken-not-stirred/"
+    }
+   },
+   "too_frequent": false
+  },
+  "ghost in gallery|superior": {
+   "title": "Ghost in the Gallery",
+   "venue": "Richard I. Bong Veterans Historical Center",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Ghost in the Gallery",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/ghost-in-the-gallery-21700"
+    }
+   },
+   "too_frequent": false
+  },
+  "haunted superior dark history revealed|duluth": {
+   "title": "Haunted Superior: Dark History Revealed",
+   "venue": "Douglas County Historical Society",
+   "city": "Superior",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Haunted Superior: Dark History Revealed",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/haunted-superior-dark-history-revealed/"
+    }
+   },
+   "too_frequent": false
+  },
+  "mn gis lis consortium conference|duluth": {
+   "title": "MN GIS/LIS Consortium Annual Conference",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-28",
+     "title": "MN GIS/LIS Consortium Annual Conference",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/mn-gis-lis-consortium-annual-conference-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "duluth junk hunt|duluth": {
+   "title": "Duluth Junk Hunt",
+   "venue": "350 Harbor Drive, Duluth, MN, United States, Minnesota 55802",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-06",
+     "title": "Duluth Junk Hunt",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/duluth-junk-hunt-9/"
+    }
+   },
+   "too_frequent": false
+  },
+  "pearl harbor prophet|superior": {
+   "title": "Pearl Harbor Prophet",
+   "venue": "Richard I. Bong Veterans Historical Center",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-11",
+     "title": "Pearl Harbor Prophet",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/pearl-harbor-prophet-21698"
+    }
+   },
+   "too_frequent": false
+  },
+  "festival of trees arts crafts and gift show|duluth": {
+   "title": "Festival of Trees Arts, Crafts, and Gift Show",
+   "venue": "Duluth Entertainment Convention Center (DECC)",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Festival of Trees Arts, Crafts, and Gift Show",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/festival-of-trees-arts-crafts-and-gift-show/2026-11-14/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s hockey vs bemidji state university|duluth": {
+   "title": "UMD Women's Hockey vs Bemidji State University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-05",
+     "title": "UMD Women's Hockey vs Bemidji State University",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10993&sport_id=11"
     }
    },
    "too_frequent": false
