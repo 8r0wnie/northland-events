@@ -1,21 +1,21 @@
 {
-  "when": "2026-09-21T17:17:04Z",
-  "raw": 3430,
-  "merged": 2589,
-  "published": 2323,
-  "queued": 266,
+  "when": "2026-09-22T15:42:42Z",
+  "raw": 3418,
+  "merged": 2585,
+  "published": 2325,
+  "queued": 260,
   "verification": {
-    "confirmed": 2323,
-    "multi_source": 223,
+    "confirmed": 2325,
+    "multi_source": 225,
     "trusted_single": 2100,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 266
+    "queued": 260
   },
   "sources": [
     {
       "source": "perfect-duluth-day",
-      "detail": "tribehtml: 380 events (16 feed pages)",
+      "detail": "tribehtml: 379 events (16 feed pages)",
       "events": 379
     },
     {
@@ -40,13 +40,13 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 174 events (2 pages)",
-      "events": 174
+      "detail": "simpleview: 176 events (2 pages)",
+      "events": 176
     },
     {
       "source": "grand-rapids-mn",
-      "detail": "tribe: 9 events",
-      "events": 9
+      "detail": "tribe: 11 events",
+      "events": 11
     },
     {
       "source": "mcgregor-chamber",
@@ -56,7 +56,7 @@
     {
       "source": "bayfield-chamber",
       "detail": "simpleview: 119 events (3 pages)",
-      "events": 119
+      "events": 118
     },
     {
       "source": "visit-ashland",
@@ -71,17 +71,17 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 543 events",
-      "events": 469
+      "events": 464
     },
     {
       "source": "hermantown-mn",
-      "detail": "tribe: 36 events",
-      "events": 36
+      "detail": "tribe: 34 events",
+      "events": 34
     },
     {
       "source": "proctor-mn",
-      "detail": "tribe: 29 events",
-      "events": 29
+      "detail": "tribe: 26 events",
+      "events": 26
     },
     {
       "source": "virginia-mn",
@@ -135,8 +135,8 @@
     },
     {
       "source": "carlton-county-mn",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "moose-lake-mn",
@@ -151,7 +151,7 @@
     {
       "source": "cromwell-mn",
       "detail": "revize: 67 events (webspace cromwellmn)",
-      "events": 64
+      "events": 65
     },
     {
       "source": "esko-township-mn",
@@ -160,23 +160,23 @@
     },
     {
       "source": "lake-county-mn",
-      "detail": "jsonld: 11 events (rendered)",
-      "events": 11
+      "detail": "jsonld: 12 events (rendered)",
+      "events": 12
     },
     {
       "source": "two-harbors-mn",
-      "detail": "revize: 126 events (webspace twoharborsmn)",
-      "events": 118
+      "detail": "revize: 125 events (webspace twoharborsmn)",
+      "events": 117
     },
     {
       "source": "silver-bay-mn",
-      "detail": "revize: 70 events (webspace silverbaymn)",
-      "events": 69
+      "detail": "revize: 68 events (webspace silverbaymn)",
+      "events": 67
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 88 events (webspace cookcountymn)",
-      "events": 86
+      "detail": "revize: 90 events (webspace cookcountymn)",
+      "events": 85
     },
     {
       "source": "grand-marais-city-mn",
@@ -205,12 +205,12 @@
     },
     {
       "source": "aitkin-mn",
-      "detail": "govoffice: 2 events",
-      "events": 2
+      "detail": "govoffice: 1 events",
+      "events": 1
     },
     {
       "source": "pine-county-mn",
-      "detail": "revize: 34 events (webspace pinecounty)",
+      "detail": "revize: 35 events (webspace pinecounty)",
       "events": 33
     },
     {
@@ -225,8 +225,8 @@
     },
     {
       "source": "douglas-county-wi",
-      "detail": "civicplus: 5 events",
-      "events": 5
+      "detail": "civicplus: 6 events",
+      "events": 6
     },
     {
       "source": "superior-wi",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 100 events",
-      "events": 99
+      "detail": "civicplus: 97 events",
+      "events": 96
     },
     {
       "source": "cable-wi",
@@ -255,13 +255,13 @@
     },
     {
       "source": "ashland-city-wi",
-      "detail": "civicplus: 3 events",
-      "events": 3
+      "detail": "civicplus: 4 events",
+      "events": 4
     },
     {
       "source": "burnett-county-wi",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 3 events",
+      "events": 3
     },
     {
       "source": "spooner-wi",
@@ -285,18 +285,18 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 200 events",
-      "events": 200
+      "detail": "allevents: 196 events",
+      "events": 196
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 102 events",
-      "events": 102
+      "detail": "allevents: 101 events",
+      "events": 101
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 17 events",
-      "events": 17
+      "detail": "allevents: 18 events",
+      "events": 18
     },
     {
       "source": "allevents-hibbing",
@@ -325,7 +325,7 @@
     },
     {
       "source": "umd-bulldogs",
-      "detail": "sidearm: 83 home/neutral events",
+      "detail": "sidearm: 82 home/neutral events",
       "events": 82
     },
     {
@@ -336,7 +336,7 @@
     {
       "source": "css-saints",
       "detail": "sidearm: 64 home/neutral events",
-      "events": 64
+      "events": 63
     },
     {
       "source": "norshor-playhouse",
@@ -370,23 +370,23 @@
     },
     {
       "source": "mn-discovery-center",
-      "detail": "tribe: 18 events",
-      "events": 18
+      "detail": "tribe: 19 events",
+      "events": 19
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 21 events",
-      "events": 21
+      "detail": "tribe: 23 events",
+      "events": 23
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 129 events",
-      "events": 129
+      "detail": "tribe: 127 events",
+      "events": 127
     },
     {
       "source": "decc",
       "detail": "decc: 63 events",
-      "events": 61
+      "events": 62
     },
     {
       "source": "earth-rider",
@@ -420,8 +420,8 @@
     },
     {
       "source": "birkie",
-      "detail": "birkie: 11 events",
-      "events": 9
+      "detail": "birkie: 12 events",
+      "events": 10
     },
     {
       "source": "north-house-folk-school",
@@ -435,8 +435,8 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 76 events (webspace fonddulac)",
-      "events": 76
+      "detail": "revize: 75 events (webspace fonddulac)",
+      "events": 75
     }
   ]
 }

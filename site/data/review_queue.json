@@ -1,115 +1,7 @@
 {
-  "generated": "2026-09-21T17:17:04Z",
-  "count": 266,
+  "generated": "2026-09-22T15:42:42Z",
+  "count": 260,
   "events": [
-    {
-      "key": "7ec9c4de85ca610c",
-      "title": "Mindful Art as Therapy",
-      "start": "2026-09-21T00:00:00",
-      "end": "2026-09-21T00:00:00",
-      "all_day": true,
-      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy82ZmUzMTk1NTYxZGZkMjg4YzQzNGQwYjVmYjQ3ZDJhZTZiNzRiMThmYjU3OWI0ZDYwNTdmNGRjYWI2MWQ0NzA3LXJpbWctdzEwODAtaDEzNTAtZGMyODI4MjgtZ21pcj92PTE3ODgzMDQ5Mzk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/mindful-art-as-therapy/200030571751859"
-      }
-    },
-    {
-      "key": "58db28ce73e6d86f",
-      "title": "SawSharp's 21-25 Sep 2026 Saw Sharpening & Maint. Seminar $500 Down Payment",
-      "start": "2026-09-21T00:00:00",
-      "end": "2026-09-25T00:00:00",
-      "all_day": true,
-      "venue": "Bad Axe / SawSharp Workshops",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8xN2YwNjRhZDU2ZDFiN2MwNmExZTk4YmQ4YTZlYzFiMDdkMzQxNTlmMDNhYmY2ZTE0NGE4ZGRlMmYwNGVlYmI1LXJpbWctdzEyMDAtaDYwMC1kYzMxMzIyYi1nbWlyLmpwZz92PTE3NTcyNTI1MDk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/sawsharps-21-25-sep-2026-saw-sharpening-and-maint-seminar-$500-down-payment/100001636953153949"
-      }
-    },
-    {
-      "key": "c113bd258d6536cb",
-      "title": "2 Days Certified Scrum Product Owner (CSPO) Training in Duluth, MN",
-      "start": "2026-09-21T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "200 W 1st St",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYzA0MTZkZjcwYjMxN2EzY2JlMGVmOTYwMDQyNDIzZTIwNGVjZjYwM2IwNzFjMzRhODhmMTdiYWQ1NTI4N2IyMC1yaW1nLXcxMjAwLWg2MDAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzg5NTA2MTQ4.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/2-days-certified-scrum-product-owner-cspo-training-in-duluth-mn/100002001016738932"
-      }
-    },
-    {
-      "key": "d856c1eed807900d",
-      "title": "Half price whiskey Tuesdays!",
-      "start": "2026-09-21T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "109 W Superior St, Duluth, MN, United States, Minnesota 55802",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80YjM5ZTMxY2Q2OTE0ZWY3ZmMyZmZmMmMwZWRlM2QwNDM5YmM4MmQ3YjkxZWNiMDRjOWZkMTU3OTY5NDRkMGE5LXJpbWctdzQ3NC1oMjY2LWRjMDgwODA4LWdtaXI_dj0xNzg4Mjk5MzEx.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/half-price-whiskey-tuesdays/200030645039431"
-      }
-    },
-    {
-      "key": "9218708d1b31e955",
-      "title": "Lego Club",
-      "start": "2026-09-21T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "family",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9mZDQwNDQ1NWI5YjBkZTU1MjFmYTE3MDFkZDRlZmMxNTczOTdlNmYwNzZmNDQwODU4MjM4NDVhZWIyOTNlNzA3LXJpbWctdzgxMC1oNDUwLWRjZTgxODE4LWdtaXI_dj0xNzg4MjE0ODkx.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/lego-club/200030639655231"
-      }
-    },
-    {
-      "key": "cce7f17b654a990d",
-      "title": "Community Resource Connection",
-      "start": "2026-09-21T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lMjljMWFiYWQwZWUxYTg3MjM2MjRiMWIyYTA0ZmQ2YzZhMjhlYTc5ZTVlZjJjMTFjYWUyN2YzYzZmZjc4NDY0LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTAxMTk1Ng.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/community-resource-connection/200030681639456"
-      }
-    },
     {
       "key": "f7e1464ebe67f0ff",
       "title": "One to One",
@@ -324,6 +216,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/2027-grandmas-marathon-kickoff-group-run/200030686486113"
+      }
+    },
+    {
+      "key": "cd4a3fc1bf9b49ae",
+      "title": "2 Days Certified ScrumMaster (CSM) Training in Duluth, MN",
+      "start": "2026-09-23T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "200 W 1st St",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kYWYwNGVlNjE4Yjk2NjBkNWQyY2RkODI2MzMwMjhhOWU0Njg5MzJkNGYwNmVjODU0ZDdjNzRlZTkxODBmMjE4LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODg5MzE2ODc.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/2-days-certified-scrummaster-csm-training-in-duluth-mn/100002000152539087"
       }
     },
     {
@@ -849,24 +759,6 @@
       }
     },
     {
-      "key": "42fc74db3b6f9d9e",
-      "title": "College Football Saturdays @ NLT",
-      "start": "2026-09-26T00:00:00",
-      "end": "2026-09-26T00:00:00",
-      "all_day": true,
-      "venue": "7047 Rice Lake Road, Duluth, MN, United States, Minnesota 55803",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80MzgwNjMwZDc5OWM5NjhhMDNmYzJlZDAzYjYzOWYyMjNlZDJlYzNmYWFkYzI2OTFlZDgwMjlhMzM2ZTVhODQ5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTk1Mjc2MA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/college-football-saturdays-nlt/200030720130800"
-      }
-    },
-    {
       "key": "33f5680d3b22f130",
       "title": "Psychic Medium Dean McMurray Live in Duluth MN",
       "start": "2026-09-26T00:00:00",
@@ -900,24 +792,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/crafting-rave/200030685649750"
-      }
-    },
-    {
-      "key": "1528eb489070d984",
-      "title": "Camp Breakfast",
-      "start": "2026-09-26T00:00:00",
-      "end": "2026-09-26T00:00:00",
-      "all_day": true,
-      "venue": "Duluth Folk School",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zNTVmMDVhNmFlZDgxZTBiM2NmZWQ1MTMzOGJjOWQ0NTQxYmRhZDdmNjU3ZjRjNmYxYWE2NDFkYjBlMGMwNDg3LXJpbWctdzEyMDAtaDYyOC1kYzE4MzgyOC1nbWlyP3Y9MTc4OTEwNTQ0MA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/camp-breakfast/200030685650256"
       }
     },
     {
@@ -1029,24 +903,6 @@
       }
     },
     {
-      "key": "1903e27d6578e0fa",
-      "title": "Cloquet Farmers Market",
-      "start": "2026-09-26T00:00:00",
-      "end": "2026-09-26T00:00:00",
-      "all_day": true,
-      "venue": "904 Highway 33 S , Cloquet, MN, United States, Minnesota 55720",
-      "city": "Cloquet",
-      "area": "Cloquet",
-      "category": "food-drink",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yZTUwMTk2MjI2MDY4OGNlNWFiYWJjMmU1ZWNjMTI3OTNkOGQ2MWM0MDc1MWMwZDc5YWVjNTgzMDQxMGYwZDc3LXJpbWctdzg1MS1oMzE1LWRjMjg3OGI4LWdtaXI_dj0xNzg5OTc1MjM1.avif",
-      "source": {
-        "name": "AllEvents \u2014 Cloquet",
-        "url": "https://allevents.in/cloquet/cloquet-farmers-market/200030721177035"
-      }
-    },
-    {
       "key": "06e50d8895e33987",
       "title": "3rd Annual Positively Pickled Pickleball Tournament",
       "start": "2026-09-26T00:00:00",
@@ -1116,6 +972,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/alley-dance/200030685650055"
+      }
+    },
+    {
+      "key": "42fc74db3b6f9d9e",
+      "title": "College Football Saturdays @ NLT",
+      "start": "2026-09-26T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "7047 Rice Lake Road, Duluth, MN, United States, Minnesota 55803",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YjY0NzU3YmEzMWUyODIzMzQzNmU4ZWMwNjBiMWYxZmE1OTAyNGNhMzExN2M4MjA3MzZhMDlhM2NmYTYwYTk1LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTU2NzY0OQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/college-football-saturdays-nlt/200030705516829"
       }
     },
     {
@@ -1209,21 +1083,21 @@
       }
     },
     {
-      "key": "b4d8a4d310452994",
-      "title": "Family Dance at SOLCA",
-      "start": "2026-09-27T00:00:00",
-      "end": "2026-09-27T00:00:00",
+      "key": "1903e27d6578e0fa",
+      "title": "Cloquet Farmers Market",
+      "start": "2026-09-26T00:00:00",
+      "end": null,
       "all_day": true,
-      "venue": "5401 E Superior St, Duluth, MN, United States, Minnesota 55804",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
+      "venue": "904 Highway 33 S , Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "food-drink",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85ZjVkYzUyYzdiMzI0Mjk3YmI2YjA0YWYxOTBhZDc2NTIyMjc0NDk4NmU5OGU0ZTA3ZmE2OWZlOWRlY2U1OGQ5LXJpbWctdzEwODAtaDEzNTAtZGNkOGM4YjgtZ21pcj92PTE3ODk3MjU2OTY.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85OTEwOWYwMWZhMDIyYjM4NzFiNjNkNDMzYzA5MmJjNmFlN2M2MThmMDdhNzg2ZGMzYzVmNDU0OTExZTFmZGZiLXJpbWctdzg1MS1oMzE1LWRjMjY3NmJlLWdtaXI_dj0xNzg1MzcwNzk0.avif",
       "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/family-dance-at-solca/200030713160936"
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/cloquet-farmers-market/200030479047754"
       }
     },
     {
@@ -1260,6 +1134,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/dress-for-success-using-your-venus-sign/200030584064743"
+      }
+    },
+    {
+      "key": "fe4b7b8fb1e89a07",
+      "title": "Clothing Repair Clinic",
+      "start": "2026-09-27T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Ren Market",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zNzAwYzBiZmY1ZTAwYWU3MTE3ZmIyOGU2NmIwNzExOGQwNGEzMjdkNTVjYTI5ZmI5YTkwMWU5ZTYwMDU5OTBmLXJpbWctdzEyMDAtaDY3NS1kY2YyM2UzZi1nbWlyP3Y9MTc3OTk3OTcyMg.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/clothing-repair-clinic/200030082076909"
       }
     },
     {
@@ -1587,6 +1479,42 @@
       }
     },
     {
+      "key": "86f70e33952f61e7",
+      "title": "Twin Ports Monthly Pinball Tournament",
+      "start": "2026-10-01T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Average Joe's Pub",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hMTZkMDQzYzdkZGQwNzJhYWQ5MzQxODVjMDYyOTIzOTc5ODQ5ZmRjOTE4MGRmNGJjYzY0ZWZmNzVlMTZiMDk0LXJpbWctdzcyMC1oOTYwLWRjMTIwOTBmLWdtaXI_dj0xNzgwMzUzMjEw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/twin-ports-monthly-pinball-tournament/200030078252434"
+      }
+    },
+    {
+      "key": "afab72f7860b8997",
+      "title": "Trivia!",
+      "start": "2026-10-02T00:00:00",
+      "end": "2026-10-02T00:00:00",
+      "all_day": true,
+      "venue": "Duluth Folk School",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jZWE3M2MwZDYyMzllMTBkMDJiNjhmNDhkMmJjOWUyYzc5MTY3OWRhYWNlODE1ZmIyNDNhOTAxZmRjZGQwOGM3LXJpbWctdzEyMDAtaDY3Ni1kYzk4ODg1OC1nbWlyP3Y9MTc4ODE4MjE0Nw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/trivia/200030557191210"
+      }
+    },
+    {
       "key": "ec2fe0a29a9b9a1d",
       "title": "Blue Valentine | Tom Waits Tribute Band",
       "start": "2026-10-02T00:00:00",
@@ -1713,24 +1641,6 @@
       }
     },
     {
-      "key": "085a3d8589c971d3",
-      "title": "Norton Park Annual Holiday Harvest Bazaar",
-      "start": "2026-10-03T00:00:00",
-      "end": "2026-10-03T00:00:00",
-      "all_day": true,
-      "venue": "Norton Park United Methodist Church",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNmRjNmZjNDk5Y2EyYWQwNGRlYjM3NWU5ZTUyMjg2NDQ4ZWVlYzczMGIzYWFjYzAwNjViMjYzNWY1YjFhZThlMi1yaW1nLXcxMjAwLWg5MDAtZGMwODA4MDgtZ21pcj92PTE3ODgyNzg2ODk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/norton-park-annual-holiday-harvest-bazaar/200030613285055"
-      }
-    },
-    {
       "key": "08ced0cfed3b1092",
       "title": "Ole & the Evinrudes-Live at Sir Bens",
       "start": "2026-10-03T00:00:00",
@@ -1746,24 +1656,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/ole-and-the-evinrudes-live-at-sir-bens/200030376518837"
-      }
-    },
-    {
-      "key": "233196a7a8635c6b",
-      "title": "DuLilith Fest 2026!",
-      "start": "2026-10-03T00:00:00",
-      "end": "2026-10-03T00:00:00",
-      "all_day": true,
-      "venue": "Leif Erickson Park",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85MjdiM2U3MWZhZDJkYjkzZDNiMjNlYWVjZTEwYWE4NTA3MTM5NWQ1NWM2ODQ0NGVlYWZmMDQ5ZTczM2ZjYmFmLXJpbWctdzEyMDAtaDcwMC1kYzI4MjgyOC1nbWlyP3Y9MTc4ODQ3MTA0MQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/dulilith-fest-2026/200030654821641"
       }
     },
     {
@@ -1965,6 +1857,24 @@
       }
     },
     {
+      "key": "37e9ed90aae0349b",
+      "title": "Reese's Book Club Gathering at Sheraton Duluth",
+      "start": "2026-10-06T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Sheraton Duluth Hotel",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85NzFiOWZmM2EwZmEzNTVjMjYyYTkzNzFlYmJkMDFlMjU3YmQyMDM2YzFmZmIyOThiZTliODQzNzVlNzI2M2IyLXJpbWctdzEyMDAtaDYwMC1kY2ZmZmZmZi1nbWlyLmpwZz92PTE3NzgzODMwMjk.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/reeses-book-club-gathering-at-sheraton-duluth/100001988833594820"
+      }
+    },
+    {
       "key": "f84274969c85ac15",
       "title": "2026 Forestry Center 5k Run/Walk",
       "start": "2026-10-06T00:00:00",
@@ -2034,24 +1944,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/jason-owen-at-jacks-place/200030650819859"
-      }
-    },
-    {
-      "key": "6457cacfba8d3bf9",
-      "title": "Voices of Courage: Safe Haven Shelter and Resource Center's 21st Annual Fundraiser",
-      "start": "2026-10-08T00:00:00",
-      "end": "2026-10-08T00:00:00",
-      "all_day": true,
-      "venue": "Clyde Iron Works",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy82OWFiODkzNmQ1ZTYxZjFkY2VmMzlhMzhhNzIzNzljNGJkMjNmYjdmMzkxNTI3MThjZDIwY2E4YTIyZmJmY2FiLXJpbWctdzg1MS1oMzE1LWRjZjhmOGY4LWdtaXI_dj0xNzg3NTE3OTA0.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/voices-of-courage-safe-haven-shelter-and-resource-centers-21st-annual-fundraiser/200030570060409"
       }
     },
     {
@@ -2559,6 +2451,24 @@
       }
     },
     {
+      "key": "c33cf7fbafb8018f",
+      "title": "Mastering Your Energy with Play - Mid-month Reset",
+      "start": "2026-10-14T00:00:00",
+      "end": "2026-10-14T00:00:00",
+      "all_day": true,
+      "venue": "11 East Michigan St, Duluth, MN, United States, Minnesota 55802",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xNWRiZTYyMGE1MTRjN2U5MmY5ZTVhODFkYzI0OTU3MWRkMDM5YTcxZDAyNjkzMjAyZjg1NWJlM2E0ZjFkYjM3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MDA3MDQyNA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/mastering-your-energy-with-play-mid-month-reset/200030725606405"
+      }
+    },
+    {
       "key": "a0db6bc6795446f6",
       "title": "Just the Fiddly Bits: Make an English Paper Pieced Bowl",
       "start": "2026-10-14T00:00:00",
@@ -2988,24 +2898,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/speed-booking-mystery-thriller-horror-theme/100001996317940700"
-      }
-    },
-    {
-      "key": "a1842b16148fd5e1",
-      "title": "McCullough Bros & Friends wHorns Blues Bros Tribute Show & Costume Contest",
-      "start": "2026-10-22T00:00:00",
-      "end": "2026-10-22T00:00:00",
-      "all_day": true,
-      "venue": "Marshall Performing Arts Center",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9hNDQ4ZTdlZDc2NmIwZTliMDAxNGI5NjYwNzYzNjc2NTE0ODYyNGViZmQxZjU5ZDEzY2E0ZmJjY2Y0YzY5NmUyLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMzUzNjY.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/mccullough-bros-and-friends-whorns-blues-bros-tribute-show-and-costume-contest/100001999854839660"
       }
     },
     {
@@ -3636,6 +3528,24 @@
       "source": {
         "name": "AllEvents \u2014 Ashland",
         "url": "https://allevents.in/ashland/trunk-or-treat-free-family-fun-day/200030678645358"
+      }
+    },
+    {
+      "key": "a97d896f0c62e569",
+      "title": "All You Can Eat Waffle Breakfast",
+      "start": "2026-11-01T00:00:00",
+      "end": "2026-11-01T00:00:00",
+      "all_day": true,
+      "venue": "Clyde Iron Works",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84ZGM1YmQyNGNiYmMzYTVmMWY1OTUxYjVjZTIzM2FiOWNmMWZjNGRlOGMyYmIyM2E0ZWY5MDJkMjBlZWMyNGYxLXJpbWctdzQ1MC1oMzM4LWRjMDgwODA4LWdtaXIuanBnP3Y9MTc4OTk3MTM2Mw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/all-you-can-eat-waffle-breakfast/100002001771123316"
       }
     },
     {
@@ -4683,24 +4593,6 @@
       }
     },
     {
-      "key": "51b2d403bb8d86ce",
-      "title": "Indecent Proposal Ugly Sweater Xmas Party at Mr. D\u2019s",
-      "start": "2026-12-19T00:00:00",
-      "end": "2026-12-20T00:00:00",
-      "all_day": true,
-      "venue": "Mr D's Bar & Grill",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wZmZlNzZiYjZmMzYzYWI1MGIzNTgyNTMyM2ZiZTA1Y2I1OWUxZTlhZDcwYzU3NWU1ZmZjNDQxNzVhMDc4NWY2LXJpbWctdzEyMDAtaDExMDQtZGMwODA4MDgtZ21pcj92PTE3ODg1MTEwOTk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/indecent-proposal-ugly-sweater-xmas-party-at-mr-ds/200030341220126"
-      }
-    },
-    {
       "key": "97d5e543613d564d",
       "title": "Post-Christmas Party with Indecent Proposal Indecent Proposal Live at Superior Tavern",
       "start": "2026-12-26T00:00:00",
@@ -4737,24 +4629,6 @@
       }
     },
     {
-      "key": "814136fdc81c8e34",
-      "title": "Emma - Musical",
-      "start": "2027-01-23T00:00:00",
-      "end": "2027-01-23T00:00:00",
-      "all_day": true,
-      "venue": "NorShor Theatre",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84MTJkNTk0MmFjNTkwZDJmMTE3MTM0NzcxYzUzZTJhNjJkMGM4OTQ1NTUwOTNmNjM4NTJhMDZlYTE2Y2ZiZDFiLXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg5OTU1ODU.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/emma-musical/210006109887008"
-      }
-    },
-    {
       "key": "542badd1aeff2665",
       "title": "Northland Figure Skating Competition",
       "start": "2027-01-28T00:00:00",
@@ -4788,6 +4662,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/umd-mens-hockey-v-st-thomas/210001600694893"
+      }
+    },
+    {
+      "key": "4c9641c9927a433b",
+      "title": "Solway Area Firefighter I/II & HazMat Operator Initial",
+      "start": "2027-02-19T00:00:00",
+      "end": "2027-03-07T00:00:00",
+      "all_day": true,
+      "venue": "Solway Volunteer Fire Department",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zNjEzM2I1OTU0MzE3NTQ5OTU3NmViNGI4MjUyODAxY2RmY2JmOTk3MzIyZDJmMGM1MzU2NDhhOTczOTM0NjM0LXJpbWctdzEyMDAtaDExODUtZGMwODA4MDgtZ21pci5wbmc_dj0xNzg4OTY5NjY2.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/solway-area-firefighter-i-ii-and-hazmat-operator-initial/100001998385096619"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T17:17:04",
+  "generated": "2026-09-22T15:42:42",
   "confirmed": [],
   "likely": [
     {
@@ -250,6 +250,25 @@
       "predicted_next": "2027-10-03"
     },
     {
+      "key": "norton park holiday harvest bazaar|duluth",
+      "title": "Norton Park Annual Holiday Harvest Bazaar",
+      "venue": "Norton Park United Methodist Church",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-03",
+      "last_url": "https://allevents.in/duluth/norton-park-annual-holiday-harvest-bazaar/200030613285055",
+      "predicted_next": "2027-10-03"
+    },
+    {
       "key": "one week live vol 24 live recordings featuring songwriter contest with ryan lane|duluth",
       "title": "One Week Live Vol. 24 Live Recordings featuring the 21st Annual Songwriter Contest with Ryan Lane",
       "venue": "",
@@ -267,6 +286,25 @@
       "last_date": "2026-10-07",
       "last_url": "https://www.perfectduluthday.com/the-event/one-week-live-vol-24-live-recordings-featuring-the-21st-annual-songwriter-contest-with-ryan-lane/",
       "predicted_next": "2027-10-07"
+    },
+    {
+      "key": "voices of courage safe haven shelter and resource center s fundraiser|duluth",
+      "title": "Voices of Courage: Safe Haven Shelter and Resource Center's 21st Annual Fundraiser",
+      "venue": "Clyde Iron Works",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 21,
+      "signal_reasons": [
+        "title says \"21st Annual\""
+      ],
+      "last_date": "2026-10-08",
+      "last_url": "https://allevents.in/duluth/voices-of-courage-safe-haven-shelter-and-resource-centers-21st-annual-fundraiser/200030570060409",
+      "predicted_next": "2027-10-08"
     },
     {
       "key": "tamarack health whistlestop marathon half marathon 5k 10k|ashland",
