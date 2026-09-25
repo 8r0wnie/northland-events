@@ -148,7 +148,7 @@
      "url": "https://www.ely.org/event/preschool-storytime/9355/"
     },
     "2027": {
-     "date": "2027-01-15",
+     "date": "2027-01-22",
      "title": "Preschool Storytime",
      "source_count": 1,
      "url": "https://www.ely.org/event/preschool-storytime/9355/"
@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-03-07",
+     "date": "2027-03-12",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-07/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-12/"
     }
    },
    "too_frequent": false
@@ -1171,7 +1171,7 @@
    "venue": "",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "community",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-09-26",
@@ -1302,16 +1302,16 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-30",
+     "date": "2026-12-27",
      "title": "Ping pong",
      "source_count": 1,
-     "url": "https://www.ely.org/event/ping-pong/6581/"
+     "url": "https://www.ely.org/event/ping-pong/9295/"
     },
     "2027": {
-     "date": "2027-01-20",
+     "date": "2027-01-17",
      "title": "Ping pong",
      "source_count": 1,
-     "url": "https://www.ely.org/event/ping-pong/6581/"
+     "url": "https://www.ely.org/event/ping-pong/9295/"
     }
    },
    "too_frequent": false
@@ -2180,7 +2180,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-09",
+     "date": "2027-04-13",
      "title": "HRA",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -2202,9 +2202,9 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-09",
+     "date": "2027-04-13",
      "title": "Library Board Meeting",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
@@ -2224,9 +2224,9 @@
      "url": "https://cookcountymn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-09",
+     "date": "2027-04-13",
      "title": "Regular Meeting of the County Board of Commissioners",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
     }
    },
@@ -2634,10 +2634,10 @@
      "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2026-12-31/"
     },
     "2027": {
-     "date": "2027-03-04",
+     "date": "2027-03-11",
      "title": "Teen Open Studio (Fall 2026)",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-03-04/"
+     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-03-11/"
     }
    },
    "too_frequent": false
@@ -3006,10 +3006,10 @@
      "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2026-12-30/"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-03-24",
      "title": "Double-Points for Loyalty Members",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2027-03-17/"
+     "url": "https://castledangerbrewery.com/event/double-points-for-loyalty-members/2027-03-24/"
     }
    },
    "too_frequent": false
@@ -3322,10 +3322,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-09",
      "title": "Tai Ji Quan- Moving for Better Balance",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12114"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12115"
     }
    },
    "too_frequent": false
@@ -3766,10 +3766,10 @@
      "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2026-12-30/"
     },
     "2027": {
-     "date": "2027-03-03",
+     "date": "2027-03-10",
      "title": "Weekly Wine Gatherings",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-03-03/"
+     "url": "https://visitduluth.com/event/weekly-wine-gatherings-2/2027-03-10/"
     }
    },
    "too_frequent": false
@@ -3804,10 +3804,10 @@
      "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2026-12-30/"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-03-24",
      "title": "Castle Danger Game Night",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2027-03-17/"
+     "url": "https://castledangerbrewery.com/event/castle-danger-game-night-2/2027-03-24/"
     }
    },
    "too_frequent": false
@@ -4772,10 +4772,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "title": "Live in the Lounge",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/live-in-the-lounge-2026/2026-10-15/"
+     "url": "https://www.perfectduluthday.com/the-event/live-in-the-lounge-2026/2026-10-22/"
     }
    },
    "too_frequent": false
@@ -4964,10 +4964,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-02",
+     "date": "2026-10-09",
      "title": "Friday Farm Stand",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11936"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11937"
     }
    },
    "too_frequent": false
@@ -4996,10 +4996,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "title": "Lake Superior Estuarium Open",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/lake-superior-estuarium-open-2026/2026-10-16/"
+     "url": "https://www.perfectduluthday.com/the-event/lake-superior-estuarium-open-2026/2026-10-23/"
     }
    },
    "too_frequent": false
@@ -5172,10 +5172,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-26",
+     "date": "2026-09-27",
      "title": "A Chorus Line",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/a-chorus-line/2026-09-25/"
+     "url": "https://www.perfectduluthday.com/the-event/a-chorus-line/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -8217,7 +8217,7 @@
    "too_frequent": false
   },
   "speed friending|duluth": {
-   "title": "Speed Friending",
+   "title": "Speed Friending!",
    "venue": "Duluth Folk School",
    "city": "Duluth",
    "area": "Duluth",
@@ -8225,9 +8225,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-16",
-     "title": "Speed Friending",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/speed-friending-6-2026-10-16/"
+     "title": "Speed Friending!",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/speed-friending/200030734523646"
     }
    },
    "too_frequent": true
@@ -8976,7 +8976,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-26",
+     "date": "2026-09-25",
      "title": "Ashland County Fair",
      "source_count": 1,
      "url": "https://ashlandcountyfair.com/events/ashland-county-fair-7/"
@@ -9040,10 +9040,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-20",
+     "date": "2026-10-04",
      "title": "Sing Sea Shanties!",
      "source_count": 2,
-     "url": "https://allevents.in/duluth/sing-sea-shanties/200030081997204"
+     "url": "https://allevents.in/duluth/sing-sea-shanties/200030734522842"
     }
    },
    "too_frequent": false
@@ -9870,10 +9870,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-09-24",
+     "date": "2026-10-29",
      "title": "Late Night in the Research Center",
      "source_count": 1,
-     "url": "https://www.mndiscoverycenter.org/event/late-night-in-the-research-center-16/"
+     "url": "https://www.mndiscoverycenter.org/event/late-night-in-the-research-center-18/"
     }
    },
    "too_frequent": false
@@ -10142,10 +10142,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-25",
+     "date": "2026-10-23",
      "title": "Storyfolk",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/storyfolk/200030049385914"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/storyfolk-2026-2026-07-24/2026-10-23/"
     }
    },
    "too_frequent": true
@@ -10724,10 +10724,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-26",
+     "date": "2026-10-24",
      "title": "J Streitz and the Long Odds",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/j-streitz-and-the-long-odds-sir-bens/2026-09-26/"
+     "url": "https://www.perfectduluthday.com/the-event/j-streitz-and-the-long-odds-sir-bens/2026-10-24/"
     }
    },
    "too_frequent": true
@@ -11836,10 +11836,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-18",
+     "date": "2026-10-25",
      "title": "Pro Comedy Tour",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/pro-comedy-tour-2026-08-08/2026-10-17/"
+     "url": "https://www.perfectduluthday.com/the-event/pro-comedy-tour-2026-08-08/2026-10-24/"
     }
    },
    "too_frequent": false
@@ -12588,7 +12588,7 @@
   },
   "rock from heart|duluth": {
    "title": "Rock From the Heart",
-   "venue": "Duluth Entertainment Convention Center",
+   "venue": "Duluth Entertainment Convention Center (DECC)",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
@@ -12596,7 +12596,7 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Rock From the Heart",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/rock-from-the-heart/"
     }
    },
@@ -12660,8 +12660,8 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Spirit of the Times 2026",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/spirit-of-the-times-2026/200030576631417"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/spirit-of-the-times-2026/"
     }
    },
    "too_frequent": false
@@ -12732,7 +12732,7 @@
   },
   "pumpkin palooza|duluth": {
    "title": "Pumpkin Palooza",
-   "venue": "",
+   "venue": "Harrison Park",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -12740,8 +12740,8 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Pumpkin Palooza",
-     "source_count": 1,
-     "url": "https://duluthmn.gov/event-calendar/?eventId=21946"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/pumpkin-palooza/200030734185009"
     }
    },
    "too_frequent": false
@@ -13154,7 +13154,7 @@
   },
   "howl o ween at keene|duluth": {
    "title": "Howl-o-ween at Keene",
-   "venue": "",
+   "venue": "Keene Creek Dog Park",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -13162,8 +13162,8 @@
     "2026": {
      "date": "2026-10-15",
      "title": "Howl-o-ween at Keene",
-     "source_count": 1,
-     "url": "https://duluthmn.gov/event-calendar/?eventId=21947"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/howl-o-ween-at-keene/200030734184604"
     }
    },
    "too_frequent": false
@@ -13616,7 +13616,7 @@
     "2026": {
      "date": "2026-10-23",
      "title": "Silent Film: The Cabinet of Dr. Caligari",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/silent-film-the-cabinet-of-dr-caligari/100001998922611340"
     }
    },
@@ -13856,7 +13856,7 @@
     "2026": {
      "date": "2026-10-24",
      "title": "Twin Ports Comedy: Funniest Person In The Twin Ports Contest | Round 3",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/twin-ports-comedy-funniest-person-in-the-twin-ports-contest-round-3/"
     }
    },
@@ -14167,17 +14167,17 @@
    "too_frequent": false
   },
   "glow hike|duluth": {
-   "title": "Glow Hike",
-   "venue": "",
+   "title": "Annual Glow Hike",
+   "venue": "Indian Point Campground",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
      "date": "2026-10-30",
-     "title": "Glow Hike",
-     "source_count": 1,
-     "url": "https://duluthmn.gov/event-calendar/?eventId=21948"
+     "title": "Annual Glow Hike",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/annual-glow-hike/200030734175547"
     }
    },
    "too_frequent": false
@@ -18330,10 +18330,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-17",
+     "date": "2026-10-24",
      "title": "Similar Dogs",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/similar-dogs-saturdays/2026-10-17/"
+     "url": "https://www.perfectduluthday.com/the-event/similar-dogs-saturdays/2026-10-24/"
     }
    },
    "too_frequent": false
@@ -18774,10 +18774,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-11",
+     "date": "2026-10-09",
      "title": "Mighty Mouse Karaoke",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10437"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12297"
     }
    },
    "too_frequent": false
@@ -21027,7 +21027,7 @@
    "venue": "",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-09-26",
@@ -21740,10 +21740,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "title": "Canta Conmigo: Spanish Music for Kids and Caregivers",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/canta-conmigo-spanish-music-for-kids-and-caregivers/2026-10-16/"
+     "url": "https://www.perfectduluthday.com/the-event/canta-conmigo-spanish-music-for-kids-and-caregivers/2026-10-23/"
     }
    },
    "too_frequent": false
@@ -21916,10 +21916,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-09",
      "title": "Herbster: Tai Ji Quan- Moving for Better Balance",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12132"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12133"
     }
    },
    "too_frequent": false
@@ -22204,10 +22204,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-20",
+     "date": "2026-09-27",
      "title": "Bayfield BBQ Company at Copper Crow Distillery",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5942/"
+     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5954/"
     }
    },
    "too_frequent": false
@@ -23460,7 +23460,7 @@
     "2026": {
      "date": "2026-10-08",
      "title": "LIVE IN THE LOUNGE: IDLE ROSE",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://www.bayfield.org/event/live-in-the-lounge%3a-idle-rose/5932/"
     }
    },
@@ -24066,10 +24066,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-26",
+     "date": "2026-09-27",
      "title": "Ursa Minor Oktoberfest 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/ursa-minor-oktoberfest-2026/2026-09-26/"
+     "url": "https://www.perfectduluthday.com/the-event/ursa-minor-oktoberfest-2026/2026-09-27/"
     }
    },
    "too_frequent": false
@@ -24562,10 +24562,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "title": "Coffee and Vinyl",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/coffee-and-vinyl/2026-10-16/"
+     "url": "https://www.perfectduluthday.com/the-event/coffee-and-vinyl/2026-10-23/"
     }
    },
    "too_frequent": false
@@ -25074,10 +25074,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-17",
+     "date": "2026-10-24",
      "title": "Cosmic Tour: Adventure to the Edge of the Universe",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/cosmic-tour-adventure-to-the-edge-of-the-universe-2/2026-10-16/"
+     "url": "https://www.perfectduluthday.com/the-event/cosmic-tour-adventure-to-the-edge-of-the-universe-2/2026-10-23/"
     }
    },
    "too_frequent": false
@@ -25090,10 +25090,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-10-25",
      "title": "Macbeth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-24/"
     }
    },
    "too_frequent": false
@@ -25624,10 +25624,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-02",
+     "date": "2026-10-09",
      "title": "Popcorn Fridays at Hibbing Public Library",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1920"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1921"
     }
    },
    "too_frequent": false
@@ -25932,6 +25932,294 @@
      "title": "St. Scholastica Women's Hockey vs Gustavus Adolphus College",
      "source_count": 1,
      "url": "https://csssaints.com/calendar.aspx?game_id=17883&sport_id=20"
+    }
+   },
+   "too_frequent": false
+  },
+  "superior hiking trail association ribbon cutting|duluth": {
+   "title": "Superior Hiking Trail Association: Ribbon Cutting",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-25",
+     "title": "Superior Hiking Trail Association: Ribbon Cutting",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/superior-hiking-trail-association-ribbon-cutting-for-bean-and-bear-renewal-project-completion/"
+    }
+   },
+   "too_frequent": false
+  },
+  "foosball ruckus|duluth": {
+   "title": "Foosball Ruckus",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-26",
+     "title": "Foosball Ruckus",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/foosball-rukus-and-beach-hazards/"
+    }
+   },
+   "too_frequent": false
+  },
+  "eveleth city council special meeting|eveleth": {
+   "title": "Eveleth City Council Special Meeting",
+   "venue": "",
+   "city": "Eveleth",
+   "area": "Eveleth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-29",
+     "title": "Eveleth City Council Special Meeting",
+     "source_count": 1,
+     "url": "https://eveleth.gov/index.asp?SEC=462BCD35-C33E-4969-A2A3-9ABB6847CAA0&DE=F868C890-F693-4923-9AA9-3027FD6A4EAE"
+    }
+   },
+   "too_frequent": false
+  },
+  "cbac members only art october show|bayfield": {
+   "title": "CBAC Members Only Art October Show",
+   "venue": "Washburn Cultural Center",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-01",
+     "title": "CBAC Members Only Art October Show",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/cbac-members-only-art-october-show/5950/"
+    }
+   },
+   "too_frequent": false
+  },
+  "notice personnel committee mtg 4 30 pm|two harbors": {
+   "title": "NOTICE-Personnel Committee Mtg @ 4:30 PM",
+   "venue": "City Hall Conference Room",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-02",
+     "title": "NOTICE-Personnel Committee Mtg @ 4:30 PM",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall holiday harvest bazaar|duluth": {
+   "title": "Fall Holiday Harvest Bazaar",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "Fall Holiday Harvest Bazaar",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/fall-holiday-harvest-bazaar-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "community fall festival|duluth": {
+   "title": "Community Fall Festival",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "Community Fall Festival",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/fall-fest/"
+    }
+   },
+   "too_frequent": false
+  },
+  "notice finance committee mtg 4 30|two harbors": {
+   "title": "NOTICE-Finance Committee Mtg @ 4:30",
+   "venue": "City Hall Conference Room",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-07",
+     "title": "NOTICE-Finance Committee Mtg @ 4:30",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "wow washburn flu covid pneumonia vaccination clinic for all ages|bayfield county": {
+   "title": "WOW- Washburn Flu/Covid/Pneumonia Vaccination Clinic (for all ages)",
+   "venue": "St Louis School",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "WOW- Washburn Flu/Covid/Pneumonia Vaccination Clinic (for all ages)",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=8914"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall pub run|bayfield county": {
+   "title": "Fall Pub Run",
+   "venue": "Barnes, WI 54873",
+   "city": "Barnes",
+   "area": "Bayfield County",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "Fall Pub Run",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12229"
+    }
+   },
+   "too_frequent": false
+  },
+  "matchless an original musical at stagenorth|bayfield county": {
+   "title": "Matchless - An Original Musical at StageNorth",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "Matchless - An Original Musical at StageNorth",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12349"
+    }
+   },
+   "too_frequent": false
+  },
+  "spooktober wednesday|duluth": {
+   "title": "Spooktober Wednesday",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-22",
+     "title": "Spooktober Wednesday",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/spooktober-wednesday/2026-10-21/"
+    }
+   },
+   "too_frequent": false
+  },
+  "notice finance committee meeting|two harbors": {
+   "title": "NOTICE-Finance Committee Meeting",
+   "venue": "City Hall Conference Room",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-02",
+     "title": "NOTICE-Finance Committee Meeting",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "national election day|marengo": {
+   "title": "National Election Day",
+   "venue": "",
+   "city": "Marengo",
+   "area": "Marengo",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-03",
+     "title": "National Election Day",
+     "source_count": 1,
+     "url": "https://ashlandcountyfair.com/events/national-election-day/"
+    }
+   },
+   "too_frequent": false
+  },
+  "ashland fair board election|marengo": {
+   "title": "Ashland Fair Board Annual Election",
+   "venue": "",
+   "city": "Marengo",
+   "area": "Marengo",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "Ashland Fair Board Annual Election",
+     "source_count": 1,
+     "url": "https://ashlandcountyfair.com/events/ashland-fair-board-annual-election/"
+    }
+   },
+   "too_frequent": false
+  },
+  "notice finance committee mtg|two harbors": {
+   "title": "NOTICE-Finance Committee Mtg",
+   "venue": "City Hall Conference Room",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-16",
+     "title": "NOTICE-Finance Committee Mtg",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "women s expo|grand rapids": {
+   "title": "Women\u2019s Expo",
+   "venue": "",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "community",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-06",
+     "title": "Women\u2019s Expo",
+     "source_count": 1,
+     "url": "https://www.grandmn.com/event/womens-expo/"
+    }
+   },
+   "too_frequent": false
+  },
+  "build north expo|duluth": {
+   "title": "The Build North Expo",
+   "venue": "Essentia Health Duluth Heritage Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "family",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-11",
+     "title": "The Build North Expo",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/the-build-north-expo-2/2027-03-11/"
     }
    },
    "too_frequent": false

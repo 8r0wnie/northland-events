@@ -1,16 +1,16 @@
 {
-  "when": "2026-09-24T16:01:30Z",
-  "raw": 3413,
-  "merged": 2573,
-  "published": 2318,
-  "queued": 255,
+  "when": "2026-09-25T16:02:03Z",
+  "raw": 3383,
+  "merged": 2559,
+  "published": 2302,
+  "queued": 257,
   "verification": {
-    "confirmed": 2318,
+    "confirmed": 2302,
     "multi_source": 217,
-    "trusted_single": 2101,
+    "trusted_single": 2085,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 255
+    "queued": 257
   },
   "sources": [
     {
@@ -31,7 +31,7 @@
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 51 events via https://superiorchamber.org",
-      "events": 31
+      "events": 30
     },
     {
       "source": "hibbing-chamber",
@@ -40,13 +40,13 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "simpleview: 178 events (1 pages)",
-      "events": 178
+      "detail": "simpleview: 155 events (1 pages)",
+      "events": 155
     },
     {
       "source": "grand-rapids-mn",
-      "detail": "tribe: 11 events",
-      "events": 11
+      "detail": "tribe: 12 events",
+      "events": 12
     },
     {
       "source": "mcgregor-chamber",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 116 events (3 pages)",
-      "events": 116
+      "detail": "simpleview: 118 events (3 pages)",
+      "events": 118
     },
     {
       "source": "visit-ashland",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 543 events",
-      "events": 450
+      "events": 444
     },
     {
       "source": "hermantown-mn",
@@ -95,7 +95,7 @@
     },
     {
       "source": "eveleth-mn",
-      "detail": "govoffice: 11 events",
+      "detail": "govoffice: 12 events",
       "events": 2
     },
     {
@@ -151,7 +151,7 @@
     {
       "source": "cromwell-mn",
       "detail": "revize: 68 events (webspace cromwellmn)",
-      "events": 65
+      "events": 64
     },
     {
       "source": "esko-township-mn",
@@ -165,8 +165,8 @@
     },
     {
       "source": "two-harbors-mn",
-      "detail": "revize: 127 events (webspace twoharborsmn)",
-      "events": 118
+      "detail": "revize: 130 events (webspace twoharborsmn)",
+      "events": 123
     },
     {
       "source": "silver-bay-mn",
@@ -175,7 +175,7 @@
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 87 events (webspace cookcountymn)",
+      "detail": "revize: 86 events (webspace cookcountymn)",
       "events": 81
     },
     {
@@ -185,8 +185,8 @@
     },
     {
       "source": "koochiching-county-mn",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "itasca-county-mn",
@@ -195,8 +195,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 13
+      "detail": "ics: 12 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 12
     },
     {
       "source": "hill-city-mn",
@@ -205,7 +205,7 @@
     },
     {
       "source": "aitkin-mn",
-      "detail": "govoffice: 1 events",
+      "detail": "no adapter produced events  [carried forward from 2026-09-24]",
       "events": 1
     },
     {
@@ -225,8 +225,8 @@
     },
     {
       "source": "douglas-county-wi",
-      "detail": "civicplus: 8 events",
-      "events": 8
+      "detail": "civicplus: 6 events",
+      "events": 6
     },
     {
       "source": "superior-wi",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 105 events",
-      "events": 105
+      "detail": "civicplus: 108 events",
+      "events": 108
     },
     {
       "source": "cable-wi",
@@ -255,8 +255,8 @@
     },
     {
       "source": "ashland-city-wi",
-      "detail": "civicplus: 4 events",
-      "events": 4
+      "detail": "civicplus: 3 events",
+      "events": 3
     },
     {
       "source": "burnett-county-wi",
@@ -285,18 +285,18 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 188 events",
-      "events": 188
+      "detail": "allevents: 184 events",
+      "events": 184
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 104 events",
-      "events": 104
+      "detail": "allevents: 109 events",
+      "events": 109
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 19 events",
-      "events": 19
+      "detail": "allevents: 18 events",
+      "events": 18
     },
     {
       "source": "allevents-hibbing",
@@ -315,8 +315,8 @@
     },
     {
       "source": "allevents-ashland",
-      "detail": "allevents: 14 events",
-      "events": 14
+      "detail": "allevents: 15 events",
+      "events": 15
     },
     {
       "source": "allevents-intl-falls",
@@ -330,8 +330,8 @@
     },
     {
       "source": "uws-yellowjackets",
-      "detail": "sidearm: 105 home/neutral events",
-      "events": 105
+      "detail": "sidearm: 104 home/neutral events",
+      "events": 104
     },
     {
       "source": "css-saints",
@@ -345,8 +345,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "tribe: 34 events",
-      "events": 34
+      "detail": "tribe: 33 events",
+      "events": 33
     },
     {
       "source": "sacred-heart",
@@ -370,18 +370,18 @@
     },
     {
       "source": "mn-discovery-center",
-      "detail": "tribe: 29 events",
-      "events": 29
+      "detail": "tribe: 26 events",
+      "events": 26
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 21 events",
-      "events": 21
+      "detail": "tribe: 20 events",
+      "events": 20
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 123 events",
-      "events": 123
+      "detail": "tribe: 124 events",
+      "events": 124
     },
     {
       "source": "decc",
@@ -405,8 +405,8 @@
     },
     {
       "source": "koochiching-county-fair",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "ashland-county-fair",

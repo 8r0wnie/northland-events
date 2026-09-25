@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T16:01:31",
+  "generated": "2026-09-25T16:02:03",
   "confirmed": [],
   "likely": [
     {
@@ -364,6 +364,25 @@
       "predicted_next": "2027-10-28"
     },
     {
+      "key": "glow hike|duluth",
+      "title": "Annual Glow Hike",
+      "venue": "Indian Point Campground",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-30",
+      "last_url": "https://allevents.in/duluth/annual-glow-hike/200030734175547",
+      "predicted_next": "2027-10-30"
+    },
+    {
       "key": "meeting dinner|duluth",
       "title": "156th Annual Meeting & Dinner Celebration",
       "venue": "Duluth Entertainment Convention Center - DECC",
@@ -380,6 +399,25 @@
       ],
       "last_date": "2026-11-05",
       "last_url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4578/details",
+      "predicted_next": "2027-11-05"
+    },
+    {
+      "key": "ashland fair board election|marengo",
+      "title": "Ashland Fair Board Annual Election",
+      "venue": "",
+      "city": "Marengo",
+      "area": "Marengo",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-05",
+      "last_url": "https://ashlandcountyfair.com/events/ashland-fair-board-annual-election/",
       "predicted_next": "2027-11-05"
     }
   ]
