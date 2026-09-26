@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-03-12",
+     "date": "2027-03-14",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-12/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-14/"
     }
    },
    "too_frequent": false
@@ -768,10 +768,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-10",
      "title": "Bayfield Farmer's Market",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11199"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11200"
     }
    },
    "too_frequent": false
@@ -998,10 +998,10 @@
      "url": "https://visitduluth.com/event/hadestown-teen-edition/2026-12-26/"
     },
     "2027": {
-     "date": "2027-03-06",
+     "date": "2027-03-13",
      "title": "Hadestown: Teen Edition",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-03-06/"
+     "url": "https://visitduluth.com/event/hadestown-teen-edition/2027-03-13/"
     }
    },
    "too_frequent": false
@@ -1158,10 +1158,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-10",
      "title": "Live Music at the Taphouse",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12077"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12295"
     }
    },
    "too_frequent": false
@@ -1678,10 +1678,10 @@
      "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2026-12-27/"
     },
     "2027": {
-     "date": "2027-03-07",
+     "date": "2027-03-14",
      "title": "Going Solar in the Northland",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-03-07/"
+     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-03-14/"
     }
    },
    "too_frequent": false
@@ -2136,10 +2136,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-19",
+     "date": "2026-10-26",
      "title": "Twin Ports Chess Club",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-19/"
+     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-26/"
     }
    },
    "too_frequent": false
@@ -2226,7 +2226,7 @@
     "2027": {
      "date": "2027-04-13",
      "title": "Regular Meeting of the County Board of Commissioners",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://cookcountymn.gov/calendar.php"
     }
    },
@@ -2558,13 +2558,13 @@
      "url": "https://www.virginiamn.us/calendar.php"
     },
     "2027": {
-     "date": "2027-03-09",
+     "date": "2027-04-13",
      "title": "City Council Meeting",
      "source_count": 1,
      "url": "https://www.virginiamn.us/calendar.php"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "special budget workshop|silver bay": {
    "title": "Special Budget Workshop",
@@ -2968,10 +2968,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-20",
+     "date": "2026-10-27",
      "title": "Bingo, Beer & Gear",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -2984,10 +2984,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-20",
+     "date": "2026-10-27",
      "title": "Midweek Sound Bath",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -3098,7 +3098,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-10",
+     "date": "2027-04-14",
      "title": "Mayor Open House",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -3196,8 +3196,8 @@
     "2026": {
      "date": "2026-09-28",
      "title": "Acrylic Paint Class",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/acrylic-paint-class-27/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/acrylic-paint-class/200030492112605"
     }
    },
    "too_frequent": false
@@ -5172,10 +5172,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "A Chorus Line",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/a-chorus-line/2026-09-26/"
+     "url": "https://visitduluth.com/event/a-chorus-line/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -6572,10 +6572,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-19",
+     "date": "2026-10-26",
      "title": "Teague Alexy",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-19/"
+     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-26/"
     }
    },
    "too_frequent": false
@@ -7302,10 +7302,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-28",
      "title": "Live Music Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -8976,7 +8976,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-25",
+     "date": "2026-09-26",
      "title": "Ashland County Fair",
      "source_count": 1,
      "url": "https://ashlandcountyfair.com/events/ashland-county-fair-7/"
@@ -10071,17 +10071,17 @@
    "too_frequent": false
   },
   "umd women s hockey vs mercyhurst university|duluth": {
-   "title": "UMD Women\u2019s Hockey vs Mercyhurst University",
-   "venue": "AMSOIL Arena",
+   "title": "UMD Women's Hockey vs Mercyhurst University",
+   "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
      "date": "2026-09-25",
-     "title": "UMD Women\u2019s Hockey vs Mercyhurst University",
+     "title": "UMD Women's Hockey vs Mercyhurst University",
      "source_count": 2,
-     "url": "https://decc.org/event/umd-womens-hockey-vs-mercyhurst-university-sep25/"
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10964&sport_id=11"
     }
    },
    "too_frequent": false
@@ -10318,10 +10318,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "Two Harbors Fall Art Fair 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/two-harbors-fall-art-fair/2026-09-27/"
+     "url": "https://www.perfectduluthday.com/the-event/two-harbors-fall-art-fair/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -10981,14 +10981,14 @@
   "special meeting auditor treasurer interview meeting with mille lacs band of ojibwe set preliminary levy if necessary|pine county": {
    "title": "Special Meeting - Auditor/Treasurer Interview/Meeting with Mille Lacs Band of Ojibwe/Set 2027 Preliminary Levy if necessary",
    "venue": "North Pine Government Center, 1602 Hwy. 23 No., Sandstone",
-   "city": "",
+   "city": "Hibbing",
    "area": "Pine County",
    "category": "community",
    "occurrences": {
     "2026": {
      "date": "2026-09-29",
      "title": "Special Meeting - Auditor/Treasurer Interview/Meeting with Mille Lacs Band of Ojibwe/Set 2027 Preliminary Levy if necessary",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.pinecountymn.gov/calendar.php"
     }
    },
@@ -11082,10 +11082,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-30",
+     "date": "2026-10-28",
      "title": "Jazz Jam with Baba Fats",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/jazz-jam/2026-09-29/"
+     "url": "https://www.perfectduluthday.com/the-event/jazz-jam/2026-10-27/"
     }
    },
    "too_frequent": true
@@ -11516,10 +11516,10 @@
      "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-12-25/"
     },
     "2027": {
-     "date": "2027-03-05",
+     "date": "2027-03-12",
      "title": "Glensheen Lantern Tours",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-03-05/"
+     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2027-03-12/"
     }
    },
    "too_frequent": false
@@ -12588,7 +12588,7 @@
   },
   "rock from heart|duluth": {
    "title": "Rock From the Heart",
-   "venue": "Duluth Entertainment Convention Center (DECC)",
+   "venue": "Duluth Entertainment Convention Center",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
@@ -12596,7 +12596,7 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Rock From the Heart",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://visitduluth.com/event/rock-from-the-heart/"
     }
    },
@@ -12660,8 +12660,8 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Spirit of the Times 2026",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/spirit-of-the-times-2026/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/spirit-of-the-times-2026/200030576631417"
     }
    },
    "too_frequent": false
@@ -13534,10 +13534,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-20",
      "title": "Studio Oil Painting with Matt Kania",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/studio-oil-painting-with-matt-kania/"
+     "url": "https://www.perfectduluthday.com/the-event/studio-oil-painting-with-matt-kania-2026/"
     }
    },
    "too_frequent": false
@@ -16286,7 +16286,7 @@
     "2026": {
      "date": "2026-12-11",
      "title": "Arrowhead Ice Fishing and Winter Show",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/arrowhead-ice-fishing-and-winter-show-2/"
     }
    },
@@ -17454,8 +17454,8 @@
     "2027": {
      "date": "2027-03-14",
      "title": "Riverdance 30 \u2013 The New Generation",
-     "source_count": 1,
-     "url": "https://decc.org/event/riverdance-30-the-new-generation/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/riverdance-30-the-new-generation/"
     }
    },
    "too_frequent": false
@@ -18982,10 +18982,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "The HeART of Healing Art Exhibit",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/the-heart-of-healing-art-exhibit/2026-09-27/"
+     "url": "https://visitduluth.com/event/the-heart-of-healing-art-exhibit/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -20982,10 +20982,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "Lake Superior 20/20 Studio & Art Tour 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/lake-superior-20-20-studio-art-tour-2026/2026-09-27/"
+     "url": "https://www.perfectduluthday.com/the-event/lake-superior-20-20-studio-art-tour-2026/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -21318,10 +21318,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-26",
      "title": "Acting for Non-Actors",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/acting-for-non-actors-at-solca/2026-10-12/"
+     "url": "https://www.perfectduluthday.com/the-event/acting-for-non-actors-at-solca/2026-10-26/"
     }
    },
    "too_frequent": false
@@ -22204,10 +22204,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "Bayfield BBQ Company at Copper Crow Distillery",
-     "source_count": 1,
-     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5954/"
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/bayfield-bbq-company-at-copper-crow-distillery/5953/"
     }
    },
    "too_frequent": false
@@ -22684,10 +22684,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-08",
+     "date": "2026-10-10",
      "title": "The Gathering - Members Art Show",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12058"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12060"
     }
    },
    "too_frequent": false
@@ -22885,7 +22885,7 @@
    "too_frequent": false
   },
   "wussow s one week live cigarette picnic jen west and skarlett woods|duluth": {
-   "title": "Wussow\u2019s One Week Live 2026: Cigarette Picnic , Jen West and Skarlett Woods",
+   "title": "Wussow\u2019s One Week Live 2026: Cigarette Picnic, Jen West and Skarlett Woods",
    "venue": "",
    "city": "Duluth",
    "area": "Duluth",
@@ -22893,7 +22893,7 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-06",
-     "title": "Wussow\u2019s One Week Live 2026: Cigarette Picnic , Jen West and Skarlett Woods",
+     "title": "Wussow\u2019s One Week Live 2026: Cigarette Picnic, Jen West and Skarlett Woods",
      "source_count": 1,
      "url": "https://www.perfectduluthday.com/the-event/one-week-live-vol-24-live-featuring-cigarette-picnic-jen-west-and-skarlett-woods/"
     }
@@ -23476,8 +23476,8 @@
     "2026": {
      "date": "2026-10-09",
      "title": "Hope in Dark Times",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/hope-in-dark-times/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/hope-in-dark-times/200030442875453"
     }
    },
    "too_frequent": false
@@ -24066,10 +24066,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-09-26",
      "title": "Ursa Minor Oktoberfest 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/ursa-minor-oktoberfest-2026/2026-09-27/"
+     "url": "https://www.perfectduluthday.com/the-event/ursa-minor-oktoberfest-2026/2026-09-26/"
     }
    },
    "too_frequent": false
@@ -25090,10 +25090,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-25",
+     "date": "2026-10-27",
      "title": "Macbeth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-24/"
+     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-26/"
     }
    },
    "too_frequent": false
@@ -25256,10 +25256,10 @@
      "url": "https://www.mndiscoverycenter.org/event/thursday-night-trivia-19/"
     },
     "2027": {
-     "date": "2027-03-11",
+     "date": "2027-03-25",
      "title": "Thursday Night Trivia",
      "source_count": 1,
-     "url": "https://www.mndiscoverycenter.org/event/thursday-night-trivia-24/"
+     "url": "https://www.mndiscoverycenter.org/event/thursday-night-trivia-25/"
     }
    },
    "too_frequent": true
@@ -26216,10 +26216,410 @@
    "category": "family",
    "occurrences": {
     "2027": {
-     "date": "2027-03-11",
+     "date": "2027-03-13",
      "title": "The Build North Expo",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/the-build-north-expo-2/2027-03-11/"
+     "url": "https://visitduluth.com/event/the-build-north-expo-2/2027-03-13/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s hockey v mercyhurst|duluth": {
+   "title": "UMD Women's Hockey v. Mercyhurst",
+   "venue": "AMSOIL Arena",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-26",
+     "title": "UMD Women's Hockey v. Mercyhurst",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/umd-womens-hockey-v-mercyhurst/210003486508620"
+    }
+   },
+   "too_frequent": false
+  },
+  "bienvenue coffee fest|duluth": {
+   "title": "Bienvenue Coffee Fest 2026",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-26",
+     "title": "Bienvenue Coffee Fest 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/bienvenue-coffee-fest-2026/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall migration field trip 2|duluth": {
+   "title": "Fall Migration Field Trip #2",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-27",
+     "title": "Fall Migration Field Trip #2",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/fall-migration-field-trip-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "open house at 74520 lakeshore dr|bayfield": {
+   "title": "Open House at 74520 Lakeshore Dr.",
+   "venue": "74520 Lakeshore Dr.",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "Open House at 74520 Lakeshore Dr.",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/open-house-at-74520-lakeshore-dr/5955/"
+    }
+   },
+   "too_frequent": false
+  },
+  "haunt flame|duluth": {
+   "title": "Haunt the Flame",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-04",
+     "title": "Haunt the Flame",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/haunt-the-flame/"
+    }
+   },
+   "too_frequent": false
+  },
+  "needle felting 101 pumpkins|duluth": {
+   "title": "Needle Felting 101: Pumpkins",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-07",
+     "title": "Needle Felting 101: Pumpkins",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/needle-felting-101-pumpkins/"
+    }
+   },
+   "too_frequent": false
+  },
+  "october has roots a series in herbalism and seasonal wisdom|duluth": {
+   "title": "October Has Roots: A Series in Herbalism and Seasonal Wisdom",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-07",
+     "title": "October Has Roots: A Series in Herbalism and Seasonal Wisdom",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/october-has-roots-a-series-in-herbalism-and-seasonal-wisdom/"
+    }
+   },
+   "too_frequent": false
+  },
+  "duluth 101 joys of being in dark|duluth": {
+   "title": "Duluth 101: Joys of Being In the Dark",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "Duluth 101: Joys of Being In the Dark",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/duluth-101-joys-of-being-in-the-dark/"
+    }
+   },
+   "too_frequent": false
+  },
+  "explore lsc open house|duluth": {
+   "title": "Explore LSC Open House",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "Explore LSC Open House",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/explore-lsc-open-house/"
+    }
+   },
+   "too_frequent": false
+  },
+  "laser rock engraving class|duluth": {
+   "title": "Laser Rock Engraving Class",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "Laser Rock Engraving Class",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/laser-rock-engraving-class/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wussow s one week live monkeys uncle side street detour and squid city slingers|duluth": {
+   "title": "Wussow\u2019s One Week Live 2026: Monkeys Uncle, Side Street Detour and Squid City Slingers",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "Wussow\u2019s One Week Live 2026: Monkeys Uncle, Side Street Detour and Squid City Slingers",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/wussows-one-week-live-2026-monkeys-uncle-side-street-detour-and-squid-city-slingers/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wussow s one week live leave alones draco volans and unattractive giant monster|duluth": {
+   "title": "Wussow\u2019s One Week Live 2026: The Leave Alones, The Draco Volans and Unattractive Giant Monster",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Wussow\u2019s One Week Live 2026: The Leave Alones, The Draco Volans and Unattractive Giant Monster",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/wussows-one-week-live-2026-the-leave-alones-the-draco-volans-and-unattractive-giant-monster/"
+    }
+   },
+   "too_frequent": false
+  },
+  "valhalleluja grouse out tournament|bayfield county": {
+   "title": "Valhalleluja Grouse-Out Tournament",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Valhalleluja Grouse-Out Tournament",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12306"
+    }
+   },
+   "too_frequent": false
+  },
+  "onyx mt telemark enduro|bayfield county": {
+   "title": "Onyx Mt. Telemark Enduro",
+   "venue": "",
+   "city": "Cable",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Onyx Mt. Telemark Enduro",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12015"
+    }
+   },
+   "too_frequent": false
+  },
+  "winter storage drop off|bayfield county": {
+   "title": "Winter Storage Drop-off",
+   "venue": "",
+   "city": "Iron River",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Winter Storage Drop-off",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10117"
+    }
+   },
+   "too_frequent": false
+  },
+  "oktoberfest|bayfield county": {
+   "title": "Oktoberfest",
+   "venue": "",
+   "city": "Herbster",
+   "area": "Bayfield County",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Oktoberfest",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9570"
+    }
+   },
+   "too_frequent": false
+  },
+  "9 ball pool tournament|bayfield county": {
+   "title": "9 Ball Pool Tournament",
+   "venue": "",
+   "city": "Cornucopia",
+   "area": "Bayfield County",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "9 Ball Pool Tournament",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12359"
+    }
+   },
+   "too_frequent": false
+  },
+  "wussow s one week live king sized coffin mahon brothers and entheos enclave|duluth": {
+   "title": "Wussow\u2019s One Week Live 2026: King Sized Coffin, Mahon Brothers and Entheos Enclave",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-11",
+     "title": "Wussow\u2019s One Week Live 2026: King Sized Coffin, Mahon Brothers and Entheos Enclave",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/wussows-one-week-live-2026-king-sized-coffin-mahon-brothers-and-entheos-enclave/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wussow s one week live charlotte and charlatans|duluth": {
+   "title": "Wussow\u2019s One Week Live 2026: Charlotte and the Charlatans",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-11",
+     "title": "Wussow\u2019s One Week Live 2026: Charlotte and the Charlatans",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/wussows-one-week-live-2026-charlotte-and-the-charlatans-jazz/"
+    }
+   },
+   "too_frequent": false
+  },
+  "witches night out|ashland": {
+   "title": "Witches' Night Out",
+   "venue": "Main Street Ashland WI",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-14",
+     "title": "Witches' Night Out",
+     "source_count": 2,
+     "url": "https://allevents.in/ashland/witches-night-out/200030571036746"
+    }
+   },
+   "too_frequent": false
+  },
+  "family discovery day international archaeology day|chisholm": {
+   "title": "Family Discovery Day: International Archaeology Day",
+   "venue": "Minnesota Discovery Center",
+   "city": "Chisholm",
+   "area": "Chisholm",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Family Discovery Day: International Archaeology Day",
+     "source_count": 1,
+     "url": "https://www.mndiscoverycenter.org/event/family-discovery-day-international-archaeology-day-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "flashlight clueseum|chisholm": {
+   "title": "Flashlight Clueseum",
+   "venue": "Minnesota Discovery Center",
+   "city": "Chisholm",
+   "area": "Chisholm",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-30",
+     "title": "Flashlight Clueseum",
+     "source_count": 1,
+     "url": "https://www.mndiscoverycenter.org/event/flashlight-clueseum-3/"
+    }
+   },
+   "too_frequent": false
+  },
+  "relay for life craft show|marengo": {
+   "title": "Relay for Life Craft Show",
+   "venue": "",
+   "city": "Marengo",
+   "area": "Marengo",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Relay for Life Craft Show",
+     "source_count": 1,
+     "url": "https://ashlandcountyfair.com/events/relay-for-life-luminaria/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fair board meeting november|marengo": {
+   "title": "Fair Board Meeting-November",
+   "venue": "",
+   "city": "Marengo",
+   "area": "Marengo",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-09",
+     "title": "Fair Board Meeting-November",
+     "source_count": 1,
+     "url": "https://ashlandcountyfair.com/events/fair-board-meeting-november/"
+    }
+   },
+   "too_frequent": false
+  },
+  "needtobreathe with special guest conner smith|duluth": {
+   "title": "NEEDTOBREATHE with special guest Conner Smith",
+   "venue": "Symphony Hall",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-21",
+     "title": "NEEDTOBREATHE with special guest Conner Smith",
+     "source_count": 1,
+     "url": "https://decc.org/event/needtobreathe/"
     }
    },
    "too_frequent": false
