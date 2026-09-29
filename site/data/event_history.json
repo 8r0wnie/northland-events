@@ -208,10 +208,10 @@
      "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
     },
     "2027": {
-     "date": "2027-03-26",
+     "date": "2027-03-28",
      "title": "Whoopsa Daisy Farm",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-26/"
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2027-03-28/"
     }
    },
    "too_frequent": false
@@ -1126,7 +1126,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-05",
+     "date": "2026-10-03",
      "title": "Live Music at Clipper Brewing Company",
      "source_count": 1,
      "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12048"
@@ -1678,10 +1678,10 @@
      "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2026-12-27/"
     },
     "2027": {
-     "date": "2027-03-21",
+     "date": "2027-03-28",
      "title": "Going Solar in the Northland",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-03-21/"
+     "url": "https://visitduluth.com/event/going-solar-in-the-northland-2/2027-03-28/"
     }
    },
    "too_frequent": false
@@ -2158,7 +2158,7 @@
      "url": "https://www.ely.org/event/chair-yoga/8460/"
     },
     "2027": {
-     "date": "2027-01-19",
+     "date": "2027-01-26",
      "title": "Chair Yoga",
      "source_count": 1,
      "url": "https://www.ely.org/event/chair-yoga/8460/"
@@ -2268,7 +2268,7 @@
      "url": "https://www.ely.org/event/community-exercise-tower/6630/"
     },
     "2027": {
-     "date": "2027-01-19",
+     "date": "2027-01-26",
      "title": "Community Exercise Tower",
      "source_count": 1,
      "url": "https://www.ely.org/event/community-exercise-tower/6630/"
@@ -2424,10 +2424,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "title": "Story Time at Hibbing Public Library",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1906"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1907"
     }
    },
    "too_frequent": false
@@ -2920,10 +2920,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-08",
+     "date": "2026-10-13",
      "title": "Moose Lake Fire District Board Meeting 6:30pm",
      "source_count": 1,
-     "url": "https://www.cityofmooselake.gov/Calendar.aspx?EID=853"
+     "url": "https://www.cityofmooselake.gov/Calendar.aspx?EID=854"
     }
    },
    "too_frequent": false
@@ -2968,10 +2968,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-11-04",
      "title": "Bingo, Beer & Gear",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-27/"
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-11-03/"
     }
    },
    "too_frequent": false
@@ -3060,9 +3060,9 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-09",
+     "date": "2026-10-14",
      "title": "Rec Board Meeting",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
@@ -6460,10 +6460,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-28",
+     "date": "2026-10-12",
      "title": "City Council Worksession",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-worksession-87"
+     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-worksession-88"
     }
    },
    "too_frequent": false
@@ -6476,10 +6476,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-28",
+     "date": "2026-10-12",
      "title": "City Council Meeting",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-meeting-124"
+     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-meeting-125"
     }
    },
    "too_frequent": false
@@ -10144,8 +10144,8 @@
     "2026": {
      "date": "2026-10-23",
      "title": "Storyfolk",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/storyfolk-2026-2026-07-24/2026-10-23/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/storyfolk/200030746759114"
     }
    },
    "too_frequent": true
@@ -12588,7 +12588,7 @@
   },
   "rock from heart|duluth": {
    "title": "Rock From the Heart",
-   "venue": "Duluth Entertainment Convention Center",
+   "venue": "Duluth Entertainment Convention Center (DECC)",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
@@ -12596,7 +12596,7 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Rock From the Heart",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/rock-from-the-heart/"
     }
    },
@@ -13466,7 +13466,7 @@
     "2026": {
      "date": "2026-10-20",
      "title": "Sugarland Ride or Die Tour",
-     "source_count": 4,
+     "source_count": 3,
      "url": "https://visitduluth.com/event/sugarland-ride-or-die-tour/"
     }
    },
@@ -14954,16 +14954,16 @@
   },
   "golden girls laughs continue|duluth": {
    "title": "Golden Girls: The Laughs Continue",
-   "venue": "DECC Symphony Hall",
+   "venue": "Symphony Hall",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-11-09",
+     "date": "2026-11-10",
      "title": "Golden Girls: The Laughs Continue",
-     "source_count": 3,
-     "url": "https://allevents.in/duluth/golden-girls-the-laughs-continue/210003638816171"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/golden-girls-the-laughs-continue/"
     }
    },
    "too_frequent": false
@@ -16286,7 +16286,7 @@
     "2026": {
      "date": "2026-12-11",
      "title": "Arrowhead Ice Fishing and Winter Show",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://visitduluth.com/event/arrowhead-ice-fishing-and-winter-show-2/"
     }
    },
@@ -16302,8 +16302,8 @@
     "2026": {
      "date": "2026-12-11",
      "title": "The Nutcracker: A Duluth Tale",
-     "source_count": 1,
-     "url": "https://minnesotaballet.org/event/the-nutcracker-a-duluth-tale/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/the-nutcracker-a-duluth-tale/210009612293274"
     }
    },
    "too_frequent": false
@@ -17554,7 +17554,7 @@
      "url": "https://www.ely.org/event/sail-stay-active-and-independent-for-life/9546/"
     },
     "2027": {
-     "date": "2027-01-19",
+     "date": "2027-01-26",
      "title": "SAIL - Stay Active and Independent for Life",
      "source_count": 1,
      "url": "https://www.ely.org/event/sail-stay-active-and-independent-for-life/9546/"
@@ -17576,7 +17576,7 @@
      "url": "https://www.ely.org/event/outdoor-walking-club/9629/"
     },
     "2027": {
-     "date": "2027-01-19",
+     "date": "2027-01-26",
      "title": "Outdoor Walking Club",
      "source_count": 1,
      "url": "https://www.ely.org/event/outdoor-walking-club/9629/"
@@ -17808,7 +17808,7 @@
     "2027": {
      "date": "2027-02-04",
      "title": "Cirque Alice",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://visitduluth.com/event/cirque-alice/"
     }
    },
@@ -22574,8 +22574,8 @@
     "2026": {
      "date": "2026-09-29",
      "title": "Twist and Shout! Baking Challah and Babka",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/twist-and-shout-baking-challah-and-babka/200030512583652"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/twist-and-shout-baking-challah-and-babka/"
     }
    },
    "too_frequent": false
@@ -23476,8 +23476,8 @@
     "2026": {
      "date": "2026-10-09",
      "title": "Hope in Dark Times",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/hope-in-dark-times/200030442875453"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/hope-in-dark-times/"
     }
    },
    "too_frequent": false
@@ -24331,17 +24331,17 @@
    "too_frequent": false
   },
   "beginning clay with matt larson session 1 of 8|duluth": {
-   "title": "Beginning Clay with Matt Larson (Session 1 of 8)",
-   "venue": "Duluth Art Institute (Lincoln Park Building)",
+   "title": "Beginning Clay with Matt Larson (Session 1 of 8 )",
+   "venue": "Duluth Art Institute",
    "city": "Duluth",
    "area": "Duluth",
    "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-03",
-     "title": "Beginning Clay with Matt Larson (Session 1 of 8)",
-     "source_count": 2,
-     "url": "https://visitduluth.com/event/beginning-clay-with-matt-larson-session-1-of-8/"
+     "title": "Beginning Clay with Matt Larson (Session 1 of 8 )",
+     "source_count": 3,
+     "url": "https://allevents.in/duluth/beginning-clay-with-matt-larson-session-1-of-8/200030747089328"
     }
    },
    "too_frequent": false
@@ -24412,7 +24412,7 @@
   },
   "art night out materials and self with andrew webster robb quisling and lauren faherty|duluth": {
    "title": "Art Night Out: Materials and Self with Andrew Webster, Robb Quisling, and Lauren Faherty",
-   "venue": "Duluth Art Institute",
+   "venue": "130 W Superior Street, Suite 400, Duluth, MN, United States, Minnesota 55802",
    "city": "Duluth",
    "area": "Duluth",
    "category": "arts",
@@ -24420,8 +24420,8 @@
     "2026": {
      "date": "2026-10-29",
      "title": "Art Night Out: Materials and Self with Andrew Webster, Robb Quisling, and Lauren Faherty",
-     "source_count": 1,
-     "url": "https://visitduluth.com/event/art-night-out-materials-and-self-with-andrew-webster-robb-quisling-and-lauren-faherty/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/art-night-out-materials-and-self-with-andrew-webster-robb-quisling-and-lauren-faherty/200030747090233"
     }
    },
    "too_frequent": false
@@ -25058,10 +25058,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-09-28",
+     "date": "2026-09-29",
      "title": "Duluth 2026 Candidate Forums",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/duluth-2026-candidate-forums/2026-09-28/"
+     "url": "https://www.perfectduluthday.com/the-event/duluth-2026-candidate-forums/2026-09-29/"
     }
    },
    "too_frequent": false
@@ -25090,10 +25090,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "title": "Macbeth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-11-01/"
+     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-11-03/"
     }
    },
    "too_frequent": false
@@ -26785,7 +26785,7 @@
    "too_frequent": false
   },
   "boo bash free skating party|duluth": {
-   "title": "Boo Bash Free Skating Party",
+   "title": "Boo Bash Free Skating Party 2026",
    "venue": "Essentia Duluth Heritage Center",
    "city": "Duluth",
    "area": "Duluth",
@@ -26793,9 +26793,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-28",
-     "title": "Boo Bash Free Skating Party",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/boo-bash-free-skating-party/200030734211707"
+     "title": "Boo Bash Free Skating Party 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/boo-bash-free-skating-party-2026/"
     }
    },
    "too_frequent": false
@@ -26972,6 +26972,294 @@
      "title": "Trick or Treat in the District",
      "source_count": 2,
      "url": "https://allevents.in/superior/trick-or-treat-in-the-district/200030717584929"
+    }
+   },
+   "too_frequent": false
+  },
+  "sir ben s too many witnesses show|duluth": {
+   "title": "Sir Ben's--Too Many Witnesses show",
+   "venue": "Sir Benedicts Tavern on the Lake",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-29",
+     "title": "Sir Ben's--Too Many Witnesses show",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/sir-bens-too-many-witnesses-show/200030280187942"
+    }
+   },
+   "too_frequent": false
+  },
+  "candidate forum minnesota house of representatives district 8b|duluth": {
+   "title": "Candidate Forum - Minnesota House of Representatives, District 8B",
+   "venue": "The Garden Wedding/Event Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-29",
+     "title": "Candidate Forum - Minnesota House of Representatives, District 8B",
+     "source_count": 1,
+     "url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4601/details"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music at flying eagle resort|bayfield county": {
+   "title": "Live Music at Flying Eagle Resort",
+   "venue": "",
+   "city": "Iron River",
+   "area": "Bayfield County",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-30",
+     "title": "Live Music at Flying Eagle Resort",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10963"
+    }
+   },
+   "too_frequent": false
+  },
+  "in her shoes awareness and open house|duluth": {
+   "title": "In Her Shoes: Awareness and Open House",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-09-30",
+     "title": "In Her Shoes: Awareness and Open House",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/in-her-shoes-awareness-and-open-house/"
+    }
+   },
+   "too_frequent": false
+  },
+  "joint cable tv access board meeting|eveleth": {
+   "title": "Joint Cable TV Access Board Meeting",
+   "venue": "",
+   "city": "Eveleth",
+   "area": "Eveleth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-01",
+     "title": "Joint Cable TV Access Board Meeting",
+     "source_count": 1,
+     "url": "https://eveleth.gov/index.asp?SEC=462BCD35-C33E-4969-A2A3-9ABB6847CAA0&DE=74FCE852-1FA8-4593-B8A6-C0DCB89B2BCE"
+    }
+   },
+   "too_frequent": false
+  },
+  "an evening with alexandra cousteau|duluth": {
+   "title": "An Evening with Alexandra Cousteau",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-06",
+     "title": "An Evening with Alexandra Cousteau",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/an-evening-with-alexandra-cousteau/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall festival season pass pickup|duluth": {
+   "title": "Fall Festival + Season Pass Pickup",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Fall Festival + Season Pass Pickup",
+     "source_count": 1,
+     "url": "https://spiritmt.com/event/fall-festival-season-pass-pickup"
+    }
+   },
+   "too_frequent": false
+  },
+  "health and community services committee meeting|burnett county": {
+   "title": "Health and Community Services Committee Meeting",
+   "venue": "Siren, WI 54872",
+   "city": "Siren",
+   "area": "Burnett County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Health and Community Services Committee Meeting",
+     "source_count": 1,
+     "url": "https://www.burnettcountywi.gov/Calendar.aspx?EID=4097"
+    }
+   },
+   "too_frequent": false
+  },
+  "comprehensive community services ccs regional committee meeting|bayfield county": {
+   "title": "Comprehensive Community Services (CCS) Regional Committee Meeting",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Comprehensive Community Services (CCS) Regional Committee Meeting",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9757"
+    }
+   },
+   "too_frequent": false
+  },
+  "october 13 city council|ashland": {
+   "title": "October 13, 2026 City Council",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "October 13, 2026 City Council",
+     "source_count": 1,
+     "url": "https://www.coawi.org/Calendar.aspx?EID=2584"
+    }
+   },
+   "too_frequent": false
+  },
+  "october 13 committee of whole|ashland": {
+   "title": "October 13, 2026 Committee of the Whole",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "October 13, 2026 Committee of the Whole",
+     "source_count": 1,
+     "url": "https://www.coawi.org/Calendar.aspx?EID=2585"
+    }
+   },
+   "too_frequent": false
+  },
+  "lunch n learn retirement ready understanding employer requirements options|grand rapids": {
+   "title": "Lunch-N-Learn-Retirement Ready: Understanding Employer Requirements & Options",
+   "venue": "Rapid Brewing Company",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-21",
+     "title": "Lunch-N-Learn-Retirement Ready: Understanding Employer Requirements & Options",
+     "source_count": 1,
+     "url": "https://www.grandmn.com/event/lunch-n-learn-minnesota-secure-choice-what-employers-need-to-know/"
+    }
+   },
+   "too_frequent": false
+  },
+  "kids fall fest|superior": {
+   "title": "Kids Fall Fest",
+   "venue": "4020 South Darrow Road",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-21",
+     "title": "Kids Fall Fest",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/kids-fall-fest-22073"
+    }
+   },
+   "too_frequent": false
+  },
+  "teague alexy common thread cd release show with babie eyes|duluth": {
+   "title": "Teague Alexy & the Common Thread CD Release Show with Babie Eyes",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-25",
+     "title": "Teague Alexy & the Common Thread CD Release Show with Babie Eyes",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-the-common-thread-album-release-show-with-babie-eyes/"
+    }
+   },
+   "too_frequent": false
+  },
+  "haunted trail at mt ashwabay|bayfield": {
+   "title": "HAUNTED TRAIL AT MT. ASHWABAY",
+   "venue": "Mt. Ashwabay Ski and Recreation Area",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-29",
+     "title": "HAUNTED TRAIL AT MT. ASHWABAY",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/haunted-trail-at-mt-ashwabay/5929/"
+    }
+   },
+   "too_frequent": false
+  },
+  "live in lounge kangaroo|bayfield": {
+   "title": "LIVE IN THE LOUNGE: KANGAROO",
+   "venue": "StageNorth",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-29",
+     "title": "LIVE IN THE LOUNGE: KANGAROO",
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/live-in-the-lounge%3a-kangaroo/5935/"
+    }
+   },
+   "too_frequent": false
+  },
+  "daughtry 20 years unplugged|duluth": {
+   "title": "Daughtry 20 Years Unplugged",
+   "venue": "Symphony Hall",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-16",
+     "title": "Daughtry 20 Years Unplugged",
+     "source_count": 1,
+     "url": "https://decc.org/event/daughtry-unplugged/"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior women s hockey vs wiac semifinal semifinal|superior": {
+   "title": "UW-Superior Women's Hockey vs WIAC Semifinal - Semifinal",
+   "venue": "",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-26",
+     "title": "UW-Superior Women's Hockey vs WIAC Semifinal - Semifinal",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11667&sport_id=12"
     }
    },
    "too_frequent": false
