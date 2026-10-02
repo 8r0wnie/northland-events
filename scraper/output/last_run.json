@@ -1,16 +1,16 @@
 {
-  "when": "2026-10-01T17:35:03Z",
-  "raw": 3348,
-  "merged": 2554,
-  "published": 2300,
-  "queued": 254,
+  "when": "2026-10-02T16:53:25Z",
+  "raw": 3334,
+  "merged": 2532,
+  "published": 2285,
+  "queued": 247,
   "verification": {
-    "confirmed": 2300,
-    "multi_source": 220,
-    "trusted_single": 2080,
+    "confirmed": 2285,
+    "multi_source": 221,
+    "trusted_single": 2064,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 254
+    "queued": 247
   },
   "sources": [
     {
@@ -25,23 +25,23 @@
     },
     {
       "source": "duluth-chamber",
-      "detail": "weblink: 10 events (tenant duluthmncoc)",
-      "events": 10
+      "detail": "weblink: 9 events (tenant duluthmncoc)",
+      "events": 9
     },
     {
       "source": "superior-chamber",
-      "detail": "chambermaster: 39 events via https://superiorchamber.org",
-      "events": 39
+      "detail": "chambermaster: 41 events via https://superiorchamber.org",
+      "events": 41
     },
     {
       "source": "hibbing-chamber",
       "detail": "chamberorganizer: 1 events (org HIBB)",
-      "events": 1
+      "events": 0
     },
     {
       "source": "ely-chamber",
       "detail": "no adapter produced events  [carried forward from 2026-09-29]",
-      "events": 183
+      "events": 181
     },
     {
       "source": "grand-rapids-mn",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 123 events (3 pages)",
-      "events": 123
+      "detail": "simpleview: 122 events (3 pages)",
+      "events": 121
     },
     {
       "source": "visit-ashland",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 418 events",
-      "events": 418
+      "events": 414
     },
     {
       "source": "hermantown-mn",
@@ -90,13 +90,13 @@
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 13 events",
-      "events": 13
+      "detail": "civicplus: 16 events",
+      "events": 16
     },
     {
       "source": "eveleth-mn",
       "detail": "govoffice: 7 events",
-      "events": 7
+      "events": 5
     },
     {
       "source": "chisholm-mn",
@@ -150,7 +150,7 @@
     },
     {
       "source": "cromwell-mn",
-      "detail": "revize: 66 events (webspace cromwellmn)",
+      "detail": "revize: 67 events (webspace cromwellmn)",
       "events": 63
     },
     {
@@ -160,8 +160,8 @@
     },
     {
       "source": "lake-county-mn",
-      "detail": "jsonld: 11 events (rendered)",
-      "events": 11
+      "detail": "jsonld: 12 events (rendered)",
+      "events": 12
     },
     {
       "source": "two-harbors-mn",
@@ -175,8 +175,8 @@
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 88 events (webspace cookcountymn)",
-      "events": 82
+      "detail": "revize: 89 events (webspace cookcountymn)",
+      "events": 86
     },
     {
       "source": "grand-marais-city-mn",
@@ -195,8 +195,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 13
+      "detail": "ics: 12 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 12
     },
     {
       "source": "hill-city-mn",
@@ -210,8 +210,8 @@
     },
     {
       "source": "pine-county-mn",
-      "detail": "revize: 33 events (webspace pinecounty)",
-      "events": 32
+      "detail": "revize: 37 events (webspace pinecounty)",
+      "events": 36
     },
     {
       "source": "sandstone-mn",
@@ -230,8 +230,8 @@
     },
     {
       "source": "superior-wi",
-      "detail": "civicplus: 2 events",
-      "events": 2
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "solon-springs-wi",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 111 events",
-      "events": 111
+      "detail": "civicplus: 107 events",
+      "events": 107
     },
     {
       "source": "cable-wi",
@@ -270,8 +270,8 @@
     },
     {
       "source": "sawyer-county-wi",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "civicplus: 1 events",
+      "events": 1
     },
     {
       "source": "gogebic-county-mi",
@@ -285,8 +285,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 186 events",
-      "events": 186
+      "detail": "allevents: 184 events",
+      "events": 184
     },
     {
       "source": "allevents-superior",
@@ -295,8 +295,8 @@
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 23 events",
-      "events": 23
+      "detail": "allevents: 22 events",
+      "events": 22
     },
     {
       "source": "allevents-hibbing",
@@ -310,8 +310,8 @@
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 5 events",
-      "events": 5
+      "detail": "allevents: 4 events",
+      "events": 4
     },
     {
       "source": "allevents-ashland",
@@ -330,8 +330,8 @@
     },
     {
       "source": "uws-yellowjackets",
-      "detail": "sidearm: 107 home/neutral events",
-      "events": 106
+      "detail": "sidearm: 105 home/neutral events",
+      "events": 105
     },
     {
       "source": "css-saints",
@@ -370,18 +370,18 @@
     },
     {
       "source": "mn-discovery-center",
-      "detail": "tribe: 29 events",
-      "events": 29
+      "detail": "tribe: 27 events",
+      "events": 27
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 16 events",
-      "events": 16
+      "detail": "tribe: 15 events",
+      "events": 15
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 112 events",
-      "events": 112
+      "detail": "tribe: 113 events",
+      "events": 113
     },
     {
       "source": "decc",
@@ -401,7 +401,7 @@
     {
       "source": "askov-rutabaga-fest",
       "detail": "civicplus: 2 events",
-      "events": 2
+      "events": 1
     },
     {
       "source": "koochiching-county-fair",
@@ -435,8 +435,8 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 74 events (webspace fonddulac)",
-      "events": 74
+      "detail": "revize: 71 events (webspace fonddulac)",
+      "events": 71
     }
   ]
 }
