@@ -202,10 +202,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-12-27",
+     "date": "2026-10-25",
      "title": "Whoopsa Daisy Farm",
-     "source_count": 1,
-     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-12-27/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/whoopsa-daisy-farm/2026-10-25/"
     },
     "2027": {
      "date": "2027-03-28",
@@ -432,10 +432,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-17",
      "title": "Live Music at The Portage",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9520"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9521"
     }
    },
    "too_frequent": false
@@ -608,10 +608,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-02",
+     "date": "2026-10-03",
      "title": "Live Music at Hoop's Fish Dockside",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12333"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11148"
     }
    },
    "too_frequent": false
@@ -2596,7 +2596,7 @@
      "url": "https://eveleth.gov/index.asp?SEC=462BCD35-C33E-4969-A2A3-9ABB6847CAA0&DE=A54926E7-07EC-419B-BFDC-76D32BCE1377"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "pre agenda meeting|hermantown": {
    "title": "Pre-Agenda Meeting",
@@ -2634,10 +2634,10 @@
      "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2026-12-31/"
     },
     "2027": {
-     "date": "2027-03-30",
+     "date": "2027-04-01",
      "title": "Teen Open Studio (Fall 2026)",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-03-30/"
+     "url": "https://visitduluth.com/event/teen-open-studio-fall-2026/2027-04-01/"
     }
    },
    "too_frequent": false
@@ -2968,10 +2968,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-20",
+     "date": "2026-10-27",
      "title": "Bingo, Beer & Gear",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -2984,10 +2984,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-20",
+     "date": "2026-10-27",
      "title": "Midweek Sound Bath",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/midweek-sound-bath-2/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -3114,10 +3114,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-10-17",
      "title": "CNHM Program",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12337"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12338"
     }
    },
    "too_frequent": false
@@ -3226,10 +3226,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-10-28",
      "title": "Bruce Woodman and the Occasional 20-Minute Timeouts",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-20/"
+     "url": "https://www.perfectduluthday.com/the-event/bruce-woodman-and-the-occasional-20-minute-timeouts/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -3600,10 +3600,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-10-28",
      "title": "Superior Downtown Farmers Market",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market/2026-10-21/"
+     "url": "https://www.perfectduluthday.com/the-event/superior-downtown-farmers-market/2026-10-28/"
     }
    },
    "too_frequent": false
@@ -3980,10 +3980,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-10-28",
      "title": "Cribbage and Game Night",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-21/"
+     "url": "https://www.perfectduluthday.com/the-event/cribbage-game-night-2026-07-15/2026-10-28/"
     }
    },
    "too_frequent": false
@@ -7242,7 +7242,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-04-21",
      "title": "- Edna G Commission",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -7264,7 +7264,7 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-04-21",
      "title": "Utilities Meeting",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
@@ -7286,7 +7286,7 @@
      "url": "https://cookcountymn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-04-21",
      "title": "Cook County Housing Redevelopment Authority (HRA)",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -7302,10 +7302,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-10-28",
      "title": "Live Music Open Mic",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-13/"
+     "url": "https://www.perfectduluthday.com/the-event/sir-bens-live-music-open-mic/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -7324,7 +7324,7 @@
      "url": "https://www.cromwellmn.org/calendar.php"
     },
     "2027": {
-     "date": "2027-03-17",
+     "date": "2027-04-21",
      "title": "Council Meeting",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -10190,10 +10190,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-03",
      "title": "BoB-a-Q Smokehouse & Grill",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/bob-a-q-smokehouse-grill-3/2026-10-04/"
+     "url": "https://castledangerbrewery.com/event/bob-a-q-smokehouse-grill-3/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -10270,10 +10270,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-03",
      "title": "Frankenfeldt (GR Players)",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/frankenfeldt-gr-players/2026-10-04/"
+     "url": "https://www.reifcenter.org/event/frankenfeldt-gr-players/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -10788,10 +10788,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-04",
      "title": "American Son",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/american-son/2026-10-02/"
+     "url": "https://www.perfectduluthday.com/the-event/american-son/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -11343,17 +11343,17 @@
    "too_frequent": false
   },
   "umd men s hockey vs long island university|duluth": {
-   "title": "UMD Men\u2019s Hockey vs Long Island University",
-   "venue": "AMSOIL Arena",
+   "title": "UMD Men's Hockey vs Long Island University",
+   "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
      "date": "2026-10-02",
-     "title": "UMD Men\u2019s Hockey vs Long Island University",
+     "title": "UMD Men's Hockey vs Long Island University",
      "source_count": 3,
-     "url": "https://visitduluth.com/event/umd-mens-hockey-vs-long-island-university-2/"
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10927&sport_id=6"
     }
    },
    "too_frequent": false
@@ -11398,10 +11398,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-02",
+     "date": "2026-10-03",
      "title": "Apple Festival Live Music - Michael Vasquez",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/apple-festival-live-music-michael-vasquez/5875/"
+     "url": "https://www.bayfield.org/event/apple-festival-live-music-michael-vasquez/5876/"
     }
    },
    "too_frequent": false
@@ -11478,10 +11478,10 @@
    "category": "education",
    "occurrences": {
     "2026": {
-     "date": "2026-10-02",
+     "date": "2026-10-03",
      "title": "UW-Superior All-class Reunion",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/uw-superior-all-class-reunion/2026-10-02/"
+     "url": "https://www.perfectduluthday.com/the-event/uw-superior-all-class-reunion/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -11510,10 +11510,10 @@
    "category": "holiday",
    "occurrences": {
     "2026": {
-     "date": "2026-12-25",
+     "date": "2026-10-30",
      "title": "Glensheen Lantern Tours",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-12-25/"
+     "url": "https://visitduluth.com/event/glensheen-lantern-tours/2026-10-30/"
     },
     "2027": {
      "date": "2027-03-26",
@@ -14055,17 +14055,17 @@
    "too_frequent": false
   },
   "umd women s hockey vs university of minnesota|duluth": {
-   "title": "UMD Women's Hockey vs University of Minnesota",
-   "venue": "Duluth",
+   "title": "UMD Women\u2019s Hockey vs University of Minnesota",
+   "venue": "AMSOIL Arena",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
      "date": "2026-10-30",
-     "title": "UMD Women's Hockey vs University of Minnesota",
+     "title": "UMD Women\u2019s Hockey vs University of Minnesota",
      "source_count": 1,
-     "url": "https://umdbulldogs.com/calendar.aspx?game_id=10972&sport_id=11"
+     "url": "https://decc.org/event/umd-womens-hockey-vs-universityof-minnesota-oct30/"
     }
    },
    "too_frequent": false
@@ -18314,10 +18314,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-10-28",
      "title": "Free Community Dinner in West Duluth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/free-community-dinner-in-west-duluth/2026-10-21/"
+     "url": "https://www.perfectduluthday.com/the-event/free-community-dinner-in-west-duluth/2026-10-28/"
     }
    },
    "too_frequent": false
@@ -20646,10 +20646,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-09-27",
+     "date": "2026-10-02",
      "title": "Live in the Lounge at Legendary Waters",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11999"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=8574"
     }
    },
    "too_frequent": false
@@ -20712,7 +20712,7 @@
     "2026": {
      "date": "2026-10-28",
      "title": "Trick or Treat at Glensheen",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/trick-or-treat-at-glensheen/"
     }
    },
@@ -22684,10 +22684,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-10-17",
      "title": "The Gathering - Members Art Show",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12063"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12065"
     }
    },
    "too_frequent": false
@@ -25090,10 +25090,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-25",
+     "date": "2026-10-27",
      "title": "Macbeth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-24/"
+     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-26/"
     }
    },
    "too_frequent": false
@@ -25882,8 +25882,8 @@
     "2026": {
      "date": "2026-11-28",
      "title": "Iron Range Night",
-     "source_count": 1,
-     "url": "https://sacredheartmusic.org/event/iron-range-night/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/iron-range-night/100002002155565192"
     }
    },
    "too_frequent": false
@@ -26456,10 +26456,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-10",
+     "date": "2026-10-17",
      "title": "Winter Storage Drop-off",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10117"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10113"
     }
    },
    "too_frequent": false
@@ -26632,10 +26632,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-03",
      "title": "Bayfield Apple Festival 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/bayfield-apple-festival-2026/2026-10-04/"
+     "url": "https://www.perfectduluthday.com/the-event/bayfield-apple-festival-2026/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -27411,15 +27411,15 @@
   "warren nelson friends|bayfield county": {
    "title": "Warren Nelson & Friends",
    "venue": "Bayfield , WI 54814",
-   "city": "Bayfield",
+   "city": "Dr Washburn",
    "area": "Bayfield County",
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-10-17",
      "title": "Warren Nelson & Friends",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12387"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10017"
     }
    },
    "too_frequent": false
@@ -27598,10 +27598,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-11",
+     "date": "2026-10-27",
      "title": "Carlton County Animal Rescue Adoption Event",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/carlton-county-animal-rescue-adoption-event-3/2026-10-11/"
+     "url": "https://www.perfectduluthday.com/the-event/carlton-county-animal-rescue-adoption-event-3/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -28020,10 +28020,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-05",
+     "date": "2026-10-04",
      "title": "Haunted Hawthorne 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/haunted-hawthorne-2026/2026-10-04/"
+     "url": "https://www.perfectduluthday.com/the-event/haunted-hawthorne-2026/2026-10-03/"
     }
    },
    "too_frequent": false
@@ -28388,10 +28388,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-19",
+     "date": "2026-10-27",
      "title": "Altars of Grief and Remembrance: a Ritual and Art Experience",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/altars-of-grief-and-remembrance-a-ritual-and-art-experience/2026-10-19/"
+     "url": "https://www.perfectduluthday.com/the-event/altars-of-grief-and-remembrance-a-ritual-and-art-experience/2026-10-27/"
     }
    },
    "too_frequent": false
@@ -28740,10 +28740,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-03",
      "title": "Applefest - Bayfield BBQ Company at Erickson Orchards & Country Store",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/applefest-bayfield-bbq-company-at-erickson-orchards-%26-country-store/5965/"
+     "url": "https://www.bayfield.org/event/applefest-bayfield-bbq-company-at-erickson-orchards-%26-country-store/5964/"
     }
    },
    "too_frequent": false
@@ -28920,6 +28920,198 @@
      "title": "Christmas City of the North Parade Watch Party At the Duluth Art Institute Downtown Galleries",
      "source_count": 2,
      "url": "https://allevents.in/duluth/christmas-city-of-the-north-parade-watch-party-at-the-duluth-art-institute-downtown-galleries/200030751341702"
+    }
+   },
+   "too_frequent": false
+  },
+  "apple festival live music molly and danger band|bayfield": {
+   "title": "Apple Festival Live Music - Molly and the Danger Band",
+   "venue": "Grandstand Stage",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "Apple Festival Live Music - Molly and the Danger Band",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/apple-festival-live-music-molly-and-the-danger-band/5881/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s hockey v long island|duluth": {
+   "title": "UMD Men's Hockey v. Long Island",
+   "venue": "AMSOIL Arena",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-03",
+     "title": "UMD Men's Hockey v. Long Island",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/umd-mens-hockey-v-long-island/210002354173442"
+    }
+   },
+   "too_frequent": false
+  },
+  "notice winter frolic meeting 4 30|two harbors": {
+   "title": "NOTICE-Winter Frolic Meeting @ 4:30",
+   "venue": "THFCU Community Room",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "NOTICE-Winter Frolic Meeting @ 4:30",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "namekagon river gobblers grouse challenge|bayfield county": {
+   "title": "Namekagon River Gobblers Grouse Challenge",
+   "venue": "",
+   "city": "Cable",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Namekagon River Gobblers Grouse Challenge",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12389"
+    }
+   },
+   "too_frequent": false
+  },
+  "harvest fest great harvest bake off|ashland": {
+   "title": "3rd Annual Harvest Fest & Great Harvest Bake Off",
+   "venue": "Ashland, WI 54806",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "3rd Annual Harvest Fest & Great Harvest Bake Off",
+     "source_count": 1,
+     "url": "https://www.coawi.org/517/Ashland-Community-Events"
+    }
+   },
+   "too_frequent": false
+  },
+  "nglvc family fun with spooky friends|bayfield county": {
+   "title": "NGLVC: Family Fun with Spooky Friends",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Bayfield County",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "NGLVC: Family Fun with Spooky Friends",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11922"
+    }
+   },
+   "too_frequent": false
+  },
+  "haunted bayfield a literary tour with wendy webb|bayfield county": {
+   "title": "Haunted Bayfield: A Literary Tour with Wendy Webb",
+   "venue": "",
+   "city": "Bayfield",
+   "area": "Bayfield County",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Haunted Bayfield: A Literary Tour with Wendy Webb",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9622"
+    }
+   },
+   "too_frequent": false
+  },
+  "cemetery walk|bayfield county": {
+   "title": "Cemetery Walk",
+   "venue": "",
+   "city": "Cable",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Cemetery Walk",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12405"
+    }
+   },
+   "too_frequent": false
+  },
+  "mary mack stand up comedy night|bayfield county": {
+   "title": "Mary Mack: Stand-up Comedy Night",
+   "venue": "",
+   "city": "Iver",
+   "area": "Bayfield County",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Mary Mack: Stand-up Comedy Night",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12222"
+    }
+   },
+   "too_frequent": false
+  },
+  "taste of hermantown hermantown legacy fund|hermantown": {
+   "title": "Taste of Hermantown \u2013 Hermantown Legacy Fund",
+   "venue": "AAD Shrine \u2013 5152 Miller Trunk Hwy",
+   "city": "Hermantown",
+   "area": "Hermantown",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-22",
+     "title": "Taste of Hermantown \u2013 Hermantown Legacy Fund",
+     "source_count": 1,
+     "url": "/event/taste-of-hermantown-hermantown-legacy-fund/"
+    }
+   },
+   "too_frequent": false
+  },
+  "good morning superior on road|superior": {
+   "title": "Good Morning Superior - On The Road",
+   "venue": "Richard I. Bong Veterans Historical Center",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-27",
+     "title": "Good Morning Superior - On The Road",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/good-morning-superior-on-the-road-22079"
+    }
+   },
+   "too_frequent": false
+  },
+  "third coast chamber collective|grand rapids": {
+   "title": "Third Coast Chamber Collective",
+   "venue": "Ives Studio Theater, Reif Center",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-04-01",
+     "title": "Third Coast Chamber Collective",
+     "source_count": 1,
+     "url": "https://www.reifcenter.org/event/third-coast-chamber-collective-2/"
     }
    },
    "too_frequent": false

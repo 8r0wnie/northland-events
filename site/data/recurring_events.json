@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T16:53:25",
+  "generated": "2026-10-03T15:19:27",
   "confirmed": [],
   "likely": [
     {
@@ -324,6 +324,25 @@
       "last_date": "2026-10-10",
       "last_url": "https://allevents.in/ashland/28th-annual-tamarack-health-whistlestop-marathon-half-marathon-5k-10k/200029731186525",
       "predicted_next": "2027-10-10"
+    },
+    {
+      "key": "harvest fest great harvest bake off|ashland",
+      "title": "3rd Annual Harvest Fest & Great Harvest Bake Off",
+      "venue": "Ashland, WI 54806",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-10-17",
+      "last_url": "https://www.coawi.org/517/Ashland-Community-Events",
+      "predicted_next": "2027-10-17"
     },
     {
       "key": "mn recreation and park association conference|duluth",
