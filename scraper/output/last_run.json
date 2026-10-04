@@ -1,27 +1,27 @@
 {
-  "when": "2026-10-03T15:19:27Z",
-  "raw": 3202,
-  "merged": 2453,
-  "published": 2213,
-  "queued": 240,
+  "when": "2026-10-04T16:02:01Z",
+  "raw": 3163,
+  "merged": 2426,
+  "published": 2179,
+  "queued": 247,
   "verification": {
-    "confirmed": 2213,
-    "multi_source": 226,
-    "trusted_single": 1987,
+    "confirmed": 2179,
+    "multi_source": 225,
+    "trusted_single": 1954,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 240
+    "queued": 247
   },
   "sources": [
     {
       "source": "perfect-duluth-day",
-      "detail": "tribehtml: 375 events (16 feed pages)",
-      "events": 374
+      "detail": "tribehtml: 374 events (16 feed pages)",
+      "events": 373
     },
     {
       "source": "visit-duluth",
-      "detail": "tribe: 436 events",
-      "events": 436
+      "detail": "tribe: 425 events",
+      "events": 425
     },
     {
       "source": "duluth-chamber",
@@ -31,7 +31,7 @@
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 42 events via https://superiorchamber.org",
-      "events": 41
+      "events": 40
     },
     {
       "source": "hibbing-chamber",
@@ -55,12 +55,12 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 110 events (3 pages)",
-      "events": 107
+      "detail": "simpleview: 97 events (2 pages)",
+      "events": 97
     },
     {
       "source": "visit-ashland",
-      "detail": "jsonld: 3 events (rendered)",
+      "detail": "jsonld: 2 events (rendered)",
       "events": 2
     },
     {
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 418 events",
-      "events": 410
+      "events": 409
     },
     {
       "source": "hermantown-mn",
@@ -166,7 +166,7 @@
     {
       "source": "two-harbors-mn",
       "detail": "revize: 130 events (webspace twoharborsmn)",
-      "events": 126
+      "events": 127
     },
     {
       "source": "silver-bay-mn",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 115 events",
-      "events": 114
+      "detail": "civicplus: 109 events",
+      "events": 107
     },
     {
       "source": "cable-wi",
@@ -285,33 +285,33 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 184 events",
-      "events": 184
+      "detail": "allevents: 176 events",
+      "events": 176
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 103 events",
-      "events": 103
+      "detail": "allevents: 99 events",
+      "events": 99
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 21 events",
-      "events": 21
+      "detail": "allevents: 22 events",
+      "events": 22
     },
     {
       "source": "allevents-hibbing",
-      "detail": "allevents: 7 events",
-      "events": 7
+      "detail": "allevents: 12 events",
+      "events": 12
     },
     {
       "source": "allevents-grand-rapids",
-      "detail": "allevents: 2 events",
-      "events": 2
+      "detail": "allevents: 4 events",
+      "events": 4
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 3 events",
-      "events": 3
+      "detail": "allevents: 9 events",
+      "events": 9
     },
     {
       "source": "allevents-ashland",
@@ -320,23 +320,23 @@
     },
     {
       "source": "allevents-intl-falls",
-      "detail": "allevents: 3 events",
-      "events": 3
+      "detail": "allevents: 5 events",
+      "events": 5
     },
     {
       "source": "umd-bulldogs",
-      "detail": "sidearm: 81 home/neutral events",
-      "events": 81
+      "detail": "sidearm: 79 home/neutral events",
+      "events": 79
     },
     {
       "source": "uws-yellowjackets",
       "detail": "sidearm: 105 home/neutral events",
-      "events": 105
+      "events": 104
     },
     {
       "source": "css-saints",
-      "detail": "sidearm: 66 home/neutral events",
-      "events": 65
+      "detail": "sidearm: 65 home/neutral events",
+      "events": 63
     },
     {
       "source": "norshor-playhouse",
@@ -345,8 +345,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "tribe: 30 events",
-      "events": 30
+      "detail": "tribe: 29 events",
+      "events": 29
     },
     {
       "source": "sacred-heart",
@@ -370,23 +370,23 @@
     },
     {
       "source": "mn-discovery-center",
-      "detail": "tribe: 27 events",
-      "events": 27
+      "detail": "tribe: 25 events",
+      "events": 25
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 15 events",
-      "events": 15
+      "detail": "tribe: 14 events",
+      "events": 14
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 112 events",
-      "events": 112
+      "detail": "tribe: 111 events",
+      "events": 111
     },
     {
       "source": "decc",
-      "detail": "decc: 61 events",
-      "events": 60
+      "detail": "decc: 60 events",
+      "events": 59
     },
     {
       "source": "earth-rider",
@@ -435,8 +435,8 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 71 events (webspace fonddulac)",
-      "events": 71
+      "detail": "revize: 69 events (webspace fonddulac)",
+      "events": 69
     }
   ]
 }
