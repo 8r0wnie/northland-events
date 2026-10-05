@@ -78,7 +78,7 @@
      "url": "https://www.cromwellmn.org/calendar.php"
     },
     "2027": {
-     "date": "2027-04-16",
+     "date": "2027-04-23",
      "title": "Meat Raffle",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -690,8 +690,8 @@
     "2026": {
      "date": "2026-10-17",
      "title": "Old Time Folk Jam",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/old-time-folk-jam/2026-10-17/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/old-time-folk-jam/200030745807112"
     }
    },
    "too_frequent": false
@@ -1480,7 +1480,7 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-10-04",
+     "date": "2026-10-11",
      "title": "Similar Sundays at Ritual Marketplace",
      "source_count": 2,
      "url": "https://allevents.in/superior/similar-sundays-at-ritual-marketplace/100001980301487056"
@@ -2120,10 +2120,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "title": "Xtreme Bar Bingo at Scenic Drive Resort",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12316"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12317"
     }
    },
    "too_frequent": false
@@ -2136,10 +2136,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-26",
+     "date": "2026-11-03",
      "title": "Twin Ports Chess Club",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-10-26/"
+     "url": "https://www.perfectduluthday.com/the-event/twin-ports-chess-club-2026-06-29/2026-11-02/"
     }
    },
    "too_frequent": false
@@ -2968,10 +2968,10 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-11-04",
      "title": "Bingo, Beer & Gear",
      "source_count": 2,
-     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-10-27/"
+     "url": "https://www.perfectduluthday.com/the-event/bingo-beer-and-gear/2026-11-03/"
     }
    },
    "too_frequent": false
@@ -3143,13 +3143,13 @@
    "venue": "109 W Superior St, Duluth, MN, United States, Minnesota 55802",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "community",
+   "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-09-09",
+     "date": "2026-10-07",
      "title": "Trivia Night Wednesdays!",
      "source_count": 2,
-     "url": "https://allevents.in/duluth/trivia-night-wednesdays/200030652454626"
+     "url": "https://allevents.in/duluth/trivia-night-wednesdays/200030770581222"
     }
    },
    "too_frequent": false
@@ -3191,13 +3191,13 @@
    "venue": "Northern Exposure Art",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "education",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-28",
      "title": "Acrylic Paint Class",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/acrylic-paint-class-oct-28/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/acrylic-paint-class/2026-10-28/"
     }
    },
    "too_frequent": false
@@ -4407,7 +4407,7 @@
      "date": "2026-10-08",
      "title": "Economic Development Authority Meeting",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-92"
+     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-90"
     }
    },
    "too_frequent": false
@@ -6132,16 +6132,16 @@
   },
   "community sound bath|duluth": {
    "title": "Community Sound Bath",
-   "venue": "11 East Michigan St, Duluth, MN, United States, Minnesota 55802",
+   "venue": "Halcyon House",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "sports-rec",
+   "category": "family",
    "occurrences": {
     "2026": {
      "date": "2026-10-11",
      "title": "Community Sound Bath",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/community-sound-bath/200030767129545"
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/community-sound-bath-5/"
     }
    },
    "too_frequent": true
@@ -6572,10 +6572,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-19",
+     "date": "2026-11-02",
      "title": "Teague Alexy",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-10-19/"
+     "url": "https://www.perfectduluthday.com/the-event/teague-alexy-sir-bens-2026-2026-04-27-2026-07-13/2026-11-02/"
     }
    },
    "too_frequent": false
@@ -7955,7 +7955,7 @@
    "too_frequent": false
   },
   "writer s salon|duluth": {
-   "title": "Writer's Salon",
+   "title": "Writer\u2019s Salon",
    "venue": "Wussow's Concert Cafe",
    "city": "Duluth",
    "area": "Duluth",
@@ -7963,9 +7963,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-15",
-     "title": "Writer's Salon",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/writers-salon/200030746759422"
+     "title": "Writer\u2019s Salon",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/writers-salon-2026-07-16/2026-10-15/"
     }
    },
    "too_frequent": true
@@ -10144,8 +10144,8 @@
     "2026": {
      "date": "2026-10-23",
      "title": "Storyfolk",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/storyfolk/200030746759114"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/storyfolk-2026-2026-07-24/2026-10-23/"
     }
    },
    "too_frequent": true
@@ -11964,10 +11964,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-05",
+     "date": "2026-11-03",
      "title": "Fantasy/Speculative Fiction Writing Circle",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/fantasy-speculative-fiction-writing-circle-2026-08-03/2026-10-05/"
+     "url": "https://www.perfectduluthday.com/the-event/fantasy-speculative-fiction-writing-circle-2026-08-03/2026-11-02/"
     }
    },
    "too_frequent": true
@@ -12511,12 +12511,12 @@
    "venue": "St. Louis County Depot",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "family",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-09",
      "title": "Carnival at the Depot - North Shorror! 2026",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/carnival-at-the-depot-north-shorror-2026/200030491479432"
     }
    },
@@ -13896,7 +13896,7 @@
   },
   "full moon hike|duluth": {
    "title": "Full Moon Hike",
-   "venue": "",
+   "venue": "Twin Ponds",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
@@ -14024,7 +14024,7 @@
   },
   "neural exercises for autism a conversation with author|duluth": {
    "title": "Neural Exercises for Autism, a conversation with the author",
-   "venue": "At Sara\u2019s Table Chester Creek Cafe",
+   "venue": "At Sara's Table Chester Creek Cafe",
    "city": "Duluth",
    "area": "Duluth",
    "category": "arts",
@@ -14032,8 +14032,8 @@
     "2026": {
      "date": "2026-10-29",
      "title": "Neural Exercises for Autism, a conversation with the author",
-     "source_count": 2,
-     "url": "https://visitduluth.com/event/neural-exercises-for-autism-a-conversation-with-the-author/"
+     "source_count": 3,
+     "url": "https://allevents.in/duluth/neural-exercises-for-autism-a-conversation-with-the-author/200030628328047"
     }
    },
    "too_frequent": false
@@ -14954,16 +14954,16 @@
   },
   "golden girls laughs continue|duluth": {
    "title": "Golden Girls: The Laughs Continue",
-   "venue": "DECC Symphony Hall",
+   "venue": "Symphony Hall",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-11-09",
+     "date": "2026-11-10",
      "title": "Golden Girls: The Laughs Continue",
-     "source_count": 3,
-     "url": "https://allevents.in/duluth/golden-girls-the-laughs-continue/210003638816171"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/golden-girls-the-laughs-continue/"
     }
    },
    "too_frequent": false
@@ -16008,7 +16008,7 @@
     "2026": {
      "date": "2026-12-04",
      "title": "UMD Women\u2019s Hockey vs St. Cloud",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-womens-hockey-vs-stcloud-dec4/"
     }
    },
@@ -16622,7 +16622,7 @@
     "2027": {
      "date": "2027-01-01",
      "title": "New Year\u2019s Day \u2013 City Hall Closed",
-     "source_count": 1,
+     "source_count": 2,
      "url": "/event/new-years-day-city-hall-closed-3/"
     }
    },
@@ -17278,7 +17278,7 @@
     "2027": {
      "date": "2027-02-05",
      "title": "UMD Women\u2019s Hockey vs Bemidji",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://decc.org/event/umd-womens-hockey-vs-bemidji-feb5/"
     }
    },
@@ -17310,7 +17310,7 @@
     "2027": {
      "date": "2027-02-12",
      "title": "UMD Women\u2019s Hockey vs University of Wisconsin",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-womens-hockey-vs-university-of-wisconsin-feb12/"
     }
    },
@@ -17808,7 +17808,7 @@
     "2027": {
      "date": "2027-02-04",
      "title": "Cirque Alice",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://visitduluth.com/event/cirque-alice/"
     }
    },
@@ -18132,10 +18132,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-28",
+     "date": "2026-10-19",
      "title": "Sheriff's Committee Meeting",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12358"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10476"
     }
    },
    "too_frequent": false
@@ -18148,10 +18148,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-21",
+     "date": "2026-10-19",
      "title": "Human Resources Committee (Meets 3rd Monday of each month)",
      "source_count": 1,
-     "url": "https://www.superiorwi.gov/Calendar.aspx?EID=3717"
+     "url": "https://www.superiorwi.gov/Calendar.aspx?EID=3718"
     }
    },
    "too_frequent": false
@@ -19064,7 +19064,7 @@
     "2026": {
      "date": "2026-10-06",
      "title": "\u201cThe Librarians\u201d Documentary Screening",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://visitduluth.com/event/the-librarians-documentary-screening/"
     }
    },
@@ -19744,7 +19744,7 @@
   },
   "creative industries summit|superior": {
    "title": "2026 Creative Industries Summit",
-   "venue": "Superior Entrepreneurship Center",
+   "venue": "1401 Tower Ave, Superior, WI 54880-1553, United States",
    "city": "Superior",
    "area": "Superior",
    "category": "community",
@@ -19752,8 +19752,8 @@
     "2026": {
      "date": "2026-10-06",
      "title": "2026 Creative Industries Summit",
-     "source_count": 1,
-     "url": "https://www.superiorchamber.org/events/details/2026-creative-industries-summit-21684"
+     "source_count": 2,
+     "url": "https://allevents.in/superior/2026-creative-industries-summit/200030777965031"
     }
    },
    "too_frequent": false
@@ -20070,10 +20070,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "title": "Maker Monday",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12264"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12265"
     }
    },
    "too_frequent": false
@@ -22150,7 +22150,7 @@
   },
   "umd men s hockey vs university of manitoba exhibition|duluth": {
    "title": "UMD Men\u2019s Hockey vs University of Manitoba (Exhibition)",
-   "venue": "AMSOIL Arena",
+   "venue": "Duluth",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
@@ -22190,8 +22190,8 @@
     "2027": {
      "date": "2027-04-03",
      "title": "DSSO Pops 2 \u2013 Pirates of the Caribbean: The Curse of the Black Pearl in Concert",
-     "source_count": 1,
-     "url": "https://decc.org/event/pops-2-pirates-of-the-caribbean/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/dsso-pops-2-pirates-of-the-caribbean-the-curse-of-the-black-pearl-in-concert-2/"
     }
    },
    "too_frequent": false
@@ -22684,10 +22684,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "title": "The Gathering - Members Art Show",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12065"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12067"
     }
    },
    "too_frequent": false
@@ -23476,8 +23476,8 @@
     "2026": {
      "date": "2026-10-09",
      "title": "Hope in Dark Times",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/hope-in-dark-times/200030442875453"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/hope-in-dark-times/"
     }
    },
    "too_frequent": false
@@ -24388,7 +24388,7 @@
     "2026": {
      "date": "2026-10-17",
      "title": "So What @ Blacklist Brewing Co.",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/so-what-blacklist-brewing-co/"
     }
    },
@@ -24420,7 +24420,7 @@
     "2026": {
      "date": "2026-10-29",
      "title": "Art Night Out: Materials and Self with Andrew Webster, Robb Quisling, and Lauren Faherty",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/art-night-out-materials-and-self-with-andrew-webster-robb-quisling-and-lauren-faherty/200030747090233"
     }
    },
@@ -24452,8 +24452,8 @@
     "2027": {
      "date": "2027-02-03",
      "title": "Flo Rida: Whistle & Whiskey Tour",
-     "source_count": 1,
-     "url": "https://decc.org/event/flo-rida-whistle-whiskey-tour/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/flo-rida-whistle-whiskey-tour/"
     }
    },
    "too_frequent": false
@@ -25068,7 +25068,7 @@
   },
   "cosmic tour adventure to edge of universe|duluth": {
    "title": "Cosmic Tour: Adventure to the Edge of the Universe",
-   "venue": "",
+   "venue": "1023 University Dr, Duluth, MN, United States, Minnesota 55812",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -25090,10 +25090,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "title": "Macbeth",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-10-30/"
+     "url": "https://www.perfectduluthday.com/the-event/macbeth/2026-11-01/"
     }
    },
    "too_frequent": false
@@ -25882,8 +25882,8 @@
     "2026": {
      "date": "2026-11-28",
      "title": "Iron Range Night",
-     "source_count": 1,
-     "url": "https://sacredheartmusic.org/event/iron-range-night/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/iron-range-night/100002002155565192"
     }
    },
    "too_frequent": false
@@ -26354,7 +26354,7 @@
   },
   "explore lsc open house|duluth": {
    "title": "Explore LSC Open House",
-   "venue": "",
+   "venue": "2101 Trinity Rd, Duluth, MN, United States, Minnesota 55811",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -26362,8 +26362,8 @@
     "2026": {
      "date": "2026-10-08",
      "title": "Explore LSC Open House",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/explore-lsc-open-house/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/explore-lsc-open-house/200030774656255"
     }
    },
    "too_frequent": false
@@ -26618,8 +26618,8 @@
     "2027": {
      "date": "2027-02-21",
      "title": "NEEDTOBREATHE with special guest Conner Smith",
-     "source_count": 1,
-     "url": "https://decc.org/event/needtobreathe/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/needtobreathe-with-special-guest-conner-smith/"
     }
    },
    "too_frequent": false
@@ -26888,10 +26888,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-10-19",
      "title": "StrongBodies: Port Wing",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12394"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12378"
     }
    },
    "too_frequent": false
@@ -26938,8 +26938,8 @@
     "2026": {
      "date": "2026-10-16",
      "title": "Jumping Down the Rabbit Hole: Lessons from an Unconventional Scientific Journey",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/jumping-down-the-rabbit-hole-lessons-from-an-unconventional-scientific-journey/200030424794203"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/jumping-down-the-rabbit-hole-lessons-from-an-unconventional-scientific-journey/"
     }
    },
    "too_frequent": false
@@ -27242,8 +27242,8 @@
     "2027": {
      "date": "2027-02-16",
      "title": "Daughtry 20 Years Unplugged",
-     "source_count": 1,
-     "url": "https://decc.org/event/daughtry-unplugged/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/daughtry-20-years-unplugged/"
     }
    },
    "too_frequent": false
@@ -27576,7 +27576,7 @@
   },
   "soups for troops|duluth": {
    "title": "Soups for Troops",
-   "venue": "",
+   "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -27584,15 +27584,15 @@
     "2026": {
      "date": "2026-10-10",
      "title": "Soups for Troops",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/soups-for-troops/"
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/soups-for-troops/200030770581625"
     }
    },
    "too_frequent": false
   },
   "carlton county animal rescue adoption event|duluth": {
    "title": "Carlton County Animal Rescue Adoption Event",
-   "venue": "",
+   "venue": "Tractor Supply",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -27886,16 +27886,16 @@
   },
   "scarium at aquarium|duluth": {
    "title": "Scarium at the Aquarium 2026",
-   "venue": "353 Harbor Dr, Duluth, MN, United States, Minnesota 55802",
+   "venue": "Great Lakes Aquarium",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "sports-rec",
+   "category": "family",
    "occurrences": {
     "2026": {
      "date": "2026-10-29",
      "title": "Scarium at the Aquarium 2026",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/scarium-at-the-aquarium-2026/2026-10-29/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/scarium-at-the-aquarium-2026/2026-10-29/"
     }
    },
    "too_frequent": false
@@ -28132,10 +28132,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-10",
+     "date": "2026-10-11",
      "title": "Disney\u2019s Descendants",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/disneys-descendants/2026-10-09/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/disneys-descendants/2026-10-11/1/"
     }
    },
    "too_frequent": false
@@ -28429,17 +28429,17 @@
    "too_frequent": false
   },
   "mastering your energy with play|duluth": {
-   "title": "Mastering Your Energy with Play",
-   "venue": "",
+   "title": "Mastering your Energy with Play",
+   "venue": "Halcyon House",
    "city": "Duluth",
    "area": "Duluth",
    "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-14",
-     "title": "Mastering Your Energy with Play",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/mastering-your-energy-with-play/"
+     "title": "Mastering your Energy with Play",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/mastering-your-energy-with-play-3/"
     }
    },
    "too_frequent": false
@@ -28465,12 +28465,12 @@
    "venue": "Lake Superior Zoo",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "music",
+   "category": "family",
    "occurrences": {
     "2026": {
      "date": "2026-10-15",
      "title": "Light the Horizon",
-     "source_count": 3,
+     "source_count": 4,
      "url": "https://allevents.in/duluth/light-the-horizon/200030751970248"
     }
    },
@@ -28486,7 +28486,7 @@
     "2026": {
      "date": "2026-10-15",
      "title": "Gatherings by Sheraton: Live Music with Hannah Rey",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/gatherings-by-sheraton-live-music-with-hannah-rey/100002002463730924"
     }
    },
@@ -28638,16 +28638,16 @@
   },
   "nerd nite of living dread|duluth": {
    "title": "Nerd Nite of the Living Dread",
-   "venue": "",
+   "venue": "Dovetail Cafe",
    "city": "Duluth",
    "area": "Duluth",
-   "category": "holiday",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-15",
      "title": "Nerd Nite of the Living Dread",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/nerd-nite-of-the-living-dread/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/nerd-nite-of-the-living-dread/"
     }
    },
    "too_frequent": false
@@ -28749,7 +28749,7 @@
    "too_frequent": false
   },
   "reese s book club gathering at sheraton duluth|duluth": {
-   "title": "Reese's Book Club Gathering at Sheraton Duluth",
+   "title": "Reese\u2019s Book Club Gathering at Sheraton Duluth",
    "venue": "Sheraton Duluth Hotel",
    "city": "Duluth",
    "area": "Duluth",
@@ -28757,9 +28757,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-06",
-     "title": "Reese's Book Club Gathering at Sheraton Duluth",
+     "title": "Reese\u2019s Book Club Gathering at Sheraton Duluth",
      "source_count": 2,
-     "url": "https://allevents.in/duluth/reeses-book-club-gathering-at-sheraton-duluth/100001988833594820"
+     "url": "https://visitduluth.com/event/reeses-book-club-gathering-at-sheraton-duluth-4/"
     }
    },
    "too_frequent": false
@@ -29208,6 +29208,694 @@
      "title": "Flea Market & Crafts",
      "source_count": 1,
      "url": "https://ashlandcountyfair.com/events/cosca-horse-show-3/"
+    }
+   },
+   "too_frequent": false
+  },
+  "librarians documentary screening and panel|duluth": {
+   "title": "\"The Librarians\" Documentary Screening and Panel",
+   "venue": "1207 Ordean Ct, Duluth, MN 55812-3010, United States",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-06",
+     "title": "\"The Librarians\" Documentary Screening and Panel",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/the-librarians-documentary-screening-and-panel/200030774653941"
+    }
+   },
+   "too_frequent": false
+  },
+  "duluth 101 astro bob joys of being in dark|duluth": {
+   "title": "Duluth 101: Astro Bob, \"Joys of Being in the Dark\"",
+   "venue": "1917 W Superior St, Duluth, MN, United States, Minnesota 55806",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-08",
+     "title": "Duluth 101: Astro Bob, \"Joys of Being in the Dark\"",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/duluth-101-astro-bob-joys-of-being-in-the-dark/200030770583030"
+    }
+   },
+   "too_frequent": false
+  },
+  "disney s descendants musical|duluth": {
+   "title": "Disney's Descendants: The Musical",
+   "venue": "NorShor Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-09",
+     "title": "Disney's Descendants: The Musical",
+     "source_count": 3,
+     "url": "https://allevents.in/duluth/disneys-descendants-the-musical/210001621643857"
+    }
+   },
+   "too_frequent": false
+  },
+  "asbury fall pantry|duluth": {
+   "title": "Asbury Fall Pantry",
+   "venue": "6822 Grand Ave, West Duluth, MN, United States, Minnesota 55807",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Asbury Fall Pantry",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/asbury-fall-pantry/200030770584739"
+    }
+   },
+   "too_frequent": false
+  },
+  "plein air autumn workshop with matt kania|duluth": {
+   "title": "Plein Air Autumn Workshop with Matt Kania",
+   "venue": "Duluth Art Institute (Lincoln Park Building)",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Plein Air Autumn Workshop with Matt Kania",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/plein-air-autumn-workshop-with-matt-kania/"
+    }
+   },
+   "too_frequent": false
+  },
+  "introduction to tapestry weaving|bayfield county": {
+   "title": "Introduction to Tapestry Weaving",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Introduction to Tapestry Weaving",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12410"
+    }
+   },
+   "too_frequent": false
+  },
+  "beginning knitting|bayfield county": {
+   "title": "Beginning Knitting",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Beginning Knitting",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=10238"
+    }
+   },
+   "too_frequent": false
+  },
+  "pumpkin painting stroytelling|bayfield county": {
+   "title": "Pumpkin Painting & Stroytelling",
+   "venue": "",
+   "city": "Iron River",
+   "area": "Bayfield County",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-10",
+     "title": "Pumpkin Painting & Stroytelling",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9661"
+    }
+   },
+   "too_frequent": false
+  },
+  "laugh shack with headliner jason schommer|duluth": {
+   "title": "The Laugh Shack with Headliner Jason Schommer",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-11",
+     "title": "The Laugh Shack with Headliner Jason Schommer",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/the-laugh-shack-w-headliner-jason-schommer/"
+    }
+   },
+   "too_frequent": false
+  },
+  "mnshrm state conference|duluth": {
+   "title": "MNSHRM State Conference",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-12",
+     "title": "MNSHRM State Conference",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/mnshrm-state-conference/"
+    }
+   },
+   "too_frequent": false
+  },
+  "open house new pruitt center for mindfulness and well being|superior": {
+   "title": "Open House: New Pruitt Center for Mindfulness and Well-Being",
+   "venue": "UWS Swenson Hall",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-12",
+     "title": "Open House: New Pruitt Center for Mindfulness and Well-Being",
+     "source_count": 1,
+     "url": "https://www.superiorchamber.org/events/details/open-house-new-pruitt-center-for-mindfulness-and-well-being-22080"
+    }
+   },
+   "too_frequent": false
+  },
+  "perspectives series john magas superintendent of duluth public schools|duluth": {
+   "title": "Perspectives Series: John Magas, Superintendent of the Duluth Public Schools",
+   "venue": "Lowell Elementary School Libaray",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Perspectives Series: John Magas, Superintendent of the Duluth Public Schools",
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/perspectives-series-john-magas-superintendent-of-the-duluth-public-schools/"
+    }
+   },
+   "too_frequent": false
+  },
+  "hpd palmers tavern putting cuffs on cancer again|hibbing": {
+   "title": "HPD + Palmers Tavern: Putting the Cuffs on Cancer - again",
+   "venue": "Palmers Tavern, 1717 Third Avenue EastHibbing, MN 55746",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-14",
+     "title": "HPD + Palmers Tavern: Putting the Cuffs on Cancer - again",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1931"
+    }
+   },
+   "too_frequent": false
+  },
+  "needle felted dumpster fire|bayfield county": {
+   "title": "Needle Felted Dumpster Fire",
+   "venue": "",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-16",
+     "title": "Needle Felted Dumpster Fire",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=11852"
+    }
+   },
+   "too_frequent": false
+  },
+  "tcs galleon mantress squidlife crisis|duluth": {
+   "title": "TCS Presents: Galleon, Mantress, & Squidlife Crisis",
+   "venue": "The Caddy Shack Indoor Golf & Pub",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-16",
+     "title": "TCS Presents: Galleon, Mantress, & Squidlife Crisis",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/tcs-presents-galleon-mantress-squidlife-crisis/"
+    }
+   },
+   "too_frequent": false
+  },
+  "boo at zoo october 17th|duluth": {
+   "title": "Boo at the Zoo | October 17th",
+   "venue": "7210 Fremont St, Duluth, MN, United States, Minnesota 55807",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Boo at the Zoo | October 17th",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/boo-at-the-zoo-october-17th/200030770581726"
+    }
+   },
+   "too_frequent": false
+  },
+  "family fun with spooky friends|ashland": {
+   "title": "Family Fun with Spooky Friends!",
+   "venue": "29270 County Highway G, Ashland, WI, United States, Wisconsin 54806",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Family Fun with Spooky Friends!",
+     "source_count": 2,
+     "url": "https://allevents.in/ashland/family-fun-with-spooky-friends/200030776248805"
+    }
+   },
+   "too_frequent": false
+  },
+  "serenity lounge|duluth": {
+   "title": "Serenity Lounge",
+   "venue": "Halcyon House",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Serenity Lounge",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/serenity-lounge-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wow cable community center flu covid pneumonia vaccination clinic for all ages|bayfield county": {
+   "title": "WOW- Cable Community Center Flu/Covid/Pneumonia Vaccination Clinic (for all ages)",
+   "venue": "Cable Community Center",
+   "city": "Cable",
+   "area": "Bayfield County",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-19",
+     "title": "WOW- Cable Community Center Flu/Covid/Pneumonia Vaccination Clinic (for all ages)",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9034"
+    }
+   },
+   "too_frequent": false
+  },
+  "black light bingo|hibbing": {
+   "title": "Black Light BINGO",
+   "venue": "",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-19",
+     "title": "Black Light BINGO",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1916"
+    }
+   },
+   "too_frequent": false
+  },
+  "october women hike duluth social|duluth": {
+   "title": "October Women Hike Duluth + Social",
+   "venue": "504 Canal Park Dr, Duluth, MN 55802-2355, United States",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-20",
+     "title": "October Women Hike Duluth + Social",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/october-women-hike-duluth-social/200030777469019"
+    }
+   },
+   "too_frequent": false
+  },
+  "gatherings by sheraton hot cider gathering|duluth": {
+   "title": "Gatherings by Sheraton: Hot Cider Gathering",
+   "venue": "Sheraton Duluth Hotel",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-20",
+     "title": "Gatherings by Sheraton: Hot Cider Gathering",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/gatherings-by-sheraton-hot-cider-gathering/"
+    }
+   },
+   "too_frequent": false
+  },
+  "gatherings by sheraton obbink distilling|duluth": {
+   "title": "Gatherings by Sheraton: Obbink Distilling",
+   "venue": "Sheraton Duluth Hotel",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-22",
+     "title": "Gatherings by Sheraton: Obbink Distilling",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/gatherings-by-sheraton-obbink-distilling/100002002463109064"
+    }
+   },
+   "too_frequent": false
+  },
+  "neighborhood 3 requisition of doom|duluth": {
+   "title": "Neighborhood 3: Requisition of Doom",
+   "venue": "NorShor Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Neighborhood 3: Requisition of Doom",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/neighborhood-3-requisition-of-doom/2026-11-07/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lantern tours at glensheen|duluth": {
+   "title": "Lantern Tours at Glensheen",
+   "venue": "3300 London Rd, Duluth, MN, United States, Minnesota 55804",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-23",
+     "title": "Lantern Tours at Glensheen",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/lantern-tours-at-glensheen/200030770584035"
+    }
+   },
+   "too_frequent": false
+  },
+  "learn to curl with us|duluth": {
+   "title": "Learn to Curl With Us!",
+   "venue": "327 Harbor Dr, Duluth, MN, United States, Minnesota 55802",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-23",
+     "title": "Learn to Curl With Us!",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/learn-to-curl-with-us/200030778007053"
+    }
+   },
+   "too_frequent": false
+  },
+  "boo at zoo october 24th|duluth": {
+   "title": "Boo at the Zoo | October 24th",
+   "venue": "7210 Fremont St, Duluth, MN, United States, Minnesota 55807",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Boo at the Zoo | October 24th",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/boo-at-the-zoo-october-24th/200030770581424"
+    }
+   },
+   "too_frequent": false
+  },
+  "eek depot|duluth": {
+   "title": "Eek! The Depot",
+   "venue": "506 West Michigan Street, Duluth, MN, United States, Minnesota 55802",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Eek! The Depot",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/eek-the-depot/200030774657058"
+    }
+   },
+   "too_frequent": false
+  },
+  "sierra duluth grand opening|duluth": {
+   "title": "Sierra Duluth Grand Opening",
+   "venue": "Sierra Duluth",
+   "city": "Duluth, MN",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Sierra Duluth Grand Opening",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/sierra-duluth-grand-opening/"
+    }
+   },
+   "too_frequent": false
+  },
+  "boo seum monster masterpieces|duluth": {
+   "title": "BOO!seum: Monster Masterpieces",
+   "venue": "Duluth Children\u2019s Museum",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "BOO!seum: Monster Masterpieces",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/booseum-monster-masterpieces/2026-10-24/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "haunted paddle party at bent paddle|duluth": {
+   "title": "Haunted Paddle Party at Bent Paddle",
+   "venue": "Bent Paddle Brewing",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Haunted Paddle Party at Bent Paddle",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/haunted-paddle-party-at-bent-paddle/"
+    }
+   },
+   "too_frequent": false
+  },
+  "scga harvest festival|duluth": {
+   "title": "SCGA Harvest Festival",
+   "venue": "Oakes Avenue Garden",
+   "city": "Superior",
+   "area": "Duluth",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-25",
+     "title": "SCGA Harvest Festival",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/scga-harvest-festival/"
+    }
+   },
+   "too_frequent": false
+  },
+  "duluth needle art guild october luncheon|duluth": {
+   "title": "Duluth Needle Art Guild October Luncheon",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-26",
+     "title": "Duluth Needle Art Guild October Luncheon",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/duluth-needle-art-guild-october-luncheon/"
+    }
+   },
+   "too_frequent": false
+  },
+  "gatherings by sheraton nightsong trio live|duluth": {
+   "title": "Gatherings by Sheraton: NightSong Trio Live!",
+   "venue": "Sheraton Duluth Hotel",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-29",
+     "title": "Gatherings by Sheraton: NightSong Trio Live!",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/gatherings-by-sheraton-nightsong-trio-live/100002002462680783"
+    }
+   },
+   "too_frequent": false
+  },
+  "moonlight masquerade|duluth": {
+   "title": "Moonlight Masquerade",
+   "venue": "1823 E Superior St. Duluth MN 55812",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-31",
+     "title": "Moonlight Masquerade",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/moonlight-masquerade/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall craft show|duluth": {
+   "title": "Fall Craft Show",
+   "venue": "Evergreen Senior Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Fall Craft Show",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/fall-craft-show/"
+    }
+   },
+   "too_frequent": false
+  },
+  "scandinavian eats at julebyen ledge rock grille|duluth": {
+   "title": "Scandinavian Eats at Julebyen | Ledge Rock Grille",
+   "venue": "199 Alger Smith Rd, Knife River, MN 55609, United States",
+   "city": "Knife River",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Scandinavian Eats at Julebyen | Ledge Rock Grille",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/scandinavian-eats-at-julebyen-ledge-rock-grille/2026-12-05/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fire and frostbite|duluth": {
+   "title": "Fire and Frostbite",
+   "venue": "2023 W. Superior St.",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Fire and Frostbite",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/fire-and-frostbite/"
+    }
+   },
+   "too_frequent": false
+  },
+  "a christmas story duluth|duluth": {
+   "title": "A Christmas Story \u2013 Duluth",
+   "venue": "NorShor Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-20",
+     "title": "A Christmas Story \u2013 Duluth",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/a-christmas-story-duluth-5/"
+    }
+   },
+   "too_frequent": false
+  },
+  "minnesota ballet nutcracker a duluth tale|duluth": {
+   "title": "Minnesota Ballet | The Nutcracker: A Duluth Tale",
+   "venue": "DECC Symphony Hall",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-11",
+     "title": "Minnesota Ballet | The Nutcracker: A Duluth Tale",
+     "source_count": 3,
+     "url": "https://visitduluth.com/event/minnesota-ballet-the-nutcracker-a-duluth-tale/"
+    }
+   },
+   "too_frequent": false
+  },
+  "so what at duluth cider|duluth": {
+   "title": "So What at Duluth Cider",
+   "venue": "Duluth Cider",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-18",
+     "title": "So What at Duluth Cider",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/so-what-at-duluth-cider-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "emma play duluth|duluth": {
+   "title": "Emma \u2013 The Play \u2013 Duluth",
+   "venue": "NorShor Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-29",
+     "title": "Emma \u2013 The Play \u2013 Duluth",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/emma-the-play-duluth-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "dear evan hansen duluth|duluth": {
+   "title": "Dear Evan Hansen \u2013 Duluth",
+   "venue": "NorShor Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-12",
+     "title": "Dear Evan Hansen \u2013 Duluth",
+     "source_count": 1,
+     "url": "https://visitduluth.com/event/dear-evan-hansen-duluth/"
     }
    },
    "too_frequent": false

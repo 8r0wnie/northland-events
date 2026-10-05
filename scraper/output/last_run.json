@@ -1,37 +1,37 @@
 {
-  "when": "2026-10-04T16:02:01Z",
-  "raw": 3163,
-  "merged": 2426,
-  "published": 2179,
-  "queued": 247,
+  "when": "2026-10-05T20:02:31Z",
+  "raw": 3138,
+  "merged": 2342,
+  "published": 2016,
+  "queued": 326,
   "verification": {
-    "confirmed": 2179,
-    "multi_source": 225,
-    "trusted_single": 1954,
+    "confirmed": 2016,
+    "multi_source": 248,
+    "trusted_single": 1768,
     "reviewed_in": 0,
     "reviewed_out": 0,
-    "queued": 247
+    "queued": 326
   },
   "sources": [
     {
       "source": "perfect-duluth-day",
-      "detail": "tribehtml: 374 events (16 feed pages)",
-      "events": 373
+      "detail": "tribehtml: 373 events (16 feed pages)",
+      "events": 372
     },
     {
       "source": "visit-duluth",
-      "detail": "tribe: 425 events",
-      "events": 425
+      "detail": "tribe: 502 events",
+      "events": 502
     },
     {
       "source": "duluth-chamber",
-      "detail": "weblink: 9 events (tenant duluthmncoc)",
-      "events": 9
+      "detail": "weblink: 8 events (tenant duluthmncoc)",
+      "events": 8
     },
     {
       "source": "superior-chamber",
-      "detail": "chambermaster: 42 events via https://superiorchamber.org",
-      "events": 40
+      "detail": "chambermaster: 43 events via https://superiorchamber.org",
+      "events": 41
     },
     {
       "source": "hibbing-chamber",
@@ -40,8 +40,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "no adapter produced events  [carried forward from 2026-09-29]",
-      "events": 181
+      "detail": "no adapter produced events",
+      "events": 0
     },
     {
       "source": "grand-rapids-mn",
@@ -55,8 +55,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 97 events (2 pages)",
-      "events": 97
+      "detail": "simpleview: 87 events (2 pages)",
+      "events": 87
     },
     {
       "source": "visit-ashland",
@@ -71,7 +71,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 418 events",
-      "events": 409
+      "events": 408
     },
     {
       "source": "hermantown-mn",
@@ -85,13 +85,13 @@
     },
     {
       "source": "virginia-mn",
-      "detail": "revize: 18 events (old XML)",
+      "detail": "no adapter produced events  [carried forward from 2026-10-04]",
       "events": 18
     },
     {
       "source": "hibbing-mn",
-      "detail": "civicplus: 14 events",
-      "events": 14
+      "detail": "civicplus: 16 events",
+      "events": 16
     },
     {
       "source": "eveleth-mn",
@@ -151,7 +151,7 @@
     {
       "source": "cromwell-mn",
       "detail": "revize: 66 events (webspace cromwellmn)",
-      "events": 63
+      "events": 64
     },
     {
       "source": "esko-township-mn",
@@ -170,7 +170,7 @@
     },
     {
       "source": "silver-bay-mn",
-      "detail": "revize: 65 events (webspace silverbaymn)",
+      "detail": "revize: 66 events (webspace silverbaymn)",
       "events": 65
     },
     {
@@ -200,7 +200,7 @@
     },
     {
       "source": "hill-city-mn",
-      "detail": "revize: 6 events (old XML)",
+      "detail": "no adapter produced events  [carried forward from 2026-10-04]",
       "events": 6
     },
     {
@@ -230,8 +230,8 @@
     },
     {
       "source": "superior-wi",
-      "detail": "civicplus: 1 events",
-      "events": 1
+      "detail": "civicplus: 2 events",
+      "events": 2
     },
     {
       "source": "solon-springs-wi",
@@ -240,8 +240,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 109 events",
-      "events": 107
+      "detail": "civicplus: 114 events",
+      "events": 114
     },
     {
       "source": "cable-wi",
@@ -285,58 +285,58 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 176 events",
-      "events": 176
+      "detail": "allevents: 206 events",
+      "events": 206
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 99 events",
-      "events": 99
+      "detail": "allevents: 116 events",
+      "events": 116
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 22 events",
-      "events": 22
+      "detail": "allevents: 26 events",
+      "events": 26
     },
     {
       "source": "allevents-hibbing",
-      "detail": "allevents: 12 events",
-      "events": 12
+      "detail": "allevents: 26 events",
+      "events": 26
     },
     {
       "source": "allevents-grand-rapids",
-      "detail": "allevents: 4 events",
-      "events": 4
+      "detail": "allevents: 8 events",
+      "events": 8
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 9 events",
-      "events": 9
+      "detail": "allevents: 8 events",
+      "events": 8
     },
     {
       "source": "allevents-ashland",
+      "detail": "allevents: 23 events",
+      "events": 23
+    },
+    {
+      "source": "allevents-intl-falls",
       "detail": "allevents: 10 events",
       "events": 10
     },
     {
-      "source": "allevents-intl-falls",
-      "detail": "allevents: 5 events",
-      "events": 5
-    },
-    {
       "source": "umd-bulldogs",
-      "detail": "sidearm: 79 home/neutral events",
-      "events": 79
+      "detail": "sidearm: 78 home/neutral events",
+      "events": 77
     },
     {
       "source": "uws-yellowjackets",
-      "detail": "sidearm: 105 home/neutral events",
-      "events": 104
+      "detail": "sidearm: 103 home/neutral events",
+      "events": 103
     },
     {
       "source": "css-saints",
-      "detail": "sidearm: 65 home/neutral events",
-      "events": 63
+      "detail": "sidearm: 62 home/neutral events",
+      "events": 62
     },
     {
       "source": "norshor-playhouse",
@@ -345,8 +345,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "tribe: 29 events",
-      "events": 29
+      "detail": "tribe: 28 events",
+      "events": 28
     },
     {
       "source": "sacred-heart",
@@ -380,8 +380,8 @@
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 111 events",
-      "events": 111
+      "detail": "tribe: 110 events",
+      "events": 110
     },
     {
       "source": "decc",
@@ -435,7 +435,7 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 69 events (webspace fonddulac)",
+      "detail": "no adapter produced events  [carried forward from 2026-10-04]",
       "events": 69
     }
   ]
