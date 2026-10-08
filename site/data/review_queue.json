@@ -1,457 +1,7 @@
 {
-  "generated": "2026-10-06T17:28:40Z",
-  "count": 328,
+  "generated": "2026-10-08T18:05:46Z",
+  "count": 349,
   "events": [
-    {
-      "key": "eccd772f389247bf",
-      "title": "1031 Exchange: From the Basics to the Complex in Real Estate Transactions",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "Lake Superior Area REALTORS",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jM2IxY2RmZWU3YWFhYmUyNjEzYjFiNmE5MjRmODJjZTUzNzE2NDY1ZmJhNWY2NzlhNDBiYmUyYmI5Y2Q4MDkxLXJpbWctdzEyMDAtaDY3Ni1kY2E2YTM5Mi1nbWlyLmpwZz92PTE3ODQxMDA5MjI.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/1031-exchange-from-the-basics-to-the-complex-in-real-estate-transactions/100001993947014195"
-      }
-    },
-    {
-      "key": "74e2907c8c107f1d",
-      "title": "Night of the Creeps",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "222 E Superior St, Duluth, MN, United States, Minnesota 55802",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83NjE5NzkxNjQ0YWY2YjhjODg3MmY2YjFmNDIyMGIwODM4YTk2ZDdhMDBjYjA5MTdlNWQ3NjljMjUxOWJiMTZiLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTEwNDMwOA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/night-of-the-creeps/200030770582528"
-      }
-    },
-    {
-      "key": "0750035dc01d478d",
-      "title": "One to One",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "4843 London Road , Duluth, MN, United States, Minnesota 55804",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy83NjFlNGM4ZTJmNTZkMzUwMjM1ODlhM2IwODc5YWY1YTM0MzE0MTdiMGYzYmRlMmI2N2Q4NTliZjczN2E1YTlmLXJpbWctdzEwMDAtaDY2Ny1kY2M4NzhhOC1nbWlyP3Y9MTc5MTEwNDMxNA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/one-to-one/200030770583934"
-      }
-    },
-    {
-      "key": "47f6405e2a1652ec",
-      "title": "BOB Book Club",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
-      "city": "Cloquet",
-      "area": "Cloquet",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy84YzM4YWIxMzhmMjVlNWI1Mjk4MzY4ZWQ4ZWViYWRmOGVhZDYyNjg4OGIwYmYzOTJhMmNhYjM5YmI3YTIzZTRlLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTEwNDA4OTQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Cloquet",
-        "url": "https://allevents.in/cloquet/bob-book-club/200030766282735"
-      }
-    },
-    {
-      "key": "26a53f9264588b66",
-      "title": "Yuya Mix: Live Japanese Music Program",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "320 Waterfront Dr, Two Harbors, MN, United States, Minnesota 55616",
-      "city": "Two Harbors",
-      "area": "Two Harbors",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84NDkwNWFjZjJhYTg0NzlkOGI4N2JkNGFjYmZhNWY4ODdkNzc4YTNlMDJjNTZmZTU5YTQ2NjE1YTRkZmZlOGUyLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODU4MjI3NA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Two Harbors",
-        "url": "https://allevents.in/two-harbors/yuya-mix-live-japanese-music-program/200030660672934"
-      }
-    },
-    {
-      "key": "b262654715df51c9",
-      "title": "Registration for Holiday Bazaar- Northern Great Lakes Visitor Center 2026",
-      "start": "2026-10-06T00:00:00",
-      "end": "2026-10-06T00:00:00",
-      "all_day": true,
-      "venue": "Northern Great Lakes Visitor Center",
-      "city": "Ashland",
-      "area": "Ashland",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81OGZiNzgxMjU2YTcyNTBlODg0NWFlYTJiOGIzZDljYzFmYTQ2NmJmOTBiZDM5YmE1YzM1ZWM0ODE0NDgzYmY2LXJpbWctdzk0MC1oNzA1LWRjNjg2ODU4LWdtaXI_dj0xNzkxMTUyMDIx.avif",
-      "source": {
-        "name": "AllEvents \u2014 Ashland",
-        "url": "https://allevents.in/ashland/registration-for-holiday-bazaar-northern-great-lakes-visitor-center-2026/200030777384541"
-      }
-    },
-    {
-      "key": "018e6e90134dcdba",
-      "title": "Redshift Session 04 \\\\ The Reproduction of Death",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Central Hillside Community Center",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZDI2NDI4MzEzZTVhYjkyNmI4ZjUxZTdiMGI5MjEwMDIwYzRiNWZiY2EzOTAyYWE1NjAzZWNhZjZlZWVhMjBkYi1yaW1nLXcxMjAwLWg2MjgtZGNmOGY4ZjgtZ21pcj92PTE3OTExNDU0MjU.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/redshift-session-04-the-reproduction-of-death/200030776409345"
-      }
-    },
-    {
-      "key": "1550116d4846a2c2",
-      "title": "Community Bingo",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "2501 Rice Lake Road, Duluth, MN, United States, Minnesota 55811",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8zY2I1YzM3MzBlNmYyMzg3YWJkMWJiMDcxMmI3NWI4YTE2OGJkOTdlOWY1YzlhMzllZDExZTJlYzQ2MDA4MmM4LXJpbWctdzEwMjQtaDE1MzYtZGNmOGY4ZTgtZ21pcj92PTE3OTExNTc2MDU.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/community-bingo/200030778352246"
-      }
-    },
-    {
-      "key": "03060f21f29222a8",
-      "title": "Duluth, MN Roadshow- A free, Five Day Only Buying Event",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "La Quinta Inn & Suites by Wyndham Duluth",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mMDQzNDBmYWQ3MDk4YzQ5ZDE4N2ZhZDNmOTJkZDY5ZGY0MzAwNTZhZDIxZjYyNDQyMmQyY2FiM2I1OTUwYWI4LXJpbWctdzEyMDAtaDY3NS1kYzE4MTgxOC1nbWlyLmpwZz92PTE3OTA3MjczNjM.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/duluth-mn-roadshow-a-free-five-day-only-buying-event/100002002569309713"
-      }
-    },
-    {
-      "key": "a805c25de4905365",
-      "title": "PMP Training Course | 4 Day PMP Certification Bootcamp in Duluth, MN",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "200 W 1st St",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRiZmIwZmU3YTkwZThlZTQyNTcwZTNkYzc0YmU4NTZhNTI3MjJiZDQ0MzQ0ZDQwNzlkNTM5Njc3YmYzYWFlNi1yaW1nLXcxMjAwLWg2MDAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzg4OTMxNzQz.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/pmp-training-course-4-day-pmp-certification-bootcamp-in-duluth-mn/100001999729107592"
-      }
-    },
-    {
-      "key": "cea9d6050850201c",
-      "title": "Speaker Series- USS Indianapolis",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "305 Harbor View Pkwy, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80OWQ1MjA1ZjZmNjAwYzk3MDE1ZWNjYjEyZjBmMzgwODEyNjAwYjcwYzRhZGViMTM1Yjg3M2FkYzRiOWU4NjBlLXJpbWctdzg4MC1oNDk1LWRjZDhkOGQ4LWdtaXI_dj0xNzkxMTQ1NzE4.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/speaker-series-uss-indianapolis/200030776465739"
-      }
-    },
-    {
-      "key": "d6a5303a6bba9d8e",
-      "title": "Local History Help",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yMTJlNjVhZmQzNmQ4NmI0MTYwYzBjYzI3MDI3ZmQzNTA0ZmFkYWIxYzljNWRiMDQzNjM0NzEzYzgyNzljMzE4LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTA3MzA5Ng.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/local-history-help/200030683874156"
-      }
-    },
-    {
-      "key": "f84274969c85ac15",
-      "title": "2026 Forestry Center 5k Run/Walk",
-      "start": "2026-10-06T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "175 University Rd, Cloquet, MN, United States, Minnesota 55720",
-      "city": "Cloquet",
-      "area": "Cloquet",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzhhNjhkNDg0NDQwZDNhYjY0N2I5Nzg1M2Y3NWVjNWJmMzA2ZjhhMGU0NTUyNjkxYjcxMzQwMjUwZTNiZDA0LXJpbWctdzEyMDAtaDUwMC1kYzk4ODg2OC1nbWlyP3Y9MTc4Njk3MDA0Mg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Cloquet",
-        "url": "https://allevents.in/cloquet/2026-forestry-center-5k-run-walk/200030455361553"
-      }
-    },
-    {
-      "key": "38a1d254f495c0f8",
-      "title": "Midweek Service",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "30 N 58th Ave W, Duluth, MN, United States, Minnesota 55807",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zNWI3MzAxZGI3NmRlMTRhMTUzNDA4ZDkzNzkyNGJiOTMwMDUyYTRiYTc1YTc1YzFiMjNkZjIxZGMwMTMxMjEzLXJpbWctdzEyMDAtaDYzMC1kYzc4Njg1OC1nbWlyP3Y9MTc5MTEwNDMzMA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/midweek-service/200030770586550"
-      }
-    },
-    {
-      "key": "88797b1f3647eace",
-      "title": "Witches bells wreath class",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "All American Club",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNzQzNTJhZjM2ZjIzMzNiM2ZmYTNhYjMyMjc4MDNhY2EyYzYwODZkZmM1MjExNGJlODk2Yjg3NWRiMzRmNjY2NC1yaW1nLXc4NDMtaDIwMTAtZGM2ODY4NjgtZ21pcj92PTE3ODg0OTk4OTQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/witches-bells-wreath-class/200030613283949"
-      }
-    },
-    {
-      "key": "eda865959f43d79f",
-      "title": "Fred Clark - Alfonso Debate Watch Party",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "1109 Tower Avenue entrance is in the back of the building, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9lYTA5ZTA0YzNhYTU5NmIzY2YzMzliMGQ0Njg3YzVhMjBhNDYxYjU3MDNlODNkMzM3ZTQ4MDVlZjdiNjA4NjJhLXJpbWctdzEwODAtaDE0NDAtZGNkOGQ4ZDgtZ21pcj92PTE3OTExNTk5OTE.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/fred-clark-alfonso-debate-watch-party/200030778714631"
-      }
-    },
-    {
-      "key": "a3e96b1a17191d20",
-      "title": "Jason Owen at Jack's Place",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "Jack's Place",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mYjgzNzgzY2ZlODlmNjU5NzcwMmUzZDE0OWJkNzQ5NTg5ZDk3Y2M2MmI1NmJjNGViYTUzNjYxMTE1NDdlNDY3LXJpbWctdzk3NC1oOTc0LWRjMTgxODE4LWdtaXI_dj0xNzg4NDAwNTU4.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/jason-owen-at-jacks-place/200030650819859"
-      }
-    },
-    {
-      "key": "01834a8ecfb60271",
-      "title": "Tinker Kids - Clothespin Bats",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
-      "city": "Cloquet",
-      "area": "Cloquet",
-      "category": "family",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84YWQ0NmU2MGY3ODVhZjIyNjJmMGFmNDVmZGM4OThkYWI5YzBlOGM2NmNlZDM1Y2Q3NmM1ZmQ2NmM0MWVmYzRkLXJpbWctdzEyMDAtaDkyNy1kY2Y4ZThlOC1nbWlyP3Y9MTc5MDUxMDAzMA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Cloquet",
-        "url": "https://allevents.in/cloquet/tinker-kids-clothespin-bats/200030744413950"
-      }
-    },
-    {
-      "key": "02c6046fa953cdce",
-      "title": "D&D Encounters: Season of Magic! Special Play Event.",
-      "start": "2026-10-07T00:00:00",
-      "end": "2026-10-07T00:00:00",
-      "all_day": true,
-      "venue": "307 Main St West, Ashland, WI, United States, Wisconsin 54806",
-      "city": "Ashland",
-      "area": "Ashland",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zMTQyZDEzNTRlYjkzZWU2ZWVhOTU1OTljMmIzOGM3YTMyMTY2NjA5MzZjNTM0NjUwMDBmOThjMWMxNjY0ZDAyLXJpbWctdzEyMDAtaDMxNC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTE1MjAzNw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Ashland",
-        "url": "https://allevents.in/ashland/dandd-encounters-season-of-magic-special-play-event/200030777388157"
-      }
-    },
-    {
-      "key": "26858b5af98a7c47",
-      "title": "Foodies + New Friends: Duluth (Giving Back Edition)",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Restaurant of the Week",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85MGJhY2RkOWUwOTU3ZjhkMDM5Mjc2YzYwMTdiY2JmZTBhMzk5OTUzNjhiNjljYjQ3OWU3MTc1ZjRiOTk0YzNkLXJpbWctdzEyMDAtaDkwMC1kYzAzMDMwMy1nbWlyLmpwZz92PTE3NzczODA3MTc.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/foodies-new-friends-duluth-giving-back-edition/100001975608357780"
-      }
-    },
-    {
-      "key": "8dcf496844268ae3",
-      "title": "Protection Wreath Bells",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy83NjczYWU4OTZlODM1ZTkxMjMwODg1ZDMwNjcxM2MyNzlhM2Y3Mjc5YzNkZGExY2U1ZDkyNmRjMzVmNWQ5MWU2LXJpbWctdzY0MC1oMzYwLWRjYzhjOGE4LWdtaXI_dj0xNzkxMTM0NDg2.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/protection-wreath-bells/200030774662127"
-      }
-    },
-    {
-      "key": "2db7e5eb78c9f646",
-      "title": "2 Days Certified Scrum Product Owner (CSPO) Training in Duluth, MN",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "200 W 1st St",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYzA0MTZkZjcwYjMxN2EzY2JlMGVmOTYwMDQyNDIzZTIwNGVjZjYwM2IwNzFjMzRhODhmMTdiYWQ1NTI4N2IyMC1yaW1nLXcxMjAwLWg2MDAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzg5NTA2MTQ4.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/2-days-certified-scrum-product-owner-cspo-training-in-duluth-mn/100002001016738932"
-      }
-    },
-    {
-      "key": "e11e604e67abb00b",
-      "title": "Pruitt Center Yoga",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Jim Dan Hill Library",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jZWNhNWQwZDg1OGYyZmZkN2FlMWZlMWY0ZGQ3ZjAwOWU0MzMxNDcxMGE3NzMxNTQ5ZDBkYzRjOWEzNzhiZWExLXJpbWctdzEyMDAtaDY3NS1kYzc4Nzg3OC1nbWlyP3Y9MTc4OTAxMTk1Nw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/pruitt-center-yoga/200030681639857"
-      }
-    },
-    {
-      "key": "1c3bd1cc7a2631ae",
-      "title": "Wednesday Work Night",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "2334 Oakes Ave, Superior, WI 54880-4826, United States",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy84MmM0YTI2MGFhNGQ4MTMxZGM5NGUyY2VmNWI3YTc5YjVjOWJjNzc5MTU5Yzc3M2E4NGZhNWQxMjAxZDNlMTQxLXJpbWctdzU5MC1oNTg5LWRjZjhmOGY4LWdtaXI_dj0xNzg5MDExOTUy.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/wednesday-work-night/200030681638953"
-      }
-    },
-    {
-      "key": "3f0307f521e6060a",
-      "title": "Community Resource Connection",
-      "start": "2026-10-07T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85NjcyNjFmZjA1NzQ2NTdhMzEyYjZhMGRmY2U1MGE3YzU1ZmNlYTgzNGZlM2E5MWJmN2I5ZGQzOWE1YmZmYjYxLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTI4OTU1NQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/community-resource-connection/200030787640255"
-      }
-    },
     {
       "key": "ac9d8505db656eb1",
       "title": "Lake Superior Live Music Cruise",
@@ -489,24 +39,6 @@
       }
     },
     {
-      "key": "c404fe7eae8b2481",
-      "title": "Perimenopause & Menopause Support Group",
-      "start": "2026-10-08T00:00:00",
-      "end": "2026-10-08T00:00:00",
-      "all_day": true,
-      "venue": "1420 London Rd Suite 204, Duluth, MN",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMmZiM2M4NGFhMzljZDllMWI0YTI1NjQyZGM3MzliNzZhNjI5NWNiNjc4YTQ1ZjA5MTZkMTQ2NGI5OWNlZTY2OC1yaW1nLXcxMjAwLWgxNjAwLWRjYjhkOGY4LWdtaXI_dj0xNzkxMDQ1ODI5.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/perimenopause-and-menopause-support-group/200030767129142"
-      }
-    },
-    {
       "key": "9cdab170ee50c588",
       "title": "District 8 Candidate Forum",
       "start": "2026-10-08T00:00:00",
@@ -540,6 +72,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/fall-blood-drive/200030695860121"
+      }
+    },
+    {
+      "key": "c404fe7eae8b2481",
+      "title": "Perimenopause & Menopause Support Group",
+      "start": "2026-10-08T00:00:00",
+      "end": "2026-10-08T00:00:00",
+      "all_day": true,
+      "venue": "1420 London Rd Suite 204, Duluth, MN",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMmZiM2M4NGFhMzljZDllMWI0YTI1NjQyZGM3MzliNzZhNjI5NWNiNjc4YTQ1ZjA5MTZkMTQ2NGI5OWNlZTY2OC1yaW1nLXcxMjAwLWgxNjAwLWRjYjhkOGY4LWdtaXI_dj0xNzkxMDQ1ODI5.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/perimenopause-and-menopause-support-group/200030767129142"
       }
     },
     {
@@ -633,24 +183,6 @@
       }
     },
     {
-      "key": "bd27d7993b939d91",
-      "title": "Michelle Perander Lectureship",
-      "start": "2026-10-08T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "The Garden",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83NGJiYjU4NGZmOWZmNGY4MGY4NWQzY2NlOWZhNGE5MGZiNTMxYjA0ZGYxMDkzNGYyZWUyOGMwM2E1ZTgyZWQwLXJpbWctdzk2MC1oNjM1LWRjNjg1ODk4LWdtaXI_dj0xNzkxMTQ1NDIy.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/michelle-perander-lectureship/200030776408742"
-      }
-    },
-    {
       "key": "ad88c7b0e99c9c1a",
       "title": "{In-Person; Duluth, MN} Healing Hearts Support Group",
       "start": "2026-10-08T00:00:00",
@@ -669,6 +201,42 @@
       }
     },
     {
+      "key": "82fff80cb88054c3",
+      "title": "Duluth, MN Roadshow- A free, Five Day Only Buying Event",
+      "start": "2026-10-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "La Quinta Inn & Suites by Wyndham Duluth",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mMDQzNDBmYWQ3MDk4YzQ5ZDE4N2ZhZDNmOTJkZDY5ZGY0MzAwNTZhZDIxZjYyNDQyMmQyY2FiM2I1OTUwYWI4LXJpbWctdzEyMDAtaDY3NS1kYzE4MTgxOC1nbWlyLmpwZz92PTE3OTA3MjczNjM.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/duluth-mn-roadshow-a-free-five-day-only-buying-event/100002002569309713"
+      }
+    },
+    {
+      "key": "bd27d7993b939d91",
+      "title": "Michelle Perander Lectureship",
+      "start": "2026-10-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "The Garden",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83NGJiYjU4NGZmOWZmNGY4MGY4NWQzY2NlOWZhNGE5MGZiNTMxYjA0ZGYxMDkzNGYyZWUyOGMwM2E1ZTgyZWQwLXJpbWctdzk2MC1oNjM1LWRjNjg1ODk4LWdtaXI_dj0xNzkxMTQ1NDIy.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/michelle-perander-lectureship/200030776408742"
+      }
+    },
+    {
       "key": "4555b7452c95c05f",
       "title": "Collage Concert",
       "start": "2026-10-08T00:00:00",
@@ -684,6 +252,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/collage-concert/200030469348747"
+      }
+    },
+    {
+      "key": "adee9a6881f48e5b",
+      "title": "Local History Help",
+      "start": "2026-10-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yMTJlNjVhZmQzNmQ4NmI0MTYwYzBjYzI3MDI3ZmQzNTA0ZmFkYWIxYzljNWRiMDQzNjM0NzEzYzgyNzljMzE4LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTA3MzA5Ng.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/local-history-help/200030683874156"
       }
     },
     {
@@ -741,24 +327,6 @@
       }
     },
     {
-      "key": "81146326340057ab",
-      "title": "RLMC + Community Partners Health & Wellness Fair",
-      "start": "2026-10-08T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Rainy River Community College",
-      "city": "International Falls",
-      "area": "International Falls",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8zYzU2NmUwYmZkYzMyNTlhMjRmYTFhYzFkZWE3OTBlNWM2ZTc5YmJjMDM3Y2E3OWRlNTM4MjZiMmMwMzFjYTljLXJpbWctdzg1MS1oMzE1LWRjZjhmOGY4LWdtaXI_dj0xNzkxMTQxNTk5.avif",
-      "source": {
-        "name": "AllEvents \u2014 International Falls",
-        "url": "https://allevents.in/international-falls/rlmc-community-partners-health-and-wellness-fair/200030775539856"
-      }
-    },
-    {
       "key": "292436ddf43ae580",
       "title": "KHS Bingo Night!",
       "start": "2026-10-08T00:00:00",
@@ -777,6 +345,24 @@
       }
     },
     {
+      "key": "81146326340057ab",
+      "title": "RLMC + Community Partners Health & Wellness Fair",
+      "start": "2026-10-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Rainy River Community College",
+      "city": "International Falls",
+      "area": "International Falls",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8zYzU2NmUwYmZkYzMyNTlhMjRmYTFhYzFkZWE3OTBlNWM2ZTc5YmJjMDM3Y2E3OWRlNTM4MjZiMmMwMzFjYTljLXJpbWctdzg1MS1oMzE1LWRjZjhmOGY4LWdtaXI_dj0xNzkxMTQxNTk5.avif",
+      "source": {
+        "name": "AllEvents \u2014 International Falls",
+        "url": "https://allevents.in/international-falls/rlmc-community-partners-health-and-wellness-fair/200030775539856"
+      }
+    },
+    {
       "key": "273e39df579ecdcf",
       "title": "Fall Y'all Craft & Gift Show",
       "start": "2026-10-09T00:00:00",
@@ -792,6 +378,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/fall-yall-craft-and-gift-show/200029796890429"
+      }
+    },
+    {
+      "key": "1c8e0455ec6e2043",
+      "title": "Forest Lake vs. East Ridge | Varsity Football 2026",
+      "start": "2026-10-09T00:00:00",
+      "end": "2026-10-09T00:00:00",
+      "all_day": true,
+      "venue": "East High School (Duluth, Minnesota)",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8wOTM0NTFhMDBkOWNlNjk1ZGQwZjBmNmE0NmY5YmFiY2YwMGFkZGQ1MGFjNzk5Y2I3NWVjNmRhZDYxNjA5ZDc3LXJpbWctdzEyMDAtaDY3Ni1kYzA4MDgwOC1nbWlyP3Y9MTc5MTM2ODkxMw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/forest-lake-vs-east-ridge-varsity-football-2026/200030798898228"
       }
     },
     {
@@ -921,6 +525,60 @@
       }
     },
     {
+      "key": "b4174e96871ff10e",
+      "title": "Haunted Hawthorne",
+      "start": "2026-10-09T00:00:00",
+      "end": "2026-10-09T00:00:00",
+      "all_day": true,
+      "venue": "827 Hawthorne St., Cloquet, MN",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYzI4MTllYmJjMTYxYzk5MDYxZmY1Mzg2MzYzMDE2YWUzMGE5MWFmMDJlYzkwMmYzODRkNDIxZGY2YTFjNTdjMi1yaW1nLXcxMjAwLWgxNTc5LWRjMDgwODA4LWdtaXI_dj0xNzkxNDM0MzQz.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/haunted-hawthorne/200030802590103"
+      }
+    },
+    {
+      "key": "2ec3ebe24919a0b2",
+      "title": "Community Chess Club",
+      "start": "2026-10-09T00:00:00",
+      "end": "2026-10-09T00:00:00",
+      "all_day": true,
+      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvOGRhNTk2NzlkNzUzOTFlMWRhYzE5YzRiOThkMmY2M2M2OWYyYjg5MWU4ZTYxNmJmY2UxNmRiNjYxZTgzZWE4NS1yaW1nLXc5NDAtaDc4OC1kY2Y4ZjhkOC1nbWlyP3Y9MTc5MTI2MTIzMg.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/community-chess-club/200030782931552"
+      }
+    },
+    {
+      "key": "b6d651632c32f2a3",
+      "title": "Garage Sale Cloquet, Multi Family",
+      "start": "2026-10-09T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "Cloquet, Minnesota",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xNzNlMWZkZTk5OWEzZmFkNjA2MzViNDRjYzA1ZDM5Nzg3NDU4NTAwNzA2Y2EwNTVhOWI1NzA0OWQ3NjI4ODhiLXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTE0MzYxNTQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/garage-sale-cloquet-multi-family/200030802817514"
+      }
+    },
+    {
       "key": "b384e700f56c8f82",
       "title": "Haven Turns One!",
       "start": "2026-10-09T00:00:00",
@@ -957,6 +615,24 @@
       }
     },
     {
+      "key": "723d200380f75a5e",
+      "title": "Foodies + New Friends: Duluth (Giving Back Edition)",
+      "start": "2026-10-09T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Restaurant of the Week",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85MGJhY2RkOWUwOTU3ZjhkMDM5Mjc2YzYwMTdiY2JmZTBhMzk5OTUzNjhiNjljYjQ3OWU3MTc1ZjRiOTk0YzNkLXJpbWctdzEyMDAtaDkwMC1kYzAzMDMwMy1nbWlyLmpwZz92PTE3NzczODA3MTc.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/foodies-new-friends-duluth-giving-back-edition/100001975608357780"
+      }
+    },
+    {
       "key": "917ae9b289942612",
       "title": "Line dancing with Jean",
       "start": "2026-10-09T00:00:00",
@@ -972,24 +648,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/line-dancing-with-jean/200030770582830"
-      }
-    },
-    {
-      "key": "aaeccdfe726f7ba2",
-      "title": "Foodies + New Friends: Duluth",
-      "start": "2026-10-09T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Restaurant of the Week",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kZjQ0NTFhNjA3MGEzOWFjYzJjNzgwMzk0NzZkNzU3MjRmMzZhMjMzM2U1NDE1MTEyOWJlNmZjMGYzNWJiYzI0LXJpbWctdzEyMDAtaDc0MC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkyMTI2NjY.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/foodies-new-friends-duluth/100001998334455149"
       }
     },
     {
@@ -1101,21 +759,39 @@
       }
     },
     {
-      "key": "f92976d698dec6ec",
-      "title": "\ud83c\udf4e Cider Donuts, Cider Slushies, HOT Cider + Iced Coffee at \"Big Bad Apple Bash\" at Duluth Cider!",
+      "key": "94bb001235f58210",
+      "title": "Fall Open House",
       "start": "2026-10-10T00:00:00",
       "end": "2026-10-10T00:00:00",
       "all_day": true,
-      "venue": "Duluth Cider in Duluth, Minnesota (2307 W Superior Street)",
+      "venue": "3802 Grand Avenue, Duluth, MN, United States, Minnesota 55807",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "food-drink",
+      "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kMGRmNThlOThiYTliZmM3NGM5OTM3ZGEyYmI4M2Q5ZjZiMTNhMzNjNjE3ZjQ4NzY4MGFmYWE3OGZmYzRmOGQyLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTExMjYyOTM.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy81ZTg0ZTQ4MGFkMTY5NWI3OTM5NTgyZTNhZDkxODZmYmM2ZTdkOGYwMWY2YThjZmFjNmQ2YmZmODk4Y2UyMDhkLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTM2ODkyOQ.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/cider-donuts-cider-slushies-hot-cider-iced-coffee-at-big-bad-apple-bash-at-duluth-cider/200030772830754"
+        "url": "https://allevents.in/duluth/fall-open-house/200030798898328"
+      }
+    },
+    {
+      "key": "d982bd0615f75b99",
+      "title": "Bonus Weekend at Farmer Doug's Pumpkin Patch",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-11T00:00:00",
+      "all_day": true,
+      "venue": "3361 Lindahl Road, Duluth, MN",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kZGVkODljMWNjN2VlZjNiNmFiNWE4YWIwY2ViMjM4NDZiZDkwYzNlYmU1OGRlZTE1ZmIxY2I1MmU0OWYzZGM3LXJpbWctdzEwMjQtaDEwMjQtZGNmOGY4ZTgtZ21pcj92PTE3OTEzMjkxNzE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/bonus-weekend-at-farmer-dougs-pumpkin-patch/200030793714712"
       }
     },
     {
@@ -1155,6 +831,42 @@
       }
     },
     {
+      "key": "f92976d698dec6ec",
+      "title": "\ud83c\udf4e Cider Donuts, Cider Slushies, HOT Cider + Iced Coffee at \"Big Bad Apple Bash\" at Duluth Cider!",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "Duluth Cider in Duluth, Minnesota (2307 W Superior Street)",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kMGRmNThlOThiYTliZmM3NGM5OTM3ZGEyYmI4M2Q5ZjZiMTNhMzNjNjE3ZjQ4NzY4MGFmYWE3OGZmYzRmOGQyLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTExMjYyOTM.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/cider-donuts-cider-slushies-hot-cider-iced-coffee-at-big-bad-apple-bash-at-duluth-cider/200030772830754"
+      }
+    },
+    {
+      "key": "0aa446c67eded073",
+      "title": "Modern Every Saturday",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "Level UP Superior",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy83N2IwYzI2ZGQ2M2RkYTMyOTljMDcwOTM1MGVmNzJhYzY4ZDFkODNiMDFjYTkyOTQzOWIzOTFjZDM0Yjg5NDE0LXJpbWctdzEyMDAtaDEwMTQtZGNjODk4NjgtZ21pcj92PTE3OTEyODk1NDQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/modern-every-saturday/200030787638044"
+      }
+    },
+    {
       "key": "2d59bf3135876e0d",
       "title": "Meet poet Jonathan Asp",
       "start": "2026-10-10T00:00:00",
@@ -1188,24 +900,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/livewell-fall-family-fun-nature-play/200030761200435"
-      }
-    },
-    {
-      "key": "0aa446c67eded073",
-      "title": "Modern Every Saturday",
-      "start": "2026-10-10T00:00:00",
-      "end": "2026-10-10T00:00:00",
-      "all_day": true,
-      "venue": "Level UP Superior",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy83N2IwYzI2ZGQ2M2RkYTMyOTljMDcwOTM1MGVmNzJhYzY4ZDFkODNiMDFjYTkyOTQzOWIzOTFjZDM0Yjg5NDE0LXJpbWctdzEyMDAtaDEwMTQtZGNjODk4NjgtZ21pcj92PTE3OTEyODk1NDQ.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/modern-every-saturday/200030787638044"
       }
     },
     {
@@ -1278,6 +972,42 @@
       "source": {
         "name": "AllEvents \u2014 Hibbing",
         "url": "https://allevents.in/hibbing/lets-paint-fundraiser-for-iron-range-women-of-today/200030607607437"
+      }
+    },
+    {
+      "key": "c8289e098db5d0fc",
+      "title": "Cheers to 6 Years!",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "28 Cromer Avenue, Grand Falls, NL, Canada",
+      "city": "Grand Falls-windsor",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kZmE1ODkyYzk2YmQwNjY4NDNlOWI2ODE4NGE2YzU3MzI0ZmMzYzc0MDgxZGVmOTg0NDE0ZTFlYjkyMjkwNmMzLXJpbWctdzEyMDAtaDE2MDEtZGNhODc4NDgtZ21pcj92PTE3OTE0Mzc5ODQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Grand Rapids",
+        "url": "https://allevents.in/grand-falls-windsor/cheers-to-6-years/200030803205844"
+      }
+    },
+    {
+      "key": "110a9950db66587b",
+      "title": "Two Harbors Farmers Market 2026 Season",
+      "start": "2026-10-10T00:00:00",
+      "end": "2026-10-10T00:00:00",
+      "all_day": true,
+      "venue": "820 11th Street, Two Harbors, MN",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81MGM0YmIyNzEwMTE2ODY5MzQ5ZmEzZTliZGIwYWU2ZjAwMjc5ZGViMDc2YTdkNWUyYWE2MjU4YTc4OTRhMWZiLXJpbWctdzEwODAtaDEzNTAtZGM1ODM4MjgtZ21pcj92PTE3OTEzMjQ2ODk.avif",
+      "source": {
+        "name": "AllEvents \u2014 Two Harbors",
+        "url": "https://allevents.in/two-harbors/two-harbors-farmers-market-2026-season/200030793548029"
       }
     },
     {
@@ -1368,6 +1098,96 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/fall-flannel-fest-2026/200030717582337"
+      }
+    },
+    {
+      "key": "4a035ef775660890",
+      "title": "[FULL] LEGO Halloween Build Event",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1600 Miller Trunk Hwy, # L25, Duluth, MN 55811",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy81YTk0ZGRiYTJjYTc0MzYzYmYxM2I0NzQyN2RiZTdiOTIyMjM2YzRmMTk2MWNjZjA1NWZkNjI4MGNmMzFlMjc1LXJpbWctdzEwODAtaDEzNTAtZGNmODk4NDgtZ21pcj92PTE3OTE0MzcxMTY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/full-lego-halloween-build-event/200030803025616"
+      }
+    },
+    {
+      "key": "f4bad2e6e1e0fbc2",
+      "title": "A Band Called Truman! All Sea Monsters are Girls! And Mid Dream!",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Duluth Cider",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kNWYyNmE1NDNhZDdkM2U4YThjNzJlMTliYzA0ZDQ1NTgzY2JhZDhjZDAwYWEyYWEwZTYyYjBmZDdkMTlmZWEwLXJpbWctdzEyMDAtaDc5Ni1kYzA4MDgwOC1nbWlyP3Y9MTc5MTM5MTgyNw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/a-band-called-truman-all-sea-monsters-are-girls-and-mid-dream/200030800958521"
+      }
+    },
+    {
+      "key": "02982a3b97234adc",
+      "title": "2 Days Certified Scrum Product Owner (CSPO) Training in Duluth, MN",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "200 W 1st St",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYzA0MTZkZjcwYjMxN2EzY2JlMGVmOTYwMDQyNDIzZTIwNGVjZjYwM2IwNzFjMzRhODhmMTdiYWQ1NTI4N2IyMC1yaW1nLXcxMjAwLWg2MDAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzg5NTA2MTQ4.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/2-days-certified-scrum-product-owner-cspo-training-in-duluth-mn/100002001016738932"
+      }
+    },
+    {
+      "key": "b61200beeab4246d",
+      "title": "PMP Training Course | 4 Day PMP Certification Bootcamp in Duluth, MN",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "200 W 1st St",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRiZmIwZmU3YTkwZThlZTQyNTcwZTNkYzc0YmU4NTZhNTI3MjJiZDQ0MzQ0ZDQwNzlkNTM5Njc3YmYzYWFlNi1yaW1nLXcxMjAwLWg2MDAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzg4OTMxNzQz.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/pmp-training-course-4-day-pmp-certification-bootcamp-in-duluth-mn/100001999729107592"
+      }
+    },
+    {
+      "key": "bb39cce8fe3425f3",
+      "title": "live at Birds 8pm",
+      "start": "2026-10-10T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Birds Bar",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "music",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZGI5MDNkOTA4OTU1ODU4ZWUxN2FmMzc5M2ZmNmEzYzY3NGEzMzU1MmJjOWYxYzI2Y2I3YWJmNTJmMzNmMmIzLXJpbWctdzEyMDAtaDE2MDAtZGMwODA4MDgtZ21pcj92PTE3OTEzNTUwODU.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/live-at-birds-8pm/200030795775705"
       }
     },
     {
@@ -1497,6 +1317,24 @@
       }
     },
     {
+      "key": "84dc15af29c0e6bd",
+      "title": "Make Your Own Macrame Crystal Keychain",
+      "start": "2026-10-11T00:00:00",
+      "end": "2026-10-11T00:00:00",
+      "all_day": true,
+      "venue": "820 Tower Ave, Superior, WI, United States, Wisconsin",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hZmViOWE1MjU5MGEyZDI0N2MzYzY2MzliOWM3MDQzNmY1M2U1ZjdhNTc3NjNhYjFlNzhiNjRmZTJhMzc5ODFjLXJpbWctdzg1MS1oMzE1LWRjYTg1OGE4LWdtaXI_dj0xNzkxMzU1NzQ1.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/make-your-own-macrame-crystal-keychain/200030795948005"
+      }
+    },
+    {
       "key": "048380b186ea0167",
       "title": "Sustainable Makes: Scrap Fabric Woven into Baskets! 10/11",
       "start": "2026-10-11T00:00:00",
@@ -1512,6 +1350,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/sustainable-makes-scrap-fabric-woven-into-baskets-10-11/200030748028253"
+      }
+    },
+    {
+      "key": "c705e677e2a7aba6",
+      "title": "Music Open Mic",
+      "start": "2026-10-11T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Duluth Folk School",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "music",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy83ZDM0NzgwMzc4Y2QzMGNkNmNkYzA5NjQyZWNhYjY1NmZlZTY0MWYzYjc5MWMxZWEyNGFhNGMwMWZmMTc0YzNkLXJpbWctdzEyMDAtaDY3NS1kYzU4NTgzOC1nbWlyP3Y9MTc5MDU3NzY3NA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/music-open-mic/200030746759214"
       }
     },
     {
@@ -1533,6 +1389,24 @@
       }
     },
     {
+      "key": "320bf13397285ad3",
+      "title": "Book Bedazzling AM",
+      "start": "2026-10-11T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1401 Tower Avenue, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy82MWE1ODVhNTM2MzdmMzc5MTVkZjYyMWRmN2RhOTgxMjE5OGM4MTVkMThmMGIyYjM4YTY2MzVkMjViMjEyODNhLXJpbWctdzEyMDAtaDE2MDAtZGM5OGE4OTgtZ21pcj92PTE3OTA1OTU1ODE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/book-bedazzling-am/200030748003241"
+      }
+    },
+    {
       "key": "42551d3e309c5363",
       "title": "DJ Trivia",
       "start": "2026-10-11T00:00:00",
@@ -1548,6 +1422,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/dj-trivia/200030748746601"
+      }
+    },
+    {
+      "key": "6b5d1173e885d912",
+      "title": "Our Redeemer Lutheran 125th Anniversary Celebration",
+      "start": "2026-10-11T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "515 Skyline Blvd, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zMTQyNzBiZjYyNTZmY2RlMDU1ZDhmNmU1YjljNmJmODljNzc5NmY3YmU3NTk2YzcxMzkwZjk5YjNiODBkMDIzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTE0MzUyNzY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/our-redeemer-lutheran-125th-anniversary-celebration/200030802672636"
       }
     },
     {
@@ -1569,24 +1461,6 @@
       }
     },
     {
-      "key": "ea154ed2da0e4e7e",
-      "title": "Gentle Yoga on Monday Evenings",
-      "start": "2026-10-12T00:00:00",
-      "end": "2026-10-12T00:00:00",
-      "all_day": true,
-      "venue": "1423 N 8th St, Ste 113, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80NWVjY2Y0YjdkNDEyYjA2NWM2MzIxZjc2NWNiZGFmOTNjN2M0ZjMwYmE2OTcyODJmM2FkODhlNzQwOGM2ZWFjLXJpbWctdzEyMDAtaDY3NS1kYzQ4NDg3OC1nbWlyP3Y9MTc5MTI2OTQyMA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/gentle-yoga-on-monday-evenings/200030783888420"
-      }
-    },
-    {
       "key": "5c331d48953cb4fb",
       "title": "Sustainable Makes - Wet Felted Dryer Ball",
       "start": "2026-10-12T00:00:00",
@@ -1602,24 +1476,6 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/sustainable-makes-wet-felted-dryer-ball/200030768720500"
-      }
-    },
-    {
-      "key": "d3c176c32c30d6a4",
-      "title": "Lego Club",
-      "start": "2026-10-12T00:00:00",
-      "end": "2026-10-12T00:00:00",
-      "all_day": true,
-      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "family",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zMWI0ZTk1ZDQwNzgwOGE1OTBmYjY4ZTQzODhjMWMyNWZkOGIwZTljYjFhOGU5NTU3NGExOGZhNWQ1MWU4OGVkLXJpbWctdzgxMC1oNDUwLWRjZTgxODE4LWdtaXI_dj0xNzkxMjg5NTQ0.avif",
-      "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/lego-club/200030787638145"
       }
     },
     {
@@ -1713,6 +1569,78 @@
       }
     },
     {
+      "key": "d3c176c32c30d6a4",
+      "title": "Lego Club",
+      "start": "2026-10-12T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "family",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZDM1NmY4OWJjYjZlZDljOTQyOWVlYTExYzRiZGZkMTZhMTM3ZTBkYjIyNmFiOTViY2IwYjVlMDY2NzQ5OGQ3MS1yaW1nLXc4MTAtaDQ1MC1kY2U4MTgxOC1nbWlyP3Y9MTc5MDI0MzQ1NA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/lego-club/200030732367254"
+      }
+    },
+    {
+      "key": "45b86d880cd38a8c",
+      "title": "Open House: Pruitt Center and Student Health and Counseling Services",
+      "start": "2026-10-12T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Swenson Hall, University of Wisconsin-Superior, 1610 Weeks Ave, Superior, WI 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jNTZjYTYwNDVmNDRjMzBhYjZiZDc0NTkzY2QwODhlZjVhZGQ5Y2U0ZDg4MWRhMjUyMDhjZWIzNTNkNjU1M2I1LXJpbWctdzEyMDAtaDgwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTM1NTE0NQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/open-house-pruitt-center-and-student-health-and-counseling-services/200030795791605"
+      }
+    },
+    {
+      "key": "ea154ed2da0e4e7e",
+      "title": "Gentle Yoga on Monday Evenings",
+      "start": "2026-10-12T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1423 N 8th St, Ste 113, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTNjMWIxOGU2ZWI4OGQ4M2ZjZjlkNGI1NTRkYmNlYjJmNTgwMmZiNjNkZjkwZGI3NWFkMjhhMWJiMGIzZjM5LXJpbWctdzEyMDAtaDY3NS1kYzQ4NDg3OC1nbWlyP3Y9MTc5MDI0MzQ1MQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/gentle-yoga-on-monday-evenings/200030732367052"
+      }
+    },
+    {
+      "key": "c68a3f243cd80e66",
+      "title": "Community Resource Connection",
+      "start": "2026-10-12T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1530 Tower Ave, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kNzVlYmEyMTBhNzgxNDFlYWM1ODk0ZjRhYTUyZjU4OThlOWIyMGEwNGRjMzg4NWNiMzllNjZlMTUyY2RhMTY0LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MDI0MzQ1OA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/community-resource-connection/200030732367558"
+      }
+    },
+    {
       "key": "e7e3eb536d10242d",
       "title": "Tab & Nicole at Choo Choo!",
       "start": "2026-10-13T00:00:00",
@@ -1746,6 +1674,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/msfca-annual-conference-vendor-show/200030412633631"
+      }
+    },
+    {
+      "key": "d407a6de1089fbfb",
+      "title": "2026 Fall Leaf Bus Trip",
+      "start": "2026-10-14T00:00:00",
+      "end": "2026-10-14T00:00:00",
+      "all_day": true,
+      "venue": "Senior Connections, Inc.",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kMmE3ZWNmYThiMzZhN2RlMzVlZWRhMGI5NWRiYTA1NTlkYTFmY2NmYjM1MWViNzIzZjc1M2NlMjMzZmM3YjQ3LXJpbWctdzc0Mi1oOTYwLWRjZjhmOGY4LWdtaXI_dj0xNzkxMzU1MzMx.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/2026-fall-leaf-bus-trip/200030795843411"
       }
     },
     {
@@ -1839,8 +1785,8 @@
       }
     },
     {
-      "key": "bc7a5db12e56313c",
-      "title": "Cannabis & Community: A Cultivation Celebration",
+      "key": "562f4b3e6d20af84",
+      "title": "Cannabis & Community in Duluth: A Cultivation Celebration",
       "start": "2026-10-15T00:00:00",
       "end": "2026-10-15T00:00:00",
       "all_day": true,
@@ -1853,7 +1799,7 @@
       "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kMWUzZTMyNDNhOTdlNDBkOTg5Zjc3ZTU2NGQ3MDViNGIwODMxYjVkNmEzYWJiODg1MDhlMzcwOTQ5MzUyMzdmLXJpbWctdzEyMDAtaDYwMC1kYzA4Mzg1OC1nbWlyLmpwZz92PTE3ODY0MTkyNDk.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/cannabis-and-community-a-cultivation-celebration/100001991495727330"
+        "url": "https://allevents.in/duluth/cannabis-and-community-in-duluth-a-cultivation-celebration/100001991495727330"
       }
     },
     {
@@ -1875,6 +1821,24 @@
       }
     },
     {
+      "key": "efba32bc86caddee",
+      "title": "OJIBWE LANGUAGE IMMERSION NETWORK- Fall Professional Development",
+      "start": "2026-10-15T00:00:00",
+      "end": "2026-10-15T00:00:00",
+      "all_day": true,
+      "venue": "1713 Animikii Rd, Cloquet, MN 55720, United States",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9hZmU3ZTU4YTk0ZTVjMzM4YWFjZDQzNjU0OWNiMjVjM2U3ODM4N2MwNTY2ZGUyYzQ4NmU5NmE1NjVjMTc1OThiLXJpbWctdzEyMDAtaDYyOC1kY2U4ZThmOC1nbWlyP3Y9MTc5MTQzNTMxNQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/ojibwe-language-immersion-network-fall-professional-development/200030802672335"
+      }
+    },
+    {
       "key": "e253bbe37a0f9951",
       "title": "Family Night: Harry Potter!",
       "start": "2026-10-15T00:00:00",
@@ -1893,6 +1857,24 @@
       }
     },
     {
+      "key": "e05a63c35f0501b5",
+      "title": "Old Love EP Release at Alworth Planetarium",
+      "start": "2026-10-15T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "UMD Marshall W. Alworth Planetarium",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81Y2FiMDcxNDQ0NWNhZGFhY2U0ZTIxOTU1Njc4YzgzZTM4YzNkZGNmNjc2NWZiMjBmYzY5MWUxNWUwMmFjOTFlLXJpbWctdzEwODAtaDEwODAtZGMwODA4MDgtZ21pcj92PTE3OTEyNzg2NzM.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/old-love-ep-release-at-alworth-planetarium/200030785495233"
+      }
+    },
+    {
       "key": "25f11563e954da84",
       "title": "Finn-Toberfest featuring The Solkela Polkela Band",
       "start": "2026-10-15T00:00:00",
@@ -1908,6 +1890,42 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/finn-toberfest-featuring-the-solkela-polkela-band/200030774655652"
+      }
+    },
+    {
+      "key": "181507a912df459c",
+      "title": "UMD Hockey Pre and Post Game Parties!",
+      "start": "2026-10-16T00:00:00",
+      "end": "2026-10-16T00:00:00",
+      "all_day": true,
+      "venue": "109 W Superior St, Duluth, MN, United States, Minnesota 55802",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDNjYTYzNjJmOWFkNzU1NmY2ZjRjN2MyNTlmOGExOWYzYTM1MmZiYWY1N2ZlOTJjZmI1OTVlNTY4NTZlN2VjMi1yaW1nLXcxMjAwLWg2NzAtZGM1ODI4MjgtZ21pcj92PTE3OTEzNTU2NDE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/umd-hockey-pre-and-post-game-parties/200030795920621"
+      }
+    },
+    {
+      "key": "4471cfe06bb4e092",
+      "title": "Game Night",
+      "start": "2026-10-16T00:00:00",
+      "end": "2026-10-16T00:00:00",
+      "all_day": true,
+      "venue": "215 S 27th Ave W, Duluth, MN, United States, Minnesota 55806",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMTQxMjQ0NTdiODQxZTM1MjI3ZTQxNWQxYjk1Njk3YTY4NWQ5YTQ5NzhhMDg3ZDA4MWNhZjM5ZjA5ZTE1YzQzLXJpbWctdzEwODAtaDEwODAtZGMyODE4MTgtZ21pcj92PTE3OTEzNTUzNzI.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/game-night/200030795853552"
       }
     },
     {
@@ -2073,24 +2091,6 @@
       }
     },
     {
-      "key": "41acecc50d5a44a4",
-      "title": "Serenity Lounge",
-      "start": "2026-10-17T00:00:00",
-      "end": "2026-10-17T00:00:00",
-      "all_day": true,
-      "venue": "11 East Michigan St, Duluth, MN, United States, Minnesota 55802",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80M2ZkYjNmOWI2ZjQ5YmMzMDM0ZmU0NzlkOWYxYWUzNzZjODE2ZDM1NGMwYTk1Y2FmYWYxYTliNjRmMGMyNzkwLXJpbWctdzEyMDAtaDYyOC1kYzc4YThjOC1nbWlyP3Y9MTc5MTEwNDMxNg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/serenity-lounge/200030770584236"
-      }
-    },
-    {
       "key": "ee8f1451e40a7763",
       "title": "SUPERIOR MMA MANIA!!!",
       "start": "2026-10-17T00:00:00",
@@ -2127,6 +2127,24 @@
       }
     },
     {
+      "key": "a5e836c079b44bb2",
+      "title": "90s/00s R&B Brunch",
+      "start": "2026-10-17T00:00:00",
+      "end": "2026-10-17T00:00:00",
+      "all_day": true,
+      "venue": "Henry's Bar",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jOGRhZGU4Y2IwMmQzOGQ5MGNhYmVmNmU1YWFiNTc3MTZjY2VhYTc5YmU4MmZiYmQyYjdiMjdlYmRkZDkyNDIwLXJpbWctdzEyMDAtaDE1NTMtZGMyODI4MjgtZ21pci5qcGc_dj0xNzkxMzU2NDcy.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/90s-00s-randb-brunch/100002002468276520"
+      }
+    },
+    {
       "key": "336f29c868e61f1f",
       "title": "Adoption Event at Benna",
       "start": "2026-10-17T00:00:00",
@@ -2142,6 +2160,42 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/adoption-event-at-benna/200030769588511"
+      }
+    },
+    {
+      "key": "2d020fba6314152f",
+      "title": "Riftbound Nexus Night",
+      "start": "2026-10-17T00:00:00",
+      "end": "2026-10-17T00:00:00",
+      "all_day": true,
+      "venue": "Level UP Superior",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85YjI5MDE3ODk4ZGMwM2M5ZTFkNzkzOTBjM2Q1ZmUzYmIxNjhlYTM5NDIxNDVmMzExNjdlY2FhNWQ2MzgyY2U0LXJpbWctdzYwMC1oMzE1LWRjMTgzODQ4LWdtaXI_dj0xNzkxMzI0Njk3.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/riftbound-nexus-night/200030793548537"
+      }
+    },
+    {
+      "key": "22d9738bd606c7cc",
+      "title": "3 Year Anniversary Celebration \ud83c\udf89HOURLY GIVEAWAYS \ud83c\udf8aBOGO'S \ud83e\udd73GRAND PRIZE \ud83d\udd25FREE MERCH",
+      "start": "2026-10-17T00:00:00",
+      "end": "2026-10-17T00:00:00",
+      "all_day": true,
+      "venue": "612 Cloquet Ave, Suite A, Cloquet, MN",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xZmJmZWFmYzRjYTQyNzYxM2YwMzY3NmMxZDQzYmM3ZjMwMjFiYThkMzdkNmU0NDg0MmIxMzc5NzQxMGVjMGVhLXJpbWctdzEyMDAtaDkwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTQzNTI3Nw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/3-year-anniversary-celebration-hourly-giveaways-bogos-grand-prize-free-merch/200030802672837"
       }
     },
     {
@@ -2178,24 +2232,6 @@
       "source": {
         "name": "AllEvents \u2014 Ashland",
         "url": "https://allevents.in/ashland/3rd-annual-harvest-fest-and-great-harvest-bake-off/200030674005343"
-      }
-    },
-    {
-      "key": "c0f32bbe85905e4c",
-      "title": "Storm Drain Mural Artist Reception",
-      "start": "2026-10-17T00:00:00",
-      "end": "2026-10-17T00:00:00",
-      "all_day": true,
-      "venue": "Taqueria La Monarca",
-      "city": "Ashland",
-      "area": "Ashland",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iZmVkZmFiYWZiYzBiMjVhYWNjZTVmZTk5ZjU3NTViMjY0YWFmNDE4MTBmMGIyNzdlNGQ2YjJkZGI2M2JjOTMyLXJpbWctdzEyMDAtaDY3NS1kY2U4ZThkOC1nbWlyP3Y9MTc5MTE1NzQxMg.avif",
-      "source": {
-        "name": "AllEvents \u2014 Ashland",
-        "url": "https://allevents.in/ashland/storm-drain-mural-artist-reception/200030778312324"
       }
     },
     {
@@ -2253,6 +2289,24 @@
       }
     },
     {
+      "key": "43e69b8db4666578",
+      "title": "Oktoberfest",
+      "start": "2026-10-17T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jYjdhMmIzZjlkOGJjYmQ5OWE4Yjg2NjQ3ZjMzZGY5MDFhOTNlMzcxYWEwZDA3YzRjNmRjZjQ3ODQ4ODdjNzkwLXJpbWctdzY0MC1oMzYwLWRjZjhmOGU4LWdtaXI_dj0xNzkxMTM0NDUy.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/oktoberfest/200030774654644"
+      }
+    },
+    {
       "key": "e64c4e09fe1ff6b4",
       "title": "Basketball",
       "start": "2026-10-17T00:00:00",
@@ -2271,21 +2325,21 @@
       }
     },
     {
-      "key": "43e69b8db4666578",
-      "title": "Oktoberfest",
+      "key": "677d2cac5c443139",
+      "title": "Back at the \"Riv\" Saturday, October 17th",
       "start": "2026-10-17T00:00:00",
       "end": null,
       "all_day": true,
-      "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "food-drink",
+      "venue": "The River Inn Bar & Grill",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jYjdhMmIzZjlkOGJjYmQ5OWE4Yjg2NjQ3ZjMzZGY5MDFhOTNlMzcxYWEwZDA3YzRjNmRjZjQ3ODQ4ODdjNzkwLXJpbWctdzY0MC1oMzYwLWRjZjhmOGU4LWdtaXI_dj0xNzkxMTM0NDUy.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8zNzU3OWRkOWFkODNiOGM1MzIwNTE0MTgxYjkxOWVlMTI1Mzk3ZGVmMzUxOTkyMzljZmI3ZTU4ZTNiNDBiMTVhLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTQzNjQzNQ.avif",
       "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/oktoberfest/200030774654644"
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/back-at-the-riv-saturday-october-17th/200030802881555"
       }
     },
     {
@@ -2379,6 +2433,24 @@
       }
     },
     {
+      "key": "bfb9b0003ebdd244",
+      "title": "Clothing Repair Class",
+      "start": "2026-10-18T00:00:00",
+      "end": "2026-10-18T00:00:00",
+      "all_day": true,
+      "venue": "700 Main St W, Ashland, WI, United States, Wisconsin 54806",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9mZDM0MTk5YmFmMjExYjAxYjVlZTU4NjQ2YmRlODVkMzY2YmEzMzNmNDc2ZDViNjgzMWY5ZDk1ZmQ0ZjMwZWI5LXJpbWctdzU1NC1oNTU0LWRjZDhjOGI4LWdtaXI_dj0xNzkxNDQ4Mzg1.avif",
+      "source": {
+        "name": "AllEvents \u2014 Ashland",
+        "url": "https://allevents.in/ashland/clothing-repair-class/200030805044405"
+      }
+    },
+    {
       "key": "56445d5bc7293d3d",
       "title": "Red Ramble-Roses are Red...",
       "start": "2026-10-18T00:00:00",
@@ -2412,6 +2484,42 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/divination-salon/200030767135846"
+      }
+    },
+    {
+      "key": "66022030f3514dfc",
+      "title": "Paint A Pumpkin!",
+      "start": "2026-10-20T00:00:00",
+      "end": "2026-10-20T00:00:00",
+      "all_day": true,
+      "venue": "The Barrel Room",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTUyMTY1MzMlMkY5MzMyMzk4NjcxOTMlMkYxJTJGb3JpZ2luYWwuMjAyNjEwMDYtMTk1MjAzP2F1dG89Zm9ybWF0JTJDY29tcHJlc3MmcT03NSZzaGFycD0xMCZzPTE3YWEwMjA3ODA2YzcyZTYwNTFhNmM3ZmNiMWMyOTRk.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/paint-a-pumpkin/100002003026156153"
+      }
+    },
+    {
+      "key": "3e2016380aefbffa",
+      "title": "Meatball Dinner",
+      "start": "2026-10-20T00:00:00",
+      "end": "2026-10-20T00:00:00",
+      "all_day": true,
+      "venue": "1411 Grand Ave, Superior, WI 54880, United States",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lOTNmMTNiNDAxM2E0YmNkMzI4NjY3NTBjZDdhYzhmMWU5ZjY5ZTI1YjEzMzcxYTRiZTgyYjZkYzJjMzhjOTY2LXJpbWctdzEyMDAtaDY1NS1kY2Q4ZDhkOC1nbWlyP3Y9MTc5MTM1NTE1Nw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/meatball-dinner/200030795795618"
       }
     },
     {
@@ -2487,6 +2595,24 @@
       }
     },
     {
+      "key": "137ee99646aa0a72",
+      "title": "Powerful Tools For Caregivers Class Series",
+      "start": "2026-10-21T00:00:00",
+      "end": "2026-10-21T00:00:00",
+      "all_day": true,
+      "venue": "2014 W Third St, Duluth, MN, United States, Minnesota 55806",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8wNDFmNzFkMGQ5YWRhYjNiZDAyMzBiZjc3MjM5NjFiYzJmZjJjZjFhNDBmMmFhMjRlYzdlNjRlM2M0ZTY3YWY4LXJpbWctdzkyNi1oNDQ5LWRjZjhmOGY4LWdtaXI_dj0xNzkxMjc4NjY4.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/powerful-tools-for-caregivers-class-series/200030785494028"
+      }
+    },
+    {
       "key": "a544a5b81dcca809",
       "title": "The Fellow Travelers + Ross Thorn + Death Valley Yacht Club",
       "start": "2026-10-21T00:00:00",
@@ -2541,21 +2667,21 @@
       }
     },
     {
-      "key": "25f8d5ad6239e1f8",
-      "title": "Weave a Birch Bark Bird!",
+      "key": "9ea974b98fdf9057",
+      "title": "Open Mic hosted by Kyle",
       "start": "2026-10-21T00:00:00",
       "end": null,
       "all_day": true,
-      "venue": "Duluth Folk School",
+      "venue": "Wussow's Concert Cafe",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "community",
+      "category": "music",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8xMDU1Zjc3YzJmZDRmNDFiYjFkYzQ4YjI3NzQ2MmRhYTVhODAwYmM4NTYyOTg2MTZjNTAwZmIyMjY0ZTBkNzllLXJpbWctdzEyMDAtaDYyOC1kYzI4MjgxOC1nbWlyP3Y9MTc5MTEzNDQ0Mw.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy82NWQxMDA4MTI5ZGZjYmVlMTQwYmM2M2E5ZmE2MGVlYzFhOTIyMjJjMzRhOWY0NGIyODg0YWQ3NWQzZjRmOTkwLXJpbWctdzc0MS1oNzk1LWRjMTgwODE4LWdtaXI_dj0xNzkxMzkxODIz.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/weave-a-birch-bark-bird/200030774654343"
+        "url": "https://allevents.in/duluth/open-mic-hosted-by-kyle/200030800958420"
       }
     },
     {
@@ -2577,24 +2703,6 @@
       }
     },
     {
-      "key": "a1842b16148fd5e1",
-      "title": "McCullough Bros & Friends wHorns Blues Bros Tribute Show & Costume Contest",
-      "start": "2026-10-22T00:00:00",
-      "end": "2026-10-22T00:00:00",
-      "all_day": true,
-      "venue": "Marshall Performing Arts Center",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9hNDQ4ZTdlZDc2NmIwZTliMDAxNGI5NjYwNzYzNjc2NTE0ODYyNGViZmQxZjU5ZDEzY2E0ZmJjY2Y0YzY5NmUyLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMzUzNjY.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/mccullough-bros-and-friends-whorns-blues-bros-tribute-show-and-costume-contest/100001999854839660"
-      }
-    },
-    {
       "key": "f04f68fa3bdb1e84",
       "title": "Speed Booking (Mystery/Thriller/Horror Theme)",
       "start": "2026-10-22T00:00:00",
@@ -2613,21 +2721,39 @@
       }
     },
     {
-      "key": "d440828986bc493a",
-      "title": "Ride the Cyclone Teen Edition Spring Musical",
+      "key": "a1842b16148fd5e1",
+      "title": "McCullough Bros & Friends wHorns Blues Bros Tribute Show & Costume Contest",
       "start": "2026-10-22T00:00:00",
-      "end": "2026-10-24T00:00:00",
+      "end": "2026-10-22T00:00:00",
       "all_day": true,
-      "venue": "401 N 44th Ave W, Duluth, MN, United States, Minnesota 55807",
+      "venue": "Marshall Performing Arts Center",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "arts",
+      "category": "music",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8yNzNiNWUxOGJlMTcwNTNkNWUwNDM0NWE5NzMwYzVjODAyNTI5YjY0NzUzMTBkM2RlNDNhNWIwNWY2NjFmMWMwLXJpbWctdzYwNS1oNDcwLWRjMDgwODA4LWdtaXI_dj0xNzkxMTIzMzYz.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9hNDQ4ZTdlZDc2NmIwZTliMDAxNGI5NjYwNzYzNjc2NTE0ODYyNGViZmQxZjU5ZDEzY2E0ZmJjY2Y0YzY5NmUyLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMzUzNjY.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/ride-the-cyclone-teen-edition-spring-musical/200030772379404"
+        "url": "https://allevents.in/duluth/mccullough-bros-and-friends-whorns-blues-bros-tribute-show-and-costume-contest/100001999854839660"
+      }
+    },
+    {
+      "key": "dec92ed19743de25",
+      "title": "Candle Making Workshop at All American Club",
+      "start": "2026-10-22T00:00:00",
+      "end": "2026-10-22T00:00:00",
+      "all_day": true,
+      "venue": "All American Club",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "education",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmMwYjEyMDEyMDUzZTg2ZjA1NjM1Y2ZlZjQ4NDc2NjllMGNiNWZkOGI1ODMzZGJhNTk4NDljYWY1MjVlMzBkMi1yaW1nLXcxMDU1LWgxNzc2LWRjNDgyODE4LWdtaXI_dj0xNzkxMzU1NzIx.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/candle-making-workshop-at-all-american-club/200030795941942"
       }
     },
     {
@@ -2667,24 +2793,6 @@
       }
     },
     {
-      "key": "980bb89bc16155eb",
-      "title": "Keystone Bluffs Trunk or Treat",
-      "start": "2026-10-23T00:00:00",
-      "end": "2026-10-23T00:00:00",
-      "all_day": true,
-      "venue": "2528 Trinity Road, Duluth, MN",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy83MGNjYmJlOGExNTM0NGY1NTExMTM4MzE3NTMwYjIzNzM5MDQ0OWJjMzk5MWM2N2I4OTcwOGZmODQ0NDg3N2FiLXJpbWctdzExMTMtaDE0NDAtZGMyODE4MTgtZ21pcj92PTE3OTExNDU0MjI.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/keystone-bluffs-trunk-or-treat/200030776408843"
-      }
-    },
-    {
       "key": "b46bb3122e5c317a",
       "title": "Martha Scanlan & Jon Neufeld",
       "start": "2026-10-23T00:00:00",
@@ -2718,6 +2826,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/uw-superior-womens-hockey-vs-concordia-wis/200030468446617"
+      }
+    },
+    {
+      "key": "9eb4c8e6fe491ed3",
+      "title": "Bikers for boobs donation party",
+      "start": "2026-10-23T00:00:00",
+      "end": "2026-10-24T00:00:00",
+      "all_day": true,
+      "venue": "Birds Bar",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy83ZDdjZDM0NzRiNjc0MjQ2YzEwNzM0MzQyOGM3ZjVjYTBjZWEwZTA3YjkwOTM1OGVkZDdkNGNkNTM2ODE5YTY0LXJpbWctdzEyMDAtaDc0NS1kY2U4ZDhkOC1nbWlyP3Y9MTc5MTM2OTg3MQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/bikers-for-boobs-donation-party/200030799045625"
       }
     },
     {
@@ -2811,6 +2937,24 @@
       }
     },
     {
+      "key": "551cb560162bbb5f",
+      "title": "Spooky Bingo Night",
+      "start": "2026-10-23T00:00:00",
+      "end": "2026-10-23T00:00:00",
+      "all_day": true,
+      "venue": "2521 W Lake Shore Drive, Ashland, WI, United States, Wisconsin 54806",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9hNTliNjliMWEzMWIxNGU0NzUxNTkyZmZjZGUzM2UzYTRiNTE4ZmVjZjMwZGE5Mzk5YzkxYjdiMGNlNDBkMWY0LXJpbWctdzEyMDAtaDY3NS1kYzg4NThmOC1nbWlyP3Y9MTc5MTQ0OTE2NQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Ashland",
+        "url": "https://allevents.in/ashland/spooky-bingo-night/200030805179705"
+      }
+    },
+    {
       "key": "eee8bfeeeeb61258",
       "title": "Bemidji State Beavers at Minnesota Duluth Bulldogs Hockey",
       "start": "2026-10-23T00:00:00",
@@ -2901,6 +3045,24 @@
       }
     },
     {
+      "key": "3ddc57a54d46e201",
+      "title": "Bassocalyse at Duluth Cider",
+      "start": "2026-10-24T00:00:00",
+      "end": "2026-10-25T00:00:00",
+      "all_day": true,
+      "venue": "Duluth Cider",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8xZjY2ZjYwZDU2Mzg5ODJlNzczY2QyNzNhNDkxYTIwNTRiOTQyYTY5YmUzNTE0ZjYwMjJkNjU1NWRmN2ZlNjNkLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTEzOTE4NDE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/bassocalyse-at-duluth-cider/200030800960837"
+      }
+    },
+    {
       "key": "93c114604d929cee",
       "title": "2026 HOTDISH Bake-Off",
       "start": "2026-10-24T00:00:00",
@@ -2937,21 +3099,21 @@
       }
     },
     {
-      "key": "1d3a5770d2a10c53",
-      "title": "Make a Felted Scarf",
+      "key": "4e7ba2ac13947ba0",
+      "title": "Beginners Tote Bag Sewing Class",
       "start": "2026-10-24T00:00:00",
       "end": "2026-10-24T00:00:00",
       "all_day": true,
-      "venue": "Duluth Folk School",
+      "venue": "7153 Rice Lake Rd, Duluth, MN",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "community",
+      "category": "education",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jOTM4YmMxYzFiZDAzZTkxMjJmMDQ1YmY1MzdiNjVjZWIyNTI0N2ZiZDI3OWI0NGE4MmJkOGRhOTMyMjJhZWVhLXJpbWctdzEyMDAtaDYyOC1kYzI4MjgxOC1nbWlyP3Y9MTc5MTEzNDQ1Nw.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvM2VjOWZhZDkwMzk3YmVkYWExNzBmZGNiNDhmNWE3ZGJiMWYzNWFmYTBiZWU5ZGY4NzIzOGMyZGFhY2E2YTNlOC1yaW1nLXcxMjAwLWg5MDAtZGMwODA4MDgtZ21pcj92PTE3OTEzMDAwNzU.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/make-a-felted-scarf/200030774657258"
+        "url": "https://allevents.in/duluth/beginners-tote-bag-sewing-class/200030789445615"
       }
     },
     {
@@ -2973,21 +3135,21 @@
       }
     },
     {
-      "key": "ed26a9957629c283",
-      "title": "Grand Opening!",
+      "key": "1d3a5770d2a10c53",
+      "title": "Make a Felted Scarf",
       "start": "2026-10-24T00:00:00",
       "end": "2026-10-24T00:00:00",
       "all_day": true,
-      "venue": "1604 W Superior St, Duluth, MN",
+      "venue": "Duluth Folk School",
       "city": "Duluth",
       "area": "Duluth",
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9kMmRkNDcyNDg3Mzc4ZjNmMTFhMzc2Y2JmYjIzOTE4YmIyYTZmMzY5ZjUxYmYxYjkxYjRkNjk2MWEyMjQ2NmE4LXJpbWctdzEyMDAtaDE2MDAtZGNhODk4ODgtZ21pcj92PTE3ODk0NTMzMTI.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jOTM4YmMxYzFiZDAzZTkxMjJmMDQ1YmY1MzdiNjVjZWIyNTI0N2ZiZDI3OWI0NGE4MmJkOGRhOTMyMjJhZWVhLXJpbWctdzEyMDAtaDYyOC1kYzI4MjgxOC1nbWlyP3Y9MTc5MTEzNDQ1Nw.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/grand-opening/200030699351252"
+        "url": "https://allevents.in/duluth/make-a-felted-scarf/200030774657258"
       }
     },
     {
@@ -3135,24 +3297,6 @@
       }
     },
     {
-      "key": "b561c8f64c086212",
-      "title": "BOO!seum: Monster Masterpieces!",
-      "start": "2026-10-24T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "2125 West Superior Street, Duluth, MN, United States, Minnesota 55806",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81MmI4NGVhNmNiMjVlZjE0Y2JiZGNiNWM0ZTRjZDdhOGY5MmFlODc1NDQwZjMxMDY1NTkzZDBmYThhODEwOWJiLXJpbWctdzEyMDAtaDY3NS1kYzI4MTg1OC1nbWlyP3Y9MTc5MTE0NTQzNA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/booseum-monster-masterpieces/200030776411056"
-      }
-    },
-    {
       "key": "e1dd677abbe4bc9a",
       "title": "Hartley Nature Center, Duluth - Regular Meet",
       "start": "2026-10-24T00:00:00",
@@ -3204,6 +3348,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/the-haunting-ii-the-haus-revenge/200030752187107"
+      }
+    },
+    {
+      "key": "1737c164e7da97bc",
+      "title": "Mad Alice & Life of Grime",
+      "start": "2026-10-24T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Birds Bar",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy82M2U5OTBmODg0ZmRkZjIwOGVmY2Q5Y2EwZDc0NWNkMmIzNmRhMTc5YmMyMjQwYTE2ZTE0ZTcxMzQzNjA0YTdmLXJpbWctdzEyMDAtaDYyOC1kYzI4MjgzOC1nbWlyP3Y9MTc5MTM1NDk5MQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/mad-alice-and-life-of-grime/200030795754131"
       }
     },
     {
@@ -3297,21 +3459,21 @@
       }
     },
     {
-      "key": "d37b4491875889f4",
-      "title": "Trunk or Treat and spaghetti dinner",
+      "key": "14160a5fc916a215",
+      "title": "2026 RLFDA Halloween Carnival",
       "start": "2026-10-25T00:00:00",
       "end": "2026-10-25T00:00:00",
       "all_day": true,
-      "venue": "6101 Cody Street, Duluth, MN",
+      "venue": "4051 Martin Rd, Duluth, MN, United States, Minnesota 55803",
       "city": "Duluth",
       "area": "Duluth",
       "category": "holiday",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kNGYyNzdiMTUzMjRjMjQ1ZDA2MTgyMjk1NTI5ZmViYTQ2ZjgwNWVjZjdhNjBkMzFkOTkzYjVhMDFkMGU3OGUzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzQ0NDY.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yNzg3MDQ2NTliNmE5ZDM1NTQxMWYxNGE5ZTYwNDQ3ODE3M2FhYzY2ZGVhMjRkNTQzNTJhZTg0ZDJjMDRlMzZhLXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTM1NTUwMA.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/trunk-or-treat-and-spaghetti-dinner/200030774655046"
+        "url": "https://allevents.in/duluth/2026-rlfda-halloween-carnival/200030795883201"
       }
     },
     {
@@ -3330,6 +3492,42 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/clothing-repair-clinic/200030746759833"
+      }
+    },
+    {
+      "key": "d37b4491875889f4",
+      "title": "Trunk or Treat and spaghetti dinner",
+      "start": "2026-10-25T00:00:00",
+      "end": "2026-10-25T00:00:00",
+      "all_day": true,
+      "venue": "6101 Cody Street, Duluth, MN",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kNGYyNzdiMTUzMjRjMjQ1ZDA2MTgyMjk1NTI5ZmViYTQ2ZjgwNWVjZjdhNjBkMzFkOTkzYjVhMDFkMGU3OGUzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzQ0NDY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/trunk-or-treat-and-spaghetti-dinner/200030774655046"
+      }
+    },
+    {
+      "key": "62b2d1c85c47fa17",
+      "title": "Trunk or Treat at Glen Avon",
+      "start": "2026-10-25T00:00:00",
+      "end": "2026-10-25T00:00:00",
+      "all_day": true,
+      "venue": "Glen Avon Presbyterian Church",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9kYTcyM2M5Y2IzMDMxMDRhOWYwNWIwOTQyNzgyNjkyMDExYmZjMmVkZDVlOWYxNTIxMjNhOWJiYTc1ODk0MTg3LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTEzNTU1NDY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/trunk-or-treat-at-glen-avon/200030795897046"
       }
     },
     {
@@ -3402,6 +3600,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/monday-funday-hikes-piedmont/200030777468919"
+      }
+    },
+    {
+      "key": "87dd5df9f2e3d4a7",
+      "title": "A Path to a Health Body and Soul through the Teaching of Bruno Groening",
+      "start": "2026-10-27T00:00:00",
+      "end": "2026-10-27T00:00:00",
+      "all_day": true,
+      "venue": "Hampton Inn Duluth Canal Park",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4yLmFsbGV2ZW50cy5pbi90aHVtYnMvdGh1bWI2YWM1OWZjOGM0YzE4LmpwZw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/a-path-to-a-health-body-and-soul-through-the-teaching-of-bruno-groening-tickets/80009111143764"
       }
     },
     {
@@ -3531,6 +3747,24 @@
       }
     },
     {
+      "key": "077e214aca58e465",
+      "title": "Between the Lines Book Club: The Grapes of Wrath by John Steinbeck",
+      "start": "2026-10-27T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83YmM4NjBhNDYyYWIxNzM4NGE4ZWMxZDUyMzc4OGNhNjcxOTI2N2I0NTEzNzdkMDFiNWNjMDRhZTMxMzE1MjU3LXJpbWctdzEyMDAtaDkyNy1kY2Y4YzgyOC1nbWlyP3Y9MTc5MTQzNTI0MQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/between-the-lines-book-club-the-grapes-of-wrath-by-john-steinbeck/200030802667302"
+      }
+    },
+    {
       "key": "6ec2a8437c81d85a",
       "title": "Tower Ave Branch Trunk or Treat",
       "start": "2026-10-28T00:00:00",
@@ -3549,6 +3783,42 @@
       }
     },
     {
+      "key": "58e356d426517f3c",
+      "title": "The Massacre on Hammond - Opening Night",
+      "start": "2026-10-28T00:00:00",
+      "end": "2026-10-28T00:00:00",
+      "all_day": true,
+      "venue": "1701 Hammond Ave, Superior, WI",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80ODQyY2IzNjE1MmVmMzJiNmQxYzcyMzJkZGM2MzljNWQ4NTUwMTBjYmU1NWQ1N2RkMTI0NTJjMGM5MmEyOGFkLXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTEzNTUyMjI.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/the-massacre-on-hammond-opening-night/200030795813322"
+      }
+    },
+    {
+      "key": "66a355f86029aea6",
+      "title": "All About Bats!",
+      "start": "2026-10-28T00:00:00",
+      "end": "2026-10-28T00:00:00",
+      "all_day": true,
+      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8yY2EwYzQ1NDFiOGUyZjE1YWFmYjkwNzVkNmUwMDk5M2QxMmRjYzRkNzRkZDBmOTE4ZmVlNzcwOTU2MjY0ZDIyLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTE0MzYxNjc.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/all-about-bats/200030802820727"
+      }
+    },
+    {
       "key": "e74dd436ef46931d",
       "title": "Pok\u00e9mon Club",
       "start": "2026-10-28T00:00:00",
@@ -3564,24 +3834,6 @@
       "source": {
         "name": "AllEvents \u2014 Two Harbors",
         "url": "https://allevents.in/two-harbors/pok\u00e9mon-club/200030769589827"
-      }
-    },
-    {
-      "key": "c7d0589e493d8d36",
-      "title": "Asbury UMC Apple Pie Sale",
-      "start": "2026-10-28T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "6822 Grand Ave, West Duluth, MN, United States, Minnesota 55807",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82YzFkNTlmMzQzZTU1NmRkYmUxMGMwOGNjZTI4MDI0MGY5YWZkMWQ5YzhlODFkNzQ4MDE0OTJmODNhOWM1MDQ2LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTExMzQ0NDk.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/asbury-umc-apple-pie-sale/200030774655349"
       }
     },
     {
@@ -3657,24 +3909,6 @@
       }
     },
     {
-      "key": "b701745cfeb356b2",
-      "title": "VIEWCREST KIDS HALLOWEEN PARTY",
-      "start": "2026-10-30T00:00:00",
-      "end": "2026-10-30T00:00:00",
-      "all_day": true,
-      "venue": "3111 Church Place, Duluth, MN, United States, Minnesota 55811",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zNzMxZjM4ZWRiNWNiZmE1OGY3OWFkM2I2YzRkNDhjNDRmY2UzOWQ0OGU0MDkxZjE3NDVkOWYwY2I3MDBjNDU0LXJpbWctdzEwNDYtaDcwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTE1MjM3NA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/viewcrest-kids-halloween-party/200030777471634"
-      }
-    },
-    {
       "key": "b7f85b13b5c77217",
       "title": "Halloween Party \ud83d\udc7b",
       "start": "2026-10-30T00:00:00",
@@ -3708,6 +3942,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/channel-your-flannel-for-project-joy/200030774654243"
+      }
+    },
+    {
+      "key": "b701745cfeb356b2",
+      "title": "VIEWCREST KIDS HALLOWEEN PARTY",
+      "start": "2026-10-30T00:00:00",
+      "end": "2026-10-30T00:00:00",
+      "all_day": true,
+      "venue": "3111 Church Place, Duluth, MN, United States, Minnesota 55811",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zNzMxZjM4ZWRiNWNiZmE1OGY3OWFkM2I2YzRkNDhjNDRmY2UzOWQ0OGU0MDkxZjE3NDVkOWYwY2I3MDBjNDU0LXJpbWctdzEwNDYtaDcwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTE1MjM3NA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/viewcrest-kids-halloween-party/200030777471634"
       }
     },
     {
@@ -3747,24 +3999,6 @@
       }
     },
     {
-      "key": "c78f35dc563aa8cf",
-      "title": "Haunted Hilltop",
-      "start": "2026-10-30T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "2501 Rice Lake Road, Duluth, MN, United States, Minnesota 55811",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hMjJiNmZjMWVkNDgyNDY3NzkwN2YyZGM3ODhkNjRlNDJmYmUxNDhlMDM2YWVjMDAxYzE1YmEwOTYwNmJkNTJjLXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTExNTU0NzY.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/haunted-hilltop/200030778011216"
-      }
-    },
-    {
       "key": "8f919766be94af12",
       "title": "AICHO Cedar Ceremony",
       "start": "2026-10-30T00:00:00",
@@ -3780,6 +4014,24 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/aicho-cedar-ceremony/200030751531158"
+      }
+    },
+    {
+      "key": "c78f35dc563aa8cf",
+      "title": "Haunted Hilltop",
+      "start": "2026-10-30T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "2501 Rice Lake Road, Duluth, MN, United States, Minnesota 55811",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hMjJiNmZjMWVkNDgyNDY3NzkwN2YyZGM3ODhkNjRlNDJmYmUxNDhlMDM2YWVjMDAxYzE1YmEwOTYwNmJkNTJjLXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTExNTU0NzY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/haunted-hilltop/200030778011216"
       }
     },
     {
@@ -3963,6 +4215,24 @@
       }
     },
     {
+      "key": "08e8ca97893d7f47",
+      "title": "HALLOWEEN PARTY AT THE SUPERIOR TAVERN!",
+      "start": "2026-10-31T00:00:00",
+      "end": "2026-10-31T00:00:00",
+      "all_day": true,
+      "venue": "Superior Tavern",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy84MDM2YjAxM2ZkNzI2M2M4MTA3ZWMxM2ZiMjNjM2Q3MjEwZmM4ZjMzMDliZDFhNTMzNGJmMmYyNDIzODY5YTcwLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTM5MTgyNQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/halloween-party-at-the-superior-tavern/200030800958925"
+      }
+    },
+    {
       "key": "aa465b4e066a7581",
       "title": "Fastpitch Master Skills Camp- Superior, WI",
       "start": "2026-10-31T00:00:00",
@@ -4089,6 +4359,24 @@
       }
     },
     {
+      "key": "5527aabb9e00a0fe",
+      "title": "Minnehaha PTO Trunk or Treat",
+      "start": "2026-10-31T00:00:00",
+      "end": "2026-10-31T00:00:00",
+      "all_day": true,
+      "venue": "Minnehaha Elementary - Lake Superior School District",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yNjdmNWVjOGZiYTMzNTFkYjg2NWY5NGY5Njk4MWNhY2M5YjFjN2UyYmUwOTA1YzZkYWQ2NzcyMjI1YTYzNDU5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZThkOC1nbWlyP3Y9MTc5MTQ0NzczNA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Two Harbors",
+        "url": "https://allevents.in/two-harbors/minnehaha-pto-trunk-or-treat/200030804929414"
+      }
+    },
+    {
       "key": "42af5a548b8475e8",
       "title": "Halloween Night - Mr. D's!! 8-Midnight!",
       "start": "2026-10-31T00:00:00",
@@ -4143,24 +4431,6 @@
       }
     },
     {
-      "key": "a97d896f0c62e569",
-      "title": "All You Can Eat Waffle Breakfast",
-      "start": "2026-11-01T00:00:00",
-      "end": "2026-11-01T00:00:00",
-      "all_day": true,
-      "venue": "Clyde Iron Works",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84ZGM1YmQyNGNiYmMzYTVmMWY1OTUxYjVjZTIzM2FiOWNmMWZjNGRlOGMyYmIyM2E0ZWY5MDJkMjBlZWMyNGYxLXJpbWctdzQ1MC1oMzM4LWRjMDgwODA4LWdtaXIuanBnP3Y9MTc4OTk3MTM2Mw.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/all-you-can-eat-waffle-breakfast/100002001771123316"
-      }
-    },
-    {
       "key": "e21fa2a0b6af42f5",
       "title": "Pizza & Game Night for College Students & Young Adults",
       "start": "2026-11-01T00:00:00",
@@ -4179,21 +4449,39 @@
       }
     },
     {
-      "key": "acba92ae251cfaf1",
-      "title": "Vikings take on Detroit \ud83c\udfc8",
-      "start": "2026-11-01T00:00:00",
-      "end": null,
+      "key": "a1725f9668142c73",
+      "title": "DIY Genuine Leather Accessory Pouch Class",
+      "start": "2026-11-02T00:00:00",
+      "end": "2026-11-02T00:00:00",
       "all_day": true,
-      "venue": "7153 Rice Lake Rd, Duluth, MN",
+      "venue": "Island Lake Inn",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "community",
+      "category": "education",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy83NzdmYTJkM2NiYzBjZmFkMzhlZTZmOWNlYWNhMTBiM2RjMzhlYjE3NzY3ODZlM2NkOGE3NGQyMjE1MDA0MDBhLXJpbWctdzEyMDAtaDEyMDAtZGNmOGY4ZjgtZ21pcj92PTE3OTEwOTY5ODk.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lMWUyNTc1M2JjOTVmMDU0ZmEyODg2ODQ3ZGVjMGQzNjA5MzEzNTcwMmYxNmYyZTE5ZTYyMzdkNTg4ZGY3NGRmLXJpbWctdzEyMDAtaDY3NS1kY2U4ZDhkOC1nbWlyP3Y9MTc5MTQ0MDIyOQ.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/vikings-take-on-detroit/200030769770229"
+        "url": "https://allevents.in/duluth/diy-genuine-leather-accessory-pouch-class/200030803616009"
+      }
+    },
+    {
+      "key": "1295c8623f9c6257",
+      "title": "BOB Book Club",
+      "start": "2026-11-02T00:00:00",
+      "end": "2026-11-02T00:00:00",
+      "all_day": true,
+      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy84YzM4YWIxMzhmMjVlNWI1Mjk4MzY4ZWQ4ZWViYWRmOGVhZDYyNjg4OGIwYmYzOTJhMmNhYjM5YmI3YTIzZTRlLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTEwNDA4OTQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/bob-book-club/200030766282735"
       }
     },
     {
@@ -4215,21 +4503,39 @@
       }
     },
     {
-      "key": "35948362da06108a",
-      "title": "Sip & Serenade (Special Edition) feat. Jason Owen \ud83d\ude08\ud83c\udfb8",
-      "start": "2026-11-04T00:00:00",
-      "end": "2026-11-04T00:00:00",
+      "key": "9ef0cd40275dc041",
+      "title": "Victoria McMillen for Cloquet School Board",
+      "start": "2026-11-03T00:00:00",
+      "end": null,
       "all_day": true,
-      "venue": "Jack's Bar",
-      "city": "Superior",
-      "area": "Superior",
+      "venue": "Cloquet, Minnesota",
+      "city": "Cloquet",
+      "area": "Cloquet",
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wOTM0NmY4YWNkZTE5YTRlNmQ4YmI0YTFlZWIyYzcyNjgwZjBiNGYxNjc4N2VlZjUwNDM5M2ZiODA4ODBhZTY4LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MTgtZ21pcj92PTE3ODg2MDAxMzc.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85MWE5NzM0NDFiZDY4NDYwMGQ1YWQ2MTNiMGY2YWMxYTMzMWUyNjY2NjBjNmE4MmU4MDQzMGZlYzA4NWNmMjQ0LXJpbWctdzEyMDAtaDkwMC1kYzI4MTg2OC1nbWlyP3Y9MTc5MTQzNTIyMg.avif",
       "source": {
-        "name": "AllEvents \u2014 Superior",
-        "url": "https://allevents.in/superior/sip-and-serenade-special-edition-feat-jason-owen/200030567170701"
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/victoria-mcmillen-for-cloquet-school-board/200030802664142"
+      }
+    },
+    {
+      "key": "400d5097e7084135",
+      "title": "Open Mic hosted by Kate",
+      "start": "2026-11-04T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Wussow's Concert Cafe",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "music",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvODhiNWUzMmQyZjY5NDg4Yjc5N2ZlMGIzMzBmZjJhZGI5ZjJhYzBlNzYxNmQ3NTNiYTVlMjQxNmI0MWM3YjJlMy1yaW1nLXcxMDgwLWg4MDItZGM2ODk4ZTgtZ21pcj92PTE3OTEzOTE4MzQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/open-mic-hosted-by-kate/200030800959832"
       }
     },
     {
@@ -4251,21 +4557,21 @@
       }
     },
     {
-      "key": "7df80e208ac81421",
-      "title": "Make Your Own Ginger Ale",
-      "start": "2026-11-05T00:00:00",
-      "end": "2026-11-05T00:00:00",
+      "key": "982c8e98e4e4a80f",
+      "title": "Jason Owen at Jack's Place",
+      "start": "2026-11-04T00:00:00",
+      "end": null,
       "all_day": true,
-      "venue": "Duluth Folk School",
-      "city": "Duluth",
-      "area": "Duluth",
+      "venue": "Jack's Place",
+      "city": "Superior",
+      "area": "Superior",
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kZTYyODczOTQxNTFlYjc4MDMyZTYwOGNhZTk4OWQyNjY2NTJiNDM4NDJkZTg5MmRjY2JmMTFjOGZhZDBjMTdjLXJpbWctdzEyMDAtaDYyOC1kYzI4MjgxOC1nbWlyP3Y9MTc5MTEzNDQ0Mw.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mYjgzNzgzY2ZlODlmNjU5NzcwMmUzZDE0OWJkNzQ5NTg5ZDk3Y2M2MmI1NmJjNGViYTUzNjYxMTE1NDdlNDY3LXJpbWctdzk3NC1oOTc0LWRjMTgxODE4LWdtaXI_dj0xNzg4NDAwNTU4.avif",
       "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/make-your-own-ginger-ale/200030774654443"
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/jason-owen-at-jacks-place/200030650819859"
       }
     },
     {
@@ -4305,6 +4611,24 @@
       }
     },
     {
+      "key": "bd1dfc68ef746e2f",
+      "title": "All About Cranes! Youth Afterschool Program",
+      "start": "2026-11-05T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Duluth Public Library",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "family",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy82ZDBlNTNhYTk4ZTVhOTNjY2NhZjA3YmE4ZmQ3ZTIwOWJjZmFmNjFhZTg2ZWM3YWRmODg1NTBiNTVlMTgxMTRlLXJpbWctdzEyMDAtaDYwMC1kY2Q4ZThmOC1nbWlyP3Y9MTc5MTE0NTQyMA.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/all-about-cranes-youth-afterschool-program/200030776408240"
+      }
+    },
+    {
       "key": "da152487a28d3f8a",
       "title": "Twin Ports Monthly Pinball Tournament",
       "start": "2026-11-05T00:00:00",
@@ -4341,8 +4665,8 @@
       }
     },
     {
-      "key": "95fba25cbd90d408",
-      "title": "Written in the Stars: Make a Star Garland out of Recycled Book Pages",
+      "key": "cc925d1956af6ff6",
+      "title": "Trivia!",
       "start": "2026-11-06T00:00:00",
       "end": "2026-11-06T00:00:00",
       "all_day": true,
@@ -4352,10 +4676,10 @@
       "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jZTY3Y2M1M2JmNWRjZTJlMjJhNTU2NjNjZTIwMzQyMWFhNzI1NmUwZjRkMTgyN2IzYTAyNmE5NGJmZjIyNTFkLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTEwNDMwOA.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jZWE3M2MwZDYyMzllMTBkMDJiNjhmNDhkMmJjOWUyYzc5MTY3OWRhYWNlODE1ZmIyNDNhOTAxZmRjZGQwOGM3LXJpbWctdzEyMDAtaDY3Ni1kYzk4ODg1OC1nbWlyP3Y9MTc4ODE4MjE0Nw.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/written-in-the-stars-make-a-star-garland-out-of-recycled-book-pages/200030770582628"
+        "url": "https://allevents.in/duluth/trivia/200030557191210"
       }
     },
     {
@@ -4410,6 +4734,24 @@
       "source": {
         "name": "AllEvents \u2014 Two Harbors",
         "url": "https://allevents.in/two-harbors/build-it-felt-fun-drop-in-program/200030769589725"
+      }
+    },
+    {
+      "key": "eb3e7a1b93e5ff65",
+      "title": "FRIDAY NOVEMBER 6 - AFTERSHOCK IS BACK AT SUPERIOR TAVERN",
+      "start": "2026-11-06T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "Superior, WI, United States, Minnesota",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy80YTI1ODljNTU3YzFhZGJkN2VmODczNTJiODBiOWYyYzZlYjY2MGRkYjVjOWQzODZiN2U0ZTY4MWQzODc3MjI1LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTQzNjcyNg.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/friday-november-6-aftershock-is-back-at-superior-tavern/200030802944546"
       }
     },
     {
@@ -4611,21 +4953,21 @@
       }
     },
     {
-      "key": "c9d843487d356d5d",
-      "title": "Art, Life, & Death: 3 Films by The Archers (Film 2)",
+      "key": "be60d7caed7ff324",
+      "title": "Folk School for Families! w/Terrence Smith",
       "start": "2026-11-07T00:00:00",
       "end": null,
       "all_day": true,
-      "venue": "The College of St. Scholastica Burns Wellness Center 249",
+      "venue": "Duluth Folk School",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "arts",
+      "category": "community",
       "price": "",
       "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84OWE3NzdiMzZlYjM4MTE4YmJmMzA2MDc3YmU4M2NlNTk2NGIyNzZkZjI2OWE4MjA0OTEyNzgxOTc1MjQxYzZlLXJpbWctdzEyMDAtaDY3NS1kYzM4NTg3OC1nbWlyP3Y9MTc5MTEwNDMyOQ.avif",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZTQ1ODNjZWU5YTA1ZmZkZTZjNjdiN2MyNjQ1YzAyYzUxYjgxODYyM2Y3OWQwMGVlZjZlNGQyNjBkNTQxNTlhMi1yaW1nLXcxMjAwLWgxMjAwLWRjMDgwODA4LWdtaXI_dj0xNzkxMDE1Njk0.avif",
       "source": {
         "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/art-life-and-death-3-films-by-the-archers-film-2/200030770586350"
+        "url": "https://allevents.in/duluth/folk-school-for-families-w-terrence-smith/200030765525134"
       }
     },
     {
@@ -4683,6 +5025,24 @@
       }
     },
     {
+      "key": "89f2bbe322807681",
+      "title": "Family Bingo Night: Ojibwe Language Edition!",
+      "start": "2026-11-09T00:00:00",
+      "end": "2026-11-09T00:00:00",
+      "all_day": true,
+      "venue": "320 14th St, Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8xNGM2ZDRhNTUwYjgzNmY2ZWQ5ZWI1OGM4OWUzMGI3YmIzN2NlMjgwYjkxNGM3MTVjNjIwZWEyZjM5NmVkZjc3LXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZTgtZ21pcj92PTE3OTE0MzUzMzE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/family-bingo-night-ojibwe-language-edition/200030802678731"
+      }
+    },
+    {
       "key": "e609fafdb05c0727",
       "title": "Gingerbread House Creations Pottery",
       "start": "2026-11-09T00:00:00",
@@ -4698,6 +5058,24 @@
       "source": {
         "name": "AllEvents \u2014 Hibbing",
         "url": "https://allevents.in/hibbing/gingerbread-house-creations-pottery/200030777310909"
+      }
+    },
+    {
+      "key": "b64faab6f21096c9",
+      "title": "Holiday Sip & Shop",
+      "start": "2026-11-11T00:00:00",
+      "end": "2026-11-11T00:00:00",
+      "all_day": true,
+      "venue": "Island Lake Inn",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy82MGNiYmMxOTAzYWRmMzZhZjEyMDAxNWFiNTUxNTI3ODAyNDQ5ZDRjMDcyYWNkZGRmMzE3MmE1MWRmM2E5MzA1LXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pcj92PTE3OTEyNzc5MjY.avif",
+      "source": {
+        "name": "AllEvents \u2014 Duluth",
+        "url": "https://allevents.in/duluth/holiday-sip-and-shop/200030785344606"
       }
     },
     {
@@ -4737,24 +5115,6 @@
       }
     },
     {
-      "key": "9338e94ab479b517",
-      "title": "Books & Bites Author Event",
-      "start": "2026-11-12T00:00:00",
-      "end": "2026-11-12T00:00:00",
-      "all_day": true,
-      "venue": "Boat Club Restaurant",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85NGYxZTZjM2ExMGI5NWI0YTEzYThiMjRiNzA3ZTY2MmQ4NjU5MzY3ZmEzZjYxMjliY2EzY2MwYTQ5NzNjMDZjLXJpbWctdzEyMDAtaDkyNy1kY2E4ZDhlOC1nbWlyLmpwZz92PTE3OTA5MDE5NjM.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/books-and-bites-author-event/100002002755884764"
-      }
-    },
-    {
       "key": "97a38f64121ed3a2",
       "title": "UW-Superior Women\u2019s Basketball vs. St. Scholastica",
       "start": "2026-11-12T00:00:00",
@@ -4773,24 +5133,6 @@
       }
     },
     {
-      "key": "2738029ad02d573d",
-      "title": "23rd Veteran Winter Gala",
-      "start": "2026-11-12T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "Greysolon by Black Woods",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iNmZjYTc4YTkzMWQzMmY1NmE0ZDgzMDc5OTQ3N2Y4ZWM2MGI3OWFiNGI2ZGE5ODkzYWMxMDYxMGFmYjMyNDY1LXJpbWctdzg1MS1oMzE1LWRjMDgzODU4LWdtaXI_dj0xNzkxMTA0MzE2.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/23rd-veteran-winter-gala/200030770584437"
-      }
-    },
-    {
       "key": "a8e021a1d74bb0af",
       "title": "Zeitgeist Theater Co. presents URINETOWN",
       "start": "2026-11-13T00:00:00",
@@ -4806,42 +5148,6 @@
       "source": {
         "name": "AllEvents \u2014 Duluth",
         "url": "https://allevents.in/duluth/zeitgeist-theater-co-presents-urinetown/200030520252705"
-      }
-    },
-    {
-      "key": "b091d3e8711a5486",
-      "title": "Drop-Off Workshop: kids in the kitchen",
-      "start": "2026-11-13T00:00:00",
-      "end": "2026-11-13T00:00:00",
-      "all_day": true,
-      "venue": "2125 West Superior Street, Duluth, MN, United States, Minnesota 55806",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "family",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81ZmJhZGIzNGE3YmRkNGY1ZDJkNTEyMDdhZTNlYzRlNmI0NGJhYmZmOTE5ZTAwY2I2M2E0MTgzOGU2OTdmMDMyLXJpbWctdzEyMDAtaDY3NS1kYzg4YzhhOC1nbWlyP3Y9MTc5MTEwNDMxNA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/drop-off-workshop-kids-in-the-kitchen/200030770584638"
-      }
-    },
-    {
-      "key": "f7700878c1e82ec6",
-      "title": "Holiday Glass Painting Class",
-      "start": "2026-11-13T00:00:00",
-      "end": "2026-11-13T00:00:00",
-      "all_day": true,
-      "venue": "Northern Exposure Art",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8xMGRhZTM5NmU3NmM5MzUxOGI3ZjMzZWNlYzVjM2IwOGQ3YTBhOTAzYmQ5OWUwYzYzMzQ2M2NhOGZhZmEyNTM2LXJpbWctdzEyMDAtaDYyOC1kYzI4MTgwOC1nbWlyP3Y9MTc5MTEyMzM1NA.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/holiday-glass-painting-class/200030772377955"
       }
     },
     {
@@ -4953,24 +5259,6 @@
       }
     },
     {
-      "key": "900793d2ece92474",
-      "title": "DIY Wood Projsect Paint & Sip Workshop @ Big Lake Golf Course",
-      "start": "2026-11-14T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "732 E 4th Street, Duluth, MN 55805",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "education",
-      "price": "",
-      "description": "",
-      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MDk4NjU3MTk1NTc4YWFmYmIyNmI0MDA5MTllMGM5NjE1NWQ3MGY0YmFkZmZiYTI5ZWY0MjZmMzA2YjdmYWEzLXJpbWctdzcwMC1oNjAwLWRjYjhiOGE4LWdtaXI_dj0xNzkxMTA0MzA2.avif",
-      "source": {
-        "name": "AllEvents \u2014 Duluth",
-        "url": "https://allevents.in/duluth/diy-wood-projsect-paint-and-sip-workshop-big-lake-golf-course/200030770582127"
-      }
-    },
-    {
       "key": "2c68d28295f9140a",
       "title": "The Laugh Shack w/ Headliner Comrade Tripp",
       "start": "2026-11-14T00:00:00",
@@ -5004,6 +5292,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/personal-alchemy-a-morning-of-yoga-and-reflection/200030732453243"
+      }
+    },
+    {
+      "key": "6d7f67657ae6cd78",
+      "title": "9th Annual Meat Raffle",
+      "start": "2026-11-15T00:00:00",
+      "end": "2026-11-15T00:00:00",
+      "all_day": true,
+      "venue": "Neighborly Bar",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85NWZiZTkyZWVjMjBjMmY0NzExMWE2ODlhYmU4ZTlmNDhhNWM5Zjg1ZDk2YmM5Y2NlMDFhZTUyYzk5MmIxNWYyLXJpbWctdzk2MC1oNTQwLWRjOTg5ODk4LWdtaXI_dj0xNzkxNDQ5MTI5.avif",
+      "source": {
+        "name": "AllEvents \u2014 Ashland",
+        "url": "https://allevents.in/ashland/9th-annual-meat-raffle/200030805174329"
       }
     },
     {
@@ -5313,6 +5619,24 @@
       }
     },
     {
+      "key": "fb179681c232dfe7",
+      "title": "Harvest and Handmade: Twin Ports Community Harvest & Holiday Markets",
+      "start": "2026-11-28T00:00:00",
+      "end": "2026-11-28T00:00:00",
+      "all_day": true,
+      "venue": "Barker's Island Inn",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zYTY3YmU0NDRlYmQxMzI5NGI1OTdiZTBmMTU2MGY2ZTRjMGZjMjM2MGQwN2VlYzQyNWM3NzczYzFjZTUzMzlmLXJpbWctdzExNzAtaDE0MzctZGM2ODc4NDgtZ21pcj92PTE3ODkwMzg2NzQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/harvest-and-handmade-twin-ports-community-harvest-and-holiday-markets/200030682705015"
+      }
+    },
+    {
       "key": "61c3ba6387e18a25",
       "title": "Swamp Donkey is Back at Birds!",
       "start": "2026-11-28T00:00:00",
@@ -5400,6 +5724,24 @@
       "source": {
         "name": "AllEvents \u2014 Grand Rapids",
         "url": "https://allevents.in/grand-falls-windsor/mistletoe-market/200030777224001"
+      }
+    },
+    {
+      "key": "84c25dd9f0b43569",
+      "title": "American Legion Small Business Saturday Sip n' Shop",
+      "start": "2026-11-28T00:00:00",
+      "end": "2026-11-28T00:00:00",
+      "all_day": true,
+      "venue": "American Legion Post 109",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84NTdmZjQ4ZWUzNjRhNTBmMDA5YjA3YzkyZmJjMjFmNzIyYjYzZmE5Mzg3NDJlMzcxMmFmZmVhZGE4ZTAwYjA0LXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTE0NDcxODE.avif",
+      "source": {
+        "name": "AllEvents \u2014 Two Harbors",
+        "url": "https://allevents.in/two-harbors/american-legion-small-business-saturday-sip-n-shop/200030804844301"
       }
     },
     {
@@ -5709,6 +6051,24 @@
       }
     },
     {
+      "key": "b5c25c61ae834471",
+      "title": "River Inn - Let's rock our \"Ugly Sweaters\"!",
+      "start": "2026-12-12T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "The River Inn Bar & Grill",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy84ODk0Njk0N2IyNDIzOWUyMjJhMjUzM2E3OGM5YmJkZDc5ZmM5NWVmZGM3ZWI1MzNhNTYwYzhlYTcxMzEzYjFjLXJpbWctdzEyMDAtaDY3NS1kY2U4MTgxOC1nbWlyP3Y9MTc5MTQzNjU4Nw.avif",
+      "source": {
+        "name": "AllEvents \u2014 Cloquet",
+        "url": "https://allevents.in/cloquet/river-inn-lets-rock-our-ugly-sweaters/200030802918028"
+      }
+    },
+    {
       "key": "9267ec5fec529856",
       "title": "An Irish Christmas with Rend Collective (Duluth, MN)",
       "start": "2026-12-13T00:00:00",
@@ -5820,7 +6180,7 @@
       "key": "69ab62e294c49bb9",
       "title": "Annual Winter Solstice Hot Cocoa Yoga",
       "start": "2026-12-20T00:00:00",
-      "end": "2026-12-20T00:00:00",
+      "end": "2026-12-21T00:00:00",
       "all_day": true,
       "venue": "1423 N 8th St, Ste 113, Superior, WI, United States, Wisconsin 54880",
       "city": "Superior",
@@ -5850,6 +6210,24 @@
       "source": {
         "name": "AllEvents \u2014 Superior",
         "url": "https://allevents.in/superior/post-christmas-party-with-indecent-proposal-indecent-proposal-live-at-superior-tavern/200029989273020"
+      }
+    },
+    {
+      "key": "c17b27fff69a3d93",
+      "title": "UW-Superior Men\u2019s Hockey vs. Hamline",
+      "start": "2027-01-02T00:00:00",
+      "end": "2027-01-02T00:00:00",
+      "all_day": true,
+      "venue": "Wessman Arena",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy83MjMwMDFlZDUyNWUzOTU4MjVjZDk4NzdjOThkNWRjZGViMmVhOTgzNjU5M2NmYmE5YTNlOWI4OTI5Nzk4OTYwLXJpbWctdzEyMDAtaDU3Mi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MTMyNDY5NQ.avif",
+      "source": {
+        "name": "AllEvents \u2014 Superior",
+        "url": "https://allevents.in/superior/uw-superior-mens-hockey-vs-hamline/200030793548335"
       }
     },
     {

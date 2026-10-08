@@ -606,5 +606,24 @@
    "other": 41,
    "holiday": 53
   }
+ },
+ {
+  "date": "2026-10-08",
+  "raw": 3151,
+  "merged": 2353,
+  "published": 2004,
+  "queued": 349,
+  "active_sources": 85,
+  "categories": {
+   "community": 911,
+   "sports-rec": 300,
+   "music": 126,
+   "food-drink": 150,
+   "education": 63,
+   "family": 160,
+   "arts": 190,
+   "other": 41,
+   "holiday": 63
+  }
  }
 ]
