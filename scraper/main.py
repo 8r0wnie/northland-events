@@ -3,6 +3,7 @@
 Usage:
   python main.py triage [--only id,id]      probe every source, report what yields events
   python main.py scrape [--only id,id]      run active sources, write site/data/events.json
+  python main.py refresh-local              scrape `refresh: local` sources into the cache only
   python main.py list                       print the registry
 
 Run from the scraper/ directory.
@@ -10,6 +11,7 @@ Run from the scraper/ directory.
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import sys
 from datetime import datetime, timedelta, UTC
@@ -22,7 +24,7 @@ except (AttributeError, ValueError):
     pass
 
 import fetch
-from registry import load_sources, save_sources, Source
+from registry import load_sources, Source
 from adapters import GENERIC, BY_PLATFORM
 from models import Event
 from verify import group_events, classify, load_decisions, append_decisions_seen
@@ -39,20 +41,49 @@ STATS_HISTORY_PATH = DATA_DIR / "scrape_stats_history.json"
 
 HORIZON_DAYS = 200
 CACHE_MAX_AGE_DAYS = 6      # carry a source's last-good events forward this long
+LOCAL_CACHE_MAX_AGE_DAYS = 10  # refresh: local sources — CI can't reach them, so the
+                               # owner's machine refreshes the cache; allow for missed days
 
 
 def adapters_for(source: Source):
-    if source.platform and source.platform in BY_PLATFORM:
-        return [BY_PLATFORM[source.platform]]
+    """Pinned adapters, in order. `platform:` may chain several with commas
+    (e.g. "govoffice,posts" = the calendar first, news-post text as fallback)."""
+    if source.platform:
+        pinned = [BY_PLATFORM[p.strip()] for p in source.platform.split(",")
+                  if p.strip() in BY_PLATFORM]
+        if pinned:
+            return pinned
     return GENERIC
 
 
 def scrape_source(source: Source) -> tuple[list[Event], str]:
+    errors = []
     for adapter in adapters_for(source):
-        result = adapter.scrape(source)
+        try:
+            result = adapter.scrape(source)
+        except Exception as exc:  # noqa: BLE001 — one broken site must never end the run
+            errors.append(f"{adapter.name} crashed: {type(exc).__name__}: {str(exc)[:80]}")
+            print(f"    ! {errors[-1]}")
+            continue
         if result.ok and result.events:
             return result.events, f"{adapter.name}: {result.detail}"
-    return [], "no adapter produced events"
+    return [], "no adapter produced events" + (f" ({'; '.join(errors)})" if errors else "")
+
+
+FREQUENT_MIN_COUNT = 20     # same title this often in the window ≈ weekly or more
+FREQUENT_SERIES_DAYS = 60   # ...then show only its next 60 days (rolling)
+
+
+def trim_frequent(events: list[Event], now: datetime) -> list[Event]:
+    """Project rule: a source's high-frequency series (daily/weekly programs
+    like open gym or a walking club) shows only the next FREQUENT_SERIES_DAYS,
+    so it can't swamp one-off events. Applies to every adapter, including
+    those whose platform pre-expands recurrence (DPCalendar, Revize, ...)."""
+    from collections import Counter
+    counts = Counter(e.title.strip().lower() for e in events)
+    cutoff = now + timedelta(days=FREQUENT_SERIES_DAYS)
+    return [e for e in events
+            if counts[e.title.strip().lower()] < FREQUENT_MIN_COUNT or e.start <= cutoff]
 
 
 def _load_cache() -> dict:
@@ -94,8 +125,14 @@ def cmd_scrape(args) -> None:
 
     for s in sources:
         print(f"→ {s.id} ({s.name})")
-        events, detail = scrape_source(s)
+        if s.refresh == "local" and os.environ.get("CI"):
+            # this site 403s datacenter IPs: don't knock, use the cache the
+            # owner's machine keeps fresh (refresh-local)
+            events, detail = [], "refresh: local — skipped in CI"
+        else:
+            events, detail = scrape_source(s)
         events = [e for e in events if now - timedelta(days=1) <= e.start <= horizon]
+        events = trim_frequent(events, now)
 
         if events:
             cache[s.id] = {"when": now.isoformat(timespec="seconds"),
@@ -103,7 +140,8 @@ def cmd_scrape(args) -> None:
         else:
             stale = cache.get(s.id)
             age_days = _age_days(stale) if stale else 999
-            if stale and age_days <= CACHE_MAX_AGE_DAYS:
+            max_age = LOCAL_CACHE_MAX_AGE_DAYS if s.refresh == "local" else CACHE_MAX_AGE_DAYS
+            if stale and age_days <= max_age:
                 revived = [Event.from_dict(d) for d in stale["events"]]
                 events = [e for e in revived if e and now - timedelta(days=1) <= e.start <= horizon]
                 for e in events:
@@ -248,7 +286,11 @@ def cmd_triage(args) -> None:
         print(f"\n=== {s.id}  {s.target}")
         winner = None
         for adapter in GENERIC:
-            res = adapter.scrape(s)
+            try:
+                res = adapter.scrape(s)
+            except Exception as exc:  # noqa: BLE001
+                print(f"  !! {adapter.name}: crashed {type(exc).__name__}: {str(exc)[:80]}")
+                continue
             flag = "OK " if res.ok else "-- "
             print(f"  {flag}{adapter.name}: {res.detail}")
             if res.ok and winner is None:
@@ -256,18 +298,26 @@ def cmd_triage(args) -> None:
         if winner:
             hits += 1
             if args.write:
-                s.status = "active"
-                s.notes = (s.notes + f" [triage: {winner}]").strip()
+                import srcedit  # line-level edit: keeps comments, trust:, refresh:
+                srcedit.set_fields(s.id, status="active",
+                                   notes=(s.notes + f" [triage: {winner}]").strip())
     print(f"\n{hits}/{len(sources)} sources yielded events via a generic adapter.")
     if args.write:
-        save_sources(load_sources_merged(sources))
         print("Registry updated (statuses set to active where a generic adapter worked).")
     fetch.shutdown()
 
 
-def load_sources_merged(updated: list[Source]) -> list[Source]:
-    by_id = {s.id: s for s in updated}
-    return [by_id.get(s.id, s) for s in load_sources()]
+def cmd_refresh_local(args) -> None:
+    """Scrape the `refresh: local` sources (sites that 403 GitHub's datacenter
+    IPs) from this machine. Like `scrape --only`, it updates
+    scraper/output/source_cache.json and never writes site/data/; commit the
+    cache and CI carries these events forward (LOCAL_CACHE_MAX_AGE_DAYS)."""
+    ids = [s.id for s in load_sources() if s.refresh == "local" and s.status == "active"]
+    if not ids:
+        print("No sources marked refresh: local.")
+        return
+    args.only = ",".join(ids)
+    cmd_scrape(args)
 
 
 def cmd_list(args) -> None:
@@ -287,6 +337,9 @@ def main() -> None:
     tp.add_argument("--only", help="comma-separated source ids")
     tp.add_argument("--write", action="store_true", help="flip working sources to status: active")
     tp.set_defaults(func=cmd_triage)
+
+    rp = sub.add_parser("refresh-local", help="scrape refresh: local sources into the cache")
+    rp.set_defaults(func=cmd_refresh_local)
 
     lp = sub.add_parser("list")
     lp.set_defaults(func=cmd_list)

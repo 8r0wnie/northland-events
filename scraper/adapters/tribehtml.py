@@ -23,6 +23,7 @@ except Exception:  # noqa: BLE001
 from models import Event, parse_dt, clean_text
 from registry import Source
 from adapters.base import AdapterResult, tag_from_source
+import fetch
 
 MAX_PAGES = 16
 HORIZON_DAYS = 150
@@ -54,7 +55,7 @@ class TribeHtmlAdapter:
 
         pages: list[str] = []
         try:
-            with sync_playwright() as p:
+            with fetch.playwright_session() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page(user_agent=UA, locale="en-US")
                 page.goto(site, wait_until="domcontentloaded", timeout=35000)

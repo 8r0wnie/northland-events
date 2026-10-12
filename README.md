@@ -3,7 +3,7 @@
 A public community events calendar for the **Duluth DMA** — Northern Minnesota,
 Northwest Wisconsin, and Ironwood, MI.
 
-- **Scraper** (`scraper/`) — Python. Pulls events from ~150 tourism, chamber,
+- **Scraper** (`scraper/`) — Python. Pulls events from ~135 active tourism, chamber,
   government, venue, and aggregator sites listed in `sources/sources.yaml`. Runs daily via
   GitHub Actions.
 - **Site** (`site/`) — static month/week calendar (FullCalendar) that reads
@@ -59,11 +59,14 @@ One entry per site. Key fields:
 
 ## Adapters (`scraper/adapters/`)
 
-22 adapters. Generic chain, tried in order: `tribe`, `weblink`, `civicplus`,
-`revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`, `jsonld`, `ics`,
-`chamberorganizer`, `chambermaster`. Pin-only via `platform:`: `simpleview`,
-`tribehtml`, `allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`,
-`spektrix`, `birkie`, `northhouse`.
+30 adapters. Generic chain, tried in order: `tribe`, `weblink`, `civicplus`,
+`revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`, `jsonld`,
+`microdata`, `simplecalendar`, `ics`, `chamberorganizer`, `chambermaster`.
+Pin-only via `platform:`: `simpleview`, `tribehtml`, `allevents`, `sidearm`,
+`ovationtix`, `decc`, `eventscalendar`, `spektrix`, `birkie`, `northhouse`,
+`eventbrite`, `dpcalendar`, `exploremn`, `squarespace`, `nps`, and `posts`.
+`posts` infers events from news posts and page text, and those events are
+reviewed before they publish.
 
 ## Further docs
 

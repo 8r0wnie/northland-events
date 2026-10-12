@@ -59,6 +59,12 @@ findings go in that entry's `notes:` field, not in docs.
    needs a stated reason. The hook `.claude/hooks/doc_sync_reminder.py`
    (registered in `.claude/settings.json`) re-surfaces this on every
    `git commit` / `git push` and warns when code changed without docs.
+10. **Times are Central wall time.** Use `models.parse_dt` / `from_epoch`.
+    Never strip an offset or call a bare `datetime.fromtimestamp()`, because CI
+    runs in UTC. See "Time handling" in `docs/ARCHITECTURE.md`.
+11. **Inferred events are reviewed.** Events the `posts` adapter reads out of
+    prose carry `inferred: true`. A lone inferred event goes to the review
+    queue. Independence is counted by website, not registry entry.
 
 ## Working on the scraper
 
@@ -72,21 +78,25 @@ python main.py list
 python main.py triage --only <id,id>     # probe sources, see what yields events
 python main.py scrape --only <id,id>     # summary only, does NOT write site/data/
 python main.py scrape                    # all status: active sources -> ../site/data/
+python main.py refresh-local             # `refresh: local` sources -> cache only (owner's PC)
+python srcedit.py <id> key=value ...     # edit one sources.yaml entry, keeps comments
+python tests/test_posts.py               # parsing/time regression tests (also run in CI)
 cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
 
 Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 `PYTHONIOENCODING=utf-8` when calling pieces directly.
 
-Caution: `triage --write` rewrites `sources.yaml` through
-`registry.save_sources`, which **drops YAML comments and the `trust:` field**.
-Edit `sources.yaml` by hand instead.
+Edit `sources.yaml` by hand or with `srcedit.py`. `triage --write` uses
+`srcedit` too, so comments and every field survive. Never yaml-dump the whole
+file.
 
 ## Architecture in one paragraph
 
 `scraper/main.py scrape` loads active sources from `sources/sources.yaml`, runs
-each through its pinned adapter (or the generic chain), carries a source's
-cached events forward if it comes back empty (up to 6 days), normalizes and
+each through its pinned adapter chain (or the generic chain), trims
+high-frequency series to 60 days, carries a source's cached events forward
+if it comes back empty (6 days, or 10 for `refresh: local`), normalizes and
 infers categories (`models.py`), groups duplicates and applies trust rules
 (`verify.py`), tags tabling candidates (`tabling.py`), files events into the
 year-over-year archive (`recurrence.py`), and writes `site/data/*.json`.
@@ -103,12 +113,15 @@ public front door https://sites.google.com/view/northland-regional-events/home
 
 Generic chain, in order (first with events wins): `tribe`, `weblink`,
 `civicplus`, `revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`,
-`jsonld`, `ics`, `chamberorganizer`, `chambermaster`.
+`jsonld`, `microdata`, `simplecalendar`, `ics`, `chamberorganizer`,
+`chambermaster`.
 
 Pin-only (set `platform:` in `sources.yaml`): `simpleview`, `tribehtml`,
 `allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`, `spektrix`,
-`birkie`, `northhouse`. Adapters that drive a headless browser must stay
-pin-only.
+`birkie`, `northhouse`, `eventbrite`, `dpcalendar`, `exploremn`,
+`squarespace`, `nps`, `posts`. Adapters that drive a headless browser, and
+the `posts` text-inference fallback, must stay pin-only. `platform:` can
+chain adapters, e.g. `govoffice,posts`. Every active source is pinned.
 
 Per-adapter endpoints, parsing details and gotchas: `docs/ADAPTERS.md`.
 
@@ -123,8 +136,11 @@ Per-adapter endpoints, parsing details and gotchas: `docs/ADAPTERS.md`.
   `docs/SOURCES.md`.
 - New owner rule or scope decision → the Rules section above.
 - Finished a planned item or fixed a known issue → update the lists below.
-- Verify before calling it done: `scrape --only` on the affected sources; for
-  site changes, preview locally and check the browser console for errors.
+- Touched parsing or time handling → add a case to `scraper/tests/` and run
+  the tests, with `TZ=UTC` too.
+- Verify before calling it done: `scrape --only` on the affected sources,
+  and compare a few event times with the site's own page. For site changes,
+  preview locally and check the browser console for errors.
 
 ## Health check (start of a session)
 
@@ -140,21 +156,30 @@ A source that used to produce and now shows 0 is a regression to investigate.
 
 - Google Form → Sheet CSV `manual` adapter for Facebook-only / word-of-mouth
   events (`docs/DEPLOY.md` §5).
-- Explore Minnesota / Iron Range sources (still no coverage).
-- Revisit the `no-calendar` / `todo` candidates listed in `docs/SOURCES.md`.
+- **Blocked, broken and dead sources:** the owner wants these addressed, with
+  the list in `docs/SOURCES.md`. Use only legitimate routes (Rule 1).
+- Schedule `scripts/refresh_local.ps1` on the owner's PC (`docs/DEPLOY.md` §8)
+  if the owner agrees. Until then, `refresh: local` sources need a manual run
+  every 10 days or less.
 
 ## Known issues
 
-- **Coverage decline:** published events fell from ~2,650 (2026-09-05) to
-  ~1,870 (2026-10-11), and 26 active sources returned 0 on 2026-10-11. Some are
-  small gov calendars with nothing upcoming. Others used to produce:
-  `spooner-chamber`, `ely-chamber`, `norshor-playhouse`,
-  `duluth-art-institute`, `earth-rider`. Partly seasonal; needs investigation.
-- Some Tribe/WordPress and headless-browser sources intermittently return
-  nothing from GitHub Actions IPs (datacenter rate-limiting). The carry-forward
-  cache only masks outages up to 6 days. See `docs/SOURCES.md`.
+- **Coverage history:** published events fell from ~2,650 (2026-09-05) to
+  ~1,870 (2026-10-11). Causes found on 2026-10-11:
+  - 7 sources 403 GitHub IPs, now `refresh: local`.
+  - Several sites moved their calendars (Ely Chamber went to MEC, GovOffice
+    cities to Google Calendar, Spirit Mountain to /events/).
+  - The iCal adapter ignored RRULE, so recurring meetings vanished.
+  - The rest is seasonal.
+  Watch the trend after the 2026-10-11 push.
+- **CI runtime:** 135 sources, several of them browser-driven, plus posts
+  link-following. The job timeout was raised to 90 minutes. Check run
+  times; if it gets close, parallelize across domains.
+- `posts` events are heuristic. Expect some noise in the review queue, and
+  add regression cases when you fix one.
 - `allevents` listings have a date but no time, so those events are all-day.
-- `registry.save_sources` drops comments and `trust:` (see caution above).
+- Explore Minnesota answers one search call per page load. The adapter makes
+  exactly one call per run. Don't loop it.
 - `review.html`, `tabling.html` and `recurring.html` also accept `__dev__` as a
   passphrase. The gate is casual-view privacy only (the JSON is public), but
   remove the bypass if that ever matters.

@@ -50,6 +50,8 @@ class MergedEvent:
     event: Event
     source_ids: list[str] = field(default_factory=list)
     source_links: list[dict] = field(default_factory=list)  # [{name, url}]
+    # sources whose only contribution to this cluster was text-inferred
+    inferred_sources: set = field(default_factory=set)
 
     @property
     def key(self) -> str:
@@ -76,7 +78,7 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
     # sort so a trusted, data-rich event is the cluster representative
     def rep_rank(e: Event) -> tuple:
         richness = sum(bool(x) for x in (e.description, e.venue, e.image, e.price, e.end))
-        return (0 if trust_of.get(e.source_id) == "high" else 1, -richness)
+        return (0 if trust_of.get(e.source_id) == "high" else 1, int(e.inferred), -richness)
 
     events = sorted(events, key=lambda e: (e.start, *rep_rank(e)))
 
@@ -93,11 +95,15 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
             for m in by_day.get(day, ()):
                 if _same_event(m.event, e):
                     if e.source_id not in m.source_ids:
+                        if e.inferred:
+                            m.inferred_sources.add(e.source_id)
                         m.source_ids.append(e.source_id)
                         m.source_links.append({
                             "name": name_of.get(e.source_id, e.source_id),
                             "url": e.url or url_of.get(e.source_id, ""),
                         })
+                    elif not e.inferred:
+                        m.inferred_sources.discard(e.source_id)
                     _merge_into(m.event, e)
                     placed = True
                     break
@@ -106,6 +112,7 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
         if not placed:
             m = MergedEvent(
                 event=e,
+                inferred_sources={e.source_id} if e.inferred else set(),
                 source_ids=[e.source_id],
                 source_links=[{"name": name_of.get(e.source_id, e.source_id),
                                "url": e.url or url_of.get(e.source_id, "")}],
@@ -115,12 +122,24 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
     return merged
 
 
+def _site(url: str) -> str:
+    from urllib.parse import urlparse
+    host = urlparse(url).netloc.lower()
+    return host[4:] if host.startswith("www.") else host
+
+
 def classify(m: MergedEvent, sources: dict[str, Source]) -> str:
     """'confirmed' | 'needs-review'."""
     distinct = set(m.source_ids)
-    if len(distinct) >= 2:
+    # independence = distinct websites: two registry entries on one site (a
+    # fair page and a festival page on hurleywi.com) are one witness, not two
+    sites = {_site(sources[sid].url) if sources.get(sid) else sid for sid in distinct}
+    if len(sites) >= 2:
         return "confirmed"
-    if any(sources.get(sid) and sources[sid].trust_tier == "high" for sid in distinct):
+    # a trusted source vouches only for events it published as structured data;
+    # text-inferred events from a lone source always get a human look
+    if any(sources.get(sid) and sources[sid].trust_tier == "high"
+           and sid not in m.inferred_sources for sid in distinct):
         return "confirmed"
     return "needs-review"
 

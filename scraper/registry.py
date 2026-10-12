@@ -22,6 +22,11 @@ class Source:
     status: str
     notes: str = ""
     trust: str = ""          # high | low — set explicitly, else derived from category
+    refresh: str = ""        # "local" = site blocks CI's datacenter IPs; scrape it from
+                             # the owner's machine (main.py refresh-local) and let CI
+                             # carry the cached events forward
+    timefix: str = ""        # per-site time quirk an adapter corrects, e.g. "utc-wall"
+                             # (jsonld: the site's UTC instant is the real wall time)
 
     @property
     def target(self) -> str:
@@ -53,18 +58,7 @@ def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
             status=row.get("status", "todo"),
             notes=row.get("notes", ""),
             trust=(row.get("trust") or "").strip(),
+            refresh=(row.get("refresh") or "").strip(),
+            timefix=(row.get("timefix") or "").strip(),
         ))
     return out
-
-
-def save_sources(sources: list[Source], path: Path = REGISTRY_PATH) -> None:
-    """Rewrite the registry (used by the triage tool). Loses comments — keep a copy in git."""
-    payload = {"sources": [
-        {
-            "id": s.id, "name": s.name, "url": s.url, "events_url": s.events_url,
-            "category": s.category, "state": s.state, "area": s.area,
-            "platform": s.platform, "status": s.status, "notes": s.notes,
-        }
-        for s in sources
-    ]}
-    path.write_text(yaml.safe_dump(payload, sort_keys=False, width=200, allow_unicode=True), encoding="utf-8")

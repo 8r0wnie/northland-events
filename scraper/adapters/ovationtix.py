@@ -12,9 +12,10 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 
-from models import Event, clean_text
+from models import Event, clean_text, from_epoch
 from registry import Source
 from adapters.base import AdapterResult, tag_from_source
+import fetch
 
 HORIZON_DAYS = 320
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -33,7 +34,7 @@ class OvationTixAdapter:
         events_url = source.events_url or (source.url.rstrip("/") + "/events")
         payloads: list[dict] = []
         try:
-            with sync_playwright() as p:
+            with fetch.playwright_session() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page(user_agent=UA, locale="en-US")
 
@@ -67,7 +68,7 @@ class OvationTixAdapter:
                 ts = perf.get("performanceStart")
                 if not ts:
                     continue
-                start = datetime.fromtimestamp(ts / 1000)
+                start = from_epoch(ts  / 1000)
                 if not (now - timedelta(days=1) <= start <= horizon):
                     continue
                 title = clean_text(perf.get("productionName") or "")

@@ -13,9 +13,10 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 
-from models import Event, clean_text, infer_category
+from models import Event, clean_text, infer_category, from_epoch
 from registry import Source
 from adapters.base import AdapterResult, tag_from_source
+import fetch
 
 HORIZON_DAYS = 160
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -34,7 +35,7 @@ class EventsCalendarAdapter:
         events_url = source.events_url or (source.url.rstrip("/") + "/events")
         batches: list[list] = []
         try:
-            with sync_playwright() as p:
+            with fetch.playwright_session() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page(user_agent=UA, locale="en-US")
 
@@ -77,14 +78,14 @@ class EventsCalendarAdapter:
                 ts = node.get("start")
                 if not ts:
                     continue
-                start = datetime.fromtimestamp(ts / 1000)
+                start = from_epoch(ts  / 1000)
                 if not (now - timedelta(days=1) <= start <= horizon):
                     continue
                 eid = str(node.get("id") or "")
                 if eid and eid in seen:
                     continue
                 seen.add(eid)
-                end = datetime.fromtimestamp(node["end"] / 1000) if node.get("end") else None
+                end = from_epoch(node["end"]  / 1000) if node.get("end") else None
                 if end and end <= start:
                     end = None
                 title = clean_text(node.get("title") or "")

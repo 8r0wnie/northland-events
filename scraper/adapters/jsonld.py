@@ -83,8 +83,28 @@ def _price(node) -> str:
     return ""
 
 
+_TIMEFIX = ""   # the current source's `timefix:` (set by scrape(), single-threaded)
+
+
+def _when(value):
+    """parse_dt, plus the `timefix: utc-wall` quirk: some WordPress MEC sites
+    store local wall time as if it were UTC and then publish it with the local
+    offset (10:00 am shows as "05:00-05:00"). For those, the UTC instant *is*
+    the intended wall time."""
+    if _TIMEFIX == "utc-wall" and value:
+        from datetime import timezone
+        from dateutil import parser as _p
+        try:
+            dt = _p.parse(str(value))
+        except (ValueError, OverflowError):
+            dt = None
+        if dt is not None and dt.tzinfo is not None:
+            return dt.astimezone(timezone.utc).replace(tzinfo=None)
+    return parse_dt(value)
+
+
 def _to_event(node: dict, page_url: str) -> Event | None:
-    start = parse_dt(node.get("startDate"))
+    start = _when(node.get("startDate"))
     if not start:
         return None
     venue, address, city = _location(node)
@@ -98,7 +118,7 @@ def _to_event(node: dict, page_url: str) -> Event | None:
         source_id="",
         title=_text(node.get("name")),
         start=start,
-        end=parse_dt(node.get("endDate")),
+        end=_when(node.get("endDate")),
         venue=venue,
         address=address,
         city=city,
@@ -150,6 +170,14 @@ class JsonLdAdapter:
         return links[: self.MAX_DETAIL_PAGES]
 
     def scrape(self, source: Source) -> AdapterResult:
+        global _TIMEFIX
+        _TIMEFIX = source.timefix
+        try:
+            return self._scrape(source)
+        finally:
+            _TIMEFIX = ""
+
+    def _scrape(self, source: Source) -> AdapterResult:
         target = source.target
         html = fetch.get_text(target)
         used_render = False

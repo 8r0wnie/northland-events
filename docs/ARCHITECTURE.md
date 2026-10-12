@@ -1,6 +1,6 @@
 # Architecture
 
-How a daily run turns ~85 active sources into the published calendar, and
+How a daily run turns ~135 active sources into the published calendar, and
 every file that pipeline reads or writes. Keep this in sync with
 `scraper/main.py` and `.github/workflows/scrape.yml`.
 
@@ -8,10 +8,12 @@ every file that pipeline reads or writes. Keep this in sync with
 
 ```
 sources/sources.yaml (status: active)
-  └─ per source: adapter (pinned `platform:` or the generic chain)
+  └─ per source: adapters (pinned `platform:` chain "a,b" or the generic chain)
        ├─ keep events in [now − 1 day, now + 200 days]       HORIZON_DAYS
+       ├─ trim_frequent: a title listed 20+ times → next 60 days only
        ├─ non-empty → store in source_cache.json
        └─ empty     → reuse cached events if ≤ 6 days old     CACHE_MAX_AGE_DAYS
+                      (≤ 10 days for `refresh: local`)        LOCAL_CACHE_MAX_AGE_DAYS
   └─ Event.normalize()          models.py   clean text, infer category
   └─ group_events + classify    verify.py   fuzzy dedup, trust rules, decisions.csv
   └─ classify_tabling           tabling.py  PBS North tabling flag (title only)
@@ -22,11 +24,42 @@ sources/sources.yaml (status: active)
 `--only id,id` runs the same scrape and prints a summary, but returns before
 writing anything under `site/data/` (it does still update `source_cache.json`).
 
+Robustness: each adapter call is wrapped (`scrape_source`), so an exception
+in one adapter falls through to the next and never ends the run. Fetch
+errors such as redirect loops, bad schemes and broken HTTP/2 are absorbed in
+`fetch._request`. A host that resets HTTP/2 streams is retried over HTTP/1.1
+and remembered.
+
+`refresh-local` is `--only` for every `refresh: local` source. Those sites 403
+GitHub's datacenter IPs. The owner's machine runs it
+(`scripts/refresh_local.ps1`) and pushes `source_cache.json`, and the daily CI
+run then carries those events forward. That is ordinary access from a home
+connection, not IP rotation (Rule 1). In CI (`CI` env var set) those sources
+aren't requested at all, only carried forward, so we don't keep knocking on
+sites that refuse datacenter IPs.
+
+## Recurring series (project rule)
+
+A weekly walking club expanded over 200 days would bury one-off events, so
+**high-frequency series show only their next 60 days**, rolling forward each
+run. Two places enforce it:
+
+- `ics` knows the RRULE: DAILY/WEEKLY series stop at `FREQUENT_SERIES_DAYS`
+  (60), MONTHLY/YEARLY run the full window, and each series has at most 60
+  occurrences.
+- `main.trim_frequent` covers every other adapter, including platforms that
+  pre-expand recurrence (DPCalendar, Revize, My Calendar, WebCalendar). If one
+  source lists a title 20+ times (`FREQUENT_MIN_COUNT`), only occurrences in
+  the next 60 days are kept.
+
+Change both together. The recurrence tracker's weekly-meetup guard is
+separate (see below).
+
 ## Data files
 
 | file | written by | read by | committed by CI | notes |
 |------|-----------|---------|-----------------|-------|
-| `sources/sources.yaml` | hand (or `triage --write`) | scraper | no (hand commits) | source of truth for sources |
+| `sources/sources.yaml` | hand, `srcedit.py`, `triage --write` (both line-level, keep comments) | scraper | no (hand commits) | source of truth for sources |
 | `site/data/events.json` | `scrape` | `index.html`, `tabling.html` | yes | rolling window, overwritten each run |
 | `site/data/review_queue.json` | `scrape` | `review.html` | yes | pending low-trust items |
 | `moderation/decisions.csv` | `scrape` appends blank rows; admin edits via `review.html` Export | `verify.py` | yes | `key,decision,title,date,source,note` |
@@ -34,7 +67,7 @@ writing anything under `site/data/` (it does still update `source_cache.json`).
 | `site/data/event_history.json` | `recurrence.update_history` | `recurrence` | yes | **never trimmed**, the only long-term memory |
 | `site/data/recurring_events.json` | `recurrence.build_recurring_view` | `recurring.html` | yes | `confirmed` / `likely` series, regenerated |
 | `site/data/scrape_stats_history.json` | `recurrence.append_stats_snapshot` | `recurring.html` | yes | one row per day, capped at 730 |
-| `scraper/output/source_cache.json` | `scrape` | `scrape` | yes | last-good events per source |
+| `scraper/output/source_cache.json` | `scrape`, `refresh-local` (owner's machine) | `scrape` | yes | last-good events per source; how `refresh: local` sources reach CI |
 | `scraper/output/last_run.json` | `scrape` | humans / health check | yes | counts + per-source detail |
 
 If you add a file CI should keep, add it to the `git add` line in
@@ -58,6 +91,7 @@ From `models.Event.to_dict()` plus fields added downstream:
 | `verification` | `multi-source`, `trusted-single`, or `reviewed` |
 | `sources`, `source_count` | `[{name,url}]` of every source in the merged group |
 | `tabling`, `tabling_reasons` | PBS North flag — only `tabling.html` uses it |
+| `inferred` | `true` when the `posts` adapter read the event out of prose; drives review (below) |
 
 Top level: `generated`, `count`, `areas`, `categories`, `events`.
 
@@ -76,9 +110,17 @@ in adapters.
   (venue ratio ≥ 45 when both are present).
 - **Trust tier** (`registry.Source.trust_tier`): `trust:` in `sources.yaml` if
   set, else `low` for `category: social`/`aggregator`, else `high`.
-- **Confirmed (published):** 2+ distinct sources, or 1 high-trust source.
-- **Held:** a single low-trust source. Written to `review_queue.json` and a
-  blank row added to `moderation/decisions.csv`, keyed by fingerprint.
+- **Inferred events:** the `posts` adapter sets `inferred: true` on events it
+  read out of prose. A source vouches only for what it published as
+  structured data, so `MergedEvent.inferred_sources` tracks sources whose
+  only contribution to a cluster was inferred.
+- **Confirmed (published):** 2+ distinct *websites*, or 1 high-trust source
+  whose contribution was not inferred. Two registry entries on one domain,
+  such as a fair page and a festival page on hurleywi.com, count as one
+  witness (`verify._site`).
+- **Held:** a single low-trust source, or a single source whose copy was
+  inferred. Written to `review_queue.json` and a blank row added to
+  `moderation/decisions.csv`, keyed by fingerprint.
 - `decision=approve` → published with `verification: "reviewed"`;
   `reject` → dropped permanently; blank → stays queued.
 
@@ -122,10 +164,28 @@ Passphrase gates compare a SHA-256 (`PASS_HASH` in each file). They keep
 casual viewers out, not determined ones: the JSON files are public. Current
 passphrases and how to change them: `docs/DEPLOY.md`.
 
+## Time handling (project rule)
+
+Every `Event.start`/`end` is a **naive America/Chicago wall time**.
+
+- `models.parse_dt` converts any offset or `Z` to Central before dropping
+  tzinfo. Until 2026-10-11 it only dropped it, which put every UTC-stamped
+  event 5-6 hours late (ChamberMaster microdata, JSON-LD).
+- `models.from_epoch` converts Unix time. A bare `datetime.fromtimestamp()`
+  uses the machine zone: Central on the owner's PC, UTC in CI.
+- `ics._dt` converts aware iCal values the same way.
+- A site that publishes wrong offsets gets a per-source `timefix:` (only
+  `utc-wall` so far), never a global hack.
+- `tests/test_posts.py::test_time_zones` pins this behavior. Run the tests
+  with `TZ=UTC` to imitate CI.
+
 ## Fetching (`fetch.py`)
 
 - 2s minimum between requests to the same host (`CRAWL_DELAY`).
 - Retries `403/429/500/502/503/504` and connection errors twice, with backoff,
   jitter and a different User-Agent on retry. Other statuses fail fast.
-- Optional headless Chromium (Playwright) for JS-rendered pages; adapters that
-  rely on it are pin-only.
+- One shared headless Chromium per run (`fetch.browser()` /
+  `fetch.playwright_session()`). Playwright's sync API allows a single
+  instance per process. Adapters that use it are pin-only.
+- A host that tears down HTTP/2 streams is retried over HTTP/1.1
+  (`_h1_hosts`). Redirect loops fail fast instead of raising.

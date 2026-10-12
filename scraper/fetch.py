@@ -4,6 +4,7 @@ from __future__ import annotations
 import random
 import time
 import threading
+from contextlib import contextmanager
 from typing import Optional
 from urllib.parse import urlparse
 
@@ -61,6 +62,22 @@ def client() -> httpx.Client:
     return _client
 
 
+_client1: Optional[httpx.Client] = None
+_h1_hosts: set[str] = set()   # hosts whose HTTP/2 is broken; served over HTTP/1.1
+
+
+def client1() -> httpx.Client:
+    global _client1
+    if _client1 is None:
+        _client1 = httpx.Client(
+            headers={"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.9"},
+            follow_redirects=True,
+            timeout=httpx.Timeout(20.0),
+            http2=False,
+        )
+    return _client1
+
+
 def _request(method: str, url: str, **kwargs) -> Optional[httpx.Response]:
     headers = dict(kwargs.pop("headers", {}) or {})
     last_exc: Optional[Exception] = None
@@ -70,7 +87,17 @@ def _request(method: str, url: str, **kwargs) -> Optional[httpx.Response]:
             time.sleep(min(8.0, 1.5 * (2 ** attempt)) + random.uniform(0, 1.2))
             headers["User-Agent"] = _RETRY_UA[(attempt - 1) % len(_RETRY_UA)]
         try:
-            r = client().request(method, url, headers=headers or None, **kwargs)
+            use = client1() if _host(url) in _h1_hosts else client()
+            r = use.request(method, url, headers=headers or None, **kwargs)
+        except httpx.RemoteProtocolError as exc:
+            # some servers tear down HTTP/2 streams (ConnectionTerminated);
+            # remember the host and retry it over HTTP/1.1
+            _h1_hosts.add(_host(url))
+            last_exc = exc
+            continue
+        except (httpx.TooManyRedirects, httpx.UnsupportedProtocol) as exc:
+            last_exc = exc                      # redirect loop / bad scheme — won't change
+            break
         except (httpx.TransportError, httpx.InvalidURL) as exc:
             last_exc = exc                      # connection/timeout — worth a retry
             continue
@@ -104,17 +131,62 @@ _pw = None
 _browser = None
 
 
+def browser():
+    """The one shared Chromium for the whole run.
+
+    Playwright's sync API allows a single running instance per process; a
+    second `with sync_playwright()` while this one is up raises "using
+    Playwright Sync API inside the asyncio loop". So every adapter must use
+    this (or `playwright_session()`), never its own sync_playwright()."""
+    global _pw, _browser
+    if _browser is None:
+        from playwright.sync_api import sync_playwright
+        _pw = sync_playwright().start()
+        _browser = _pw.chromium.launch(headless=True)
+    return _browser
+
+
+class _SharedBrowser:
+    """Looks like a launched Browser; close() closes only the pages it opened."""
+
+    def __init__(self):
+        self._pages = []
+
+    def new_page(self, **kwargs):
+        page = browser().new_page(**kwargs)
+        self._pages.append(page)
+        return page
+
+    def close(self):
+        for page in self._pages:
+            try:
+                page.close()
+            except Exception:  # noqa: BLE001
+                pass
+        self._pages.clear()
+
+
+class _SharedChromium:
+    def launch(self, **_kwargs):
+        return _SharedBrowser()
+
+
+class _SharedPlaywright:
+    chromium = _SharedChromium()
+
+
+@contextmanager
+def playwright_session():
+    """Drop-in for `with sync_playwright() as p:` in adapters — same
+    `p.chromium.launch().new_page()` shape, backed by the shared browser."""
+    yield _SharedPlaywright()
+
+
 def render(url: str, *, wait_selector: str | None = None, timeout: int = 25000) -> Optional[str]:
     """Return fully-rendered HTML for JS-heavy pages."""
-    global _pw, _browser
     _throttle(url)
     try:
-        from playwright.sync_api import sync_playwright
-
-        if _browser is None:
-            _pw = sync_playwright().start()
-            _browser = _pw.chromium.launch(headless=True)
-        page = _browser.new_page(user_agent=USER_AGENT, locale="en-US")
+        page = browser().new_page(user_agent=USER_AGENT, locale="en-US")
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=timeout)
             if wait_selector:

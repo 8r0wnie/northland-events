@@ -134,6 +134,32 @@ def clean_text(value: Optional[str]) -> str:
     return _WS.sub(" ", value).strip()
 
 
+_CENTRAL = None
+
+
+def _to_local_naive(dt: datetime) -> datetime:
+    """Aware -> America/Chicago wall time, then drop tzinfo. A value with an
+    offset is an instant; "2026-12-09T13:45:00Z" is 7:45 AM here, not 13:45.
+    (Until 2026-10-11 the offset was simply stripped, which put every
+    UTC-stamped ChamberMaster/JSON-LD event 5-6 hours late.) A value already
+    in local offset ("...-05:00" in summer) is unchanged."""
+    global _CENTRAL
+    if dt.tzinfo is None:
+        return dt
+    if _CENTRAL is None:
+        from zoneinfo import ZoneInfo
+        _CENTRAL = ZoneInfo("America/Chicago")
+    return dt.astimezone(_CENTRAL).replace(tzinfo=None)
+
+
+def from_epoch(seconds: float) -> datetime:
+    """Unix time -> naive America/Chicago wall time. Never use a bare
+    datetime.fromtimestamp(): it uses the machine's zone, which is Central on
+    the owner's PC but UTC on GitHub Actions (events 5-6 h off in CI)."""
+    from datetime import timezone as _tz
+    return _to_local_naive(datetime.fromtimestamp(seconds, tz=_tz.utc))
+
+
 def parse_dt(value, *, default_tz=None, dayfirst=False) -> Optional[datetime]:
     """Best-effort parse of a date/datetime string or object.
 
@@ -146,14 +172,14 @@ def parse_dt(value, *, default_tz=None, dayfirst=False) -> Optional[datetime]:
     if value is None or value == "":
         return None
     if isinstance(value, datetime):
-        return value.replace(tzinfo=None) if value.tzinfo else value
+        return _to_local_naive(value)
     if isinstance(value, date):
         return datetime.combine(value, time.min)
     try:
         dt = dateparser.parse(str(value), dayfirst=dayfirst, fuzzy=True)
     except (ValueError, OverflowError, TypeError):
         return None
-    return dt.replace(tzinfo=None) if dt and dt.tzinfo else dt
+    return _to_local_naive(dt) if dt else dt
 
 
 @dataclass
@@ -173,6 +199,10 @@ class Event:
     category: str = "other"
     price: str = ""           # free-form ("Free", "$10", "$5-$20")
     image: str = ""
+    # True when the adapter inferred this event from free text (news posts,
+    # page prose) rather than a structured calendar. A single-source inferred
+    # event always goes to the review queue, whatever the source's trust tier.
+    inferred: bool = False
     scraped_at: str = field(default_factory=lambda: datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z"))
 
     def normalize(self) -> "Event":
@@ -221,7 +251,7 @@ class Event:
         ev = cls(source_id=d.get("source_id", ""), title=d.get("title", ""), start=start)
         ev.end = parse_dt(d.get("end"))
         for f in ("all_day", "venue", "city", "state", "area", "address", "url",
-                  "description", "category", "price", "image"):
+                  "description", "category", "price", "image", "inferred"):
             if d.get(f) is not None:
                 setattr(ev, f, d[f])
         return ev

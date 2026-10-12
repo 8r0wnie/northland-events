@@ -51,12 +51,26 @@ def _to_event(node: dict) -> Event | None:
         address=clean_text(", ".join(p for p in [
             venue.get("address"), venue.get("city"), venue.get("state")] if p)),
         city=clean_text(venue.get("city") or ""),
+        state=_state(venue),
         url=clean_text(node.get("url") or ""),
         description=clean_text(_strip_html(node.get("description") or "")),
         price=cost,
         image=clean_text((img.get("url") if isinstance(img, dict) else img) or ""),
         category=_map_category(cat_names),
     )
+
+
+_STATE_NAMES = {"minnesota": "MN", "wisconsin": "WI", "michigan": "MI"}
+
+
+def _state(venue: dict) -> str:
+    """Venue state as a 2-letter code ('' if absent), so an aggregator
+    spanning a state line (FeLiveLife: Ironwood MI + Hurley WI) is tagged
+    correctly instead of inheriting the source's state."""
+    raw = clean_text(venue.get("stateprovince") or venue.get("state") or venue.get("province") or "")
+    if len(raw) == 2:
+        return raw.upper()
+    return _STATE_NAMES.get(raw.lower(), "")
 
 
 def _strip_html(s: str) -> str:

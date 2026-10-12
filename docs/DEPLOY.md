@@ -130,3 +130,37 @@ shipped and get more useful over time, especially past the one-year mark.
 
 To change the passphrase: same recipe as above, swap `PASS_HASH` in
 [`site/recurring.html`](../site/recurring.html).
+
+## 8. Local refresh for CI-blocked sources — owner's machine
+
+Some sites return HTTP 403 to GitHub Actions' datacenter IPs but answer
+normally from home. They're marked `refresh: local` in
+`sources/sources.yaml`; the list is in `docs/SOURCES.md`.
+[`scripts/refresh_local.ps1`](../scripts/refresh_local.ps1) runs these steps:
+
+1. `git pull --ff-only`
+2. `python main.py refresh-local`, which scrapes only those sources and
+   updates `scraper/output/source_cache.json`
+3. commits and pushes that one file
+
+The next CI run carries those events forward for up to 10 days
+(`LOCAL_CACHE_MAX_AGE_DAYS`). Running it daily, or at least twice a week,
+keeps them on the calendar.
+
+Run it by hand:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "O:\Projects\Regional Event Scraper\scripts\refresh_local.ps1"
+```
+
+Schedule it daily at 04:45, before the 05:20 CI scrape. This is a one-time
+setup on the owner's PC. It needs the repo's `.venv` and the Git credential
+already used for pushes.
+
+```powershell
+schtasks /Create /TN "NorthlandEvents-LocalRefresh" /SC DAILY /ST 04:45 /F `
+  /TR "powershell -NoProfile -ExecutionPolicy Bypass -File `"O:\Projects\Regional Event Scraper\scripts\refresh_local.ps1`""
+```
+
+Remove it with `schtasks /Delete /TN "NorthlandEvents-LocalRefresh" /F`. If the PC is off,
+the run is skipped and CI keeps the last refresh for up to 10 days.

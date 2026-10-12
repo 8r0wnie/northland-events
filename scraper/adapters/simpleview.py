@@ -16,6 +16,7 @@ from datetime import datetime, timedelta
 from models import Event, parse_dt, clean_text
 from registry import Source
 from adapters.base import AdapterResult, tag_from_source
+import fetch
 
 PAGE_SIZE = 24
 MAX_PAGES = 12
@@ -92,7 +93,7 @@ class SimpleviewAdapter:
               "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
         try:
-            with sync_playwright() as p:
+            with fetch.playwright_session() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page(user_agent=UA, locale="en-US")
 

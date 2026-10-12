@@ -34,6 +34,14 @@ from .chamberorganizer import ChamberOrganizerAdapter
 from .chambermaster import ChamberMasterAdapter
 from .birkie import BirkieAdapter
 from .northhouse import NorthHouseAdapter
+from .posts import PostsAdapter
+from .eventbrite import EventbriteAdapter
+from .dpcalendar import DPCalendarAdapter
+from .exploremn import ExploreMnAdapter
+from .squarespace import SquarespaceAdapter
+from .nps import NpsAdapter
+from .microdata import MicrodataAdapter
+from .simplecalendar import SimpleCalendarAdapter
 
 GENERIC: list[Adapter] = [
     TribeEventsAdapter(),      # one API call, unambiguous when present
@@ -45,6 +53,8 @@ GENERIC: list[Adapter] = [
     GovOfficeAdapter(),        # ~6 month calendar-grid pages
     HeyGovAdapter(),           # ~6 month API calls
     JsonLdAdapter(),           # page fetch (+ optional render)
+    MicrodataAdapter(),        # page fetch, schema.org itemprop markup (GrowthZone Hub)
+    SimpleCalendarAdapter(),   # page fetch, WP Simple Calendar (google-calendar-events)
     IcsAdapter(),              # page fetch + feed fetch
     ChamberOrganizerAdapter(), # ~6 month POSTs
     ChamberMasterAdapter(),    # many calendar + detail-page fetches
@@ -76,6 +86,14 @@ BY_PLATFORM: dict[str, Adapter] = {
     "growthzone": ChamberMasterAdapter(),
     "birkie": BirkieAdapter(),
     "northhouse": NorthHouseAdapter(),
+    "posts": PostsAdapter(),
+    "eventbrite": EventbriteAdapter(),
+    "dpcalendar": DPCalendarAdapter(),
+    "exploremn": ExploreMnAdapter(),
+    "squarespace": SquarespaceAdapter(),
+    "nps": NpsAdapter(),
+    "microdata": MicrodataAdapter(),
+    "simplecalendar": SimpleCalendarAdapter(),
 }
 
 __all__ = ["Adapter", "AdapterResult", "GENERIC", "BY_PLATFORM"]
