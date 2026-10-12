@@ -180,7 +180,9 @@ it to:
 - confirm or reject suspected annual events (`moderation/annual_decisions.csv`),
 - change a source's tier or status, and add potential sources
   (`sources/sources.yaml`),
-- start a scrape now (`workflow_dispatch` on `scrape.yml`).
+- start a scrape now (`workflow_dispatch` on `scrape.yml`),
+- resolve community reports and switch learned category rules off or on
+  (`moderation/corrections.csv`, `moderation/category_rules.csv`, §11).
 
 Each save is one commit to `main`, made with a GitHub token held by the
 Worker. The repo stays the single source of truth and keeps a full history
@@ -215,6 +217,46 @@ secrets exist.
 - Local test: put `ADMIN_PASSWORD` and `GITHUB_TOKEN` in `.dev.vars`
   (git-ignored) and run `npx wrangler dev --var GITHUB_BRANCH:<test-branch>`
   against a throwaway branch, never `main`.
+
+
+## 11. Community reports ("Report a problem") — needs one KV namespace
+
+Every event popup on the public calendar has **Report a problem with this
+event**. The visitor picks what's wrong (date or time, category, place,
+title, cancelled, listed twice, not public, broken link, something else),
+can suggest the right value, and can add a note and an optional email. The
+report goes to `POST /api/report` and lands in a private **Cloudflare KV**
+namespace, never the public repo. The owner resolves it on `/admin` →
+Reports. Pipeline and learning: "Community reports" in `docs/ARCHITECTURE.md`.
+
+**One-time setup (owner):**
+1. dash.cloudflare.com → Storage & Databases → **Workers KV** → **Create
+   instance** (or *Create namespace*). Name it `northland-reports`.
+2. Copy its **ID** (a 32-character hex string) and give it to Claude. It's
+   not a secret. It goes in `wrangler.toml`:
+   ```toml
+   [[kv_namespaces]]
+   binding = "REPORTS"
+   id = "<the id>"
+   ```
+3. The push redeploys the Worker with the binding. Until then the form
+   answers "Reporting isn't switched on yet" and `/admin` → Reports says so too.
+
+**Abuse limits** (all in `worker/index.js`):
+- A hidden honeypot field, and a form submitted in under 2.5 s, are accepted
+  silently and dropped.
+- At most 8 reports per visitor per hour (`REPORTS_PER_HOUR`). The visitor is
+  identified by a hashed IP that's never stored.
+- The event must be on the published calendar.
+- Field lengths are capped.
+
+KV's free tier allows 1,000 writes a day, and each report uses 2. If spam
+gets through, add Cloudflare Turnstile, which is free and needs a site key
+and a secret.
+
+**Privacy.** Notes and emails stay in KV. Open reports stay until resolved,
+and resolved ones are kept 180 days and then expire. Only the outcome (event,
+field, values) is committed to `moderation/corrections.csv`.
 
 
 ## 10. Relay for sites that refuse GitHub's servers — automatic, no PC

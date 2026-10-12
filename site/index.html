@@ -47,6 +47,25 @@
   .card .tag { display: inline-block; background: var(--bg); border: 1px solid var(--line);
                border-radius: 999px; padding: 2px 9px; font-size: 12px; margin-right: 6px; }
   .card .tag.cat { border: none; font-weight: 600; }
+  dialog { max-height: 92vh; overflow: auto; }
+  .report-link { display: block; margin-top: 14px; padding: 0; border: none; background: none;
+                 color: var(--muted); font: inherit; font-size: 13px; text-decoration: underline; cursor: pointer; }
+  .report { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 14px; }
+  .report h3 { margin: 0 0 4px; font-size: 15px; }
+  .report label { display: block; margin: 9px 0 3px; color: var(--muted); font-size: 13px; }
+  .report label.inline { display: flex; gap: 6px; align-items: center; }
+  .report select, .report input:not([type="checkbox"]), .report textarea {
+    width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--panel); color: var(--ink); font: inherit; font-size: 14px; }
+  .report .row { display: flex; gap: 8px; }
+  .report .row > div { flex: 1; min-width: 0; }
+  .report .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .report .send { margin-top: 12px; padding: 8px 16px; border: none; border-radius: 8px;
+                  background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 600; cursor: pointer; }
+  .report .send:disabled { opacity: .6; cursor: default; }
+  .report .msg { margin-top: 8px; font-size: 13px; }
+  .report .msg.bad { color: var(--no); }
+  .report .thanks { color: var(--ok); font-weight: 600; }
   .card button.close { position: absolute; top: 10px; right: 12px; border: none; background: none;
                        font-size: 22px; cursor: pointer; color: var(--muted); }
   @media (max-width: 600px) {
@@ -162,7 +181,104 @@ function openDetail(ev) {
     src.textContent = 'Source: ' + list[0];
   }
   if (src.textContent) b.appendChild(src);
+  const rep = document.createElement('button'); rep.type = 'button'; rep.className = 'report-link';
+  rep.textContent = 'Report a problem with this event';
+  rep.onclick = () => { rep.replaceWith(reportForm(ev)); };
+  b.appendChild(rep);
   detail.showModal();
+}
+
+// ── "Report a problem": goes to the editor's review queue (/api/report) ──────
+const REPORT_KINDS = [
+  ['when', 'Wrong date or time'],
+  ['category', 'Wrong category'],
+  ['location', 'Wrong place (venue, city or state)'],
+  ['title', 'Wrong title or description'],
+  ['cancelled', 'Cancelled or postponed'],
+  ['duplicate', 'Listed more than once'],
+  ['not-public', 'Not a public event, or spam'],
+  ['link', "The link doesn't work"],
+  ['other', 'Something else'],
+];
+const escHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function reportForm(ev) {
+  const opened = Date.now();
+  const f = document.createElement('form'); f.className = 'report'; f.noValidate = true;
+  const sameDay = ev.end && ev.end.slice(0, 10) === ev.start.slice(0, 10);
+  const cats = Object.entries(CAT_LABELS).map(([k, v]) =>
+    `<option value="${k}" ${k === ev.category ? 'selected' : ''}>${escHtml(v)}</option>`).join('');
+  f.innerHTML = `
+    <h3>Report a problem</h3>
+    <label for="rk">What's wrong?</label>
+    <select id="rk" name="kind" required><option value="">Choose one…</option>
+      ${REPORT_KINDS.map(([k, v]) => `<option value="${k}">${escHtml(v)}</option>`).join('')}</select>
+    <div data-for="when" hidden>
+      <div class="row">
+        <div><label for="rd">Correct date</label><input id="rd" name="date" type="date" value="${escHtml(ev.start.slice(0, 10))}"></div>
+      </div>
+      <div class="row">
+        <div><label for="rs">Starts</label><input id="rs" name="start" type="time" value="${ev.all_day ? '' : escHtml(ev.start.slice(11, 16))}"></div>
+        <div><label for="re">Ends</label><input id="re" name="end" type="time" value="${!ev.all_day && sameDay ? escHtml(ev.end.slice(11, 16)) : ''}"></div>
+      </div>
+      <label class="inline"><input type="checkbox" name="all_day" ${ev.all_day ? 'checked' : ''}> All day</label>
+    </div>
+    <div data-for="category" hidden>
+      <label for="rc">Better category</label><select id="rc" name="category">${cats}</select>
+    </div>
+    <div data-for="location" hidden>
+      <label for="rv">Venue</label><input id="rv" name="venue" maxlength="150" value="${escHtml(ev.venue)}">
+      <div class="row">
+        <div><label for="rci">City</label><input id="rci" name="city" maxlength="80" value="${escHtml(ev.city)}"></div>
+        <div><label for="rst">State</label><select id="rst" name="state">
+          ${['MN', 'WI', 'MI', 'Other'].map(s => `<option ${s === ev.state ? 'selected' : ''}>${s}</option>`).join('')}</select></div>
+      </div>
+    </div>
+    <div data-for="title" hidden>
+      <label for="rt">Correct title</label><input id="rt" name="title" maxlength="200" value="${escHtml(ev.title)}">
+    </div>
+    <div data-for="link" hidden>
+      <label for="ru">Working link, if you know one (optional)</label><input id="ru" name="url" type="url" maxlength="300" placeholder="https://…">
+    </div>
+    <label for="rn">Anything else we should know? (optional)</label>
+    <textarea id="rn" name="note" rows="3" maxlength="600" placeholder="e.g. The flyer says it starts at 7, not 6."></textarea>
+    <label for="rm">Your email, if you're OK with a follow-up question (optional)</label>
+    <input id="rm" name="contact" type="email" maxlength="120" autocomplete="email">
+    <div class="hp" aria-hidden="true"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+    <button class="send" type="submit">Send report</button>
+    <div class="msg" role="status"></div>
+    <p class="meta">Reports go to the calendar's editor, who checks them before anything changes. Your email is only seen by the editor.</p>`;
+  const kindSel = f.elements.kind, msg = f.querySelector('.msg');
+  kindSel.onchange = () => {
+    for (const d of f.querySelectorAll('[data-for]')) d.hidden = d.dataset.for !== kindSel.value;
+  };
+  f.onsubmit = async e => {
+    e.preventDefault();
+    const fd = new FormData(f), kind = fd.get('kind');
+    if (!kind) { msg.className = 'msg bad'; msg.textContent = "Please choose what's wrong."; kindSel.focus(); return; }
+    const pick = names => Object.fromEntries(names.map(n => [n, (fd.get(n) || '').trim()]).filter(([, v]) => v));
+    const value = kind === 'when' ? { ...pick(['date', 'start', 'end']), all_day: !!fd.get('all_day') }
+      : kind === 'category' ? pick(['category'])
+      : kind === 'location' ? pick(['venue', 'city', 'state'])
+      : kind === 'title' ? pick(['title'])
+      : kind === 'link' ? pick(['url']) : {};
+    const btn = f.querySelector('.send'); btn.disabled = true;
+    msg.className = 'msg'; msg.textContent = 'Sending…';
+    try {
+      const r = await fetch('/api/report', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ event: ev.fingerprint, kind, value, note: fd.get('note') || '',
+          contact: fd.get('contact') || '', website: fd.get('website') || '', elapsed_ms: Date.now() - opened }) });
+      let data = {}; try { data = await r.json(); } catch {}
+      if (!r.ok) throw new Error(data.error || `Something went wrong (${r.status}).`);
+      const done = document.createElement('div'); done.className = 'report';
+      done.innerHTML = '<p class="thanks">Thanks! The calendar editor will check it.</p>';
+      f.replaceWith(done);
+    } catch (err) {
+      msg.className = 'msg bad'; msg.textContent = err.message; btn.disabled = false;
+    }
+  };
+  setTimeout(() => kindSel.focus(), 0);
+  return f;
 }
 
 function applyFilters(cal) {

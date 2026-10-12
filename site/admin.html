@@ -84,6 +84,26 @@
   .addgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:10px 0; }
   .addgrid label { font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px; }
   [hidden] { display:none !important; }
+
+  .rep { font-size:13px; border-top:1px dashed var(--line); padding:6px 0; }
+  .rep:first-of-type { border-top:none; }
+  .rep .who { color:var(--muted); font-size:12px; }
+  .fixes { background:var(--bg); border-radius:8px; padding:8px 10px; margin:8px 0; }
+  .fixes .hd { font-size:12px; color:var(--muted); font-weight:600; }
+  .fixrow { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin:6px 0; }
+  .fixrow input:not([type=checkbox]), .fixrow select { min-width:0; }
+  .fixrow .val { flex:1 1 220px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .fixrow .val input[type=text], .fixrow .val input[type=url] { flex:1 1 200px; }
+  .fixrow .was { font-size:12px; color:var(--muted); flex-basis:100%; }
+  .linkbtn { border:none; background:none; color:var(--accent); cursor:pointer; padding:2px 4px; font-weight:600; }
+  .acts button.on-skip { background:var(--warn-bg); color:var(--warn); border-color:var(--warn); }
+  .card.ignore { border-color:var(--warn); opacity:.75; }
+  .rules td.off { opacity:.5; }
+  .learngrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:8px; margin:12px 0; }
+  .learngrid > div { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:9px 11px; font-size:13px; }
+  .learngrid > div > b { display:block; margin-bottom:4px; }
+  .bars div { font-size:13px; margin:3px 0; }
+  .bars > div > b:first-child { display:inline-block; min-width:2em; margin-right:6px; text-align:right; font-variant-numeric:tabular-nums; }
 </style>
 </head>
 <body>
@@ -112,6 +132,7 @@
 
   <nav class="tabs" id="tabs">
     <button data-tab="review" class="on">Review queue <span class="n" id="n-review"></span></button>
+    <button data-tab="reports">Reports <span class="n" id="n-reports"></span></button>
     <button data-tab="annual">Annual events <span class="n" id="n-annual"></span></button>
     <button data-tab="sources">Sources <span class="n" id="n-sources"></span></button>
   </nav>
@@ -137,6 +158,24 @@
     </div>
     <div class="note" id="r-summary"></div>
     <div id="r-list"></div>
+  </section>
+
+  <!-- REPORTS ----------------------------------------------------------- -->
+  <section id="tab-reports" hidden>
+    <p class="note">Problems people reported from the public calendar, grouped by event. <b>Apply fix</b> saves the correction (edit it first if needed), and it's re-applied at every scrape. <b>Can't verify</b> dismisses it. <b>Reject</b> means the calendar was right. Rejected category reports also teach the categorizer it was right.</p>
+    <div class="err" id="rep-setup" hidden></div>
+    <div class="filters">
+      <input id="rep-q" type="search" placeholder="Search title or note">
+      <label>Problem <select id="rep-kind"><option value="">All</option></select></label>
+    </div>
+    <div id="rep-list"></div>
+
+    <h2 class="sec">What the categorizer has learned</h2>
+    <div id="learn"></div>
+
+    <h2 class="sec">Fixes you've applied <span class="n" id="n-fixes"></span></h2>
+    <p class="note">Undo removes a fix immediately. The event goes back to what its source says at the next scrape.</p>
+    <div id="fixes-list"></div>
   </section>
 
   <!-- ANNUAL ------------------------------------------------------------ -->
@@ -203,8 +242,11 @@ const S = {
   annual: { likely: [], confirmed: [], rejected: [] }, annualDecided: new Map(),
   sources: [],                            // merged registry + run history
   promote: { window: 7, min_runs: 5 },
+  reports: [], reportsConfigured: true, learning: null, corrections: [], rulesOff: new Set(),
 };
-const P = { review: new Map(), annual: new Map(), sources: new Map() };   // pending
+const P = { review: new Map(), annual: new Map(), sources: new Map(),     // pending
+            reports: new Map(), rules: new Map() };
+const DRAFT = new Map();   // report group -> editable fixes [{field, value}]
 let TAB = "review";
 
 const $ = (id) => document.getElementById(id);
@@ -255,7 +297,7 @@ $("lockform").addEventListener("submit", async (e) => {
 
 async function start() {
   $("lock").hidden = true; $("app").hidden = false;
-  await Promise.all([loadReview(), loadAnnual(), loadSources(), loadRuns()]);
+  await Promise.all([loadReview(), loadAnnual(), loadSources(), loadRuns(), loadReports()]);
   renderAll();
 }
 
@@ -264,7 +306,7 @@ $("tabs").addEventListener("click", (e) => {
   const b = e.target.closest("button[data-tab]"); if (!b) return;
   TAB = b.dataset.tab;
   for (const x of $("tabs").querySelectorAll("button")) x.classList.toggle("on", x === b);
-  for (const t of ["review", "annual", "sources"]) $("tab-" + t).hidden = t !== TAB;
+  for (const t of ["review", "reports", "annual", "sources"]) $("tab-" + t).hidden = t !== TAB;
 });
 
 // ── loading ──────────────────────────────────────────────────────────────────
@@ -315,7 +357,7 @@ async function loadRuns() {
 }
 
 // ── pending changes / save ───────────────────────────────────────────────────
-function pendingCount() { return P.review.size + P.annual.size + P.sources.size; }
+function pendingCount() { return P.review.size + P.annual.size + P.sources.size + P.reports.size + P.rules.size; }
 function updateSavebar() {
   const n = pendingCount();
   $("pending").textContent = n ? `${n} unsaved change${n === 1 ? "" : "s"}` : "No unsaved changes";
@@ -323,7 +365,9 @@ function updateSavebar() {
 }
 window.addEventListener("beforeunload", (e) => { if (pendingCount()) { e.preventDefault(); e.returnValue = ""; } });
 
-$("discard").addEventListener("click", () => { P.review.clear(); P.annual.clear(); P.sources.clear(); renderAll(); });
+$("discard").addEventListener("click", () => {
+  P.review.clear(); P.annual.clear(); P.sources.clear(); P.reports.clear(); P.rules.clear(); DRAFT.clear(); renderAll();
+});
 $("save").addEventListener("click", async () => {
   $("save").disabled = true;
   const done = [];
@@ -349,6 +393,26 @@ $("save").addEventListener("click", async () => {
         if (c.status) s.status = c.status;
       }
       done.push(`${changes.length} source change${changes.length === 1 ? "" : "s"}`); P.sources.clear();
+    }
+    if (P.reports.size) {
+      const items = [], groups = [...P.reports.entries()];
+      for (const [gk, p] of groups) {
+        const corrections = p.decision === "apply" ? fixesFor(gk).filter((f) => f.value !== "" || f.field === "hide") : [];
+        if (p.decision === "apply" && !corrections.length) throw new Error(`"${groupOf(gk).title}": fill in the fix, or choose Can't verify`);
+        for (const r of groupOf(gk).reports) items.push({ id: r.id, decision: p.decision, corrections });
+      }
+      await api("/api/reports/resolve", { method: "POST", body: JSON.stringify({ items }) });
+      const gone = new Set(items.map((i) => i.id));
+      S.reports = S.reports.filter((r) => !gone.has(r.id));
+      for (const [gk] of groups) DRAFT.delete(gk);
+      done.push(`${groups.length} report${groups.length === 1 ? "" : "s"}`); P.reports.clear();
+      loadCorrections().then(renderReports);
+    }
+    if (P.rules.size) {
+      const items = [...P.rules.entries()].map(([key, decision]) => ({ key, decision }));
+      await api("/api/category-rules", { method: "POST", body: JSON.stringify({ items }) });
+      for (const it of items) it.decision ? S.rulesOff.add(it.key) : S.rulesOff.delete(it.key);
+      done.push(`${items.length} learned-rule switch${items.length === 1 ? "" : "es"}`); P.rules.clear();
     }
     flash(`Saved ${done.join(", ")}. They apply at the next scrape.`);
   } catch (err) {
@@ -414,6 +478,223 @@ function bulk(decision) {
 }
 $("r-all-yes").addEventListener("click", () => bulk("approve"));
 $("r-all-no").addEventListener("click", () => bulk("reject"));
+
+// ── reports tab (community "Report a problem") ───────────────────────────────
+const KIND_LABEL = { when: "Wrong date or time", category: "Wrong category", location: "Wrong place",
+  title: "Wrong title or description", cancelled: "Cancelled or postponed", duplicate: "Listed more than once",
+  "not-public": "Not public / spam", link: "Link doesn't work", other: "Something else" };
+const CAT_LABEL = { music: "Music", arts: "Arts & Theater", family: "Family", "food-drink": "Food & Drink",
+  "sports-rec": "Sports & Rec", community: "Community", education: "Classes & Talks", holiday: "Holiday", other: "Other" };
+const FIX_LABEL = { category: "Category", when: "Date / time", venue: "Venue", city: "City", state: "State",
+  title: "Title", url: "Link", hide: "Hide this event" };
+
+async function loadReports() {
+  try {
+    const r = await api("/api/reports");
+    S.reportsConfigured = r.configured !== false;
+    S.reports = r.items || [];
+  } catch (err) { S.reportsConfigured = true; S.reports = []; flash(`Couldn't load reports: ${err.message}`, false); }
+  const [learning, rules] = await Promise.all([
+    staticJson("data/category_learning.json", null),
+    api("/api/category-rules").catch(() => ({ items: [] })),
+    loadCorrections(),
+  ]);
+  S.learning = learning;
+  S.rulesOff = new Set(rules.items.filter((r) => r.decision === "off").map((r) => r.key));
+  const kinds = [...new Set(S.reports.map((r) => r.kind))].sort();
+  $("rep-kind").innerHTML = '<option value="">All</option>' + kinds.map((k) => `<option value="${k}">${esc(KIND_LABEL[k] || k)}</option>`).join("");
+}
+async function loadCorrections() {
+  try { S.corrections = (await api("/api/corrections")).items || []; } catch { S.corrections = []; }
+}
+
+function reportGroups() {
+  const by = new Map();
+  for (const r of [...S.reports].sort((a, b) => a.at.localeCompare(b.at))) {
+    const gk = `${r.event}|${r.kind}`;
+    if (!by.has(gk)) by.set(gk, { gk, kind: r.kind, event: r.event, snap: r.snapshot || {}, title: r.snapshot?.title || "", reports: [] });
+    by.get(gk).reports.push(r);
+  }
+  return [...by.values()];
+}
+function groupOf(gk) { return reportGroups().find((g) => g.gk === gk); }
+
+// "when" is stored as 2026-10-14T10:00/2026-10-14T11:00 (or a bare date = all day)
+function parseWhen(v) {
+  const [a = "", b = ""] = String(v || "").split("/");
+  return { date: a.slice(0, 10), start: a.slice(11, 16), end: b.slice(11, 16), allDay: !!a && !a.includes("T") };
+}
+function composeWhen(w) {
+  if (!w.date) return "";
+  if (w.allDay || !w.start) return w.date;
+  return `${w.date}T${w.start}${w.end ? `/${w.date}T${w.end}` : ""}`;
+}
+function proposalFixes(g) {
+  // newest report with a suggestion wins
+  const withValue = [...g.reports].reverse().find((r) => r.value && Object.keys(r.value).length) || g.reports[0];
+  const v = withValue.value || {}, s = g.snap;
+  switch (g.kind) {
+    case "when": return [{ field: "when", value: v.date ? composeWhen({ date: v.date, start: v.start, end: v.end, allDay: v.all_day }) : "" }];
+    case "category": return [{ field: "category", value: v.category || "" }];
+    case "location": {
+      const out = ["venue", "city", "state"].filter((k) => v[k] && v[k] !== s[k] && v[k] !== "Other").map((k) => ({ field: k, value: v[k] }));
+      return out.length ? out : [{ field: "city", value: "" }];
+    }
+    case "title": return [{ field: "title", value: v.title || "" }];
+    case "link": return [{ field: "url", value: v.url || "" }];
+    case "cancelled": case "duplicate": case "not-public": return [{ field: "hide", value: g.kind }];
+    default: return [];
+  }
+}
+function fixesFor(gk) {
+  if (!DRAFT.has(gk)) DRAFT.set(gk, proposalFixes(groupOf(gk)).map((f) => ({ ...f })));
+  return DRAFT.get(gk);
+}
+function wasText(s, field) {
+  if (field === "when") return fmtWhen(s.start, s.all_day) + (s.end ? ` → ${fmtWhen(s.end, s.all_day)}` : "");
+  if (field === "category") return CAT_LABEL[s.category] || s.category || "";
+  return field === "hide" ? "" : String(s[field] ?? "");
+}
+function fixRow(f, i, snap) {
+  let val;
+  if (f.field === "category") {
+    val = `<select data-i="${i}" data-k="value">${Object.entries(CAT_LABEL).map(([k, l]) => `<option value="${k}" ${k === f.value ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`;
+  } else if (f.field === "when") {
+    const w = parseWhen(f.value);
+    val = `<input type="date" data-i="${i}" data-w="date" value="${esc(w.date)}">
+      <input type="time" data-i="${i}" data-w="start" value="${esc(w.start)}" ${w.allDay ? "disabled" : ""}> to
+      <input type="time" data-i="${i}" data-w="end" value="${esc(w.end)}" ${w.allDay ? "disabled" : ""}>
+      <label class="note"><input type="checkbox" data-i="${i}" data-w="allDay" ${w.allDay ? "checked" : ""}> all day</label>`;
+  } else if (f.field === "hide") {
+    val = `<span class="note">Removed from the calendar (${esc(f.value || "hidden")})</span>`;
+  } else {
+    val = `<input type="${f.field === "url" ? "url" : "text"}" data-i="${i}" data-k="value" value="${esc(f.value)}" maxlength="300">`;
+  }
+  const was = wasText(snap, f.field);
+  return `<div class="fixrow">
+    <select data-i="${i}" data-k="field">${Object.entries(FIX_LABEL).map(([k, l]) => `<option value="${k}" ${k === f.field ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>
+    <span class="val">${val}</span>
+    <button class="linkbtn" data-rm="${i}" title="Remove this fix">✕</button>
+    ${was ? `<span class="was">Now: ${esc(was)}</span>` : ""}
+  </div>`;
+}
+function reportCard(g) {
+  const p = P.reports.get(g.gk), st = p ? p.decision : "";
+  const s = g.snap;
+  const src = (s.sources || [])[0];
+  const reps = g.reports.map((r) => {
+    const v = r.value || {};
+    const sugg = Object.entries(v).filter(([k]) => k !== "all_day").map(([k, x]) => `${k}: ${x}`).join(", ") + (v.all_day ? " (all day)" : "");
+    return `<div class="rep">${sugg ? `<div>Suggests <b>${esc(sugg)}</b></div>` : ""}${r.note ? `<div>“${esc(r.note)}”</div>` : ""}
+      <div class="who">${esc(new Date(r.at).toLocaleString())}${r.contact ? ` · <a href="mailto:${esc(r.contact)}">${esc(r.contact)}</a>` : ""}</div></div>`;
+  }).join("");
+  const fixes = fixesFor(g.gk);
+  return `<div class="card ${st === "apply" ? "approve" : st === "reject" ? "reject" : st === "ignore" ? "ignore" : ""}" data-gk="${esc(g.gk)}">
+    <div class="when">${esc(fmtWhen(s.start, s.all_day))}</div>
+    <h3>${esc(s.title)}</h3>
+    <div class="where">${esc([s.venue, s.city, s.state].filter(Boolean).join(", "))}</div>
+    <div><span class="tag reason">${esc(KIND_LABEL[g.kind] || g.kind)}${g.reports.length > 1 ? ` · ${g.reports.length} reports` : ""}</span>
+      ${s.category ? `<span class="tag">${esc(CAT_LABEL[s.category] || s.category)}</span>` : ""}
+      ${s.url ? `<a class="tag" href="${esc(s.url)}" target="_blank" rel="noopener">event page</a>` : ""}
+      ${src ? `<a class="tag" href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a>` : ""}</div>
+    <div style="margin-top:6px">${reps}</div>
+    <div class="fixes"><div class="hd">Fix to apply</div>
+      ${fixes.map((f, i) => fixRow(f, i, s)).join("") || '<div class="note">No fix yet.</div>'}
+      <button class="linkbtn" data-add="1">+ Add a fix</button></div>
+    <div class="acts">
+      <button data-d="apply" class="${st === "apply" ? "on-yes" : ""}">Apply fix</button>
+      <button data-d="ignore" class="${st === "ignore" ? "on-skip" : ""}">Can't verify</button>
+      <button data-d="reject" class="${st === "reject" ? "on-no" : ""}">Reject (calendar is right)</button>
+      <button data-d="">Undecided</button>
+    </div></div>`;
+}
+function renderReports() {
+  $("rep-setup").hidden = S.reportsConfigured;
+  $("rep-setup").textContent = S.reportsConfigured ? "" : "Reporting isn't switched on yet: the Worker has no REPORTS storage. See docs/DEPLOY.md §11.";
+  const q = $("rep-q").value.trim().toLowerCase(), kind = $("rep-kind").value;
+  const groups = reportGroups().filter((g) => (!kind || g.kind === kind)
+    && (!q || `${g.title} ${g.reports.map((r) => r.note).join(" ")}`.toLowerCase().includes(q)));
+  $("n-reports").textContent = reportGroups().length || "";
+  $("rep-list").innerHTML = groups.length ? groups.map(reportCard).join("") : `<div class="empty">No open reports.</div>`;
+  renderLearning();
+  renderFixes();
+}
+$("rep-list").addEventListener("click", (ev) => {
+  const card = ev.target.closest(".card"); if (!card) return;
+  const gk = card.dataset.gk, fixes = fixesFor(gk);
+  const d = ev.target.closest("button[data-d]"), rm = ev.target.closest("button[data-rm]"), add = ev.target.closest("button[data-add]");
+  if (d) { d.dataset.d ? P.reports.set(gk, { decision: d.dataset.d }) : P.reports.delete(gk); }
+  else if (rm) fixes.splice(Number(rm.dataset.rm), 1);
+  else if (add) fixes.push({ field: "category", value: groupOf(gk).snap.category || "" });
+  else return;
+  renderReports(); updateSavebar();
+});
+$("rep-list").addEventListener("change", (ev) => {
+  const el = ev.target, card = el.closest(".card"); if (!card || el.dataset.i === undefined) return;
+  const f = fixesFor(card.dataset.gk)[Number(el.dataset.i)];
+  if (el.dataset.k === "field") {
+    f.field = el.value;
+    const s = groupOf(card.dataset.gk).snap;
+    f.value = el.value === "hide" ? "hidden" : el.value === "when" ? composeWhen(parseWhen(`${s.start || ""}`)) : el.value === "category" ? s.category || "" : s[el.value] || "";
+    renderReports();
+  } else if (el.dataset.k === "value") f.value = el.value;
+  else if (el.dataset.w) {
+    const w = parseWhen(f.value);
+    w[el.dataset.w] = el.type === "checkbox" ? el.checked : el.value;
+    f.value = composeWhen(w);
+    if (el.dataset.w === "allDay") renderReports();
+  }
+});
+for (const id of ["rep-q", "rep-kind"]) $(id).addEventListener("input", renderReports);
+
+function renderLearning() {
+  const L = S.learning;
+  if (!L) { $("learn").innerHTML = `<div class="empty">Nothing yet. This fills in after the first scrape that follows a category fix.</div>`; return; }
+  const cat = (c) => esc(CAT_LABEL[c] || c);
+  const feat = (f) => f.startsWith("source:") ? `events from <b>${esc(f.slice(7))}</b>` : `titles with “<b>${esc(f)}</b>”`;
+  const ruleOn = (r) => P.rules.has(r.key) ? P.rules.get(r.key) !== "off" : !S.rulesOff.has(r.key);
+  const conf = (L.confusion || []).slice(0, 10).map((c) => `<div><b>${c.count}</b> called ${cat(c.from)}, should be ${cat(c.to)}</div>`).join("");
+  const rules = (L.rules || []).map((r) => `<tr data-rule="${esc(r.key)}"><td class="${ruleOn(r) ? "" : "off"}">${feat(r.feature)}: ${cat(r.from)} → <b>${cat(r.to)}</b>
+      <div class="small">${r.support} fixes agree${r.against ? `, ${r.against} disagree` : ""} · changed ${r.applied || 0} events last run · e.g. ${esc((r.examples || []).slice(0, 3).join("; "))}</div></td>
+      <td><label class="note"><input type="checkbox" data-rule-on ${ruleOn(r) ? "checked" : ""}> on</label></td></tr>`).join("");
+  const pend = (L.pending || []).slice(0, 12).map((r) => `<div><b>${r.support}</b> ${feat(r.feature)}: ${cat(r.from)} → ${cat(r.to)}${r.support < L.min_support ? ` <span class="small">(needs ${L.min_support - r.support} more)</span>` : ` <span class="small">(${r.against} disagree)</span>`}</div>`).join("");
+  $("learn").innerHTML = `<p class="note">Built from ${L.corrections} category fix${L.corrections === 1 ? "" : "es"} and ${L.confirmations} rejected category report${L.confirmations === 1 ? "" : "s"}. A rule switches on once ${L.min_support} different events agree and at least ${Math.round(L.min_share * 100)}% of the evidence points the same way. Rules change every matching event, not only the reported ones.</p>
+    <div class="learngrid">
+      <div><b>Most common mistakes</b><div class="bars">${conf || '<span class="small">None yet.</span>'}</div></div>
+      <div><b>Almost learned</b><div class="bars">${pend || '<span class="small">None yet.</span>'}</div></div>
+    </div>
+    ${rules ? `<div class="tablewrap"><table class="rules"><thead><tr><th>Learned rule</th><th></th></tr></thead><tbody>${rules}</tbody></table></div>`
+            : `<div class="note">No rules learned yet.</div>`}`;
+}
+$("learn").addEventListener("change", (ev) => {
+  const box = ev.target.closest("input[data-rule-on]"); if (!box) return;
+  const key = box.closest("tr").dataset.rule;
+  const want = box.checked ? "" : "off", saved = S.rulesOff.has(key) ? "off" : "";
+  want === saved ? P.rules.delete(key) : P.rules.set(key, want);
+  renderLearning(); updateSavebar();
+});
+
+function renderFixes() {
+  const rows = S.corrections.filter((r) => r.decision === "apply").sort((a, b) => (b.decided_at || "").localeCompare(a.decided_at || ""));
+  $("n-fixes").textContent = rows.length ? `(${rows.length})` : "";
+  $("fixes-list").innerHTML = rows.length ? `<div class="tablewrap"><table><thead><tr><th>Event</th><th>Fix</th><th>Saved</th><th></th></tr></thead><tbody>${
+    rows.slice(0, 100).map((r) => `<tr data-key="${esc(r.key)}"><td>${esc(r.title)}<div class="small">${esc(r.date)}</div></td>
+      <td>${esc(FIX_LABEL[r.field] || r.field)}: ${r.was ? `${esc(r.field === "category" ? CAT_LABEL[r.was] || r.was : r.was)} → ` : ""}<b>${esc(r.field === "category" ? CAT_LABEL[r.value] || r.value : r.value)}</b></td>
+      <td class="small">${esc((r.decided_at || "").slice(0, 10))}</td>
+      <td><button class="linkbtn" data-undo>Undo</button></td></tr>`).join("")}</tbody></table></div>`
+    : `<div class="empty">None yet.</div>`;
+}
+$("fixes-list").addEventListener("click", async (ev) => {
+  const b = ev.target.closest("button[data-undo]"); if (!b) return;
+  const key = b.closest("tr").dataset.key, row = S.corrections.find((r) => r.key === key);
+  if (!confirm(`Undo the ${FIX_LABEL[row.field] || row.field} fix on "${row.title}"?`)) return;
+  try {
+    await api("/api/corrections", { method: "POST", body: JSON.stringify({ items: [{ key, decision: "" }] }) });
+    S.corrections = S.corrections.filter((r) => r.key !== key);
+    flash("Fix undone. The event goes back to its source's version at the next scrape.");
+    renderFixes();
+  } catch (err) { flash(`Couldn't undo: ${err.message}`, false); }
+});
 
 // ── annual tab ───────────────────────────────────────────────────────────────
 function annualState(key) { return P.annual.has(key) ? P.annual.get(key).decision : (S.annualDecided.get(key) || ""); }
@@ -529,7 +810,7 @@ $("rebuild").addEventListener("click", async () => {
   setTimeout(() => { $("rebuild").disabled = false; }, 60000);
 });
 
-function renderAll() { renderReview(); renderAnnual(); renderSources(); updateSavebar(); }
+function renderAll() { renderReview(); renderReports(); renderAnnual(); renderSources(); updateSavebar(); }
 </script>
 </body>
 </html>

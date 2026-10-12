@@ -88,6 +88,10 @@ Cases are in `tests/test_series.py`.
 | `moderation/decisions.csv` | admin page (Worker API), owner only | `verify.py` | no (Worker commits) | `key,decision,title,date,source,note,decided_at` |
 | `moderation/annual_decisions.csv` | admin page (Worker API), owner only | `recurrence.py` | no (Worker commits) | `key,decision(confirm/reject),title,decided_at` |
 | `site/data/sources.json` | `scrape` | `admin.html` | yes | every registry entry + tier + last 7 runs |
+| `moderation/corrections.csv` | admin page (Worker API), owner only | `feedback.py` | no (Worker commits) | resolved community reports, one row per field (see below) |
+| `moderation/category_rules.csv` | admin page (Worker API), owner only | `feedback.py` | no (Worker commits) | `key,decision(off),decided_at`: learned rules the owner switched off |
+| `site/data/category_learning.json` | `scrape` (`feedback.build_learning`) | `admin.html` | yes | learned rules, near-misses, most common mistakes; regenerated |
+| KV `REPORTS` (Cloudflare) | `POST /api/report` | `admin.html` via `/api/reports` | never in git | open reports `open:<id>`; resolved `done:<id>` expire after 180 days |
 | `scraper/output/source_history.json` | `scrape` | `scrape` (auto-promotion) | yes | per source, last 14 runs: events, queued, carried |
 | `site/data/decisions.csv` | `scrape` (copy of the above) | `review.html` | yes | read-only published copy |
 | `site/data/event_history.json` | `recurrence.update_history` | `recurrence` | yes | **never trimmed**, the only long-term memory |
@@ -118,8 +122,45 @@ From `models.Event.to_dict()` plus fields added downstream:
 | `sources`, `source_count` | `[{name,url}]` of every source in the merged group |
 | `tabling`, `tabling_reasons` | PBS North flag — only `tabling.html` uses it |
 | `inferred` | `true` when the `posts` adapter read the event out of prose; drives review (below) |
+| `corrected` | `true` when an owner-approved community correction changed the event |
 
 Top level: `generated`, `count`, `areas`, `categories`, `events`.
+
+## Community reports and category learning (`feedback.py`)
+
+1. A visitor uses **Report a problem** on an event. `POST /api/report`
+   checks the event's `fingerprint` is published and stores the report, with
+   a snapshot of the event, in KV (`docs/DEPLOY.md` §11).
+2. On `/admin` → Reports, reports are grouped by event and problem. The
+   owner chooses **Apply fix** (a prefilled, editable fix), **Can't verify**,
+   or **Reject** (the calendar was right). The Worker commits one row per
+   field to `moderation/corrections.csv`, with `key` = `<report id>:<field>`.
+   - Fields: `category`, `when`, `venue`, `city`, `state`, `title`, `url`,
+     `hide`.
+   - `when` is `2026-10-14T10:00/2026-10-14T11:00`. A bare date means all
+     day, and `date/date` is a multi-day all-day event.
+3. Every scrape: `load_corrections` collects the `apply` rows by fingerprint,
+   and `apply_corrections` changes the published dict. `hide` drops the
+   event, and `corrected: true` marks it. The fingerprint is kept, so the fix
+   sticks until the source changes the event's title, day or city. Undo on
+   `/admin` deletes the row.
+4. **Learning.** `build_learning` treats each applied category fix as a
+   mistake (`was` → `value`), counted once per event, and each rejected
+   category report as a confirmation.
+   - Features are the title's words (minus stopwords) and `source:<id>`.
+   - A rule `<feature>: <from> → <to>` switches on when at least
+     `LEARN_MIN_SUPPORT` (3) events agree and at least 75% of the evidence
+     for that feature and category points the same way.
+   - `apply_learned` runs on every merged event before the owner's own
+     fixes. It only changes events currently in `from`, and the strongest
+     rule wins.
+   - The owner can switch a rule off (`category_rules.csv`).
+   - `site/data/category_learning.json` feeds the admin panel: rules (with
+     how many events each changed), near-misses, the most common mistakes,
+     and mistakes by source.
+
+Learning only uses owner verdicts, never raw reports, so a flood of bad
+reports can't retrain the categorizer. Cases are in `tests/test_feedback.py`.
 
 ## Description cleanup (`models.clean_description`)
 

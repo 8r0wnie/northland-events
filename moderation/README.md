@@ -1,6 +1,6 @@
 # Moderation
 
-Both files here are **owner decisions**, written by the admin page
+All files here are **owner decisions**, written by the admin page
 (`/admin`, through the Worker API in `worker/index.js`). CI only reads them
 and never writes to them.
 
@@ -8,6 +8,13 @@ and never writes to them.
 |------|-------------------|---------|
 | `decisions.csv` | approve or reject a queued event | `verify.load_decisions`: approved events publish tagged "reviewed", and rejected ones are dropped for good |
 | `annual_decisions.csv` | mark a suspected annual event as annual or not | `recurrence.load_annual_decisions`: overrides the automatic guess |
+| `corrections.csv` | resolve a community report (Apply fix / Can't verify / Reject) | `feedback.load_corrections` re-applies `apply` rows every scrape, and `feedback.build_learning` learns category rules from them |
+| `category_rules.csv` | switch a learned category rule off | `feedback.build_learning`: an `off` rule stays listed but isn't applied |
+
+`corrections.csv` columns: `key` (`<report id>:<field>`), `decision`
+(`apply`/`ignore`/`reject`), `event` (fingerprint), `field`, `value`, `was`,
+`title`/`date`/`source`/`kind` (context), and `decided_at`. Reporters' notes
+and emails are never written here. They stay in Cloudflare KV.
 
 Columns: `key` (event fingerprint or annual-series key; don't edit), `decision`
 (`approve`/`reject`, or `confirm`/`reject` for annual), `title`/`date`/`source`

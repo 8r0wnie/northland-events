@@ -31,6 +31,7 @@ from models import Event, truncate_desc
 from verify import group_events, classify, review_reason, load_decisions
 from tabling import classify_tabling
 import recurrence
+import feedback
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data"
@@ -43,6 +44,7 @@ ANNUAL_DECISIONS_PATH = ROOT / "moderation" / "annual_decisions.csv"
 PROMOTE_WINDOW, PROMOTE_MIN_RUNS = 7, 5   # potential -> source after events on 5 of the last 7 runs
 RECURRING_PATH = DATA_DIR / "recurring_events.json"
 STATS_HISTORY_PATH = DATA_DIR / "scrape_stats_history.json"
+LEARNING_PATH = DATA_DIR / "category_learning.json"
 
 HORIZON_DAYS = 200
 CACHE_MAX_AGE_DAYS = 6      # carry a source's last-good events forward this long
@@ -180,17 +182,29 @@ def cmd_scrape(args) -> None:
     all_sources = {s.id: s for s in load_sources()}
     merged = group_events(all_events, all_sources)
     decisions = load_decisions()
+    # community reports the owner resolved on /admin (feedback.py)
+    corrections = feedback.load_corrections()
+    learning = feedback.build_learning()
 
     published: list[dict] = []
     queue: list[dict] = []
     stats = {"confirmed": 0, "multi_source": 0, "trusted_single": 0,
-             "reviewed_in": 0, "reviewed_out": 0, "queued": 0}
+             "reviewed_in": 0, "reviewed_out": 0, "queued": 0,
+             "corrected": 0, "hidden": 0, "learned_category": 0}
 
     for m in sorted(merged, key=lambda x: x.event.start):
         verdict = classify(m, all_sources)
         d = m.event.to_dict()
         d["sources"] = m.source_links
         d["source_count"] = len(set(m.source_ids))
+        if feedback.apply_learned(d, learning["rules"]):
+            stats["learned_category"] += 1
+        fixes = corrections.get(m.key)
+        if fixes:
+            if not feedback.apply_corrections(d, fixes):
+                stats["hidden"] += 1
+                continue
+            stats["corrected"] += 1
         d["tabling_reasons"] = classify_tabling(d["title"], d.get("description", ""))
         d["tabling"] = bool(d["tabling_reasons"])
 
@@ -288,6 +302,9 @@ def cmd_scrape(args) -> None:
             history, recurrence.load_annual_decisions(ANNUAL_DECISIONS_PATH)), indent=2),
         encoding="utf-8")
 
+    LEARNING_PATH.write_text(json.dumps({"generated": generated, **learning}, indent=2),
+                             encoding="utf-8")
+
     category_counts: dict[str, int] = {}
     for e in published:
         category_counts[e["category"]] = category_counts.get(e["category"], 0) + 1
@@ -303,6 +320,9 @@ def cmd_scrape(args) -> None:
           f"{len(published)} published ({stats['multi_source']} multi-source, "
           f"{stats['trusted_single']} trusted, {stats['reviewed_in']} admin-approved), "
           f"{len(queue)} in review queue")
+    if stats["corrected"] or stats["hidden"] or stats["learned_category"]:
+        print(f"feedback: {stats['corrected']} corrected, {stats['hidden']} hidden, "
+              f"{stats['learned_category']} re-categorized by {len(learning['rules'])} learned rule(s)")
     if promoted:
         print(f"promoted potential -> source: {', '.join(promoted)}")
     print(f"recurrence: {hist_stats['series_total']} series tracked "

@@ -51,6 +51,7 @@ jobs:
           git add site/data/events.json site/data/review_queue.json site/data/decisions.csv \
                   site/data/event_history.json site/data/recurring_events.json \
                   site/data/scrape_stats_history.json site/data/sources.json \
+                  site/data/category_learning.json \
                   scraper/output/last_run.json scraper/output/source_cache.json \
                   scraper/output/source_history.json sources/sources.yaml
           git diff --staged --quiet && { echo "no changes"; exit 0; }

@@ -20,7 +20,7 @@ Repo: https://github.com/8r0wnie/northland-events (public)
 | `docs/ADAPTERS.md` | every adapter: endpoint, parsing details, gotchas, how to add one |
 | `docs/SOURCES.md` | `sources.yaml` fields + statuses, triage workflow, revisit list, CI-flaky sources |
 | `docs/DEPLOY.md` | GitHub Actions, Cloudflare Workers, Google Site, private pages + passphrases |
-| `moderation/README.md` | owner decision files (review + annual), written by `/admin` |
+| `moderation/README.md` | owner decision files (review, annual, corrections, category rules), written by `/admin` |
 | `worker/index.js` | the admin API (Cloudflare Worker) — its header comment is the endpoint reference |
 | `docs/sources-appendix.md` | the original seed list, as received (frozen — don't edit) |
 | `README.md` | public-facing overview — keep it short, link to `docs/` |
@@ -82,6 +82,10 @@ findings go in that entry's `notes:` field, not in docs.
 11. **Inferred events are reviewed.** Events the `posts` adapter reads out of
     prose carry `inferred: true`. A lone inferred event goes to the review
     queue. Independence is counted by website, not registry entry.
+12. **Community reports change nothing until the owner resolves them.**
+    Public reports go to the private KV inbox. Only owner verdicts
+    (`moderation/corrections.csv`) change events or teach the categorizer.
+    Reporters' notes and emails never go in the repo.
 
 ## Working on the scraper
 
@@ -97,7 +101,7 @@ python main.py scrape --only <id,id>     # summary only, does NOT write site/dat
 python main.py scrape                    # all status: active sources -> ../site/data/
 python main.py refresh-local             # `refresh: local` sources -> cache only (owner's PC)
 python srcedit.py <id> key=value ...     # edit one sources.yaml entry, keeps comments
-python tests/test_posts.py && python tests/test_tiers.py && python tests/test_descriptions.py && python tests/test_series.py   # regression tests (also run in CI)
+python tests/test_posts.py && python tests/test_tiers.py && python tests/test_descriptions.py && python tests/test_series.py && python tests/test_feedback.py   # regression tests (also run in CI)
 cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
 
@@ -204,6 +208,9 @@ A source that used to produce and now shows 0 is a regression to investigate.
 - `tabling.html` and `recurring.html` use a client-side passphrase gate:
   casual-view privacy only, since the JSON is public. The `__dev__` bypass
   was removed on 2026-10-12.
+- **Community reports need a KV namespace** bound as `REPORTS` in
+  `wrangler.toml` (`docs/DEPLOY.md` §11). Until the owner creates it, the
+  form answers "not switched on yet".
 - The admin backend needs two Cloudflare secrets, `GITHUB_TOKEN` (a
   fine-grained PAT) and `ADMIN_PASSWORD`, set by the owner (`docs/DEPLOY.md`
   §9). The PAT expires, so renew it before then.

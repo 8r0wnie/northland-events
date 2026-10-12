@@ -22,13 +22,39 @@
 //   POST /api/sources/add {name, url, events_url?, area, state, category}
 //   POST /api/rescrape                   -> dispatch the scrape workflow now
 //   GET  /api/runs                       -> latest scrape workflow runs
+//   GET  /api/reports                    -> open community reports (KV inbox)
+//   POST /api/reports/resolve {items:[{id, decision: apply|ignore|reject,
+//        corrections:[{field, value}]}]} -> rows in moderation/corrections.csv,
+//        then the reports leave the inbox
+//   GET  /api/corrections                -> moderation/corrections.csv
+//   POST /api/corrections {items:[{key, decision:""}]} -> undo applied fixes
+//   GET  /api/category-rules             -> moderation/category_rules.csv
+//   POST /api/category-rules {items:[{key, decision: off|""}]} -> switch a learned rule off/on
+//
+// Public endpoints (no passphrase):
+//   POST /api/report {event, kind, value?, note?, contact?, website, elapsed_ms}
+//        -> stores a report in the REPORTS KV namespace (binding in
+//        wrangler.toml). `website` is a honeypot; reports are rate-limited
+//        per visitor and must name an event that is in data/events.json.
 //   POST /api/relay  (scraper only; auth = an in-progress Actions run, not the
 //        passphrase) -> fetch one URL from Cloudflare for a `refresh: relay` host
 
 const DECISIONS = "moderation/decisions.csv";
 const ANNUAL = "moderation/annual_decisions.csv";
 const SOURCES = "sources/sources.yaml";
+const CORRECTIONS = "moderation/corrections.csv";
+const CATEGORY_RULES = "moderation/category_rules.csv";
 const DECISION_COLS = ["key", "decision", "title", "date", "source", "note", "decided_at"];
+const CORRECTION_COLS = ["key", "decision", "event", "field", "value", "was", "title", "date",
+                         "source", "kind", "decided_at"];
+const RULE_COLS = ["key", "decision", "decided_at"];
+const REPORT_KINDS = new Set(["when", "category", "location", "title", "cancelled", "duplicate",
+                              "not-public", "link", "other"]);
+const FIX_FIELDS = new Set(["category", "when", "venue", "city", "state", "title", "url", "hide"]);
+const EVENT_CATEGORIES = new Set(["music", "arts", "family", "food-drink", "sports-rec", "community",
+                                  "education", "holiday", "other"]);
+const REPORTS_PER_HOUR = 8;          // per visitor
+const DONE_TTL = 180 * 86400;        // resolved reports stay in KV this long (seconds)
 const ANNUAL_COLS = ["key", "decision", "title", "decided_at"];
 const TIERS = new Set(["trusted", "source", "potential"]);
 const STATUSES = new Set(["active", "paused", "todo", "no-calendar", "blocked", "broken",
@@ -54,6 +80,8 @@ async function api(request, env, url) {
   // the scraper's relay authenticates differently (a live GitHub Actions run)
   // and uses that run's token, so it works without the admin secrets
   if (url.pathname === "/api/relay" && request.method === "POST") return relay(request, env);
+  // community "Report a problem": public, so it never touches GitHub
+  if (url.pathname === "/api/report" && request.method === "POST") return report(request, env, url);
   if (!env.ADMIN_PASSWORD || !env.GITHUB_TOKEN) {
     return json({ error: "admin API not configured (ADMIN_PASSWORD / GITHUB_TOKEN secrets)" }, 503);
   }
@@ -75,6 +103,14 @@ async function api(request, env, url) {
     case "POST /api/sources/add": return json(await addSource(env, await body(request)));
     case "POST /api/rescrape": return json(await rescrape(env));
     case "GET /api/runs": return json(await runs(env));
+    case "GET /api/reports": return json(await listReports(env));
+    case "POST /api/reports/resolve": return json(await resolveReports(env, await body(request)));
+    case "GET /api/corrections": return json({ items: await readCsv(env, CORRECTIONS) });
+    case "POST /api/corrections": return json(await upsertCsv(env, CORRECTIONS, CORRECTION_COLS,
+      await body(request), [""], "correction undo"));
+    case "GET /api/category-rules": return json({ items: await readCsv(env, CATEGORY_RULES) });
+    case "POST /api/category-rules": return json(await upsertCsv(env, CATEGORY_RULES, RULE_COLS,
+      await body(request), ["off", ""], "category-rule switch"));
     default: return json({ error: "not found" }, 404);
   }
 }
@@ -435,6 +471,132 @@ async function relay(request, env) {
     headers: { "content-type": res.headers.get("content-type") || "" },
     body_b64: btoa(bin),
   });
+}
+
+// ── community reports (KV inbox, binding REPORTS) ────────────────────────────
+// A report lives in KV as open:<id> until the owner resolves it on /admin;
+// then its outcome is committed to moderation/corrections.csv (no note or
+// contact — those stay private in KV) and it moves to done:<id> for 180 days.
+let EVENTS_CACHE = { at: 0, byKey: null };
+async function publishedEvents(env, url) {
+  if (EVENTS_CACHE.byKey && Date.now() - EVENTS_CACHE.at < 10 * 60 * 1000) return EVENTS_CACHE.byKey;
+  const res = await env.ASSETS.fetch(new Request(new URL("/data/events.json", url)));
+  if (!res.ok) throw httpError("calendar data unavailable", 503);
+  const data = await res.json();
+  EVENTS_CACHE = { at: Date.now(), byKey: new Map((data.events || []).map((e) => [e.fingerprint, e])) };
+  return EVENTS_CACHE.byKey;
+}
+
+const clip = (v, n) => String(v ?? "").replace(/[\u0000-\u001f\u007f]/g, " ").trim().slice(0, n);
+const clipNote = (v, n) => String(v ?? "").replace(/[\u0000-\u0009\u000b-\u001f\u007f]/g, " ").trim().slice(0, n);
+
+async function report(request, env, url) {
+  if (!env.REPORTS) return json({ error: "Reporting isn't switched on yet. Please try again soon." }, 503);
+  const p = await body(request);
+  // bots fill the hidden field or submit instantly: say thanks, store nothing
+  if (p.website || !(Number(p.elapsed_ms) >= 2500)) return json({ ok: true });
+  const kind = String(p.kind || "");
+  if (!REPORT_KINDS.has(kind)) throw httpError("Please pick what's wrong.", 400);
+  const ev = (await publishedEvents(env, url)).get(String(p.event || ""));
+  if (!ev) throw httpError("That event is no longer on the calendar.", 404);
+
+  const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+  const rl = `rl:${(await sha256(`${ip}|${new Date().toISOString().slice(0, 13)}`)).slice(0, 24)}`;
+  const n = Number(await env.REPORTS.get(rl)) || 0;
+  if (n >= REPORTS_PER_HOUR) {
+    throw httpError("Thanks! That's a lot of reports from here, though. Please try again in an hour.", 429);
+  }
+  await env.REPORTS.put(rl, String(n + 1), { expirationTtl: 3600 });
+
+  const v = p.value && typeof p.value === "object" ? p.value : {};
+  const value = {};
+  for (const k of ["date", "start", "end", "category", "venue", "city", "state", "title", "url"]) {
+    if (v[k] != null && v[k] !== "") value[k] = clip(v[k], 300);
+  }
+  if (v.all_day) value.all_day = true;
+  const at = new Date().toISOString();
+  const id = `${at.replace(/[-:.TZ]/g, "").slice(0, 14)}-${crypto.randomUUID().slice(0, 8)}`;
+  const snapshot = {};
+  for (const k of ["title", "start", "end", "all_day", "venue", "city", "state", "area", "category",
+                   "url", "source_id", "sources"]) snapshot[k] = ev[k];
+  const rec = { id, at, kind, value, note: clipNote(p.note, 600), contact: clip(p.contact, 120),
+                event: ev.fingerprint, snapshot };
+  await env.REPORTS.put(`open:${id}`, JSON.stringify(rec), { metadata: { event: ev.fingerprint, kind } });
+  return json({ ok: true });
+}
+
+async function listReports(env) {
+  if (!env.REPORTS) return { configured: false, items: [] };
+  const keys = [];
+  let cursor;
+  do {
+    const page = await env.REPORTS.list({ prefix: "open:", cursor });
+    keys.push(...page.keys);
+    cursor = page.list_complete ? null : page.cursor;
+  } while (cursor && keys.length < 2000);
+  const items = (await Promise.all(keys.slice(0, 400).map((k) => env.REPORTS.get(k.name, "json")))).filter(Boolean);
+  return { configured: true, items, more: Math.max(0, keys.length - 400) };
+}
+
+// which corrections.csv field a report is about when it's ignored / rejected
+const KIND_FIELD = { when: "when", category: "category", location: "venue", title: "title", cancelled: "hide",
+                     duplicate: "hide", "not-public": "hide", link: "url", other: "none" };
+
+function wasValue(s, field) {
+  if (field === "when") return `${s.start || ""}${s.end ? "/" + s.end : ""}`;
+  return ["category", "venue", "city", "state", "title", "url"].includes(field) ? String(s[field] ?? "") : "";
+}
+
+function proposedValue(rec) {
+  const v = rec.value || {};
+  switch (rec.kind) {
+    case "category": return v.category || "";
+    case "when": return v.date ? (v.all_day || !v.start ? v.date : `${v.date}T${v.start}${v.end ? `/${v.date}T${v.end}` : ""}`) : "";
+    case "location": return [v.venue, v.city, v.state].filter(Boolean).join(" | ");
+    case "title": return v.title || "";
+    case "link": return v.url || "";
+    case "cancelled": case "duplicate": case "not-public": return rec.kind;
+    default: return "";
+  }
+}
+
+async function resolveReports(env, payload) {
+  if (!env.REPORTS) throw httpError("the REPORTS KV namespace isn't bound yet (docs/DEPLOY.md §11)", 503);
+  const items = Array.isArray(payload.items) ? payload.items.slice(0, 200) : [];
+  const resolved = [];
+  for (const it of items) {
+    if (!["apply", "ignore", "reject"].includes(it?.decision)) throw httpError(`bad decision: ${it?.decision}`, 400);
+    const fixes = it.decision === "apply" && Array.isArray(it.corrections) ? it.corrections : [];
+    for (const f of fixes) {
+      if (!FIX_FIELDS.has(f?.field)) throw httpError(`bad field: ${f?.field}`, 400);
+      if (f.field === "category" && !EVENT_CATEGORIES.has(f.value)) throw httpError(`bad category: ${f.value}`, 400);
+    }
+    if (it.decision === "apply" && !fixes.length) throw httpError("Apply fix needs at least one fix filled in", 400);
+    const rec = await env.REPORTS.get(`open:${String(it.id)}`, "json");
+    if (rec) resolved.push({ rec, decision: it.decision, fixes });   // else: already resolved
+  }
+  const rows = [];
+  for (const { rec, decision, fixes } of resolved) {
+    const s = rec.snapshot || {};
+    const base = { decision, event: rec.event, title: s.title || "", date: String(s.start || "").slice(0, 10),
+                   source: s.source_id || "", kind: rec.kind };
+    if (fixes.length) {
+      for (const f of fixes) rows.push({ ...base, key: `${rec.id}:${f.field}`, field: f.field,
+                                         value: String(f.value ?? ""), was: wasValue(s, f.field) });
+    } else {
+      const field = KIND_FIELD[rec.kind] || "none";
+      rows.push({ ...base, key: `${rec.id}:${field}`, field, value: proposedValue(rec), was: wasValue(s, field) });
+    }
+  }
+  const res = rows.length
+    ? await upsertCsv(env, CORRECTIONS, CORRECTION_COLS, { items: rows }, ["apply", "ignore", "reject"], "report resolution")
+    : { changed: false };
+  const now = new Date().toISOString();
+  await Promise.all(resolved.map(({ rec, decision }) => Promise.all([
+    env.REPORTS.put(`done:${rec.id}`, JSON.stringify({ ...rec, decision, resolved_at: now }), { expirationTtl: DONE_TTL }),
+    env.REPORTS.delete(`open:${rec.id}`),
+  ])));
+  return { ...res, count: resolved.length };
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────
