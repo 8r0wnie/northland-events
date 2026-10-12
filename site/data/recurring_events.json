@@ -1,6 +1,127 @@
 {
-  "generated": "2026-10-12T14:43:23",
-  "confirmed": [],
+  "generated": "2026-10-12T15:30:40",
+  "confirmed": [
+    {
+      "key": "northshore inline marathon|duluth",
+      "title": "30th Annual NorthShore Inline Marathon",
+      "venue": "525 S Lake Ave, Duluth, MN, United States, Minnesota 55802",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 30,
+      "signal_reasons": [
+        "title says \"30th Annual\""
+      ],
+      "last_date": "2026-09-19",
+      "last_url": "https://allevents.in/duluth/30th-annual-northshore-inline-marathon/200029083248255",
+      "predicted_next": "2027-09-19",
+      "owner_decision": "confirm"
+    },
+    {
+      "key": "one week live vol 24 live recordings featuring songwriter contest with ryan lane|duluth",
+      "title": "One Week Live Vol. 24 Live Recordings featuring the 21st Annual Songwriter Contest with Ryan Lane",
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "music",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 21,
+      "signal_reasons": [
+        "title says \"21st Annual\""
+      ],
+      "last_date": "2026-10-07",
+      "last_url": "https://www.perfectduluthday.com/the-event/one-week-live-vol-24-live-recordings-featuring-the-21st-annual-songwriter-contest-with-ryan-lane/",
+      "predicted_next": "2027-10-07",
+      "owner_decision": "confirm"
+    },
+    {
+      "key": "voices of courage safe haven shelter and resource center s fundraiser|duluth",
+      "title": "Voices of Courage: Safe Haven Shelter and Resource Center's 21st Annual Fundraiser",
+      "venue": "Clyde Iron Works",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 21,
+      "signal_reasons": [
+        "title says \"21st Annual\""
+      ],
+      "last_date": "2026-10-08",
+      "last_url": "https://allevents.in/duluth/voices-of-courage-safe-haven-shelter-and-resource-centers-21st-annual-fundraiser/200030570060409",
+      "predicted_next": "2027-10-08",
+      "owner_decision": "confirm"
+    },
+    {
+      "key": "tamarack health whistlestop marathon half marathon 5k 10k|ashland",
+      "title": "28th Annual Tamarack Health WhistleStop Marathon/Half-Marathon/5K/10K",
+      "venue": "Ashland, Wisconsin",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 28,
+      "signal_reasons": [
+        "title says \"28th Annual\""
+      ],
+      "last_date": "2026-10-10",
+      "last_url": "https://allevents.in/ashland/28th-annual-tamarack-health-whistlestop-marathon-half-marathon-5k-10k/200029731186525",
+      "predicted_next": "2027-10-10",
+      "owner_decision": "confirm"
+    },
+    {
+      "key": "meeting dinner|duluth",
+      "title": "156th Annual Meeting & Dinner Celebration",
+      "venue": "Duluth Entertainment Convention Center - DECC",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 156,
+      "signal_reasons": [
+        "title says \"156th Annual\""
+      ],
+      "last_date": "2026-11-05",
+      "last_url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4578/details",
+      "predicted_next": "2027-11-05",
+      "owner_decision": "confirm"
+    },
+    {
+      "key": "gary carlson memorial funspiel|virginia",
+      "title": "2026 17th Annual Gary Carlson Memorial Funspiel",
+      "venue": "Curl Mesabi",
+      "city": "Eveleth",
+      "area": "Virginia",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 17,
+      "signal_reasons": [
+        "title says \"17th Annual\""
+      ],
+      "last_date": "2026-12-11",
+      "last_url": "https://business.laurentianchamber.org/events/details/2026-17th-annual-gary-carlson-memorial-funspiel-2030?calendarMonth=2026-12-01",
+      "predicted_next": "2027-12-11",
+      "owner_decision": "confirm"
+    }
+  ],
   "likely": [
     {
       "key": "first timber bay 5k 10k timber trot|ely",
@@ -163,26 +284,6 @@
       "owner_decision": ""
     },
     {
-      "key": "northshore inline marathon|duluth",
-      "title": "30th Annual NorthShore Inline Marathon",
-      "venue": "525 S Lake Ave, Duluth, MN, United States, Minnesota 55802",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "years_seen": [
-        "2026"
-      ],
-      "occurrence_count": 1,
-      "claimed_annual_number": 30,
-      "signal_reasons": [
-        "title says \"30th Annual\""
-      ],
-      "last_date": "2026-09-19",
-      "last_url": "https://allevents.in/duluth/30th-annual-northshore-inline-marathon/200029083248255",
-      "predicted_next": "2027-09-19",
-      "owner_decision": ""
-    },
-    {
       "key": "superior fall fest|superior",
       "title": "The 2nd Annual Superior Fall Fest",
       "venue": "The Lot: a Superior Community Space",
@@ -283,63 +384,103 @@
       "owner_decision": ""
     },
     {
-      "key": "one week live vol 24 live recordings featuring songwriter contest with ryan lane|duluth",
-      "title": "One Week Live Vol. 24 Live Recordings featuring the 21st Annual Songwriter Contest with Ryan Lane",
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "music",
+      "key": "flu vaccine clinic|hayward",
+      "title": "Annual Flu Vaccine Clinic",
+      "venue": "11040 N State Road 77, Hayward, WI, United States, Wisconsin 54843",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
       "years_seen": [
         "2026"
       ],
       "occurrence_count": 1,
-      "claimed_annual_number": 21,
+      "claimed_annual_number": null,
       "signal_reasons": [
-        "title says \"21st Annual\""
+        "title says \"annual\""
       ],
-      "last_date": "2026-10-07",
-      "last_url": "https://www.perfectduluthday.com/the-event/one-week-live-vol-24-live-recordings-featuring-the-21st-annual-songwriter-contest-with-ryan-lane/",
-      "predicted_next": "2027-10-07",
+      "last_date": "2026-10-12",
+      "last_url": "https://allevents.in/hayward/annual-flu-vaccine-clinic/200030783811859",
+      "predicted_next": "2027-10-12",
       "owner_decision": ""
     },
     {
-      "key": "voices of courage safe haven shelter and resource center s fundraiser|duluth",
-      "title": "Voices of Courage: Safe Haven Shelter and Resource Center's 21st Annual Fundraiser",
-      "venue": "Clyde Iron Works",
+      "key": "indigenous peoples day youth led march and community round dance|duluth",
+      "title": "Indigenous Peoples Day Celebration 2026 - Annual Youth Led March and Community Round Dance",
+      "venue": "Harbor City School to Duluth City Hall",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "food-drink",
+      "category": "arts",
       "years_seen": [
         "2026"
       ],
       "occurrence_count": 1,
-      "claimed_annual_number": 21,
+      "claimed_annual_number": null,
       "signal_reasons": [
-        "title says \"21st Annual\""
+        "title says \"annual\""
       ],
-      "last_date": "2026-10-08",
-      "last_url": "https://allevents.in/duluth/voices-of-courage-safe-haven-shelter-and-resource-centers-21st-annual-fundraiser/200030570060409",
-      "predicted_next": "2027-10-08",
+      "last_date": "2026-10-12",
+      "last_url": "https://allevents.in/duluth/indigenous-peoples-day-celebration-2026-annual-youth-led-march-and-community-round-dance/200030752186557",
+      "predicted_next": "2027-10-12",
       "owner_decision": ""
     },
     {
-      "key": "tamarack health whistlestop marathon half marathon 5k 10k|ashland",
-      "title": "28th Annual Tamarack Health WhistleStop Marathon/Half-Marathon/5K/10K",
-      "venue": "Ashland, Wisconsin",
-      "city": "Ashland",
-      "area": "Ashland",
-      "category": "sports-rec",
+      "key": "msfca conference vendor show|duluth",
+      "title": "MSFCA- Annual Conference Vendor Show",
+      "venue": "DECC",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
       "years_seen": [
         "2026"
       ],
       "occurrence_count": 1,
-      "claimed_annual_number": 28,
+      "claimed_annual_number": null,
       "signal_reasons": [
-        "title says \"28th Annual\""
+        "title says \"annual\""
       ],
-      "last_date": "2026-10-10",
-      "last_url": "https://allevents.in/ashland/28th-annual-tamarack-health-whistlestop-marathon-half-marathon-5k-10k/200029731186525",
-      "predicted_next": "2027-10-10",
+      "last_date": "2026-10-14",
+      "last_url": "https://allevents.in/duluth/msfca-annual-conference-vendor-show/200030412633631",
+      "predicted_next": "2027-10-14",
+      "owner_decision": ""
+    },
+    {
+      "key": "bay area historical society meeting|silver bay",
+      "title": "Bay Area Historical Society Annual Meeting",
+      "venue": "Silver Bay Golf Course",
+      "city": "Silver Bay",
+      "area": "Silver Bay",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-14",
+      "last_url": "https://allevents.in/silver-bay/bay-area-historical-society-annual-meeting/200030804987901",
+      "predicted_next": "2027-10-14",
+      "owner_decision": ""
+    },
+    {
+      "key": "pumpkin giveaway|cloquet",
+      "title": "2nd Annual Pumpkin Giveaway",
+      "venue": "3206 Rivergate Avenue, Scanlon, MN 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-10-15",
+      "last_url": "https://allevents.in/cloquet/2nd-annual-pumpkin-giveaway/200030819275118",
+      "predicted_next": "2027-10-15",
       "owner_decision": ""
     },
     {
@@ -383,6 +524,26 @@
       "owner_decision": ""
     },
     {
+      "key": "dinner and fundraiser|aitkin",
+      "title": "Annual Dinner and fundraiser",
+      "venue": "The Ripple Center",
+      "city": "Aitkin",
+      "area": "Aitkin",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-24",
+      "last_url": "https://allevents.in/aitkin/annual-dinner-and-fundraiser/200030804713941",
+      "predicted_next": "2027-10-24",
+      "owner_decision": ""
+    },
+    {
       "key": "mn gis lis consortium conference|duluth",
       "title": "MN GIS/LIS Consortium Annual Conference",
       "venue": "",
@@ -400,6 +561,26 @@
       "last_date": "2026-10-28",
       "last_url": "https://visitduluth.com/event/mn-gis-lis-consortium-annual-conference-2/",
       "predicted_next": "2027-10-28",
+      "owner_decision": ""
+    },
+    {
+      "key": "halloween dance by better together|aitkin",
+      "title": "Annual Halloween Dance by Better Together",
+      "venue": "301 Minnesota Ave N, Aitkin, MN 56431-1413, United States",
+      "city": "Aitkin",
+      "area": "Aitkin",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-29",
+      "last_url": "https://allevents.in/aitkin/annual-halloween-dance-by-better-together/200030805082245",
+      "predicted_next": "2027-10-29",
       "owner_decision": ""
     },
     {
@@ -423,23 +604,43 @@
       "owner_decision": ""
     },
     {
-      "key": "meeting dinner|duluth",
-      "title": "156th Annual Meeting & Dinner Celebration",
-      "venue": "Duluth Entertainment Convention Center - DECC",
+      "key": "wsv harvest party|duluth",
+      "title": "WSV Annual Harvest Party",
+      "venue": "410 N 78th Ave W , Duluth, MN, United States, Minnesota 55807",
       "city": "Duluth",
       "area": "Duluth",
-      "category": "food-drink",
+      "category": "community",
       "years_seen": [
         "2026"
       ],
       "occurrence_count": 1,
-      "claimed_annual_number": 156,
+      "claimed_annual_number": null,
       "signal_reasons": [
-        "title says \"156th Annual\""
+        "title says \"annual\""
       ],
-      "last_date": "2026-11-05",
-      "last_url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4578/details",
-      "predicted_next": "2027-11-05",
+      "last_date": "2026-10-31",
+      "last_url": "https://allevents.in/duluth/wsv-annual-harvest-party/200030770583733",
+      "predicted_next": "2027-10-31",
+      "owner_decision": ""
+    },
+    {
+      "key": "spooktacular halloween carnival|silver bay",
+      "title": "2nd Annual Spooktacular Halloween Carnival",
+      "venue": "1002 Main Street, Beaver Bay, MN, United States, Minnesota 55601",
+      "city": "Silver Bay",
+      "area": "Silver Bay",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-10-31",
+      "last_url": "https://allevents.in/silver-bay/2nd-annual-spooktacular-halloween-carnival/200030218728240",
+      "predicted_next": "2027-10-31",
       "owner_decision": ""
     },
     {
@@ -460,6 +661,26 @@
       "last_date": "2026-11-05",
       "last_url": "https://ashlandcountyfair.com/events/ashland-fair-board-annual-election/",
       "predicted_next": "2027-11-05",
+      "owner_decision": ""
+    },
+    {
+      "key": "boutique|hibbing",
+      "title": "26th Annual Boutique",
+      "venue": "1202 East Howard Street Hibbing MN 55008",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 26,
+      "signal_reasons": [
+        "title says \"26th Annual\""
+      ],
+      "last_date": "2026-11-06",
+      "last_url": "https://allevents.in/hibbing/26th-annual-boutique/200030807537812",
+      "predicted_next": "2027-11-06",
       "owner_decision": ""
     },
     {
@@ -503,6 +724,86 @@
       "owner_decision": ""
     },
     {
+      "key": "fur ball red white blue|ashland",
+      "title": "21st Annual Fur Ball - Red, White, & Blue Edition",
+      "venue": "AmericInn Ashland Splashland Waterpark",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 21,
+      "signal_reasons": [
+        "title says \"21st Annual\""
+      ],
+      "last_date": "2026-11-07",
+      "last_url": "https://allevents.in/ashland/21st-annual-fur-ball-red-white-and-blue-edition/200030651421953",
+      "predicted_next": "2027-11-07",
+      "owner_decision": ""
+    },
+    {
+      "key": "jingle all way craft small business christmas show|duluth",
+      "title": "10th Annual Jingle All The Way Craft & Small Business Christmas Show",
+      "venue": "5152 Miller Trunk Hwy",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 10,
+      "signal_reasons": [
+        "title says \"10th Annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://allevents.in/duluth/10th-annual-jingle-all-the-way-craft-and-small-business-christmas-show/100001983917062339",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
+      "key": "kick off to christmas market|grand rapids",
+      "title": "2nd Annual Kick off to Christmas Market",
+      "venue": "Sprucewood Academy",
+      "city": "Grand Falls-windsor",
+      "area": "Grand Rapids",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://allevents.in/grand-falls-windsor/2nd-annual-kick-off-to-christmas-market/200030819516731",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
+      "key": "meat raffle|ashland",
+      "title": "9th Annual Meat Raffle",
+      "venue": "Neighborly Bar",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 9,
+      "signal_reasons": [
+        "title says \"9th Annual\""
+      ],
+      "last_date": "2026-11-15",
+      "last_url": "https://allevents.in/ashland/9th-annual-meat-raffle/200030805174329",
+      "predicted_next": "2027-11-15",
+      "owner_decision": ""
+    },
+    {
       "key": "meeting|hermantown",
       "title": "*Annual Meeting 2026",
       "venue": "",
@@ -543,23 +844,183 @@
       "owner_decision": ""
     },
     {
-      "key": "gary carlson memorial funspiel|virginia",
-      "title": "2026 17th Annual Gary Carlson Memorial Funspiel",
-      "venue": "Curl Mesabi",
-      "city": "Eveleth",
-      "area": "Virginia",
+      "key": "ladies night out|hayward",
+      "title": "12th Annual Ladies Night Out",
+      "venue": "15570 Highway 63 N, Hayward, WI, United States, Wisconsin 54843",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 12,
+      "signal_reasons": [
+        "title says \"12th Annual\""
+      ],
+      "last_date": "2026-11-24",
+      "last_url": "https://allevents.in/hayward/12th-annual-ladies-night-out/200030772637416",
+      "predicted_next": "2027-11-24",
+      "owner_decision": ""
+    },
+    {
+      "key": "winter wonderland market|superior",
+      "title": "The 5th Annual Winter Wonderland Market",
+      "venue": "Superior WI Elks Lodge #403",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 5,
+      "signal_reasons": [
+        "title says \"5th Annual\""
+      ],
+      "last_date": "2026-11-28",
+      "last_url": "https://allevents.in/superior/the-5th-annual-winter-wonderland-market/200030022007104",
+      "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
+      "key": "craft fair|spooner",
+      "title": "6th annual craft fair!",
+      "venue": "1315 County Road A # A, Spooner, WI",
+      "city": "Spooner",
+      "area": "Spooner",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 6,
+      "signal_reasons": [
+        "title says \"6th annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://allevents.in/spooner/6th-annual-craft-fair/200030804556027",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
+      "key": "wassail bowl|duluth",
+      "title": "62nd Annual Wassail Bowl Celebration",
+      "venue": "Norton Park United Methodist Church",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 62,
+      "signal_reasons": [
+        "title says \"62nd Annual\""
+      ],
+      "last_date": "2026-12-06",
+      "last_url": "https://allevents.in/duluth/62nd-annual-wassail-bowl-celebration/200030817440927",
+      "predicted_next": "2027-12-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "christmas park holiday music show|hayward",
+      "title": "Christmas@The Park 3rd Annual Holiday Music Show",
+      "venue": "15791 US Highway 63, Hayward, WI, United States, Wisconsin 54843",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-12-11",
+      "last_url": "https://allevents.in/hayward/christmas-the-park-3rd-annual-holiday-music-show/200030678908835",
+      "predicted_next": "2027-12-11",
+      "owner_decision": ""
+    },
+    {
+      "key": "messiah singalong|duluth",
+      "title": "The 44th Annual Messiah Singalong",
+      "venue": "The College of St. Scholastica Mitchell Auditorium",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 44,
+      "signal_reasons": [
+        "title says \"44th Annual\""
+      ],
+      "last_date": "2026-12-15",
+      "last_url": "https://allevents.in/duluth/the-44th-annual-messiah-singalong/200030746760343",
+      "predicted_next": "2027-12-15",
+      "owner_decision": ""
+    },
+    {
+      "key": "winter solstice hot cocoa yoga|superior",
+      "title": "Annual Winter Solstice Hot Cocoa Yoga",
+      "venue": "1423 N 8th St, Ste 113, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
       "category": "sports-rec",
       "years_seen": [
         "2026"
       ],
       "occurrence_count": 1,
-      "claimed_annual_number": 17,
+      "claimed_annual_number": null,
       "signal_reasons": [
-        "title says \"17th Annual\""
+        "title says \"annual\""
       ],
-      "last_date": "2026-12-11",
-      "last_url": "https://business.laurentianchamber.org/events/details/2026-17th-annual-gary-carlson-memorial-funspiel-2030?calendarMonth=2026-12-01",
-      "predicted_next": "2027-12-11",
+      "last_date": "2026-12-20",
+      "last_url": "https://allevents.in/superior/annual-winter-solstice-hot-cocoa-yoga/200030732453343",
+      "predicted_next": "2027-12-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "pepsi challenge pepsi challenge race|hoyt lakes",
+      "title": "Pepsi Challenge 41st Annual Pepsi Challenge Race",
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "sports-rec",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 41,
+      "signal_reasons": [
+        "title says \"41st Annual\""
+      ],
+      "last_date": "2027-03-06",
+      "last_url": "https://hoytlakesmn.gov/html/community/events.html",
+      "predicted_next": "2028-03-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "pepsi challenge 50k great river energy rush 25k giants ridge 8k nordic ski races at giants ridge|iron range",
+      "title": "41st Annual 2027 Pepsi Challenge 50K/Great River Energy Rush 25K/Giants Ridge 8K Nordic Ski Races at Giants Ridge",
+      "venue": "6329 Wynne Creek Dr",
+      "city": "Biwabik",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 41,
+      "signal_reasons": [
+        "title says \"41st Annual\""
+      ],
+      "last_date": "2027-03-06",
+      "last_url": "https://www.mesabitribune.com/local-events",
+      "predicted_next": "2028-03-06",
       "owner_decision": ""
     }
   ],

@@ -67,7 +67,7 @@
   {
    "date": "2026-10-12",
    "events": 442,
-   "queued": 178,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -75,7 +75,7 @@
   {
    "date": "2026-10-12",
    "events": 18,
-   "queued": 13,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -83,7 +83,7 @@
   {
    "date": "2026-10-12",
    "events": 4,
-   "queued": 3,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -132,7 +132,7 @@
    "date": "2026-10-12",
    "events": 3,
    "queued": 0,
-   "carried": false
+   "carried": true
   }
  ],
  "ely-chamber": [
@@ -179,14 +179,14 @@
   {
    "date": "2026-10-12",
    "events": 2,
-   "queued": 2,
+   "queued": 0,
    "carried": false
   }
  ],
  "bayfield-chamber": [
   {
    "date": "2026-10-12",
-   "events": 87,
+   "events": 93,
    "queued": 0,
    "carried": false
   }
@@ -219,7 +219,7 @@
   {
    "date": "2026-10-12",
    "events": 6,
-   "queued": 3,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -234,7 +234,7 @@
  "duluth-mn": [
   {
    "date": "2026-10-12",
-   "events": 348,
+   "events": 347,
    "queued": 0,
    "carried": false
   }
@@ -250,9 +250,9 @@
  "proctor-mn": [
   {
    "date": "2026-10-12",
-   "events": 25,
+   "events": 21,
    "queued": 0,
-   "carried": true
+   "carried": false
   }
  ],
  "virginia-mn": [
@@ -315,7 +315,7 @@
   {
    "date": "2026-10-12",
    "events": 6,
-   "queued": 5,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -499,7 +499,7 @@
   {
    "date": "2026-10-12",
    "events": 1,
-   "queued": 1,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -507,7 +507,7 @@
   {
    "date": "2026-10-12",
    "events": 1,
-   "queued": 1,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -691,15 +691,15 @@
   {
    "date": "2026-10-12",
    "events": 6,
-   "queued": 6,
+   "queued": 0,
    "carried": false
   }
  ],
  "allevents-duluth": [
   {
    "date": "2026-10-12",
-   "events": 192,
-   "queued": 107,
+   "events": 189,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -707,7 +707,7 @@
   {
    "date": "2026-10-12",
    "events": 126,
-   "queued": 105,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -715,7 +715,7 @@
   {
    "date": "2026-10-12",
    "events": 31,
-   "queued": 30,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -723,7 +723,7 @@
   {
    "date": "2026-10-12",
    "events": 39,
-   "queued": 35,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -731,15 +731,15 @@
   {
    "date": "2026-10-12",
    "events": 9,
-   "queued": 9,
+   "queued": 0,
    "carried": false
   }
  ],
  "allevents-two-harbors": [
   {
    "date": "2026-10-12",
-   "events": 9,
-   "queued": 9,
+   "events": 10,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -747,7 +747,7 @@
   {
    "date": "2026-10-12",
    "events": 22,
-   "queued": 18,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -755,7 +755,7 @@
   {
    "date": "2026-10-12",
    "events": 6,
-   "queued": 6,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -763,7 +763,7 @@
   {
    "date": "2026-10-12",
    "events": 20,
-   "queued": 20,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -771,7 +771,7 @@
   {
    "date": "2026-10-12",
    "events": 53,
-   "queued": 52,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -779,7 +779,7 @@
   {
    "date": "2026-10-12",
    "events": 5,
-   "queued": 5,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -787,7 +787,7 @@
   {
    "date": "2026-10-12",
    "events": 35,
-   "queued": 34,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -795,7 +795,7 @@
   {
    "date": "2026-10-12",
    "events": 20,
-   "queued": 15,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -803,7 +803,7 @@
   {
    "date": "2026-10-12",
    "events": 21,
-   "queued": 20,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -811,7 +811,7 @@
   {
    "date": "2026-10-12",
    "events": 18,
-   "queued": 14,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -819,15 +819,15 @@
   {
    "date": "2026-10-12",
    "events": 7,
-   "queued": 7,
+   "queued": 0,
    "carried": false
   }
  ],
  "allevents-aitkin": [
   {
    "date": "2026-10-12",
-   "events": 12,
-   "queued": 12,
+   "events": 11,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -835,7 +835,7 @@
   {
    "date": "2026-10-12",
    "events": 9,
-   "queued": 8,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -843,7 +843,7 @@
   {
    "date": "2026-10-12",
    "events": 5,
-   "queued": 4,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -916,7 +916,7 @@
    "date": "2026-10-12",
    "events": 8,
    "queued": 0,
-   "carried": true
+   "carried": false
   }
  ],
  "mn-discovery-center": [
@@ -987,7 +987,7 @@
   {
    "date": "2026-10-12",
    "events": 12,
-   "queued": 11,
+   "queued": 0,
    "carried": false
   }
  ],
@@ -1130,7 +1130,7 @@
  "hurley-area-chamber": [
   {
    "date": "2026-10-12",
-   "events": 59,
+   "events": 58,
    "queued": 0,
    "carried": false
   }

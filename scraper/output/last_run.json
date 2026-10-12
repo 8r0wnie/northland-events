@@ -1,16 +1,16 @@
 {
-  "when": "2026-10-12T14:43:22Z",
-  "raw": 4891,
-  "merged": 3601,
-  "published": 2868,
-  "queued": 733,
+  "when": "2026-10-12T15:30:39Z",
+  "raw": 4888,
+  "merged": 3600,
+  "published": 3600,
+  "queued": 0,
   "verification": {
-    "confirmed": 2868,
+    "confirmed": 3377,
     "multi_source": 356,
-    "trusted_single": 2512,
-    "reviewed_in": 0,
+    "trusted_single": 3021,
+    "reviewed_in": 223,
     "reviewed_out": 0,
-    "queued": 733
+    "queued": 0
   },
   "sources": [
     {
@@ -95,7 +95,7 @@
     },
     {
       "source": "hibbing-chamber",
-      "detail": "chamberorganizer: 4 events (org HIBB)",
+      "detail": "no adapter produced events  [carried forward from 2026-10-12]",
       "events": 3
     },
     {
@@ -130,8 +130,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 87 events (2 pages)",
-      "events": 87
+      "detail": "simpleview: 93 events (2 pages)",
+      "events": 93
     },
     {
       "source": "visit-ashland",
@@ -161,7 +161,7 @@
     {
       "source": "duluth-mn",
       "detail": "webcalendar: 418 events",
-      "events": 348
+      "events": 347
     },
     {
       "source": "hermantown-mn",
@@ -170,8 +170,8 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "no adapter produced events  [carried forward from 2026-10-11]",
-      "events": 25
+      "detail": "tribe: 25 events",
+      "events": 21
     },
     {
       "source": "virginia-mn",
@@ -450,8 +450,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 192 events",
-      "events": 192
+      "detail": "allevents: 189 events",
+      "events": 189
     },
     {
       "source": "allevents-superior",
@@ -475,8 +475,8 @@
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 9 events",
-      "events": 9
+      "detail": "allevents: 10 events",
+      "events": 10
     },
     {
       "source": "allevents-ashland",
@@ -530,8 +530,8 @@
     },
     {
       "source": "allevents-aitkin",
-      "detail": "allevents: 12 events",
-      "events": 12
+      "detail": "allevents: 11 events",
+      "events": 11
     },
     {
       "source": "allevents-hinckley",
@@ -585,7 +585,7 @@
     },
     {
       "source": "ls-railroad-museum",
-      "detail": "no adapter produced events  [carried forward from 2026-10-11]",
+      "detail": "tribe: 8 events",
       "events": 8
     },
     {
@@ -720,8 +720,8 @@
     },
     {
       "source": "hurley-area-chamber",
-      "detail": "jsonld: 59 events",
-      "events": 59
+      "detail": "jsonld: 58 events",
+      "events": 58
     },
     {
       "source": "spirit-mountain",

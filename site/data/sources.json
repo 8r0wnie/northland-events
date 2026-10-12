@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T14:43:23Z",
+ "generated": "2026-10-12T15:30:40Z",
  "promote_rule": {
   "window": 7,
   "min_runs": 5
@@ -305,12 +305,12 @@
    "refresh": "",
    "notes": "Added 2026-10-12: Adams Publishing evvnt community calendar - organizer-submitted listings (~500, mostly Duluth + Iron Range). Aggregator/low-trust: unmatched events go to review. Hibbing Daily Tribune (7092) shares the same pool, so not added.",
    "last_events": 442,
-   "last_queued": 178,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 442,
-     "queued": 178,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -331,12 +331,12 @@
    "refresh": "",
    "notes": "Added 2026-10-12: evvnt calendar for APG's northern-Wisconsin papers (Hayward, Hurley, Mercer, Ironwood area). Aggregator/low-trust.",
    "last_events": 18,
-   "last_queued": 13,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 18,
-     "queued": 13,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -357,12 +357,12 @@
    "refresh": "",
    "notes": "Added 2026-10-12: Northern Community Radio weekly roundup (day headings over Title - time at Venue items). Covers far beyond the DMA, so category news makes posts keep only items naming a DMA town. Inferred: goes to review.",
    "last_events": 4,
-   "last_queued": 3,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 4,
-     "queued": 3,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -519,7 +519,7 @@
      "date": "2026-10-12",
      "events": 3,
      "queued": 0,
-     "carried": false
+     "carried": true
     }
    ]
   },
@@ -726,12 +726,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 2,
-   "last_queued": 2,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 2,
-     "queued": 2,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -770,12 +770,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 87,
+   "last_events": 93,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 87,
+     "events": 93,
      "queued": 0,
      "carried": false
     }
@@ -841,13 +841,13 @@
    "category": "chamber",
    "state": "WI",
    "area": "Spooner",
-   "platform": "tribe",
+   "platform": "tribe,ics,jsonld",
    "status": "active",
    "tier": "trusted",
    "tier_set": false,
    "autopromote": false,
    "refresh": "relay",
-   "notes": "Southern edge \u2014 triage scope.",
+   "notes": "Southern edge. 2026-10-12: refresh: relay; via Cloudflare the WordPress REST API (wp-json) still 403s, so iCal (?ical=1) and page JSON-LD are tried next.",
    "last_events": 46,
    "last_queued": 0,
    "runs": [
@@ -875,12 +875,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 6,
-   "last_queued": 3,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
-     "queued": 3,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -926,12 +926,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 348,
+   "last_events": 347,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 348,
+     "events": 347,
      "queued": 0,
      "carried": false
     }
@@ -978,14 +978,14 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 25,
+   "last_events": 21,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 25,
+     "events": 21,
      "queued": 0,
-     "carried": true
+     "carried": false
     }
    ]
   },
@@ -1187,12 +1187,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 6,
-   "last_queued": 5,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
-     "queued": 5,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -1823,12 +1823,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 1,
-   "last_queued": 1,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 1,
-     "queued": 1,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -1849,12 +1849,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 1,
-   "last_queued": 1,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 1,
-     "queued": 1,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2466,12 +2466,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: city site links its events to felivelife.org (separate source).",
    "last_events": 6,
-   "last_queued": 6,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
-     "queued": 6,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2505,18 +2505,18 @@
    "area": "Duluth",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Aggregates public Facebook events; date only, no time.",
-   "last_events": 192,
-   "last_queued": 107,
+   "last_events": 189,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 192,
-     "queued": 107,
+     "events": 189,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2531,18 +2531,18 @@
    "area": "Superior",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 126,
-   "last_queued": 105,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 126,
-     "queued": 105,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2557,18 +2557,18 @@
    "area": "Cloquet",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 31,
-   "last_queued": 30,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 31,
-     "queued": 30,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2583,18 +2583,18 @@
    "area": "Hibbing",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 39,
-   "last_queued": 35,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 39,
-     "queued": 35,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2609,18 +2609,18 @@
    "area": "Grand Rapids",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 9,
-   "last_queued": 9,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 9,
-     "queued": 9,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2635,18 +2635,18 @@
    "area": "Two Harbors",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 9,
-   "last_queued": 9,
+   "last_events": 10,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 9,
-     "queued": 9,
+     "events": 10,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2661,18 +2661,18 @@
    "area": "Ashland",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 22,
-   "last_queued": 18,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 22,
-     "queued": 18,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2687,18 +2687,18 @@
    "area": "International Falls",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "",
    "last_events": 6,
-   "last_queued": 6,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
-     "queued": 6,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2713,18 +2713,18 @@
    "area": "Virginia",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: slug is virginia-mn (virginia-minnesota redirects away). Social/low-trust: events go to review.",
    "last_events": 20,
-   "last_queued": 20,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 20,
-     "queued": 20,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2739,18 +2739,18 @@
    "area": "Ely",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 53,
-   "last_queued": 52,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 53,
-     "queued": 52,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2765,18 +2765,18 @@
    "area": "Grand Marais",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 5,
-   "last_queued": 5,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 5,
-     "queued": 5,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2791,18 +2791,18 @@
    "area": "Hayward",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 35,
-   "last_queued": 34,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 35,
-     "queued": 34,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2817,18 +2817,18 @@
    "area": "Ironwood",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 20,
-   "last_queued": 15,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 20,
-     "queued": 15,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2843,18 +2843,18 @@
    "area": "Spooner",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 21,
-   "last_queued": 20,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 21,
-     "queued": 20,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2869,18 +2869,18 @@
    "area": "Silver Bay",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 18,
-   "last_queued": 14,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 18,
-     "queued": 14,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2895,18 +2895,18 @@
    "area": "Moose Lake",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 7,
-   "last_queued": 7,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 7,
-     "queued": 7,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2921,18 +2921,18 @@
    "area": "Aitkin",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 12,
-   "last_queued": 12,
+   "last_events": 11,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 12,
-     "queued": 12,
+     "events": 11,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2947,18 +2947,18 @@
    "area": "Hinckley",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 9,
-   "last_queued": 8,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 9,
-     "queued": 8,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -2973,18 +2973,18 @@
    "area": "Washburn",
    "platform": "allevents",
    "status": "active",
-   "tier": "source",
-   "tier_set": false,
+   "tier": "trusted",
+   "tier_set": true,
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
    "last_events": 5,
-   "last_queued": 4,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 5,
-     "queued": 4,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -3219,7 +3219,7 @@
      "date": "2026-10-12",
      "events": 8,
      "queued": 0,
-     "carried": true
+     "carried": false
     }
    ]
   },
@@ -3466,12 +3466,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 12,
-   "last_queued": 11,
+   "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 12,
-     "queued": 11,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -4028,12 +4028,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-11: community calendar for Iron County WI (WordPress Modern Events Calendar; its iCal feed is disabled). JSON-LD times are stored as UTC then offset (10 am shows as 05:00-05:00), corrected by timefix utc-wall. Covers the Iron County Fair and Heritage Days.",
-   "last_events": 59,
+   "last_events": 58,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 59,
+     "events": 58,
      "queued": 0,
      "carried": false
     }
