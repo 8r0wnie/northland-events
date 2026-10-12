@@ -164,7 +164,11 @@ def cmd_scrape(args) -> None:
             max_age = LOCAL_CACHE_MAX_AGE_DAYS if s.refresh in ("local", "relay") else CACHE_MAX_AGE_DAYS
             if stale and age_days <= max_age:
                 revived = [Event.from_dict(d) for d in stale["events"]]
-                events = [e for e in revived if e and now - timedelta(days=1) <= e.start <= horizon]
+                # re-normalize: the cache may predate a cleanup fix (midnight
+                # placeholders, encoded text), and carried events must get it too
+                revived = [e.normalize() for e in revived if e]
+                events = [e for e in revived if now - timedelta(days=1) <= e.start <= horizon
+                          and not NOT_PUBLIC.search(e.title)]
                 for e in events:
                     e.source_id = s.id
                 if events:

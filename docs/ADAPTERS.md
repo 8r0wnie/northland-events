@@ -94,7 +94,10 @@ lsvr-events WordPress sites (visit-ashland, lake-county-mn) with
 `events_url: /events/`. Does not set a category. Honors `timefix: utc-wall`
 for WordPress MEC sites that publish local time as if it were UTC (Hurley:
 "10 am" appears as `05:00-05:00`). Read the event page's own displayed time
-before setting it.
+before setting it. Set on hurley-area-chamber, ely-chamber and
+ashland-county-fair (2026-10-12). Before the fix, every Ely class was 5 h
+early (9 AM Chair Yoga at 4 AM) and the Ashland gun show was at 2 AM.
+`python quality.py` flags this pattern as `small-hours`.
 
 ### `microdata` — schema.org Event microdata
 Every element with `itemtype=…Event` on the listing page, plus its nested

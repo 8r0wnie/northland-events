@@ -24,6 +24,8 @@ CHECKS = {
     "css": ("CSS in the description", lambda e, d: bool(re.search(r"\{[^{}]*:[^{}]*;[^{}]*\}", d))),
     "html": ("HTML tags or entities left", lambda e, d: bool(re.search(r"</?[a-z][a-z0-9]*[\s>/]|&[a-z]+;|&#\d+;", d))),
     "midnight": ("timed event at exactly 12:00 AM", lambda e, d: not e.get("all_day") and e["start"][11:16] == "00:00"),
+    "small-hours": ("timed event starting 1-5 AM (time-zone slip?)", lambda e, d: not e.get("all_day")
+                    and "01:00" <= e["start"][11:16] < "05:00"),
     "series-bar": ("timed event spanning 7+ days", lambda e, d: bool(
         e.get("end") and not e.get("all_day")
         and datetime.fromisoformat(e["end"]) - datetime.fromisoformat(e["start"]) > timedelta(days=6))),

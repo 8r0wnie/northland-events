@@ -178,7 +178,7 @@ Compare `published` with the trend in `site/data/scrape_stats_history.json`.
 A source that used to produce and now shows 0 is a regression to investigate.
 
 ```bash
-python quality.py                 # encoded text, CSS/HTML left, 12:00 AM times, series bars
+python quality.py                 # encoded text, CSS/HTML left, 12:00 AM times, 1-5 AM times, series bars
 python quality.py --show midnight # the events behind one count
 ```
 
@@ -219,6 +219,11 @@ The exception is a few `midnight` events that really start at 12 AM.
   - URL-encoded Revize descriptions.
   - Revize repeat rules moved to midnight.
   - `INTERVAL=0` hanging dateutil (Cook County).
+  - Fake 12:00 AM times, now date-only.
+  - One source's consecutive performances merged (~600 lost).
+  - Carried-forward cache events skipped normalize.
+  - Modern Events Calendar sites publishing local time as UTC (Ely, Ashland
+    fair → `timefix: utc-wall`).
 
   New adapters tend to repeat these, so run the quality scan in the health
   check after adding one.
