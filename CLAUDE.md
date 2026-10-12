@@ -52,6 +52,13 @@ findings go in that entry's `notes:` field, not in docs.
    commit one, `git pull` first — CI pushes a data commit every day, so local
    `main` goes stale fast.
 8. **Sequencing:** coverage and data quality first, UI polish second.
+9. **Docs ship with the change — every commit, every push.** Keeping these
+   docs current is part of the process, not a follow-up. Run the doc-sync
+   checklist below before every commit, and put the doc updates in the
+   *same* commit as the code. A commit that changes code with no doc change
+   needs a stated reason. The hook `.claude/hooks/doc_sync_reminder.py`
+   (registered in `.claude/settings.json`) re-surfaces this on every
+   `git commit` / `git push` and warns when code changed without docs.
 
 ## Working on the scraper
 
