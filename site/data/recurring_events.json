@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T16:51:20",
+  "generated": "2026-10-12T08:08:08",
   "confirmed": [],
   "likely": [
     {
@@ -438,6 +438,101 @@
       "last_date": "2026-11-05",
       "last_url": "https://ashlandcountyfair.com/events/ashland-fair-board-annual-election/",
       "predicted_next": "2027-11-05"
+    },
+    {
+      "key": "save date resource renew s pumpkin palooza|duluth",
+      "title": "Save the Date! Resource Renew's 3rd Annual Pumpkin Palooza",
+      "venue": "Yard Waste Compost Site (Gate 13) at Resource Renew 2626 Courtland Street Duluth, MN",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-07",
+      "last_url": "https://allevents.in/duluth/save-the-date-resource-renews-3rd-annual-pumpkin-palooza/200030734211607",
+      "predicted_next": "2027-11-07"
+    },
+    {
+      "key": "ski swap|ironwood",
+      "title": "Annual Ski Swap",
+      "venue": "Big Powderhorn Mountain Resort",
+      "city": "Bessemer",
+      "area": "Ironwood",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-07",
+      "last_url": "https://felivelife.org/event/annual-ski-swap/",
+      "predicted_next": "2027-11-07"
+    },
+    {
+      "key": "meeting|hermantown",
+      "title": "*Annual Meeting 2026",
+      "venue": "",
+      "city": "Hermantown",
+      "area": "Hermantown",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-19",
+      "last_url": "https://members.hermantownchamber.com/communityevents/Details/annual-meeting-2026-1567228?sourceTypeId=Website",
+      "predicted_next": "2027-11-19"
+    },
+    {
+      "key": "trego hometown holiday|washburn county",
+      "title": "3rd Annual Trego Hometown Holiday",
+      "venue": "Trego Area Businesses",
+      "city": "",
+      "area": "Washburn County",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-20",
+      "last_url": "https://www.washburncounty.org/event/3rd-annual-trego-hometown-holiday/3055/",
+      "predicted_next": "2027-11-20"
+    },
+    {
+      "key": "gary carlson memorial funspiel|virginia",
+      "title": "2026 17th Annual Gary Carlson Memorial Funspiel",
+      "venue": "Curl Mesabi",
+      "city": "Eveleth",
+      "area": "Virginia",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 17,
+      "signal_reasons": [
+        "title says \"17th Annual\""
+      ],
+      "last_date": "2026-12-11",
+      "last_url": "https://business.laurentianchamber.org/events/details/2026-17th-annual-gary-carlson-memorial-funspiel-2030?calendarMonth=2026-12-01",
+      "predicted_next": "2027-12-11"
     }
   ]
 }
