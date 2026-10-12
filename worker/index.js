@@ -22,6 +22,8 @@
 //   POST /api/sources/add {name, url, events_url?, area, state, category}
 //   POST /api/rescrape                   -> dispatch the scrape workflow now
 //   GET  /api/runs                       -> latest scrape workflow runs
+//   POST /api/relay  (scraper only; auth = an in-progress Actions run, not the
+//        passphrase) -> fetch one URL from Cloudflare for a `refresh: relay` host
 
 const DECISIONS = "moderation/decisions.csv";
 const ANNUAL = "moderation/annual_decisions.csv";
@@ -33,7 +35,7 @@ const STATUSES = new Set(["active", "paused", "todo", "no-calendar", "blocked", 
                           "dead", "duplicate", "closed"]);
 const CATEGORIES = new Set(["gov", "chamber", "tourism", "venue", "news", "social", "aggregator"]);
 const FIELD_ORDER = ["id", "name", "url", "events_url", "category", "state", "area", "platform",
-                     "status", "tier", "autopromote", "trust", "refresh", "timefix", "notes"];
+                     "status", "tier", "autopromote", "trust", "refresh", "relay_hosts", "timefix", "notes"];
 
 export default {
   async fetch(request, env) {
@@ -49,6 +51,9 @@ export default {
 
 // ── routing ──────────────────────────────────────────────────────────────────
 async function api(request, env, url) {
+  // the scraper's relay authenticates differently (a live GitHub Actions run)
+  // and uses that run's token, so it works without the admin secrets
+  if (url.pathname === "/api/relay" && request.method === "POST") return relay(request, env);
   if (!env.ADMIN_PASSWORD || !env.GITHUB_TOKEN) {
     return json({ error: "admin API not configured (ADMIN_PASSWORD / GITHUB_TOKEN secrets)" }, 503);
   }
@@ -353,6 +358,83 @@ async function runs(env) {
       created_at: r.created_at, updated_at: r.updated_at, url: r.html_url,
     })),
   };
+}
+
+// ── relay for `refresh: relay` sources ───────────────────────────────────────
+// Owner decision 2026-10-12 (CLAUDE.md Rule 1): a few sites refuse GitHub's
+// datacenter IPs. For those sources only, the daily scrape sends its requests
+// here and this Worker makes them from Cloudflare instead. One fixed origin,
+// the scraper's own 2 s per-domain delay, no rotation, no challenge solving —
+// and only for hosts listed by `refresh: relay` entries in sources.yaml.
+//
+// Auth: the caller must present the GitHub Actions token of a run of THIS repo
+// that is still in progress (X-Relay-Run + X-Relay-Token); we confirm it with
+// GitHub. No extra secret to manage, and it is useless once the run ends.
+const verifiedRuns = new Map();   // run id -> expiry (per isolate; best effort)
+let relayHostsCache = { at: 0, hosts: new Set() };
+
+async function relayHosts(env, token) {
+  if (Date.now() - relayHostsCache.at < 10 * 60 * 1000) return relayHostsCache.hosts;
+  const hosts = new Set();
+  const { text } = await getFile({ ...env, GITHUB_TOKEN: token || env.GITHUB_TOKEN }, SOURCES);
+  for (const s of parseSources(text)) {
+    if (s.refresh !== "relay") continue;
+    for (const u of [s.url, s.events_url]) {
+      try { hosts.add(new URL(u).hostname.toLowerCase()); } catch {}
+    }
+    for (const h of String(s.relay_hosts || "").split(",")) if (h.trim()) hosts.add(h.trim().toLowerCase());
+  }
+  relayHostsCache = { at: Date.now(), hosts };
+  return hosts;
+}
+
+async function verifyRun(env, runId, token) {
+  if (!/^\d{1,20}$/.test(runId || "") || !token) return false;
+  const until = verifiedRuns.get(runId);
+  if (until && until > Date.now()) return true;
+  const res = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/actions/runs/${runId}`, {
+    headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
+               "User-Agent": "northland-events-relay" },
+  });
+  if (!res.ok) return false;
+  const run = await res.json();
+  if (run.status === "completed") return false;
+  verifiedRuns.set(runId, Date.now() + 15 * 60 * 1000);
+  return true;
+}
+
+async function relay(request, env) {
+  const ok = env.RELAY_DEV === "1"   // local `wrangler dev` testing only (.dev.vars)
+    || await verifyRun(env, request.headers.get("X-Relay-Run"), request.headers.get("X-Relay-Token"));
+  if (!ok) return json({ error: "relay: not an in-progress run of this repo" }, 401);
+  const p = await body(request);
+  let target;
+  try { target = new URL(p.url); } catch { return json({ error: "relay: bad url" }, 400); }
+  if (!/^https?:$/.test(target.protocol)) return json({ error: "relay: http(s) only" }, 400);
+  const hosts = await relayHosts(env, request.headers.get("X-Relay-Token"));
+  if (!hosts.has(target.hostname.toLowerCase())) {
+    return json({ error: `relay: ${target.hostname} is not a refresh: relay host` }, 403);
+  }
+  const method = (p.method || "GET").toUpperCase();
+  if (!["GET", "POST", "HEAD"].includes(method)) return json({ error: "relay: bad method" }, 400);
+  const headers = {};
+  const DROP = /^(host|content-length|cookie|authorization|connection|accept-encoding|transfer-encoding|upgrade|keep-alive|te|x-relay-.*|cf-.*|proxy-.*|sec-.*)$/i;
+  for (const [k, v] of Object.entries(p.headers || {})) {
+    if (!DROP.test(k)) headers[k] = String(v);   // never credentials or hop-by-hop headers
+  }
+  const res = await fetch(target.toString(), {
+    method, headers, redirect: "follow",
+    body: method === "POST" && p.body_b64 ? Uint8Array.from(atob(p.body_b64), (c) => c.charCodeAt(0)) : undefined,
+  });
+  const buf = new Uint8Array(await res.arrayBuffer());
+  if (buf.length > 12 * 1024 * 1024) return json({ error: "relay: response too large" }, 502);
+  let bin = "";
+  for (let i = 0; i < buf.length; i += 0x8000) bin += String.fromCharCode(...buf.subarray(i, i + 0x8000));
+  return json({
+    status: res.status, url: res.url,
+    headers: { "content-type": res.headers.get("content-type") || "" },
+    body_b64: btoa(bin),
+  });
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────

@@ -24,7 +24,8 @@ from `scraper/`.
 | `tier` | `trusted` / `source` / `potential`, set from the admin page (blank = derived from `trust`/category) |
 | `autopromote` | `yes` = this potential source may auto-promote to `source` (admin-added sources; cleared by any manual tier change) |
 | `trust` | legacy `high`/`low` override, used only when `tier` is blank |
-| `refresh` | `local` = the site 403s GitHub Actions' datacenter IPs; scraped from the owner's machine instead (below) |
+| `refresh` | `relay` = the site refuses GitHub's datacenter IPs; CI fetches it through the site's Cloudflare Worker (`docs/DEPLOY.md` §10). `local` = legacy owner-PC refresh, unused |
+| `relay_hosts` | extra hosts to relay for a `refresh: relay` source, comma list (e.g. its ticketing API) |
 | `timefix` | per-site time correction an adapter applies. `utc-wall` = the site publishes local time as if it were UTC (jsonld) |
 | `notes` | triage findings, dated (e.g. "Triaged 2026-09: …") |
 
@@ -112,14 +113,14 @@ an Eventbrite organizer. Still text-only, through `posts`: clyde-iron,
 ursa-minor, blacklist-brewing, voyageur-brewing, zeitgeist and
 ironwood-theatre. hoops-brewing closed in Feb 2026.
 
-**Blocked from GitHub Actions → `refresh: local`.** These sites answer from
-home but return HTTP 403 to GitHub's datacenter IPs:
-spooner-chamber, virginia-mn, hill-city-mn, norshor-playhouse,
-duluth-art-institute, wolf-ridge, fond-du-lac-band. They're marked
-`refresh: local`. `scripts/refresh_local.ps1`, run on the owner's machine,
-scrapes them into `source_cache.json` and pushes, and CI carries those events
-forward for up to 10 days. A source that's blank in CI and fine locally
-belongs on this list. Check the CI log for `HTTP 403` first.
+**Blocked from GitHub Actions → `refresh: relay`** (owner decision
+2026-10-12). These sites answer normally but return HTTP 403 to GitHub's
+datacenter IPs: spooner-chamber, virginia-mn, hill-city-mn, norshor-playhouse
+(plus `api.ovationtix.com`), duluth-art-institute, wolf-ridge,
+fond-du-lac-band. CI fetches them through the site's Cloudflare Worker
+(`docs/DEPLOY.md` §10). A new source that's blank in CI but fine locally
+goes on this list only with the owner's OK. Check the CI log for `HTTP 403`
+first.
 
 **Facebook / Instagram:** not scraped directly and won't be. There has been no
 public events API since 2018. Event pages are login-walled, datacenter IPs get

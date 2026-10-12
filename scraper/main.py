@@ -139,6 +139,7 @@ def cmd_scrape(args) -> None:
     cache = _load_cache()
     carried = 0
 
+    fetch.RELAY_HOSTS = relay_hosts(load_sources())
     for s in sources:
         print(f"→ {s.id} ({s.name})")
         if s.refresh == "local" and os.environ.get("CI"):
@@ -157,7 +158,7 @@ def cmd_scrape(args) -> None:
         else:
             stale = cache.get(s.id)
             age_days = _age_days(stale) if stale else 999
-            max_age = LOCAL_CACHE_MAX_AGE_DAYS if s.refresh == "local" else CACHE_MAX_AGE_DAYS
+            max_age = LOCAL_CACHE_MAX_AGE_DAYS if s.refresh in ("local", "relay") else CACHE_MAX_AGE_DAYS
             if stale and age_days <= max_age:
                 revived = [Event.from_dict(d) for d in stale["events"]]
                 events = [e for e in revived if e and now - timedelta(days=1) <= e.start <= horizon]
@@ -339,6 +340,22 @@ def cmd_triage(args) -> None:
     if args.write:
         print("Registry updated (statuses set to active where a generic adapter worked).")
     fetch.shutdown()
+
+
+def relay_hosts(sources) -> set[str]:
+    """Hosts of `refresh: relay` sources (+ their `relay_hosts:` extras), whose
+    requests CI sends through the site's Cloudflare Worker (fetch.RELAY_HOSTS)."""
+    from urllib.parse import urlparse
+    out: set[str] = set()
+    for s in sources:
+        if s.refresh != "relay" or s.status != "active":
+            continue
+        for u in (s.url, s.events_url):
+            h = urlparse(u).hostname if u and "://" in u else None
+            if h:
+                out.add(h.lower())
+        out |= {h.strip().lower() for h in s.relay_hosts.split(",") if h.strip()}
+    return out
 
 
 def _update_source_history(report: list[dict], queued: dict[str, int], day: str) -> dict:

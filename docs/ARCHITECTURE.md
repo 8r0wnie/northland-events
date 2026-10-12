@@ -32,7 +32,12 @@ errors such as redirect loops, bad schemes and broken HTTP/2 are absorbed in
 `fetch._request`. A host that resets HTTP/2 streams is retried over HTTP/1.1
 and remembered.
 
-`refresh-local` is `--only` for every `refresh: local` source. Those sites 403
+**Relay (`refresh: relay`, owner decision 2026-10-12):** in CI, requests to those
+sources' hosts go through the site's Cloudflare Worker (`/api/relay`), both
+`fetch._request` and the Playwright page route (`fetch._install_relay_route`).
+See `docs/DEPLOY.md` §10. Cached events carry forward 10 days for them.
+
+`refresh-local` (legacy, unused since 2026-10-12) is `--only` for every `refresh: local` source. Those sites 403
 GitHub's datacenter IPs. The owner's machine runs it
 (`scripts/refresh_local.ps1`) and pushes `source_cache.json`, and the daily CI
 run then carries those events forward. That is ordinary access from a home

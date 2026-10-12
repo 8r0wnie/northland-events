@@ -22,9 +22,11 @@ class Source:
     status: str
     notes: str = ""
     trust: str = ""          # high | low — set explicitly, else derived from category
-    refresh: str = ""        # "local" = site blocks CI's datacenter IPs; scrape it from
-                             # the owner's machine (main.py refresh-local) and let CI
-                             # carry the cached events forward
+    refresh: str = ""        # "relay" = site blocks GitHub's datacenter IPs; CI fetches it
+                             # through the site's Cloudflare Worker (owner decision
+                             # 2026-10-12). "local" = legacy: owner's PC refreshes the
+                             # cache (main.py refresh-local)
+    relay_hosts: str = ""    # refresh: relay extras, e.g. a ticketing API host (comma list)
     timefix: str = ""        # per-site time quirk an adapter corrects, e.g. "utc-wall"
                              # (jsonld: the site's UTC instant is the real wall time)
     tier: str = ""           # trusted | source | potential (owner-set from the admin
@@ -75,6 +77,7 @@ def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
             notes=row.get("notes", ""),
             trust=(row.get("trust") or "").strip(),
             refresh=(row.get("refresh") or "").strip(),
+            relay_hosts=(row.get("relay_hosts") or "").strip(),
             timefix=(row.get("timefix") or "").strip(),
             tier=(row.get("tier") or "").strip(),
             autopromote=(row.get("autopromote") or "").strip(),

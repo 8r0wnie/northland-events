@@ -1,12 +1,15 @@
 """HTTP + optional headless-browser fetching, with per-domain politeness."""
 from __future__ import annotations
 
+import base64
+import json
+import os
 import random
 import time
 import threading
 from contextlib import contextmanager
 from typing import Optional
-from urllib.parse import urlparse
+from urllib.parse import urlencode, urlparse
 
 import httpx
 
@@ -78,6 +81,66 @@ def client1() -> httpx.Client:
     return _client1
 
 
+# ── relay for `refresh: relay` sources (owner decision 2026-10-12, Rule 1) ─────
+# Some sites refuse GitHub's datacenter IPs. In CI, requests to their hosts go
+# through the site's own Cloudflare Worker (/api/relay), one fixed origin, still
+# under the per-domain CRAWL_DELAY above. Nothing else is relayed, and outside
+# CI (RELAY_URL unset) everything is fetched directly as usual.
+RELAY_HOSTS: set[str] = set()     # filled by main.py from sources.yaml
+
+
+def relay_active(url: str) -> bool:
+    return bool(os.environ.get("RELAY_URL")) and _host(url).split(":")[0] in RELAY_HOSTS
+
+
+_RELAY_DROP = {"host", "content-length", "cookie", "authorization", "connection",
+               "accept-encoding", "transfer-encoding", "upgrade", "keep-alive", "te"}
+
+
+def _relay_payload(method: str, url: str, headers: dict, body: bytes | None) -> dict:
+    hdrs = {"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.9"}
+    for k, v in headers.items():
+        # forward what the page itself sends (e.g. OvationTix's `clientid`), but
+        # never credentials or connection-level headers
+        if k.lower() not in _RELAY_DROP and not k.lower().startswith(("sec-", "proxy-")):
+            hdrs[k] = v
+    out = {"url": url, "method": method, "headers": hdrs}
+    if body:
+        out["body_b64"] = base64.b64encode(body).decode()
+    return out
+
+
+def relay_fetch(payload: dict) -> dict:
+    """POST one request to the Worker relay; returns {status, url, headers, body_b64}."""
+    r = client().post(os.environ["RELAY_URL"], json=payload, headers={
+        "X-Relay-Run": os.environ.get("RELAY_RUN", ""),
+        "X-Relay-Token": os.environ.get("RELAY_TOKEN", ""),
+    }, timeout=httpx.Timeout(45.0))
+    data = r.json()
+    if r.status_code != 200 or "status" not in data:
+        raise httpx.TransportError(f"relay refused: {data.get('error', r.status_code)}")
+    return data
+
+
+def _relay_request(method: str, url: str, headers: dict, kwargs: dict) -> httpx.Response:
+    params, data, js = kwargs.get("params"), kwargs.get("data"), kwargs.get("json")
+    full = str(httpx.URL(url, params=params)) if params else url
+    hdrs = {"User-Agent": USER_AGENT, **(headers or {})}
+    body = None
+    if js is not None:
+        body = json.dumps(js).encode()
+        hdrs.setdefault("Content-Type", "application/json")
+    elif isinstance(data, dict):
+        body = urlencode(data, doseq=True).encode()
+        hdrs.setdefault("Content-Type", "application/x-www-form-urlencoded")
+    elif isinstance(data, (str, bytes)):
+        body = data.encode() if isinstance(data, str) else data
+    out = relay_fetch(_relay_payload(method, full, hdrs, body))
+    return httpx.Response(out["status"], content=base64.b64decode(out["body_b64"]),
+                          headers=out.get("headers") or {},
+                          request=httpx.Request(method, out.get("url") or full))
+
+
 def _request(method: str, url: str, **kwargs) -> Optional[httpx.Response]:
     headers = dict(kwargs.pop("headers", {}) or {})
     last_exc: Optional[Exception] = None
@@ -87,8 +150,11 @@ def _request(method: str, url: str, **kwargs) -> Optional[httpx.Response]:
             time.sleep(min(8.0, 1.5 * (2 ** attempt)) + random.uniform(0, 1.2))
             headers["User-Agent"] = _RETRY_UA[(attempt - 1) % len(_RETRY_UA)]
         try:
-            use = client1() if _host(url) in _h1_hosts else client()
-            r = use.request(method, url, headers=headers or None, **kwargs)
+            if relay_active(url):
+                r = _relay_request(method, url, headers, kwargs)
+            else:
+                use = client1() if _host(url) in _h1_hosts else client()
+                r = use.request(method, url, headers=headers or None, **kwargs)
         except httpx.RemoteProtocolError as exc:
             # some servers tear down HTTP/2 streams (ConnectionTerminated);
             # remember the host and retry it over HTTP/1.1
@@ -146,6 +212,28 @@ def browser():
     return _browser
 
 
+def _install_relay_route(page) -> None:
+    """In CI, serve a page's requests to `refresh: relay` hosts through the
+    Worker relay too (the browser-driven adapters, e.g. OvationTix)."""
+    if not (os.environ.get("RELAY_URL") and RELAY_HOSTS):
+        return
+
+    def handle(route, request):
+        if not relay_active(request.url):
+            return route.continue_()
+        try:
+            _throttle(request.url)
+            body = request.post_data_buffer if request.method == "POST" else None
+            out = relay_fetch(_relay_payload(request.method, request.url, dict(request.headers), body))
+            route.fulfill(status=out["status"], headers=out.get("headers") or {},
+                          body=base64.b64decode(out["body_b64"]))
+        except Exception as exc:  # noqa: BLE001 - a failed relay is just a failed request
+            print(f"    ! relay failed {request.url}: {exc}")
+            route.abort()
+
+    page.route("**/*", handle)
+
+
 class _SharedBrowser:
     """Looks like a launched Browser; close() closes only the pages it opened."""
 
@@ -154,6 +242,7 @@ class _SharedBrowser:
 
     def new_page(self, **kwargs):
         page = browser().new_page(**kwargs)
+        _install_relay_route(page)
         self._pages.append(page)
         return page
 
@@ -187,6 +276,7 @@ def render(url: str, *, wait_selector: str | None = None, timeout: int = 25000) 
     _throttle(url)
     try:
         page = browser().new_page(user_agent=USER_AGENT, locale="en-US")
+        _install_relay_route(page)
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=timeout)
             if wait_selector:

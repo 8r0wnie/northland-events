@@ -33,8 +33,14 @@ findings go in that entry's `notes:` field, not in docs.
    API keys that need an account unless the owner approves, no IP or
    fingerprint rotation to defeat blocks. 2s per-domain crawl delay
    (`fetch.CRAWL_DELAY`). A site that blocks us gets `status: blocked`, not a
-   workaround. (Rotating the User-Agent on a *retry* is the one existing
-   exception — keep it limited to that.)
+   workaround. Two narrow exceptions, both owner-approved:
+   - Rotating the User-Agent on a *retry*.
+   - **Relay, owner decision 2026-10-12.** Sources marked `refresh: relay`
+     refuse GitHub's datacenter IPs, so CI fetches them through the site's
+     own Cloudflare Worker (`/api/relay`). That's one fixed origin, the same
+     2 s crawl delay, and only hosts the registry lists.
+   Never extend this to proxies, IP pools, stealth browsers or
+   challenge-solving. Never add a source to the relay without the owner.
 2. **All free tier.** GitHub Actions (public repo), Cloudflare Workers static
    assets, Google Sites. No paid services, no build step for the site.
 3. **Neutral public calendar.** Nothing on `index.html` names or favors a
@@ -172,9 +178,6 @@ A source that used to produce and now shows 0 is a regression to investigate.
   (Facebook). Not started; needs the owner's account.
 - **Blocked, broken and dead sources:** the owner wants these addressed, with
   the list in `docs/SOURCES.md`. Use only legitimate routes (Rule 1).
-- Schedule `scripts/refresh_local.ps1` on the owner's PC (`docs/DEPLOY.md` §8)
-  if the owner agrees. Until then, `refresh: local` sources need a manual run
-  every 10 days or less.
 
 ## Known issues
 

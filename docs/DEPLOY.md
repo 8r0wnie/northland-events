@@ -131,7 +131,10 @@ shipped and get more useful over time, especially past the one-year mark.
 To change the passphrase: same recipe as above, swap `PASS_HASH` in
 [`site/recurring.html`](../site/recurring.html).
 
-## 8. Local refresh for CI-blocked sources — owner's machine
+## 8. Local refresh for CI-blocked sources — owner's machine (superseded by §10)
+
+No source uses this since 2026-10-12. The CI-blocked sites now go through the
+Worker relay (§10). Kept for reference.
 
 Some sites return HTTP 403 to GitHub Actions' datacenter IPs but answer
 normally from home. They're marked `refresh: local` in
@@ -212,3 +215,28 @@ secrets exist.
 - Local test: put `ADMIN_PASSWORD` and `GITHUB_TOKEN` in `.dev.vars`
   (git-ignored) and run `npx wrangler dev --var GITHUB_BRANCH:<test-branch>`
   against a throwaway branch, never `main`.
+
+
+## 10. Relay for sites that refuse GitHub's servers — automatic, no PC
+
+Some sites return HTTP 403 to GitHub Actions' datacenter IPs. They're marked
+`refresh: relay` in `sources/sources.yaml` (list in `docs/SOURCES.md`). During
+the daily scrape, requests to their hosts (plus any `relay_hosts:` extras,
+e.g. `api.ovationtix.com` for NorShor) go to the site's own Worker at
+`/api/relay`, which makes the request from Cloudflare. Plain requests and
+the headless browser (via a Playwright route) both use it.
+
+- **Owner decision, 2026-10-12** (CLAUDE.md Rule 1 exception). One fixed
+  origin, the scraper's own 2 s per-domain delay, no rotation, no challenge
+  solving. The Worker refuses any host that isn't on a `refresh: relay`
+  entry.
+- **Auth needs no secret.** CI sends its own short-lived `GITHUB_TOKEN`
+  (`RELAY_TOKEN`) and run id (`RELAY_RUN`). The Worker checks with GitHub
+  that this run of this repo is still in progress (the workflow grants
+  `actions: read` for that) and reads the relay list with the same token.
+  The relay works even before the admin secrets in §9 are set.
+- **If a relayed site still refuses** (Cloudflare is a datacenter too), the
+  source just comes back empty, and its cached events carry forward for 10
+  days. Check the CI log for `relay` lines.
+- **Local test:** `.dev.vars` with `RELAY_DEV=1`, run `wrangler dev`, then
+  `RELAY_URL=http://127.0.0.1:8787/api/relay RELAY_TOKEN=<gh token> python main.py scrape --only <id>`.

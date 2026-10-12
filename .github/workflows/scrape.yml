@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: read     # lets the Worker relay confirm this run is live (see below)
 
 concurrency:
   group: scrape
@@ -32,6 +33,12 @@ jobs:
       - name: Run scraper
         env:
           PYTHONUNBUFFERED: "1"
+          # refresh: relay sources (they refuse GitHub's IPs) are fetched through
+          # the site's Cloudflare Worker. The Worker accepts this run's own
+          # short-lived token only while the run is in progress (docs/DEPLOY.md §10).
+          RELAY_URL: https://northland-events.cbrown21.workers.dev/api/relay
+          RELAY_TOKEN: ${{ github.token }}
+          RELAY_RUN: ${{ github.run_id }}
         working-directory: scraper
         run: python main.py scrape
 
