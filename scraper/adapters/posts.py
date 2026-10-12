@@ -198,10 +198,32 @@ def find_dates(text: str, ref: date) -> list[tuple[date, date | None, int, int]]
     return sorted(out, key=lambda t: t[2])
 
 
+# "4:30-6:30 p.m.", "10-11 a.m.", "noon-1 p.m.": the start borrows the end's meridiem
+_RANGE_RE = re.compile(r"\b(?P<h>1[0-2]|0?[1-9]|noon)(?::(?P<mi>[0-5]\d))?\s*[-–]\s*"
+                       r"(?P<eh>1[0-2]|0?[1-9])(?::[0-5]\d)?\s*(?P<ap>[ap])\.?\s?m\b", re.I)
+_NOON = re.compile(r"\bnoon\b", re.I)
+
+
 def find_time(text: str):
+    """(hour, minute) of the first time in text, or None."""
     m = TIME_RE.search(text)
-    if not m:
+    r = _RANGE_RE.search(text)
+    n = _NOON.search(text)
+    starts = [(x.start(), k) for x, k in ((m, "t"), (r, "r"), (n, "n")) if x]
+    if not starts:
         return None
+    _, kind = min(starts)
+    if kind == "n" and not (r and r.start() == n.start()):
+        return 12, 0
+    if kind in ("r", "n") and r:
+        if r.group("h").lower() == "noon":
+            return 12, 0
+        h = int(r.group("h")) % 12
+        end_h = int(r.group("eh")) % 12
+        # "10-11 a.m." -> am; "4:30-6:30 p.m." -> pm; "11-1 p.m." -> 11 am
+        if r.group("ap").lower() == "p" and h <= end_h:
+            h += 12
+        return h, int(r.group("mi") or 0)
     h = int(m.group("h")) % 12
     if (m.group("ap") or m.group("ap2")).lower().startswith("p"):
         h += 12
@@ -226,6 +248,37 @@ def _get_page(url: str) -> str | None:
     return rendered or html
 
 
+# Mailchimp keeps a public archive (and RSS) for every list with archiving on:
+#   https://usN.campaign-archive.com/home/?u=<user>&id=<list>   (archive page)
+#   https://usN.campaign-archive.com/feed?u=<user>&id=<list>    (RSS of issues)
+# A site's "newsletter" link usually points at one issue (mailchi.mp/... or
+# usN.campaign-archive.com/?u=..&id=<campaign>) whose footer links the archive.
+_MC_ARCHIVE = re.compile(
+    r"(us\d+)\.campaign-archive\.com/home/\?u=([0-9a-f]+)&(?:amp;)?id=([0-9a-f]+)", re.I)
+_MC_ISSUE = re.compile(
+    r"https?://(?:mailchi\.mp/[\w./-]+|us\d+\.campaign-archive\.com/\?[^\"'\s<>]+)", re.I)
+
+
+def _is_feed_url(url: str) -> bool:
+    low = url.lower()
+    return ("campaign-archive.com/feed" in low or low.split("?")[0].endswith((".rss", ".xml", "/feed", "/feed/"))
+            or "format=rss" in low)
+
+
+def newsletter_feeds(html: str, follow: bool = True) -> list[str]:
+    """RSS feeds of Mailchimp newsletter archives linked from a page.
+    With `follow`, opens one linked issue to find its archive (1 request)."""
+    found = {f"https://{m.group(1)}.campaign-archive.com/feed?u={m.group(2)}&id={m.group(3)}"
+             for m in _MC_ARCHIVE.finditer(html)}
+    if not found and follow:
+        issue = _MC_ISSUE.search(html)
+        if issue:
+            page = fetch.get_text(issue.group(0).replace("&amp;", "&"))
+            if page:
+                found |= set(newsletter_feeds(page, follow=False))
+    return sorted(found)
+
+
 def _feeds_for(url: str, html: str) -> list[str]:
     tree = HTMLParser(html)
     feeds = []
@@ -243,6 +296,7 @@ def _feeds_for(url: str, html: str) -> list[str]:
         feeds.append(root + "/blog-feed.xml")
     if "squarespace" in low:
         feeds.append(url.split("?")[0] + "?format=rss")
+    feeds += newsletter_feeds(html)
     seen, out = set(), []
     for f in feeds:
         if f not in seen:
@@ -303,9 +357,14 @@ def _wp_posts(url: str) -> list[dict]:
 
 
 def _follow_links(url: str, html: str) -> list[str]:
+    """Same-site links worth reading. Links that share the events page's own
+    keyword come first: on a tag page like /tags/events-up-north the weekly
+    roundup posts (/.../events-up-north-oct-12-18-...) beat the site's nav."""
     host = urlparse(url).netloc.lower()
     tree = HTMLParser(html)
-    out, seen = [], {url.rstrip("/")}
+    last = [seg for seg in urlparse(url).path.split("/") if seg]
+    key = last[-1].lower() if last and len(last[-1]) > 5 else ""
+    first, rest, seen = [], [], {url.rstrip("/")}
     for a in tree.css("a[href]"):
         href = urljoin(url, a.attributes.get("href") or "").split("#")[0]
         if not href.startswith("http") or urlparse(href).netloc.lower() != host:
@@ -313,12 +372,13 @@ def _follow_links(url: str, html: str) -> list[str]:
         if _SKIP_HREF.search(href) or href.rstrip("/") in seen:
             continue
         label = clean_text(a.text())
-        if _FOLLOW_HINT.search(href) or _FOLLOW_HINT.search(label):
+        if key and key in href.lower():
             seen.add(href.rstrip("/"))
-            out.append(href)
-        if len(out) >= MAX_FOLLOW:
-            break
-    return out
+            first.append(href)
+        elif _FOLLOW_HINT.search(href) or _FOLLOW_HINT.search(label):
+            seen.add(href.rstrip("/"))
+            rest.append(href)
+    return (first + rest)[:MAX_FOLLOW]
 
 
 # ── event extraction ─────────────────────────────────────────────────────────
@@ -498,6 +558,18 @@ def _from_post(source: Source, post: dict, today: date) -> list[Event]:
     return []
 
 
+def _date_only(text: str, today: date) -> date | None:
+    """The date if `text` is nothing but a date ("Monday, Oct. 12"), else None."""
+    if not text or len(text) > 40:
+        return None
+    ds = find_dates(text, today)
+    if len(ds) != 1:
+        return None
+    start, _end, a, b = ds[0]
+    rest = (text[:a] + text[b:]).strip(" ,.:-–—")
+    return start if len(rest) <= 3 else None
+
+
 def _from_page(source: Source, html: str, url: str, today: date) -> list[Event]:
     blocks = [(h, t) for h, t in _blocks(html)
               if not (t == h and len(t) > 120) and not _NEG_TEXT.search(t) and not _GRID_NOISE.search(t)]
@@ -509,6 +581,19 @@ def _from_page(source: Source, html: str, url: str, today: date) -> list[Event]:
             dated_per_heading[h] = dated_per_heading.get(h, 0) + 1
     events = []
     for heading, text in blocks:
+        # Roundup layout: a date-only heading ("Monday, Oct. 12") over undated
+        # items ("Chili cook-off - 11 a.m.-1 p.m. at Northern Pacific Center").
+        if text != heading and not find_dates(text, today):
+            hd = _date_only(heading, today)
+            if hd:
+                title = re.split(r"\s+[-–—]\s+|:\s", text, maxsplit=1)[0].strip()
+                if " - " in text or " – " in text or " — " in text:
+                    if today - timedelta(days=1) <= hd <= today + timedelta(days=HORIZON_DAYS):
+                        ev = _mk_event(source, title, hd, None, text, url,
+                                       time_text=text[len(title):len(title) + 40])
+                        if ev:
+                            events.append(ev)
+            continue
         prev_end = 0
         for start, end, ds, de in find_dates(text, today):
             line_prev, prev_end = prev_end, de
@@ -538,6 +623,18 @@ class PostsAdapter:
     def scrape(self, source: Source) -> AdapterResult:
         today = date.today()
         target = source.target
+        if _is_feed_url(target):
+            # events_url is itself a feed (e.g. a Mailchimp newsletter archive):
+            # every item is a post, roundups are parsed like listing pages
+            xml = fetch.get_text(target)
+            head = (xml or "").lstrip()[:300].lower()
+            if "<rss" not in head and "<feed" not in head:
+                return AdapterResult(self.name, detail="feed unreachable")
+            found = []
+            items = _parse_feed(xml)
+            for p in items:
+                found += _from_post(source, p, today)
+            return self._finish(source, found, len(items))
         html = _get_page(target)
         if not html:
             return AdapterResult(self.name, detail="page unreachable")
@@ -571,6 +668,34 @@ class PostsAdapter:
                 docs += 1
                 found += _from_page(source, page, link, today)
 
+        return self._finish(source, found, docs)
+
+    def _finish(self, source: Source, found: list[Event], docs: int) -> AdapterResult:
+        if source.category == "news":
+            # Regional media (KAXE's "Events Up North") cover far beyond the
+            # DMA (Bemidji, Brainerd). Keep an item only when it names a DMA
+            # town, and use that town as the event's city.
+            from adapters.exploremn import DMA_TOWNS
+            from adapters.evvnt import _TOWN_STATE
+            towns = sorted(set(DMA_TOWNS) | set(_TOWN_STATE), key=len, reverse=True)
+            names = "|".join(re.escape(t) for t in towns)
+            # (?!-): "chili cook-off" is not the town of Cook
+            in_town = re.compile(r"\bin\s+(" + names + r")\b(?!-)", re.I)
+            title_pat = re.compile(r"\b(" + names + r")\b(?!-)", re.I)
+            kept = []
+            for e in found:
+                # the item's own "... at Venue in Town" (first 160 chars) beats a
+                # town merely mentioned later in the description
+                named = re.search(r"\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)\b", e.title)
+                if named and not title_pat.fullmatch(named.group(1)):
+                    continue   # "Family forest day in Bemidji": says where, and it's not here
+                m = in_town.search(e.description[:160]) or title_pat.search(e.title)
+                if m:
+                    e.city = m.group(1).title()
+                    e.state = _TOWN_STATE.get(m.group(1).lower(), "MN")
+                    e.area = e.city
+                    kept.append(e)
+            found = kept
         # de-dup on (title, day); keep the richest copy
         uniq: dict[tuple, Event] = {}
         for e in found:

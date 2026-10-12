@@ -4,7 +4,7 @@
 fields, how to triage, and the cross-cutting findings that don't belong to any
 one entry. Per-source findings go in that entry's `notes:`.
 
-Snapshot 2026-10-12, after the coverage push: 171 sources. 148 active,
+Snapshot 2026-10-12, after the coverage push: 174 sources. 151 active,
 0 todo, 5 no-calendar, 7 blocked, 2 broken, 4 dead, 4 duplicate, 1 closed.
 Every active source has a pinned `platform:`. Re-count with
 `python -c "from registry import load_sources; import collections; print(collections.Counter(s.status for s in load_sources()))"`
@@ -120,3 +120,17 @@ Silver Bay, Moose Lake, Aitkin, Hinckley and Washburn. Slugs vary
 redirected to /events. Bayfield and Eveleth have no allevents page. Eventbrite is partly covered by
 allevents. Ticketmaster Discovery has a free API, but it needs an account key,
 so it needs owner approval first.
+
+More legitimate routes to Facebook-only events, as of 2026-10-12:
+- **Newspaper evvnt calendars** (`evvnt` adapter). Organizers submit the
+  events they also post on Facebook. Mesabi Tribune (~500) and APG Wisconsin
+  are live.
+- **Newsletter archives.** `posts` reads Mailchimp archive feeds linked from a
+  site. A scan of all sources found only FeLiveLife's, which is already
+  structured, so this mostly matters for sources added later.
+- **Regional radio roundups**, such as KAXE "Events Up North".
+- **Meta's Graph API, organizer opt-in.** A Page owner can authorize an app
+  to read that Page's own events. This is fully within Meta's terms, but it
+  needs a Meta developer account and app review (`pages_read_engagement`,
+  `pages_read_user_content`). That's an owner decision and not built yet.
+  It's planned in `CLAUDE.md`.

@@ -119,7 +119,7 @@ Generic chain, in order (first with events wins): `tribe`, `weblink`,
 Pin-only (set `platform:` in `sources.yaml`): `simpleview`, `tribehtml`,
 `allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`, `spektrix`,
 `birkie`, `northhouse`, `eventbrite`, `dpcalendar`, `exploremn`,
-`squarespace`, `nps`, `posts`. Adapters that drive a headless browser, and
+`squarespace`, `nps`, `evvnt`, `posts`. Adapters that drive a headless browser, and
 the `posts` text-inference fallback, must stay pin-only. `platform:` can
 chain adapters, e.g. `govoffice,posts`. Every active source is pinned.
 
@@ -156,6 +156,9 @@ A source that used to produce and now shows 0 is a regression to investigate.
 
 - Google Form → Sheet CSV `manual` adapter for Facebook-only / word-of-mouth
   events (`docs/DEPLOY.md` §5).
+- **Meta Graph API organizer opt-in** for Facebook-only Pages: an
+  owner-approved Meta developer app plus app review. See `docs/SOURCES.md`
+  (Facebook). Not started; needs the owner's account.
 - **Blocked, broken and dead sources:** the owner wants these addressed, with
   the list in `docs/SOURCES.md`. Use only legitimate routes (Rule 1).
 - Schedule `scripts/refresh_local.ps1` on the owner's PC (`docs/DEPLOY.md` §8)

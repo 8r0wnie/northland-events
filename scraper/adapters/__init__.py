@@ -42,6 +42,7 @@ from .squarespace import SquarespaceAdapter
 from .nps import NpsAdapter
 from .microdata import MicrodataAdapter
 from .simplecalendar import SimpleCalendarAdapter
+from .evvnt import EvvntAdapter
 
 GENERIC: list[Adapter] = [
     TribeEventsAdapter(),      # one API call, unambiguous when present
@@ -94,6 +95,7 @@ BY_PLATFORM: dict[str, Adapter] = {
     "nps": NpsAdapter(),
     "microdata": MicrodataAdapter(),
     "simplecalendar": SimpleCalendarAdapter(),
+    "evvnt": EvvntAdapter(),
 }
 
 __all__ = ["Adapter", "AdapterResult", "GENERIC", "BY_PLATFORM"]

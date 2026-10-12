@@ -59,12 +59,12 @@ One entry per site. Key fields:
 
 ## Adapters (`scraper/adapters/`)
 
-30 adapters. Generic chain, tried in order: `tribe`, `weblink`, `civicplus`,
+31 adapters. Generic chain, tried in order: `tribe`, `weblink`, `civicplus`,
 `revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`, `jsonld`,
 `microdata`, `simplecalendar`, `ics`, `chamberorganizer`, `chambermaster`.
 Pin-only via `platform:`: `simpleview`, `tribehtml`, `allevents`, `sidearm`,
 `ovationtix`, `decc`, `eventscalendar`, `spektrix`, `birkie`, `northhouse`,
-`eventbrite`, `dpcalendar`, `exploremn`, `squarespace`, `nps`, and `posts`.
+`eventbrite`, `dpcalendar`, `exploremn`, `squarespace`, `nps`, `evvnt`, and `posts`.
 `posts` infers events from news posts and page text, and those events are
 reviewed before they publish.
 

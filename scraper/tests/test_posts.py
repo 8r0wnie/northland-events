@@ -80,6 +80,11 @@ def test_times():
     assert find_time("Show at 7:30 p.m.") == (19, 30)
     assert find_time("Harvest Fest Oct 24 10a-2p") == (10, 0)
     assert find_time("apple pie at 3 a day") is None
+    # ranges borrow the end's meridiem; noon is a time (KAXE roundups)
+    assert find_time("giving event - 4:30-6:30 p.m. at Timberlake") == (16, 30)
+    assert find_time("program - 10-11 a.m. at the Eagles Club") == (10, 0)
+    assert find_time("presentation - noon-1 p.m. at Chucker Auditorium") == (12, 0)
+    assert find_time("brunch 11-1 p.m.") == (11, 0)
 
 
 def test_title_filters():
@@ -89,6 +94,21 @@ def test_title_filters():
         assert not _title_ok(bad), bad
     for good in ("Trivia Mafia", "Bingo!", "Live Music: Little Way", "Breakfast with the Clauses"):
         assert _title_ok(good), good
+
+
+def test_roundup_day_headings():
+    # date-only heading over undated "Title - time at Venue" items
+    from datetime import timedelta
+    from registry import Source
+    from adapters.posts import _from_page
+    d = REF + timedelta(days=4)   # Thursday, Oct. 15
+    html = (f"<h3>{d:%A}, {d:%b}. {d.day}</h3>"
+            "<p>Blithe Spirit - 7 p.m. at the High School Auditorium</p>"
+            "<p>Chili cook-off - 11 a.m.-1 p.m. at Northern Pacific Center</p>")
+    src = Source(id="t", name="t", url="https://x", events_url="", category="news",
+                 state="MN", area="X", platform="posts", status="active")
+    evs = _from_page(src, html, "https://x", REF)
+    assert [(e.title, e.start.hour) for e in evs] == [("Blithe Spirit", 19), ("Chili cook-off", 11)]
 
 
 def test_time_zones():

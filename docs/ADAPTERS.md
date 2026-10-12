@@ -225,6 +225,17 @@ the public service behind every nps.gov calendar page. No key (the
 api.nps.gov developer API needs one). `events_url: nps:<code>`: grpo, apis,
 voya. Northern parks post mostly in summer.
 
+### `evvnt` — newspaper community calendars (TownNews/BLOX "Local Events")
+`GET discovery.evvnt.com/api/publisher/<id>/home_page_events?hitsPerPage=50&multipleEventInstances=true&page=N&publisher_id=<id>`,
+the JSON behind the evvnt discovery plugin, with no key. Find the publisher
+id with `discovery.evvnt.com/api/publisher/<domain>/publisher_settings`:
+mesabitribune.com 7093, hibbingmn.com 7092 (same pool), apg-wi.com 7120.
+Listings are organizer-submitted (often the same events they post on
+Facebook), so sources use `category: aggregator`. The venue has no state
+field, so state comes from the ZIP, or from a known WI/MI town list when the
+ZIP is missing. Venues outside `DMA_BOX` (lat/lon) or outside the US (Fort
+Frances, ON) are dropped.
+
 ### `posts` — text inference from news posts and pages (fallback)
 For sites with no machine-readable calendar. Reads the events page (rendered
 if it's a JS shell, or if the plain page yields nothing), WordPress
@@ -239,6 +250,20 @@ against the date), then a title:
   `Oct 18 - Harvest Fest` (after) vs `Board Game Night Thursday, Oct 29` (before).
 - An announcement post → the post title and its first upcoming date. A post
   with 3+ dates is a roundup and is parsed like a listing page.
+
+- A **date-only heading** ("Monday, Oct. 12") over undated
+  `Title - 7 p.m. at Venue` items → one event per item (KAXE "Events Up
+  North"). Time ranges borrow the end's meridiem, so "4:30-6:30 p.m." is
+  4:30 PM. "noon" counts as a time.
+- If `events_url` is itself a feed (RSS/Atom, Mailchimp
+  `campaign-archive.com/feed`), each item is read as a post. On a normal page,
+  Mailchimp newsletter archives linked from the site are found
+  (`newsletter_feeds`) and read too.
+- Links sharing the events page's own keyword are followed first, so a tag
+  page's roundup posts beat site navigation.
+- Sources with `category: news` (regional media) keep only items whose own
+  text names a DMA town. "in Bemidji" in a title drops the item, and
+  "cook-off" is not Cook.
 
 It rejects publication or deadline dates ("posted / due / by / until ..."),
 agenda, minutes and closure text, calendar-grid chrome ("no events",
