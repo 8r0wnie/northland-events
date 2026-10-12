@@ -1,16 +1,16 @@
 {
-  "when": "2026-10-12T17:19:52Z",
-  "raw": 4840,
-  "merged": 3551,
-  "published": 3551,
-  "queued": 0,
+  "when": "2026-10-12T20:51:30Z",
+  "raw": 4884,
+  "merged": 3578,
+  "published": 3577,
+  "queued": 1,
   "verification": {
-    "confirmed": 3328,
+    "confirmed": 3354,
     "multi_source": 351,
-    "trusted_single": 2977,
+    "trusted_single": 3003,
     "reviewed_in": 223,
     "reviewed_out": 0,
-    "queued": 0,
+    "queued": 1,
     "corrected": 2,
     "hidden": 0,
     "learned_category": 0
@@ -198,8 +198,8 @@
     },
     {
       "source": "ely-mn",
-      "detail": "ics: 165 events from 1 Google calendar(s)",
-      "events": 158
+      "detail": "ics: 166 events from 1 Google calendar(s)",
+      "events": 159
     },
     {
       "source": "mountain-iron-mn",
@@ -219,7 +219,7 @@
     {
       "source": "babbitt-mn",
       "detail": "dpcalendar: 664 events from 10 calendar(s)",
-      "events": 313
+      "events": 317
     },
     {
       "source": "cook-mn",
@@ -264,7 +264,7 @@
     {
       "source": "cromwell-mn",
       "detail": "revize: 66 events (webspace cromwellmn)",
-      "events": 43
+      "events": 44
     },
     {
       "source": "wrenshall-mn",
@@ -333,7 +333,7 @@
     },
     {
       "source": "bovey-mn",
-      "detail": "no adapter produced events  [carried forward from 2026-10-12]",
+      "detail": "posts: 1 inferred events from 7 docs",
       "events": 1
     },
     {
@@ -383,8 +383,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 101 events",
-      "events": 101
+      "detail": "civicplus: 102 events",
+      "events": 102
     },
     {
       "source": "bayfield-city-wi",
@@ -423,8 +423,8 @@
     },
     {
       "source": "washburn-county-wi",
-      "detail": "simpleview: 42 events (2 pages, 24/24 event pages)",
-      "events": 42
+      "detail": "simpleview: 43 events (2 pages, 24/24 event pages)",
+      "events": 43
     },
     {
       "source": "spooner-wi",
@@ -453,13 +453,13 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 193 events",
-      "events": 193
+      "detail": "allevents: 192 events",
+      "events": 192
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 126 events",
-      "events": 126
+      "detail": "allevents: 127 events",
+      "events": 127
     },
     {
       "source": "allevents-cloquet",
@@ -554,7 +554,7 @@
     {
       "source": "uws-yellowjackets",
       "detail": "sidearm: 99 home/neutral events",
-      "events": 99
+      "events": 98
     },
     {
       "source": "css-saints",
@@ -568,8 +568,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "tribe: 29 events",
-      "events": 29
+      "detail": "tribe: 63 events",
+      "events": 63
     },
     {
       "source": "sacred-heart",
@@ -598,8 +598,8 @@
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 15 events",
-      "events": 15
+      "detail": "tribe: 18 events",
+      "events": 18
     },
     {
       "source": "castle-danger",

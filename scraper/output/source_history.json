@@ -67,7 +67,7 @@
   {
    "date": "2026-10-12",
    "events": 442,
-   "queued": 0,
+   "queued": 1,
    "carried": false
   }
  ],
@@ -290,7 +290,7 @@
  "ely-mn": [
   {
    "date": "2026-10-12",
-   "events": 158,
+   "events": 159,
    "queued": 0,
    "carried": false
   }
@@ -322,7 +322,7 @@
  "babbitt-mn": [
   {
    "date": "2026-10-12",
-   "events": 313,
+   "events": 317,
    "queued": 0,
    "carried": false
   }
@@ -394,7 +394,7 @@
  "cromwell-mn": [
   {
    "date": "2026-10-12",
-   "events": 43,
+   "events": 44,
    "queued": 0,
    "carried": false
   }
@@ -508,7 +508,7 @@
    "date": "2026-10-12",
    "events": 1,
    "queued": 0,
-   "carried": true
+   "carried": false
   }
  ],
  "aitkin-county-mn": [
@@ -586,7 +586,7 @@
  "bayfield-county-wi": [
   {
    "date": "2026-10-12",
-   "events": 101,
+   "events": 102,
    "queued": 0,
    "carried": false
   }
@@ -650,7 +650,7 @@
  "washburn-county-wi": [
   {
    "date": "2026-10-12",
-   "events": 42,
+   "events": 43,
    "queued": 0,
    "carried": false
   }
@@ -698,7 +698,7 @@
  "allevents-duluth": [
   {
    "date": "2026-10-12",
-   "events": 193,
+   "events": 192,
    "queued": 0,
    "carried": false
   }
@@ -706,7 +706,7 @@
  "allevents-superior": [
   {
    "date": "2026-10-12",
-   "events": 126,
+   "events": 127,
    "queued": 0,
    "carried": false
   }
@@ -858,7 +858,7 @@
  "uws-yellowjackets": [
   {
    "date": "2026-10-12",
-   "events": 99,
+   "events": 98,
    "queued": 0,
    "carried": false
   }
@@ -882,7 +882,7 @@
  "reif-center": [
   {
    "date": "2026-10-12",
-   "events": 29,
+   "events": 63,
    "queued": 0,
    "carried": false
   }
@@ -930,7 +930,7 @@
  "wild-state-cider": [
   {
    "date": "2026-10-12",
-   "events": 15,
+   "events": 18,
    "queued": 0,
    "carried": false
   }

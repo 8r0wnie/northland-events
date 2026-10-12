@@ -1,5 +1,34 @@
 {
-  "generated": "2026-10-12T17:19:52Z",
-  "count": 0,
-  "events": []
+  "generated": "2026-10-12T20:51:30Z",
+  "count": 1,
+  "events": [
+    {
+      "key": "4caaf8c97f710d43",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "DECC Gala: a Progressive Party Through the Decades",
+      "start": "2026-11-19T17:00:00",
+      "end": "2026-11-19T21:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "community",
+      "price": "",
+      "description": "The First-Ever DECC Gala: a Progressive Party through the Decades We're excited to announce the inaugural DECC Gala, a one-of-a-kind celebration honoring the 60th Anniversary of the DECC. This isn't your typical gala because the DECC, with 10 community venues, is anything but typical. Guests will embark on a progressive journey through the decades and across the DECC campus, experiencing the history of the organization in a truly immersive way.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    }
+  ]
 }

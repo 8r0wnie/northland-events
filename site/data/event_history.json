@@ -72,7 +72,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-04",
+     "date": "2026-12-11",
      "title": "Meat Raffle",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -1158,10 +1158,10 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-16",
+     "date": "2026-10-24",
      "title": "Live Music at the Taphouse",
-     "source_count": 2,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9708"
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12429"
     }
    },
    "too_frequent": false
@@ -6332,13 +6332,13 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-13",
+     "date": "2026-11-09",
      "title": "SWCD Board Meeting",
-     "source_count": 2,
-     "url": "https://lakecountymn.gov/events/swcd-special-board-meeting/"
+     "source_count": 1,
+     "url": "https://lakecountymn.gov/events/swcd-board-meeting-11/"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "55 activity club dominoes|duluth": {
    "title": "55+ Activity Club: Dominoes",
@@ -10350,10 +10350,10 @@
    "category": "other",
    "occurrences": {
     "2026": {
-     "date": "2026-09-25",
+     "date": "2026-12-18",
      "title": "Drag Night",
      "source_count": 1,
-     "url": "https://wildstatecider.com/event/drag-night-4/"
+     "url": "https://wildstatecider.com/event/drag-night-6/"
     }
    },
    "too_frequent": false
@@ -13419,7 +13419,7 @@
      "date": "2026-10-17",
      "title": "Wilson Fairchild",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/wilson-fairchild-sons-of-don-and-harold-reid-of-the-legendary-statler-brother/"
+     "url": "https://reifcenter.org/event/wilson-fairchild/"
     }
    },
    "too_frequent": false
@@ -13466,7 +13466,7 @@
     "2026": {
      "date": "2026-10-20",
      "title": "Sugarland Ride or Die Tour",
-     "source_count": 4,
+     "source_count": 5,
      "url": "https://visitduluth.com/event/sugarland-ride-or-die-tour/"
     }
    },
@@ -13760,8 +13760,8 @@
     "2026": {
      "date": "2026-10-24",
      "title": "DSSO Masterworks 2 \u2013 Close to Home",
-     "source_count": 3,
-     "url": "https://visitduluth.com/event/dsso-masterworks-2-close-to-home/"
+     "source_count": 1,
+     "url": "https://decc.org/event/masterworks-2-close-to-home/"
     }
    },
    "too_frequent": false
@@ -14184,7 +14184,7 @@
   },
   "deconstructing music live dark side of moon|grand rapids": {
    "title": "Deconstructing The Music Live! The Dark Side Of The Moon",
-   "venue": "Ives Studio Theater, Reif Center",
+   "venue": "Ive Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -14193,7 +14193,7 @@
      "date": "2026-10-30",
      "title": "Deconstructing The Music Live! The Dark Side Of The Moon",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/deconstructing-the-music-live-the-dark-side-of-the-moon/"
+     "url": "https://reifcenter.org/event/deconstructing-the-music-live-the-dark-side-of-the-moon/"
     }
    },
    "too_frequent": false
@@ -14628,7 +14628,7 @@
   },
   "andreas klein|grand rapids": {
    "title": "Andreas Klein",
-   "venue": "Ives Studio Theater, Reif Center",
+   "venue": "Ive Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -14637,7 +14637,7 @@
      "date": "2026-11-05",
      "title": "Andreas Klein",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/andreas-klein/"
+     "url": "https://reifcenter.org/event/andreas-klein/"
     }
    },
    "too_frequent": false
@@ -14844,7 +14844,7 @@
     "2026": {
      "date": "2026-11-07",
      "title": "Twin Ports Comedy: A Night With Rudy Pavich",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://visitduluth.com/event/twin-ports-comedy-a-night-with-rudy-pavich/"
     }
    },
@@ -15123,7 +15123,7 @@
      "date": "2026-11-12",
      "title": "The Seven Wonders A Tribute to Fleetwood Mac",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/the-seven-wonders-a-tribute-to-fleetwood-mac/"
+     "url": "https://reifcenter.org/event/the-seven-wonders-a-tribute-to-fleetwood-mac/"
     }
    },
    "too_frequent": false
@@ -15458,7 +15458,7 @@
     "2026": {
      "date": "2026-11-20",
      "title": "UMD Men\u2019s Hockey vs Arizona State University",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://decc.org/event/umd-mens-hockey-vs-arizona-state-university/"
     }
    },
@@ -15501,13 +15501,13 @@
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "music",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-11-22",
      "title": "Reif Theater Arts Production of Disney\u2019s Aladdin JR.",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/reif-theater-arts-production-of-disneys-aladdin-jr/2026-11-22/"
+     "url": "https://reifcenter.org/event/reif-theater-arts-production-of-disneys-aladdin-jr/2026-11-22/"
     }
    },
    "too_frequent": false
@@ -15913,7 +15913,7 @@
      "date": "2026-11-28",
      "title": "The Book of Bubl\u00e9 \u2013 Christmas",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/the-book-of-buble-christmas/"
+     "url": "https://reifcenter.org/event/the-book-of-buble-christmas/"
     }
    },
    "too_frequent": false
@@ -16008,7 +16008,7 @@
     "2026": {
      "date": "2026-12-04",
      "title": "UMD Women\u2019s Hockey vs St. Cloud",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-womens-hockey-vs-stcloud-dec4/"
     }
    },
@@ -16032,16 +16032,16 @@
   },
   "anthony shore his all star band christmas with elvis|grand rapids": {
    "title": "Anthony Shore & His All Star Band present Christmas with Elvis",
-   "venue": "Wilcox Theater (Reif Rental)",
+   "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "holiday",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-12-04",
      "title": "Anthony Shore & His All Star Band present Christmas with Elvis",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/anthony-shore-his-all-star-band-present-christmas-with-elvis-2/"
+     "url": "https://reifcenter.org/event/anthony-shore-his-all-star-band-present-christmas-with-elvis/"
     }
    },
    "too_frequent": false
@@ -16329,13 +16329,13 @@
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "music",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-12-13",
      "title": "Reif Dance Presents: The Nutcracker",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/reif-dance-presents-the-nutcracker-5/2026-12-13/"
+     "url": "https://reifcenter.org/event/reif-dance-presents-the-nutcracker/2026-12-13/"
     }
    },
    "too_frequent": false
@@ -16415,7 +16415,7 @@
      "date": "2026-12-16",
      "title": "Rock & Roll Xmas Spectacular",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/rock-roll-xmas-spectacular-4/"
+     "url": "https://reifcenter.org/event/rock-roll-xmas-spectacular/"
     }
    },
    "too_frequent": false
@@ -16798,7 +16798,7 @@
     "2027": {
      "date": "2027-01-08",
      "title": "UMD Men\u2019s Hockey vs Colorado College",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-mens-hockey-vs-colorado-college-5/"
     }
    },
@@ -16927,7 +16927,7 @@
      "date": "2027-01-15",
      "title": "Takin\u2019 It to the Limit: An Eagles Tribute with Collective Unconscious and the Fabulous Armadillos",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/takin-it-to-the-limit-an-eagles-tribute-with-collective-unconscious-and-the-fabulous-armadillos-2/"
+     "url": "https://reifcenter.org/event/1440/"
     }
    },
    "too_frequent": false
@@ -17014,7 +17014,7 @@
   },
   "ok factor|grand rapids": {
    "title": "The Ok Factor",
-   "venue": "Ives Studio Theater, Reif Center",
+   "venue": "Ive Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -17023,7 +17023,7 @@
      "date": "2027-01-21",
      "title": "The Ok Factor",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/the-ok-factor-2/"
+     "url": "https://reifcenter.org/event/the-ok-factor/"
     }
    },
    "too_frequent": false
@@ -17353,13 +17353,13 @@
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "music",
+   "category": "arts",
    "occurrences": {
     "2027": {
      "date": "2027-02-21",
      "title": "Guys On Ice \u2013 An Ice Fishing Musical",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/guys-on-ice-an-ice-fishing-musical/"
+     "url": "https://reifcenter.org/event/guys-on-ice-an-ice-fishing-musical/"
     }
    },
    "too_frequent": false
@@ -17391,7 +17391,7 @@
      "date": "2027-02-25",
      "title": "Deuces Wild \u2013 Dueling Pianos 25th Anniversary Tour",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/deuces-wild-dueling-pianos-25th-anniversary-tour/"
+     "url": "https://reifcenter.org/event/deuces-wild-dueling-pianos-25th-anniversary-tour/"
     }
    },
    "too_frequent": false
@@ -18247,7 +18247,7 @@
      "date": "2027-03-06",
      "title": "Reif Dance Presents: The Company in Concert",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/reif-dance-presents-the-company-in-concert-3/2027-03-06/"
+     "url": "https://reifcenter.org/event/reif-dance-presents-the-company-in-concert/2027-03-06/"
     }
    },
    "too_frequent": false
@@ -25803,7 +25803,7 @@
      "date": "2026-10-22",
      "title": "Team Trivia",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12191"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12414"
     }
    },
    "too_frequent": false
@@ -29102,7 +29102,7 @@
   },
   "third coast chamber collective|grand rapids": {
    "title": "Third Coast Chamber Collective",
-   "venue": "Ives Studio Theater, Reif Center",
+   "venue": "Ive Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -29111,7 +29111,7 @@
      "date": "2027-04-01",
      "title": "Third Coast Chamber Collective",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/third-coast-chamber-collective-2/"
+     "url": "https://reifcenter.org/event/third-coast-chamber-collective/"
     }
    },
    "too_frequent": false
@@ -30945,13 +30945,13 @@
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "holiday",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-31",
      "title": "Itasca Symphony: Halloween Spooktacular",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/itasca-symphony-halloween-concert/"
+     "url": "https://reifcenter.org/event/itasca-symphony-halloween-concert/"
     }
    },
    "too_frequent": false
@@ -31105,13 +31105,13 @@
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "holiday",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-12-19",
      "title": "Itasca Symphony: Family Christmas with The Snowman",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/itasca-symphony-christmas-w-the-snowman/"
+     "url": "https://reifcenter.org/event/itasca-symphony-christmas-w-the-snowman/"
     }
    },
    "too_frequent": false
@@ -31175,7 +31175,7 @@
      "date": "2027-02-13",
      "title": "Itasca Symphony: Sam Miltich with the Itasca Orchestra",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/itasca-symphony-no-strings-detached/"
+     "url": "https://reifcenter.org/event/itasca-symphony-no-strings-detached/"
     }
    },
    "too_frequent": false
@@ -31437,7 +31437,7 @@
    "too_frequent": false
   },
   "all you can eat waffle breakfast|duluth": {
-   "title": "All You Can Eat Waffle Breakfast 2026",
+   "title": "All You Can Eat Waffle Breakfast",
    "venue": "Clyde Iron Works",
    "city": "Duluth",
    "area": "Duluth",
@@ -31445,9 +31445,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-11-01",
-     "title": "All You Can Eat Waffle Breakfast 2026",
-     "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/all-you-can-eat-waffle-breakfast-2026/"
+     "title": "All You Can Eat Waffle Breakfast",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/all-you-can-eat-waffle-breakfast/100002001771123316"
     }
    },
    "too_frequent": false
@@ -32205,17 +32205,17 @@
    "too_frequent": false
   },
   "reif theater arts trolls musical jr|grand rapids": {
-   "title": "Reif Theater Arts Presents: Trolls The Musical JR.",
+   "title": "Reif Theater Arts Presents: Trolls The Musical JR",
    "venue": "Wilcox Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
-   "category": "music",
+   "category": "arts",
    "occurrences": {
     "2027": {
      "date": "2027-04-09",
-     "title": "Reif Theater Arts Presents: Trolls The Musical JR.",
+     "title": "Reif Theater Arts Presents: Trolls The Musical JR",
      "source_count": 1,
-     "url": "https://www.reifcenter.org/event/reif-theater-arts-presents-trolls-the-musical-jr/2027-04-09/"
+     "url": "https://reifcenter.org/event/reif-theater-arts-presents-trolls-the-musical-jr/2027-04-09/"
     }
    },
    "too_frequent": false
@@ -33806,10 +33806,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-12-04",
+     "date": "2026-12-11",
      "title": "Teen Center Hours",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-eq99o8hbk12d3cietppiau02ec_202612042300?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-eq99o8hbk12d3cietppiau02ec_202612112300?calid=g-19"
     }
    },
    "too_frequent": false
@@ -33822,10 +33822,10 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-12-04",
+     "date": "2026-12-11",
      "title": "Preteen Hours",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-21-oggge1rn8t9jh8ugl84mpb7v23_202612042300?calid=g-21"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-21-oggge1rn8t9jh8ugl84mpb7v23_202612112300?calid=g-21"
     }
    },
    "too_frequent": false
@@ -41303,7 +41303,7 @@
      "date": "2026-10-21",
      "title": "WiscoREIA Hayward: Coffee & Connections",
      "source_count": 1,
-     "url": "https://allevents.in/hayward/wiscoreia-hayward-coffee-and-connections/200030805790808"
+     "url": "https://allevents.in/hayward/wiscoreia-hayward-coffee-and-connections/200030789857302"
     }
    },
    "too_frequent": false
@@ -49704,6 +49704,530 @@
      "title": "Sophie Hiroko + Bathtub Cig (MSP)",
      "source_count": 1,
      "url": "https://www.eventbrite.com/e/sophie-hiroko-bathtub-cig-msp-tickets-2002727469774"
+    }
+   },
+   "too_frequent": false
+  },
+  "washburn halloween town events|bayfield county": {
+   "title": "Washburn Halloween Town Events",
+   "venue": "Washburn, WI 54891",
+   "city": "Washburn",
+   "area": "Bayfield County",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-14",
+     "title": "Washburn Halloween Town Events",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9592"
+    }
+   },
+   "too_frequent": false
+  },
+  "perpetual hiatus at superior tavern|superior": {
+   "title": "Perpetual Hiatus at Superior Tavern",
+   "venue": "Superior Tavern",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Perpetual Hiatus at Superior Tavern",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/perpetual-hiatus-at-superior-tavern/200030823749100"
+    }
+   },
+   "too_frequent": false
+  },
+  "lost in woods jake froelke and dan faith|duluth": {
+   "title": "Lost in the Woods, Jake Froelke and Dan & Faith",
+   "venue": "Wussow's Concert Cafe",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Lost in the Woods, Jake Froelke and Dan & Faith",
+     "source_count": 2,
+     "url": "https://www.perfectduluthday.com/the-event/lost-in-the-woods-jake-froelke-and-dan-and-faith/"
+    }
+   },
+   "too_frequent": false
+  },
+  "brahms schumann|duluth": {
+   "title": "Brahms & Schumann",
+   "venue": "College of St Scholastica Mitchell Auditorium",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-18",
+     "title": "Brahms & Schumann",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/brahms-and-schumann/200030826823041"
+    }
+   },
+   "too_frequent": false
+  },
+  "ambulance joint powers mtg|ely": {
+   "title": "Ambulance Joint Powers Mtg",
+   "venue": "Winton Community Center",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-19",
+     "title": "Ambulance Joint Powers Mtg",
+     "source_count": 1,
+     "url": "https://calendar.google.com/calendar/ical/ely.mn.us_e8e3c2380hhmm5kgbkcv9ga7qs%40group.calendar.google.com/public/basic.ics"
+    }
+   },
+   "too_frequent": false
+  },
+  "grhs choir concert|grand rapids": {
+   "title": "GRHS Choir Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-14",
+     "title": "GRHS Choir Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/grhs-choir-concert/2026-12-14/"
+    }
+   },
+   "too_frequent": true
+  },
+  "sugarland duluth mn|duluth": {
+   "title": "Sugarland - Duluth, MN",
+   "venue": "Duluth Entertainment Convention Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-20",
+     "title": "Sugarland - Duluth, MN",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/sugarland-duluth-mn/200030826822833"
+    }
+   },
+   "too_frequent": false
+  },
+  "masterworks 2 close to home|duluth": {
+   "title": "Masterworks 2: Close to Home",
+   "venue": "Duluth Entertainment Convention Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Masterworks 2: Close to Home",
+     "source_count": 3,
+     "url": "https://allevents.in/duluth/masterworks-2-close-to-home/200030826820849"
+    }
+   },
+   "too_frequent": false
+  },
+  "mason jar pub trunk or treat|bayfield county": {
+   "title": "Mason Jar Pub Trunk or Treat",
+   "venue": "",
+   "city": "Mason",
+   "area": "Bayfield County",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-24",
+     "title": "Mason Jar Pub Trunk or Treat",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12434"
+    }
+   },
+   "too_frequent": false
+  },
+  "halloween cookie class|duluth": {
+   "title": "Halloween Cookie Class",
+   "venue": "Wild State Cider",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-25",
+     "title": "Halloween Cookie Class",
+     "source_count": 1,
+     "url": "https://wildstatecider.com/event/halloween-cookie-class/"
+    }
+   },
+   "too_frequent": false
+  },
+  "marching band banquet|grand rapids": {
+   "title": "Marching Band Banquet",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-25",
+     "title": "Marching Band Banquet",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/marching-band-banquet/"
+    }
+   },
+   "too_frequent": false
+  },
+  "6th grade bands concert|grand rapids": {
+   "title": "6th Grade Bands Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-29",
+     "title": "6th Grade Bands Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/6th-grade-bands-concert/2026-10-29/1/"
+    },
+    "2027": {
+     "date": "2027-02-04",
+     "title": "6th Grade Bands Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/6th-grade-bands-concert/2027-02-04/1/"
+    }
+   },
+   "too_frequent": true
+  },
+  "varsity band concert|grand rapids": {
+   "title": "Varsity Band Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-29",
+     "title": "Varsity Band Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/varsity-band-concert/"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall jigsaw puzzle competition|duluth": {
+   "title": "Fall Jigsaw Puzzle Competition",
+   "venue": "Evergreen Community Center",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "Fall Jigsaw Puzzle Competition",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/fall-jigsaw-puzzle-competition/200030826776535"
+    }
+   },
+   "too_frequent": false
+  },
+  "yoga strength|superior": {
+   "title": "Yoga Strength",
+   "venue": "1423 N 8th St, Ste 113, Superior, WI, United States, Wisconsin 54880",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "Yoga Strength",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/yoga-strength/200030826789248"
+    }
+   },
+   "too_frequent": false
+  },
+  "monthly luncheon behind magic at reif a special chamber luncheon on site|grand rapids": {
+   "title": "Monthly Luncheon \u2013 Behind the Magic at The Reif: A Special Chamber Luncheon On-Site!",
+   "venue": "",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-09",
+     "title": "Monthly Luncheon \u2013 Behind the Magic at The Reif: A Special Chamber Luncheon On-Site!",
+     "source_count": 1,
+     "url": "https://www.grandmn.com/event/monthly-luncheon-8/"
+    }
+   },
+   "too_frequent": false
+  },
+  "6th grade choir concert|grand rapids": {
+   "title": "6th Grade Choir Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-10",
+     "title": "6th Grade Choir Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/6th-grade-choir-concert/2026-11-10/1/"
+    },
+    "2027": {
+     "date": "2027-02-11",
+     "title": "6th Grade Choir Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/6th-grade-choir-concert/2027-02-11/1/"
+    }
+   },
+   "too_frequent": true
+  },
+  "7th grade band concert|grand rapids": {
+   "title": "7th Grade Band Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-23",
+     "title": "7th Grade Band Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/7th-grade-choir-concert/2026-11-23/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "small business saturday at bb friends|duluth": {
+   "title": "Small Business Saturday at BB + Friends!",
+   "venue": "601 N 56th Ave W, 55807",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "Small Business Saturday at BB + Friends!",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/small-business-saturday-at-bb-friends/200030803120222"
+    }
+   },
+   "too_frequent": false
+  },
+  "west rapids music program|grand rapids": {
+   "title": "West Rapids Music Program",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-15",
+     "title": "West Rapids Music Program",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/west-rapids-music-program/2026-12-15/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "7th 8th grade choir concert|grand rapids": {
+   "title": "7th & 8th Grade Choir Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-03",
+     "title": "7th & 8th Grade Choir Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/7th-8th-grade-choir-concert/2026-12-03/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "east rapids 3rd grade music program|grand rapids": {
+   "title": "East Rapids 3rd Grade Music Program",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-04",
+     "title": "East Rapids 3rd Grade Music Program",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/east-rapids-3rd-grade-music-program/2026-12-04/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "pearl harbor documentary showing|washburn county": {
+   "title": "Pearl Harbor Documentary Showing",
+   "venue": "The Palace Theater",
+   "city": "",
+   "area": "Washburn County",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-07",
+     "title": "Pearl Harbor Documentary Showing",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/pearl-harbor-documentary-showing/3625/"
+    }
+   },
+   "too_frequent": false
+  },
+  "east rapids 4th grade music program|grand rapids": {
+   "title": "East Rapids 4th Grade Music Program",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-17",
+     "title": "East Rapids 4th Grade Music Program",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/east-rapids-4th-grade-music-program/2026-12-17/1/"
+    }
+   },
+   "too_frequent": false
+  },
+  "reif cozy concert sarah morris|grand rapids": {
+   "title": "Reif Cozy Concert: Sarah Morris",
+   "venue": "Ive Studio Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-07",
+     "title": "Reif Cozy Concert: Sarah Morris",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/reif-cozy-concerts-sarah-morris/"
+    }
+   },
+   "too_frequent": false
+  },
+  "grhs band concert|grand rapids": {
+   "title": "GRHS Band Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-11",
+     "title": "GRHS Band Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/grhs-band-concert/2027-01-11/"
+    }
+   },
+   "too_frequent": false
+  },
+  "jazz band concert|grand rapids": {
+   "title": "Jazz Band Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-01",
+     "title": "Jazz Band Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/jazz-band-concert/"
+    }
+   },
+   "too_frequent": false
+  },
+  "symphonic band and 8th grade band bridge concert|grand rapids": {
+   "title": "Symphonic Band and 8th Grade Band Bridge Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-08",
+     "title": "Symphonic Band and 8th Grade Band Bridge Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/symphonic-band-and-8th-grade-band-bridge-concert/"
+    }
+   },
+   "too_frequent": false
+  },
+  "middle school and high school choir bridge concert|grand rapids": {
+   "title": "Middle School and High School Choir Bridge Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-22",
+     "title": "Middle School and High School Choir Bridge Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/middle-school-and-high-school-choir-bridge-concert/"
+    }
+   },
+   "too_frequent": false
+  },
+  "7th grade choir concert|grand rapids": {
+   "title": "7th Grade Choir Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-23",
+     "title": "7th Grade Choir Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/7th-grade-choir-concert-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "reif cozy concert adam moe|grand rapids": {
+   "title": "Reif Cozy Concert: Adam Moe",
+   "venue": "",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-11",
+     "title": "Reif Cozy Concert: Adam Moe",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/reif-cozy-concerts-adam-moe/"
+    }
+   },
+   "too_frequent": false
+  },
+  "9th grade band concert|grand rapids": {
+   "title": "9th Grade Band Concert",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-22",
+     "title": "9th Grade Band Concert",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/9th-grade-band-concert/"
     }
    },
    "too_frequent": false
