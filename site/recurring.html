@@ -5,18 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Northland Events — Annual Events &amp; Trends</title>
+<link rel="stylesheet" href="theme.css">
 <style>
-  :root {
-    --bg:#f4f6f5; --panel:#fff; --ink:#16201f; --muted:#5c6f6c; --line:#d5ddda;
-    --accent:#0d6e6b; --accent-ink:#fff; --badge-bg:#0d6e6b1a;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#0e1414; --panel:#161e1d; --ink:#e6ecea; --muted:#93a5a1; --line:#2a3634;
-      --accent:#4bb3ad; --accent-ink:#06201f; --badge-bg:#4bb3ad26; }
-  }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--ink);
-    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+    font:15px/1.55 var(--font); }
   .wrap { max-width:960px; margin:0 auto; padding:32px 18px 60px; }
   h1 { font-size:20px; margin:0 0 2px; }
   h2 { font-size:15px; margin:34px 0 4px; }
@@ -27,7 +20,7 @@
     border-radius:8px; background:var(--panel); color:var(--ink); margin:12px 0; }
   #lock button { font:inherit; cursor:pointer; border:none; border-radius:8px;
     padding:9px 16px; background:var(--accent); color:var(--accent-ink); font-weight:600; }
-  #lock .err { color:#a3312a; font-size:13px; min-height:1.2em; }
+  #lock .err { color:var(--no); font-size:13px; min-height:1.2em; }
 
   .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin:16px 0 8px; }
   .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
@@ -48,7 +41,7 @@
   th, td { text-align:left; padding:9px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
   th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.03em; }
   td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
-  .badge { display:inline-block; background:var(--badge-bg); color:var(--accent); border-radius:999px;
+  .badge { display:inline-block; background:var(--accent-soft); color:var(--accent); border-radius:999px;
     padding:1px 8px; font-size:11.5px; font-weight:600; }
   .reason { color:var(--muted); font-size:12px; }
   a.src { color:var(--accent); font-weight:600; text-decoration:none; }
@@ -56,7 +49,6 @@
   .empty { color:var(--muted); font-size:13px; padding:16px 0; }
   .table-scroll { overflow-x:auto; }
   [hidden] { display:none !important; }
-  button:focus-visible, input:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 </style>
 </head>
 <body>

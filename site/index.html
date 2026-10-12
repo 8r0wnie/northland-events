@@ -6,17 +6,16 @@
 <title>Northland Events</title>
 <meta name="description" content="Community events across the Duluth region — Northern Minnesota, Northwest Wisconsin, and the western U.P.">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
+<link rel="stylesheet" href="theme.css">
 <style>
-  :root {
-    --bg: #f7f6f3; --panel: #ffffff; --ink: #1e2a32; --muted: #5c6b74;
-    --line: #e3e0d8; --accent: #1f6f6b; --accent-ink: #ffffff;
-  }
   * { box-sizing: border-box; }
-  body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  body { margin: 0; font:15px/1.5 var(--font);
          background: var(--bg); color: var(--ink); }
-  header { padding: 18px 20px 10px; }
-  h1 { margin: 0; font-size: 20px; letter-spacing: .2px; }
-  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  header { padding: 20px 0 18px; background: var(--band); color: var(--band-ink);
+           border-bottom: 4px solid var(--pbs-blue); }
+  h1 { margin: 0; font-size: 22px; font-weight: 700; }
+  header p { margin: 4px 0 0; color: var(--band-muted); font-size: 13.5px; }
+  .wrap > .filters:first-child { margin-top: 18px; }
   .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px 40px; }
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
   .filters select { padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
@@ -32,16 +31,14 @@
   .legend .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
   #calendar { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
               padding: 12px; }
-  .fc .fc-button-primary { background: var(--accent); border-color: var(--accent); }
-  .fc .fc-button-primary:not(:disabled).fc-button-active { background: #17504d; border-color: #17504d; }
   .fc-event { cursor: pointer; border-width: 0 !important; }
   .fc-daygrid-event, .fc-timegrid-event, .fc-list-event-dot { border: none !important; }
   .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
-  dialog { border: none; border-radius: 12px; padding: 0; max-width: 460px; width: 92vw;
+  dialog { border: none; background: var(--panel); color: var(--ink); border-radius: 12px; padding: 0; max-width: 460px; width: 92vw;
            box-shadow: 0 12px 40px rgba(0,0,0,.25); }
-  dialog::backdrop { background: rgba(20,28,32,.45); }
+  dialog::backdrop { background: rgba(10,20,90,.5); }
   .card { padding: 20px; }
-  .card h2 { margin: 0 0 4px; font-size: 18px; }
+  .card h2 { margin: 0 0 4px; font-size: 18px; font-weight: 700; }
   .card .when { color: var(--accent); font-weight: 600; font-size: 14px; }
   .card .where { color: var(--muted); font-size: 13px; margin: 2px 0 12px; }
   .card p { font-size: 14px; white-space: pre-wrap; }
@@ -52,8 +49,12 @@
   .card .tag.cat { border: none; font-weight: 600; }
   .card button.close { position: absolute; top: 10px; right: 12px; border: none; background: none;
                        font-size: 22px; cursor: pointer; color: var(--muted); }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#161a1c; --panel:#1f2528; --ink:#e8eaeb; --muted:#9aa7ad; --line:#333c40; --accent:#3aa39d; }
+  @media (max-width: 600px) {
+    #calendar { padding: 8px; }
+    .fc .fc-toolbar { flex-wrap: wrap; gap: 8px; justify-content: center; }
+    .fc .fc-toolbar-title { font-size: 1.3em; }
+    .fc .fc-list-table { table-layout: fixed; }
+    .fc .fc-list-event-time { width: 38%; }
   }
 </style>
 </head>

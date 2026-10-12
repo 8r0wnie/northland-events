@@ -212,6 +212,21 @@ server-side on every API call. They keep
 casual viewers out, not determined ones: the JSON files are public. Current
 passphrases and how to change them: `docs/DEPLOY.md`.
 
+**Look (owner decision 2026-10-12).** The site is meant to live on the PBS
+North website, so every page follows the PBS style guide's colours and type,
+with no PBS logo or name. `site/theme.css` holds all of it:
+
+- The palette tokens: PBS Blue `#2638C4`, Navy `#0A145A` (header band),
+  Medium Blue `#0F1E8C`, and the sparing accents teal, yellow (focus ring)
+  and coral.
+- The light and dark values, and FullCalendar's button and today colours.
+- The font stack. PBS Sans is licensed, so it's listed first (used if
+  installed) and Inter from Google Fonts stands in.
+
+Pages link `theme.css` and keep only layout CSS, using `var(--…)` tokens and
+never hard-coded colours. The exception is the calendar's category colours
+(`CAT_COLORS` in `index.html`), a colour-blind-safe set kept for legibility.
+
 ## Time handling (project rule)
 
 Every `Event.start`/`end` is a **naive America/Chicago wall time**.

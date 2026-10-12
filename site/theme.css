@@ -1,0 +1,61 @@
+/* Shared look for every page: the PBS colour palette and type style (owner
+   decision 2026-10-12; no PBS logos or name). Pages keep only their layout
+   CSS and read colours from these tokens. docs/ARCHITECTURE.md "Site pages".
+
+   PBS Sans is licensed, so it is listed first (used if the viewer has it)
+   and Inter, a free, screen-legible sans, stands in for it. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* PBS palette */
+  --pbs-blue: #2638C4;     /* signature */
+  --pbs-navy: #0A145A;
+  --pbs-medium: #0F1E8C;
+  --pbs-teal: #48D3CD;     /* accents: use sparingly */
+  --pbs-yellow: #FFCF00;
+  --pbs-coral: #FE704E;
+
+  --font: "PBS Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --bg: #F3F4FB; --panel: #FFFFFF; --ink: #0A145A; --muted: #4B5385; --line: #D8DBEE;
+  --accent: var(--pbs-blue); --accent-strong: var(--pbs-medium); --accent-ink: #FFFFFF;
+  --accent-soft: #2638C41A;
+  --band: var(--pbs-navy); --band-ink: #FFFFFF; --band-muted: #C9CEF2;
+  --focus: var(--pbs-yellow);
+  --ok: #1D7A55; --ok-bg: #E2F3EC; --no: #B2361B; --no-bg: #FDE7E1; --warn: #7A5A00; --warn-bg: #FFF4CC;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #060B36; --panel: #0A145A; --ink: #FFFFFF; --muted: #B4BAE6; --line: #23307F;
+    --accent: #8E9BFF; --accent-strong: #B5BEFF; --accent-ink: #060B36;
+    --accent-soft: #8E9BFF26;
+    --band: #0F1E8C; --band-ink: #FFFFFF; --band-muted: #C9CEF2;
+    --ok: #5FD6A6; --ok-bg: #0F3A3A; --no: #FE8F74; --no-bg: #3D1A2A; --warn: #FFCF00; --warn-bg: #3A3210;
+  }
+}
+
+body { font-family: var(--font); background: var(--bg); color: var(--ink); }
+h1, h2, h3 { letter-spacing: -.01em; }
+a { color: var(--accent); }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--focus); outline-offset: 2px;
+}
+
+/* FullCalendar (index.html) */
+.fc {
+  --fc-border-color: var(--line);
+  --fc-page-bg-color: var(--panel);
+  --fc-neutral-bg-color: var(--bg);
+  --fc-today-bg-color: var(--accent-soft);
+  --fc-list-event-hover-bg-color: var(--accent-soft);
+  --fc-button-text-color: #FFFFFF;
+  --fc-button-bg-color: var(--pbs-blue);
+  --fc-button-border-color: var(--pbs-blue);
+  --fc-button-hover-bg-color: var(--pbs-medium);
+  --fc-button-hover-border-color: var(--pbs-medium);
+  --fc-button-active-bg-color: var(--pbs-navy);
+  --fc-button-active-border-color: var(--pbs-navy);
+}
+@media (prefers-color-scheme: dark) {
+  .fc { --fc-button-active-bg-color: #5163F0; --fc-button-active-border-color: #5163F0; }
+}

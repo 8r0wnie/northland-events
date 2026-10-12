@@ -1,8 +1,9 @@
 # Northland Events — project context
 
 Public community events calendar for the **Duluth DMA**: Northern Minnesota,
-Northwest Wisconsin, and Ironwood MI. Neutral branding — **not** tied to any
-business.
+Northwest Wisconsin, and Ironwood MI. Neutral content, **not** tied to any
+business; styled to the PBS style guide (no logos) because it will live on the
+PBS North website.
 
 This is a standalone project. It shares nothing with any other project. Run
 Claude Code from this directory (`o:\Projects\Regional Event Scraper`) so it gets
@@ -44,7 +45,9 @@ findings go in that entry's `notes:` field, not in docs.
 2. **All free tier.** GitHub Actions (public repo), Cloudflare Workers static
    assets, Google Sites. No paid services, no build step for the site.
 3. **Neutral public calendar.** Nothing on `index.html` names or favors a
-   business. Owner-specific tools (PBS North tabling list, trends dashboard,
+   business. The *look* follows the PBS style guide (colours and type in
+   `site/theme.css`, owner decision 2026-10-12: the calendar will live on
+   the PBS North website). Logos stay out until the owner says otherwise. Owner-specific tools (PBS North tabling list, trends dashboard,
    review queue) live on separate, unlinked, `noindex`, passphrase-gated pages
    and never leak into public filters or UI.
 4. **Source tiers decide what publishes** (owner-set on `/admin`):
