@@ -4,8 +4,8 @@
 fields, how to triage, and the cross-cutting findings that don't belong to any
 one entry. Per-source findings go in that entry's `notes:`.
 
-Snapshot 2026-10-11, after the coverage push: 158 sources. 135 active,
-0 todo, 5 no-calendar, 6 blocked, 2 broken, 5 dead, 4 duplicate, 1 closed.
+Snapshot 2026-10-12, after the coverage push: 159 sources. 137 active,
+0 todo, 5 no-calendar, 6 blocked, 2 broken, 4 dead, 4 duplicate, 1 closed.
 Every active source has a pinned `platform:`. Re-count with
 `python -c "from registry import load_sources; import collections; print(collections.Counter(s.status for s in load_sources()))"`
 from `scraper/`.
@@ -75,8 +75,10 @@ return 0 in some months.
 - `broken`: burnett-county-fair (HTTP 500), and dsso (unreachable; its
   concerts arrive via the DECC).
 - `dead`: lake-vermilion-chamber and stlouis-county-fair (domains hijacked by
-  spam sites), moose-lake-chamber and wrenshall-mn (parked), and
-  sandstone-chamber (no DNS). Find each organization's new site.
+  spam sites), moose-lake-chamber (parked) and sandstone-chamber (no DNS).
+  Searched 2026-10-12 with no replacement found. Lake Vermilion-area events
+  now come from tower-soudan-history. wrenshall-mn moved to
+  cityofwrenshall.com and is active again.
 - `no-calendar`: iron-range (prose only), lake-superior-circle (touring blog),
   duluth-news-tribune (no calendar), knife-river-mn (URL is a gallery), and
   mcgregor-mn (cityofmcgregor.com is McGregor, **Texas**).
