@@ -102,6 +102,15 @@ def test_time_zones():
     assert str(from_epoch(1791849600)) == "2026-10-12 19:00:00"
 
 
+def test_not_public_filter():
+    import main
+    for t in ("NWLS Closed", "Horizon Circulation Training for Library Staff",
+              "Library closed for Thanksgiving", "Staff Meeting"):
+        assert main.NOT_PUBLIC.search(t), t
+    for t in ("Closed Captioned Movie Night", "Fall Open House", "Garage Sale"):
+        assert not main.NOT_PUBLIC.search(t), t
+
+
 def test_gcal_ids():
     assert _gcal_id("ely.mn.us_e8e3c2380hhmm5kgbkcv9ga7qs%40group.calendar.google.com") == \
         "ely.mn.us_e8e3c2380hhmm5kgbkcv9ga7qs%40group.calendar.google.com"

@@ -4,8 +4,8 @@
 fields, how to triage, and the cross-cutting findings that don't belong to any
 one entry. Per-source findings go in that entry's `notes:`.
 
-Snapshot 2026-10-12, after the coverage push: 159 sources. 137 active,
-0 todo, 5 no-calendar, 6 blocked, 2 broken, 4 dead, 4 duplicate, 1 closed.
+Snapshot 2026-10-12, after the coverage push: 161 sources. 138 active,
+0 todo, 5 no-calendar, 7 blocked, 2 broken, 4 dead, 4 duplicate, 1 closed.
 Every active source has a pinned `platform:`. Re-count with
 `python -c "from registry import load_sources; import collections; print(collections.Counter(s.status for s in load_sources()))"`
 from `scraper/`.
@@ -68,7 +68,8 @@ return 0 in some months.
 **Deliberately parked:**
 - `blocked`: lake-superior-zoo, great-lakes-aquarium and gogebic-county-fair
   (SiteGround `sgcaptcha`), itasca-county-fair, cloquet-mn ("Access Denied"
-  even in a browser), and wakefield-mi ("Robot Challenge Screen"). The owner
+  even in a browser), wakefield-mi ("Robot Challenge Screen"), and
+  duluth-public-library (interactive Cloudflare challenge on its events site). The owner
   wants these addressed. Use only legitimate routes: a feed hosted
   elsewhere, the venue's listings on another source, asking the site, or
   the planned manual-add form.

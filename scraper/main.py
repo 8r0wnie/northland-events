@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import json
 import sys
 from datetime import datetime, timedelta, UTC
@@ -70,7 +71,14 @@ def scrape_source(source: Source) -> tuple[list[Event], str]:
     return [], "no adapter produced events" + (f" ({'; '.join(errors)})" if errors else "")
 
 
-FREQUENT_MIN_COUNT = 20     # same title this often in the window ≈ weekly or more
+# Calendar entries that aren't public events: closures and staff-only items
+# ("NWLS Closed", "Horizon Circulation Training for Library Staff").
+NOT_PUBLIC = re.compile(
+    r"^\W*(?:[\w&.'-]+\s+){0,4}closed\W*$|\bclosed for\b|\b(?:office|library|offices) (?:is |are )?closed\b"
+    r"|\bstaff (?:only|training|meeting|in-?service)\b|\bfor (?:library |city )?staff\b"
+    r"|\bno school\b|\bholiday\s*-\s*closed\b", re.I)
+
+FREQUENT_MIN_COUNT = 20    # same title this often in the window ≈ weekly or more
 FREQUENT_SERIES_DAYS = 60   # ...then show only its next 60 days (rolling)
 
 
@@ -133,6 +141,7 @@ def cmd_scrape(args) -> None:
             events, detail = scrape_source(s)
         events = [e for e in events if now - timedelta(days=1) <= e.start <= horizon]
         events = trim_frequent(events, now)
+        events = [e for e in events if not NOT_PUBLIC.search(e.title)]
 
         if events:
             cache[s.id] = {"when": now.isoformat(timespec="seconds"),

@@ -11,6 +11,7 @@ sources/sources.yaml (status: active)
   └─ per source: adapters (pinned `platform:` chain "a,b" or the generic chain)
        ├─ keep events in [now − 1 day, now + 200 days]       HORIZON_DAYS
        ├─ trim_frequent: a title listed 20+ times → next 60 days only
+       ├─ NOT_PUBLIC: drop closures and staff-only entries ("NWLS Closed")
        ├─ non-empty → store in source_cache.json
        └─ empty     → reuse cached events if ≤ 6 days old     CACHE_MAX_AGE_DAYS
                       (≤ 10 days for `refresh: local`)        LOCAL_CACHE_MAX_AGE_DAYS
