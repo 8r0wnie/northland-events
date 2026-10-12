@@ -62,6 +62,22 @@ run. Two places enforce it:
 Change both together. The recurrence tracker's weekly-meetup guard is
 separate (see below).
 
+**A series is never one long block.** Some platforms give a series' whole
+span (first class to last class) as start and end, and the calendar drew a
+weekly class as a week-long bar (Chair Yoga, Bayfield, 2026-10-12). So:
+
+- Adapters expand the recurrence into dated occurrences. `simpleview` parses
+  its recurrence text (daily, weekly or every N weeks on given days, monthly
+  on the Nth weekday, monthly on a day) and otherwise uses only the dates the
+  site lists.
+- `Event.normalize` is the backstop for every adapter. A timed event that
+  spans more than 6 days (`SERIES_SPAN`) and whose title or description says
+  it repeats (`_SERIES_TEXT`: recurring, weekly, every Monday…) keeps only its
+  first occurrence. Genuine multi-day runs (Bentleyville, exhibits, festival
+  weeks) don't carry repeat wording and keep their span.
+
+Cases are in `tests/test_series.py`.
+
 ## Data files
 
 | file | written by | read by | committed by CI | notes |

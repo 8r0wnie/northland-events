@@ -6,7 +6,7 @@ import html
 import re
 import unicodedata
 from dataclasses import dataclass, field, asdict
-from datetime import date, datetime, time, UTC
+from datetime import date, datetime, time, timedelta, UTC
 from typing import Optional
 
 from dateutil import parser as dateparser
@@ -137,6 +137,14 @@ def infer_category(title: str, description: str = "", fallback: str = "other") -
 #   - a description that just repeats the title first loses that copy;
 #   - long text ends at a sentence break with "…", never mid-word.
 DESC_MAX = 1200
+
+# Text that says an event repeats. A timed event that carries it and spans
+# more than SERIES_SPAN is a series published as one block (first class ->
+# last class), which the calendar draws as a week-long bar.
+_SERIES_TEXT = re.compile(
+    r"\b(?:recurring|recurs|weekly|bi-?weekly|monthly|every\s+(?:other\s+)?(?:week|month|"
+    r"(?:mon|tues|wednes|thurs|fri|satur|sun)days?))\b", re.I)
+SERIES_SPAN = timedelta(days=6)
 
 _CSS_RULE = re.compile(
     r"(?:[#.@][\w-][^{}<>]{0,300}|\b(?:a|p|div|span|body|html|h[1-6]|li|ul|ol|img|table|td|tr|section|button)\b[^{}<>]{0,300})"
@@ -311,7 +319,16 @@ class Event:
             self.category = infer_category(self.title, self.description, fallback=self.category)
         if self.end and self.end < self.start:
             self.end = None
+        if self.looks_like_series_span():
+            self.end = None          # keep the first occurrence, not a bar to the last
         return self
+
+    def looks_like_series_span(self) -> bool:
+        """A repeating event whose end is the series' last date, not this
+        occurrence's. Adapters should expand the series; this is the backstop."""
+        return bool(self.end and self.start and not self.all_day
+                    and self.end - self.start > SERIES_SPAN
+                    and _SERIES_TEXT.search(f"{self.title}\n{self.description}"))
 
     @property
     def fingerprint(self) -> str:

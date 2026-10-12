@@ -135,9 +135,25 @@ generic adapter, which is why it's last. Its microdata `startDate` is UTC
 ### `simpleview` — Simpleview DTN (CVB / tourism) · browser
 The REST endpoint `/includes/rest_v2/plugins_events_events_by_date/find/` is
 WAF-protected, so the adapter loads `<events_url>` and `?skip=N` pages in
-Chromium and captures the JSON the page fetches. The API doesn't expand
-recurrence. The adapter emits one-time events and parses "weekly on <Day>".
-Used by bayfield-chamber and ely-chamber.
+Chromium and captures the JSON the page fetches.
+
+- **Dates.** The list gives the series span (`startDate`/`endDate`,
+  midnight Central written as 05:00Z/06:00Z) and `date`, the occurrence being
+  listed. The API doesn't expand recurrence. `expand_recurrence` parses the
+  text into dates: daily, weekly or every N weeks on given days, monthly on
+  the Nth weekday, monthly on a day. Custom-date series (`recurType` 99) and
+  unparsed text use only the `date` values the list showed. Never publish
+  the span as one event.
+- **Times and details.** The list has no time of day. Each event's page (plain
+  HTTP, one fetch per event, not WAF-gated) embeds `var data = {...}`
+  (description, `admission`, recurrence) and `var time = "10:00 AM to 11:00
+  AM"`. With no time, the event is all-day, never "12:00 AM".
+- **Daily runs.** A bounded daily run with no time (an exhibit) is one
+  spanning all-day event. A timed run under 14 days is one event a day, and
+  an open-ended daily item (a restaurant special) is dropped.
+
+Used by bayfield-chamber, grand-marais-mn and washburn-county-wi. Tests:
+`tests/test_series.py`.
 
 ### `tribehtml` — Tribe via RSS, through a browser · browser
 For Tribe sites whose wp-json and `.ics` are behind Cloudflare (Perfect
