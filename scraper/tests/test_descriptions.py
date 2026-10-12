@@ -27,6 +27,17 @@ def test_reif_css_sponsor_and_title_copy():
     assert out.endswith("…"), out      # source cut "Brothers w" mid-word
 
 
+def test_url_encoded_revize_desc():
+    raw = ("The%20RBC%20Program%2FDevelopment%20meeting%20is%20held%20in%20the%20FDL%20Tribal%20Center"
+           "%20Chambers.%20Click%20the%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fx%22%3EZoom%20Link%3C%2Fa%3E")
+    out = clean(raw, "RBC Meeting Notice")
+    assert out.startswith("The RBC Program/Development meeting is held"), out
+    assert "%" not in out and "<a" not in out and "Zoom Link" in out, out
+    # ordinary text with percent signs is left alone
+    assert clean("Save 50% on tickets, 100% fun for kids and families all day", "") == \
+        "Save 50% on tickets, 100% fun for kids and families all day"
+
+
 def test_html_and_entities():
     assert clean('Council Chambers<br> <br>Meeting Link:<br><a href="x">Pine City MN - YouTube</a>', "Council") == \
         "Council Chambers Meeting Link: Pine City MN - YouTube"

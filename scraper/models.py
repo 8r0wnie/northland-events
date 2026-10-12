@@ -8,6 +8,7 @@ import unicodedata
 from dataclasses import dataclass, field, asdict
 from datetime import date, datetime, time, timedelta, UTC
 from typing import Optional
+from urllib.parse import unquote
 
 from dateutil import parser as dateparser
 
@@ -146,6 +147,8 @@ _SERIES_TEXT = re.compile(
     r"(?:mon|tues|wednes|thurs|fri|satur|sun)days?))\b", re.I)
 SERIES_SPAN = timedelta(days=6)
 
+_PCT = re.compile(r"%[0-9A-Fa-f]{2}")
+
 _CSS_RULE = re.compile(
     r"(?:[#.@][\w-][^{}<>]{0,300}|\b(?:a|p|div|span|body|html|h[1-6]|li|ul|ol|img|table|td|tr|section|button)\b[^{}<>]{0,300})"
     r"\{[^{}]{0,1200}\}")
@@ -193,7 +196,12 @@ def truncate_desc(text: str, limit: int = DESC_MAX) -> str:
 def clean_description(value: Optional[str], title: str = "", limit: int = DESC_MAX) -> str:
     if not value:
         return ""
-    text = html.unescape(str(value))
+    text = str(value)
+    # URL-encoded text ("The%20RBC%20Program%2F...", Revize): decode it, but
+    # only when it's clearly encoded, so "50%" or "100%25 cotton" stay put
+    if len(_PCT.findall(text)) >= 3 and text.count(" ") <= len(text) // 40:
+        text = unquote(text)
+    text = html.unescape(text)
     text = _html_to_text(text)
     text = html.unescape(text)
     for _ in range(4):                       # nested/adjacent rules peel off in passes

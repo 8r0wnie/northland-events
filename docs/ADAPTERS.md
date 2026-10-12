@@ -45,9 +45,23 @@ Category is forced to `community`.
 New sites: `/_assets_/plugins/revizeCalendar/calendar_data_handler.php?webspace=<slug>&relative_revize_url=//webgen1.revize.com&protocol=https:`
 returns all events with optional iCal `rrule`. `<slug>` comes from `webspace=`
 in page HTML. Legacy sites: `/calendar_app/db/calendar_1_activemonthsdata_YYYY-MM.xml`
-(dates pre-expanded). **Gotcha:** only DAILY/WEEKLY/MONTHLY/YEARLY rules are
-expanded, with start clamped to the window. Unbounded SECONDLY-type rules hung
-`dateutil` once. Category forced to `community`.
+(dates pre-expanded).
+
+**Gotchas:**
+- **Repeat rules.** `rrule` is a full iCal block (DTSTART, RDATE, RRULE,
+  EXDATE), expanded with `rrulestr(forceset=True)` from the real DTSTART, so
+  skipped dates stay skipped.
+  - Only DAILY/WEEKLY/MONTHLY/YEARLY rules are expanded (an unbounded
+    SECONDLY-type rule hung `dateutil` once), and only from DTSTARTs under
+    about 10 years old.
+  - `INTERVAL=0` (cook-county-mn) is rewritten to 1. dateutil loops forever
+    on it.
+  - Don't clamp DTSTART to the window. Until 2026-10-12 it was clamped to
+    midnight today, which moved every recurring meeting to 12 AM.
+- **Descriptions.** `desc` is URL-encoded HTML (`%3Cstrong%3E…`). It's
+  `unquote`d, and `Event.normalize` turns it into text. Before 2026-10-12,
+  ~280 events on 7 sites showed `The%20RBC%20…`.
+- Category is forced to `community`.
 
 ### `mycalendar` — WordPress "My Calendar" plugin
 `GET /wp-json/my-calendar/v1/events?from=&to=`. Recurrence arrives

@@ -9,7 +9,8 @@ handler on the site's own domain:
 It returns every event (past and future) as
     {title, start, end, location, url, desc, image, rrule, duration, color}
 with `start`/`end` as naive local ISO timestamps and an optional iCal `rrule`
-string for recurring items.
+block (DTSTART/RDATE/RRULE/EXDATE lines) for recurring items. `desc` is
+URL-encoded HTML.
 
 The `<slug>` is discovered from `webspace=<slug>` in the site's HTML.
 """
@@ -17,6 +18,7 @@ from __future__ import annotations
 
 import re
 from datetime import date, datetime, timedelta
+from urllib.parse import unquote
 
 from dateutil import rrule as _rr
 from selectolax.parser import HTMLParser
@@ -65,30 +67,28 @@ def _occurrences(node: dict, start: datetime, end: datetime | None,
                  window_start: datetime, window_end: datetime) -> list[tuple[datetime, datetime | None]]:
     """Expand a recurring event within [window_start, window_end].
 
-    Only DAILY/WEEKLY/MONTHLY/YEARLY rules are expanded, and only from a start
-    clamped to the window — an unbounded SECONDLY/MINUTELY rule (or a rule whose
-    DTSTART is years in the past) would make dateutil iterate effectively
-    forever.
+    The whole iCal block is used (DTSTART, RDATE, RRULE, EXDATE), so skipped
+    dates stay skipped. Expansion starts from the event's real DTSTART: it
+    used to start from the window (midnight today), which turned a 9 AM
+    weekly meeting into a midnight one. Only DAILY/WEEKLY/MONTHLY/YEARLY
+    rules are expanded (a SECONDLY/MINUTELY rule could iterate effectively
+    forever), and DTSTART is at most ~10 years back, so iteration stays small.
     """
     in_window = window_start <= start <= window_end
-    rule = node.get("rrule") or ""
+    rule = (node.get("rrule") or "").replace("\r\n", "\n")
+    # INTERVAL=0 (Cook County, "2026 Emergency Services Conference") makes
+    # dateutil loop forever; the site's own calendar treats it as 1
+    rule = re.sub(r"INTERVAL=0+(?=;|$|\n)", "INTERVAL=1", rule, flags=re.I | re.M)
     rline = _RRULE_LINE.search(rule)
-    if not rline or not _SAFE_FREQ.search(rline.group(1)):
+    if not rline or not _SAFE_FREQ.search(rline.group(1)) or start < window_start - timedelta(days=3700):
         return [(start, end)] if in_window else []
 
     span = (end - start) if end else timedelta(0)
-    clamped = max(start, window_start - timedelta(days=1))
     try:
-        rs = _rr.rrulestr("RRULE:" + rline.group(1), dtstart=clamped)
-        out = []
-        for dt in rs:
-            if dt > window_end:
-                break
-            if dt >= window_start:
-                out.append((dt, dt + span if end else None))
-            if len(out) >= 60:
-                break
-        return out
+        block = rule if "DTSTART" in rule.upper() else f"RRULE:{rline.group(1)}"
+        rs = _rr.rrulestr(block, dtstart=start, forceset=True)
+        out = [(dt, dt + span if end else None) for dt in rs.between(window_start, window_end, inc=True)]
+        return out[:60]
     except (ValueError, TypeError, OverflowError):
         return [(start, end)] if in_window else []
 
@@ -190,7 +190,9 @@ class RevizeAdapter:
                     venue=clean_text(node.get("location") or ""),
                     address=clean_text(node.get("location") or ""),
                     url=clean_text(node.get("url") or "") or f"{root}/calendar.php",
-                    description=clean_text(HTMLParser(node.get("desc") or "").text()),
+                    # `desc` is URL-encoded HTML ("%3Cstrong%3E…"); decode it and
+                    # let Event.normalize turn the HTML into clean text
+                    description=unquote(node.get("desc") or ""),
                     image=_img_src(node.get("image") or ""),
                     category="community",
                 ))

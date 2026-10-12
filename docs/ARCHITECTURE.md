@@ -166,6 +166,8 @@ reports can't retrain the categorizer. Cases are in `tests/test_feedback.py`.
 
 Every adapter's description goes through it, from `Event.normalize`, so the
 fix lives in one place:
+- URL-encoded text (`The%20RBC%20…`) is decoded. That needs 3+ `%XX`
+  sequences and almost no spaces, so "50% off" stays as it is.
 - HTML becomes text with `<style>`/`<script>` *contents* dropped. Reif
   Center's page builder embeds CSS in the description, and stripping tags
   alone used to keep it.

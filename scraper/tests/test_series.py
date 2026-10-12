@@ -75,6 +75,28 @@ def test_time_ranges():
     assert parse_time_range("") == (None, None)
 
 
+def test_revize_rrule_keeps_time_of_day_and_exdates():
+    # fond-du-lac-band, 2026-10-12: a 9 AM weekly meeting showed as 12-6 AM
+    from adapters.revize import _occurrences
+    node = {"rrule": "DTSTART:20260616T090000\nRDATE:20260616T090000\n"
+                     "RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=TU;UNTIL=20270105T000000\n"
+                     "EXDATE:20261020T090000"}
+    occ = _occurrences(node, datetime(2026, 6, 16, 9), datetime(2026, 6, 16, 15),
+                       datetime(2026, 10, 12), datetime(2026, 10, 31))
+    assert occ == [(datetime(2026, 10, 13, 9), datetime(2026, 10, 13, 15)),
+                   (datetime(2026, 10, 27, 9), datetime(2026, 10, 27, 15))], occ   # Oct 20 skipped
+
+
+def test_revize_interval_zero_does_not_hang():
+    # cook-county-mn: INTERVAL=0 sent dateutil into an endless loop
+    from adapters.revize import _occurrences
+    node = {"rrule": "DTSTART:20261101T133400\nRDATE:20261101T133400\n"
+                     "RRULE:FREQ=DAILY;INTERVAL=0;UNTIL=20261103T000000"}
+    occ = _occurrences(node, datetime(2026, 11, 1, 13, 34), None,
+                       datetime(2026, 10, 12), datetime(2026, 12, 31))
+    assert [o[0].day for o in occ] == [1, 2], occ
+
+
 def test_normalize_backstop_any_adapter():
     # any adapter: a timed weekly series published as first-class -> last-class
     e = Event(source_id="x", title="Chair Yoga", start=datetime(2026, 10, 14, 10),
