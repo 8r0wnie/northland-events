@@ -117,7 +117,9 @@ ironwood-theatre. hoops-brewing closed in Feb 2026.
 2026-10-12). These sites answer normally but return HTTP 403 to GitHub's
 datacenter IPs: spooner-chamber, virginia-mn, hill-city-mn, norshor-playhouse
 (plus `api.ovationtix.com`), duluth-art-institute, wolf-ridge,
-fond-du-lac-band. CI fetches them through the site's Cloudflare Worker
+fond-du-lac-band. Added with the owner's OK on 2026-10-12 after the health
+check: explore-minnesota (0 in CI, ~95 locally), hayward-chamber (HTTP 401)
+and washburn-wi (HTTP 403). CI fetches them through the site's Cloudflare Worker
 (`docs/DEPLOY.md` §10). A new source that's blank in CI but fine locally
 goes on this list only with the owner's OK. Check the CI log for `HTTP 403`
 first.

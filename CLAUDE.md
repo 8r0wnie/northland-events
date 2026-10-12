@@ -202,7 +202,8 @@ The exception is a few `midnight` events that really start at 12 AM.
   ~1,870 (2026-10-11), then recovered to ~2,870 in CI and ~3,600 on
   2026-10-12. Causes of the drop, found on 2026-10-11:
   - 7 sources 403 GitHub IPs. They're now `refresh: relay` (Rule 1
-    exception).
+    exception), and 3 more were added 2026-10-12 with the owner's OK
+    (explore-minnesota, hayward-chamber, washburn-wi).
   - Several sites moved their calendars (Ely Chamber went to MEC, GovOffice
     cities to Google Calendar, Spirit Mountain to /events/).
   - The iCal adapter ignored RRULE, so recurring meetings vanished.
