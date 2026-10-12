@@ -8,17 +8,50 @@ This is a standalone project. It shares nothing with any other project. Run
 Claude Code from this directory (`o:\Projects\Regional Event Scraper`) so it gets
 its own session, memory, and history.
 
-## Architecture (all free tier)
+Repo: https://github.com/8r0wnie/northland-events (public)
 
-- **Scraper** (`scraper/`, Python 3.12+) — pulls events from the sites in
-  `sources/sources.yaml`, dedups, writes `site/data/events.json`.
-- **GitHub Actions** (`.github/workflows/scrape.yml`) — runs the scraper daily
-  (~05:20 America/Chicago) and commits the refreshed data. Also `workflow_dispatch`.
-- **Site** (`site/`) — static FullCalendar page (month/week/list + area/category
-  filters) reading `events.json`. Deploys to **Cloudflare Pages** (`site` as the
-  output dir, no build step).
-- **Google Site** — embeds the Pages URL via iframe for a stable public address.
-- Repo: https://github.com/8r0wnie/northland-events (public)
+## Documentation map — read the relevant doc before changing that area
+
+| doc | holds |
+|-----|-------|
+| `CLAUDE.md` (this file) | rules, invariants, commands, doc-sync checklist, known issues |
+| `docs/ARCHITECTURE.md` | pipeline, every data file (writer, reader, committed?), event schema, verification, recurrence, tabling, site pages |
+| `docs/ADAPTERS.md` | every adapter: endpoint, parsing details, gotchas, how to add one |
+| `docs/SOURCES.md` | `sources.yaml` fields + statuses, triage workflow, revisit list, CI-flaky sources |
+| `docs/DEPLOY.md` | GitHub Actions, Cloudflare Workers, Google Site, private pages + passphrases |
+| `moderation/README.md` | review-queue / `decisions.csv` workflow |
+| `docs/sources-appendix.md` | the original seed list, as received (frozen — don't edit) |
+| `README.md` | public-facing overview — keep it short, link to `docs/` |
+
+`sources/sources.yaml` is the source of truth for sources. Per-source triage
+findings go in that entry's `notes:` field, not in docs.
+
+## Rules (agreed with the owner — do not relax without asking)
+
+1. **Public data only.** No credentialed logins (incl. Facebook/Instagram), no
+   API keys that need an account unless the owner approves, no IP or
+   fingerprint rotation to defeat blocks. 2s per-domain crawl delay
+   (`fetch.CRAWL_DELAY`). A site that blocks us gets `status: blocked`, not a
+   workaround. (Rotating the User-Agent on a *retry* is the one existing
+   exception — keep it limited to that.)
+2. **All free tier.** GitHub Actions (public repo), Cloudflare Workers static
+   assets, Google Sites. No paid services, no build step for the site.
+3. **Neutral public calendar.** Nothing on `index.html` names or favors a
+   business. Owner-specific tools (PBS North tabling list, trends dashboard,
+   review queue) live on separate, unlinked, `noindex`, passphrase-gated pages
+   and never leak into public filters or UI.
+4. **Never publish unverified social/aggregator events.** Single-source
+   low-trust events go to the review queue, never straight to `events.json`.
+5. **Don't destroy accumulated state.** `site/data/event_history.json` is an
+   ever-growing archive (never trim it, never regenerate it from scratch).
+   `scraper/output/source_cache.json` and `moderation/decisions.csv` are also
+   hand-off state. Change them only through the code paths that own them.
+6. **`scrape --only` never writes `site/data/`.** Partial runs must not
+   overwrite published data. Keep it that way.
+7. **Data is committed by CI.** Local full scrapes are for testing. If you do
+   commit one, `git pull` first — CI pushes a data commit every day, so local
+   `main` goes stale fast.
+8. **Sequencing:** coverage and data quality first, UI polish second.
 
 ## Working on the scraper
 
@@ -26,82 +59,96 @@ its own session, memory, and history.
 python -m venv .venv && .venv/Scripts/activate
 pip install -r scraper/requirements.txt
 python -m playwright install chromium
+git pull --ff-only                       # CI commits data daily
 cd scraper
 python main.py list
 python main.py triage --only <id,id>     # probe sources, see what yields events
-python main.py scrape --only <id,id>     # write ../site/data/events.json
-python main.py scrape                    # all status: active sources
-cd ../site && python -m http.server 8000 # preview
+python main.py scrape --only <id,id>     # summary only, does NOT write site/data/
+python main.py scrape                    # all status: active sources -> ../site/data/
+cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
 
 Windows note: the scraper reconfigures stdout to UTF-8; run child processes with
 `PYTHONIOENCODING=utf-8` when calling pieces directly.
 
-## Adapters (`scraper/adapters/`, tried in order, first with events wins)
+Caution: `triage --write` rewrites `sources.yaml` through
+`registry.save_sources`, which **drops YAML comments and the `trust:` field**.
+Edit `sources.yaml` by hand instead.
 
-| adapter            | platform |
-|--------------------|----------|
-| `tribe`            | WordPress "The Events Calendar" REST API |
-| `weblink`          | WebLink Connect / "Atlas" chambers (`api-internal.weblinkconnect.com/api/Events`, `x-tenant` header) |
-| `civicplus`        | CivicPlus/CivicEngage gov sites (calendar RSS `/RSSFeed.aspx?ModID=58&CID=All-calendar.xml`) |
-| `revize`           | Revize gov CMS (JSON `calendar_data_handler.php`, or legacy `/calendar_app/db/*.xml`) |
-| `mycalendar`       | WordPress "My Calendar" plugin (`/wp-json/my-calendar/v1/events`) |
-| `webcalendar`      | DocAccess .NET municipal calendar — City of Duluth (`POST /WebCalendar/CreateCalendarAndEvents`) |
-| `govoffice`        | Vision/GovOffice `/repository/designs/` sites (`/events` calendar grid) |
-| `heygov`           | HeyGov (`api.heygov.com/<domain>/events?month=`) |
-| `jsonld`           | schema.org Event JSON-LD (headless-render fallback, samples detail pages) |
-| `ics`              | iCal feed — discovered, `webcal://`, direct `.ics`, or a Google Calendar embed |
-| `chamberorganizer` | ChamberOrganizer (`auth.chamberwidgets.com` month POSTs) |
-| `chambermaster`    | ChamberMaster / GrowthZone hosted MIC (month calendars → detail-page microdata) |
-| `allevents`        | allevents.in aggregator (Facebook events), 8 DMA cities — JSON-LD, `?page=N` |
-| `sidearm`          | college athletics — Sidearm public iCal `<host>/calendar.ashx/calendar.ics`, home games only |
-| `ovationtix`       | OvationTix/AudienceView venues — headless browser captures `api.ovationtix.com` production JSON |
-| `decc`             | The DECC — WordPress swim-events-calendar `.event-list-item` blocks |
-| `eventscalendar`   | Wix "Events Calendar" app — headless browser captures `broker.eventscalendar.co` feeds |
-| `spektrix`         | Spektrix ticketing — `system.spektrix.com/<client>/api/v3/events`; events_url `spektrix:<client>` |
+## Architecture in one paragraph
 
-Pin an adapter per source with `platform:` in `sources.yaml`; otherwise the
-generic chain runs. `allevents` (allevents.in Facebook-events aggregator, 8 DMA
-cities, `category: social`) is pin-only.
+`scraper/main.py scrape` loads active sources from `sources/sources.yaml`, runs
+each through its pinned adapter (or the generic chain), carries a source's
+cached events forward if it comes back empty (up to 6 days), normalizes and
+infers categories (`models.py`), groups duplicates and applies trust rules
+(`verify.py`), tags tabling candidates (`tabling.py`), files events into the
+year-over-year archive (`recurrence.py`), and writes `site/data/*.json`.
+GitHub Actions runs this daily (~05:20 America/Chicago, plus
+`workflow_dispatch`) and commits the data. Cloudflare Workers serves `site/`
+and redeploys on every push. A Google Site iframes it as the stable public
+address. Details: `docs/ARCHITECTURE.md`.
 
-## CI resilience
+**Live URLs:** calendar https://northland-events.cbrown21.workers.dev ·
+public front door https://sites.google.com/view/northland-regional-events/home
+(it's `workers.dev`, not `pages.dev` — see `docs/DEPLOY.md`).
 
-`fetch` retries `403/429/5xx` + connection errors twice (backoff + jitter, UA
-rotation) — non-retryable statuses fail fast. `scraper/output/source_cache.json`
-(committed) holds each source's last-good events; a source that scrapes empty is
-**carried forward** up to 6 days so a transient CI failure doesn't drop it.
-`scrape --only` prints a summary and does **not** write `site/data/`.
+## Adapters (`scraper/adapters/`)
 
-## Verification & the review queue (`scraper/verify.py`)
+Generic chain, in order (first with events wins): `tribe`, `weblink`,
+`civicplus`, `revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`,
+`jsonld`, `ics`, `chamberorganizer`, `chambermaster`.
 
-After scraping, events are fuzzy-grouped ("same real-world event" = title
-similarity + date ±1d + place). A merged event is **confirmed** — published —
-when it has 2+ sources, or one `trust: high` source (default for everything
-except `category: social`/`aggregator`). A merged event with a single low-trust
-source is **held for review**: it stays out of `events.json` until
-`moderation/decisions.csv` (key,decision) green-lights (`approve` → published,
-tagged "reviewed") or drops it (`reject`).
+Pin-only (set `platform:` in `sources.yaml`): `simpleview`, `tribehtml`,
+`allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`, `spektrix`,
+`birkie`, `northhouse`. Adapters that drive a headless browser must stay
+pin-only.
 
-- `site/data/review_queue.json` — pending items (written each run)
-- `site/data/decisions.csv` — published copy of `moderation/decisions.csv`
-- `site/review.html` — passphrase-gated admin page (sha256 in the file — the
-  default is `northland-admin`, change it); Approve/Reject/Skip each item, Export
-  writes back the full `moderation/decisions.csv` to commit.
+Per-adapter endpoints, parsing details and gotchas: `docs/ADAPTERS.md`.
 
-**Government sites:** all 62 triaged — 42 `status: active` with a pinned
-platform, 20 `status: no-calendar` (each with a note: Weebly/Wix/Joomla, 403
-bot-blockers needing render, or agendas-only). 18 dead appendix URLs were
-corrected. Revisit candidates are noted in `sources.yaml` and the project memory.
+## Before you finish any change — doc-sync checklist
 
-**Also planned:** `simpleview` (Bayfield, Visit Ashland), Perfect Duluth Day
-(bespoke, Cloudflare-fronted), Explore Minnesota / Iron Range, a Google Form →
-Sheet manual-add path for Facebook-only events.
+- New or removed adapter → `adapters/__init__.py`, the lists above, a section
+  in `docs/ADAPTERS.md`, and the adapter table in `README.md`.
+- New data file, new event field, or change to what CI commits →
+  `docs/ARCHITECTURE.md` and the `git add` list in `.github/workflows/scrape.yml`.
+- New page, passphrase, or deploy change → `docs/DEPLOY.md`.
+- Source triaged → its `notes:` in `sources.yaml`; reusable patterns →
+  `docs/SOURCES.md`.
+- New owner rule or scope decision → the Rules section above.
+- Finished a planned item or fixed a known issue → update the lists below.
+- Verify before calling it done: `scrape --only` on the affected sources; for
+  site changes, preview locally and check the browser console for errors.
 
-**Known issues:** categorization is weak (most events land in `other` — needs
-title/keyword inference). `spooner-chamber` scraped 77 locally but 0 in CI once —
-possibly datacenter-IP rate limiting; watch it.
+## Health check (start of a session)
 
-## Scope boundaries
+```bash
+git pull --ff-only
+cd scraper && python -c "import json;r=json.load(open('output/last_run.json'));print(r['when'],r['published'],r['queued']);print([s['source'] for s in r['sources'] if s['events']==0])"
+```
 
-Public data only. No credentialed logins (incl. Facebook/Instagram), no IP or
-fingerprint rotation to defeat blocks. 2s per-domain crawl delay.
+Compare `published` with the trend in `site/data/scrape_stats_history.json`.
+A source that used to produce and now shows 0 is a regression to investigate.
+
+## Planned
+
+- Google Form → Sheet CSV `manual` adapter for Facebook-only / word-of-mouth
+  events (`docs/DEPLOY.md` §5).
+- Explore Minnesota / Iron Range sources (still no coverage).
+- Revisit the `no-calendar` / `todo` candidates listed in `docs/SOURCES.md`.
+
+## Known issues
+
+- **Coverage decline:** published events fell from ~2,650 (2026-09-05) to
+  ~1,870 (2026-10-11), and 26 active sources returned 0 on 2026-10-11. Some are
+  small gov calendars with nothing upcoming. Others used to produce:
+  `spooner-chamber`, `ely-chamber`, `norshor-playhouse`,
+  `duluth-art-institute`, `earth-rider`. Partly seasonal; needs investigation.
+- Some Tribe/WordPress and headless-browser sources intermittently return
+  nothing from GitHub Actions IPs (datacenter rate-limiting). The carry-forward
+  cache only masks outages up to 6 days. See `docs/SOURCES.md`.
+- `allevents` listings have a date but no time, so those events are all-day.
+- `registry.save_sources` drops comments and `trust:` (see caution above).
+- `review.html`, `tabling.html` and `recurring.html` also accept `__dev__` as a
+  passphrase. The gate is casual-view privacy only (the JSON is public), but
+  remove the bypass if that ever matters.
+- `review.html` still uses the default passphrase `northland-admin`.

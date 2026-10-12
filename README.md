@@ -3,11 +3,11 @@
 A public community events calendar for the **Duluth DMA** — Northern Minnesota,
 Northwest Wisconsin, and Ironwood, MI.
 
-- **Scraper** (`scraper/`) — Python. Pulls events from ~90 tourism, chamber,
-  government, and news sites listed in `sources/sources.yaml`. Runs daily via
+- **Scraper** (`scraper/`) — Python. Pulls events from ~150 tourism, chamber,
+  government, venue, and aggregator sites listed in `sources/sources.yaml`. Runs daily via
   GitHub Actions.
 - **Site** (`site/`) — static month/week calendar (FullCalendar) that reads
-  `site/data/events.json`. Deployed to Cloudflare Pages; embedded in a Google
+  `site/data/events.json`. Deployed to Cloudflare Workers (static assets); embedded in a Google
   Site for a stable public URL.
 
 ## How it fits together
@@ -17,10 +17,10 @@ GitHub Actions (daily cron)
   └─ python scraper/main.py scrape
        ├─ reads sources/sources.yaml
        ├─ per source: tries adapters (Tribe API → JSON-LD → iCal → bespoke)
-       ├─ dedups across sources by (title, date, city)
+       ├─ fuzzy-merges duplicates, holds low-trust events for review
        └─ writes site/data/events.json  ── committed back to the repo
                                             │
-Cloudflare Pages ─ auto-deploys site/ on push ─ https://northland-events.pages.dev
+Cloudflare Workers ─ auto-deploys site/ on push ─ https://northland-events.cbrown21.workers.dev
                                             │
 Google Site ─ <iframe> embed of the Pages URL ─ stable public address
 ```
@@ -59,24 +59,23 @@ One entry per site. Key fields:
 
 ## Adapters (`scraper/adapters/`)
 
-Tried in order; first one to return events wins.
+22 adapters. Generic chain, tried in order: `tribe`, `weblink`, `civicplus`,
+`revize`, `mycalendar`, `webcalendar`, `govoffice`, `heygov`, `jsonld`, `ics`,
+`chamberorganizer`, `chambermaster`. Pin-only via `platform:`: `simpleview`,
+`tribehtml`, `allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`,
+`spektrix`, `birkie`, `northhouse`.
 
-| adapter            | covers |
-|--------------------|--------|
-| `tribe`            | WordPress "The Events Calendar" REST API (`/wp-json/tribe/events/v1/events`) |
-| `weblink`          | WebLink Connect ("Atlas") chambers — public `api-internal.weblinkconnect.com/api/Events` with an `x-tenant` header |
-| `civicplus`        | CivicPlus / CivicEngage municipal sites — combined calendar RSS feed |
-| `revize`           | Revize municipal CMS — FullCalendar JSON handler (`calendar_data_handler.php`), expands recurring rules |
-| `jsonld`           | any page embedding schema.org `Event` JSON-LD (headless render fallback, then samples detail pages) |
-| `ics`              | a discoverable iCal / `.ics` feed |
-| `chamberorganizer` | ChamberOrganizer chambers — `auth.chamberwidgets.com/cn-api/org/calendar/events` month POSTs |
-| `chambermaster`    | ChamberMaster / GrowthZone hosted MIC — walks month calendars, parses detail-page microdata |
+## Further docs
 
-Planned: `simpleview` (CVBs), `govoffice` (some municipal sites),
-`perfectduluthday` (bespoke — Cloudflare-fronted).
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — pipeline, data files, event schema, verification, recurrence
+- [docs/ADAPTERS.md](docs/ADAPTERS.md) — what each adapter talks to, gotchas, how to add one
+- [docs/SOURCES.md](docs/SOURCES.md) — registry fields, statuses, triage workflow
+- [docs/DEPLOY.md](docs/DEPLOY.md) — GitHub Actions, Cloudflare, Google Site
+- [moderation/README.md](moderation/README.md) — the review queue
+- [CLAUDE.md](CLAUDE.md) — project rules and working checklist
 
 ## Scope boundaries
 
 Public data only. No credentialed logins (incl. Facebook/Instagram), no IP or
 fingerprint rotation to defeat blocks. Per-domain crawl delay is 2s. Events the
-scraper can't reach are added through a Google Form → Sheet (planned).
+scraper can't reach will be added through a Google Form → Sheet (planned).

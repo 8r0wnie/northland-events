@@ -4,7 +4,7 @@
 reach the review queue (a single low-trust source — currently the allevents.in
 Facebook aggregator).
 
-**To review:** open `https://<your-pages-domain>/review.html`, unlock with the
+**To review:** open `https://northland-events.cbrown21.workers.dev/review.html`, unlock with the
 passphrase, and Approve / Reject / Skip each event (each links out to its source
 so you can verify it yourself). Click **Export** and commit the file it gives you
 back to this path.
