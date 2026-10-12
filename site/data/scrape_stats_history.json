@@ -685,21 +685,21 @@
  },
  {
   "date": "2026-10-12",
-  "raw": 4227,
-  "merged": 3233,
-  "published": 2857,
-  "queued": 376,
-  "active_sources": 135,
+  "raw": 4891,
+  "merged": 3601,
+  "published": 2868,
+  "queued": 733,
+  "active_sources": 151,
   "categories": {
-   "family": 179,
-   "sports-rec": 344,
-   "arts": 204,
-   "community": 1285,
-   "music": 169,
-   "food-drink": 143,
+   "community": 1288,
+   "sports-rec": 345,
+   "music": 172,
+   "food-drink": 141,
+   "arts": 211,
    "education": 125,
-   "other": 332,
-   "holiday": 76
+   "other": 335,
+   "family": 178,
+   "holiday": 73
   }
  }
 ]

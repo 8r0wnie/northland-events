@@ -1,0 +1,4372 @@
+{
+ "generated": "2026-10-12T14:43:23Z",
+ "promote_rule": {
+  "window": 7,
+  "min_runs": 5
+ },
+ "sources": [
+  {
+   "id": "perfect-duluth-day",
+   "name": "Perfect Duluth Day",
+   "url": "https://perfectduluthday.com",
+   "events_url": "https://www.perfectduluthday.com/duluth-events/",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribehtml",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Densest single calendar in the region. Priority 1.",
+   "last_events": 370,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 370,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "visit-duluth",
+   "name": "Visit Duluth",
+   "url": "https://visitduluth.com",
+   "events_url": "https://visitduluth.com/events/",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "CVB. Likely Simpleview.",
+   "last_events": 345,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 345,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "explore-minnesota",
+   "name": "Explore Minnesota",
+   "url": "https://www.exploreminnesota.com",
+   "events_url": "https://www.exploreminnesota.com/things-to-do/festivals-events",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Statewide",
+   "platform": "exploremn",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: statewide Cludo search (browser, one call/run), filtered to DMA towns in adapters/exploremn.py.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "iron-range",
+   "name": "Iron Range Tourism Bureau",
+   "url": "https://ironrange.org",
+   "events_url": "https://ironrange.org/events/",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Iron Range",
+   "platform": "",
+   "status": "no-calendar",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: events page is prose + links only (Tockify script loaded but no calendar attached). Its picks (Arrowhead Concert Assn, MN Discovery Center, St. Louis County Fair) are covered by other sources.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "north-shore-visitor",
+   "name": "North Shore Visitor",
+   "url": "https://northshorevisitor.com",
+   "events_url": "https://northshorevisitor.com/events/",
+   "category": "tourism",
+   "state": "MN",
+   "area": "North Shore",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Tribe iCal at /events/?ical=1.",
+   "last_events": 9,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 9,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "lake-superior-circle",
+   "name": "Lake Superior Circle Tour",
+   "url": "https://lakesuperiorcircletour.info",
+   "events_url": "",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Lake Superior",
+   "platform": "",
+   "status": "no-calendar",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: touring-guide blog, no event listings; wide geography mostly outside the DMA.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "felivelife",
+   "name": "FeLiveLife (Iron & Gogebic counties)",
+   "url": "https://felivelife.org",
+   "events_url": "",
+   "category": "tourism",
+   "state": "MI",
+   "area": "Ironwood",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: community events calendar for Iron County WI + Gogebic County MI; the City of Ironwood's 'Events' link points here. Tribe REST.",
+   "last_events": 172,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 172,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "naturally-better-here",
+   "name": "Naturally Better Here (Aitkin County tourism)",
+   "url": "https://naturallybetterhere.com",
+   "events_url": "",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Aitkin",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: Aitkin County tourism calendar (Tribe REST); the county government site links its events here.",
+   "last_events": 13,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 13,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "arrowhead-library-system",
+   "name": "Arrowhead Library System (NE MN libraries)",
+   "url": "https://www.alslib.info",
+   "events_url": "https://www.alslib.info/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Iron Range",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: system-wide Google Calendar on /events/ - programs touring member libraries (Babbitt, Calumet, Cook, Ely, ...). Staff-only items dropped by main.NOT_PUBLIC.",
+   "last_events": 50,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 50,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "duluth-public-library",
+   "name": "Duluth Public Library",
+   "url": "https://duluthlibrary.org",
+   "events_url": "https://duluthlibrary.events.mylibrary.digital/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-12: events site (mylibrary.digital) sits behind an interactive Cloudflare challenge that a normal browser does not clear. Not worked around (Rule 1). Ask the library for a feed/export.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "grand-marais-mn",
+   "name": "Visit Cook County (Grand Marais)",
+   "url": "https://www.visitcookcounty.com",
+   "events_url": "https://www.visitcookcounty.com/events/",
+   "category": "tourism",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "simpleview",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: grandmaraismn.com is now a parked domain (redirects to a domain-sale page); Visit Grand Marais became Visit Cook County, Simpleview.",
+   "last_events": 63,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 63,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "duluth-news-tribune",
+   "name": "Duluth News Tribune",
+   "url": "https://www.duluthnewstribune.com",
+   "events_url": "",
+   "category": "news",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "no-calendar",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: no public events calendar on the site (news/lifestyle only); its event coverage overlaps PDD/Visit Duluth.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "mesabi-tribune-events",
+   "name": "Mesabi Tribune Local Events (evvnt)",
+   "url": "https://www.mesabitribune.com/local-events",
+   "events_url": "evvnt:7093",
+   "category": "aggregator",
+   "state": "MN",
+   "area": "Iron Range",
+   "platform": "evvnt",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: Adams Publishing evvnt community calendar - organizer-submitted listings (~500, mostly Duluth + Iron Range). Aggregator/low-trust: unmatched events go to review. Hibbing Daily Tribune (7092) shares the same pool, so not added.",
+   "last_events": 442,
+   "last_queued": 178,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 442,
+     "queued": 178,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "apg-wisconsin-events",
+   "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+   "url": "https://www.apg-wi.com",
+   "events_url": "evvnt:7120",
+   "category": "aggregator",
+   "state": "WI",
+   "area": "Hayward",
+   "platform": "evvnt",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: evvnt calendar for APG's northern-Wisconsin papers (Hayward, Hurley, Mercer, Ironwood area). Aggregator/low-trust.",
+   "last_events": 18,
+   "last_queued": 13,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 18,
+     "queued": 13,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "kaxe-events-up-north",
+   "name": "KAXE Events Up North (weekly roundup)",
+   "url": "https://www.kaxe.org",
+   "events_url": "https://www.kaxe.org/tags/events-up-north",
+   "category": "news",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: Northern Community Radio weekly roundup (day headings over Title - time at Venue items). Covers far beyond the DMA, so category news makes posts keep only items naming a DMA town. Inferred: goes to review.",
+   "last_events": 4,
+   "last_queued": 3,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 4,
+     "queued": 3,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "duluth-chamber",
+   "name": "Duluth Area Chamber",
+   "url": "https://duluthchamber.com",
+   "events_url": "https://duluthmncoc.weblinkconnect.com/atlas/calendar",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "weblink",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "WebLink Atlas; events_url set to MIC",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hermantown-chamber",
+   "name": "Hermantown Area Chamber",
+   "url": "https://www.hermantownchamber.com",
+   "events_url": "https://members.hermantownchamber.com/communityevents",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Hermantown",
+   "platform": "microdata,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: GrowthZone Hub community calendar (microdata).",
+   "last_events": 8,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 8,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "cloquet-chamber",
+   "name": "Cloquet Area Chamber",
+   "url": "https://www.cloquet.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Cloquet",
+   "platform": "jsonld,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: JSON-LD on the events page; news posts as fallback.",
+   "last_events": 3,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "superior-chamber",
+   "name": "Superior-Douglas County Chamber",
+   "url": "https://superiorchamber.org",
+   "events_url": "",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "chambermaster",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 36,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 36,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "laurentian-chamber",
+   "name": "Laurentian Chamber (Virginia/Eveleth/Mtn Iron/Gilbert)",
+   "url": "https://www.laurentianchamber.org",
+   "events_url": "https://business.laurentianchamber.org/events/calendar",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Virginia",
+   "platform": "chambermaster,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: moved .com -> laurentianchamber.org; GrowthZone MIC at business.laurentianchamber.org (UTC times now converted).",
+   "last_events": 8,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 8,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hibbing-chamber",
+   "name": "Hibbing Area Chamber",
+   "url": "https://www.hibbing.org",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Hibbing",
+   "platform": "chamberorganizer",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "ChamberOrganizer org HIBB; often empty",
+   "last_events": 3,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ely-chamber",
+   "name": "Ely Chamber of Commerce",
+   "url": "https://www.ely.org",
+   "events_url": "https://ely.org/events/",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Ely",
+   "platform": "ics,jsonld",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: moved off Simpleview to WordPress Modern Events Calendar; site iCal feed /?mec-ical-feed=1.",
+   "last_events": 12,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 12,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "lake-vermilion-chamber",
+   "name": "Lake Vermilion Area Chamber",
+   "url": "https://www.lakevermilionchamber.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Lake Vermilion",
+   "platform": "",
+   "status": "dead",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11/12: lakevermilionchamber.com redirects to an online-poker spam site (domain lapsed). Area events now come from tower-soudan-history.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "elc-chamber",
+   "name": "ELC Chamber (verify)",
+   "url": "https://www.elcchamber.com",
+   "events_url": "https://business.elcchamber.com/communitycalendar",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Unknown",
+   "platform": "microdata,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: East Lake County Chamber (Silver Bay/Finland); GrowthZone Hub calendar with schema.org microdata.",
+   "last_events": 10,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 10,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "visit-grand-marais-mn",
+   "name": "Grand Marais Area (grandmaraismn.com)",
+   "url": "https://www.grandmaraismn.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "",
+   "status": "duplicate",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Duplicate of grand-marais-mn (same org, now Visit Cook County). Kept for history; never scraped.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "grand-rapids-mn",
+   "name": "Visit Grand Rapids MN",
+   "url": "https://www.grandmn.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 10,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 10,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ifalls-chamber",
+   "name": "International Falls Chamber",
+   "url": "https://www.ifallschamber.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "International Falls",
+   "platform": "chambermaster,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: classic MIC at business.ifallschamber.com (empty for the next months as of check); area-events page via posts.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "mcgregor-chamber",
+   "name": "McGregor Area Chamber",
+   "url": "https://www.mcgregormn.com",
+   "events_url": "https://www.mcgregormn.com/events/",
+   "category": "chamber",
+   "state": "MN",
+   "area": "McGregor",
+   "platform": "tribe,jsonld,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Tribe REST closed; JSON-LD on /events/ (few upcoming).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "moose-lake-chamber",
+   "name": "Moose Lake Area Chamber",
+   "url": "https://www.mooselake-mn.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Moose Lake",
+   "platform": "",
+   "status": "dead",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: mooselake-mn.com is a parked domain (JS redirect to /lander).",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "pine-city-chamber",
+   "name": "Pine City Area Chamber",
+   "url": "https://www.pinecitychamber.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Pine City",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 2,
+   "last_queued": 2,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 2,
+     "queued": 2,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "sandstone-chamber",
+   "name": "Sandstone Area Chamber",
+   "url": "https://www.sandstonemnchamber.com",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MN",
+   "area": "Sandstone",
+   "platform": "",
+   "status": "dead",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-12: sandstonemnchamber.com has no DNS; no new site found. Sandstone events come via sandstone-mn (city GovOffice).",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "bayfield-chamber",
+   "name": "Bayfield Chamber & Visitor Bureau",
+   "url": "https://www.bayfield.org",
+   "events_url": "",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Bayfield",
+   "platform": "simpleview",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 87,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 87,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "visit-ashland",
+   "name": "Visit Ashland / Chamber",
+   "url": "https://www.visitashland.com",
+   "events_url": "https://www.visitashland.com/events/",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Ashland",
+   "platform": "jsonld",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "WordPress lsvr-events; JSON-LD on detail pages",
+   "last_events": 1,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hayward-chamber",
+   "name": "Hayward Area Chamber",
+   "url": "https://www.haywardareachamber.com",
+   "events_url": "https://haywardareachamber.com/calendar-of-events/",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Hayward",
+   "platform": "simplecalendar,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: WP Simple Calendar (Google-backed) on /calendar-of-events/.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "spooner-chamber",
+   "name": "Spooner Area Chamber",
+   "url": "https://www.spoonerchamber.org",
+   "events_url": "",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Spooner",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "Southern edge \u2014 triage scope.",
+   "last_events": 46,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 46,
+     "queued": 0,
+     "carried": true
+    }
+   ]
+  },
+  {
+   "id": "ironwood-chamber",
+   "name": "Ironwood Area Chamber",
+   "url": "https://www.ironwoodchamber.org",
+   "events_url": "",
+   "category": "chamber",
+   "state": "MI",
+   "area": "Ironwood",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 6,
+   "last_queued": 3,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 3,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "stlouis-county-mn",
+   "name": "St. Louis County, MN",
+   "url": "https://www.stlouiscountymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "St. Louis County",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "duluth-mn",
+   "name": "City of Duluth",
+   "url": "https://duluthmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "webcalendar",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 348,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 348,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hermantown-mn",
+   "name": "City of Hermantown",
+   "url": "https://hermantownmn.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Hermantown",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 33,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 33,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "proctor-mn",
+   "name": "City of Proctor",
+   "url": "https://proctormn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Proctor",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 25,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 25,
+     "queued": 0,
+     "carried": true
+    }
+   ]
+  },
+  {
+   "id": "virginia-mn",
+   "name": "City of Virginia",
+   "url": "https://www.virginiamn.us",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Virginia",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "",
+   "last_events": 18,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 18,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hibbing-mn",
+   "name": "City of Hibbing",
+   "url": "https://www.hibbingmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Hibbing",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 15,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 15,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "eveleth-mn",
+   "name": "City of Eveleth",
+   "url": "https://eveleth.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Eveleth",
+   "platform": "govoffice",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 4,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 4,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "chisholm-mn",
+   "name": "City of Chisholm",
+   "url": "https://www.ci.chisholm.mn.us",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Chisholm",
+   "platform": "govoffice",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 4,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 4,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ely-mn",
+   "name": "City of Ely",
+   "url": "https://www.ely.mn.us",
+   "events_url": "https://www.ely.mn.us/calendar",
+   "category": "gov",
+   "state": "MN",
+   "area": "Ely",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: moved to Google Calendar embed on /calendar.",
+   "last_events": 158,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 158,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "mountain-iron-mn",
+   "name": "City of Mountain Iron",
+   "url": "https://mountainiron.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Mountain Iron",
+   "platform": "mycalendar,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: My Calendar API live but empty; news posts as fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "gilbert-mn",
+   "name": "City of Gilbert",
+   "url": "https://gilbertmn.org",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Gilbert",
+   "platform": "mycalendar",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 3,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hoyt-lakes-mn",
+   "name": "City of Hoyt Lakes",
+   "url": "https://hoytlakesmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Hoyt Lakes",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 6,
+   "last_queued": 5,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 5,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "babbitt-mn",
+   "name": "City of Babbitt",
+   "url": "https://www.babbittmn.gov",
+   "events_url": "https://www.babbittmn.gov/our-city/community-calendar",
+   "category": "gov",
+   "state": "MN",
+   "area": "Babbitt",
+   "platform": "dpcalendar",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Joomla DPCalendar (10 Google-backed calendars).",
+   "last_events": 313,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 313,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "cook-mn",
+   "name": "City of Cook",
+   "url": "https://cookmn.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Cook",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: WordPress, no events plugin; news posts.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "floodwood-mn",
+   "name": "City of Floodwood",
+   "url": "https://floodwoodmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Floodwood",
+   "platform": "govoffice,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: GovOffice /events empty; news posts as fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "tower-mn",
+   "name": "City of Tower",
+   "url": "https://cityoftower.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Tower",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "tower-soudan-history",
+   "name": "Tower-Soudan Historical Society",
+   "url": "https://towersoudanhistory.com",
+   "events_url": "https://towersoudanhistory.com/events.ics",
+   "category": "venue",
+   "state": "MN",
+   "area": "Tower",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: WordPress Events Manager; /events.ics is the live upcoming feed (/events/?ical=1 is a stale 2023-24 list). Sparse in winter; covers the Lake Vermilion Community Bash, Miners Breakfast, Old Settlers Picnic, history talks. Best Lake Vermilion-area source while the chamber domain is dead.",
+   "last_events": 1,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "carlton-county-mn",
+   "name": "Carlton County, MN",
+   "url": "https://www.carltoncountymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Carlton County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 1,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "cloquet-mn",
+   "name": "City of Cloquet",
+   "url": "https://www.cloquetmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Cloquet",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: 'Access Denied' even to a normal browser (WAF). Deferred per owner (address with blocked list).",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "moose-lake-mn",
+   "name": "City of Moose Lake",
+   "url": "https://www.cityofmooselake.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Moose Lake",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 6,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "carlton-mn",
+   "name": "City of Carlton",
+   "url": "https://www.cityofcarlton.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Carlton",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "barnum-mn",
+   "name": "City of Barnum",
+   "url": "https://www.barnummn.us",
+   "events_url": "https://www.barnummn.us/index.asp?SEC=DFCA1E11-4A4E-484C-879B-5D57D4B8219C",
+   "category": "gov",
+   "state": "MN",
+   "area": "Barnum",
+   "platform": "govoffice,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: GovOffice calendar page (currently empty); news posts as fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "cromwell-mn",
+   "name": "City of Cromwell",
+   "url": "https://www.cromwellmn.org",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Cromwell",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 44,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 44,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "wrenshall-mn",
+   "name": "City of Wrenshall",
+   "url": "https://www.cityofwrenshall.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Wrenshall",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Fixed 2026-10-12: wrenshall.com is parked; the city is at cityofwrenshall.com (small site, community news only; posts).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "esko-township-mn",
+   "name": "Thomson Township (Esko)",
+   "url": "https://townofthomsonmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Esko",
+   "platform": "heygov",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 6,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "lake-county-mn",
+   "name": "Lake County, MN",
+   "url": "https://lakecountymn.gov",
+   "events_url": "https://lakecountymn.gov/events/",
+   "category": "gov",
+   "state": "MN",
+   "area": "Lake County",
+   "platform": "jsonld",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "WordPress lsvr-events; JSON-LD on detail pages",
+   "last_events": 12,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 12,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "two-harbors-mn",
+   "name": "City of Two Harbors",
+   "url": "https://www.twoharborsmn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Two Harbors",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 126,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 126,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "silver-bay-mn",
+   "name": "City of Silver Bay",
+   "url": "https://www.silverbaymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Silver Bay",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 51,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 51,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "knife-river-mn",
+   "name": "Knife River Township",
+   "url": "https://www.kniferivermn.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Knife River",
+   "platform": "",
+   "status": "no-calendar",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: kniferivermn.com is a private art gallery (47 Degrees), not a township site. Unorganized territory; no calendar.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "cook-county-mn",
+   "name": "Cook County, MN",
+   "url": "https://cookcountymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Cook County",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 87,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 87,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "grand-marais-city-mn",
+   "name": "City of Grand Marais",
+   "url": "https://www.ci.grand-marais.mn.us",
+   "events_url": "https://www.ci.grand-marais.mn.us/index.asp?SEC=91813E44-1355-41FD-AF9A-1741CF6EB5B2",
+   "category": "gov",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Meetings & Events page embeds 5 Google calendars.",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "grand-portage-mn",
+   "name": "Grand Portage Band",
+   "url": "https://www.grandportage.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Grand Portage",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "koochiching-county-mn",
+   "name": "Koochiching County, MN",
+   "url": "https://www.koochiching.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Koochiching County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 5,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "international-falls-mn",
+   "name": "City of International Falls",
+   "url": "https://www.ci.international-falls.mn.us",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "International Falls",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Google Calendar embed on the homepage.",
+   "last_events": 61,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 61,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "itasca-county-mn",
+   "name": "Itasca County, MN",
+   "url": "https://www.itascacountymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Itasca County",
+   "platform": "civicplus,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: CivicPlus feed empty; posts fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "grand-rapids-city-mn",
+   "name": "City of Grand Rapids",
+   "url": "https://cityofgrandrapidsmn.com",
+   "events_url": "https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+   "category": "gov",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 10,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 10,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "deer-river-mn",
+   "name": "City of Deer River",
+   "url": "https://www.deerrivercity.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Deer River",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 1,
+   "last_queued": 1,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 1,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "bovey-mn",
+   "name": "City of Bovey",
+   "url": "https://boveymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Bovey",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 1,
+   "last_queued": 1,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 1,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "aitkin-county-mn",
+   "name": "Aitkin County, MN",
+   "url": "https://www.co.aitkin.mn.us",
+   "events_url": "https://www.aitkincountymn.gov/blog/",
+   "category": "gov",
+   "state": "MN",
+   "area": "Aitkin County",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: moved to aitkincountymn.gov; county events are on naturallybetterhere.com (separate source); blog via posts.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "mcgregor-mn",
+   "name": "City of McGregor",
+   "url": "https://cityofmcgregor.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "McGregor",
+   "platform": "",
+   "status": "no-calendar",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: cityofmcgregor.com is McGregor, TEXAS (wrong city). No MN city site found; McGregor events via mcgregor-chamber and naturally-better-here.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "hill-city-mn",
+   "name": "City of Hill City",
+   "url": "https://www.hillcity-mn.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Hill City",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "",
+   "last_events": 6,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "aitkin-mn",
+   "name": "City of Aitkin",
+   "url": "https://www.ci.aitkin.mn.us",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Aitkin",
+   "platform": "govoffice",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "URL from appendix \u2014 verify (possible typo).",
+   "last_events": 6,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "pine-county-mn",
+   "name": "Pine County, MN",
+   "url": "https://www.pinecountymn.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MN",
+   "area": "Pine County",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Southern edge of DMA \u2014 triage scope.",
+   "last_events": 35,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 35,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "sandstone-mn",
+   "name": "City of Sandstone",
+   "url": "https://sandstone.govoffice.com",
+   "events_url": "https://sandstone.govoffice.com/events",
+   "category": "gov",
+   "state": "MN",
+   "area": "Sandstone",
+   "platform": "govoffice,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: GovOffice list layout (article.summaryDisplay).",
+   "last_events": 1,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "pine-city-mn",
+   "name": "City of Pine City",
+   "url": "https://pinecitymn.gov",
+   "events_url": "https://pinecitymn.gov",
+   "category": "gov",
+   "state": "MN",
+   "area": "Pine City",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: homepage embeds a Google Calendar.",
+   "last_events": 45,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 45,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "douglas-county-wi",
+   "name": "Douglas County, WI",
+   "url": "https://www.douglascountywi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Douglas County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "superior-wi",
+   "name": "City of Superior",
+   "url": "https://www.superiorwi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 2,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "solon-springs-wi",
+   "name": "Village of Solon Springs",
+   "url": "https://villageofsolonsprings.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Solon Springs",
+   "platform": "heygov,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: HeyGov API live but empty; news posts as fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "bayfield-county-wi",
+   "name": "Bayfield County, WI",
+   "url": "https://www.bayfieldcounty.wi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Bayfield County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 101,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 101,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "bayfield-city-wi",
+   "name": "City of Bayfield",
+   "url": "https://www.cityofbayfield.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Bayfield",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Weebly homepage embeds a Google Calendar (legacy www.google.com/calendar/embed URL).",
+   "last_events": 89,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 89,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "washburn-wi",
+   "name": "City of Washburn",
+   "url": "https://www.cityofwashburnwi.gov",
+   "events_url": "https://www.cityofwashburnwi.gov/calendar",
+   "category": "gov",
+   "state": "WI",
+   "area": "Washburn",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: CivicPlus HCMS (Drupal) calendar; plain requests 403 but a normal browser render works; grid text parsed by posts (day-first dates).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "cable-wi",
+   "name": "Town of Cable",
+   "url": "https://townofcable.com",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Cable",
+   "platform": "heygov,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: HeyGov API live but empty; news posts as fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ashland-county-wi",
+   "name": "Ashland County, WI",
+   "url": "https://ashlandcountywi.gov",
+   "events_url": "https://ashlandcountywi.gov/news",
+   "category": "gov",
+   "state": "WI",
+   "area": "Ashland County",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no calendar; news page.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ashland-city-wi",
+   "name": "City of Ashland",
+   "url": "https://www.coawi.org",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Ashland",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 11,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 11,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "burnett-county-wi",
+   "name": "Burnett County, WI",
+   "url": "https://www.burnettcountywi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Burnett County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Southern/western edge \u2014 triage scope.",
+   "last_events": 5,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "siren-wi",
+   "name": "Village of Siren",
+   "url": "https://www.villageofsirenwi.gov",
+   "events_url": "https://www.villageofsirenwi.gov/village-calendar.html",
+   "category": "gov",
+   "state": "WI",
+   "area": "Siren",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Weebly page embeds a Google Calendar.",
+   "last_events": 19,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 19,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "washburn-county-wi",
+   "name": "Washburn County, WI",
+   "url": "https://www.washburncounty.org",
+   "events_url": "https://www.washburncounty.org/events/",
+   "category": "gov",
+   "state": "WI",
+   "area": "Washburn County",
+   "platform": "simpleview",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: washburncounty.org is the county TOURISM site (Simpleview), not the county government.",
+   "last_events": 50,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 50,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "spooner-wi",
+   "name": "City of Spooner",
+   "url": "https://cityofspoonerwi.gov",
+   "events_url": "https://cityofspoonerwi.gov/community-calendar/",
+   "category": "gov",
+   "state": "WI",
+   "area": "Spooner",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Google Calendar embed on /community-calendar/ (Tribe REST gone).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "sawyer-county-wi",
+   "name": "Sawyer County, WI",
+   "url": "https://www.sawyercounty.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Sawyer County",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Southern edge \u2014 triage scope.",
+   "last_events": 3,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hayward-wi",
+   "name": "City of Hayward",
+   "url": "https://cityofhaywardwi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "WI",
+   "area": "Hayward",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: WordPress; plain requests 403, browser render OK; /events/ renders no events, so homepage/news posts only.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "gogebic-county-mi",
+   "name": "Gogebic County, MI",
+   "url": "https://www.gogebic.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MI",
+   "area": "Gogebic County",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ironwood-mi",
+   "name": "City of Ironwood",
+   "url": "https://ironwoodmi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MI",
+   "area": "Ironwood",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: city site links its events to felivelife.org (separate source).",
+   "last_events": 6,
+   "last_queued": 6,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 6,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "wakefield-mi",
+   "name": "City of Wakefield",
+   "url": "https://cityofwakefieldmi.gov",
+   "events_url": "",
+   "category": "gov",
+   "state": "MI",
+   "area": "Wakefield",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: 'Robot Challenge Screen' even to a normal browser. Deferred per owner (address with blocked list).",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "allevents-duluth",
+   "name": "AllEvents \u2014 Duluth",
+   "url": "https://allevents.in/duluth",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Aggregates public Facebook events; date only, no time.",
+   "last_events": 192,
+   "last_queued": 107,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 192,
+     "queued": 107,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-superior",
+   "name": "AllEvents \u2014 Superior",
+   "url": "https://allevents.in/superior-wi",
+   "events_url": "",
+   "category": "social",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 126,
+   "last_queued": 105,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 126,
+     "queued": 105,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-cloquet",
+   "name": "AllEvents \u2014 Cloquet",
+   "url": "https://allevents.in/cloquet",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Cloquet",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 31,
+   "last_queued": 30,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 31,
+     "queued": 30,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-hibbing",
+   "name": "AllEvents \u2014 Hibbing",
+   "url": "https://allevents.in/hibbing",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Hibbing",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 39,
+   "last_queued": 35,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 39,
+     "queued": 35,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-grand-rapids",
+   "name": "AllEvents \u2014 Grand Rapids",
+   "url": "https://allevents.in/grand-rapids-minnesota",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 9,
+   "last_queued": 9,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 9,
+     "queued": 9,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-two-harbors",
+   "name": "AllEvents \u2014 Two Harbors",
+   "url": "https://allevents.in/two-harbors",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Two Harbors",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 9,
+   "last_queued": 9,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 9,
+     "queued": 9,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-ashland",
+   "name": "AllEvents \u2014 Ashland",
+   "url": "https://allevents.in/ashland-wi",
+   "events_url": "",
+   "category": "social",
+   "state": "WI",
+   "area": "Ashland",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 22,
+   "last_queued": 18,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 22,
+     "queued": 18,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-intl-falls",
+   "name": "AllEvents \u2014 International Falls",
+   "url": "https://allevents.in/international-falls",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "International Falls",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 6,
+   "last_queued": 6,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 6,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-virginia",
+   "name": "AllEvents \u2014 Virginia/Iron Range",
+   "url": "https://allevents.in/virginia-mn",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Virginia",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: slug is virginia-mn (virginia-minnesota redirects away). Social/low-trust: events go to review.",
+   "last_events": 20,
+   "last_queued": 20,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 20,
+     "queued": 20,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-ely",
+   "name": "allevents.in \u2014 Ely",
+   "url": "https://allevents.in/ely-mn",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Ely",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 53,
+   "last_queued": 52,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 53,
+     "queued": 52,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-grand-marais",
+   "name": "allevents.in \u2014 Grand Marais",
+   "url": "https://allevents.in/grand-marais-mn",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 5,
+   "last_queued": 5,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 5,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-hayward",
+   "name": "allevents.in \u2014 Hayward",
+   "url": "https://allevents.in/hayward-wi",
+   "events_url": "",
+   "category": "social",
+   "state": "WI",
+   "area": "Hayward",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 35,
+   "last_queued": 34,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 35,
+     "queued": 34,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-ironwood",
+   "name": "allevents.in \u2014 Ironwood",
+   "url": "https://allevents.in/ironwood",
+   "events_url": "",
+   "category": "social",
+   "state": "MI",
+   "area": "Ironwood",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 20,
+   "last_queued": 15,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 20,
+     "queued": 15,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-spooner",
+   "name": "allevents.in \u2014 Spooner",
+   "url": "https://allevents.in/spooner",
+   "events_url": "",
+   "category": "social",
+   "state": "WI",
+   "area": "Spooner",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 21,
+   "last_queued": 20,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 21,
+     "queued": 20,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-silver-bay",
+   "name": "allevents.in \u2014 Silver Bay",
+   "url": "https://allevents.in/silver-bay-mn",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Silver Bay",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 18,
+   "last_queued": 14,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 18,
+     "queued": 14,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-moose-lake",
+   "name": "allevents.in \u2014 Moose Lake",
+   "url": "https://allevents.in/moose-lake",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Moose Lake",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 7,
+   "last_queued": 7,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 7,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-aitkin",
+   "name": "allevents.in \u2014 Aitkin",
+   "url": "https://allevents.in/aitkin",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Aitkin",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 12,
+   "last_queued": 12,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 12,
+     "queued": 12,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-hinckley",
+   "name": "allevents.in \u2014 Hinckley",
+   "url": "https://allevents.in/hinckley",
+   "events_url": "",
+   "category": "social",
+   "state": "MN",
+   "area": "Hinckley",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 9,
+   "last_queued": 8,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 9,
+     "queued": 8,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "allevents-washburn",
+   "name": "allevents.in \u2014 Washburn",
+   "url": "https://allevents.in/washburn-wi",
+   "events_url": "",
+   "category": "social",
+   "state": "WI",
+   "area": "Washburn",
+   "platform": "allevents",
+   "status": "active",
+   "tier": "source",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
+   "last_events": 5,
+   "last_queued": 4,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 4,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "umd-bulldogs",
+   "name": "UMD Bulldogs Athletics",
+   "url": "https://umdbulldogs.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "sidearm",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "D-I hockey; iCal at /calendar.ashx/calendar.ics, home+neutral only.",
+   "last_events": 71,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 71,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "uws-yellowjackets",
+   "name": "UW-Superior Yellowjackets",
+   "url": "https://uwsyellowjackets.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "sidearm",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "D-III athletics.",
+   "last_events": 99,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 99,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "css-saints",
+   "name": "St. Scholastica Saints",
+   "url": "https://csssaints.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "sidearm",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "D-III incl. hockey at Mars Lakeview Arena.",
+   "last_events": 72,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 72,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "norshor-playhouse",
+   "name": "NorShor Theatre / Duluth Playhouse",
+   "url": "https://www.norshortheatre.com",
+   "events_url": "https://www.norshortheatre.com/events",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "ovationtix",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "OvationTix client 35679 = Duluth Playhouse; covers NorShor + Playhouse productions.",
+   "last_events": 28,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 28,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "reif-center",
+   "name": "Reif Performing Arts Center",
+   "url": "https://www.reifcenter.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 29,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 29,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "sacred-heart",
+   "name": "Sacred Heart Music Center",
+   "url": "https://sacredheartmusic.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "minnesota-ballet",
+   "name": "Minnesota Ballet",
+   "url": "https://minnesotaballet.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Performs at the DECC.",
+   "last_events": 5,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "duluth-art-institute",
+   "name": "Duluth Art Institute",
+   "url": "https://duluthart.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "At the Depot.",
+   "last_events": 62,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 62,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ls-railroad-museum",
+   "name": "Lake Superior Railroad Museum",
+   "url": "https://lsrm.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Scenic railroad excursions.",
+   "last_events": 8,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 8,
+     "queued": 0,
+     "carried": true
+    }
+   ]
+  },
+  {
+   "id": "mn-discovery-center",
+   "name": "Minnesota Discovery Center",
+   "url": "https://www.mndiscoverycenter.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Chisholm",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Iron Range heritage / Ironworld.",
+   "last_events": 23,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 23,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "wild-state-cider",
+   "name": "Wild State Cider",
+   "url": "https://wildstatecider.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Lincoln Park taproom.",
+   "last_events": 14,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 14,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "castle-danger",
+   "name": "Castle Danger Brewery",
+   "url": "https://castledangerbrewery.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Two Harbors",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "",
+   "last_events": 70,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 70,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "zeitgeist",
+   "name": "Zeitgeist (Zinema / Teatro Zuccone)",
+   "url": "https://zeitgeistarts.com",
+   "events_url": "https://zeitgeistarts.com/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "tribe,jsonld,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: TEC REST not exposed; JSON-LD/text fallback.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "voyageur-brewing",
+   "name": "Voyageur Brewing",
+   "url": "https://www.voyageurbrewing.com",
+   "events_url": "https://www.voyageurbrewing.com/event_calendar",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "decc",
+   "name": "The DECC",
+   "url": "https://decc.org",
+   "events_url": "https://decc.org/events-calendar/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "decc",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "WordPress calendar \u2014 needs generic-WP adapter. AMSOIL Arena / Symphony Hall / William A. Irvin.",
+   "last_events": 57,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 57,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "dsso",
+   "name": "Duluth Superior Symphony",
+   "url": "https://dsso.com",
+   "events_url": "https://dsso.com/events/?ical=1",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "broken",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: dsso.com unreachable from here (connection fails). DSSO Masterworks/Pops still arrive via the DECC source.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "clyde-iron",
+   "name": "Clyde Iron Works",
+   "url": "https://clydeironworks.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "bent-paddle",
+   "name": "Bent Paddle Brewing",
+   "url": "https://bentpaddlebrewing.com",
+   "events_url": "https://bentpaddlebrewing.com/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "simplecalendar,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: WP Simple Calendar renders events server-side.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ursa-minor",
+   "name": "Ursa Minor Brewing",
+   "url": "https://ursaminorbrewing.com",
+   "events_url": "https://ursaminorbrewing.com/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 12,
+   "last_queued": 11,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 12,
+     "queued": 11,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "hoops-brewing",
+   "name": "Hoops Brewing",
+   "url": "https://hoopsbrewing.com",
+   "events_url": "https://hoopsbrewing.com/events-calendar/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "closed",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Taproom closed 2026-02-23 ('the final pour', per its own Instagram feed on the site). Re-check if it reopens; site says 'Hoops isn't done yet'.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "duluth-cider",
+   "name": "Duluth Cider",
+   "url": "https://duluthcider.com",
+   "events_url": "https://duluthcider.com/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "simplecalendar,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: WP Simple Calendar renders events server-side (earlier note 'renders nothing' was wrong - there was no adapter).",
+   "last_events": 39,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 39,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "bayfront-park",
+   "name": "Bayfront Festival Park",
+   "url": "https://www.bayfrontfestivalpark.com",
+   "events_url": "https://www.bayfrontfestivalpark.com/events-calendar",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Wix, no events widget; festival pages (/hairball, /fourth-fest, ...) read by the posts fallback; major shows also arrive via DECC/PDD.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "earth-rider",
+   "name": "Earth Rider Brewery / Cedar Lounge",
+   "url": "https://www.earthrider.beer",
+   "events_url": "https://www.earthrider.beer/events",
+   "category": "venue",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "eventscalendar,eventbrite",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: Wix widget gone; concerts via Eventbrite organizer 42879398303 (Cedar Lounge).",
+   "last_events": 9,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 9,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "arrowhead-arts",
+   "name": "Arrowhead Center for the Arts",
+   "url": "https://www.grandmaraisplayhouse.com",
+   "events_url": "https://www.grandmaraisplayhouse.com/calendar",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "squarespace,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Fixed 2026-10-11: arrowheadarts.org is Arrowhead Arts Assoc. of Lake Arrowhead, CALIFORNIA (wrong org). Arrowhead Center for the Arts (Grand Marais) programming is via its resident Grand Marais Playhouse: Squarespace events collection /calendar.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "fitgers-brewhouse",
+   "name": "Fitger's Brewhouse",
+   "url": "https://fitgersbrewhouse.com",
+   "events_url": "https://www.fitgersbarrelroom.com/events-calendar",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "squarespace,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: events live on the Barrel Room's Squarespace events collection (fitgersbarrelroom.com/events-calendar).",
+   "last_events": 15,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 15,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "gunflint-tavern",
+   "name": "Gunflint Tavern",
+   "url": "https://www.gunflinttavern.com",
+   "events_url": "https://www.gunflinttavern.com/events",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "ics",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: live music via a Google Calendar embed on /events (the Squarespace /events-1 collection only holds past shows).",
+   "last_events": 6,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "blacklist-brewing",
+   "name": "Blacklist Brewing",
+   "url": "https://www.blacklistbeer.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ironwood-theatre",
+   "name": "Historic Ironwood Theatre",
+   "url": "https://www.ironwoodtheatre.net",
+   "events_url": "",
+   "category": "venue",
+   "state": "MI",
+   "area": "Ironwood",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "big-top",
+   "name": "Big Top Chautauqua",
+   "url": "https://bigtop.org",
+   "events_url": "spektrix:ashwabayalliance",
+   "category": "venue",
+   "state": "WI",
+   "area": "Bayfield",
+   "platform": "spektrix",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Spektrix client ashwabayalliance; summer tent concert series",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "stlouis-county-fair",
+   "name": "South St. Louis County Fair (Proctor)",
+   "url": "https://proctorduluthfair.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Proctor",
+   "platform": "",
+   "status": "dead",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Checked 2026-10-11: proctorduluthfair.com now redirects to a gambling spam site (domain lapsed). South St. Louis County Fair (Proctor, early July) has no current site found; watch news/allevents.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "carlton-county-fair",
+   "name": "Carlton County Fair (Barnum)",
+   "url": "https://carltoncountyfairmn.com",
+   "events_url": "https://carltoncountyfairmn.com/schedule",
+   "category": "venue",
+   "state": "MN",
+   "area": "Barnum",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "itasca-county-fair",
+   "name": "Itasca County Fair (Grand Rapids)",
+   "url": "https://itascacountyfair.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Rapids",
+   "platform": "wordpress",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Mid-August; WordPress site \u2014 may partly overlap the active grand-rapids-mn chamber source. Triaged 2026-09: every request redirected to a /.well-known/sgcaptcha/ bot-detection challenge. Not attempting to get past it \u2014 out of scope per our own no-bot-evasion rule.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "aitkin-county-fair",
+   "name": "Aitkin County Fair",
+   "url": "https://www.aitkinfair.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Aitkin",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "pine-county-fair",
+   "name": "Pine County Fair (Pine City)",
+   "url": "https://pinecountyfair.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Pine City",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "askov-rutabaga-fest",
+   "name": "Askov Rutabaga Festival & Fair",
+   "url": "https://cityofaskov.com/2150/Askov-Rutabaga-Festival-Fair",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Askov",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Annual small-town festival, hosted on the City of Askov CivicPlus site. Triaged 2026-09: civicplus, 1 event.",
+   "last_events": 1,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "lake-county-fair",
+   "name": "Lake County Fair (Two Harbors)",
+   "url": "http://www.thelakecountyfair.com",
+   "events_url": "http://www.thelakecountyfair.com/schedule-of-events.html",
+   "category": "venue",
+   "state": "MN",
+   "area": "Two Harbors",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: GoDaddy site; schedule page parsed by posts. Dates were 'TBD' for 2027 as of 2026-09.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "koochiching-county-fair",
+   "name": "Koochiching County Fair (Northome)",
+   "url": "https://www.co.koochiching.mn.us",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Northome",
+   "platform": "civicplus",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Fair is held in Northome, not International Falls. Triaged 2026-09: civicplus, 2 events \u2014 this is a different domain than the already-active koochiching-county-mn (koochiching.gov), kept as its own source; cross-source dedup handles any overlap.",
+   "last_events": 5,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 5,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "head-of-the-lakes-fair",
+   "name": "Head of the Lakes Fair (Douglas County)",
+   "url": "https://headofthelakesfairgrounds.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Superior",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "ashland-county-fair",
+   "name": "Ashland County Fair (Marengo)",
+   "url": "https://ashlandcountyfair.com",
+   "events_url": "https://ashlandcountyfair.com/calendar/",
+   "category": "venue",
+   "state": "WI",
+   "area": "Marengo",
+   "platform": "jsonld",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Has an actual /calendar/ page. Triaged 2026-09: jsonld, 12 events.",
+   "last_events": 12,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 12,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "washburn-county-fair",
+   "name": "Washburn County Fair (Shell Lake)",
+   "url": "https://www.washburncounty.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Shell Lake",
+   "platform": "",
+   "status": "duplicate",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Same site as washburn-county-wi (washburncounty.org tourism, Simpleview) - the fair is listed there.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "burnett-county-fair",
+   "name": "Burnett County Fair (Grantsburg)",
+   "url": "http://www.grantsburgfair.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Grantsburg",
+   "platform": "",
+   "status": "broken",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Late August. Triaged 2026-09: site returned HTTP 500 on every single request, including the bare homepage \u2014 looks genuinely down, not a bot block. Revisit later.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "hurley-area-chamber",
+   "name": "Hurley Area Chamber (Iron County WI calendar)",
+   "url": "https://www.hurleywi.com",
+   "events_url": "https://www.hurleywi.com/calendar/",
+   "category": "chamber",
+   "state": "WI",
+   "area": "Hurley",
+   "platform": "jsonld",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: community calendar for Iron County WI (WordPress Modern Events Calendar; its iCal feed is disabled). JSON-LD times are stored as UTC then offset (10 am shows as 05:00-05:00), corrected by timefix utc-wall. Covers the Iron County Fair and Heritage Days.",
+   "last_events": 59,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 59,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "iron-county-fair-wi",
+   "name": "Iron County Fair (Hurley)",
+   "url": "https://www.hurleywi.com/iron-county-fair",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Hurley",
+   "platform": "",
+   "status": "duplicate",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Covered by hurley-area-chamber (same site, hurleywi.com calendar lists the fair). Late July.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "iron-county-heritage-days",
+   "name": "Iron County Heritage Days Festival (Hurley)",
+   "url": "https://www.hurleywi.com/iron-county-heritage-days-festival",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Hurley",
+   "platform": "",
+   "status": "duplicate",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Covered by hurley-area-chamber (same site, hurleywi.com calendar lists the festival).",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "gogebic-county-fair",
+   "name": "Gogebic County Fair (Bessemer)",
+   "url": "http://www.gogebiccountyfair.com",
+   "events_url": "",
+   "category": "venue",
+   "state": "MI",
+   "area": "Bessemer",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-09: every request redirected to a /.well-known/sgcaptcha/ bot-detection challenge. Not attempting to get past it.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "spirit-mountain",
+   "name": "Spirit Mountain",
+   "url": "https://www.spiritmt.com",
+   "events_url": "https://spiritmt.com/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "jsonld,posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: calendar moved to /events/; Tribe REST closed, JSON-LD on page; quiet off-season.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "mt-ashwabay",
+   "name": "Mt. Ashwabay",
+   "url": "https://www.mtashwabay.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "WI",
+   "area": "Bayfield",
+   "platform": "posts",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: no machine-readable calendar; dates inferred from page/news text (review queue). Annual events appear once announced and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "birkie",
+   "name": "American Birkebeiner Ski Foundation",
+   "url": "https://www.birkie.com",
+   "events_url": "https://www.birkie.com/calendar/",
+   "category": "venue",
+   "state": "WI",
+   "area": "Cable/Hayward",
+   "platform": "birkie",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Major annual ski race weekend plus related events (Fat Bike Birkie, Trail Run, Epic Bike Fest). 2026-09: static WordPress page with no events plugin/JSON-LD, but a clean repeating wp-block markup pattern \u2014 wrote a small dedicated adapter (adapters/birkie.py). 11 events.",
+   "last_events": 7,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "north-house-folk-school",
+   "name": "North House Folk School",
+   "url": "https://northhouse.org",
+   "events_url": "https://northhouse.org/events",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Marais",
+   "platform": "northhouse",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Recurring public classes and community events (First Fridays, Fiber Week, Unplugged, Wooden Boat Festival). 2026-09: real schema.org Microdata (EducationEvent), just not the JSON-LD script-tag form jsonld.py looks for \u2014 wrote a small dedicated adapter (adapters/northhouse.py). 86 events (spans past + future; the scrape window filters to upcoming).",
+   "last_events": 4,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 4,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "wolf-ridge",
+   "name": "Wolf Ridge Environmental Learning Center",
+   "url": "https://wolf-ridge.org",
+   "events_url": "https://wolf-ridge.org/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Finland",
+   "platform": "tribe",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "Public programs. Triaged 2026-09: tribe, 2 events (jsonld/ics agreed once pointed at the real events page \u2014 the triage-time '6 events' was homepage noise before events_url was set).",
+   "last_events": 2,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "lake-superior-zoo",
+   "name": "Lake Superior Zoo",
+   "url": "https://lszoo.org",
+   "events_url": "https://lszoo.org/events-2/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-09: every request redirected to a /.well-known/sgcaptcha/ bot-detection challenge. Not attempting to get past it.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "great-lakes-aquarium",
+   "name": "Great Lakes Aquarium",
+   "url": "https://glaquarium.org",
+   "events_url": "https://glaquarium.org/events/",
+   "category": "venue",
+   "state": "MN",
+   "area": "Duluth",
+   "platform": "",
+   "status": "blocked",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-09: every request redirected to a /.well-known/sgcaptcha/ bot-detection challenge. Not attempting to get past it.",
+   "last_events": null,
+   "last_queued": 0,
+   "runs": []
+  },
+  {
+   "id": "grand-portage-nps",
+   "name": "Grand Portage National Monument (NPS)",
+   "url": "https://www.nps.gov/grpo",
+   "events_url": "nps:grpo",
+   "category": "venue",
+   "state": "MN",
+   "area": "Grand Portage",
+   "platform": "nps",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Triaged 2026-10-11: public NPS EventCalendarService (no key). Rendezvous Days (2nd weekend of Aug) and ranger programs appear once posted and inside the 200-day window.",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "apostle-islands-nps",
+   "name": "Apostle Islands National Lakeshore",
+   "url": "https://www.nps.gov/apis",
+   "events_url": "nps:apis",
+   "category": "venue",
+   "state": "WI",
+   "area": "Bayfield",
+   "platform": "nps",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "voyageurs-nps",
+   "name": "Voyageurs National Park",
+   "url": "https://www.nps.gov/voya",
+   "events_url": "nps:voya",
+   "category": "venue",
+   "state": "MN",
+   "area": "International Falls",
+   "platform": "nps",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "",
+   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal).",
+   "last_events": 0,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  },
+  {
+   "id": "fond-du-lac-band",
+   "name": "Fond du Lac Band of Lake Superior Chippewa",
+   "url": "https://fdlband.org",
+   "events_url": "",
+   "category": "venue",
+   "state": "MN",
+   "area": "Cloquet",
+   "platform": "revize",
+   "status": "active",
+   "tier": "trusted",
+   "tier_set": false,
+   "autopromote": false,
+   "refresh": "relay",
+   "notes": "Community pow wows (e.g. Veterans Powwow at Mash Ka Wisen grounds) and cultural events \u2014 added per explicit approval. Triaged 2026-09: revize, 81 events.",
+   "last_events": 65,
+   "last_queued": 0,
+   "runs": [
+    {
+     "date": "2026-10-12",
+     "events": 65,
+     "queued": 0,
+     "carried": false
+    }
+   ]
+  }
+ ]
+}
