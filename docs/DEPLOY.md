@@ -219,7 +219,7 @@ secrets exist.
   against a throwaway branch, never `main`.
 
 
-## 11. Community reports ("Report a problem") — needs one KV namespace
+## 11. Community reports ("Report a problem") — DONE, KV `northland-reports` bound 2026-10-12
 
 Every event popup on the public calendar has **Report a problem with this
 event**. The visitor picks what's wrong (date or time, category, place,

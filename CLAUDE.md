@@ -208,9 +208,8 @@ A source that used to produce and now shows 0 is a regression to investigate.
 - `tabling.html` and `recurring.html` use a client-side passphrase gate:
   casual-view privacy only, since the JSON is public. The `__dev__` bypass
   was removed on 2026-10-12.
-- **Community reports need a KV namespace** bound as `REPORTS` in
-  `wrangler.toml` (`docs/DEPLOY.md` §11). Until the owner creates it, the
-  form answers "not switched on yet".
+- Community reports live in the KV namespace `northland-reports`, bound as
+  `REPORTS` in `wrangler.toml` since 2026-10-12 (`docs/DEPLOY.md` §11).
 - The admin backend needs two Cloudflare secrets, `GITHUB_TOKEN` (a
   fine-grained PAT) and `ADMIN_PASSWORD`, set by the owner (`docs/DEPLOY.md`
   §9). The PAT expires, so renew it before then.

@@ -11,11 +11,10 @@ binding = "ASSETS"
 [vars]
 GITHUB_REPO = "8r0wnie/northland-events"
 GITHUB_BRANCH = "main"
-# Community reports inbox (docs/DEPLOY.md §11). Uncomment once the owner has
-# created the KV namespace and shared its id:
-# [[kv_namespaces]]
-# binding = "REPORTS"
-# id = "<namespace id>"
+# Community reports inbox (docs/DEPLOY.md §11): KV namespace "northland-reports"
+[[kv_namespaces]]
+binding = "REPORTS"
+id = "60132eecddd1428589286a112cc80438"
 
 # Secrets (set in the Cloudflare dashboard, never committed):
 #   ADMIN_PASSWORD, GITHUB_TOKEN
