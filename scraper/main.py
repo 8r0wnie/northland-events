@@ -27,7 +27,7 @@ except (AttributeError, ValueError):
 import fetch
 from registry import load_sources, Source
 from adapters import GENERIC, BY_PLATFORM
-from models import Event
+from models import Event, truncate_desc
 from verify import group_events, classify, review_reason, load_decisions
 from tabling import classify_tabling
 import recurrence
@@ -224,7 +224,7 @@ def cmd_scrape(args) -> None:
                 "area": d["area"],
                 "category": d["category"],
                 "price": d["price"],
-                "description": d["description"][:600],
+                "description": truncate_desc(d["description"], 600),
                 "image": d["image"],
                 "source": m.source_links[0] if m.source_links else {"name": "", "url": ""},
             })

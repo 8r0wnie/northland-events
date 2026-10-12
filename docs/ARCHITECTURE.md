@@ -105,6 +105,29 @@ From `models.Event.to_dict()` plus fields added downstream:
 
 Top level: `generated`, `count`, `areas`, `categories`, `events`.
 
+## Description cleanup (`models.clean_description`)
+
+Every adapter's description goes through it, from `Event.normalize`, so the
+fix lives in one place:
+- HTML becomes text with `<style>`/`<script>` *contents* dropped. Reif
+  Center's page builder embeds CSS in the description, and stripping tags
+  alone used to keep it.
+- Leftover CSS rule blobs and entities are removed.
+- Page boilerplate *labels* are removed: SPONSORED BY, KNOW BEFORE YOU GO,
+  TICKETS, Read More, Add to Calendar, "See the flyer below", and similar.
+  Lowercase forms only count with an arrow or at the very end, so sentences
+  like "buy tickets at the door" or "sponsored by the League of Women Voters"
+  stay.
+- A clear copy of the title at the start is dropped ("Title - …", "Title:
+  …", "Title Title is …").
+- Text ends at a sentence break, or a word break plus "…", within `DESC_MAX`
+  (1200). The queue's short form uses `truncate_desc(…, 600)`.
+
+Cases are in `tests/test_descriptions.py`. Add one whenever a new kind of
+junk shows up. On the 2026-10-12 data, CSS dropped from 19 events to 0,
+leftover HTML from 57 to 0, mid-word endings from 569 to 0, and boilerplate
+from 71 to 16. The remaining 16 are real "sponsored by …" sentences.
+
 ## Categorization (`models.py`)
 
 Adapters set a category when the platform gives one (Tribe's are mapped and

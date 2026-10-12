@@ -94,7 +94,7 @@ python main.py scrape --only <id,id>     # summary only, does NOT write site/dat
 python main.py scrape                    # all status: active sources -> ../site/data/
 python main.py refresh-local             # `refresh: local` sources -> cache only (owner's PC)
 python srcedit.py <id> key=value ...     # edit one sources.yaml entry, keeps comments
-python tests/test_posts.py && python tests/test_tiers.py   # regression tests (also run in CI)
+python tests/test_posts.py && python tests/test_tiers.py && python tests/test_descriptions.py   # regression tests (also run in CI)
 cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
 

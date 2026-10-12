@@ -125,6 +125,96 @@ def infer_category(title: str, description: str = "", fallback: str = "other") -
     return fallback if fallback in CATEGORIES else "other"
 
 
+# ── description cleanup ───────────────────────────────────────────────────────
+# Every adapter's description passes through clean_description() (from
+# Event.normalize), so junk is fixed in one place:
+#   - HTML -> text with <style>/<script> CONTENTS dropped (Reif Center's page
+#     builder puts CSS inside the description; stripping tags alone kept it);
+#   - leftover CSS rule blobs ".x #y a{color:#fff;}" removed;
+#   - page boilerplate labels (SPONSORED BY, KNOW BEFORE YOU GO, Read More,
+#     Add to Calendar, ...) removed - matched only in label form, so a sentence
+#     like "buy tickets at the door" is never touched;
+#   - a description that just repeats the title first loses that copy;
+#   - long text ends at a sentence break with "…", never mid-word.
+DESC_MAX = 1200
+
+_CSS_RULE = re.compile(
+    r"(?:[#.@][\w-][^{}<>]{0,300}|\b(?:a|p|div|span|body|html|h[1-6]|li|ul|ol|img|table|td|tr|section|button)\b[^{}<>]{0,300})"
+    r"\{[^{}]{0,1200}\}")
+_CSS_LEFTOVER = re.compile(r"(?:[\w-]+\s*:\s*[^;{}]{1,80};\s*){2,}")   # "color: #fff; font-size: 13px;"
+_BOILERPLATE = re.compile(
+    r"(?:^|(?<=[\s.!?:|]))(?:"
+    r"SPONSORED BY|Sponsored [Bb]y:|PRESENTED BY:|KNOW BEFORE YOU GO|Know Before You Go|ABOUT THE (?:SHOW|EVENT|ARTIST)S?|"
+    r"EVENT DETAILS|TICKETS(?= [A-Z])|BUY TICKETS|Buy Tickets|GET TICKETS|Get Tickets|"
+    # link labels: Title Case / CAPS anywhere; lowercase only with an arrow or
+    # at the very end ("Read more about the band" is a sentence, not a label)
+    r"Read More(?: »| ›| →|\.\.\.|…)?|READ MORE|Learn More(?: »| ›| →)?|LEARN MORE|More Info(?:rmation)?(?: »)?|"
+    r"(?:Read more|Learn more|More info|Continue reading)(?:\s*(?:»|›|→|\.\.\.|…)|\s*$)|"
+    r"Continue Reading(?: »| →)?|Click [Hh]ere(?: for [Mm]ore [Ii]nfo(?:rmation)?| to [Rr]egister)?|"
+    r"Add to (?:Google )?[Cc]alendar|Google Calendar|iCalendar|Outlook 365|Outlook Live|"
+    r"Export \.ics [Ff]ile|Export to Outlook|Share [Tt]his [Ee]vent|View on [Mm]ap|"
+    r"See (?:the )?flyer below(?: for additional information)?\.?"
+    r")(?=$|[\s.!?:|»›→])")
+_SENT_END = re.compile(r"[.!?…][\"”')\]]?(?=\s|$)")
+
+
+def _html_to_text(value: str) -> str:
+    if "<" not in value or not re.search(r"</?[a-zA-Z][^>]*>", value):
+        return value
+    from selectolax.parser import HTMLParser
+    tree = HTMLParser(f"<div>{value}</div>")
+    for sel in ("style", "script", "noscript", "svg", "template", "iframe"):
+        for n in tree.css(sel):
+            n.decompose()
+    node = tree.body or tree.root
+    return node.text(separator=" ") if node else value
+
+
+def truncate_desc(text: str, limit: int = DESC_MAX) -> str:
+    """Cut at a sentence break (or a word break) with '…', never mid-word."""
+    if len(text) <= limit:
+        return text
+    head = text[:limit]
+    ends = [m.end() for m in _SENT_END.finditer(head)]
+    if ends and ends[-1] >= limit * 0.5:
+        return head[:ends[-1]].rstrip()
+    cut = head.rsplit(" ", 1)[0] if " " in head else head
+    return cut.rstrip(" ,;:-–—") + "…"
+
+
+def clean_description(value: Optional[str], title: str = "", limit: int = DESC_MAX) -> str:
+    if not value:
+        return ""
+    text = html.unescape(str(value))
+    text = _html_to_text(text)
+    text = html.unescape(text)
+    for _ in range(4):                       # nested/adjacent rules peel off in passes
+        new = _CSS_RULE.sub(" ", text)
+        if new == text:
+            break
+        text = new
+    text = _CSS_LEFTOVER.sub(" ", text)
+    text = _BOILERPLATE.sub(" ", text)
+    text = clean_text(text)
+    text = re.sub(r"^[\s|:•·–—-]+", "", text)
+    # "Wilson Fairchild Wilson Fairchild is more than..." -> drop the title copy
+    if title and len(title) >= 4:
+        t = re.escape(clean_text(title))
+        # only a clear copy: "Title - ...", "Title: ...", or "Title Title is ..."
+        stripped = re.sub(rf"^\s*{t}\s*(?:[-–—:|•]\s*|(?={t}\b))", "", text, count=1, flags=re.I)
+        if len(stripped) >= 20 and stripped != text:
+            text = stripped[0].upper() + stripped[1:]
+    text = truncate_desc(text, limit)
+    # a source that cut its own excerpt mid-word ("...The Statler Brothers w")
+    if len(text) >= 150 and not re.search(r"[.!?…\"”')\]]$", text):
+        ends = [m.end() for m in _SENT_END.finditer(text)]
+        if ends and ends[-1] >= len(text) * 0.6:
+            text = text[:ends[-1]]
+        else:
+            text = text.rsplit(" ", 1)[0].rstrip(" ,;:-–—") + "…"
+    return text
+
+
 def clean_text(value: Optional[str]) -> str:
     if not value:
         return ""
@@ -211,7 +301,7 @@ class Event:
         self.city = clean_text(self.city)
         self.area = clean_text(self.area)
         self.address = clean_text(self.address)
-        self.description = clean_text(self.description)[:2000]
+        self.description = clean_description(self.description, self.title)
         self.price = clean_text(self.price)
         if self.category not in CATEGORIES:
             self.category = "other"
