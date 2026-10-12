@@ -21,7 +21,9 @@ from `scraper/`.
 | `state`, `area` | `MN`/`WI`/`MI`, and the public filter label |
 | `platform` | pins an adapter (see `docs/ADAPTERS.md`). Blank = generic chain |
 | `status` | see below |
-| `trust` | optional `high`/`low` override of the category-derived tier |
+| `tier` | `trusted` / `source` / `potential`, set from the admin page (blank = derived from `trust`/category) |
+| `autopromote` | `yes` = this potential source may auto-promote to `source` (admin-added sources; cleared by any manual tier change) |
+| `trust` | legacy `high`/`low` override, used only when `tier` is blank |
 | `refresh` | `local` = the site 403s GitHub Actions' datacenter IPs; scraped from the owner's machine instead (below) |
 | `timefix` | per-site time correction an adapter applies. `utc-wall` = the site publishes local time as if it were UTC (jsonld) |
 | `notes` | triage findings, dated (e.g. "Triaged 2026-09: …") |
@@ -32,12 +34,21 @@ from `scraper/`.
 |--------|---------|
 | `todo` | not triaged, or needs a bespoke adapter |
 | `active` | scraped every run |
+| `paused` | kept in the list but not scraped (set from the admin page) |
 | `no-calendar` | no machine-readable calendar (Weebly/Wix/Joomla, agendas only, tiny townships). Say why in `notes` |
 | `blocked` | bot challenge (e.g. SiteGround `sgcaptcha`) or 403. **Do not work around it** |
 | `broken` | site itself is failing (5xx, DNS, SSL). Recheck later |
 | `duplicate` | same organization as another entry; kept for history, never scraped |
 | `closed` | the venue/organization has closed; kept for history, never scraped |
 | `dead` | the domain lapsed, is parked, or was hijacked (spam). Find the organization's new site; never scrape the old one |
+
+## Adding sources
+
+Usually from the admin page (**Sources → Add a potential source**). The site
+is scraped from the next run with the full generic chain plus the `posts`
+text fallback. Its events go to review, and it auto-promotes to `source`
+after producing events on 5 of 7 runs. To give it a dedicated adapter, triage
+it as below, and set `platform:`.
 
 ## Triage workflow
 

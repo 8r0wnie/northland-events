@@ -111,7 +111,7 @@ document.getElementById("pass").addEventListener("keydown", e => { if (e.key ===
 
 async function tryUnlock(){
   const v = document.getElementById("pass").value;
-  if (await sha256(v) === PASS_HASH || v === "__dev__") { start(); }
+  if (await sha256(v) === PASS_HASH) { start(); }
   else document.getElementById("lockerr").textContent = "Nope.";
 }
 

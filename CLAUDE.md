@@ -19,7 +19,8 @@ Repo: https://github.com/8r0wnie/northland-events (public)
 | `docs/ADAPTERS.md` | every adapter: endpoint, parsing details, gotchas, how to add one |
 | `docs/SOURCES.md` | `sources.yaml` fields + statuses, triage workflow, revisit list, CI-flaky sources |
 | `docs/DEPLOY.md` | GitHub Actions, Cloudflare Workers, Google Site, private pages + passphrases |
-| `moderation/README.md` | review-queue / `decisions.csv` workflow |
+| `moderation/README.md` | owner decision files (review + annual), written by `/admin` |
+| `worker/index.js` | the admin API (Cloudflare Worker) — its header comment is the endpoint reference |
 | `docs/sources-appendix.md` | the original seed list, as received (frozen — don't edit) |
 | `README.md` | public-facing overview — keep it short, link to `docs/` |
 
@@ -40,12 +41,19 @@ findings go in that entry's `notes:` field, not in docs.
    business. Owner-specific tools (PBS North tabling list, trends dashboard,
    review queue) live on separate, unlinked, `noindex`, passphrase-gated pages
    and never leak into public filters or UI.
-4. **Never publish unverified social/aggregator events.** Single-source
-   low-trust events go to the review queue, never straight to `events.json`.
+4. **Source tiers decide what publishes** (owner-set on `/admin`):
+   - *trusted* publishes alone.
+   - *source* needs a second independent website, or the owner's approval.
+   - *potential* always goes to review, and never counts as a witness.
+   Social and aggregator sources default to *source*, so a lone
+   social/aggregator event is never published unverified. Never change a
+   tier in code without the owner.
 5. **Don't destroy accumulated state.** `site/data/event_history.json` is an
    ever-growing archive (never trim it, never regenerate it from scratch).
-   `scraper/output/source_cache.json` and `moderation/decisions.csv` are also
-   hand-off state. Change them only through the code paths that own them.
+   `scraper/output/source_cache.json` and `scraper/output/source_history.json`
+   are hand-off state, and `moderation/*.csv` is owner-only (the admin page
+   writes it, and CI never does). Change them only through the code paths
+   that own them.
 6. **`scrape --only` never writes `site/data/`.** Partial runs must not
    overwrite published data. Keep it that way.
 7. **Data is committed by CI.** Local full scrapes are for testing. If you do
@@ -80,7 +88,7 @@ python main.py scrape --only <id,id>     # summary only, does NOT write site/dat
 python main.py scrape                    # all status: active sources -> ../site/data/
 python main.py refresh-local             # `refresh: local` sources -> cache only (owner's PC)
 python srcedit.py <id> key=value ...     # edit one sources.yaml entry, keeps comments
-python tests/test_posts.py               # parsing/time regression tests (also run in CI)
+python tests/test_posts.py && python tests/test_tiers.py   # regression tests (also run in CI)
 cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
 
@@ -101,8 +109,10 @@ infers categories (`models.py`), groups duplicates and applies trust rules
 (`verify.py`), tags tabling candidates (`tabling.py`), files events into the
 year-over-year archive (`recurrence.py`), and writes `site/data/*.json`.
 GitHub Actions runs this daily (~05:20 America/Chicago, plus
-`workflow_dispatch`) and commits the data. Cloudflare Workers serves `site/`
-and redeploys on every push. A Google Site iframes it as the stable public
+`workflow_dispatch`, which the admin page's "Rebuild now" calls) and commits
+the data. Cloudflare Workers serves `site/` and redeploys on every push. The
+same Worker runs `worker/index.js` for `/api/*`: the admin backend, which
+commits owner decisions to the repo (`docs/DEPLOY.md` §9). A Google Site iframes it as the stable public
 address. Details: `docs/ARCHITECTURE.md`.
 
 **Live URLs:** calendar https://northland-events.cbrown21.workers.dev ·
@@ -131,7 +141,8 @@ Per-adapter endpoints, parsing details and gotchas: `docs/ADAPTERS.md`.
   in `docs/ADAPTERS.md`, and the adapter table in `README.md`.
 - New data file, new event field, or change to what CI commits →
   `docs/ARCHITECTURE.md` and the `git add` list in `.github/workflows/scrape.yml`.
-- New page, passphrase, or deploy change → `docs/DEPLOY.md`.
+- New page, passphrase, deploy change, or new `/api` endpoint → `docs/DEPLOY.md`
+  (§9 for the admin API) and the header comment of `worker/index.js`.
 - Source triaged → its `notes:` in `sources.yaml`; reusable patterns →
   `docs/SOURCES.md`.
 - New owner rule or scope decision → the Rules section above.
@@ -184,7 +195,9 @@ A source that used to produce and now shows 0 is a regression to investigate.
 - `allevents` listings have a date but no time, so those events are all-day.
 - Explore Minnesota answers one search call per page load. The adapter makes
   exactly one call per run. Don't loop it.
-- `review.html`, `tabling.html` and `recurring.html` also accept `__dev__` as a
-  passphrase. The gate is casual-view privacy only (the JSON is public), but
-  remove the bypass if that ever matters.
-- `review.html` still uses the default passphrase `northland-admin`.
+- `tabling.html` and `recurring.html` use a client-side passphrase gate:
+  casual-view privacy only, since the JSON is public. The `__dev__` bypass
+  was removed on 2026-10-12.
+- The admin backend needs two Cloudflare secrets, `GITHUB_TOKEN` (a
+  fine-grained PAT) and `ADMIN_PASSWORD`, set by the owner (`docs/DEPLOY.md`
+  §9). The PAT expires, so renew it before then.

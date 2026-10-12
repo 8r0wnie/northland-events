@@ -6,6 +6,9 @@ Northwest Wisconsin, and Ironwood, MI.
 - **Scraper** (`scraper/`) — Python. Pulls events from ~135 active tourism, chamber,
   government, venue, and aggregator sites listed in `sources/sources.yaml`. Runs daily via
   GitHub Actions.
+- **Admin** (`/admin`): review queue, annual events, and the source list with
+  trusted, source and potential tiers. It's backed by a small Cloudflare
+  Worker API (`worker/`) that commits the owner's decisions to this repo.
 - **Site** (`site/`) — static month/week calendar (FullCalendar) that reads
   `site/data/events.json`. Deployed to Cloudflare Workers (static assets); embedded in a Google
   Site for a stable public URL.

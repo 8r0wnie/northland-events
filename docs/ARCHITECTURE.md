@@ -16,9 +16,10 @@ sources/sources.yaml (status: active)
        └─ empty     → reuse cached events if ≤ 6 days old     CACHE_MAX_AGE_DAYS
                       (≤ 10 days for `refresh: local`)        LOCAL_CACHE_MAX_AGE_DAYS
   └─ Event.normalize()          models.py   clean text, infer category
-  └─ group_events + classify    verify.py   fuzzy dedup, trust rules, decisions.csv
+  └─ group_events + classify    verify.py   fuzzy dedup, tier rules, decisions.csv
+  └─ source history + promote   main.py     potential -> source after 5/7 producing runs
   └─ classify_tabling           tabling.py  PBS North tabling flag (title only)
-  └─ recurrence                 recurrence.py  archive + annual-series view + stats
+  └─ recurrence                 recurrence.py  archive + annual view (+ owner decisions) + stats
   └─ write site/data/*.json, scraper/output/last_run.json
 ```
 
@@ -63,7 +64,10 @@ separate (see below).
 | `sources/sources.yaml` | hand, `srcedit.py`, `triage --write` (both line-level, keep comments) | scraper | no (hand commits) | source of truth for sources |
 | `site/data/events.json` | `scrape` | `index.html`, `tabling.html` | yes | rolling window, overwritten each run |
 | `site/data/review_queue.json` | `scrape` | `review.html` | yes | pending low-trust items |
-| `moderation/decisions.csv` | `scrape` appends blank rows; admin edits via `review.html` Export | `verify.py` | yes | `key,decision,title,date,source,note` |
+| `moderation/decisions.csv` | admin page (Worker API), owner only | `verify.py` | no (Worker commits) | `key,decision,title,date,source,note,decided_at` |
+| `moderation/annual_decisions.csv` | admin page (Worker API), owner only | `recurrence.py` | no (Worker commits) | `key,decision(confirm/reject),title,decided_at` |
+| `site/data/sources.json` | `scrape` | `admin.html` | yes | every registry entry + tier + last 7 runs |
+| `scraper/output/source_history.json` | `scrape` | `scrape` (auto-promotion) | yes | per source, last 14 runs: events, queued, carried |
 | `site/data/decisions.csv` | `scrape` (copy of the above) | `review.html` | yes | read-only published copy |
 | `site/data/event_history.json` | `recurrence.update_history` | `recurrence` | yes | **never trimmed**, the only long-term memory |
 | `site/data/recurring_events.json` | `recurrence.build_recurring_view` | `recurring.html` | yes | `confirmed` / `likely` series, regenerated |
@@ -109,23 +113,35 @@ in adapters.
 - **Same event:** rapidfuzz `token_set_ratio` ≥ 78 on normalized titles
   (`TITLE_RATIO`), start dates within ±1 day, and venues not clearly different
   (venue ratio ≥ 45 when both are present).
-- **Trust tier** (`registry.Source.trust_tier`): `trust:` in `sources.yaml` if
-  set, else `low` for `category: social`/`aggregator`, else `high`.
+- **Tier** (`registry.Source.effective_tier`, set from the admin page):
+  - **trusted**: its own structured events publish on their own.
+  - **source**: needs a second, independent website (or your approval).
+  - **potential**: every event goes to review, and it never counts as a
+    witness.
+  Without an explicit `tier:`, the legacy rule applies: `trust:` if set, else
+  `source` for `category: social`/`aggregator`, and `trusted` for the rest.
+- **Auto-promotion** (`main.promote_sources`): a potential source with
+  `autopromote: yes` (every source added from the admin page) becomes a
+  *source* once it has produced events on 5 of its last 7 runs (runs where
+  events were only carried forward don't count). A manual tier change on the
+  admin page clears `autopromote`, so your choice is never overridden.
 - **Inferred events:** the `posts` adapter sets `inferred: true` on events it
   read out of prose. A source vouches only for what it published as
   structured data, so `MergedEvent.inferred_sources` tracks sources whose
   only contribution to a cluster was inferred.
-- **Confirmed (published):** 2+ distinct *websites*, or 1 high-trust source
-  whose contribution was not inferred. Two registry entries on one domain,
+- **Confirmed (published):** a trusted source whose contribution was not
+  inferred, or 2+ distinct *websites* among trusted/source tiers. Two registry entries on one domain,
   such as a fair page and a festival page on hurleywi.com, count as one
   witness (`verify._site`).
-- **Held:** a single low-trust source, or a single source whose copy was
-  inferred. Written to `review_queue.json` and a blank row added to
+- **Held:** everything else, with a reason shown on the admin page: "potential
+  source", "read from page text", or "single source, not yet corroborated". Written to `review_queue.json` and a blank row added to
   `moderation/decisions.csv`, keyed by fingerprint.
 - `decision=approve` → published with `verification: "reviewed"`;
   `reject` → dropped permanently; blank → stays queued.
 
-Workflow for the admin: `moderation/README.md`.
+Decisions are made on `/admin` (see `docs/DEPLOY.md` §9 and
+`moderation/README.md`). The queue file carries every contributing source and
+the reason.
 
 ## Recurrence & trends (`recurrence.py`)
 
@@ -157,11 +173,14 @@ events. It never filters or changes the public calendar.
 | page | audience | data | gate |
 |------|----------|------|------|
 | `index.html` | public | `events.json` | none — FullCalendar 6.1.15 (jsDelivr), month/week/list, area + category filters, search |
-| `review.html` | admin | `review_queue.json`, `decisions.csv` | passphrase |
+| `admin.html` | owner | `review_queue.json`, `recurring_events.json`, `sources.json` + `/api/*` | server-side passphrase (Worker secret) |
+| `review.html` | — | redirect to `admin` | — |
 | `tabling.html` | PBS North | `events.json` (`tabling`) | passphrase, `noindex` |
 | `recurring.html` | owner | `recurring_events.json`, `scrape_stats_history.json` | passphrase, `noindex` |
 
-Passphrase gates compare a SHA-256 (`PASS_HASH` in each file). They keep
+`tabling.html` and `recurring.html` gate on a client-side SHA-256 (`PASS_HASH`
+in each file). `admin.html` is different: the Worker checks the passphrase
+server-side on every API call. They keep
 casual viewers out, not determined ones: the JSON files are public. Current
 passphrases and how to change them: `docs/DEPLOY.md`.
 

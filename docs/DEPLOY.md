@@ -58,7 +58,7 @@ Cloudflare's static-asset server auto-redirects `/review.html` → `/review`
 (307, clean-URL convention) — both paths work, it's cosmetic.
 
 **Verify:** open the URL, confirm the calendar loads with today's event count
-in the footer stamp. Open `/review.html`, unlock with the passphrase, confirm
+in the footer stamp. Open `/admin`, unlock with the admin passphrase, confirm
 the queue loads. (Confirmed working 2026-09-04.)
 
 ## 4. Google Site (the stable public address) — DONE, live at
@@ -81,7 +81,7 @@ search bar, etc.) shows up here automatically — nothing to re-publish on this
 end unless the embedded URL itself changes.
 
 If you ever want a page for the review queue too, repeat with
-`https://northland-events.cbrown21.workers.dev/review.html` as a second page
+`https://northland-events.cbrown21.workers.dev/admin` as a second page
 (mark it unlisted in the site's nav, or don't add it to the menu — it's still
 passphrase-gated).
 
@@ -95,7 +95,7 @@ passphrase-gated).
 ## 6. PBS North tabling list — DONE, private
 
 **https://northland-events.cbrown21.workers.dev/tabling.html** — passphrase-gated
-(same mechanism as `/review.html`), passphrase **`pbsnorth-tabling`**. Not linked
+(client-side passphrase gate), passphrase **`pbsnorth-tabling`**. Not linked
 from anywhere public and marked `noindex, nofollow`.
 
 Lists only upcoming events flagged as a good tabling opportunity for PBS North —
@@ -164,3 +164,51 @@ schtasks /Create /TN "NorthlandEvents-LocalRefresh" /SC DAILY /ST 04:45 /F `
 
 Remove it with `schtasks /Delete /TN "NorthlandEvents-LocalRefresh" /F`. If the PC is off,
 the run is skipped and CI keeps the last refresh for up to 10 days.
+
+
+## 9. Admin backend (review queue, annual events, sources) — `/admin`
+
+**https://northland-events.cbrown21.workers.dev/admin** (the old `/review.html` redirects here).
+
+The same Cloudflare Worker that serves `site/` runs `worker/index.js` for
+`/api/*` (`wrangler.toml`: `main = "worker/index.js"`). The admin page calls
+it to:
+- approve or reject queued events (`moderation/decisions.csv`),
+- confirm or reject suspected annual events (`moderation/annual_decisions.csv`),
+- change a source's tier or status, and add potential sources
+  (`sources/sources.yaml`),
+- start a scrape now (`workflow_dispatch` on `scrape.yml`).
+
+Each save is one commit to `main`, made with a GitHub token held by the
+Worker. The repo stays the single source of truth and keeps a full history
+of every decision. Nothing runs on the owner's PC.
+
+**One-time setup.** The Worker refuses every admin request until both
+secrets exist.
+1. **GitHub token.** github.com → Settings → Developer settings →
+   Fine-grained tokens → Generate new token.
+   - Repository access: *Only select repositories* → `northland-events`.
+   - Permissions: **Contents: Read and write**, **Actions: Read and write**.
+   - Expiration: up to one year. Put a renewal reminder on your calendar.
+2. **Cloudflare secrets.** dash.cloudflare.com → Compute → Workers →
+   `northland-events` → Settings → Variables and Secrets → Add. Choose
+   type **Secret** for both:
+   - `GITHUB_TOKEN` = the token from step 1
+   - `ADMIN_PASSWORD` = the admin passphrase you'll type on `/admin`
+     (pick a new one; `northland-admin` is retired)
+3. Deploy: secrets apply on the next deploy, and any push to `main` triggers
+   one. Or use the dashboard's **Deployments → Redeploy**.
+4. Open `/admin` and unlock. If it says "admin API not configured", a secret
+   is missing or misnamed.
+
+**Notes:**
+- Saves take effect at the next scrape. "Rebuild calendar now" starts one,
+  which takes about 30 minutes.
+- The passphrase is checked server-side (SHA-256, constant-time compare). A
+  wrong one costs a short delay. The static JSON under `site/data/` is public
+  either way, as it always was.
+- If a save conflicts with a running scrape, the Worker retries. The scrape's
+  own commit rebases with `-X ours`, so the owner's change wins.
+- Local test: put `ADMIN_PASSWORD` and `GITHUB_TOKEN` in `.dev.vars`
+  (git-ignored) and run `npx wrangler dev --var GITHUB_BRANCH:<test-branch>`
+  against a throwaway branch, never `main`.

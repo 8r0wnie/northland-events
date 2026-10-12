@@ -223,9 +223,30 @@ def _has_annual_spacing(occurrences: dict) -> bool:
                for a, b in zip(dates, dates[1:]))
 
 
-def build_recurring_view(history: dict) -> dict:
-    """Precompute the UI-ready recurring-events list from the raw history store."""
-    confirmed, likely = [], []
+def load_annual_decisions(path: Path) -> dict[str, str]:
+    """series key -> 'confirm' | 'reject', from moderation/annual_decisions.csv
+    (written by the owner through the admin page)."""
+    import csv
+    if not path.exists():
+        return {}
+    out: dict[str, str] = {}
+    with path.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh):
+            key = (row.get("key") or "").strip()
+            dec = (row.get("decision") or "").strip().lower()
+            if key and dec in ("confirm", "reject"):
+                out[key] = dec
+    return out
+
+
+def build_recurring_view(history: dict, decisions: dict[str, str] | None = None) -> dict:
+    """Precompute the UI-ready recurring-events list from the raw history store.
+
+    Owner decisions win: 'confirm' lists a series as confirmed annual even with
+    one year seen; 'reject' hides it from both lists (kept in `rejected` so the
+    admin page can undo it)."""
+    decisions = decisions or {}
+    confirmed, likely, rejected = [], [], []
     for key, entry in history.get("series", {}).items():
         if entry.get("too_frequent"):
             continue  # a meetup/class, however titled — never an annual-event candidate
@@ -247,7 +268,11 @@ def build_recurring_view(history: dict) -> dict:
             "last_url": occurrences[years[-1]]["url"] if years else None,
             "predicted_next": _predict_next(occurrences),
         }
-        if len(years) >= 2 and _has_annual_spacing(occurrences):
+        decision = decisions.get(key)
+        row["owner_decision"] = decision or ""
+        if decision == "reject":
+            rejected.append(row)
+        elif decision == "confirm" or (len(years) >= 2 and _has_annual_spacing(occurrences)):
             confirmed.append(row)
         elif signal["reasons"]:
             likely.append(row)
@@ -260,6 +285,7 @@ def build_recurring_view(history: dict) -> dict:
         "generated": datetime.now().isoformat(timespec="seconds"),
         "confirmed": confirmed,
         "likely": likely,
+        "rejected": rejected,
     }
 
 

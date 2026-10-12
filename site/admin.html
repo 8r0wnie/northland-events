@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Northland Events — Admin</title>
+<style>
+  :root {
+    --bg:#f4f6f5; --panel:#fff; --ink:#16201f; --muted:#5c6f6c; --line:#d5ddda;
+    --accent:#0d6e6b; --accent-ink:#fff;
+    --ok:#2f7d4f; --ok-bg:#e4f0e8; --no:#a3312a; --no-bg:#f2e1df; --warn:#8a5a00; --warn-bg:#f6ecd8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1414; --panel:#161e1d; --ink:#e6ecea; --muted:#93a5a1; --line:#2a3634;
+      --accent:#4bb3ad; --accent-ink:#06201f;
+      --ok:#6fc593; --ok-bg:#1a3325; --no:#e08a82; --no-bg:#3a2422; --warn:#e2b765; --warn-bg:#3a2f18; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  a { color:var(--accent); }
+  .wrap { max-width:1000px; margin:0 auto; padding:24px 16px 120px; }
+  h1 { font-size:20px; margin:0; }
+  .sub { color:var(--muted); font-size:13px; margin:2px 0 14px; }
+  button, select, input { font:inherit; color:inherit; }
+  .btn { cursor:pointer; border:1px solid var(--line); border-radius:8px; padding:7px 13px;
+    background:var(--panel); font-weight:600; }
+  .btn.primary { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  .btn:disabled { opacity:.5; cursor:default; }
+  input, select { border:1px solid var(--line); border-radius:8px; padding:6px 9px; background:var(--panel); }
+
+  #lock { max-width:340px; margin:14vh auto 0; text-align:center; }
+  #lock input { width:100%; margin:12px 0; padding:10px 12px; }
+  .err { color:var(--no); font-size:13px; min-height:1.3em; }
+
+  header.top { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; }
+  header.top .spacer { flex:1; }
+  .runs { font-size:13px; color:var(--muted); }
+  nav.tabs { display:flex; gap:4px; margin:16px 0 0; border-bottom:1px solid var(--line); }
+  nav.tabs button { border:none; background:none; padding:9px 14px; cursor:pointer; font-weight:600;
+    color:var(--muted); border-bottom:3px solid transparent; }
+  nav.tabs button.on { color:var(--ink); border-bottom-color:var(--accent); }
+  nav.tabs .n { font-variant-numeric:tabular-nums; font-weight:500; color:var(--muted); }
+
+  .savebar { position:sticky; top:0; z-index:5; background:var(--bg); padding:10px 0;
+    display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; border-bottom:1px solid var(--line); }
+  .savebar .pending { font-weight:600; }
+  .savebar .spacer { flex:1; }
+  .note { font-size:13px; color:var(--muted); }
+  .flash { font-size:13px; padding:6px 10px; border-radius:8px; }
+  .flash.ok { background:var(--ok-bg); color:var(--ok); }
+  .flash.bad { background:var(--no-bg); color:var(--no); }
+
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; align-items:center; }
+  .filters label { font-size:13px; color:var(--muted); display:flex; gap:5px; align-items:center; }
+
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 14px 10px; margin:10px 0; }
+  .card.approve { border-color:var(--ok); }
+  .card.reject, .card.confirm-no { border-color:var(--no); opacity:.65; }
+  .card.confirm-yes { border-color:var(--ok); }
+  .when { color:var(--accent); font-weight:600; font-size:13px; }
+  .card h3 { font-size:16px; margin:2px 0 3px; }
+  .where { color:var(--muted); font-size:13px; }
+  .tag { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:1px 9px;
+    font-size:12px; margin:6px 6px 0 0; background:var(--bg); }
+  .tag.reason { border-color:var(--warn); color:var(--warn); background:var(--warn-bg); }
+  .desc { font-size:13.5px; margin:8px 0; white-space:pre-wrap; }
+  .srcs { font-size:13px; margin:4px 0 10px; }
+  .acts { display:flex; gap:8px; }
+  .acts button { flex:1; cursor:pointer; padding:7px; border-radius:8px; border:1px solid var(--line);
+    background:var(--panel); font-weight:600; }
+  .acts button.on-yes { background:var(--ok-bg); color:var(--ok); border-color:var(--ok); }
+  .acts button.on-no  { background:var(--no-bg); color:var(--no); border-color:var(--no); }
+  .empty { color:var(--muted); padding:30px 0; text-align:center; }
+  h2.sec { font-size:15px; margin:22px 0 4px; }
+
+  .legend { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:8px; margin:12px 0; }
+  .legend div { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:9px 11px; font-size:13px; }
+  .legend b { display:block; }
+  .tablewrap { overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--panel); }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th, td { text-align:left; padding:7px 9px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--panel); }
+  tr.changed td { background:var(--warn-bg); }
+  td .small { font-size:12px; color:var(--muted); }
+  .dots span { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:2px;
+    background:var(--line); vertical-align:middle; }
+  .dots span.y { background:var(--ok); }
+  .dots span.c { background:none; border:1.5px solid var(--muted); }
+  details.add { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:12px 0; }
+  details.add summary { cursor:pointer; font-weight:600; }
+  .addgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:10px 0; }
+  .addgrid label { font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div id="lock">
+  <h1>Northland Events admin</h1>
+  <p class="sub">Review queue, annual events, and the source list.</p>
+  <form id="lockform">
+    <input id="pass" type="password" autocomplete="current-password" placeholder="Passphrase" autofocus>
+    <button class="btn primary" type="submit">Unlock</button>
+  </form>
+  <div class="err" id="lockerr"></div>
+</div>
+
+<main id="app" hidden>
+  <header class="top">
+    <div>
+      <h1>Northland Events admin</h1>
+      <div class="sub">Changes are saved to the project's GitHub repo. They take effect at the next scrape: daily at about 5:20 AM, or when you rebuild now.</div>
+    </div>
+    <div class="spacer"></div>
+    <span class="runs" id="runs"></span>
+    <button class="btn" id="rebuild" title="Run the scrape now (takes about 30 minutes)">Rebuild calendar now</button>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="review" class="on">Review queue <span class="n" id="n-review"></span></button>
+    <button data-tab="annual">Annual events <span class="n" id="n-annual"></span></button>
+    <button data-tab="sources">Sources <span class="n" id="n-sources"></span></button>
+  </nav>
+
+  <div class="savebar">
+    <span class="pending" id="pending">No unsaved changes</span>
+    <button class="btn primary" id="save" disabled>Save changes</button>
+    <button class="btn" id="discard" disabled>Discard</button>
+    <span class="spacer"></span>
+    <span id="flash"></span>
+  </div>
+
+  <!-- REVIEW ------------------------------------------------------------ -->
+  <section id="tab-review">
+    <div class="filters">
+      <input id="r-q" type="search" placeholder="Search title, venue, source">
+      <label>Why held <select id="r-reason"><option value="">All</option></select></label>
+      <label>Source <select id="r-source"><option value="">All</option></select></label>
+      <label><input type="checkbox" id="r-decided"> Show decided</label>
+      <span class="spacer"></span>
+      <button class="btn" id="r-all-yes">Approve all shown</button>
+      <button class="btn" id="r-all-no">Reject all shown</button>
+    </div>
+    <div class="note" id="r-summary"></div>
+    <div id="r-list"></div>
+  </section>
+
+  <!-- ANNUAL ------------------------------------------------------------ -->
+  <section id="tab-annual" hidden>
+    <p class="note">The scraper spots likely annual events from titles ("45th Annual…") and confirms them after seeing them in two years. Confirm or reject a suspected one here, and your call overrides the automatic guess.</p>
+    <input id="a-q" type="search" placeholder="Search">
+    <h2 class="sec">Suspected annual <span class="n" id="a-n-likely"></span></h2>
+    <div id="a-likely"></div>
+    <h2 class="sec">Confirmed annual <span class="n" id="a-n-confirmed"></span></h2>
+    <div id="a-confirmed"></div>
+    <h2 class="sec">Marked not annual <span class="n" id="a-n-rejected"></span></h2>
+    <div id="a-rejected"></div>
+  </section>
+
+  <!-- SOURCES ----------------------------------------------------------- -->
+  <section id="tab-sources" hidden>
+    <div class="legend">
+      <div><b>Trusted source</b>Publishes on its own. No extra check.</div>
+      <div><b>Source</b>Needs a second, independent website listing the same event, or your approval.</div>
+      <div><b>Potential source</b>Scraped, but every event comes to your review queue. It moves up to Source automatically after producing events on <span id="promote-rule">5 of its last 7</span> runs, unless you've set its tier yourself.</div>
+    </div>
+
+    <details class="add">
+      <summary>Add a potential source</summary>
+      <form id="addform">
+        <div class="addgrid">
+          <label>Name <input name="name" required maxlength="120" placeholder="Two Harbors Area Chamber"></label>
+          <label>Website <input name="url" type="url" required placeholder="https://…"></label>
+          <label>Events page (optional) <input name="events_url" type="url" placeholder="https://…/events"></label>
+          <label>Area (filter label) <input name="area" maxlength="60" placeholder="Two Harbors"></label>
+          <label>State <select name="state"><option>MN</option><option>WI</option><option>MI</option></select></label>
+          <label>Kind <select name="category">
+            <option value="venue">Venue / organization</option><option value="chamber">Chamber</option>
+            <option value="tourism">Tourism</option><option value="gov">Government</option>
+            <option value="news">News / media</option><option value="aggregator">Aggregator</option>
+            <option value="social">Social</option></select></label>
+        </div>
+        <button class="btn primary" type="submit">Add to the scrape list</button>
+        <span class="note">It's added right away as a Potential source. The scraper tries every calendar format it knows on it at the next run.</span>
+        <div class="err" id="adderr"></div>
+      </form>
+    </details>
+
+    <div class="filters">
+      <input id="s-q" type="search" placeholder="Search name, area, platform">
+      <label>Tier <select id="s-tier"><option value="">All</option><option value="trusted">Trusted</option><option value="source">Source</option><option value="potential">Potential</option></select></label>
+      <label>Status <select id="s-status"><option value="">All</option></select></label>
+      <span class="note" id="s-summary"></span>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Source</th><th>Area</th><th>Tier</th><th>Status</th><th>Last run</th><th>Last 7 runs</th><th>Notes</th></tr></thead>
+      <tbody id="s-rows"></tbody>
+    </table></div>
+  </section>
+</main>
+</div>
+
+<script>
+"use strict";
+// ── state ────────────────────────────────────────────────────────────────────
+let PASS = "";
+const S = {
+  queue: [], decided: new Map(),          // review: key -> saved decision
+  annual: { likely: [], confirmed: [], rejected: [] }, annualDecided: new Map(),
+  sources: [],                            // merged registry + run history
+  promote: { window: 7, min_runs: 5 },
+};
+const P = { review: new Map(), annual: new Map(), sources: new Map() };   // pending
+let TAB = "review";
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store = { get(k) { try { return sessionStorage.getItem(k); } catch { return null; } },
+                set(k, v) { try { sessionStorage.setItem(k, v); } catch {} },
+                del(k) { try { sessionStorage.removeItem(k); } catch {} } };
+
+async function api(path, opts = {}) {
+  const res = await fetch(path, { ...opts, headers: { "X-Admin-Key": PASS, "Content-Type": "application/json", ...(opts.headers || {}) } });
+  let data = {};
+  try { data = await res.json(); } catch {}
+  if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+  return data;
+}
+async function staticJson(path, fallback) {
+  try { const r = await fetch(path, { cache: "no-store" }); return r.ok ? await r.json() : fallback; }
+  catch { return fallback; }
+}
+function flash(msg, ok = true) {
+  const f = $("flash"); f.className = "flash " + (ok ? "ok" : "bad"); f.textContent = msg;
+  clearTimeout(flash.t); flash.t = setTimeout(() => { f.textContent = ""; f.className = ""; }, ok ? 6000 : 15000);
+}
+function fmtWhen(iso, allDay) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  const day = d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+  return allDay || (d.getHours() === 0 && d.getMinutes() === 0) ? day
+    : `${day} · ${d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })}`;
+}
+
+// ── unlock ───────────────────────────────────────────────────────────────────
+$("lockform").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  PASS = $("pass").value;
+  $("lockerr").textContent = "Checking…";
+  try { await api("/api/login", { method: "POST", body: "{}" }); }
+  catch (err) { $("lockerr").textContent = err.message; return; }
+  store.set("nl-admin", PASS);
+  start();
+});
+(async () => {
+  const saved = store.get("nl-admin");
+  if (!saved) return;
+  PASS = saved;
+  try { await api("/api/login", { method: "POST", body: "{}" }); start(); } catch { store.del("nl-admin"); }
+})();
+
+async function start() {
+  $("lock").hidden = true; $("app").hidden = false;
+  await Promise.all([loadReview(), loadAnnual(), loadSources(), loadRuns()]);
+  renderAll();
+}
+
+// ── tabs ─────────────────────────────────────────────────────────────────────
+$("tabs").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-tab]"); if (!b) return;
+  TAB = b.dataset.tab;
+  for (const x of $("tabs").querySelectorAll("button")) x.classList.toggle("on", x === b);
+  for (const t of ["review", "annual", "sources"]) $("tab-" + t).hidden = t !== TAB;
+});
+
+// ── loading ──────────────────────────────────────────────────────────────────
+async function loadReview() {
+  const [q, d] = await Promise.all([staticJson("data/review_queue.json", { events: [] }), api("/api/decisions")]);
+  S.queue = q.events || [];
+  S.decided = new Map(d.items.filter((r) => r.decision).map((r) => [r.key, r.decision]));
+  const reasons = [...new Set(S.queue.map((e) => e.reason || "single source, not yet corroborated"))].sort();
+  $("r-reason").innerHTML = '<option value="">All</option>' + reasons.map((r) => `<option>${esc(r)}</option>`).join("");
+  const srcs = [...new Set(S.queue.map((e) => e.source?.name).filter(Boolean))].sort();
+  $("r-source").innerHTML = '<option value="">All</option>' + srcs.map((r) => `<option>${esc(r)}</option>`).join("");
+}
+async function loadAnnual() {
+  const [v, d] = await Promise.all([staticJson("data/recurring_events.json", {}), api("/api/annual")]);
+  S.annual = { likely: v.likely || [], confirmed: v.confirmed || [], rejected: v.rejected || [] };
+  S.annualDecided = new Map(d.items.filter((r) => r.decision).map((r) => [r.key, r.decision]));
+}
+function deriveTier(s) {   // mirror of registry.Source.effective_tier
+  if (["trusted", "source", "potential"].includes(s.tier)) return s.tier;
+  if (s.trust === "high") return "trusted";
+  if (s.trust === "low") return "source";
+  return ["social", "aggregator"].includes(s.category) ? "source" : "trusted";
+}
+async function loadSources() {
+  const [view, live] = await Promise.all([staticJson("data/sources.json", { sources: [] }), api("/api/sources")]);
+  if (view.promote_rule) S.promote = view.promote_rule;
+  $("promote-rule").textContent = `${S.promote.min_runs} of its last ${S.promote.window}`;
+  const hist = new Map((view.sources || []).map((s) => [s.id, s]));
+  S.sources = live.sources.map((s) => {
+    const h = hist.get(s.id) || {};
+    return { ...s, tier: deriveTier(s), tier_set: !!s.tier, autopromote: s.autopromote === "yes",
+             runs: h.runs || [], last_events: h.last_events, last_queued: h.last_queued };
+  });
+  const statuses = [...new Set(S.sources.map((s) => s.status))].sort();
+  $("s-status").innerHTML = '<option value="">All</option>' + statuses.map((x) => `<option>${esc(x)}</option>`).join("");
+}
+async function loadRuns() {
+  try {
+    const { runs } = await api("/api/runs");
+    const r = runs[0];
+    if (!r) { $("runs").textContent = ""; return; }
+    const when = new Date(r.updated_at).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    $("runs").innerHTML = r.status === "completed"
+      ? `Last scrape: <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.conclusion)}</a>, ${esc(when)}`
+      : `Scrape <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.status.replace("_", " "))}</a>, started ${esc(when)}`;
+    if (r.status !== "completed") setTimeout(loadRuns, 60000);
+  } catch (err) { $("runs").textContent = ""; }
+}
+
+// ── pending changes / save ───────────────────────────────────────────────────
+function pendingCount() { return P.review.size + P.annual.size + P.sources.size; }
+function updateSavebar() {
+  const n = pendingCount();
+  $("pending").textContent = n ? `${n} unsaved change${n === 1 ? "" : "s"}` : "No unsaved changes";
+  $("save").disabled = $("discard").disabled = !n;
+}
+window.addEventListener("beforeunload", (e) => { if (pendingCount()) { e.preventDefault(); e.returnValue = ""; } });
+
+$("discard").addEventListener("click", () => { P.review.clear(); P.annual.clear(); P.sources.clear(); renderAll(); });
+$("save").addEventListener("click", async () => {
+  $("save").disabled = true;
+  const done = [];
+  try {
+    if (P.review.size) {
+      const items = [...P.review.values()];
+      await api("/api/decisions", { method: "POST", body: JSON.stringify({ items }) });
+      for (const it of items) it.decision ? S.decided.set(it.key, it.decision) : S.decided.delete(it.key);
+      done.push(`${items.length} review decision${items.length === 1 ? "" : "s"}`); P.review.clear();
+    }
+    if (P.annual.size) {
+      const items = [...P.annual.values()];
+      await api("/api/annual", { method: "POST", body: JSON.stringify({ items }) });
+      for (const it of items) it.decision ? S.annualDecided.set(it.key, it.decision) : S.annualDecided.delete(it.key);
+      done.push(`${items.length} annual decision${items.length === 1 ? "" : "s"}`); P.annual.clear();
+    }
+    if (P.sources.size) {
+      const changes = [...P.sources.entries()].map(([id, c]) => ({ id, ...c }));
+      await api("/api/sources", { method: "POST", body: JSON.stringify({ changes }) });
+      for (const c of changes) {
+        const s = S.sources.find((x) => x.id === c.id);
+        if (c.tier) { s.tier = c.tier; s.tier_set = true; s.autopromote = false; }
+        if (c.status) s.status = c.status;
+      }
+      done.push(`${changes.length} source change${changes.length === 1 ? "" : "s"}`); P.sources.clear();
+    }
+    flash(`Saved ${done.join(", ")}. They apply at the next scrape.`);
+  } catch (err) {
+    flash(`Not saved: ${err.message}. Your unsaved changes are kept; try Save again.`, false);
+  }
+  renderAll();
+});
+
+// ── review tab ───────────────────────────────────────────────────────────────
+function reviewState(key) { return P.review.has(key) ? P.review.get(key).decision : (S.decided.get(key) || ""); }
+function reviewShown() {
+  const q = $("r-q").value.trim().toLowerCase(), reason = $("r-reason").value, src = $("r-source").value;
+  const showDecided = $("r-decided").checked;
+  return S.queue.filter((e) => {
+    if (!showDecided && S.decided.has(e.key) && !P.review.has(e.key)) return false;
+    if (reason && (e.reason || "single source, not yet corroborated") !== reason) return false;
+    if (src && e.source?.name !== src) return false;
+    if (q && !`${e.title} ${e.venue} ${e.city} ${e.source?.name}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+function setReview(e, decision) {
+  const saved = S.decided.get(e.key) || "";
+  if (decision === saved) P.review.delete(e.key);
+  else P.review.set(e.key, { key: e.key, decision, title: e.title, date: (e.start || "").slice(0, 10), source: e.source?.name || "" });
+}
+function renderReview() {
+  const shown = reviewShown();
+  const open = S.queue.filter((e) => !S.decided.has(e.key)).length;
+  $("n-review").textContent = open;
+  $("r-summary").textContent = `${shown.length} shown · ${open} waiting · ${S.decided.size} decided so far (decided items leave the queue after the next scrape)`;
+  $("r-list").innerHTML = shown.length ? shown.slice(0, 300).map((e) => {
+    const st = reviewState(e.key);
+    const srcs = (e.sources && e.sources.length ? e.sources : [e.source]).filter(Boolean)
+      .map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
+    return `<div class="card ${st}" data-key="${esc(e.key)}">
+      <div class="when">${esc(fmtWhen(e.start, e.all_day))}</div>
+      <h3>${esc(e.title)}</h3>
+      <div class="where">${esc([e.venue, e.city].filter(Boolean).join(", "))}</div>
+      <div><span class="tag reason">${esc(e.reason || "single source, not yet corroborated")}</span>${e.category ? `<span class="tag">${esc(e.category)}</span>` : ""}${e.area ? `<span class="tag">${esc(e.area)}</span>` : ""}</div>
+      ${e.description ? `<div class="desc">${esc(e.description.slice(0, 400))}${e.description.length > 400 ? "…" : ""}</div>` : ""}
+      <div class="srcs">Listed by: ${srcs || "—"}</div>
+      <div class="acts">
+        <button data-d="approve" class="${st === "approve" ? "on-yes" : ""}">Approve</button>
+        <button data-d="reject" class="${st === "reject" ? "on-no" : ""}">Reject</button>
+        <button data-d="">Undecided</button>
+      </div></div>`;
+  }).join("") + (shown.length > 300 ? `<div class="empty">Showing the first 300. Narrow the filters to see the rest.</div>` : "")
+    : `<div class="empty">Nothing waiting for review.</div>`;
+}
+$("r-list").addEventListener("click", (ev) => {
+  const b = ev.target.closest("button[data-d]"); if (!b) return;
+  const key = b.closest(".card").dataset.key;
+  setReview(S.queue.find((e) => e.key === key), b.dataset.d);
+  renderReview(); updateSavebar();
+});
+for (const id of ["r-q", "r-reason", "r-source", "r-decided"]) $(id).addEventListener("input", renderReview);
+function bulk(decision) {
+  const shown = reviewShown().slice(0, 300);
+  if (!shown.length || !confirm(`${decision === "approve" ? "Approve" : "Reject"} all ${shown.length} shown events?`)) return;
+  for (const e of shown) setReview(e, decision);
+  renderReview(); updateSavebar();
+}
+$("r-all-yes").addEventListener("click", () => bulk("approve"));
+$("r-all-no").addEventListener("click", () => bulk("reject"));
+
+// ── annual tab ───────────────────────────────────────────────────────────────
+function annualState(key) { return P.annual.has(key) ? P.annual.get(key).decision : (S.annualDecided.get(key) || ""); }
+function annualCard(r) {
+  const st = annualState(r.key);
+  const cls = st === "confirm" ? "confirm-yes" : st === "reject" ? "confirm-no" : "";
+  return `<div class="card ${cls}" data-key="${esc(r.key)}">
+    <div class="when">Next expected: ${esc(r.predicted_next || "unknown")}</div>
+    <h3>${esc(r.title)}</h3>
+    <div class="where">${esc([r.venue, r.city || r.area].filter(Boolean).join(", "))}</div>
+    <div>${(r.years_seen || []).map((y) => `<span class="tag">seen ${esc(y)}</span>`).join("")}${(r.signal_reasons || []).map((x) => `<span class="tag">${esc(x)}</span>`).join("")}${r.last_url ? ` <a class="tag" href="${esc(r.last_url)}" target="_blank" rel="noopener">last listing</a>` : ""}</div>
+    <div class="acts" style="margin-top:10px">
+      <button data-d="confirm" class="${st === "confirm" ? "on-yes" : ""}">Annual event</button>
+      <button data-d="reject" class="${st === "reject" ? "on-no" : ""}">Not annual</button>
+      <button data-d="">No decision</button>
+    </div></div>`;
+}
+function renderAnnual() {
+  const q = $("a-q").value.trim().toLowerCase();
+  const f = (rows) => rows.filter((r) => !q || `${r.title} ${r.city} ${r.area}`.toLowerCase().includes(q));
+  const all = [...S.annual.likely, ...S.annual.confirmed, ...S.annual.rejected];
+  // place each series by its current (pending > saved > automatic) decision
+  const likely = [], confirmed = [], rejected = [];
+  for (const r of all) {
+    const st = annualState(r.key);
+    if (st === "reject") rejected.push(r);
+    else if (st === "confirm") confirmed.push(r);
+    // no owner decision: confirmed only if the scraper confirmed it on its own
+    // (two years seen); anything else, including an undone decision, is suspected
+    else if (S.annual.confirmed.includes(r) && r.owner_decision !== "confirm") confirmed.push(r);
+    else likely.push(r);
+  }
+  $("n-annual").textContent = likely.filter((r) => !annualState(r.key)).length;
+  for (const [id, rows] of [["likely", likely], ["confirmed", confirmed], ["rejected", rejected]]) {
+    const shown = f(rows);
+    $("a-n-" + id).textContent = `(${shown.length})`;
+    $("a-" + id).innerHTML = shown.length ? shown.map(annualCard).join("") : `<div class="empty">None.</div>`;
+  }
+}
+$("tab-annual").addEventListener("click", (ev) => {
+  const b = ev.target.closest("button[data-d]"); if (!b) return;
+  const key = b.closest(".card").dataset.key;
+  const r = [...S.annual.likely, ...S.annual.confirmed, ...S.annual.rejected].find((x) => x.key === key);
+  const saved = S.annualDecided.get(key) || "";
+  if (b.dataset.d === saved) P.annual.delete(key);
+  else P.annual.set(key, { key, decision: b.dataset.d, title: r.title });
+  renderAnnual(); updateSavebar();
+});
+$("a-q").addEventListener("input", renderAnnual);
+
+// ── sources tab ──────────────────────────────────────────────────────────────
+const TIER_LABEL = { trusted: "Trusted source", source: "Source", potential: "Potential source" };
+const STATUS_OPTS = ["active", "paused", "todo", "no-calendar", "blocked", "broken", "dead", "duplicate", "closed"];
+function srcVal(s, field) { const p = P.sources.get(s.id); return p && p[field] !== undefined ? p[field] : s[field]; }
+function renderSources() {
+  const q = $("s-q").value.trim().toLowerCase(), tier = $("s-tier").value, status = $("s-status").value;
+  const rows = S.sources.filter((s) => (!tier || srcVal(s, "tier") === tier) && (!status || srcVal(s, "status") === status)
+    && (!q || `${s.name} ${s.id} ${s.area} ${s.platform} ${s.category}`.toLowerCase().includes(q)));
+  const counts = { trusted: 0, source: 0, potential: 0 };
+  for (const s of S.sources) if (srcVal(s, "status") === "active") counts[srcVal(s, "tier")]++;
+  $("n-sources").textContent = S.sources.length;
+  $("s-summary").textContent = `${rows.length} shown · active: ${counts.trusted} trusted, ${counts.source} source, ${counts.potential} potential`;
+  $("s-rows").innerHTML = rows.map((s) => {
+    const t = srcVal(s, "tier"), st = srcVal(s, "status");
+    const dots = (s.runs || []).slice(-S.promote.window).map((r) =>
+      `<span class="${r.carried ? "c" : r.events > 0 ? "y" : ""}" title="${esc(r.date)}: ${r.events} events${r.carried ? " (carried forward)" : ""}, ${r.queued} queued"></span>`).join("");
+    const link = s.events_url && !/^[a-z]+:/.test(s.events_url.replace(/^https?:/, "")) ? s.events_url : s.url;
+    return `<tr data-id="${esc(s.id)}" class="${P.sources.has(s.id) ? "changed" : ""}">
+      <td><a href="${esc(link)}" target="_blank" rel="noopener">${esc(s.name)}</a><div class="small">${esc(s.category)} · ${esc(s.platform || "auto")}${s.refresh === "local" ? " · refresh: local" : ""}</div></td>
+      <td>${esc(s.area)}<div class="small">${esc(s.state)}</div></td>
+      <td><select data-f="tier">${["trusted", "source", "potential"].map((x) => `<option value="${x}" ${x === t ? "selected" : ""}>${TIER_LABEL[x]}</option>`).join("")}</select>
+        <div class="small">${s.autopromote && t === "potential" ? "auto-promotes" : s.tier_set ? "set by you" : "default"}</div></td>
+      <td><select data-f="status">${STATUS_OPTS.map((x) => `<option ${x === st ? "selected" : ""}>${x}</option>`).join("")}</select></td>
+      <td>${s.last_events ?? "—"} events<div class="small">${s.last_queued || 0} in review</div></td>
+      <td class="dots">${dots || '<span class="small">no runs yet</span>'}</td>
+      <td><div class="small" title="${esc(s.notes)}">${esc((s.notes || "").slice(0, 90))}${(s.notes || "").length > 90 ? "…" : ""}</div></td>
+    </tr>`;
+  }).join("");
+}
+$("s-rows").addEventListener("change", (ev) => {
+  const sel = ev.target.closest("select[data-f]"); if (!sel) return;
+  const id = sel.closest("tr").dataset.id, f = sel.dataset.f;
+  const s = S.sources.find((x) => x.id === id);
+  const p = { ...(P.sources.get(id) || {}) };
+  if (sel.value === s[f]) delete p[f]; else p[f] = sel.value;
+  Object.keys(p).length ? P.sources.set(id, p) : P.sources.delete(id);
+  renderSources(); updateSavebar();
+});
+for (const id of ["s-q", "s-tier", "s-status"]) $(id).addEventListener("input", renderSources);
+
+$("addform").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const fd = Object.fromEntries(new FormData(ev.target).entries());
+  $("adderr").textContent = "Adding…";
+  try {
+    const r = await api("/api/sources/add", { method: "POST", body: JSON.stringify(fd) });
+    S.sources.push({ id: r.id, ...fd, status: "active", tier: "potential", tier_set: true, autopromote: true, platform: "", runs: [], notes: "Added from the admin page." });
+    ev.target.reset(); $("adderr").textContent = "";
+    flash(`Added "${fd.name}" as a potential source. It's scraped from the next run on.`);
+    renderSources();
+  } catch (err) { $("adderr").textContent = err.message; }
+});
+
+// ── rebuild now ──────────────────────────────────────────────────────────────
+$("rebuild").addEventListener("click", async () => {
+  if (pendingCount() && !confirm("You have unsaved changes. Rebuild without them?")) return;
+  $("rebuild").disabled = true;
+  try {
+    await api("/api/rescrape", { method: "POST", body: "{}" });
+    flash("Scrape started. The calendar updates in about 30 minutes.");
+    setTimeout(loadRuns, 8000);
+  } catch (err) { flash(`Couldn't start the scrape: ${err.message}`, false); }
+  setTimeout(() => { $("rebuild").disabled = false; }, 60000);
+});
+
+function renderAll() { renderReview(); renderAnnual(); renderSources(); updateSavebar(); }
+</script>
+</body>
+</html>

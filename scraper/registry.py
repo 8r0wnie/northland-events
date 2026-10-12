@@ -27,6 +27,10 @@ class Source:
                              # carry the cached events forward
     timefix: str = ""        # per-site time quirk an adapter corrects, e.g. "utc-wall"
                              # (jsonld: the site's UTC instant is the real wall time)
+    tier: str = ""           # trusted | source | potential (owner-set from the admin
+                             # page); blank = derived (see effective_tier)
+    autopromote: str = ""    # "yes" = a potential source that main.promote_sources may
+                             # move to "source" once it produces events regularly
 
     @property
     def target(self) -> str:
@@ -34,12 +38,24 @@ class Source:
         return self.events_url or self.url
 
     @property
+    def effective_tier(self) -> str:
+        """trusted   - one source is enough; its events publish on their own
+        source    - needs a second, independent website to agree (or approval)
+        potential - on probation; every event goes to the review queue and it
+                    never counts as a corroborating witness
+        Owner-set `tier:` wins; otherwise the legacy `trust:`/category rule."""
+        if self.tier in ("trusted", "source", "potential"):
+            return self.tier
+        if self.trust == "high":
+            return "trusted"
+        if self.trust == "low":
+            return "source"
+        return "source" if self.category in ("social", "aggregator") else "trusted"
+
+    @property
     def trust_tier(self) -> str:
-        """A single event from a 'high' source is trusted; a single event from a
-        'low' source (aggregators, hard-to-verify origins) goes to review."""
-        if self.trust in ("high", "low"):
-            return self.trust
-        return "low" if self.category in ("social", "aggregator") else "high"
+        """Legacy two-level view of effective_tier: 'high' = trusted."""
+        return "high" if self.effective_tier == "trusted" else "low"
 
 
 def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
@@ -60,5 +76,7 @@ def load_sources(path: Path = REGISTRY_PATH) -> list[Source]:
             trust=(row.get("trust") or "").strip(),
             refresh=(row.get("refresh") or "").strip(),
             timefix=(row.get("timefix") or "").strip(),
+            tier=(row.get("tier") or "").strip(),
+            autopromote=(row.get("autopromote") or "").strip(),
         ))
     return out

@@ -128,20 +128,39 @@ def _site(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
+def _tier(sources: dict[str, Source], sid: str) -> str:
+    src = sources.get(sid)
+    return src.effective_tier if src else "potential"
+
+
 def classify(m: MergedEvent, sources: dict[str, Source]) -> str:
-    """'confirmed' | 'needs-review'."""
+    """'confirmed' | 'needs-review'.
+
+    - a *trusted* source that published the event as structured data confirms it;
+    - otherwise it takes 2+ independent websites among trusted/source tiers
+      (two registry entries on one domain - a fair page and a festival page on
+      hurleywi.com - are one witness, not two);
+    - *potential* sources never confirm and never count as a witness.
+    Text-inferred contributions (posts adapter) can witness but never confirm alone.
+    """
     distinct = set(m.source_ids)
-    # independence = distinct websites: two registry entries on one site (a
-    # fair page and a festival page on hurleywi.com) are one witness, not two
-    sites = {_site(sources[sid].url) if sources.get(sid) else sid for sid in distinct}
-    if len(sites) >= 2:
+    if any(_tier(sources, sid) == "trusted" and sid not in m.inferred_sources for sid in distinct):
         return "confirmed"
-    # a trusted source vouches only for events it published as structured data;
-    # text-inferred events from a lone source always get a human look
-    if any(sources.get(sid) and sources[sid].trust_tier == "high"
-           and sid not in m.inferred_sources for sid in distinct):
+    witnesses = {_site(sources[sid].url) if sources.get(sid) else sid
+                 for sid in distinct if _tier(sources, sid) in ("trusted", "source")}
+    if len(witnesses) >= 2:
         return "confirmed"
     return "needs-review"
+
+
+def review_reason(m: MergedEvent, sources: dict[str, Source]) -> str:
+    """Why a needs-review event is held (shown on the admin page)."""
+    tiers = {_tier(sources, sid) for sid in m.source_ids}
+    if tiers == {"potential"}:
+        return "potential source"
+    if m.inferred_sources and set(m.source_ids) <= m.inferred_sources:
+        return "read from page text"
+    return "single source, not yet corroborated"
 
 
 # ── moderation decisions ─────────────────────────────────────────────────────

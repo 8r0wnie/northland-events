@@ -1,5 +1,15 @@
 name = "northland-events"
 compatibility_date = "2026-09-04"
+# worker/index.js answers /api/* (the admin API); everything else is a static
+# file from site/, served exactly as before. See docs/DEPLOY.md §9.
+main = "worker/index.js"
 
 [assets]
 directory = "./site"
+binding = "ASSETS"
+
+[vars]
+GITHUB_REPO = "8r0wnie/northland-events"
+GITHUB_BRANCH = "main"
+# Secrets (set in the Cloudflare dashboard, never committed):
+#   ADMIN_PASSWORD, GITHUB_TOKEN

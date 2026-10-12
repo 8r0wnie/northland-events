@@ -21,4 +21,4 @@ jobs:
         run: pip install -r scraper/requirements.txt
       - name: Run regression tests (no network)
         working-directory: scraper
-        run: python tests/test_posts.py
+        run: python tests/test_posts.py && python tests/test_tiers.py

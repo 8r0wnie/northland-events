@@ -18,7 +18,7 @@ import yaml
 from registry import REGISTRY_PATH
 
 FIELD_ORDER = ["id", "name", "url", "events_url", "category", "state", "area",
-               "platform", "status", "trust", "refresh", "timefix", "notes"]
+               "platform", "status", "tier", "autopromote", "trust", "refresh", "timefix", "notes"]
 
 
 def _fmt(value: str) -> str:
