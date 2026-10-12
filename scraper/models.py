@@ -149,6 +149,26 @@ SERIES_SPAN = timedelta(days=6)
 
 _PCT = re.compile(r"%[0-9A-Fa-f]{2}")
 
+_CLOCK = re.compile(r"(?<![\d:])(1[0-2]|0?[1-9])(?::([0-5]\d))?\s*([ap])\.?\s*m\b\.?", re.I)
+_CLOCK_CUE = re.compile(r"(?:show|starts?|begins?|performance|concert|game|puck drop|tip-?off)\W{0,4}$", re.I)
+
+
+def time_from_text(text: str) -> Optional[time]:
+    """The event's start time named in its text, if that's unambiguous: the
+    only distinct clock time, or the one right after "show"/"starts"/...
+    ("Doors 6 PM | Show 7 PM" -> 7 PM). None when unsure."""
+    found = []
+    for m in _CLOCK.finditer(text or ""):
+        h = int(m.group(1)) % 12 + (12 if m.group(3).lower() == "p" else 0)
+        t = time(h, int(m.group(2) or 0))
+        cued = bool(_CLOCK_CUE.search(text[max(0, m.start() - 14):m.start()]))
+        found.append((t, cued))
+    distinct = {t for t, _ in found}
+    if len(distinct) == 1:
+        return distinct.pop()
+    cued = {t for t, c in found if c}
+    return cued.pop() if len(cued) == 1 else None
+
 _CSS_RULE = re.compile(
     r"(?:[#.@][\w-][^{}<>]{0,300}|\b(?:a|p|div|span|body|html|h[1-6]|li|ul|ol|img|table|td|tr|section|button)\b[^{}<>]{0,300})"
     r"\{[^{}]{0,1200}\}")
@@ -329,7 +349,37 @@ class Event:
             self.end = None
         if self.looks_like_series_span():
             self.end = None          # keep the first occurrence, not a bar to the last
+        self._fix_midnight_placeholder()
         return self
+
+    def _fix_midnight_placeholder(self) -> None:
+        """Many sources write "no time given" as 00:00 (Visit Duluth: start =
+        end = midnight). Shown as-is that's a fake "12:00 AM". A midnight start
+        with no real end is date-only: take the time from the description if it
+        names one clearly, else make the event all-day. Midnight-to-midnight
+        across days is a date range: all-day."""
+        if self.all_day or not self.start or self.start.time() != time(0, 0):
+            return
+        end = self.end
+        if end and end.time() >= time(23, 59):
+            self.all_day = True         # 00:00 -> 23:59: the whole day, or a date range
+            self.end = end if end.date() > self.start.date() else None
+            return
+        if end and end.time() == time(0, 0) and end.date() > self.start.date():
+            self.all_day = True
+            self.end = datetime.combine(end.date() - timedelta(days=1), time(23, 59, 59))
+            if self.end <= self.start:
+                self.end = None
+            return
+        if end and end != self.start:
+            return                      # a real end time: a genuine midnight start
+        t = time_from_text(f"{self.title}\n{self.description}")
+        if t:
+            self.start = datetime.combine(self.start.date(), t)
+            self.end = None
+        else:
+            self.all_day = True
+            self.end = None
 
     def looks_like_series_span(self) -> bool:
         """A repeating event whose end is the series' last date, not this

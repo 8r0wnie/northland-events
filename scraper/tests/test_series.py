@@ -97,6 +97,35 @@ def test_revize_interval_zero_does_not_hang():
     assert [o[0].day for o in occ] == [1, 2], occ
 
 
+def test_midnight_placeholder_takes_time_from_text_or_goes_all_day():
+    # visit-duluth, 2026-10-12: start = end = 00:00, time only in the description
+    e = Event(source_id="x", title="Sugarland Ride or Die Tour", start=datetime(2026, 10, 20),
+              end=datetime(2026, 10, 20),
+              description="with special guest Payton Sullivan. Tuesday, October 20, 2026 | AMSOIL Arena | 7:00pm").normalize()
+    assert (e.start, e.end, e.all_day) == (datetime(2026, 10, 20, 19), None, False), e
+    e = Event(source_id="x", title="Concert", start=datetime(2026, 10, 20),
+              description="Doors 6:00 PM | Show 7:30 PM").normalize()
+    assert e.start == datetime(2026, 10, 20, 19, 30) and not e.all_day, e
+    e = Event(source_id="x", title="Hadestown", start=datetime(2026, 10, 19), end=datetime(2026, 10, 19),
+              description="Tony-winning musical. Shows at 1:00 PM and 7:30 PM.").normalize()
+    assert e.all_day and e.end is None and e.start == datetime(2026, 10, 19), e     # ambiguous -> all day
+    # midnight-to-midnight across days = a date range
+    e = Event(source_id="x", title="MRPA Annual Conference", start=datetime(2026, 10, 20),
+              end=datetime(2026, 10, 23)).normalize()
+    assert e.all_day and e.end == datetime(2026, 10, 22, 23, 59, 59), e
+    # 00:00 -> 23:59 (bayfield-county-wi, douglas-county-wi) = all day / date range
+    e = Event(source_id="x", title="CNHM Program", start=datetime(2026, 10, 15),
+              end=datetime(2026, 10, 15, 23, 59)).normalize()
+    assert e.all_day and e.end is None, e
+    e = Event(source_id="x", title="Retreat", start=datetime(2026, 10, 16),
+              end=datetime(2026, 10, 18, 23, 59)).normalize()
+    assert e.all_day and e.end == datetime(2026, 10, 18, 23, 59), e
+    # a real late-night event keeps its midnight start
+    e = Event(source_id="x", title="Midnight Movie", start=datetime(2026, 10, 31),
+              end=datetime(2026, 10, 31, 2)).normalize()
+    assert e.start == datetime(2026, 10, 31) and not e.all_day, e
+
+
 def test_normalize_backstop_any_adapter():
     # any adapter: a timed weekly series published as first-class -> last-class
     e = Event(source_id="x", title="Chair Yoga", start=datetime(2026, 10, 14, 10),

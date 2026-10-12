@@ -11,7 +11,7 @@ sources/sources.yaml (status: active)
   └─ per source: adapters (pinned `platform:` chain "a,b" or the generic chain)
        ├─ keep events in [now − 1 day, now + 200 days]       HORIZON_DAYS
        ├─ trim_frequent: a title listed 20+ times → next 60 days only
-       ├─ NOT_PUBLIC: drop closures and staff-only entries ("NWLS Closed")
+       ├─ NOT_PUBLIC: drop closures, staff-only entries ("NWLS Closed") and placeholders ("DO NOT USE (internal only)")
        ├─ non-empty → store in source_cache.json
        └─ empty     → reuse cached events if ≤ 6 days old     CACHE_MAX_AGE_DAYS
                       (≤ 10 days for `refresh: local`)        LOCAL_CACHE_MAX_AGE_DAYS
@@ -300,6 +300,18 @@ Every `Event.start`/`end` is a **naive America/Chicago wall time**.
   `utc-wall` so far), never a global hack.
 - `tests/test_posts.py::test_time_zones` pins this behavior. Run the tests
   with `TZ=UTC` to imitate CI.
+- **Midnight placeholders** (`Event._fix_midnight_placeholder`, every
+  adapter). Many sources write "no time" as 00:00; Visit Duluth uses start =
+  end = midnight. Shown as-is, that's a fake "12:00 AM".
+  - A midnight start with no end, or end = start, is date-only. The start
+    time comes from the text when it's unambiguous (`time_from_text`: the
+    only clock time, or the one after "show"/"starts"/"begins"). Otherwise
+    the event is all-day.
+  - 00:00 → 23:59, and midnight → midnight across days, are all-day (with an
+    end date if they span days).
+  - A midnight start with a real end (00:00–02:00) is kept.
+  - On 2026-10-12 this cut 12:00 AM events from 77 to 2.
+  - Tests: `tests/test_series.py`. Scan: `python quality.py`.
 
 ## Fetching (`fetch.py`)
 

@@ -86,7 +86,8 @@ def scrape_source(source: Source) -> tuple[list[Event], str]:
 NOT_PUBLIC = re.compile(
     r"^\W*(?:[\w&.'-]+\s+){0,4}closed\W*$|\bclosed for\b|\b(?:office|library|offices) (?:is |are )?closed\b"
     r"|\bstaff (?:only|training|meeting|in-?service)\b|\bfor (?:library |city )?staff\b"
-    r"|\bno school\b|\bholiday\s*-\s*closed\b", re.I)
+    r"|\bno school\b|\bholiday\s*-\s*closed\b"
+    r"|\bdo not use\b|\binternal (?:use )?only\b", re.I)    # evvnt placeholders (mesabi-tribune-events)
 
 FREQUENT_MIN_COUNT = 20    # same title this often in the window ≈ weekly or more
 FREQUENT_SERIES_DAYS = 60   # ...then show only its next 60 days (rolling)
