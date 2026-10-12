@@ -143,7 +143,7 @@ Generic chain, in order (first with events wins): `tribe`, `weblink`,
 Pin-only (set `platform:` in `sources.yaml`): `simpleview`, `tribehtml`,
 `allevents`, `sidearm`, `ovationtix`, `decc`, `eventscalendar`, `spektrix`,
 `birkie`, `northhouse`, `eventbrite`, `dpcalendar`, `exploremn`,
-`squarespace`, `nps`, `evvnt`, `posts`. Adapters that drive a headless browser, and
+`squarespace`, `nps`, `evvnt`, `agile`, `posts`. Adapters that drive a headless browser, and
 the `posts` text-inference fallback, must stay pin-only. `platform:` can
 chain adapters, e.g. `govoffice,posts`. Every active source is pinned.
 

@@ -33,6 +33,24 @@ def verdict(events, sources):
     return classify(m, by_id), review_reason(m, by_id)
 
 
+def test_one_source_nightly_run_stays_separate():
+    # zeitgeist / umd-bulldogs 2026-10-12: consecutive nights from one source
+    # were merged by the +/-1 day slack (Fri + Sat hockey became one game)
+    by_id = {s.id: s for s in [src("a"), src("b")]}
+    shows = [Event(source_id="a", title="Urinetown", start=datetime(2026, 11, d, 19, 30), city="Duluth")
+             for d in (12, 13, 14)]
+    shows.append(Event(source_id="a", title="Urinetown", start=datetime(2026, 11, 15, 14), city="Duluth"))
+    assert len(group_events(shows, by_id)) == 4
+    # an exact duplicate from the same source still merges
+    dup = [Event(source_id="a", title="Urinetown", start=datetime(2026, 11, 12, 19, 30), city="Duluth")] * 2
+    assert len(group_events(dup, by_id)) == 1
+    # a second website a day off still corroborates
+    pair = [Event(source_id="a", title="Harvest Fest", start=datetime(2026, 10, 24, 10), city="Duluth"),
+            Event(source_id="b", title="Harvest Fest", start=datetime(2026, 10, 25, 10), city="Duluth")]
+    (m,) = group_events(pair, by_id)
+    assert sorted(m.source_ids) == ["a", "b"]
+
+
 def test_effective_tier_defaults():
     assert src("a").effective_tier == "trusted"
     assert src("b", category="social").effective_tier == "source"

@@ -266,6 +266,20 @@ field, so state comes from the ZIP, or from a known WI/MI town list when the
 ZIP is missing. Venues outside `DMA_BOX` (lat/lon) or outside the US (Fort
 Frances, ON) are dropped.
 
+### `agile` — Agile Ticketing show feed (venues' ticket systems)
+`GET prod3.agileticketing.net/websales/feed.ashx?guid=<guid>&format=json`,
+public, no key.
+- **Feed.** `ArrayOfEvent` has one record per performance: `Name`,
+  `StartDate`/`EndDate` (naive local wall time), `DateTBD`, `Venue{Name,
+  Address1, City, State}`, `ShortDescription`, `InfoLink`, `EventImage`.
+- **Finding the guid.** It's the `guid`/`epguid` in the venue's "buy
+  tickets" links.
+- **Pinning.** `events_url: agile:<guid>`. Add `|venue=<text>` to keep only
+  venues whose name contains it.
+- **Zeitgeist** uses `|venue=Teatro`: live theater only, not Zinema's film
+  showtimes (owner decision 2026-10-12). Its WordPress calendar is empty.
+- Category `arts`. TBD dates are skipped.
+
 ### `posts` — text inference from news posts and pages (fallback)
 For sites with no machine-readable calendar. Reads the events page (rendered
 if it's a JS shell, or if the plain page yields nothing), WordPress

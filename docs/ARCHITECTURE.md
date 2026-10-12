@@ -200,6 +200,12 @@ in adapters.
 - **Same event:** rapidfuzz `token_set_ratio` ≥ 78 on normalized titles
   (`TITLE_RATIO`), start dates within ±1 day, and venues not clearly different
   (venue ratio ≥ 45 when both are present).
+  - The ±1 day slack is only for two *different* sources disagreeing.
+  - One source listing the same title at a different start is a separate
+    performance and is never merged (`MergedEvent.listings`). Only an exact
+    repeat (same source, same start) merges.
+  - Until 2026-10-12 consecutive nights were merged, which swallowed ~600
+    listings: daily open gym, Fri/Sat hockey series, theater runs.
 - **Tier** (`registry.Source.effective_tier`, set from the admin page):
   - **trusted**: its own structured events publish on their own.
   - **source**: needs a second, independent website (or your approval).

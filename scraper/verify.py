@@ -52,6 +52,9 @@ class MergedEvent:
     source_links: list[dict] = field(default_factory=list)  # [{name, url}]
     # sources whose only contribution to this cluster was text-inferred
     inferred_sources: set = field(default_factory=set)
+    # (source_id, start) of every listing merged in: one source listing the
+    # same title at two different times is two performances, never one event
+    listings: set = field(default_factory=set)
 
     @property
     def key(self) -> str:
@@ -93,7 +96,10 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
         placed = False
         for day in (ord_ - 1, ord_, ord_ + 1):
             for m in by_day.get(day, ()):
+                if e.source_id in m.source_ids and (e.source_id, e.start) not in m.listings:
+                    continue        # Urinetown Nov 13, 14, 15 from one theater: 3 shows
                 if _same_event(m.event, e):
+                    m.listings.add((e.source_id, e.start))
                     if e.source_id not in m.source_ids:
                         if e.inferred:
                             m.inferred_sources.add(e.source_id)
@@ -113,6 +119,7 @@ def group_events(events: list[Event], sources: dict[str, Source]) -> list[Merged
             m = MergedEvent(
                 event=e,
                 inferred_sources={e.source_id} if e.inferred else set(),
+                listings={(e.source_id, e.start)},
                 source_ids=[e.source_id],
                 source_links=[{"name": name_of.get(e.source_id, e.source_id),
                                "url": e.url or url_of.get(e.source_id, "")}],
