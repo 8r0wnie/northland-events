@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T20:51:30Z",
+ "generated": "2026-10-12T22:14:07Z",
  "promote_rule": {
   "window": 7,
   "min_runs": 5
@@ -70,8 +70,8 @@
    "tier": "trusted",
    "tier_set": false,
    "autopromote": false,
-   "refresh": "",
-   "notes": "Triaged 2026-10-11: statewide Cludo search (browser, one call/run), filtered to DMA towns in adapters/exploremn.py.",
+   "refresh": "relay",
+   "notes": "Triaged 2026-10-11: statewide Cludo search (browser, one call/run), filtered to DMA towns in adapters/exploremn.py. 2026-10-12: 0 in CI, 95 locally. Explore MN refuses GitHub IPs; relay candidate (needs owner OK).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -304,13 +304,13 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: Adams Publishing evvnt community calendar - organizer-submitted listings (~500, mostly Duluth + Iron Range). Aggregator/low-trust: unmatched events go to review. Hibbing Daily Tribune (7092) shares the same pool, so not added.",
-   "last_events": 442,
-   "last_queued": 1,
+   "last_events": 440,
+   "last_queued": 56,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 442,
-     "queued": 1,
+     "events": 440,
+     "queued": 56,
      "carried": false
     }
    ]
@@ -330,12 +330,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: evvnt calendar for APG's northern-Wisconsin papers (Hayward, Hurley, Mercer, Ironwood area). Aggregator/low-trust.",
-   "last_events": 18,
+   "last_events": 16,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 18,
+     "events": 16,
      "queued": 0,
      "carried": false
     }
@@ -653,7 +653,7 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Checked 2026-10-11: classic MIC at business.ifallschamber.com (empty for the next months as of check); area-events page via posts.",
+   "notes": "Checked 2026-10-11: classic MIC at business.ifallschamber.com (empty for the next months as of check); area-events page via posts. 2026-10-12: MIC at business.ifallschamber.com loads but lists no events; the members.* DNS error in CI is only the adapter's last fallback guess. Empty, not broken.",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -820,14 +820,14 @@
    "tier": "trusted",
    "tier_set": false,
    "autopromote": false,
-   "refresh": "",
-   "notes": "Triaged 2026-10-11: WP Simple Calendar (Google-backed) on /calendar-of-events/.",
-   "last_events": 0,
+   "refresh": "relay",
+   "notes": "Triaged 2026-10-11: WP Simple Calendar (Google-backed) on /calendar-of-events/. 2026-10-12: CI gets HTTP 401, locally 123 events; relay candidate (needs owner OK).",
+   "last_events": 123,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 0,
+     "events": 123,
      "queued": 0,
      "carried": false
     }
@@ -875,12 +875,12 @@
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
    "last_events": 6,
-   "last_queued": 0,
+   "last_queued": 1,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
-     "queued": 0,
+     "queued": 1,
      "carried": false
     }
    ]
@@ -2127,12 +2127,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 102,
+   "last_events": 101,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 102,
+     "events": 101,
      "queued": 0,
      "carried": false
     }
@@ -2177,8 +2177,8 @@
    "tier": "trusted",
    "tier_set": false,
    "autopromote": false,
-   "refresh": "",
-   "notes": "Triaged 2026-10-11: CivicPlus HCMS (Drupal) calendar; plain requests 403 but a normal browser render works; grid text parsed by posts (day-first dates).",
+   "refresh": "relay",
+   "notes": "Triaged 2026-10-11: CivicPlus HCMS (Drupal) calendar; plain requests 403 but a normal browser render works; grid text parsed by posts (day-first dates). 2026-10-12: CI 403 on everything (locally posts finds 12); relay candidate (needs owner OK).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -2510,12 +2510,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Aggregates public Facebook events; date only, no time.",
-   "last_events": 192,
+   "last_events": 189,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 192,
+     "events": 189,
      "queued": 0,
      "carried": false
     }
@@ -2536,12 +2536,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 127,
+   "last_events": 126,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 127,
+     "events": 126,
      "queued": 0,
      "carried": false
     }
@@ -3305,23 +3305,23 @@
    "id": "zeitgeist",
    "name": "Zeitgeist (Zinema / Teatro Zuccone)",
    "url": "https://zeitgeistarts.com",
-   "events_url": "https://zeitgeistarts.com/events/",
+   "events_url": "agile:5f4c3824-d436-446b-a2d5-e3f1298d4df2|venue=Teatro",
    "category": "venue",
    "state": "MN",
    "area": "Duluth",
-   "platform": "tribe,jsonld,posts",
+   "platform": "agile",
    "status": "active",
    "tier": "trusted",
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Triaged 2026-10-11: TEC REST not exposed; JSON-LD/text fallback.",
-   "last_events": 0,
+   "notes": "Triaged 2026-10-11: TEC REST not exposed; JSON-LD/text fallback. 2026-10-12: TEC calendar is EMPTY (REST total 0). Shows are on Agile Ticketing, public JSON feed prod3.agileticketing.net/websales/feed.ashx?guid=5f4c3824-d436-446b-a2d5-e3f1298d4df2&format=json (138 showings: ~120 film showtimes at Zinema 1/2, ~18 live at Teatro). Adapter pending owner call on films.",
+   "last_events": 18,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 0,
+     "events": 18,
      "queued": 0,
      "carried": false
     }
@@ -3971,7 +3971,7 @@
      "date": "2026-10-12",
      "events": 12,
      "queued": 0,
-     "carried": false
+     "carried": true
     }
    ]
   },
@@ -4110,7 +4110,7 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Triaged 2026-10-11: calendar moved to /events/; Tribe REST closed, JSON-LD on page; quiet off-season.",
+   "notes": "Triaged 2026-10-11: calendar moved to /events/; Tribe REST closed, JSON-LD on page; quiet off-season. 2026-10-12: CI 403 on /events/ but the rendered JSON-LD path works; its 3 events are past (off-season).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -4278,7 +4278,7 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Triaged 2026-10-11: public NPS EventCalendarService (no key). Rendezvous Days (2nd weekend of Aug) and ranger programs appear once posted and inside the 200-day window.",
+   "notes": "Triaged 2026-10-11: public NPS EventCalendarService (no key). Rendezvous Days (2nd weekend of Aug) and ranger programs appear once posted and inside the 200-day window. 2026-10-12: service OK, 0 events posted through Apr 2027 (seasonal).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -4304,7 +4304,7 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal).",
+   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal). 2026-10-12: service OK, 0 events posted (seasonal).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
@@ -4330,7 +4330,7 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "",
-   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal).",
+   "notes": "Added 2026-10-11: NPS public event calendar (ranger programs, mostly summer; empty off-season is normal). 2026-10-12: service OK, 0 events posted (seasonal).",
    "last_events": 0,
    "last_queued": 0,
    "runs": [

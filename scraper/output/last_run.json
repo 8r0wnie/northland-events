@@ -1,16 +1,16 @@
 {
-  "when": "2026-10-12T20:51:30Z",
-  "raw": 4884,
-  "merged": 3578,
-  "published": 3577,
-  "queued": 1,
+  "when": "2026-10-12T22:14:07Z",
+  "raw": 5016,
+  "merged": 4299,
+  "published": 4242,
+  "queued": 57,
   "verification": {
-    "confirmed": 3354,
-    "multi_source": 351,
-    "trusted_single": 3003,
-    "reviewed_in": 223,
+    "confirmed": 4020,
+    "multi_source": 416,
+    "trusted_single": 3604,
+    "reviewed_in": 222,
     "reviewed_out": 0,
-    "queued": 1,
+    "queued": 57,
     "corrected": 2,
     "hidden": 0,
     "learned_category": 0
@@ -59,12 +59,12 @@
     {
       "source": "mesabi-tribune-events",
       "detail": "evvnt: 507 events (publisher 7093, 522 listings)",
-      "events": 442
+      "events": 440
     },
     {
       "source": "apg-wisconsin-events",
       "detail": "evvnt: 23 events (publisher 7120, 26 listings)",
-      "events": 18
+      "events": 16
     },
     {
       "source": "kaxe-events-up-north",
@@ -143,8 +143,8 @@
     },
     {
       "source": "hayward-chamber",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "simplecalendar: 194 events",
+      "events": 123
     },
     {
       "source": "spooner-chamber",
@@ -383,8 +383,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 102 events",
-      "events": 102
+      "detail": "civicplus: 101 events",
+      "events": 101
     },
     {
       "source": "bayfield-city-wi",
@@ -453,13 +453,13 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 192 events",
-      "events": 192
+      "detail": "allevents: 189 events",
+      "events": 189
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 127 events",
-      "events": 127
+      "detail": "allevents: 126 events",
+      "events": 126
     },
     {
       "source": "allevents-cloquet",
@@ -608,8 +608,8 @@
     },
     {
       "source": "zeitgeist",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "agile: 18 performances at venues matching 'teatro'",
+      "events": 18
     },
     {
       "source": "voyageur-brewing",
@@ -718,7 +718,7 @@
     },
     {
       "source": "ashland-county-fair",
-      "detail": "jsonld: 12 events",
+      "detail": "no adapter produced events  [carried forward from 2026-10-12]",
       "events": 12
     },
     {

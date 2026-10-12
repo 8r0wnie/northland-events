@@ -66,15 +66,15 @@
  "mesabi-tribune-events": [
   {
    "date": "2026-10-12",
-   "events": 442,
-   "queued": 1,
+   "events": 440,
+   "queued": 56,
    "carried": false
   }
  ],
  "apg-wisconsin-events": [
   {
    "date": "2026-10-12",
-   "events": 18,
+   "events": 16,
    "queued": 0,
    "carried": false
   }
@@ -202,7 +202,7 @@
  "hayward-chamber": [
   {
    "date": "2026-10-12",
-   "events": 0,
+   "events": 123,
    "queued": 0,
    "carried": false
   }
@@ -219,7 +219,7 @@
   {
    "date": "2026-10-12",
    "events": 6,
-   "queued": 0,
+   "queued": 1,
    "carried": false
   }
  ],
@@ -586,7 +586,7 @@
  "bayfield-county-wi": [
   {
    "date": "2026-10-12",
-   "events": 102,
+   "events": 101,
    "queued": 0,
    "carried": false
   }
@@ -698,7 +698,7 @@
  "allevents-duluth": [
   {
    "date": "2026-10-12",
-   "events": 192,
+   "events": 189,
    "queued": 0,
    "carried": false
   }
@@ -706,7 +706,7 @@
  "allevents-superior": [
   {
    "date": "2026-10-12",
-   "events": 127,
+   "events": 126,
    "queued": 0,
    "carried": false
   }
@@ -946,7 +946,7 @@
  "zeitgeist": [
   {
    "date": "2026-10-12",
-   "events": 0,
+   "events": 18,
    "queued": 0,
    "carried": false
   }
@@ -1124,7 +1124,7 @@
    "date": "2026-10-12",
    "events": 12,
    "queued": 0,
-   "carried": false
+   "carried": true
   }
  ],
  "hurley-area-chamber": [

@@ -1,9 +1,37 @@
 {
-  "generated": "2026-10-12T20:51:30Z",
-  "count": 1,
+  "generated": "2026-10-12T22:14:07Z",
+  "count": 57,
   "events": [
     {
-      "key": "4caaf8c97f710d43",
+      "key": "b271fe09ce91aada",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Music BINGO (opens in new tab)",
+      "start": "2026-10-13T18:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "October 13 @ 6:30 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "92cea7ef22e0f738",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -14,16 +42,1556 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "DECC Gala: a Progressive Party Through the Decades",
-      "start": "2026-11-19T17:00:00",
-      "end": "2026-11-19T21:00:00",
+      "title": "Minnesota Golden Gophers at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2026-10-17T18:00:00",
+      "end": "2026-10-17T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4de282f19f482116",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Indecent Proposal",
+      "start": "2026-10-17T21:00:00",
+      "end": "2026-10-18T01:00:00",
+      "all_day": false,
+      "venue": "Black Bear Casino Resort",
+      "city": "Carlton",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "We\u2019re back for night two at Cobalt Lounge inside Black Bear Casino Resort on Saturday, October 17 from 9 PM to midnight. Saturday nights at Black Bear always have their own kind of electricity, and we plan to lean all the way into it. Expect a high-energy night filled with the songs you know, the songs you forgot you loved, and the kind of live set that keeps the room moving from the first note to last call. Black Bear has been very good to us, and every chance we get to return to this stage means a lot.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "eb36ce49541faa9e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Fellow Travelers",
+      "start": "2026-10-21T20:00:00",
+      "end": "2026-10-22T00:00:00",
+      "all_day": false,
+      "venue": "Cedar Lounge - Earth Rider Brewery taproom",
+      "city": "Superior",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "post country // rock and roll",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "87613fa7a00d6db7",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Greenie Ghoul 5k Fun Run",
+      "start": "2026-10-23T16:00:00",
+      "end": "2026-10-23T17:30:00",
+      "all_day": false,
+      "venue": "200 Curley Avenue -",
+      "city": "Coleraine",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "The Greenway Amateur Hockey Association is hosting a Halloween Fun Run on October 24th at 4:30 pm. Registration will begin after school. There will be a 5k and a shorter options for the goblins who do not want to go as far. The race will start and end at the Hodgins-Berardo Arena in Coleraine. Please wear a costume if you would like or your favorite Greenway jersey!! $20 Entry Fee- T shirt included while supplies last $50 Immediate Family Entry Fee 3:30 PM- Registration at Hodgins-Berardo Area. You will pay for the race at this time.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "fa2330b63c465d4f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "10-12 Year Old, Session 2 (Sundays)",
+      "start": "2026-10-25T11:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "College of St. Scholastica: Burns Wellness Commons",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Learn and improve forehands, backhands, serves, volleys and more with instruction from St Scholastica tennis players and coaches while having fun. Session 1 is Sundays 9/20 - 10/18 Session 2 is Sundays 10/25 - 12/6 5-7 year old lessons 9am-10am 8-10 year old lessons 10am-11am 10-12 year old lessons 11am-12pm Schedule From: Oct 25 2026 to Dec 6 2026 Every Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday: 11:00am to\u2026",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "bdc7a35a8a4858c2",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Minnesota Golden Gophers at Minnesota Duluth Bulldogs Womens Hockey",
+      "start": "2026-10-31T15:00:00",
+      "end": "2026-10-31T19:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "13452b7584f1d39e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Miami RedHawks at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2026-11-07T18:00:00",
+      "end": "2026-11-07T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "3772da126ac4b380",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Springfield Jr. Blues at Minnesota Wilderness",
+      "start": "2026-11-07T19:15:00",
+      "end": "2026-11-07T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "879545972fd7b934",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "UMD Men's Hockey v. Arizona State",
+      "start": "2026-11-21T17:00:00",
+      "end": "2026-11-21T21:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Any fan over the age of 3 needs a ticket to enter the arena.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "2c40fae19ca36151",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Arizona State Sun Devils at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2026-11-21T17:07:00",
+      "end": "2026-11-21T21:07:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "1c288f2a17c4c114",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Janesville Jets at Minnesota Wilderness",
+      "start": "2026-11-21T19:15:00",
+      "end": "2026-11-21T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f23e1c33f6b99095",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Indecent Proposal",
+      "start": "2026-11-21T20:00:00",
+      "end": "2026-11-22T00:00:00",
+      "all_day": false,
+      "venue": "Mr. D's Bar & Grill",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Indecent Proposal is coming back to Mr. D\u2019s Bar & Grill in Duluth, MN on Saturday, November 21st from 8 PM\u2013midnight. It has been a while since we\u2019ve hit the Mr. D\u2019s stage, and we\u2019re ready to bring the full night back with your favorite covers, originals, loud guitars, and plenty of Indecent energy. Grab your crew, settle in, and spend the night with us at Mr. D\u2019s. Come out and get Indecent \ud83d\ude08\ud83d\ude0e\ud83c\udfb8\ud83e\udd18\ud83d\udc9c www.indyp218.com Indecent Proposal is a band out of Duluth, Minnesota, built around connection, feel, and songs that hold up in a room full of people.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4a9192ec36b8b40d",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "A Christmas Story - The Musical",
+      "start": "2026-12-06T14:00:00",
+      "end": "2026-12-06T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "508a151464d009be",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Minnesota Ballet - The Nutcracker - A Duluth Tale",
+      "start": "2026-12-12T15:00:00",
+      "end": "2026-12-12T19:00:00",
+      "all_day": false,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "87d62d0fb638580d",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "The Nutcracker: A Duluth Tale",
+      "start": "2026-12-12T15:00:00",
+      "end": "2026-12-12T19:00:00",
       "all_day": false,
       "venue": "DECC Symphony Hall",
       "city": "Duluth",
       "area": "Iron Range",
-      "category": "community",
+      "category": "other",
       "price": "",
-      "description": "The First-Ever DECC Gala: a Progressive Party through the Decades We're excited to announce the inaugural DECC Gala, a one-of-a-kind celebration honoring the 60th Anniversary of the DECC. This isn't your typical gala because the DECC, with 10 community venues, is anything but typical. Guests will embark on a progressive journey through the decades and across the DECC campus, experiencing the history of the organization in a truly immersive way.",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "184d5288e1b06183",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kenai River Brown Bears at Minnesota Wilderness",
+      "start": "2026-12-12T19:15:00",
+      "end": "2026-12-12T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "51c4170eab04b072",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "A Christmas Story - The Musical",
+      "start": "2026-12-13T14:00:00",
+      "end": "2026-12-13T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "7683cc1df1ef91ed",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Anchorage Wolverines at Minnesota Wilderness",
+      "start": "2026-12-19T19:15:00",
+      "end": "2026-12-19T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "dce433acf7dc621c",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "A Christmas Story",
+      "start": "2026-12-20T14:00:00",
+      "end": "2026-12-20T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "c6a7246f4370ddd6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kenai River Brown Bears at Minnesota Wilderness",
+      "start": "2027-01-02T19:15:00",
+      "end": "2027-01-02T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ff638919cb9dc5d4",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "UMD Men's Hockey v. Colorado College",
+      "start": "2027-01-09T18:00:00",
+      "end": "2027-01-09T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Any fan over the age of 3 needs a ticket to enter the arena.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ddea38db337a4df4",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Colorado College Tigers at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2027-01-09T18:07:00",
+      "end": "2027-01-09T22:07:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "968ada3d2b63d7ed",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Wisconsin Windigo at Minnesota Wilderness",
+      "start": "2027-01-16T19:15:00",
+      "end": "2027-01-16T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "bbb850bfb573654f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Denver Pioneers at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2027-01-23T18:00:00",
+      "end": "2027-01-23T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "7ab616af781cbe9d",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Flo Rida",
+      "start": "2027-02-03T20:00:00",
+      "end": "2027-02-04T00:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f036b9b8f8d04110",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "UMD Women's Hockey v. Bemidji State",
+      "start": "2027-02-06T15:02:00",
+      "end": "2027-02-06T19:02:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "02c0da1ff98dee33",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "St. Thomas Tommies at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2027-02-12T19:00:00",
+      "end": "2027-02-12T23:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "87d226e425425a9f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Wisconsin Badgers at Minnesota Duluth Bulldogs Womens Hockey",
+      "start": "2027-02-13T14:00:00",
+      "end": "2027-02-13T18:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ef506561e201a5ca",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "St. Thomas Tommies at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2027-02-13T18:00:00",
+      "end": "2027-02-13T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f2bc81f2f3e13fb2",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Janesville Jets at Minnesota Wilderness",
+      "start": "2027-02-13T19:15:00",
+      "end": "2027-02-13T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "759df04cfdffdca2",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Missionary Positions",
+      "start": "2027-02-19T19:30:00",
+      "end": "2027-02-19T23:30:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "de189dfd39051ba4",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Anchorage Wolverines at Minnesota Wilderness",
+      "start": "2027-02-20T19:15:00",
+      "end": "2027-02-20T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "2294e6dd82a22ea5",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "The Missionary Position",
+      "start": "2027-02-21T14:00:00",
+      "end": "2027-02-21T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "a0eeda869077925e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Conner Smith",
+      "start": "2027-02-21T19:00:00",
+      "end": "2027-02-21T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "2bde129ecec5ebe4",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "The Missionary Position",
+      "start": "2027-02-26T19:30:00",
+      "end": "2027-02-26T23:30:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "6326e88ec63cc8fc",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "North Dakota Fighting Hawks at Minnesota Duluth Bulldogs Mens Hockey",
+      "start": "2027-02-27T18:00:00",
+      "end": "2027-02-27T22:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "3138c1f3a1a427b3",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "The Missionary Position",
+      "start": "2027-02-28T14:00:00",
+      "end": "2027-02-28T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "d50b6f499ef56195",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Wisconsin Windigo at Minnesota Wilderness",
+      "start": "2027-03-13T19:15:00",
+      "end": "2027-03-13T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "5ec8114434373618",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Dear Evan Hansen",
+      "start": "2027-03-14T14:00:00",
+      "end": "2027-03-14T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "\u201cONE OF THE MOST REMARKABLE SHOWS IN MUSICAL THEATRE HISTORY\u201d The Washington Post A letter that was never meant to be seen, a lie that was never meant to be told, a life he never dreamed he could have. Evan Hansen is about to get the one thing he\u2019s always wanted: a chance to finally fit in. From the Tony, Oscar and Golden Globe-winning songwriting team Ben Pasek and Justin Paul (The Greatest Showman, La La Land), DEAR EVAN HANSEN is a new musical about life and the way we live it. Opening in November 2019. Book your tickets today.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "74d3b6a4baf36ebc",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Minnesota Mallards at Minnesota Wilderness",
+      "start": "2027-03-20T19:15:00",
+      "end": "2027-03-20T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "7f73b657b7fc836f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Dear Evan Hansen",
+      "start": "2027-03-21T14:00:00",
+      "end": "2027-03-21T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "\u201cONE OF THE MOST REMARKABLE SHOWS IN MUSICAL THEATRE HISTORY\u201d The Washington Post A letter that was never meant to be seen, a lie that was never meant to be told, a life he never dreamed he could have. Evan Hansen is about to get the one thing he\u2019s always wanted: a chance to finally fit in. From the Tony, Oscar and Golden Globe-winning songwriting team Ben Pasek and Justin Paul (The Greatest Showman, La La Land), DEAR EVAN HANSEN is a new musical about life and the way we live it. Opening in November 2019. Book your tickets today.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "91a248af00fe7770",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "NCAA Womens Hockey Frozen Four - Semifinals",
+      "start": "2027-03-21T18:59:00",
+      "end": "2027-03-21T22:59:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "1225d0624b9a8a75",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Wisconsin Windigo at Minnesota Wilderness",
+      "start": "2027-03-27T19:15:00",
+      "end": "2027-03-27T23:15:00",
+      "all_day": false,
+      "venue": "Northwoods Credit Union Arena",
+      "city": "Cloquet",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "51caaa3375e04860",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: USA vs. Norway",
+      "start": "2027-04-21T19:00:00",
+      "end": "2027-04-21T23:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e37a2c9e16ca689c",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Finland vs. Belarus",
+      "start": "2027-04-22T11:00:00",
+      "end": "2027-04-22T15:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ae7eca51540b647c",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Denmark vs. Norway",
+      "start": "2027-04-22T15:00:00",
+      "end": "2027-04-22T19:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e12b228129f8f342",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Slovakia vs. Czechia",
+      "start": "2027-04-24T11:00:00",
+      "end": "2027-04-24T15:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "9602e49a9adc7d0a",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: USA vs. Sweden",
+      "start": "2027-04-24T19:00:00",
+      "end": "2027-04-24T23:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00pm Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden @ 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "a89ee00e8c526324",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Charlie and the Chocolate Factory Jr.",
+      "start": "2027-04-25T14:00:00",
+      "end": "2027-04-25T18:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "56a2ff3fc2e950e0",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Finland vs. Canada",
+      "start": "2027-04-25T15:00:00",
+      "end": "2027-04-25T19:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "a89ee00e8c526324",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Charlie and the Chocolate Factory Jr.",
+      "start": "2027-04-25T17:00:00",
+      "end": "2027-04-25T21:00:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ca13491deb2d3f8b",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Norway vs. Sweden",
+      "start": "2027-04-26T15:00:00",
+      "end": "2027-04-26T19:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "76f96f5562d2bd94",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Denmark vs. USA",
+      "start": "2027-04-26T19:00:00",
+      "end": "2027-04-26T23:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "1887d9ab79e7f4ab",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Slovakia vs. Finland",
+      "start": "2027-04-27T11:00:00",
+      "end": "2027-04-27T15:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "6ec673da2d8c2d15",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Latvia vs. Denmark",
+      "start": "2027-04-27T15:00:00",
+      "end": "2027-04-27T19:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "0350f0aff0fc81f7",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "IIHF Ice Hockey U18 World Championship (Relegation)",
+      "start": "2027-04-30T12:00:00",
+      "end": "2027-04-30T16:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

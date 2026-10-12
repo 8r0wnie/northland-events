@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T20:51:30",
+  "generated": "2026-10-12T22:14:07",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -500,6 +500,26 @@
       ],
       "last_date": "2026-10-17",
       "last_url": "https://www.coawi.org/517/Ashland-Community-Events",
+      "predicted_next": "2027-10-17",
+      "owner_decision": ""
+    },
+    {
+      "key": "wheelin for vets atv ride veterans community center|hayward",
+      "title": "2nd Annual Wheelin' for Vets ATV Ride - Veterans Community Center",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-10-17",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
       "predicted_next": "2027-10-17",
       "owner_decision": ""
     },
