@@ -4,7 +4,7 @@
 fields, how to triage, and the cross-cutting findings that don't belong to any
 one entry. Per-source findings go in that entry's `notes:`.
 
-Snapshot 2026-10-12, after the coverage push: 161 sources. 138 active,
+Snapshot 2026-10-12, after the coverage push: 171 sources. 148 active,
 0 todo, 5 no-calendar, 7 blocked, 2 broken, 4 dead, 4 duplicate, 1 closed.
 Every active source has a pinned `platform:`. Re-count with
 `python -c "from registry import load_sources; import collections; print(collections.Counter(s.status for s in load_sources()))"`
@@ -113,6 +113,10 @@ belongs on this list. Check the CI log for `HTTP 403` first.
 **Facebook / Instagram:** not scraped directly and won't be. There has been no
 public events API since 2018. Event pages are login-walled, datacenter IPs get
 blocked, and it breaks the ToS. Public Facebook events come in via the
-`allevents` aggregator and go through review. Eventbrite is partly covered by
+`allevents` aggregator and go through review. Since 2026-10-12 it covers 19
+DMA towns: the original 9 plus Ely, Grand Marais, Hayward, Ironwood, Spooner,
+Silver Bay, Moose Lake, Aitkin, Hinckley and Washburn. Slugs vary
+(`ely-mn`, `ironwood`, `hayward-wi`), so check that the final URL wasn't
+redirected to /events. Bayfield and Eveleth have no allevents page. Eventbrite is partly covered by
 allevents. Ticketmaster Discovery has a free API, but it needs an account key,
 so it needs owner approval first.
