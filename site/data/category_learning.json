@@ -1,0 +1,153 @@
+{
+  "generated": "2026-10-12T17:19:52Z",
+  "min_support": 3,
+  "min_share": 0.75,
+  "corrections": 2,
+  "confirmations": 0,
+  "rules": [],
+  "pending": [
+    {
+      "key": "bay|community|music",
+      "feature": "bay",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "detour|community|music",
+      "feature": "detour",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "donkey|holiday|music",
+      "feature": "donkey",
+      "from": "holiday",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udf83 Swamp Donkey at the Riv for Halloween \ud83d\udc7b"
+      ]
+    },
+    {
+      "key": "halloween|holiday|music",
+      "feature": "halloween",
+      "from": "holiday",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udf83 Swamp Donkey at the Riv for Halloween \ud83d\udc7b"
+      ]
+    },
+    {
+      "key": "lounge|community|music",
+      "feature": "lounge",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "riv|holiday|music",
+      "feature": "riv",
+      "from": "holiday",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udf83 Swamp Donkey at the Riv for Halloween \ud83d\udc7b"
+      ]
+    },
+    {
+      "key": "sidestreet|community|music",
+      "feature": "sidestreet",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "silver|community|music",
+      "feature": "silver",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "source:allevents-cloquet|holiday|music",
+      "feature": "source:allevents-cloquet",
+      "from": "holiday",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udf83 Swamp Donkey at the Riv for Halloween \ud83d\udc7b"
+      ]
+    },
+    {
+      "key": "source:allevents-silver-bay|community|music",
+      "feature": "source:allevents-silver-bay",
+      "from": "community",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udfb5Sidestreet Detour @ Silver Bay Lounge \ud83c\udfb5"
+      ]
+    },
+    {
+      "key": "swamp|holiday|music",
+      "feature": "swamp",
+      "from": "holiday",
+      "to": "music",
+      "support": 1,
+      "against": 0,
+      "examples": [
+        "\ud83c\udf83 Swamp Donkey at the Riv for Halloween \ud83d\udc7b"
+      ]
+    }
+  ],
+  "confusion": [
+    {
+      "from": "community",
+      "to": "music",
+      "count": 1
+    },
+    {
+      "from": "holiday",
+      "to": "music",
+      "count": 1
+    }
+  ],
+  "by_source": [
+    {
+      "source": "allevents-silver-bay",
+      "count": 1
+    },
+    {
+      "source": "allevents-cloquet",
+      "count": 1
+    }
+  ]
+}

@@ -72,7 +72,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-11",
+     "date": "2026-12-04",
      "title": "Meat Raffle",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -1152,7 +1152,7 @@
   },
   "live music at taphouse|bayfield county": {
    "title": "Live Music at the Taphouse",
-   "venue": "",
+   "venue": "Jester's Sports Bar",
    "city": "Washburn",
    "area": "Bayfield County",
    "category": "music",
@@ -1160,7 +1160,7 @@
     "2026": {
      "date": "2026-10-16",
      "title": "Live Music at the Taphouse",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=9708"
     }
    },
@@ -2204,7 +2204,7 @@
     "2027": {
      "date": "2027-04-13",
      "title": "Library Board Meeting",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
@@ -2218,7 +2218,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-22",
+     "date": "2026-12-15",
      "title": "Regular Meeting of the County Board of Commissioners",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -2226,7 +2226,7 @@
     "2027": {
      "date": "2027-04-13",
      "title": "Regular Meeting of the County Board of Commissioners",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://cookcountymn.gov/calendar.php"
     }
    },
@@ -2284,7 +2284,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-29",
+     "date": "2026-12-22",
      "title": "Shut-up and Write",
      "source_count": 1,
      "url": "https://www.silverbaymn.gov/calendar.php"
@@ -3038,7 +3038,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-30",
+     "date": "2026-12-09",
      "title": "Sit n' Knit",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/sit-n-knit/1629/"
@@ -3060,13 +3060,13 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-12-09",
      "title": "Rec Board Meeting",
      "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "elder exercise class|cloquet": {
    "title": "Elder Exercise Class",
@@ -3076,7 +3076,7 @@
    "category": "education",
    "occurrences": {
     "2026": {
-     "date": "2026-12-30",
+     "date": "2026-12-23",
      "title": "Elder Exercise Class",
      "source_count": 1,
      "url": "https://fdlband.org/calendar.php"
@@ -4404,10 +4404,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-08",
+     "date": "2026-10-22",
      "title": "Economic Development Authority Meeting",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-90"
+     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-92"
     }
    },
    "too_frequent": false
@@ -6327,15 +6327,15 @@
   "swcd board meeting|lake county": {
    "title": "SWCD Board Meeting",
    "venue": "SWCD",
-   "city": "International Falls",
+   "city": "Duluth",
    "area": "Lake County",
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-13",
      "title": "SWCD Board Meeting",
-     "source_count": 3,
-     "url": "https://lakecountymn.gov/events/swcd-board-meeting-11/"
+     "source_count": 2,
+     "url": "https://lakecountymn.gov/events/swcd-special-board-meeting/"
     }
    },
    "too_frequent": false
@@ -7700,13 +7700,13 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-12-17",
      "title": "Highway Advisory Committee",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-04-15",
+     "date": "2027-03-18",
      "title": "Highway Advisory Committee",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -9462,13 +9462,13 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-22",
+     "date": "2026-11-24",
      "title": "Technology Committee",
      "source_count": 1,
      "url": "https://www.pinecountymn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-04-27",
+     "date": "2027-03-23",
      "title": "Technology Committee",
      "source_count": 1,
      "url": "https://www.pinecountymn.gov/calendar.php"
@@ -9816,7 +9816,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-12-31",
+     "date": "2026-10-29",
      "title": "Firewise Committee",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -12332,7 +12332,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-21",
      "title": "St. Louis County New Forfeiture List Property Auction",
      "source_count": 1,
      "url": "https://www.perfectduluthday.com/the-event/st-louis-county-new-forfeiture-list-property-auction/"
@@ -13217,7 +13217,7 @@
    "too_frequent": false
   },
   "family weekend|grand marais": {
-   "title": "Family Weekend",
+   "title": "Family Weekend 2026",
    "venue": "North House Folk School",
    "city": "Grand Marais",
    "area": "Grand Marais",
@@ -13225,9 +13225,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-10-16",
-     "title": "Family Weekend",
+     "title": "Family Weekend 2026",
      "source_count": 2,
-     "url": "https://www.visitcookcounty.com/event/family-weekend/1139/"
+     "url": "https://northhouse.org/events/family-weekend-2026"
     }
    },
    "too_frequent": false
@@ -15458,7 +15458,7 @@
     "2026": {
      "date": "2026-11-20",
      "title": "UMD Men\u2019s Hockey vs Arizona State University",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://decc.org/event/umd-mens-hockey-vs-arizona-state-university/"
     }
    },
@@ -15594,7 +15594,7 @@
   },
   "ladies night out|spooner": {
    "title": "Ladies Night Out",
-   "venue": "",
+   "venue": "Downtown Spooner",
    "city": "Spooner",
    "area": "Spooner",
    "category": "other",
@@ -15602,7 +15602,7 @@
     "2026": {
      "date": "2026-11-23",
      "title": "Ladies Night Out",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://spoonerchamber.org/event/ladies-night-out-2/"
     }
    },
@@ -15680,7 +15680,7 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "title": "Turkey Birkie",
      "source_count": 1,
      "url": "https://www.birkie.com/ski/events/turkey/"
@@ -16008,7 +16008,7 @@
     "2026": {
      "date": "2026-12-04",
      "title": "UMD Women\u2019s Hockey vs St. Cloud",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://decc.org/event/umd-womens-hockey-vs-stcloud-dec4/"
     }
    },
@@ -16072,7 +16072,7 @@
     "2026": {
      "date": "2026-12-05",
      "title": "Duluth Winter Village",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://visitduluth.com/event/duluth-winter-village/2026-12-05/1/"
     }
    },
@@ -18647,16 +18647,16 @@
    "venue": "Honest Dog Books",
    "city": "Bayfield",
    "area": "Bayfield",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-09-09",
+     "date": "2026-12-10",
      "title": "StorySLAM: Bayfield",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.bayfield.org/event/storyslam%3a-bayfield/5905/"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "cribbage game night|duluth": {
    "title": "Cribbage & Game Night",
@@ -18666,10 +18666,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "title": "Cribbage & Game Night",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/cribbage-and-game-night/200030770581525"
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/cribbage-and-game-night/200030826209356"
     }
    },
    "too_frequent": false
@@ -23193,10 +23193,10 @@
    "venue": "Wildblue Gallery and Studios",
    "city": "Bayfield",
    "area": "Bayfield",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-13",
+     "date": "2026-10-15",
      "title": "Felt Making Demonstartions",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/felt-making-demonstartions/5938/"
@@ -31437,7 +31437,7 @@
    "too_frequent": false
   },
   "all you can eat waffle breakfast|duluth": {
-   "title": "All You Can Eat Waffle Breakfast",
+   "title": "All You Can Eat Waffle Breakfast 2026",
    "venue": "Clyde Iron Works",
    "city": "Duluth",
    "area": "Duluth",
@@ -31445,9 +31445,9 @@
    "occurrences": {
     "2026": {
      "date": "2026-11-01",
-     "title": "All You Can Eat Waffle Breakfast",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/all-you-can-eat-waffle-breakfast/100002001771123316"
+     "title": "All You Can Eat Waffle Breakfast 2026",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/all-you-can-eat-waffle-breakfast-2026/"
     }
    },
    "too_frequent": false
@@ -32228,7 +32228,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-10-16",
      "title": "Live Music at Bluefin Grille",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/live-music-at-bluefin-grille/7421/"
@@ -32244,7 +32244,7 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-12-28",
+     "date": "2026-12-07",
      "title": "Monday Music @ Voyageur Brewing",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/monday-music-%40-voyageur-brewing/7699/"
@@ -32257,7 +32257,7 @@
    "venue": "Chik-Wauk Museum & Nature Center",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "family",
    "occurrences": {
     "2026": {
      "date": "2026-10-12",
@@ -32273,7 +32273,7 @@
    "venue": "Gun Flint Tavern Rooftop",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-12",
@@ -32620,7 +32620,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-12-29",
+     "date": "2026-12-08",
      "title": "Eric Frost LIVE at The Winery",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/eric-frost-live-at-the-winery/6332/"
@@ -32642,7 +32642,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-12-29",
+     "date": "2026-12-08",
      "title": "Open Mic Tuesdays! EVERY WEEK",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/open-mic-tuesdays!-every-week/7156/"
@@ -33071,7 +33071,7 @@
    "venue": "East Bay Suites",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-28",
@@ -33513,10 +33513,10 @@
    "venue": "Jester's Sports Bar",
    "city": "Duluth",
    "area": "Washburn County",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-12-31",
+     "date": "2026-12-10",
      "title": "DJ Trivia Night",
      "source_count": 1,
      "url": "https://www.washburncounty.org/event/dj-trivia-night/3567/"
@@ -33883,7 +33883,7 @@
    "venue": "Cascade Lodge Restaurant & Pub",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-17",
@@ -33899,7 +33899,7 @@
    "venue": "Drury Lane Books",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-17",
@@ -34299,7 +34299,7 @@
    "venue": "Chik-Wauk Museum & Nature Center",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-10-18",
@@ -35797,7 +35797,7 @@
    "venue": "Sawyer Community Center",
    "city": "Cloquet",
    "area": "Cloquet",
-   "category": "community",
+   "category": "family",
    "occurrences": {
     "2026": {
      "date": "2026-10-31",
@@ -36653,7 +36653,7 @@
    "venue": "Bloom Floral, Greenhouse & Gift",
    "city": "",
    "area": "Washburn County",
-   "category": "community",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-19",
@@ -36685,7 +36685,7 @@
    "venue": "Trego Area Businesses",
    "city": "",
    "area": "Washburn County",
-   "category": "community",
+   "category": "holiday",
    "occurrences": {
     "2026": {
      "date": "2026-11-20",
@@ -36867,7 +36867,7 @@
    "venue": "Erika Quam Memorial Theater of the Shell Lake Arts Center",
    "city": "",
    "area": "Washburn County",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-12-04",
@@ -37102,7 +37102,7 @@
     "2026": {
      "date": "2026-12-12",
      "title": "Sophie Hiroko + Cigarette Picnic",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://allevents.in/superior/sophie-hiroko-cigarette-picnic/100002002727469774"
     }
    },
@@ -37691,7 +37691,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-14",
@@ -37723,7 +37723,7 @@
    "venue": "95 Outer Dr, Silver Bay, MN, United States, Minnesota 55614",
    "city": "Silver Bay",
    "area": "Silver Bay",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-16",
@@ -37739,7 +37739,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-16",
@@ -37803,7 +37803,7 @@
    "venue": "Caribou Highlands Lodge",
    "city": "Grand Marais",
    "area": "Grand Marais",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-25",
@@ -37819,7 +37819,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-10-19",
@@ -37995,7 +37995,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-04",
@@ -38011,7 +38011,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-06",
@@ -38043,7 +38043,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-09",
@@ -38075,7 +38075,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-12",
@@ -38139,7 +38139,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-16",
@@ -38171,7 +38171,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-18",
@@ -38203,7 +38203,7 @@
    "venue": "",
    "city": "Iron Range",
    "area": "Iron Range",
-   "category": "other",
+   "category": "education",
    "occurrences": {
     "2026": {
      "date": "2026-11-20",
@@ -38436,7 +38436,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-12",
+     "date": "2026-12-07",
      "title": "Mahjong Mondays",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/mahjong-mondays/5982/"
@@ -41156,13 +41156,13 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-11-18",
      "title": "Open Mic",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.bayfield.org/event/open-mic/5979/"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "annie at chanhassen dinner theatre|duluth": {
    "title": "\"ANNIE\" AT CHANHASSEN DINNER THEATRE",
@@ -41889,7 +41889,7 @@
    "venue": "Honest Dog Books",
    "city": "Bayfield",
    "area": "Bayfield",
-   "category": "community",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-24",
@@ -43687,7 +43687,7 @@
    "venue": "The River Inn Bar & Grill",
    "city": "Cloquet",
    "area": "Cloquet",
-   "category": "holiday",
+   "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-10-31",
@@ -49368,6 +49368,342 @@
      "title": "IIHF Ice Hockey U18 World Championship (Quarterfinals)",
      "source_count": 1,
      "url": "https://www.mesabitribune.com/local-events"
+    }
+   },
+   "too_frequent": false
+  },
+  "visual culture lecture series sandra maxa mark sanders graphic design|duluth": {
+   "title": "Visual Culture Lecture Series: Sandra Maxa & Mark Sanders (Graphic Design)",
+   "venue": "University of Minnesota Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Visual Culture Lecture Series: Sandra Maxa & Mark Sanders (Graphic Design)",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/visual-culture-lecture-series-sandra-maxa-and-mark-sanders-graphic-design/200030826208643"
+    }
+   },
+   "too_frequent": false
+  },
+  "airport mtg canceled|ely": {
+   "title": "Airport Mtg - Canceled",
+   "venue": "209 E Chapman St",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-13",
+     "title": "Airport Mtg - Canceled",
+     "source_count": 1,
+     "url": "https://calendar.google.com/calendar/ical/ely.mn.us_e8e3c2380hhmm5kgbkcv9ga7qs%40group.calendar.google.com/public/basic.ics"
+    }
+   },
+   "too_frequent": false
+  },
+  "canceled mayor open house|two harbors": {
+   "title": "CANCELED-Mayor Open House",
+   "venue": "522 1st Ave Two Harbors, MN 55616",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-14",
+     "title": "CANCELED-Mayor Open House",
+     "source_count": 1,
+     "url": "https://www.twoharborsmn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "55 chair yoga w sandra brue|bayfield": {
+   "title": "55+ Chair Yoga w/ Sandra Brue",
+   "venue": "HUB on Broad",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-10",
+     "title": "55+ Chair Yoga w/ Sandra Brue",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/55%2b-chair-yoga-w-sandra-brue/5533/"
+    }
+   },
+   "too_frequent": true
+  },
+  "family friendly hayrides|grand marais": {
+   "title": "Family Friendly Hayrides",
+   "venue": "Williams' Farm",
+   "city": "Grand Marais",
+   "area": "Grand Marais",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-16",
+     "title": "Family Friendly Hayrides",
+     "source_count": 1,
+     "url": "https://www.visitcookcounty.com/event/family-friendly-hayrides/7873/"
+    }
+   },
+   "too_frequent": false
+  },
+  "rock wrapping with jill terrill|grand marais": {
+   "title": "Rock Wrapping with Jill Terrill",
+   "venue": "Joy & Co.",
+   "city": "Grand Marais",
+   "area": "Grand Marais",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-16",
+     "title": "Rock Wrapping with Jill Terrill",
+     "source_count": 1,
+     "url": "https://www.visitcookcounty.com/event/rock-wrapping-with-jill-terrill/7569/"
+    }
+   },
+   "too_frequent": false
+  },
+  "northwest express jr hockey game|washburn county": {
+   "title": "Northwest Express Jr. Hockey Game",
+   "venue": "Spooner Civic Center",
+   "city": "",
+   "area": "Washburn County",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-16",
+     "title": "Northwest Express Jr. Hockey Game",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/northwest-express-jr-hockey-game/4/"
+    }
+   },
+   "too_frequent": false
+  },
+  "liberty ball|spooner": {
+   "title": "Liberty Ball",
+   "venue": "The Spooner Civic Center",
+   "city": "Spooner",
+   "area": "Spooner",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-17",
+     "title": "Liberty Ball",
+     "source_count": 2,
+     "url": "https://allevents.in/spooner/liberty-ball/200029746993626"
+    }
+   },
+   "too_frequent": false
+  },
+  "music night|washburn county": {
+   "title": "Music Night",
+   "venue": "Stone Lake Lions Hall",
+   "city": "",
+   "area": "Washburn County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Music Night",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/music-night/3065/"
+    }
+   },
+   "too_frequent": true
+  },
+  "sunday worship|bayfield": {
+   "title": "Sunday worship",
+   "venue": "Bethesda Lutheran Church",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-06",
+     "title": "Sunday worship",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/sunday-worship/1170/"
+    }
+   },
+   "too_frequent": false
+  },
+  "haus of queer s halloween revue|duluth": {
+   "title": "Haus of Queer\u2019s Halloween Revue",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-23",
+     "title": "Haus of Queer\u2019s Halloween Revue",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/haus-of-queers-halloween-revue/"
+    }
+   },
+   "too_frequent": false
+  },
+  "halloween plant swap|duluth": {
+   "title": "Halloween Plant Swap",
+   "venue": "Wild State Cider",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-10-26",
+     "title": "Halloween Plant Swap",
+     "source_count": 1,
+     "url": "https://wildstatecider.com/event/halloween-plant-swap/"
+    }
+   },
+   "too_frequent": false
+  },
+  "bishop s dinner|duluth": {
+   "title": "The Bishop's Dinner 2026",
+   "venue": "Clyde Iron Works",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "The Bishop's Dinner 2026",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/the-bishops-dinner-2026/200030652455129"
+    }
+   },
+   "too_frequent": false
+  },
+  "second saturday artist meet greet demo with liz alberg|spooner": {
+   "title": "Second Saturday Artist Meet, Greet & Demo with Liz Alberg",
+   "venue": "Arts in Hand Gallery",
+   "city": "Spooner",
+   "area": "Spooner",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Second Saturday Artist Meet, Greet & Demo with Liz Alberg",
+     "source_count": 2,
+     "url": "https://spoonerchamber.org/event/second-saturday-artist-meet-greet-demo-with-liz-alberg/"
+    }
+   },
+   "too_frequent": false
+  },
+  "county board pine city courthouse and via zoom|pine county": {
+   "title": "County Board - Pine City/Courthouse and via ZOOM",
+   "venue": "",
+   "city": "",
+   "area": "Pine County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "County Board - Pine City/Courthouse and via ZOOM",
+     "source_count": 1,
+     "url": "https://www.pinecountymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "shell lake wine walk|washburn county": {
+   "title": "Shell Lake Wine Walk",
+   "venue": "Downtown Shell Lake",
+   "city": "",
+   "area": "Washburn County",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-20",
+     "title": "Shell Lake Wine Walk",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/shell-lake-wine-walk/3012/"
+    }
+   },
+   "too_frequent": false
+  },
+  "at west|duluth": {
+   "title": "Back at the West",
+   "venue": "The West Theatre",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-25",
+     "title": "Back at the West",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/back-at-the-west/200030823773255"
+    }
+   },
+   "too_frequent": false
+  },
+  "drinks giving with black river revue friends|superior": {
+   "title": "Drinks-Giving with Black River Revue & Friends",
+   "venue": "Cedar Lounge Earth Rider Brewery taproom",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-25",
+     "title": "Drinks-Giving with Black River Revue & Friends",
+     "source_count": 1,
+     "url": "https://www.eventbrite.com/e/drinks-giving-with-black-river-revue-friends-tickets-2003303549845"
+    }
+   },
+   "too_frequent": false
+  },
+  "shell lake holiday saturday|washburn county": {
+   "title": "Shell Lake Holiday Saturday",
+   "venue": "Shell Lake Community Center",
+   "city": "",
+   "area": "Washburn County",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Shell Lake Holiday Saturday",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/shell-lake-holiday-saturday/61/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lazy lightning 420 grateful dead cover show|superior": {
+   "title": "Lazy Lightning 420 | Grateful Dead Cover Show",
+   "venue": "Cedar Lounge Earth Rider Brewery taproom",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-11",
+     "title": "Lazy Lightning 420 | Grateful Dead Cover Show",
+     "source_count": 1,
+     "url": "https://www.eventbrite.com/e/lazy-lightning-420-grateful-dead-cover-show-tickets-2003301286074"
+    }
+   },
+   "too_frequent": false
+  },
+  "sophie hiroko bathtub cig msp|superior": {
+   "title": "Sophie Hiroko + Bathtub Cig (MSP)",
+   "venue": "Cedar Lounge Earth Rider Brewery taproom",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Sophie Hiroko + Bathtub Cig (MSP)",
+     "source_count": 1,
+     "url": "https://www.eventbrite.com/e/sophie-hiroko-bathtub-cig-msp-tickets-2002727469774"
     }
    },
    "too_frequent": false

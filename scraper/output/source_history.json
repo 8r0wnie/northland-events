@@ -58,7 +58,7 @@
  "grand-marais-mn": [
   {
    "date": "2026-10-12",
-   "events": 63,
+   "events": 52,
    "queued": 0,
    "carried": false
   }
@@ -132,7 +132,7 @@
    "date": "2026-10-12",
    "events": 3,
    "queued": 0,
-   "carried": true
+   "carried": false
   }
  ],
  "ely-chamber": [
@@ -186,7 +186,7 @@
  "bayfield-chamber": [
   {
    "date": "2026-10-12",
-   "events": 93,
+   "events": 75,
    "queued": 0,
    "carried": false
   }
@@ -394,7 +394,7 @@
  "cromwell-mn": [
   {
    "date": "2026-10-12",
-   "events": 44,
+   "events": 43,
    "queued": 0,
    "carried": false
   }
@@ -434,7 +434,7 @@
  "silver-bay-mn": [
   {
    "date": "2026-10-12",
-   "events": 51,
+   "events": 50,
    "queued": 0,
    "carried": false
   }
@@ -442,7 +442,7 @@
  "cook-county-mn": [
   {
    "date": "2026-10-12",
-   "events": 87,
+   "events": 81,
    "queued": 0,
    "carried": false
   }
@@ -490,7 +490,7 @@
  "grand-rapids-city-mn": [
   {
    "date": "2026-10-12",
-   "events": 10,
+   "events": 11,
    "queued": 0,
    "carried": false
   }
@@ -508,7 +508,7 @@
    "date": "2026-10-12",
    "events": 1,
    "queued": 0,
-   "carried": false
+   "carried": true
   }
  ],
  "aitkin-county-mn": [
@@ -530,7 +530,7 @@
  "aitkin-mn": [
   {
    "date": "2026-10-12",
-   "events": 6,
+   "events": 5,
    "queued": 0,
    "carried": false
   }
@@ -538,7 +538,7 @@
  "pine-county-mn": [
   {
    "date": "2026-10-12",
-   "events": 35,
+   "events": 29,
    "queued": 0,
    "carried": false
   }
@@ -634,7 +634,7 @@
  "burnett-county-wi": [
   {
    "date": "2026-10-12",
-   "events": 5,
+   "events": 4,
    "queued": 0,
    "carried": false
   }
@@ -650,7 +650,7 @@
  "washburn-county-wi": [
   {
    "date": "2026-10-12",
-   "events": 50,
+   "events": 42,
    "queued": 0,
    "carried": false
   }
@@ -698,7 +698,7 @@
  "allevents-duluth": [
   {
    "date": "2026-10-12",
-   "events": 189,
+   "events": 193,
    "queued": 0,
    "carried": false
   }
@@ -738,7 +738,7 @@
  "allevents-two-harbors": [
   {
    "date": "2026-10-12",
-   "events": 10,
+   "events": 9,
    "queued": 0,
    "carried": false
   }
@@ -930,7 +930,7 @@
  "wild-state-cider": [
   {
    "date": "2026-10-12",
-   "events": 14,
+   "events": 15,
    "queued": 0,
    "carried": false
   }
@@ -1010,7 +1010,7 @@
  "earth-rider": [
   {
    "date": "2026-10-12",
-   "events": 9,
+   "events": 11,
    "queued": 0,
    "carried": false
   }
@@ -1202,7 +1202,7 @@
  "fond-du-lac-band": [
   {
    "date": "2026-10-12",
-   "events": 65,
+   "events": 63,
    "queued": 0,
    "carried": false
   }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T15:30:40Z",
+ "generated": "2026-10-12T17:19:52Z",
  "promote_rule": {
   "window": 7,
   "min_runs": 5
@@ -259,12 +259,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: grandmaraismn.com is now a parked domain (redirects to a domain-sale page); Visit Grand Marais became Visit Cook County, Simpleview.",
-   "last_events": 63,
+   "last_events": 52,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 63,
+     "events": 52,
      "queued": 0,
      "carried": false
     }
@@ -519,7 +519,7 @@
      "date": "2026-10-12",
      "events": 3,
      "queued": 0,
-     "carried": true
+     "carried": false
     }
    ]
   },
@@ -770,12 +770,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 93,
+   "last_events": 75,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 93,
+     "events": 75,
      "queued": 0,
      "carried": false
     }
@@ -1465,12 +1465,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 44,
+   "last_events": 43,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 44,
+     "events": 43,
      "queued": 0,
      "carried": false
     }
@@ -1595,12 +1595,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 51,
+   "last_events": 50,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 51,
+     "events": 50,
      "queued": 0,
      "carried": false
     }
@@ -1640,12 +1640,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 87,
+   "last_events": 81,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 87,
+     "events": 81,
      "queued": 0,
      "carried": false
     }
@@ -1796,12 +1796,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 10,
+   "last_events": 11,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 10,
+     "events": 11,
      "queued": 0,
      "carried": false
     }
@@ -1855,7 +1855,7 @@
      "date": "2026-10-12",
      "events": 1,
      "queued": 0,
-     "carried": false
+     "carried": true
     }
    ]
   },
@@ -1945,12 +1945,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "URL from appendix \u2014 verify (possible typo).",
-   "last_events": 6,
+   "last_events": 5,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 6,
+     "events": 5,
      "queued": 0,
      "carried": false
     }
@@ -1971,12 +1971,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Southern edge of DMA \u2014 triage scope.",
-   "last_events": 35,
+   "last_events": 29,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 35,
+     "events": 29,
      "queued": 0,
      "carried": false
     }
@@ -2283,12 +2283,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Southern/western edge \u2014 triage scope.",
-   "last_events": 5,
+   "last_events": 4,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 5,
+     "events": 4,
      "queued": 0,
      "carried": false
     }
@@ -2335,12 +2335,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: washburncounty.org is the county TOURISM site (Simpleview), not the county government.",
-   "last_events": 50,
+   "last_events": 42,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 50,
+     "events": 42,
      "queued": 0,
      "carried": false
     }
@@ -2510,12 +2510,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Aggregates public Facebook events; date only, no time.",
-   "last_events": 189,
+   "last_events": 193,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 189,
+     "events": 193,
      "queued": 0,
      "carried": false
     }
@@ -2640,12 +2640,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 10,
+   "last_events": 9,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 10,
+     "events": 9,
      "queued": 0,
      "carried": false
     }
@@ -3264,12 +3264,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Lincoln Park taproom.",
-   "last_events": 14,
+   "last_events": 15,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 14,
+     "events": 15,
      "queued": 0,
      "carried": false
     }
@@ -3562,12 +3562,12 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Wix widget gone; concerts via Eventbrite organizer 42879398303 (Cedar Lounge).",
-   "last_events": 9,
+   "last_events": 11,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 9,
+     "events": 11,
      "queued": 0,
      "carried": false
     }
@@ -4357,12 +4357,12 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Community pow wows (e.g. Veterans Powwow at Mash Ka Wisen grounds) and cultural events \u2014 added per explicit approval. Triaged 2026-09: revize, 81 events.",
-   "last_events": 65,
+   "last_events": 63,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
-     "events": 65,
+     "events": 63,
      "queued": 0,
      "carried": false
     }

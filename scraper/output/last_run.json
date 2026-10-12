@@ -1,16 +1,19 @@
 {
-  "when": "2026-10-12T15:30:39Z",
-  "raw": 4888,
-  "merged": 3600,
-  "published": 3600,
+  "when": "2026-10-12T17:19:52Z",
+  "raw": 4840,
+  "merged": 3551,
+  "published": 3551,
   "queued": 0,
   "verification": {
-    "confirmed": 3377,
-    "multi_source": 356,
-    "trusted_single": 3021,
+    "confirmed": 3328,
+    "multi_source": 351,
+    "trusted_single": 2977,
     "reviewed_in": 223,
     "reviewed_out": 0,
-    "queued": 0
+    "queued": 0,
+    "corrected": 2,
+    "hidden": 0,
+    "learned_category": 0
   },
   "sources": [
     {
@@ -50,8 +53,8 @@
     },
     {
       "source": "grand-marais-mn",
-      "detail": "simpleview: 63 events (2 pages)",
-      "events": 63
+      "detail": "simpleview: 54 events (2 pages, 24/24 event pages)",
+      "events": 52
     },
     {
       "source": "mesabi-tribune-events",
@@ -95,7 +98,7 @@
     },
     {
       "source": "hibbing-chamber",
-      "detail": "no adapter produced events  [carried forward from 2026-10-12]",
+      "detail": "chamberorganizer: 4 events (org HIBB)",
       "events": 3
     },
     {
@@ -130,8 +133,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 93 events (2 pages)",
-      "events": 93
+      "detail": "simpleview: 76 events (2 pages, 32/32 event pages)",
+      "events": 75
     },
     {
       "source": "visit-ashland",
@@ -261,7 +264,7 @@
     {
       "source": "cromwell-mn",
       "detail": "revize: 66 events (webspace cromwellmn)",
-      "events": 44
+      "events": 43
     },
     {
       "source": "wrenshall-mn",
@@ -280,18 +283,18 @@
     },
     {
       "source": "two-harbors-mn",
-      "detail": "revize: 131 events (webspace twoharborsmn)",
+      "detail": "revize: 129 events (webspace twoharborsmn)",
       "events": 126
     },
     {
       "source": "silver-bay-mn",
-      "detail": "revize: 58 events (webspace silverbaymn)",
-      "events": 51
+      "detail": "revize: 57 events (webspace silverbaymn)",
+      "events": 50
     },
     {
       "source": "cook-county-mn",
-      "detail": "revize: 93 events (webspace cookcountymn)",
-      "events": 87
+      "detail": "revize: 87 events (webspace cookcountymn)",
+      "events": 81
     },
     {
       "source": "grand-marais-city-mn",
@@ -320,8 +323,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 10 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 10
+      "detail": "ics: 11 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 11
     },
     {
       "source": "deer-river-mn",
@@ -330,7 +333,7 @@
     },
     {
       "source": "bovey-mn",
-      "detail": "posts: 1 inferred events from 7 docs",
+      "detail": "no adapter produced events  [carried forward from 2026-10-12]",
       "events": 1
     },
     {
@@ -345,13 +348,13 @@
     },
     {
       "source": "aitkin-mn",
-      "detail": "govoffice: 6 events from 2 page(s)",
-      "events": 6
+      "detail": "govoffice: 5 events from 2 page(s)",
+      "events": 5
     },
     {
       "source": "pine-county-mn",
-      "detail": "revize: 35 events (webspace pinecounty)",
-      "events": 35
+      "detail": "revize: 29 events (webspace pinecounty)",
+      "events": 29
     },
     {
       "source": "sandstone-mn",
@@ -410,8 +413,8 @@
     },
     {
       "source": "burnett-county-wi",
-      "detail": "civicplus: 5 events",
-      "events": 5
+      "detail": "civicplus: 4 events",
+      "events": 4
     },
     {
       "source": "siren-wi",
@@ -420,8 +423,8 @@
     },
     {
       "source": "washburn-county-wi",
-      "detail": "simpleview: 50 events (2 pages)",
-      "events": 50
+      "detail": "simpleview: 42 events (2 pages, 24/24 event pages)",
+      "events": 42
     },
     {
       "source": "spooner-wi",
@@ -450,8 +453,8 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 189 events",
-      "events": 189
+      "detail": "allevents: 193 events",
+      "events": 193
     },
     {
       "source": "allevents-superior",
@@ -475,8 +478,8 @@
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 10 events",
-      "events": 10
+      "detail": "allevents: 9 events",
+      "events": 9
     },
     {
       "source": "allevents-ashland",
@@ -595,8 +598,8 @@
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 14 events",
-      "events": 14
+      "detail": "tribe: 15 events",
+      "events": 15
     },
     {
       "source": "castle-danger",
@@ -645,8 +648,8 @@
     },
     {
       "source": "earth-rider",
-      "detail": "eventbrite: 9 events (organizer 42879398303)",
-      "events": 9
+      "detail": "eventbrite: 11 events (organizer 42879398303)",
+      "events": 11
     },
     {
       "source": "arrowhead-arts",
@@ -765,8 +768,8 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 66 events (webspace fonddulac)",
-      "events": 65
+      "detail": "revize: 64 events (webspace fonddulac)",
+      "events": 63
     }
   ]
 }
