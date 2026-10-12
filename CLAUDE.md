@@ -101,6 +101,7 @@ python main.py scrape --only <id,id>     # summary only, does NOT write site/dat
 python main.py scrape                    # all status: active sources -> ../site/data/
 python main.py refresh-local             # `refresh: local` sources -> cache only (owner's PC)
 python srcedit.py <id> key=value ...     # edit one sources.yaml entry, keeps comments
+python quality.py                        # scan published events for known data-quality bugs
 python tests/test_posts.py && python tests/test_tiers.py && python tests/test_descriptions.py && python tests/test_series.py && python tests/test_feedback.py   # regression tests (also run in CI)
 cd ../site && python -m http.server 8000 # preview http://localhost:8000
 ```
@@ -176,6 +177,15 @@ cd scraper && python -c "import json;r=json.load(open('output/last_run.json'));p
 Compare `published` with the trend in `site/data/scrape_stats_history.json`.
 A source that used to produce and now shows 0 is a regression to investigate.
 
+```bash
+python quality.py                 # encoded text, CSS/HTML left, 12:00 AM times, series bars
+python quality.py --show midnight # the events behind one count
+```
+
+Every check in `quality.py` is a bug that reached the live calendar once.
+After adding or changing an adapter, its source should show 0 everywhere.
+The exception is a few `midnight` events that really start at 12 AM.
+
 ## Planned
 
 - Google Form → Sheet CSV `manual` adapter for Facebook-only / word-of-mouth
@@ -189,17 +199,28 @@ A source that used to produce and now shows 0 is a regression to investigate.
 ## Known issues
 
 - **Coverage history:** published events fell from ~2,650 (2026-09-05) to
-  ~1,870 (2026-10-11). Causes found on 2026-10-11:
-  - 7 sources 403 GitHub IPs, now `refresh: local`.
+  ~1,870 (2026-10-11), then recovered to ~2,870 in CI and ~3,600 on
+  2026-10-12. Causes of the drop, found on 2026-10-11:
+  - 7 sources 403 GitHub IPs. They're now `refresh: relay` (Rule 1
+    exception).
   - Several sites moved their calendars (Ely Chamber went to MEC, GovOffice
     cities to Google Calendar, Spirit Mountain to /events/).
   - The iCal adapter ignored RRULE, so recurring meetings vanished.
   - The rest is seasonal.
-  Watch the trend after the 2026-10-11 push.
-- **CI runtime:** 135 sources, several of them browser-driven, plus posts
-  link-following. A full local run took 21 minutes on 2026-10-11, and the CI
-  timeout is 90 minutes. Check run
-  times; if they get close to the limit, parallelize across domains.
+- **CI runtime:** ~151 active sources, several of them browser-driven, plus
+  posts link-following and one detail page per Simpleview event. A full
+  local run took 21 minutes on 2026-10-11, and the CI timeout is 90 minutes.
+  Check run times; if they get close to the limit, parallelize across
+  domains.
+- **Data-quality bugs found 2026-10-12, all fixed with tests:**
+  - CSS in descriptions (Reif).
+  - Weekly series drawn as week-long bars (Simpleview).
+  - URL-encoded Revize descriptions.
+  - Revize repeat rules moved to midnight.
+  - `INTERVAL=0` hanging dateutil (Cook County).
+
+  New adapters tend to repeat these, so run the quality scan in the health
+  check after adding one.
 - `posts` events are heuristic. Expect some noise in the review queue, and
   add regression cases when you fix one.
 - `allevents` listings have a date but no time, so those events are all-day.
@@ -210,6 +231,8 @@ A source that used to produce and now shows 0 is a regression to investigate.
   was removed on 2026-10-12.
 - Community reports live in the KV namespace `northland-reports`, bound as
   `REPORTS` in `wrangler.toml` since 2026-10-12 (`docs/DEPLOY.md` §11).
-- The admin backend needs two Cloudflare secrets, `GITHUB_TOKEN` (a
-  fine-grained PAT) and `ADMIN_PASSWORD`, set by the owner (`docs/DEPLOY.md`
-  §9). The PAT expires, so renew it before then.
+- The admin backend uses two Cloudflare secrets, `GITHUB_TOKEN` (a
+  fine-grained PAT, "northland-events-admin") and `ADMIN_PASSWORD`, both set
+  2026-10-12 (`docs/DEPLOY.md` §9). **The PAT expires 2027-10-01.** Renew it
+  in September 2027, or every admin save and the "Rebuild" button stop
+  working.
