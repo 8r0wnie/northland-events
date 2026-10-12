@@ -173,8 +173,13 @@ A source that used to produce and now shows 0 is a regression to investigate.
   - The rest is seasonal.
   Watch the trend after the 2026-10-11 push.
 - **CI runtime:** 135 sources, several of them browser-driven, plus posts
-  link-following. The job timeout was raised to 90 minutes. Check run
-  times; if it gets close, parallelize across domains.
+  link-following. A full local run took 21 minutes on 2026-10-11. Check run
+  times; if they get close to the limit, parallelize across domains.
+- **Workflow changes not yet pushed (2026-10-12):** the job timeout bump
+  (45 → 90 min in `scrape.yml`) and `.github/workflows/tests.yml` sit
+  uncommitted on the owner's machine. The stored GitHub token lacks the
+  `workflow` scope. Run `gh auth refresh -s workflow` (interactive), then
+  commit and push both files, and delete this bullet.
 - `posts` events are heuristic. Expect some noise in the review queue, and
   add regression cases when you fix one.
 - `allevents` listings have a date but no time, so those events are all-day.
