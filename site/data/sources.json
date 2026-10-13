@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T22:14:07Z",
+ "generated": "2026-10-13T18:51:19Z",
  "promote_rule": {
   "window": 7,
   "min_runs": 5
@@ -28,6 +28,12 @@
      "events": 370,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 370,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -46,12 +52,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "CVB. Likely Simpleview.",
-   "last_events": 345,
+   "last_events": 340,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 345,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 340,
      "queued": 0,
      "carried": false
     }
@@ -71,12 +83,18 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "relay",
-   "notes": "Triaged 2026-10-11: statewide Cludo search (browser, one call/run), filtered to DMA towns in adapters/exploremn.py. 2026-10-12: 0 in CI, 95 locally. Explore MN refuses GitHub IPs; relay candidate (needs owner OK).",
+   "notes": "Triaged 2026-10-11: statewide Cludo search (browser, one call/run), filtered to DMA towns in adapters/exploremn.py. 2026-10-12: 0 in CI, 95 locally. Explore MN refuses GitHub IPs; relay candidate (needs owner OK). 2026-10-12 CI run 38312423256: still 0 through the relay (refuses Cloudflare IPs too). Rule 1: no further workaround; owner may ask Explore MN for feed access.",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -125,6 +143,12 @@
      "events": 9,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 9,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -162,12 +186,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-11: community events calendar for Iron County WI + Gogebic County MI; the City of Ironwood's 'Events' link points here. Tribe REST.",
-   "last_events": 172,
+   "last_events": 179,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 172,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 179,
      "queued": 0,
      "carried": false
     }
@@ -196,6 +226,12 @@
      "events": 13,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 13,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -219,6 +255,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 50,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 50,
      "queued": 0,
      "carried": false
@@ -259,12 +301,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: grandmaraismn.com is now a parked domain (redirects to a domain-sale page); Visit Grand Marais became Visit Cook County, Simpleview.",
-   "last_events": 52,
+   "last_events": 72,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 52,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 72,
      "queued": 0,
      "carried": false
     }
@@ -304,13 +352,19 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: Adams Publishing evvnt community calendar - organizer-submitted listings (~500, mostly Duluth + Iron Range). Aggregator/low-trust: unmatched events go to review. Hibbing Daily Tribune (7092) shares the same pool, so not added.",
-   "last_events": 440,
-   "last_queued": 56,
+   "last_events": 444,
+   "last_queued": 62,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 440,
      "queued": 56,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 444,
+     "queued": 62,
      "carried": false
     }
    ]
@@ -330,12 +384,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: evvnt calendar for APG's northern-Wisconsin papers (Hayward, Hurley, Mercer, Ironwood area). Aggregator/low-trust.",
-   "last_events": 16,
+   "last_events": 17,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 16,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 17,
      "queued": 0,
      "carried": false
     }
@@ -356,12 +416,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: Northern Community Radio weekly roundup (day headings over Title - time at Venue items). Covers far beyond the DMA, so category news makes posts keep only items naming a DMA town. Inferred: goes to review.",
-   "last_events": 4,
+   "last_events": 2,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 4,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 2,
      "queued": 0,
      "carried": false
     }
@@ -390,6 +456,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -408,12 +480,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Checked 2026-10-11: GrowthZone Hub community calendar (microdata).",
-   "last_events": 8,
+   "last_events": 10,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 8,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 10,
      "queued": 0,
      "carried": false
     }
@@ -442,6 +520,12 @@
      "events": 3,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -460,12 +544,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 36,
+   "last_events": 35,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 36,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 35,
      "queued": 0,
      "carried": false
     }
@@ -491,6 +581,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 8,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 8,
      "queued": 0,
      "carried": false
@@ -520,6 +616,12 @@
      "events": 3,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -538,7 +640,7 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: moved off Simpleview to WordPress Modern Events Calendar; site iCal feed /?mec-ical-feed=1.",
-   "last_events": 12,
+   "last_events": 10,
    "last_queued": 0,
    "runs": [
     {
@@ -546,6 +648,12 @@
      "events": 12,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 10,
+     "queued": 0,
+     "carried": true
     }
    ]
   },
@@ -588,6 +696,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 10,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 10,
      "queued": 0,
      "carried": false
@@ -636,6 +750,12 @@
      "events": 10,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 10,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -662,6 +782,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -685,6 +811,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -733,6 +865,12 @@
      "events": 2,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 2,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -778,6 +916,12 @@
      "events": 75,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 75,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -804,6 +948,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -822,12 +972,18 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Triaged 2026-10-11: WP Simple Calendar (Google-backed) on /calendar-of-events/. 2026-10-12: CI gets HTTP 401, locally 123 events; relay candidate (needs owner OK).",
-   "last_events": 123,
+   "last_events": 118,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 123,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 118,
      "queued": 0,
      "carried": false
     }
@@ -847,13 +1003,19 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "relay",
-   "notes": "Southern edge. 2026-10-12: refresh: relay; via Cloudflare the WordPress REST API (wp-json) still 403s, so iCal (?ical=1) and page JSON-LD are tried next.",
-   "last_events": 46,
+   "notes": "Southern edge. 2026-10-12: refresh: relay; via Cloudflare the WordPress REST API (wp-json) still 403s, so iCal (?ical=1) and page JSON-LD are tried next. 2026-10-12: relay still 403 on every URL; living on 10-day cache carry-forward from 2026-10-11, so it goes empty ~2026-10-21 unless the site relents. Candidate for status: blocked.",
+   "last_events": 44,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 46,
+     "queued": 0,
+     "carried": true
+    },
+    {
+     "date": "2026-10-13",
+     "events": 44,
      "queued": 0,
      "carried": true
     }
@@ -874,7 +1036,7 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
-   "last_events": 6,
+   "last_events": 4,
    "last_queued": 1,
    "runs": [
     {
@@ -882,6 +1044,12 @@
      "events": 6,
      "queued": 1,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 4,
+     "queued": 1,
+     "carried": true
     }
    ]
   },
@@ -908,6 +1076,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -926,12 +1100,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 347,
+   "last_events": 345,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 347,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 345,
      "queued": 0,
      "carried": false
     }
@@ -960,6 +1140,12 @@
      "events": 33,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 33,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -978,12 +1164,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 21,
+   "last_events": 20,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 21,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 20,
      "queued": 0,
      "carried": false
     }
@@ -1012,6 +1204,12 @@
      "events": 18,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 18,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1030,12 +1228,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 15,
+   "last_events": 17,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 15,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 17,
      "queued": 0,
      "carried": false
     }
@@ -1061,6 +1265,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 4,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 4,
      "queued": 0,
      "carried": false
@@ -1090,6 +1300,12 @@
      "events": 4,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 4,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1108,12 +1324,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: moved to Google Calendar embed on /calendar.",
-   "last_events": 159,
+   "last_events": 157,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 159,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 157,
      "queued": 0,
      "carried": false
     }
@@ -1139,6 +1361,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1168,6 +1396,12 @@
      "events": 3,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1194,6 +1428,12 @@
      "events": 6,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 6,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1212,12 +1452,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Joomla DPCalendar (10 Google-backed calendars).",
-   "last_events": 317,
+   "last_events": 314,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 317,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 314,
      "queued": 0,
      "carried": false
     }
@@ -1243,6 +1489,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1272,6 +1524,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1295,6 +1553,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1324,6 +1588,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1347,6 +1617,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 1,
      "queued": 0,
      "carried": false
@@ -1387,12 +1663,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 6,
+   "last_events": 4,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 4,
      "queued": 0,
      "carried": false
     }
@@ -1418,6 +1700,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1447,6 +1735,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1470,6 +1764,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 44,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 44,
      "queued": 0,
      "carried": false
@@ -1499,6 +1799,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1525,6 +1831,12 @@
      "events": 6,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 6,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1543,12 +1855,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "WordPress lsvr-events; JSON-LD on detail pages",
-   "last_events": 12,
+   "last_events": 11,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 12,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 11,
      "queued": 0,
      "carried": false
     }
@@ -1569,12 +1887,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 126,
+   "last_events": 123,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 126,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 123,
      "queued": 0,
      "carried": false
     }
@@ -1600,6 +1924,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 50,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 50,
      "queued": 0,
      "carried": false
@@ -1640,12 +1970,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 81,
+   "last_events": 80,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 81,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 80,
      "queued": 0,
      "carried": false
     }
@@ -1671,6 +2007,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 7,
      "queued": 0,
      "carried": false
@@ -1700,6 +2042,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1718,12 +2066,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 5,
+   "last_events": 3,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 5,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
      "queued": 0,
      "carried": false
     }
@@ -1744,12 +2098,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Google Calendar embed on the homepage.",
-   "last_events": 61,
+   "last_events": 58,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 61,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 58,
      "queued": 0,
      "carried": false
     }
@@ -1778,6 +2138,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1796,12 +2162,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 11,
+   "last_events": 8,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 11,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 8,
      "queued": 0,
      "carried": false
     }
@@ -1827,6 +2199,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 1,
      "queued": 0,
      "carried": false
@@ -1856,6 +2234,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1879,6 +2263,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1927,6 +2317,12 @@
      "events": 6,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 6,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1953,6 +2349,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1971,12 +2373,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Southern edge of DMA \u2014 triage scope.",
-   "last_events": 29,
+   "last_events": 28,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 29,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 28,
      "queued": 0,
      "carried": false
     }
@@ -2002,6 +2410,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 1,
      "queued": 0,
      "carried": false
@@ -2031,6 +2445,12 @@
      "events": 45,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 45,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2049,12 +2469,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 7,
+   "last_events": 10,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 10,
      "queued": 0,
      "carried": false
     }
@@ -2080,6 +2506,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 2,
      "queued": 0,
      "carried": false
@@ -2109,6 +2541,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2135,6 +2573,12 @@
      "events": 101,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 101,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2153,12 +2597,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Weebly homepage embeds a Google Calendar (legacy www.google.com/calendar/embed URL).",
-   "last_events": 89,
+   "last_events": 90,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 89,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 90,
      "queued": 0,
      "carried": false
     }
@@ -2178,12 +2628,18 @@
    "tier_set": false,
    "autopromote": false,
    "refresh": "relay",
-   "notes": "Triaged 2026-10-11: CivicPlus HCMS (Drupal) calendar; plain requests 403 but a normal browser render works; grid text parsed by posts (day-first dates). 2026-10-12: CI 403 on everything (locally posts finds 12); relay candidate (needs owner OK).",
+   "notes": "Triaged 2026-10-11: CivicPlus HCMS (Drupal) calendar; plain requests 403 but a normal browser render works; grid text parsed by posts (day-first dates). 2026-10-12: CI 403 on everything (locally posts finds 12); relay candidate (needs owner OK). 2026-10-12 CI run 38312423256: still 403 through the relay (refuses Cloudflare IPs too). Rule 1: no further workaround.",
    "last_events": 0,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2213,6 +2669,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2239,6 +2701,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2257,12 +2725,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 11,
+   "last_events": 14,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 11,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 14,
      "queued": 0,
      "carried": false
     }
@@ -2283,12 +2757,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Southern/western edge \u2014 triage scope.",
-   "last_events": 4,
+   "last_events": 3,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 4,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
      "queued": 0,
      "carried": false
     }
@@ -2314,6 +2794,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 19,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 19,
      "queued": 0,
      "carried": false
@@ -2343,6 +2829,12 @@
      "events": 43,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 43,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2366,6 +2858,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2395,6 +2893,12 @@
      "events": 3,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2418,6 +2922,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2447,6 +2957,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2470,6 +2986,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 6,
      "queued": 0,
      "carried": false
@@ -2510,12 +3032,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Aggregates public Facebook events; date only, no time.",
-   "last_events": 189,
+   "last_events": 195,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 189,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 195,
      "queued": 0,
      "carried": false
     }
@@ -2536,12 +3064,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 126,
+   "last_events": 128,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 126,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 128,
      "queued": 0,
      "carried": false
     }
@@ -2562,12 +3096,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 31,
+   "last_events": 33,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 31,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 33,
      "queued": 0,
      "carried": false
     }
@@ -2588,12 +3128,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 39,
+   "last_events": 37,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 39,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 37,
      "queued": 0,
      "carried": false
     }
@@ -2622,6 +3168,12 @@
      "events": 9,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 9,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2640,12 +3192,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 9,
+   "last_events": 12,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 9,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 12,
      "queued": 0,
      "carried": false
     }
@@ -2671,6 +3229,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 22,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 22,
      "queued": 0,
      "carried": false
@@ -2700,6 +3264,12 @@
      "events": 6,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 6,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2723,6 +3293,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 20,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 20,
      "queued": 0,
      "carried": false
@@ -2752,6 +3328,12 @@
      "events": 53,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 53,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2778,6 +3360,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2796,12 +3384,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 35,
+   "last_events": 33,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 35,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 33,
      "queued": 0,
      "carried": false
     }
@@ -2822,12 +3416,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 20,
+   "last_events": 21,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 20,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 21,
      "queued": 0,
      "carried": false
     }
@@ -2848,12 +3448,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 21,
+   "last_events": 19,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 21,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 19,
      "queued": 0,
      "carried": false
     }
@@ -2879,6 +3485,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 18,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 18,
      "queued": 0,
      "carried": false
@@ -2908,6 +3520,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2926,12 +3544,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 11,
+   "last_events": 13,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 11,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 13,
      "queued": 0,
      "carried": false
     }
@@ -2957,6 +3581,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 9,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 9,
      "queued": 0,
      "carried": false
@@ -2986,6 +3616,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3009,6 +3645,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 71,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 71,
      "queued": 0,
      "carried": false
@@ -3038,6 +3680,12 @@
      "events": 98,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 98,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3056,12 +3704,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "D-III incl. hockey at Mars Lakeview Arena.",
-   "last_events": 72,
+   "last_events": 73,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 72,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 73,
      "queued": 0,
      "carried": false
     }
@@ -3090,6 +3744,12 @@
      "events": 28,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 28,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3108,12 +3768,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 63,
+   "last_events": 64,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 63,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 64,
      "queued": 0,
      "carried": false
     }
@@ -3139,6 +3805,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 7,
      "queued": 0,
      "carried": false
@@ -3168,6 +3840,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3194,6 +3872,12 @@
      "events": 62,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 62,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3212,12 +3896,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Scenic railroad excursions.",
-   "last_events": 8,
+   "last_events": 7,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 8,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 7,
      "queued": 0,
      "carried": false
     }
@@ -3243,6 +3933,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 23,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 23,
      "queued": 0,
      "carried": false
@@ -3272,6 +3968,12 @@
      "events": 18,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 18,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3290,12 +3992,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 70,
+   "last_events": 71,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 70,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 71,
      "queued": 0,
      "carried": false
     }
@@ -3321,6 +4029,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 18,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 18,
      "queued": 0,
      "carried": false
@@ -3350,6 +4064,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3373,6 +4093,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 57,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 57,
      "queued": 0,
      "carried": false
@@ -3421,6 +4147,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3447,6 +4179,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3470,6 +4208,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 12,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 12,
      "queued": 0,
      "carried": false
@@ -3510,12 +4254,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: WP Simple Calendar renders events server-side (earlier note 'renders nothing' was wrong - there was no adapter).",
-   "last_events": 39,
+   "last_events": 38,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 39,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 38,
      "queued": 0,
      "carried": false
     }
@@ -3541,6 +4291,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3570,6 +4326,12 @@
      "events": 11,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 11,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3593,6 +4355,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3622,6 +4390,12 @@
      "events": 15,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 15,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3640,12 +4414,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: live music via a Google Calendar embed on /events (the Squarespace /events-1 collection only holds past shows).",
-   "last_events": 6,
+   "last_events": 5,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 5,
      "queued": 0,
      "carried": false
     }
@@ -3671,6 +4451,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3700,6 +4486,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3723,6 +4515,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 7,
      "queued": 0,
      "carried": false
@@ -3771,6 +4569,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3816,6 +4620,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3839,6 +4649,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3868,6 +4684,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3894,6 +4716,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3912,12 +4740,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Fair is held in Northome, not International Falls. Triaged 2026-09: civicplus, 2 events \u2014 this is a different domain than the already-active koochiching-county-mn (koochiching.gov), kept as its own source; cross-source dedup handles any overlap.",
-   "last_events": 5,
+   "last_events": 3,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 5,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 3,
      "queued": 0,
      "carried": false
     }
@@ -3946,6 +4780,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3964,7 +4804,7 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Has an actual /calendar/ page. Triaged 2026-09: jsonld, 12 events.",
-   "last_events": 12,
+   "last_events": 11,
    "last_queued": 0,
    "runs": [
     {
@@ -3972,6 +4812,12 @@
      "events": 12,
      "queued": 0,
      "carried": true
+    },
+    {
+     "date": "2026-10-13",
+     "events": 11,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4028,12 +4874,18 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-11: community calendar for Iron County WI (WordPress Modern Events Calendar; its iCal feed is disabled). JSON-LD times are stored as UTC then offset (10 am shows as 05:00-05:00), corrected by timefix utc-wall. Covers the Iron County Fair and Heritage Days.",
-   "last_events": 58,
+   "last_events": 59,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 58,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 59,
      "queued": 0,
      "carried": false
     }
@@ -4119,6 +4971,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4142,6 +5000,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -4171,6 +5035,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4197,6 +5067,12 @@
      "events": 4,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 4,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4220,6 +5096,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 2,
      "queued": 0,
      "carried": false
@@ -4287,6 +5169,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4310,6 +5198,12 @@
    "runs": [
     {
      "date": "2026-10-12",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -4339,6 +5233,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4357,12 +5257,18 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Community pow wows (e.g. Veterans Powwow at Mash Ka Wisen grounds) and cultural events \u2014 added per explicit approval. Triaged 2026-09: revize, 81 events.",
-   "last_events": 63,
+   "last_events": 61,
    "last_queued": 0,
    "runs": [
     {
      "date": "2026-10-12",
      "events": 63,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-13",
+     "events": 61,
      "queued": 0,
      "carried": false
     }

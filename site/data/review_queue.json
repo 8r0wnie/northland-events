@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T22:14:07Z",
-  "count": 57,
+  "generated": "2026-10-13T18:51:19Z",
+  "count": 63,
   "events": [
     {
       "key": "b271fe09ce91aada",
@@ -28,6 +28,34 @@
       "source": {
         "name": "Ironwood Area Chamber",
         "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "4bd30eaabf8eb1f2",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Wild Duluth",
+      "start": "2026-10-17T06:00:00",
+      "end": "2026-10-18T18:59:00",
+      "all_day": false,
+      "venue": "350 Harbor Drive",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ultra race",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -143,6 +171,34 @@
       }
     },
     {
+      "key": "f7cb47511e0a56b6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "8-10 Year Old, Session 2 (Sundays)",
+      "start": "2026-10-25T10:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "College of St. Scholastica: Burns Wellness Commons",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Learn and improve forehands, backhands, serves, volleys and more with instruction from St Scholastica tennis players and coaches while having fun. Session 1 is Sundays 9/20 - 10/18 Session 2 is Sundays 10/25 - 12/6 5-7 year old lessons 9am-10am 8-10 year old lessons 10am-11am 10-12 year old lessons 11am-12pm Schedule From: Oct 25 2026 to Dec 6 2026 Every Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday: 10:00am to\u2026",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "fa2330b63c465d4f",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -164,6 +220,34 @@
       "category": "other",
       "price": "",
       "description": "Learn and improve forehands, backhands, serves, volleys and more with instruction from St Scholastica tennis players and coaches while having fun. Session 1 is Sundays 9/20 - 10/18 Session 2 is Sundays 10/25 - 12/6 5-7 year old lessons 9am-10am 8-10 year old lessons 10am-11am 10-12 year old lessons 11am-12pm Schedule From: Oct 25 2026 to Dec 6 2026 Every Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday: 11:00am to\u2026",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "c8fbec8b481c203f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Xpedition Band Mn",
+      "start": "2026-10-30T20:00:00",
+      "end": "2026-10-31T00:00:00",
+      "all_day": false,
+      "venue": "Halloween Bash Xpedition-Two Rivers Event Center - Aitkin, MN",
+      "city": "Aitkin",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "Wear Your best halloween costume, there will be a costume contest! Xpedition- The Nation's Premier Tribute performing the music of : Kansas, Foreigner, Styx, and Journey. Xpedition authentically performs all the chart topping hits you know and love from the greatest bands in rock and roll history! This group of talented musicians hailing from Florida, Nashville, California, and Minnesota, will deliver a true concert experience to fans of all ages! Xpediton has earned the reputation of being one of the top tribute acts touring the United States.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -308,6 +392,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "d05e7f21fee32f59",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3871614-twin-ports-comedy-one-liner-wipeout"
+        }
+      ],
+      "title": "Twin Ports Comedy: One Liner Wipeout",
+      "start": "2026-11-21T19:00:00",
+      "end": "2026-11-21T21:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "It's time for another One Liner Wipeout with Twin Ports Comedy! Join us for this comedy gameshow as Henry Kneiszel, Anthony Kulisek, and Robert Lee try to top Justin Rademacher's punchlines! Tickets available here: https://www.twinportscomedy.com/.../one-liner-wipeout-ft... FREE karaoke to follow!",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3871614-twin-ports-comedy-one-liner-wipeout"
       }
     },
     {
@@ -1319,6 +1431,34 @@
       }
     },
     {
+      "key": "8a5e7fc35d0e459e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "World Championship: Latvia vs. USA",
+      "start": "2027-04-23T19:00:00",
+      "end": "2027-04-23T23:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "e12b228129f8f342",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1375,7 +1515,7 @@
       }
     },
     {
-      "key": "a89ee00e8c526324",
+      "key": "f76044a23b6117d4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1386,7 +1526,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "Charlie and the Chocolate Factory Jr.",
+      "title": "Roald Dahl's Charlie and the Chocolate Factory JR",
       "start": "2027-04-25T14:00:00",
       "end": "2027-04-25T18:00:00",
       "all_day": false,
@@ -1431,7 +1571,7 @@
       }
     },
     {
-      "key": "a89ee00e8c526324",
+      "key": "f76044a23b6117d4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1442,7 +1582,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "Charlie and the Chocolate Factory Jr.",
+      "title": "Roald Dahl's Charlie and the Chocolate Factory JR",
       "start": "2027-04-25T17:00:00",
       "end": "2027-04-25T21:00:00",
       "all_day": false,
@@ -1585,6 +1725,34 @@
       "title": "IIHF Ice Hockey U18 World Championship (Relegation)",
       "start": "2027-04-30T12:00:00",
       "end": "2027-04-30T16:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "6645f6c389926c99",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "IIHF Ice Hockey U18 World Championship (Semifinals)",
+      "start": "2027-05-01T15:00:00",
+      "end": "2027-05-01T19:00:00",
       "all_day": false,
       "venue": "AMSOIL Arena",
       "city": "Duluth",

@@ -701,5 +701,24 @@
    "music": 310,
    "holiday": 171
   }
+ },
+ {
+  "date": "2026-10-13",
+  "raw": 5021,
+  "merged": 4296,
+  "published": 4233,
+  "queued": 63,
+  "active_sources": 151,
+  "categories": {
+   "community": 1700,
+   "education": 178,
+   "food-drink": 181,
+   "family": 273,
+   "sports-rec": 608,
+   "other": 442,
+   "arts": 359,
+   "music": 316,
+   "holiday": 176
+  }
  }
 ]
