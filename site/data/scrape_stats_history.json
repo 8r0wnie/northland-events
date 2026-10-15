@@ -739,5 +739,24 @@
    "arts": 355,
    "family": 275
   }
+ },
+ {
+  "date": "2026-10-15",
+  "raw": 4993,
+  "merged": 4275,
+  "published": 4194,
+  "queued": 81,
+  "active_sources": 151,
+  "categories": {
+   "community": 1668,
+   "sports-rec": 615,
+   "food-drink": 181,
+   "music": 325,
+   "other": 421,
+   "family": 273,
+   "holiday": 179,
+   "education": 175,
+   "arts": 357
+  }
  }
 ]

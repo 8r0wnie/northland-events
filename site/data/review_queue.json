@@ -1,7 +1,35 @@
 {
-  "generated": "2026-10-14T16:18:57Z",
-  "count": 68,
+  "generated": "2026-10-15T16:10:23Z",
+  "count": 81,
   "events": [
+    {
+      "key": "d414f0cca1110e8f",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Next Stop Comedy Tour (opens in new tab)",
+      "start": "2026-10-15T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "price": "",
+      "description": "October 15 @ 7:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
     {
       "key": "4bd30eaabf8eb1f2",
       "reason": "single source, not yet corroborated",
@@ -87,6 +115,34 @@
       }
     },
     {
+      "key": "bce17da4c2eb70eb",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-10-18T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
       "key": "eb36ce49541faa9e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -143,7 +199,7 @@
       }
     },
     {
-      "key": "f7cb47511e0a56b6",
+      "key": "2fb6175c8e785077",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -151,23 +207,51 @@
       "sources": [
         {
           "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3875253-trick-or-treating-in-lincoln-park"
         }
       ],
-      "title": "8-10 Year Old, Session 2 (Sundays)",
-      "start": "2026-10-25T10:00:00",
-      "end": null,
+      "title": "Trick-or Treating in Lincoln Park",
+      "start": "2026-10-24T13:00:00",
+      "end": "2026-10-24T16:00:00",
       "all_day": false,
-      "venue": "College of St. Scholastica: Burns Wellness Commons",
+      "venue": "Lincoln Park",
       "city": "Duluth",
       "area": "Iron Range",
-      "category": "other",
+      "category": "holiday",
       "price": "",
-      "description": "Learn and improve forehands, backhands, serves, volleys and more with instruction from St Scholastica tennis players and coaches while having fun. Session 1 is Sundays 9/20 - 10/18 Session 2 is Sundays 10/25 - 12/6 5-7 year old lessons 9am-10am 8-10 year old lessons 10am-11am 10-12 year old lessons 11am-12pm Schedule From: Oct 25 2026 to Dec 6 2026 Every Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday: 10:00am to\u2026",
+      "description": "Celebrate Halloween Lincoln Park style! Put on your costumes and come down to Lincoln Park for free Trick-or-Treating, discounts, and special events.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3875253-trick-or-treating-in-lincoln-park"
+      }
+    },
+    {
+      "key": "7d11bc1d6857ef71",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Calendar Parking for October & November:",
+      "start": "2026-10-25T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
       }
     },
     {
@@ -311,6 +395,62 @@
       }
     },
     {
+      "key": "c951a0be06e87c53",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-11-01T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "3ade3e565f2ef0e8",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Even November 8",
+      "start": "2026-11-01T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
       "key": "13452b7584f1d39e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -367,6 +507,62 @@
       }
     },
     {
+      "key": "5505699c61413e9e",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-11-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "e93821e357ec8253",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Odd November 15",
+      "start": "2026-11-08T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
       "key": "1254815be806ce41",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -392,6 +588,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "8f6006020be9b4f4",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-11-15T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "f34aa1e80da1a9cc",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Even November 22",
+      "start": "2026-11-15T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
       }
     },
     {
@@ -504,6 +756,118 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "732d66894bf0ce82",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-11-22T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "1e75baf8c064a75e",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Odd November 29",
+      "start": "2026-11-22T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "54e66bcc3ec253bc",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-11-29T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "b75ce33011321ce4",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Even",
+      "start": "2026-11-29T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
       }
     },
     {
@@ -703,7 +1067,7 @@
       }
     },
     {
-      "key": "dce433acf7dc621c",
+      "key": "614aa6d946f83081",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -714,7 +1078,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "A Christmas Story",
+      "title": "A Christmas Story - The Musical",
       "start": "2026-12-20T14:00:00",
       "end": "2026-12-20T18:00:00",
       "all_day": false,
@@ -1515,34 +1879,6 @@
       }
     },
     {
-      "key": "8a5e7fc35d0e459e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "World Championship: Latvia vs. USA",
-      "start": "2027-04-23T19:00:00",
-      "end": "2027-04-23T23:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "e12b228129f8f342",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1599,7 +1935,7 @@
       }
     },
     {
-      "key": "f76044a23b6117d4",
+      "key": "a89ee00e8c526324",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1610,7 +1946,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "Roald Dahl's Charlie and the Chocolate Factory JR",
+      "title": "Charlie and the Chocolate Factory Jr.",
       "start": "2027-04-25T14:00:00",
       "end": "2027-04-25T18:00:00",
       "all_day": false,
@@ -1655,7 +1991,7 @@
       }
     },
     {
-      "key": "f76044a23b6117d4",
+      "key": "a89ee00e8c526324",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1666,7 +2002,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "Roald Dahl's Charlie and the Chocolate Factory JR",
+      "title": "Charlie and the Chocolate Factory Jr.",
       "start": "2027-04-25T17:00:00",
       "end": "2027-04-25T21:00:00",
       "all_day": false,
@@ -1893,6 +2229,34 @@
       "title": "IIHF Ice Hockey U18 World Championship (Bronze Game)",
       "start": "2027-05-02T13:00:00",
       "end": "2027-05-02T17:00:00",
+      "all_day": false,
+      "venue": "AMSOIL Arena",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "0c5a31828b92b463",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "IIHF Ice Hockey U18 World Championship (Gold Game)",
+      "start": "2027-05-02T17:00:00",
+      "end": "2027-05-02T21:00:00",
       "all_day": false,
       "venue": "AMSOIL Arena",
       "city": "Duluth",

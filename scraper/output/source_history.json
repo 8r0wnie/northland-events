@@ -17,6 +17,12 @@
    "events": 370,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 400,
+   "queued": 0,
+   "carried": false
   }
  ],
  "visit-duluth": [
@@ -37,6 +43,12 @@
    "events": 337,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 332,
+   "queued": 0,
+   "carried": false
   }
  ],
  "explore-minnesota": [
@@ -54,6 +66,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -77,6 +95,12 @@
    "events": 9,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 9,
+   "queued": 0,
+   "carried": false
   }
  ],
  "felivelife": [
@@ -97,6 +121,12 @@
    "events": 182,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 176,
+   "queued": 0,
+   "carried": false
   }
  ],
  "naturally-better-here": [
@@ -114,6 +144,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 13,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 13,
    "queued": 0,
    "carried": false
@@ -137,6 +173,12 @@
    "events": 49,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 47,
+   "queued": 0,
+   "carried": false
   }
  ],
  "grand-marais-mn": [
@@ -157,6 +199,12 @@
    "events": 72,
    "queued": 0,
    "carried": true
+  },
+  {
+   "date": "2026-10-15",
+   "events": 73,
+   "queued": 0,
+   "carried": false
   }
  ],
  "mesabi-tribune-events": [
@@ -175,6 +223,12 @@
   {
    "date": "2026-10-14",
    "events": 452,
+   "queued": 67,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 454,
    "queued": 67,
    "carried": false
   }
@@ -197,6 +251,12 @@
    "events": 18,
    "queued": 1,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 16,
+   "queued": 1,
+   "carried": false
   }
  ],
  "kaxe-events-up-north": [
@@ -214,6 +274,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 2,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 2,
    "queued": 0,
    "carried": false
@@ -237,6 +303,12 @@
    "events": 6,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 6,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hermantown-chamber": [
@@ -254,6 +326,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 10,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 10,
    "queued": 0,
    "carried": false
@@ -277,6 +355,12 @@
    "events": 3,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 3,
+   "queued": 0,
+   "carried": false
   }
  ],
  "superior-chamber": [
@@ -294,6 +378,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 35,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 35,
    "queued": 0,
    "carried": false
@@ -317,6 +407,12 @@
    "events": 8,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 7,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hibbing-chamber": [
@@ -334,6 +430,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 3,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 3,
    "queued": 0,
    "carried": false
@@ -357,6 +459,12 @@
    "events": 12,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 12,
+   "queued": 0,
+   "carried": false
   }
  ],
  "elc-chamber": [
@@ -374,6 +482,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 10,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 10,
    "queued": 0,
    "carried": false
@@ -397,6 +511,12 @@
    "events": 10,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 10,
+   "queued": 0,
+   "carried": false
   }
  ],
  "ifalls-chamber": [
@@ -414,6 +534,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -437,6 +563,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "pine-city-chamber": [
@@ -454,6 +586,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 2,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 2,
    "queued": 0,
    "carried": false
@@ -477,6 +615,12 @@
    "events": 78,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 76,
+   "queued": 0,
+   "carried": false
   }
  ],
  "visit-ashland": [
@@ -497,6 +641,12 @@
    "events": 1,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 1,
+   "queued": 0,
+   "carried": true
   }
  ],
  "hayward-chamber": [
@@ -515,6 +665,12 @@
   {
    "date": "2026-10-14",
    "events": 118,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 117,
    "queued": 0,
    "carried": false
   }
@@ -537,6 +693,12 @@
    "events": 43,
    "queued": 0,
    "carried": true
+  },
+  {
+   "date": "2026-10-15",
+   "events": 41,
+   "queued": 0,
+   "carried": true
   }
  ],
  "ironwood-chamber": [
@@ -557,6 +719,12 @@
    "events": 6,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 6,
+   "queued": 1,
+   "carried": false
   }
  ],
  "stlouis-county-mn": [
@@ -574,6 +742,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -597,6 +771,12 @@
    "events": 340,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 332,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hermantown-mn": [
@@ -614,6 +794,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 32,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 32,
    "queued": 0,
    "carried": false
@@ -637,6 +823,12 @@
    "events": 20,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 20,
+   "queued": 0,
+   "carried": true
   }
  ],
  "virginia-mn": [
@@ -654,6 +846,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 15,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 15,
    "queued": 0,
    "carried": false
@@ -677,6 +875,12 @@
    "events": 16,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 13,
+   "queued": 0,
+   "carried": false
   }
  ],
  "eveleth-mn": [
@@ -694,6 +898,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 4,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 4,
    "queued": 0,
    "carried": false
@@ -717,6 +927,12 @@
    "events": 4,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 4,
+   "queued": 0,
+   "carried": false
   }
  ],
  "ely-mn": [
@@ -737,6 +953,12 @@
    "events": 152,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 150,
+   "queued": 0,
+   "carried": false
   }
  ],
  "mountain-iron-mn": [
@@ -754,6 +976,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -777,6 +1005,12 @@
    "events": 3,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 3,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hoyt-lakes-mn": [
@@ -796,6 +1030,12 @@
    "date": "2026-10-14",
    "events": 6,
    "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 17,
+   "queued": 12,
    "carried": false
   }
  ],
@@ -817,6 +1057,12 @@
    "events": 308,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 306,
+   "queued": 0,
+   "carried": false
   }
  ],
  "cook-mn": [
@@ -834,6 +1080,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -857,6 +1109,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "tower-mn": [
@@ -874,6 +1132,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -897,6 +1161,12 @@
    "events": 1,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 1,
+   "queued": 0,
+   "carried": false
   }
  ],
  "carlton-county-mn": [
@@ -917,6 +1187,12 @@
    "events": 1,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 1,
+   "queued": 0,
+   "carried": true
   }
  ],
  "moose-lake-mn": [
@@ -937,6 +1213,12 @@
    "events": 3,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 2,
+   "queued": 0,
+   "carried": false
   }
  ],
  "carlton-mn": [
@@ -954,6 +1236,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -977,6 +1265,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "cromwell-mn": [
@@ -997,6 +1291,12 @@
    "events": 44,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 43,
+   "queued": 0,
+   "carried": false
   }
  ],
  "wrenshall-mn": [
@@ -1014,6 +1314,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1037,6 +1343,12 @@
    "events": 6,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 6,
+   "queued": 0,
+   "carried": false
   }
  ],
  "lake-county-mn": [
@@ -1054,6 +1366,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 11,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 11,
    "queued": 0,
    "carried": false
@@ -1077,6 +1395,12 @@
    "events": 121,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 118,
+   "queued": 0,
+   "carried": false
   }
  ],
  "silver-bay-mn": [
@@ -1095,6 +1419,12 @@
   {
    "date": "2026-10-14",
    "events": 49,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 48,
    "queued": 0,
    "carried": false
   }
@@ -1117,6 +1447,12 @@
    "events": 77,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 76,
+   "queued": 0,
+   "carried": false
   }
  ],
  "grand-marais-city-mn": [
@@ -1134,6 +1470,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 7,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 7,
    "queued": 0,
    "carried": false
@@ -1157,6 +1499,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "koochiching-county-mn": [
@@ -1174,6 +1522,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 2,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 2,
    "queued": 0,
    "carried": false
@@ -1197,6 +1551,12 @@
    "events": 58,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 57,
+   "queued": 0,
+   "carried": false
   }
  ],
  "itasca-county-mn": [
@@ -1214,6 +1574,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1237,6 +1603,12 @@
    "events": 10,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 9,
+   "queued": 0,
+   "carried": false
   }
  ],
  "deer-river-mn": [
@@ -1254,6 +1626,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 1,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 1,
    "queued": 0,
    "carried": false
@@ -1277,6 +1655,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "aitkin-county-mn": [
@@ -1294,6 +1678,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1317,6 +1707,12 @@
    "events": 5,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 5,
+   "queued": 0,
+   "carried": false
   }
  ],
  "aitkin-mn": [
@@ -1334,6 +1730,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 5,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 5,
    "queued": 0,
    "carried": false
@@ -1357,6 +1759,12 @@
    "events": 28,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 28,
+   "queued": 0,
+   "carried": false
   }
  ],
  "sandstone-mn": [
@@ -1374,6 +1782,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 1,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 1,
    "queued": 0,
    "carried": false
@@ -1397,6 +1811,12 @@
    "events": 45,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 45,
+   "queued": 0,
+   "carried": false
   }
  ],
  "douglas-county-wi": [
@@ -1417,6 +1837,12 @@
    "events": 12,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 13,
+   "queued": 0,
+   "carried": false
   }
  ],
  "superior-wi": [
@@ -1434,6 +1860,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 2,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 2,
    "queued": 0,
    "carried": false
@@ -1457,6 +1889,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "bayfield-county-wi": [
@@ -1475,6 +1913,12 @@
   {
    "date": "2026-10-14",
    "events": 108,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 106,
    "queued": 0,
    "carried": false
   }
@@ -1497,6 +1941,12 @@
    "events": 89,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 86,
+   "queued": 0,
+   "carried": false
   }
  ],
  "washburn-wi": [
@@ -1514,6 +1964,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1537,6 +1993,12 @@
    "events": 1,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 1,
+   "queued": 0,
+   "carried": false
   }
  ],
  "ashland-county-wi": [
@@ -1554,6 +2016,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1577,6 +2045,12 @@
    "events": 13,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 14,
+   "queued": 0,
+   "carried": false
   }
  ],
  "burnett-county-wi": [
@@ -1597,6 +2071,12 @@
    "events": 3,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 2,
+   "queued": 0,
+   "carried": false
   }
  ],
  "siren-wi": [
@@ -1614,6 +2094,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 19,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 19,
    "queued": 0,
    "carried": false
@@ -1637,6 +2123,12 @@
    "events": 43,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 35,
+   "queued": 0,
+   "carried": false
   }
  ],
  "spooner-wi": [
@@ -1654,6 +2146,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1677,6 +2175,12 @@
    "events": 3,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 3,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hayward-wi": [
@@ -1694,6 +2198,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -1717,6 +2227,12 @@
    "events": 7,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 6,
+   "queued": 0,
+   "carried": false
   }
  ],
  "ironwood-mi": [
@@ -1734,6 +2250,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 6,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 6,
    "queued": 0,
    "carried": false
@@ -1757,6 +2279,12 @@
    "events": 188,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 198,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-superior": [
@@ -1775,6 +2303,12 @@
   {
    "date": "2026-10-14",
    "events": 126,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 127,
    "queued": 0,
    "carried": false
   }
@@ -1797,6 +2331,12 @@
    "events": 35,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 33,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-hibbing": [
@@ -1817,6 +2357,12 @@
    "events": 37,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 35,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-grand-rapids": [
@@ -1834,6 +2380,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 9,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 9,
    "queued": 0,
    "carried": false
@@ -1857,6 +2409,12 @@
    "events": 11,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 11,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-ashland": [
@@ -1875,6 +2433,12 @@
   {
    "date": "2026-10-14",
    "events": 22,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 19,
    "queued": 0,
    "carried": false
   }
@@ -1897,6 +2461,12 @@
    "events": 6,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 7,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-virginia": [
@@ -1915,6 +2485,12 @@
   {
    "date": "2026-10-14",
    "events": 19,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 18,
    "queued": 0,
    "carried": false
   }
@@ -1937,6 +2513,12 @@
    "events": 51,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 52,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-grand-marais": [
@@ -1954,6 +2536,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 5,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 5,
    "queued": 0,
    "carried": false
@@ -1977,6 +2565,12 @@
    "events": 32,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 32,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-ironwood": [
@@ -1995,6 +2589,12 @@
   {
    "date": "2026-10-14",
    "events": 22,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 20,
    "queued": 0,
    "carried": false
   }
@@ -2017,6 +2617,12 @@
    "events": 19,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 17,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-silver-bay": [
@@ -2037,6 +2643,12 @@
    "events": 16,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 15,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-moose-lake": [
@@ -2054,6 +2666,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 7,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 7,
    "queued": 0,
    "carried": false
@@ -2077,6 +2695,12 @@
    "events": 14,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 17,
+   "queued": 0,
+   "carried": false
   }
  ],
  "allevents-hinckley": [
@@ -2094,6 +2718,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 9,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 9,
    "queued": 0,
    "carried": false
@@ -2117,6 +2747,12 @@
    "events": 5,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 5,
+   "queued": 0,
+   "carried": false
   }
  ],
  "umd-bulldogs": [
@@ -2134,6 +2770,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 71,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 71,
    "queued": 0,
    "carried": false
@@ -2157,6 +2799,12 @@
    "events": 98,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 98,
+   "queued": 0,
+   "carried": false
   }
  ],
  "css-saints": [
@@ -2177,6 +2825,12 @@
    "events": 76,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 80,
+   "queued": 0,
+   "carried": false
   }
  ],
  "norshor-playhouse": [
@@ -2194,6 +2848,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 28,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 28,
    "queued": 0,
    "carried": false
@@ -2217,6 +2877,12 @@
    "events": 64,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 64,
+   "queued": 0,
+   "carried": false
   }
  ],
  "sacred-heart": [
@@ -2234,6 +2900,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 7,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 7,
    "queued": 0,
    "carried": false
@@ -2257,6 +2929,12 @@
    "events": 5,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 5,
+   "queued": 0,
+   "carried": false
   }
  ],
  "duluth-art-institute": [
@@ -2274,6 +2952,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 60,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 60,
    "queued": 0,
    "carried": false
@@ -2297,6 +2981,12 @@
    "events": 8,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 8,
+   "queued": 0,
+   "carried": true
   }
  ],
  "mn-discovery-center": [
@@ -2314,6 +3004,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 23,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 23,
    "queued": 0,
    "carried": false
@@ -2337,6 +3033,12 @@
    "events": 17,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 16,
+   "queued": 0,
+   "carried": false
   }
  ],
  "castle-danger": [
@@ -2357,6 +3059,12 @@
    "events": 68,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 65,
+   "queued": 0,
+   "carried": false
   }
  ],
  "zeitgeist": [
@@ -2374,6 +3082,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 18,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 18,
    "queued": 0,
    "carried": false
@@ -2397,6 +3111,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "decc": [
@@ -2414,6 +3134,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 60,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 60,
    "queued": 0,
    "carried": false
@@ -2437,6 +3163,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "bent-paddle": [
@@ -2454,6 +3186,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2477,6 +3215,12 @@
    "events": 12,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 12,
+   "queued": 0,
+   "carried": false
   }
  ],
  "duluth-cider": [
@@ -2494,6 +3238,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 39,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 39,
    "queued": 0,
    "carried": false
@@ -2517,6 +3267,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "earth-rider": [
@@ -2534,6 +3290,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 11,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 11,
    "queued": 0,
    "carried": false
@@ -2557,6 +3319,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "fitgers-brewhouse": [
@@ -2574,6 +3342,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 14,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 14,
    "queued": 0,
    "carried": false
@@ -2597,6 +3371,12 @@
    "events": 5,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 5,
+   "queued": 0,
+   "carried": false
   }
  ],
  "blacklist-brewing": [
@@ -2614,6 +3394,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2637,6 +3423,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "big-top": [
@@ -2654,6 +3446,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 7,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 7,
    "queued": 0,
    "carried": false
@@ -2677,6 +3475,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "aitkin-county-fair": [
@@ -2694,6 +3498,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2717,6 +3527,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "askov-rutabaga-fest": [
@@ -2737,6 +3553,12 @@
    "events": 1,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 1,
+   "queued": 0,
+   "carried": true
   }
  ],
  "lake-county-fair": [
@@ -2754,6 +3576,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2777,6 +3605,12 @@
    "events": 2,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 2,
+   "queued": 0,
+   "carried": false
   }
  ],
  "head-of-the-lakes-fair": [
@@ -2794,6 +3628,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2817,6 +3657,12 @@
    "events": 11,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 11,
+   "queued": 0,
+   "carried": false
   }
  ],
  "hurley-area-chamber": [
@@ -2837,6 +3683,12 @@
    "events": 70,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 67,
+   "queued": 0,
+   "carried": false
   }
  ],
  "spirit-mountain": [
@@ -2854,6 +3706,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2877,6 +3735,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "birkie": [
@@ -2894,6 +3758,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 7,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 7,
    "queued": 0,
    "carried": false
@@ -2917,6 +3787,12 @@
    "events": 4,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 4,
+   "queued": 0,
+   "carried": false
   }
  ],
  "wolf-ridge": [
@@ -2934,6 +3810,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 2,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 2,
    "queued": 0,
    "carried": false
@@ -2957,6 +3839,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "apostle-islands-nps": [
@@ -2974,6 +3862,12 @@
   },
   {
    "date": "2026-10-14",
+   "events": 0,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
    "events": 0,
    "queued": 0,
    "carried": false
@@ -2997,6 +3891,12 @@
    "events": 0,
    "queued": 0,
    "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 0,
+   "queued": 0,
+   "carried": false
   }
  ],
  "fond-du-lac-band": [
@@ -3015,6 +3915,12 @@
   {
    "date": "2026-10-14",
    "events": 58,
+   "queued": 0,
+   "carried": false
+  },
+  {
+   "date": "2026-10-15",
+   "events": 56,
    "queued": 0,
    "carried": false
   }
