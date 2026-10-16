@@ -1,35 +1,7 @@
 {
-  "generated": "2026-10-15T16:10:23Z",
-  "count": 81,
+  "generated": "2026-10-16T15:51:37Z",
+  "count": 92,
   "events": [
-    {
-      "key": "d414f0cca1110e8f",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Next Stop Comedy Tour (opens in new tab)",
-      "start": "2026-10-15T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "arts",
-      "price": "",
-      "description": "October 15 @ 7:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "4bd30eaabf8eb1f2",
       "reason": "single source, not yet corroborated",
@@ -143,6 +115,118 @@
       }
     },
     {
+      "key": "9aacb6c4fd90ecae",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/tags/events-up-north"
+        }
+      ],
+      "title": "Screamatorium in Virginia",
+      "start": "2026-10-19T00:00:00",
+      "end": "2026-10-25T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "holiday",
+      "price": "",
+      "description": "Conversation Events Up North Oct. 19-25: Screamatorium in Virginia, Enchanted Halloween in Bemidji Events this week include local theater in Pequot Lakes and Brainerd, a barn dance in Virginia and fundraising events in Bemidji and Grand Rapids.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
+      "key": "ceddc4cd7772e4ef",
+      "reason": "read from page text",
+      "source_ids": [
+        "bovey-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Bovey",
+          "url": "https://boveymn.gov/recent-news"
+        }
+      ],
+      "title": "Change to Council Meeting",
+      "start": "2026-10-21T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Bovey",
+      "area": "Bovey",
+      "category": "community",
+      "price": "",
+      "description": "On October 21st, 2026, the city council meeting will be held at 4:00 PM. There will be a special meeting being held in the Club Room at 6:00 PM to discuss ordinances.",
+      "image": "",
+      "source": {
+        "name": "City of Bovey",
+        "url": "https://boveymn.gov/recent-news"
+      }
+    },
+    {
+      "key": "1a2e8c657b4bd4c8",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Open Door Coat Rack distribution",
+      "start": "2026-10-21T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "9 a.m.-5 p.m. at United Methodist Church in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "2ad6766162e42d8e",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Adolescent mental health discussion",
+      "start": "2026-10-21T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "7 p.m. at Zion Lutheran Church in Grand Rapids. Dr. Justin Gambill with First Call for Help will talk about warning signs and resources for adolescents with mental health issues.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
       "key": "eb36ce49541faa9e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -168,6 +252,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "11f44624f1346d73",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Open Door Coat Rack distribution",
+      "start": "2026-10-22T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "9 a.m.-4 p.m. at United Methodist Church in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "f95bf8267b12200e",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Itasca Empty Bowls",
+      "start": "2026-10-22T11:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "11 a.m.-2 p.m. and 4-7 p.m. at Timberlake Lodge in Grand Rapids. Tickets include a bowl of soup, bread, salad and dessert, plus a handmade ceramic bowl to take home.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
       }
     },
     {
@@ -199,6 +339,34 @@
       }
     },
     {
+      "key": "00f1cdf4196a74c9",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Screamatorium",
+      "start": "2026-10-23T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "6-10 p.m. at CHAIR in Virginia",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
       "key": "2fb6175c8e785077",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -224,6 +392,118 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3875253-trick-or-treating-in-lincoln-park"
+      }
+    },
+    {
+      "key": "a2a833ef2dfd6ea8",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Meatball Dinner",
+      "start": "2026-10-24T16:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "food-drink",
+      "price": "",
+      "description": "4-6:30 p.m. at Zion Lutheran Church in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "39fc554ac55f8a9d",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Itasca County Family YMCA Fall Auction and Social",
+      "start": "2026-10-24T17:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "5:30 p.m. at Timberlake Lodge in Grand Rapids. Online auction going on now.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "142861c7827d6f92",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Screamatorium",
+      "start": "2026-10-24T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "6-10 p.m. at CHAIR in Virginia",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "445ff427ecc422b0",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+        }
+      ],
+      "title": "Iron Range Barn Dance",
+      "start": "2026-10-24T18:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "arts",
+      "price": "",
+      "description": "6:30-9:30 p.m. at Kaleva Hall in Virginia",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
       }
     },
     {
@@ -647,6 +927,34 @@
       }
     },
     {
+      "key": "8c7ab2fd656330bc",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3876845-77th-annual-turkey-bingo"
+        }
+      ],
+      "title": "77th Annual Turkey Bingo",
+      "start": "2026-11-19T18:00:00",
+      "end": "2026-11-19T21:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Join the Lincoln Park Business Group for two nights of fun with amazing prizes, all to support the Lincoln Park neighborhood! Your ticket gets you 10 rounds of Bingo action with incredible prizes including Turkeys, Hams, home decor, outdoor gear, and much more! Extra game boards are available for purchase at the event.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3876845-77th-annual-turkey-bingo"
+      }
+    },
+    {
       "key": "2c40fae19ca36151",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -871,7 +1179,7 @@
       }
     },
     {
-      "key": "4a9192ec36b8b40d",
+      "key": "b64b9dcdc2ad01d8",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -882,7 +1190,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "A Christmas Story - The Musical",
+      "title": "A Christmas Story",
       "start": "2026-12-06T14:00:00",
       "end": "2026-12-06T18:00:00",
       "all_day": false,
@@ -1011,7 +1319,7 @@
       }
     },
     {
-      "key": "51c4170eab04b072",
+      "key": "c7dde15143f6cd91",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1022,7 +1330,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "A Christmas Story - The Musical",
+      "title": "A Christmas Story",
       "start": "2026-12-13T14:00:00",
       "end": "2026-12-13T18:00:00",
       "all_day": false,
@@ -1991,7 +2299,7 @@
       }
     },
     {
-      "key": "a89ee00e8c526324",
+      "key": "f76044a23b6117d4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -2002,7 +2310,7 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "Charlie and the Chocolate Factory Jr.",
+      "title": "Roald Dahl's Charlie and the Chocolate Factory JR",
       "start": "2027-04-25T17:00:00",
       "end": "2027-04-25T21:00:00",
       "all_day": false,
