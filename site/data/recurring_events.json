@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:51:37",
+  "generated": "2026-10-17T14:45:57",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -581,6 +581,26 @@
       "last_date": "2026-10-20",
       "last_url": "https://visitduluth.com/event/mn-recreation-and-park-association-annual-conference/",
       "predicted_next": "2027-10-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "hayward music boosters spaghetti supper|hayward",
+      "title": "Hayward Music Boosters Annual Spaghetti Supper",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-23",
+      "last_url": "https://www.facebook.com/HaywardMusicBoosters/",
+      "predicted_next": "2027-10-23",
       "owner_decision": ""
     },
     {

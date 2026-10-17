@@ -1,61 +1,33 @@
 {
-  "generated": "2026-10-16T15:51:37Z",
-  "count": 92,
+  "generated": "2026-10-17T14:45:57Z",
+  "count": 94,
   "events": [
     {
-      "key": "4bd30eaabf8eb1f2",
-      "reason": "single source, not yet corroborated",
+      "key": "55170d75035cf384",
+      "reason": "read from page text",
       "source_ids": [
-        "mesabi-tribune-events"
+        "ironwood-chamber"
       ],
       "sources": [
         {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Wild Duluth",
-      "start": "2026-10-17T06:00:00",
-      "end": "2026-10-18T18:59:00",
+      "title": "Ride for Marty\u2019s Goldenaires (opens in new tab)",
+      "start": "2026-10-17T10:00:00",
+      "end": null,
       "all_day": false,
-      "venue": "350 Harbor Drive",
-      "city": "Duluth",
-      "area": "Iron Range",
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
       "category": "sports-rec",
       "price": "",
-      "description": "Ultra race",
+      "description": "October 17 @ 10:00 am",
       "image": "",
       "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "92cea7ef22e0f738",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Minnesota Golden Gophers at Minnesota Duluth Bulldogs Mens Hockey",
-      "start": "2026-10-17T18:00:00",
-      "end": "2026-10-17T22:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -507,6 +479,34 @@
       }
     },
     {
+      "key": "6a59cff194fa2706",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Effervescent Album Release Show - Teague Alexy & The Common Thread & Babie Eyes",
+      "start": "2026-10-24T20:00:00",
+      "end": "2026-10-25T00:00:00",
+      "all_day": false,
+      "venue": "Cedar Lounge - Earth Rider Brewery taproom",
+      "city": "Superior",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Teague Alexy & The Common Thread celebrate the release of their EFFERVESCENT album with very special guest Babie Eyes. Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "7d11bc1d6857ef71",
       "reason": "read from page text",
       "source_ids": [
@@ -924,6 +924,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "9f33b72973cc6971",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3876839-77th-annual-turkey-bingo"
+        }
+      ],
+      "title": "77th Annual Turkey Bingo",
+      "start": "2026-11-18T18:00:00",
+      "end": "2026-11-18T21:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Join the Lincoln Park Business Group for two nights of fun with amazing prizes, all to support the Lincoln Park neighborhood! Your ticket gets you 10 rounds of Bingo action with incredible prizes including Turkeys, Hams, home decor, outdoor gear, and much more! Extra game boards are available for purchase at the event.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3876839-77th-annual-turkey-bingo"
       }
     },
     {
@@ -1424,6 +1452,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "bdbbd4399d077ff6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Geoffrey Asmus",
+      "start": "2027-01-03T18:00:00",
+      "end": "2027-01-03T22:00:00",
+      "all_day": false,
+      "venue": "The West Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "One show in Duluth. Please come. Geoffrey Asmus began performing stand-up in 2013 immediately after wasting $143,548 on seven college degrees. Geoffrey is a regular performer at the famous Comedy Cellar in New York City and was featured at Just For Laughs in Montreal as a \u2018New Face.\u2019 Geoffrey has opened for Dave Attell, Mark Normand, Dan Soder, Fortune Feimster, Sam Morrill, and Daniel Sloss among others. He headlines comedy clubs nationwide and sleeps on Greyhounds around the world. In 2021 his debut album \u201cProdigal Little Bitch\u201d went to #1 on iTunes.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
