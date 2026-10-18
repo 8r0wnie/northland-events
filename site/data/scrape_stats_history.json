@@ -796,5 +796,24 @@
    "food-drink": 172,
    "other": 420
   }
+ },
+ {
+  "date": "2026-10-18",
+  "raw": 4833,
+  "merged": 4154,
+  "published": 4060,
+  "queued": 94,
+  "active_sources": 151,
+  "categories": {
+   "food-drink": 165,
+   "family": 242,
+   "sports-rec": 599,
+   "other": 415,
+   "arts": 328,
+   "music": 287,
+   "community": 1671,
+   "holiday": 186,
+   "education": 167
+  }
  }
 ]

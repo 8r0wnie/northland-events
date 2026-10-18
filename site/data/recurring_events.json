@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T14:45:57",
+  "generated": "2026-10-18T15:07:13",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -984,6 +984,26 @@
       "owner_decision": ""
     },
     {
+      "key": "wreath making|ashland",
+      "title": "4th annual Wreath making",
+      "venue": "1314 Lake Shore Drive W. Suite 2, Ashland, WI 54806",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 4,
+      "signal_reasons": [
+        "title says \"4th annual\""
+      ],
+      "last_date": "2026-11-28",
+      "last_url": "https://allevents.in/ashland/4th-annual-wreath-making/200030850217224",
+      "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
       "key": "craft fair|spooner",
       "title": "6th annual craft fair!",
       "venue": "1315 County Road A # A, Spooner, WI",
@@ -1000,6 +1020,26 @@
       ],
       "last_date": "2026-12-05",
       "last_url": "https://allevents.in/spooner/6th-annual-craft-fair/200030804556027",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
+      "key": "camba meeting|hayward",
+      "title": "CAMBA Annual Meeting",
+      "venue": "The Lumber Exchange",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://allevents.in/hayward/camba-annual-meeting/200030849934713",
       "predicted_next": "2027-12-05",
       "owner_decision": ""
     },
