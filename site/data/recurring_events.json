@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T18:04:55",
+  "generated": "2026-10-20T16:08:28",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -584,6 +584,26 @@
       "owner_decision": ""
     },
     {
+      "key": "celebrity dance challenge|duluth",
+      "title": "The 20th Annual Celebrity Dance Challenge",
+      "venue": "Depot Stage \u2013 Historic St Louis County Depot",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 20,
+      "signal_reasons": [
+        "title says \"20th Annual\""
+      ],
+      "last_date": "2026-10-23",
+      "last_url": "https://visitduluth.com/event/the-20th-annual-celebrity-dance-challenge/",
+      "predicted_next": "2027-10-23",
+      "owner_decision": ""
+    },
+    {
       "key": "hayward music boosters spaghetti supper|hayward",
       "title": "Hayward Music Boosters Annual Spaghetti Supper",
       "venue": "",
@@ -864,6 +884,26 @@
       "owner_decision": ""
     },
     {
+      "key": "harvest moon gala fundraiser for two harbors community radio|two harbors",
+      "title": "Harvest Moon Gala. Annual Fundraiser for Two Harbors Community Radio",
+      "venue": "Two Harbors American Legion. 614 1st Ave.",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://allevents.in/two-harbors/harvest-moon-gala-annual-fundraiser-for-two-harbors-community-radio/200030857060636",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
       "key": "meat raffle|ashland",
       "title": "9th Annual Meat Raffle",
       "venue": "Neighborly Bar",
@@ -900,6 +940,26 @@
       ],
       "last_date": "2026-11-19",
       "last_url": "https://members.hermantownchamber.com/communityevents/Details/annual-meeting-2026-1567228?sourceTypeId=Website",
+      "predicted_next": "2027-11-19",
+      "owner_decision": ""
+    },
+    {
+      "key": "turkey bingo|duluth",
+      "title": "77th Annual Turkey Bingo",
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "family",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 77,
+      "signal_reasons": [
+        "title says \"77th Annual\""
+      ],
+      "last_date": "2026-11-19",
+      "last_url": "https://visitduluth.com/event/77th-annual-turkey-bingo/2026-11-19/",
       "predicted_next": "2027-11-19",
       "owner_decision": ""
     },
@@ -944,26 +1004,6 @@
       "owner_decision": ""
     },
     {
-      "key": "winter wonderland market|superior",
-      "title": "The 5th Annual Winter Wonderland Market",
-      "venue": "Superior WI Elks Lodge #403",
-      "city": "Superior",
-      "area": "Superior",
-      "category": "community",
-      "years_seen": [
-        "2026"
-      ],
-      "occurrence_count": 1,
-      "claimed_annual_number": 5,
-      "signal_reasons": [
-        "title says \"5th Annual\""
-      ],
-      "last_date": "2026-11-28",
-      "last_url": "https://allevents.in/superior/the-5th-annual-winter-wonderland-market/200030022007104",
-      "predicted_next": "2027-11-28",
-      "owner_decision": ""
-    },
-    {
       "key": "stone lake holiday market|washburn county",
       "title": "2nd Annual Stone Lake Holiday Market",
       "venue": "Stone Lake Lions Hall",
@@ -1001,6 +1041,46 @@
       "last_date": "2026-11-28",
       "last_url": "https://allevents.in/ashland/4th-annual-wreath-making/200030850217224",
       "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
+      "key": "winter wonderland market|superior",
+      "title": "The 5th Annual Winter Wonderland Market",
+      "venue": "The Superior Elks Lodge #403",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 5,
+      "signal_reasons": [
+        "title says \"5th Annual\""
+      ],
+      "last_date": "2026-11-29",
+      "last_url": "https://www.superiorchamber.org/events/details/the-5th-annual-winter-wonderland-market-11-29-2026-22092",
+      "predicted_next": "2027-11-29",
+      "owner_decision": ""
+    },
+    {
+      "key": "veterans memorial hall remembrance dinner on 12 03|duluth",
+      "title": "Veterans Memorial Hall Annual Remembrance Dinner on 12/03/2026",
+      "venue": "St. Louis County Depot",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-03",
+      "last_url": "https://visitduluth.com/event/veterans-memorial-hall-annual-remembrance-dinner-on-12-03-2026/",
+      "predicted_next": "2027-12-03",
       "owner_decision": ""
     },
     {
