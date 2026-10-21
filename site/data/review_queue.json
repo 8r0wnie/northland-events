@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T16:08:27Z",
-  "count": 88,
+  "generated": "2026-10-21T16:27:29Z",
+  "count": 90,
   "events": [
     {
       "key": "ceddc4cd7772e4ef",
@@ -871,6 +871,34 @@
       }
     },
     {
+      "key": "4caaf8c97f710d43",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "DECC Gala: a Progressive Party Through the Decades",
+      "start": "2026-11-19T17:00:00",
+      "end": "2026-11-19T21:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "community",
+      "price": "",
+      "description": "The First-Ever DECC Gala: a Progressive Party through the Decades We're excited to announce the inaugural DECC Gala, a one-of-a-kind celebration honoring the 60th Anniversary of the DECC. This isn't your typical gala because the DECC, with 10 community venues, is anything but typical. Guests will embark on a progressive journey through the decades and across the DECC campus, experiencing the history of the organization in a truly immersive way.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "2c40fae19ca36151",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1088,6 +1116,34 @@
       "category": "holiday",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "340095353f059e9a",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Nathan Frazer-Music",
+      "start": "2026-12-11T19:00:00",
+      "end": "2026-12-11T23:00:00",
+      "all_day": false,
+      "venue": "Pine County Historical Society & The Little Mermaid Cafe",
+      "city": "Askov",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Nathan Frazer sings \u201cSongs for the Season\u201d a musical review of winter, darkness, and snow, as well light, warmth, friendship and the holidays.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

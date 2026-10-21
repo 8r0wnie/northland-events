@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T16:08:28",
+  "generated": "2026-10-21T16:27:29",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -644,6 +644,26 @@
       "owner_decision": ""
     },
     {
+      "key": "cook county historical society meeting with guest speaker keith morris|grand marais",
+      "title": "Cook County Historical Society Annual Meeting with Guest Speaker Keith Morris",
+      "venue": "Johnson Heritage Post Art Gallery",
+      "city": "Grand Marais",
+      "area": "Grand Marais",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-27",
+      "last_url": "https://www.visitcookcounty.com/event/cook-county-historical-society-annual-meeting-with-guest-speaker-keith-morris/7793/",
+      "predicted_next": "2027-10-27",
+      "owner_decision": ""
+    },
+    {
       "key": "mn gis lis consortium conference|duluth",
       "title": "MN GIS/LIS Consortium Annual Conference",
       "venue": "",
@@ -844,6 +864,26 @@
       "owner_decision": ""
     },
     {
+      "key": "john agacki s sea shanties and singalongs|duluth",
+      "title": "John Agacki's 6th Annual Sea Shanties and Singalongs!",
+      "venue": "Wussow's Concert Cafe",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 6,
+      "signal_reasons": [
+        "title says \"6th Annual\""
+      ],
+      "last_date": "2026-11-13",
+      "last_url": "https://allevents.in/duluth/john-agackis-6th-annual-sea-shanties-and-singalongs/200030859865747",
+      "predicted_next": "2027-11-13",
+      "owner_decision": ""
+    },
+    {
       "key": "jingle all way craft small business christmas show|duluth",
       "title": "10th Annual Jingle All The Way Craft & Small Business Christmas Show",
       "venue": "5152 Miller Trunk Hwy",
@@ -900,6 +940,26 @@
       ],
       "last_date": "2026-11-14",
       "last_url": "https://allevents.in/two-harbors/harvest-moon-gala-annual-fundraiser-for-two-harbors-community-radio/200030857060636",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
+      "key": "dagwaagin round dance|duluth",
+      "title": "3rd Annual Dagwaagin Round Dance",
+      "venue": "1049 University Dr, Duluth, MN",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://allevents.in/duluth/3rd-annual-dagwaagin-round-dance/200030859879232",
       "predicted_next": "2027-11-14",
       "owner_decision": ""
     },
