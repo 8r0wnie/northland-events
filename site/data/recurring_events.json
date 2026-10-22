@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T16:27:29",
+  "generated": "2026-10-22T16:22:49",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1041,6 +1041,26 @@
       "last_date": "2026-11-20",
       "last_url": "https://www.washburncounty.org/event/3rd-annual-trego-hometown-holiday/3055/",
       "predicted_next": "2027-11-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "hurley craft fair|ironwood",
+      "title": "26th Annual Hurley Craft Fair",
+      "venue": "Hurley K-12 School",
+      "city": "Hurley",
+      "area": "Ironwood",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 26,
+      "signal_reasons": [
+        "title says \"26th Annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://felivelife.org/event/26th-annual-hurley-craft-fair/",
+      "predicted_next": "2027-11-21",
       "owner_decision": ""
     },
     {

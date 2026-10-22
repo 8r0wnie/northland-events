@@ -1,63 +1,7 @@
 {
-  "generated": "2026-10-21T16:27:29Z",
+  "generated": "2026-10-22T16:22:49Z",
   "count": 90,
   "events": [
-    {
-      "key": "ceddc4cd7772e4ef",
-      "reason": "read from page text",
-      "source_ids": [
-        "bovey-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Bovey",
-          "url": "https://boveymn.gov/recent-news"
-        }
-      ],
-      "title": "Change to Council Meeting",
-      "start": "2026-10-21T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Bovey",
-      "area": "Bovey",
-      "category": "community",
-      "price": "",
-      "description": "On October 21st, 2026, the city council meeting will be held at 4:00 PM. There will be a special meeting being held in the Club Room at 6:00 PM to discuss ordinances.",
-      "image": "",
-      "source": {
-        "name": "City of Bovey",
-        "url": "https://boveymn.gov/recent-news"
-      }
-    },
-    {
-      "key": "1a2e8c657b4bd4c8",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Open Door Coat Rack distribution",
-      "start": "2026-10-21T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "9 a.m.-5 p.m. at United Methodist Church in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
     {
       "key": "2ad6766162e42d8e",
       "reason": "read from page text",
@@ -84,34 +28,6 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "eb36ce49541faa9e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Fellow Travelers",
-      "start": "2026-10-21T20:00:00",
-      "end": "2026-10-22T00:00:00",
-      "all_day": false,
-      "venue": "Cedar Lounge - Earth Rider Brewery taproom",
-      "city": "Superior",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "post country // rock and roll",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -224,6 +140,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "a57f15289f3daa63",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Fall Craft Fair (opens in new tab)",
+      "start": "2026-10-24T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "price": "",
+      "description": "October 24 @ 9:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -1291,6 +1235,34 @@
       }
     },
     {
+      "key": "df472d846c802adf",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "\u2728\ud83c\udf84 Aly Aleigha CHRISTMAS DINNER CONCERT \ud83c\udf84 \u2728",
+      "start": "2026-12-22T17:00:00",
+      "end": "2026-12-22T21:00:00",
+      "all_day": false,
+      "venue": "The Steakhouse & Lodge",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "holiday",
+      "price": "",
+      "description": "\u2728\ud83c\udf84 CHRISTMAS DINNER CONCERT \ud83c\udf84 \u2728 Mark your calendars and bring your loved ones along for a memorable night! Join Aly Aleigha & her band for a magical evening: a dinner concert of Re-imagined Christmas favorites with a classy indie-folk twist, along with some of Aly Aleigha\u2019s original music. An Elegant Evening Out This event is designed as an elegant holiday experience\u2014perfect for a date night, or for relaxing with a glass of wine while enjoying beautiful, sophisticated Christmas music. While the atmosphere is geared toward adults, please don't let the lack of a babysitter keep you away!",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
+      }
+    },
+    {
       "key": "c6a7246f4370ddd6",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1844,6 +1816,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ff09ae3833e29d2f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Presence Music",
+      "start": "2027-03-13T18:30:00",
+      "end": "2027-03-13T22:30:00",
+      "all_day": false,
+      "venue": "Northwoods Community Church",
+      "city": "Aitkin",
+      "area": "Iron Range",
+      "category": "family",
+      "price": "",
+      "description": "More info to come Presence Music is a high energy pop worship band from Duluth MN. What started as a group of area worship leaders banding together to play for youth camps, has blossomed into a professional Christian artist that has performed all over the Midwest. They have provided support for national artists such a Brandon Heath, Kim-Walker Smith, Ben Fuller, Cory Asbury, Jason Gray, Stars Go Dim, and more! You can hear their songs coreleased with artists like KJ-52, 7eventh Time Down, and Anberlin.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

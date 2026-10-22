@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T16:27:29Z",
+ "generated": "2026-10-22T16:22:49Z",
  "promote_rule": {
   "window": 7,
   "min_runs": 5
@@ -23,12 +23,6 @@
    "last_events": 400,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 400,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 400,
@@ -64,6 +58,12 @@
      "events": 400,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 400,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -82,15 +82,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "CVB. Likely Simpleview.",
-   "last_events": 326,
+   "last_events": 359,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 332,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 322,
@@ -126,6 +120,12 @@
      "events": 326,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 359,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -147,12 +147,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -185,6 +179,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -229,12 +229,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 9,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 9,
      "queued": 0,
@@ -266,6 +260,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 15,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 15,
      "queued": 0,
      "carried": false
@@ -306,15 +306,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-11: community events calendar for Iron County WI + Gogebic County MI; the City of Ironwood's 'Events' link points here. Tribe REST.",
-   "last_events": 168,
+   "last_events": 177,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 176,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 176,
@@ -350,6 +344,12 @@
      "events": 168,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 177,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -371,12 +371,6 @@
    "last_events": 12,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 13,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 12,
@@ -412,6 +406,12 @@
      "events": 12,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 12,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -430,15 +430,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: system-wide Google Calendar on /events/ - programs touring member libraries (Babbitt, Calumet, Cook, Ely, ...). Staff-only items dropped by main.NOT_PUBLIC.",
-   "last_events": 61,
+   "last_events": 60,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 47,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 43,
@@ -472,6 +466,12 @@
     {
      "date": "2026-10-21",
      "events": 61,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 60,
      "queued": 0,
      "carried": false
     }
@@ -511,15 +511,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: grandmaraismn.com is now a parked domain (redirects to a domain-sale page); Visit Grand Marais became Visit Cook County, Simpleview.",
-   "last_events": 46,
+   "last_events": 54,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 73,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 37,
@@ -553,6 +547,12 @@
     {
      "date": "2026-10-21",
      "events": 46,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 54,
      "queued": 0,
      "carried": false
     }
@@ -592,15 +592,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: Adams Publishing evvnt community calendar - organizer-submitted listings (~500, mostly Duluth + Iron Range). Aggregator/low-trust: unmatched events go to review. Hibbing Daily Tribune (7092) shares the same pool, so not added.",
-   "last_events": 419,
+   "last_events": 420,
    "last_queued": 66,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 454,
-     "queued": 67,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 451,
@@ -636,6 +630,12 @@
      "events": 419,
      "queued": 66,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 420,
+     "queued": 66,
+     "carried": false
     }
    ]
   },
@@ -654,15 +654,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: evvnt calendar for APG's northern-Wisconsin papers (Hayward, Hurley, Mercer, Ironwood area). Aggregator/low-trust.",
-   "last_events": 16,
-   "last_queued": 1,
+   "last_events": 18,
+   "last_queued": 2,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 16,
-     "queued": 1,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 16,
@@ -697,6 +691,12 @@
      "date": "2026-10-21",
      "events": 16,
      "queued": 1,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 18,
+     "queued": 2,
      "carried": false
     }
    ]
@@ -716,15 +716,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: Northern Community Radio weekly roundup (day headings over Title - time at Venue items). Covers far beyond the DMA, so category news makes posts keep only items naming a DMA town. Inferred: goes to review.",
-   "last_events": 9,
-   "last_queued": 9,
+   "last_events": 8,
+   "last_queued": 8,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 12,
@@ -759,6 +753,12 @@
      "date": "2026-10-21",
      "events": 9,
      "queued": 9,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 8,
      "carried": false
     }
    ]
@@ -782,12 +782,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 6,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 6,
      "queued": 0,
@@ -819,6 +813,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 7,
      "queued": 0,
      "carried": false
@@ -840,15 +840,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Checked 2026-10-11: GrowthZone Hub community calendar (microdata).",
-   "last_events": 10,
+   "last_events": 9,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 10,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 9,
@@ -882,6 +876,12 @@
     {
      "date": "2026-10-21",
      "events": 10,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 9,
      "queued": 0,
      "carried": false
     }
@@ -906,12 +906,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 3,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 3,
      "queued": 0,
@@ -946,6 +940,12 @@
      "events": 3,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 3,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -964,15 +964,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 36,
+   "last_events": 37,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 35,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 34,
@@ -1008,6 +1002,12 @@
      "events": 36,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 37,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1029,12 +1029,6 @@
    "last_events": 6,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 7,
@@ -1067,6 +1061,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 6,
      "queued": 0,
      "carried": false
@@ -1092,12 +1092,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 3,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 4,
      "queued": 0,
@@ -1129,6 +1123,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 3,
      "queued": 0,
      "carried": false
@@ -1154,12 +1154,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 12,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 12,
      "queued": 0,
@@ -1191,6 +1185,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 12,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 12,
      "queued": 0,
      "carried": false
@@ -1231,15 +1231,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Checked 2026-10-11: East Lake County Chamber (Silver Bay/Finland); GrowthZone Hub calendar with schema.org microdata.",
-   "last_events": 10,
+   "last_events": 9,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 10,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 10,
@@ -1273,6 +1267,12 @@
     {
      "date": "2026-10-21",
      "events": 10,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 9,
      "queued": 0,
      "carried": false
     }
@@ -1312,15 +1312,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 9,
+   "last_events": 8,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 10,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 10,
@@ -1356,6 +1350,12 @@
      "events": 9,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1377,12 +1377,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -1415,6 +1409,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1440,12 +1440,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -1477,6 +1471,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -1521,12 +1521,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 2,
      "queued": 0,
@@ -1558,6 +1552,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 2,
      "queued": 0,
      "carried": false
@@ -1598,15 +1598,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 80,
+   "last_events": 82,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 76,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 75,
@@ -1642,6 +1636,12 @@
      "events": 80,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 82,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1663,12 +1663,6 @@
    "last_events": 2,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": true
-    },
     {
      "date": "2026-10-16",
      "events": 2,
@@ -1704,6 +1698,12 @@
      "events": 2,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 2,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1722,15 +1722,9 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Triaged 2026-10-11: WP Simple Calendar (Google-backed) on /calendar-of-events/. 2026-10-12: CI gets HTTP 401, locally 123 events; relay candidate (needs owner OK).",
-   "last_events": 87,
+   "last_events": 83,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 117,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 112,
@@ -1766,6 +1760,12 @@
      "events": 87,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 83,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1784,15 +1784,9 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Southern edge. 2026-10-12: refresh: relay; via Cloudflare the WordPress REST API (wp-json) still 403s, so iCal (?ical=1) and page JSON-LD are tried next. 2026-10-12: relay still 403 on every URL; living on 10-day cache carry-forward from 2026-10-11, so it goes empty ~2026-10-21 unless the site relents. Candidate for status: blocked.",
-   "last_events": 39,
+   "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 41,
-     "queued": 0,
-     "carried": true
-    },
     {
      "date": "2026-10-16",
      "events": 41,
@@ -1828,6 +1822,12 @@
      "events": 39,
      "queued": 0,
      "carried": true
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1846,15 +1846,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
-   "last_events": 4,
-   "last_queued": 0,
+   "last_events": 5,
+   "last_queued": 1,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 6,
-     "queued": 1,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 4,
@@ -1890,6 +1884,12 @@
      "events": 4,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 5,
+     "queued": 1,
+     "carried": false
     }
    ]
   },
@@ -1911,12 +1911,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -1952,6 +1946,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -1970,15 +1970,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 310,
+   "last_events": 304,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 332,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 325,
@@ -2014,6 +2008,12 @@
      "events": 310,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 304,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2035,12 +2035,6 @@
    "last_events": 27,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 32,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 31,
@@ -2076,6 +2070,12 @@
      "events": 27,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 27,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2097,12 +2097,6 @@
    "last_events": 18,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 20,
-     "queued": 0,
-     "carried": true
-    },
     {
      "date": "2026-10-16",
      "events": 20,
@@ -2135,6 +2129,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 18,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 18,
      "queued": 0,
      "carried": false
@@ -2160,12 +2160,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 15,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 15,
      "queued": 0,
@@ -2200,6 +2194,12 @@
      "events": 15,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 15,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2218,15 +2218,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 10,
+   "last_events": 7,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 13,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 13,
@@ -2262,6 +2256,12 @@
      "events": 10,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2280,15 +2280,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 2,
+   "last_events": 1,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 4,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 4,
@@ -2322,6 +2316,12 @@
     {
      "date": "2026-10-21",
      "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 1,
      "queued": 0,
      "carried": false
     }
@@ -2346,12 +2346,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 4,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 2,
      "queued": 0,
@@ -2386,6 +2380,12 @@
      "events": 2,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 2,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2404,15 +2404,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: moved to Google Calendar embed on /calendar.",
-   "last_events": 147,
+   "last_events": 144,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 150,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 149,
@@ -2448,6 +2442,12 @@
      "events": 147,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 144,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2466,15 +2466,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: My Calendar API live but empty; news posts as fallback.",
-   "last_events": 30,
+   "last_events": 31,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 31,
@@ -2508,6 +2502,12 @@
     {
      "date": "2026-10-21",
      "events": 30,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 31,
      "queued": 0,
      "carried": false
     }
@@ -2532,12 +2532,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 3,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 3,
      "queued": 0,
@@ -2569,6 +2563,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 3,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 3,
      "queued": 0,
      "carried": false
@@ -2594,12 +2594,6 @@
    "last_queued": 11,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 17,
-     "queued": 12,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 17,
      "queued": 12,
@@ -2634,6 +2628,12 @@
      "events": 15,
      "queued": 11,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 15,
+     "queued": 11,
+     "carried": false
     }
    ]
   },
@@ -2652,15 +2652,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Joomla DPCalendar (10 Google-backed calendars).",
-   "last_events": 311,
+   "last_events": 309,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 306,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 305,
@@ -2696,6 +2690,12 @@
      "events": 311,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 309,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -2717,12 +2717,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -2755,6 +2749,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2780,12 +2780,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -2817,6 +2811,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2842,12 +2842,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -2879,6 +2873,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -2904,12 +2904,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 1,
      "queued": 0,
@@ -2941,6 +2935,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 1,
      "queued": 0,
      "carried": false
@@ -2966,12 +2966,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": true
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -3003,6 +2997,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 2,
      "queued": 0,
      "carried": false
@@ -3047,12 +3047,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 1,
      "queued": 0,
@@ -3087,6 +3081,12 @@
      "events": 2,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 2,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3108,12 +3108,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -3146,6 +3140,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3171,12 +3171,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -3208,6 +3202,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3229,15 +3229,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 43,
+   "last_events": 42,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 43,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 43,
@@ -3271,6 +3265,12 @@
     {
      "date": "2026-10-21",
      "events": 43,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 42,
      "queued": 0,
      "carried": false
     }
@@ -3295,12 +3295,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -3332,6 +3326,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -3357,12 +3357,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 6,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 6,
      "queued": 0,
@@ -3397,6 +3391,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3415,15 +3415,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "WordPress lsvr-events; JSON-LD on detail pages",
-   "last_events": 9,
+   "last_events": 8,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 11,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 11,
@@ -3459,6 +3453,12 @@
      "events": 9,
      "queued": 0,
      "carried": true
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 0,
+     "carried": true
     }
    ]
   },
@@ -3477,15 +3477,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 122,
+   "last_events": 120,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 118,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 120,
@@ -3521,6 +3515,12 @@
      "events": 122,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 120,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3542,12 +3542,6 @@
    "last_events": 45,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 48,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 48,
@@ -3580,6 +3574,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 45,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 45,
      "queued": 0,
      "carried": false
@@ -3620,15 +3620,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 72,
+   "last_events": 71,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 76,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 75,
@@ -3664,6 +3658,12 @@
      "events": 72,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 71,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3685,12 +3685,6 @@
    "last_events": 8,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 7,
@@ -3723,6 +3717,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 8,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 8,
      "queued": 0,
      "carried": false
@@ -3748,12 +3748,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -3788,6 +3782,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3806,15 +3806,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 1,
+   "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 2,
@@ -3850,6 +3844,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3868,15 +3868,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Google Calendar embed on the homepage.",
-   "last_events": 57,
+   "last_events": 59,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 57,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 59,
@@ -3912,6 +3906,12 @@
      "events": 57,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 59,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3933,12 +3933,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -3974,6 +3968,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -3995,12 +3995,6 @@
    "last_events": 10,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 9,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 9,
@@ -4036,6 +4030,12 @@
      "events": 10,
      "queued": 0,
      "carried": true
+    },
+    {
+     "date": "2026-10-22",
+     "events": 10,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4058,12 +4058,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 1,
      "queued": 0,
@@ -4095,6 +4089,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 1,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 1,
      "queued": 0,
      "carried": false
@@ -4116,15 +4116,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
-   "last_events": 1,
-   "last_queued": 1,
+   "last_events": 0,
+   "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 1,
@@ -4159,6 +4153,12 @@
      "date": "2026-10-21",
      "events": 1,
      "queued": 1,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
      "carried": false
     }
    ]
@@ -4182,12 +4182,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -4219,6 +4213,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -4263,12 +4263,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 5,
      "queued": 0,
@@ -4300,6 +4294,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 5,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 5,
      "queued": 0,
      "carried": false
@@ -4321,15 +4321,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "URL from appendix \u2014 verify (possible typo).",
-   "last_events": 2,
+   "last_events": 1,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 4,
@@ -4365,6 +4359,12 @@
      "events": 2,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4383,15 +4383,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Southern edge of DMA \u2014 triage scope.",
-   "last_events": 27,
+   "last_events": 28,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 28,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 28,
@@ -4427,6 +4421,12 @@
      "events": 27,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 28,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4449,12 +4449,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 1,
      "queued": 0,
@@ -4486,6 +4480,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -4507,15 +4507,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: homepage embeds a Google Calendar.",
-   "last_events": 44,
+   "last_events": 46,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 45,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 44,
@@ -4549,6 +4543,12 @@
     {
      "date": "2026-10-21",
      "events": 44,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 46,
      "queued": 0,
      "carried": false
     }
@@ -4573,12 +4573,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 13,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 13,
      "queued": 0,
@@ -4613,6 +4607,12 @@
      "events": 14,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 14,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4631,15 +4631,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 1,
+   "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 2,
@@ -4675,6 +4669,12 @@
      "events": 1,
      "queued": 0,
      "carried": true
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4696,12 +4696,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -4737,6 +4731,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4758,12 +4758,6 @@
    "last_events": 85,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 106,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 104,
@@ -4799,6 +4793,12 @@
      "events": 85,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 85,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -4817,15 +4817,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Weebly homepage embeds a Google Calendar (legacy www.google.com/calendar/embed URL).",
-   "last_events": 87,
+   "last_events": 85,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 86,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 88,
@@ -4859,6 +4853,12 @@
     {
      "date": "2026-10-21",
      "events": 87,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 85,
      "queued": 0,
      "carried": false
     }
@@ -4883,12 +4883,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -4920,6 +4914,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -4945,12 +4945,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -4982,6 +4976,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -5007,12 +5007,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -5044,6 +5038,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -5069,12 +5069,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 14,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 14,
      "queued": 0,
@@ -5109,6 +5103,12 @@
      "events": 13,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 13,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5130,12 +5130,6 @@
    "last_events": 5,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 1,
@@ -5171,6 +5165,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5189,15 +5189,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: Weebly page embeds a Google Calendar.",
-   "last_events": 20,
+   "last_events": 19,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 19,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 19,
@@ -5233,6 +5227,12 @@
      "events": 20,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 19,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5251,15 +5251,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: washburncounty.org is the county TOURISM site (Simpleview), not the county government.",
-   "last_events": 44,
+   "last_events": 61,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 35,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 41,
@@ -5295,6 +5289,12 @@
      "events": 44,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 61,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5316,12 +5316,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -5357,6 +5351,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5378,12 +5378,6 @@
    "last_events": 1,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 3,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 3,
@@ -5419,6 +5413,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 1,
+     "queued": 0,
+     "carried": true
     }
    ]
   },
@@ -5440,12 +5440,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -5481,6 +5475,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5502,12 +5502,6 @@
    "last_events": 7,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 6,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 6,
@@ -5543,6 +5537,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5564,12 +5564,6 @@
    "last_events": 6,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 6,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 6,
@@ -5602,6 +5596,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 6,
      "queued": 0,
      "carried": false
@@ -5642,15 +5642,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Aggregates public Facebook events; date only, no time.",
-   "last_events": 209,
+   "last_events": 207,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 198,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 198,
@@ -5686,6 +5680,12 @@
      "events": 209,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 207,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5704,15 +5704,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 127,
+   "last_events": 128,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 127,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 126,
@@ -5748,6 +5742,12 @@
      "events": 127,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 128,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5766,15 +5766,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 27,
+   "last_events": 30,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 33,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 32,
@@ -5810,6 +5804,12 @@
      "events": 27,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 30,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5831,12 +5831,6 @@
    "last_events": 44,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 35,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 35,
@@ -5872,6 +5866,12 @@
      "events": 44,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 44,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5893,12 +5893,6 @@
    "last_events": 11,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 9,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 9,
@@ -5934,6 +5928,12 @@
      "events": 11,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 11,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -5955,12 +5955,6 @@
    "last_events": 15,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 11,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 12,
@@ -5996,6 +5990,12 @@
      "events": 15,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 15,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6017,12 +6017,6 @@
    "last_events": 24,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 19,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 18,
@@ -6058,6 +6052,12 @@
      "events": 24,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 24,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6079,12 +6079,6 @@
    "last_events": 8,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 7,
@@ -6120,6 +6114,12 @@
      "events": 8,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6141,12 +6141,6 @@
    "last_events": 14,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 18,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 16,
@@ -6182,6 +6176,12 @@
      "events": 14,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 14,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6203,12 +6203,6 @@
    "last_events": 55,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 52,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 54,
@@ -6244,6 +6238,12 @@
      "events": 55,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 55,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6265,12 +6265,6 @@
    "last_events": 4,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 5,
@@ -6306,6 +6300,12 @@
      "events": 4,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 4,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6324,15 +6324,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 44,
+   "last_events": 42,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 32,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 32,
@@ -6368,6 +6362,12 @@
      "events": 44,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 42,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6389,12 +6389,6 @@
    "last_events": 22,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 20,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 20,
@@ -6430,6 +6424,12 @@
      "events": 22,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 22,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6451,12 +6451,6 @@
    "last_events": 16,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 17,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 19,
@@ -6492,6 +6486,12 @@
      "events": 16,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 16,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6510,15 +6510,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 14,
+   "last_events": 13,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 15,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 15,
@@ -6554,6 +6548,12 @@
      "events": 14,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 13,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6575,12 +6575,6 @@
    "last_events": 6,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 7,
@@ -6616,6 +6610,12 @@
      "events": 6,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 6,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6634,15 +6634,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-12: public Facebook/Eventbrite events via allevents.in. Social/low-trust, so events go to the review queue.",
-   "last_events": 18,
+   "last_events": 17,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 17,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 17,
@@ -6678,6 +6672,12 @@
      "events": 18,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 17,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6699,12 +6699,6 @@
    "last_events": 10,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 9,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 10,
@@ -6737,6 +6731,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 10,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 10,
      "queued": 0,
      "carried": false
@@ -6762,12 +6762,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 5,
      "queued": 0,
@@ -6802,6 +6796,12 @@
      "events": 8,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6823,12 +6823,6 @@
    "last_events": 69,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 71,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 71,
@@ -6864,6 +6858,12 @@
      "events": 69,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 69,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -6882,15 +6882,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "D-III athletics.",
-   "last_events": 94,
+   "last_events": 92,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 98,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 97,
@@ -6924,6 +6918,12 @@
     {
      "date": "2026-10-21",
      "events": 94,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 92,
      "queued": 0,
      "carried": false
     }
@@ -6944,15 +6944,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "D-III incl. hockey at Mars Lakeview Arena.",
-   "last_events": 78,
+   "last_events": 77,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 80,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 80,
@@ -6986,6 +6980,12 @@
     {
      "date": "2026-10-21",
      "events": 78,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 77,
      "queued": 0,
      "carried": false
     }
@@ -7010,12 +7010,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 28,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 28,
      "queued": 0,
@@ -7047,6 +7041,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 28,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 28,
      "queued": 0,
      "carried": false
@@ -7072,12 +7072,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 64,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 64,
      "queued": 0,
@@ -7112,6 +7106,12 @@
      "events": 63,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 63,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7133,12 +7133,6 @@
    "last_events": 8,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 9,
@@ -7174,6 +7168,12 @@
      "events": 8,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 8,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7195,12 +7195,6 @@
    "last_events": 5,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 5,
@@ -7236,6 +7230,12 @@
      "events": 5,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 5,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7254,15 +7254,9 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "At the Depot.",
-   "last_events": 54,
+   "last_events": 56,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 60,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 59,
@@ -7298,6 +7292,12 @@
      "events": 54,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 56,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7319,12 +7319,6 @@
    "last_events": 7,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 8,
-     "queued": 0,
-     "carried": true
-    },
     {
      "date": "2026-10-16",
      "events": 7,
@@ -7357,6 +7351,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 7,
      "queued": 0,
      "carried": false
@@ -7382,12 +7382,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 23,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 22,
      "queued": 0,
@@ -7419,6 +7413,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 21,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 21,
      "queued": 0,
      "carried": false
@@ -7444,12 +7444,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 16,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 15,
      "queued": 0,
@@ -7484,6 +7478,12 @@
      "events": 15,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 15,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7502,15 +7502,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "",
-   "last_events": 56,
+   "last_events": 53,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 65,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 64,
@@ -7546,6 +7540,12 @@
      "events": 56,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 53,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7567,12 +7567,6 @@
    "last_events": 17,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 18,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 18,
@@ -7605,6 +7599,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 17,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 17,
      "queued": 0,
      "carried": false
@@ -7630,12 +7630,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -7670,6 +7664,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -7691,12 +7691,6 @@
    "last_events": 55,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 60,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 60,
@@ -7729,6 +7723,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 55,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 55,
      "queued": 0,
      "carried": false
@@ -7773,12 +7773,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -7810,6 +7804,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -7835,12 +7835,6 @@
    "last_queued": 2,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -7875,6 +7869,12 @@
      "events": 2,
      "queued": 2,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 2,
+     "queued": 2,
+     "carried": false
     }
    ]
   },
@@ -7893,15 +7893,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Triaged 2026-10-11: no machine-readable calendar; events inferred from page/news text (go to review).",
-   "last_events": 7,
+   "last_events": 6,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 12,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 10,
@@ -7935,6 +7929,12 @@
     {
      "date": "2026-10-21",
      "events": 7,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 6,
      "queued": 0,
      "carried": false
     }
@@ -7978,12 +7978,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 39,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 38,
      "queued": 0,
@@ -8018,6 +8012,12 @@
      "events": 38,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 38,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8039,12 +8039,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -8077,6 +8071,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8102,12 +8102,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 11,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 11,
      "queued": 0,
@@ -8139,6 +8133,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 9,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 9,
      "queued": 0,
      "carried": false
@@ -8164,12 +8164,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8204,6 +8198,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8225,12 +8225,6 @@
    "last_events": 13,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 14,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 14,
@@ -8266,6 +8260,12 @@
      "events": 13,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 13,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8287,12 +8287,6 @@
    "last_events": 1,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 5,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 5,
@@ -8328,6 +8322,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 1,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8349,12 +8349,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -8387,6 +8381,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8412,12 +8412,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8449,6 +8443,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8474,12 +8474,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 7,
      "queued": 0,
@@ -8511,6 +8505,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 6,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 6,
      "queued": 0,
      "carried": false
@@ -8555,12 +8555,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8592,6 +8586,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8636,12 +8636,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8673,6 +8667,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8698,12 +8698,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8735,6 +8729,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8760,12 +8760,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 1,
-     "queued": 0,
-     "carried": true
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8797,6 +8791,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -8822,12 +8822,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -8862,6 +8856,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8880,15 +8880,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Fair is held in Northome, not International Falls. Triaged 2026-09: civicplus, 2 events \u2014 this is a different domain than the already-active koochiching-county-mn (koochiching.gov), kept as its own source; cross-source dedup handles any overlap.",
-   "last_events": 1,
+   "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 2,
@@ -8924,6 +8918,12 @@
      "events": 1,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -8945,12 +8945,6 @@
    "last_events": 0,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 0,
@@ -8986,6 +8980,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -9007,12 +9007,6 @@
    "last_events": 9,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 11,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 11,
@@ -9045,6 +9039,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 9,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 9,
      "queued": 0,
      "carried": false
@@ -9104,15 +9104,9 @@
    "autopromote": false,
    "refresh": "",
    "notes": "Added 2026-10-11: community calendar for Iron County WI (WordPress Modern Events Calendar; its iCal feed is disabled). JSON-LD times are stored as UTC then offset (10 am shows as 05:00-05:00), corrected by timefix utc-wall. Covers the Iron County Fair and Heritage Days.",
-   "last_events": 43,
+   "last_events": 42,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 67,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 65,
@@ -9146,6 +9140,12 @@
     {
      "date": "2026-10-21",
      "events": 43,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 42,
      "queued": 0,
      "carried": false
     }
@@ -9227,12 +9227,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -9264,6 +9258,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -9289,12 +9289,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -9326,6 +9320,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -9351,12 +9351,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 7,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 7,
      "queued": 0,
@@ -9391,6 +9385,12 @@
      "events": 7,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 7,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -9412,12 +9412,6 @@
    "last_events": 4,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 4,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 5,
@@ -9453,6 +9447,12 @@
      "events": 4,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 4,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -9474,12 +9474,6 @@
    "last_events": 2,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 2,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 2,
@@ -9512,6 +9506,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 2,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 2,
      "queued": 0,
      "carried": false
@@ -9575,12 +9575,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -9612,6 +9606,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -9637,12 +9637,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -9674,6 +9668,12 @@
     },
     {
      "date": "2026-10-21",
+     "events": 0,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
      "events": 0,
      "queued": 0,
      "carried": false
@@ -9699,12 +9699,6 @@
    "last_queued": 0,
    "runs": [
     {
-     "date": "2026-10-15",
-     "events": 0,
-     "queued": 0,
-     "carried": false
-    },
-    {
      "date": "2026-10-16",
      "events": 0,
      "queued": 0,
@@ -9739,6 +9733,12 @@
      "events": 0,
      "queued": 0,
      "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 0,
+     "queued": 0,
+     "carried": false
     }
    ]
   },
@@ -9757,15 +9757,9 @@
    "autopromote": false,
    "refresh": "relay",
    "notes": "Community pow wows (e.g. Veterans Powwow at Mash Ka Wisen grounds) and cultural events \u2014 added per explicit approval. Triaged 2026-09: revize, 81 events.",
-   "last_events": 53,
+   "last_events": 51,
    "last_queued": 0,
    "runs": [
-    {
-     "date": "2026-10-15",
-     "events": 56,
-     "queued": 0,
-     "carried": false
-    },
     {
      "date": "2026-10-16",
      "events": 56,
@@ -9799,6 +9793,12 @@
     {
      "date": "2026-10-21",
      "events": 53,
+     "queued": 0,
+     "carried": false
+    },
+    {
+     "date": "2026-10-22",
+     "events": 51,
      "queued": 0,
      "carried": false
     }
