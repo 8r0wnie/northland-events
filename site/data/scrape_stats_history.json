@@ -891,5 +891,24 @@
    "education": 162,
    "holiday": 196
   }
+ },
+ {
+  "date": "2026-10-23",
+  "raw": 4771,
+  "merged": 4100,
+  "published": 4012,
+  "queued": 88,
+  "active_sources": 151,
+  "categories": {
+   "community": 1647,
+   "education": 156,
+   "music": 288,
+   "other": 370,
+   "arts": 347,
+   "sports-rec": 588,
+   "holiday": 197,
+   "family": 252,
+   "food-drink": 167
+  }
  }
 ]

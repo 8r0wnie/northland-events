@@ -1,91 +1,7 @@
 {
-  "generated": "2026-10-22T16:22:49Z",
-  "count": 90,
+  "generated": "2026-10-23T16:16:26Z",
+  "count": 88,
   "events": [
-    {
-      "key": "2ad6766162e42d8e",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Adolescent mental health discussion",
-      "start": "2026-10-21T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "7 p.m. at Zion Lutheran Church in Grand Rapids. Dr. Justin Gambill with First Call for Help will talk about warning signs and resources for adolescents with mental health issues.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "11f44624f1346d73",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Open Door Coat Rack distribution",
-      "start": "2026-10-22T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "9 a.m.-4 p.m. at United Methodist Church in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "f95bf8267b12200e",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Itasca Empty Bowls",
-      "start": "2026-10-22T11:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "11 a.m.-2 p.m. and 4-7 p.m. at Timberlake Lodge in Grand Rapids. Tickets include a bowl of soup, bread, salad and dessert, plus a handmade ceramic bowl to take home.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
     {
       "key": "87613fa7a00d6db7",
       "reason": "single source, not yet corroborated",
@@ -164,6 +80,34 @@
       "category": "arts",
       "price": "",
       "description": "October 24 @ 9:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "d485489630ed1f6c",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Benefit Fundraiser (opens in new tab)",
+      "start": "2026-10-24T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "October 24 @ 1:00 pm",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -280,6 +224,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
+      }
+    },
+    {
+      "key": "f0900f62ba8c4e9c",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Saxon-Gurney Volunteer Fire Department Halloween Dance (opens in new tab)",
+      "start": "2026-10-24T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "holiday",
+      "price": "",
+      "description": "October 24 @ 6:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -812,34 +784,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "4caaf8c97f710d43",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "DECC Gala: a Progressive Party Through the Decades",
-      "start": "2026-11-19T17:00:00",
-      "end": "2026-11-19T21:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "community",
-      "price": "",
-      "description": "The First-Ever DECC Gala: a Progressive Party through the Decades We're excited to announce the inaugural DECC Gala, a one-of-a-kind celebration honoring the 60th Anniversary of the DECC. This isn't your typical gala because the DECC, with 10 community venues, is anything but typical. Guests will embark on a progressive journey through the decades and across the DECC campus, experiencing the history of the organization in a truly immersive way.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
