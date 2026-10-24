@@ -1,35 +1,7 @@
 {
-  "generated": "2026-10-23T16:16:26Z",
+  "generated": "2026-10-24T15:07:12Z",
   "count": 88,
   "events": [
-    {
-      "key": "87613fa7a00d6db7",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Greenie Ghoul 5k Fun Run",
-      "start": "2026-10-23T16:00:00",
-      "end": "2026-10-23T17:30:00",
-      "all_day": false,
-      "venue": "200 Curley Avenue -",
-      "city": "Coleraine",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "The Greenway Amateur Hockey Association is hosting a Halloween Fun Run on October 24th at 4:30 pm. Registration will begin after school. There will be a 5k and a shorter options for the goblins who do not want to go as far. The race will start and end at the Hodgins-Berardo Arena in Coleraine. Please wear a costume if you would like or your favorite Greenway jersey!! $20 Entry Fee- T shirt included while supplies last $50 Immediate Family Entry Fee 3:30 PM- Registration at Hodgins-Berardo Area. You will pay for the race at this time.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
     {
       "key": "00f1cdf4196a74c9",
       "reason": "read from page text",
@@ -59,7 +31,7 @@
       }
     },
     {
-      "key": "a57f15289f3daa63",
+      "key": "6913960f256731da",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -70,7 +42,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Fall Craft Fair (opens in new tab)",
+      "title": "Fall Craft Fair",
       "start": "2026-10-24T09:00:00",
       "end": null,
       "all_day": false,
@@ -87,7 +59,7 @@
       }
     },
     {
-      "key": "d485489630ed1f6c",
+      "key": "afed4403a1f43f6c",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -98,7 +70,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Benefit Fundraiser (opens in new tab)",
+      "title": "Benefit Fundraiser",
       "start": "2026-10-24T13:00:00",
       "end": null,
       "all_day": false,
@@ -227,7 +199,7 @@
       }
     },
     {
-      "key": "f0900f62ba8c4e9c",
+      "key": "97d1d66ce6c80fb6",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -238,7 +210,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Saxon-Gurney Volunteer Fire Department Halloween Dance (opens in new tab)",
+      "title": "Saxon-Gurney Volunteer Fire Department Halloween Dance",
       "start": "2026-10-24T18:00:00",
       "end": null,
       "all_day": false,
@@ -364,6 +336,90 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "41ed5e6daad55bd9",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+        }
+      ],
+      "title": "Fall Harvest Fun Night",
+      "start": "2026-10-26T17:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "5-7 p.m. at Itasca County Family YMCA in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+      }
+    },
+    {
+      "key": "e373379e7de51dbd",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+        }
+      ],
+      "title": "Full moon hike",
+      "start": "2026-10-26T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Cohasset",
+      "area": "Cohasset",
+      "category": "sports-rec",
+      "price": "",
+      "description": "7 p.m. at Clay Boswell boat landing in Cohasset. Wear sturdy shoes and bring a headlamp.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+      }
+    },
+    {
+      "key": "6472691be4cd0398",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+        }
+      ],
+      "title": "Indigenous Every Day story circle",
+      "start": "2026-10-28T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "6-8 p.m. at MacRostie Art Center in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
       }
     },
     {
@@ -532,62 +588,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "df16ea5c53451f59",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
-      "start": "2026-11-05T21:00:00",
-      "end": "2026-11-10T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
-      "key": "b8a34ca5216a03a1",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Event Info",
-      "start": "2026-11-05T21:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
       }
     },
     {

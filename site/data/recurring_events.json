@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:16:26",
+  "generated": "2026-10-24T15:07:13",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -644,6 +644,26 @@
       "owner_decision": ""
     },
     {
+      "key": "als adult prom|duluth",
+      "title": "ALS 3rd Annual Adult Prom",
+      "venue": "The Dawghouse Bar & Grill",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-10-24",
+      "last_url": "https://allevents.in/duluth/als-3rd-annual-adult-prom/200030890024311",
+      "predicted_next": "2027-10-24",
+      "owner_decision": ""
+    },
+    {
       "key": "cook county historical society meeting with guest speaker keith morris|grand marais",
       "title": "Cook County Historical Society Annual Meeting with Guest Speaker Keith Morris",
       "venue": "Johnson Heritage Post Art Gallery",
@@ -784,6 +804,26 @@
       "owner_decision": ""
     },
     {
+      "key": "fall clean up|hayward",
+      "title": "Annual Fall Clean Up",
+      "venue": "10655 Nyman Ave, Hayward, WI, United States, Wisconsin 54843",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-10-31",
+      "last_url": "https://allevents.in/hayward/annual-fall-clean-up/200030899495203",
+      "predicted_next": "2027-10-31",
+      "owner_decision": ""
+    },
+    {
       "key": "ashland fair board election|marengo",
       "title": "Ashland Fair Board Annual Election",
       "venue": "",
@@ -881,6 +921,26 @@
       "last_date": "2026-11-07",
       "last_url": "https://allevents.in/ashland/21st-annual-fur-ball-red-white-and-blue-edition/200030651421953",
       "predicted_next": "2027-11-07",
+      "owner_decision": ""
+    },
+    {
+      "key": "meeting|duluth",
+      "title": "Annual Meeting",
+      "venue": "The Tasting Room at MidCoast",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-11",
+      "last_url": "https://allevents.in/duluth/annual-meeting/200030890037800",
+      "predicted_next": "2027-11-11",
       "owner_decision": ""
     },
     {
@@ -1301,6 +1361,26 @@
       "last_date": "2026-12-20",
       "last_url": "https://allevents.in/superior/annual-winter-solstice-hot-cocoa-yoga/200030732453343",
       "predicted_next": "2027-12-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "xc yoga retreat in ely mn|ely",
+      "title": "11th Annual XC + Yoga Retreat in Ely, MN",
+      "venue": "YMCA Camp du Nord (3606 N Arm Rd, Ely, MN)",
+      "city": "Ely",
+      "area": "Ely",
+      "category": "sports-rec",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 11,
+      "signal_reasons": [
+        "title says \"11th Annual\""
+      ],
+      "last_date": "2027-02-04",
+      "last_url": "https://allevents.in/ely/11th-annual-xc-yoga-retreat-in-ely-mn/200030897136332",
+      "predicted_next": "2028-02-04",
       "owner_decision": ""
     },
     {
