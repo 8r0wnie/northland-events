@@ -1,119 +1,7 @@
 {
-  "generated": "2026-10-24T15:07:12Z",
-  "count": 88,
+  "generated": "2026-10-25T15:26:57Z",
+  "count": 87,
   "events": [
-    {
-      "key": "00f1cdf4196a74c9",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Screamatorium",
-      "start": "2026-10-23T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Virginia",
-      "area": "Virginia",
-      "category": "community",
-      "price": "",
-      "description": "6-10 p.m. at CHAIR in Virginia",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "6913960f256731da",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Fall Craft Fair",
-      "start": "2026-10-24T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "arts",
-      "price": "",
-      "description": "October 24 @ 9:00 am",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "afed4403a1f43f6c",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Benefit Fundraiser",
-      "start": "2026-10-24T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "October 24 @ 1:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "2fb6175c8e785077",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3875253-trick-or-treating-in-lincoln-park"
-        }
-      ],
-      "title": "Trick-or Treating in Lincoln Park",
-      "start": "2026-10-24T13:00:00",
-      "end": "2026-10-24T16:00:00",
-      "all_day": false,
-      "venue": "Lincoln Park",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "holiday",
-      "price": "",
-      "description": "Celebrate Halloween Lincoln Park style! Put on your costumes and come down to Lincoln Park for free Trick-or-Treating, discounts, and special events.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3875253-trick-or-treating-in-lincoln-park"
-      }
-    },
     {
       "key": "a2a833ef2dfd6ea8",
       "reason": "read from page text",
@@ -199,34 +87,6 @@
       }
     },
     {
-      "key": "97d1d66ce6c80fb6",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Saxon-Gurney Volunteer Fire Department Halloween Dance",
-      "start": "2026-10-24T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "holiday",
-      "price": "",
-      "description": "October 24 @ 6:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
       "key": "445ff427ecc422b0",
       "reason": "read from page text",
       "source_ids": [
@@ -252,34 +112,6 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "6a59cff194fa2706",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Effervescent Album Release Show - Teague Alexy & The Common Thread & Babie Eyes",
-      "start": "2026-10-24T20:00:00",
-      "end": "2026-10-25T00:00:00",
-      "all_day": false,
-      "venue": "Cedar Lounge - Earth Rider Brewery taproom",
-      "city": "Superior",
-      "area": "Iron Range",
-      "category": "music",
-      "price": "",
-      "description": "Teague Alexy & The Common Thread celebrate the release of their EFFERVESCENT album with very special guest Babie Eyes. Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -364,6 +196,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+      }
+    },
+    {
+      "key": "0cdef1c649887e5a",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "BINGO Night at VFW Post 3673 (opens in new tab)",
+      "start": "2026-10-26T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "October 26 @ 6:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -588,6 +448,62 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "df16ea5c53451f59",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
+      "start": "2026-11-05T21:00:00",
+      "end": "2026-11-10T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
+      }
+    },
+    {
+      "key": "b8a34ca5216a03a1",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Event Info",
+      "start": "2026-11-05T21:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
       }
     },
     {
@@ -1004,6 +920,34 @@
       "category": "holiday",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "5ea632bbf5f40aff",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Davina and The Vagabonds: A Vagabond Holiday",
+      "start": "2026-12-10T19:30:00",
+      "end": "2026-12-10T23:30:00",
+      "all_day": false,
+      "venue": "West Theater",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Davina and the Vagabonds bring a signature high-energy blend of blues, neo-soul, and swing to the winter season with their annual \"A Vagabond Holiday\" shows and festive recordings. Known for frontwoman Davina Sowers' distinctively soulful vocals and a heavy brass presence, the Twin Cities-based group frequently hits the road each winter. New Spin on an Old Sound Davina and the Vagabonds are playing your area soon!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2460,6 +2404,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ec31b558df663c98",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Martin Sexton",
+      "start": "2027-05-06T20:00:00",
+      "end": "2027-05-07T00:00:00",
+      "all_day": false,
+      "venue": "The West Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "America comes together in the music of Martin Sexton. Our hearts mend, our political and philosophical differences melt away, and the various strains of our roots music entangle. Of Sexton, The New York Times says: \u201cHis unpretentious heartiness helps him focus on every soul singer\u2019s goal: to amplify the sound of the ordinary heart.\" Sexton has remained true to his mission of sharing peace and harmony throughout his 10 albums, and in countless incendiary live performances. He has thus built a loyal following of fans, including critics and superstar artists.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
