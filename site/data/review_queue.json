@@ -1,175 +1,7 @@
 {
-  "generated": "2026-10-25T15:26:57Z",
-  "count": 87,
+  "generated": "2026-10-26T17:53:37Z",
+  "count": 82,
   "events": [
-    {
-      "key": "a2a833ef2dfd6ea8",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Meatball Dinner",
-      "start": "2026-10-24T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "food-drink",
-      "price": "",
-      "description": "4-6:30 p.m. at Zion Lutheran Church in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "39fc554ac55f8a9d",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Itasca County Family YMCA Fall Auction and Social",
-      "start": "2026-10-24T17:30:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "5:30 p.m. at Timberlake Lodge in Grand Rapids. Online auction going on now.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "142861c7827d6f92",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Screamatorium",
-      "start": "2026-10-24T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Virginia",
-      "area": "Virginia",
-      "category": "community",
-      "price": "",
-      "description": "6-10 p.m. at CHAIR in Virginia",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "445ff427ecc422b0",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-        }
-      ],
-      "title": "Iron Range Barn Dance",
-      "start": "2026-10-24T18:30:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Virginia",
-      "area": "Virginia",
-      "category": "arts",
-      "price": "",
-      "description": "6:30-9:30 p.m. at Kaleva Hall in Virginia",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-15/events-up-north-oct-19-25-screamatorium-in-virginia-enchanted-halloween-in-bemidji"
-      }
-    },
-    {
-      "key": "7d11bc1d6857ef71",
-      "reason": "read from page text",
-      "source_ids": [
-        "hoyt-lakes-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Hoyt Lakes",
-          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-        }
-      ],
-      "title": "Calendar Parking for October & November:",
-      "start": "2026-10-25T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Hoyt Lakes",
-      "area": "Hoyt Lakes",
-      "category": "community",
-      "price": "",
-      "description": "October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd",
-      "image": "",
-      "source": {
-        "name": "City of Hoyt Lakes",
-        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "fa2330b63c465d4f",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "10-12 Year Old, Session 2 (Sundays)",
-      "start": "2026-10-25T11:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "College of St. Scholastica: Burns Wellness Commons",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "Learn and improve forehands, backhands, serves, volleys and more with instruction from St Scholastica tennis players and coaches while having fun. Session 1 is Sundays 9/20 - 10/18 Session 2 is Sundays 10/25 - 12/6 5-7 year old lessons 9am-10am 8-10 year old lessons 10am-11am 10-12 year old lessons 11am-12pm Schedule From: Oct 25 2026 to Dec 6 2026 Every Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday: 11:00am to\u2026",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
     {
       "key": "41ed5e6daad55bd9",
       "reason": "read from page text",
@@ -199,7 +31,7 @@
       }
     },
     {
-      "key": "0cdef1c649887e5a",
+      "key": "17462cb343755b9a",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -210,7 +42,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "BINGO Night at VFW Post 3673 (opens in new tab)",
+      "title": "BINGO Night at VFW Post 3673",
       "start": "2026-10-26T18:00:00",
       "end": null,
       "all_day": false,
@@ -252,6 +84,62 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+      }
+    },
+    {
+      "key": "391b2ee71ab5c120",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Entrepreneur Fair",
+      "start": "2026-10-27T17:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "October 27 @ 5:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "efaf06bea2279a08",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Music BINGO",
+      "start": "2026-10-27T18:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "October 27 @ 6:30 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -451,62 +339,6 @@
       }
     },
     {
-      "key": "df16ea5c53451f59",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
-      "start": "2026-11-05T21:00:00",
-      "end": "2026-11-10T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
-      "key": "b8a34ca5216a03a1",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Event Info",
-      "start": "2026-11-05T21:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
       "key": "13452b7584f1d39e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -640,6 +472,34 @@
       "category": "arts",
       "price": "",
       "description": "Nicholas David and Teague Alexy make their Grand Rapids debut as a duo. Nicholas and Teague aka Teague and The Feelin collaborated on the acclaimed 2006 album The New Folklore. Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f95399a9b2396e7e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "A Night of Music with Presence Music, Sam Evans, & Jacob Rocky",
+      "start": "2026-11-14T19:00:00",
+      "end": "2026-11-14T23:00:00",
+      "all_day": false,
+      "venue": "New Song Alliance Church",
+      "city": "Grand Rapids",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Three nationally touring Christian artists, one night, no ticket price. \ud83c\udfb6 Presence Music, Sam Evans, and Jacob Rocky are coming to New Song Church in Grand Rapids for a free evening of live music, encouragement, and community. Bring the family, bring a friend, bring someone who could use an uplifting night out. \ud83d\udcc5 Saturday, November 14, 7:00 to 9:00 PM \ud83d\udccd New Song Church, 15 SE 3rd St, Grand Rapids There\u2019s no cost to attend. A free will offering will be taken to help cover the artists\u2019 travel expenses. Tap Going or Interested so you get a reminder, and please hit Share.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
