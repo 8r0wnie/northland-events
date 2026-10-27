@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T17:53:37Z",
-  "count": 82,
+  "generated": "2026-10-27T17:18:25Z",
+  "count": 89,
   "events": [
     {
       "key": "41ed5e6daad55bd9",
@@ -28,34 +28,6 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
-      }
-    },
-    {
-      "key": "17462cb343755b9a",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "BINGO Night at VFW Post 3673",
-      "start": "2026-10-26T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "October 26 @ 6:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -87,7 +59,7 @@
       }
     },
     {
-      "key": "391b2ee71ab5c120",
+      "key": "882dce49fefd78e0",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -98,7 +70,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Entrepreneur Fair",
+      "title": "Entrepreneur Fair (opens in new tab)",
       "start": "2026-10-27T17:00:00",
       "end": null,
       "all_day": false,
@@ -115,7 +87,7 @@
       }
     },
     {
-      "key": "efaf06bea2279a08",
+      "key": "4a36a0294e83b673",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -126,7 +98,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Music BINGO",
+      "title": "Music BINGO (opens in new tab)",
       "start": "2026-10-27T18:30:00",
       "end": null,
       "all_day": false,
@@ -136,6 +108,34 @@
       "category": "community",
       "price": "",
       "description": "October 27 @ 6:30 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "7555e416009bd58e",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Story Time with the Lumberjacks (opens in new tab)",
+      "start": "2026-10-28T16:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "family",
+      "price": "",
+      "description": "October 28 @ 4:00 pm",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -168,6 +168,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
+      }
+    },
+    {
+      "key": "3e71fa9ee2704164",
+      "reason": "read from page text",
+      "source_ids": [
+        "mt-ashwabay"
+      ],
+      "sources": [
+        {
+          "name": "Mt. Ashwabay",
+          "url": "https://www.mtashwabay.org/news.html"
+        }
+      ],
+      "title": "Fall and winter events include Slashwabay Haunted Trails",
+      "start": "2026-10-29T00:00:00",
+      "end": "2026-10-31T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Bayfield",
+      "area": "Bayfield",
+      "category": "food-drink",
+      "price": "",
+      "description": "Fall and winter events include Slashwabay Haunted Trails on October 29\u201331, the Ski & Snowboard Swap and early-bird season pass deadline on November 7, the Big Chill Chili Cookoff on December 5, and the Summit Nordic Ski Race on February 6, 2027.",
+      "image": "",
+      "source": {
+        "name": "Mt. Ashwabay",
+        "url": "https://www.mtashwabay.org/news.html"
       }
     },
     {
@@ -339,6 +367,90 @@
       }
     },
     {
+      "key": "df16ea5c53451f59",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
+      "start": "2026-11-05T21:00:00",
+      "end": "2026-11-10T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
+      }
+    },
+    {
+      "key": "b8a34ca5216a03a1",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Event Info",
+      "start": "2026-11-05T21:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
+      }
+    },
+    {
+      "key": "bf0fe82a6e9fa3bc",
+      "reason": "read from page text",
+      "source_ids": [
+        "mt-ashwabay"
+      ],
+      "sources": [
+        {
+          "name": "Mt. Ashwabay",
+          "url": "https://www.mtashwabay.org/news.html"
+        }
+      ],
+      "title": "Brother Ali\u2019s",
+      "start": "2026-11-07T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Bayfield",
+      "area": "Bayfield",
+      "category": "community",
+      "price": "",
+      "description": "The Alliance will not renew its contract with the owners of StageNorth. Brother Ali\u2019s November 7, 2026, show is the last Alliance production currently planned at the venue.",
+      "image": "",
+      "source": {
+        "name": "Mt. Ashwabay",
+        "url": "https://www.mtashwabay.org/news.html"
+      }
+    },
+    {
       "key": "13452b7584f1d39e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -451,6 +563,34 @@
       }
     },
     {
+      "key": "81ad9958405af6d3",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "John Kerns Music: GRAND AVE CHALET at SPIRIT MOUNTAIN",
+      "start": "2026-11-13T17:30:00",
+      "end": "2026-11-13T21:30:00",
+      "all_day": false,
+      "venue": "Spirit Mountain Grand Avenue Chalet",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "John Kerns John Kerns is a dynamic musician who brings a fresh and unique approach to live performance. With a deep catalog of original songs and an extensive repertoire of covers, he crafts engaging and immersive musical experiences that keep audiences hooked from start to finish. Using guitar, percussion stomp boxes, looping pedals and a telephone microphone, John layers sounds to create the energy and depth of a full band\u2014all created live on the spot. Whether playing an intimate venue or a festival, Kerns\u2019 music is always inventive and captivating.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "1254815be806ce41",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -560,6 +700,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "9317f377d0fe0b70",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ryan & Ryan",
+      "start": "2026-11-20T19:00:00",
+      "end": "2026-11-20T23:00:00",
+      "all_day": false,
+      "venue": "Rock Ridge High School",
+      "city": "Virginia",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "We make Music That Inspires.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -756,6 +924,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "f4928171213c83bb",
+      "reason": "read from page text",
+      "source_ids": [
+        "mt-ashwabay"
+      ],
+      "sources": [
+        {
+          "name": "Mt. Ashwabay",
+          "url": "https://www.mtashwabay.org/news.html"
+        }
+      ],
+      "title": "and the Summit Nordic Ski Race on February 6",
+      "start": "2026-12-05T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Bayfield",
+      "area": "Bayfield",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Fall and winter events include Slashwabay Haunted Trails on October 29\u201331, the Ski & Snowboard Swap and early-bird season pass deadline on November 7, the Big Chill Chili Cookoff on December 5, and the Summit Nordic Ski Race on February 6, 2027.",
+      "image": "",
+      "source": {
+        "name": "Mt. Ashwabay",
+        "url": "https://www.mtashwabay.org/news.html"
       }
     },
     {
