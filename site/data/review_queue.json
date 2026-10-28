@@ -1,65 +1,9 @@
 {
-  "generated": "2026-10-27T17:18:25Z",
-  "count": 89,
+  "generated": "2026-10-28T17:40:10Z",
+  "count": 87,
   "events": [
     {
-      "key": "41ed5e6daad55bd9",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
-        }
-      ],
-      "title": "Fall Harvest Fun Night",
-      "start": "2026-10-26T17:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "5-7 p.m. at Itasca County Family YMCA in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
-      }
-    },
-    {
-      "key": "e373379e7de51dbd",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
-        }
-      ],
-      "title": "Full moon hike",
-      "start": "2026-10-26T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Cohasset",
-      "area": "Cohasset",
-      "category": "sports-rec",
-      "price": "",
-      "description": "7 p.m. at Clay Boswell boat landing in Cohasset. Wear sturdy shoes and bring a headlamp.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-23/events-up-north-oct-26-nov-1-halloween-events-haunt-the-calendar"
-      }
-    },
-    {
-      "key": "882dce49fefd78e0",
+      "key": "a78d9e61c469072b",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -70,63 +14,7 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Entrepreneur Fair (opens in new tab)",
-      "start": "2026-10-27T17:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "October 27 @ 5:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "4a36a0294e83b673",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Music BINGO (opens in new tab)",
-      "start": "2026-10-27T18:30:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "October 27 @ 6:30 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "7555e416009bd58e",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Story Time with the Lumberjacks (opens in new tab)",
+      "title": "Story Time with the Lumberjacks",
       "start": "2026-10-28T16:00:00",
       "end": null,
       "all_day": false,
@@ -364,62 +252,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "df16ea5c53451f59",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
-      "start": "2026-11-05T21:00:00",
-      "end": "2026-11-10T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
-      "key": "b8a34ca5216a03a1",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Event Info",
-      "start": "2026-11-05T21:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
       }
     },
     {
@@ -1207,6 +1039,62 @@
       }
     },
     {
+      "key": "d4821e5a93cd5b2c",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Red Corvette - A Prince Tribute Band",
+      "start": "2026-12-31T18:00:00",
+      "end": "2026-12-31T22:00:00",
+      "all_day": false,
+      "venue": "Sevenwinds Casino, Lodge & Conference Center",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "music",
+      "price": "",
+      "description": "Red Corvette \u2014 A Prince Tribute Band brings the sound, style, and energy of Prince to the stage. With a tight live band, powerhouse vocals, unforgettable hits, and the classic moves fans love, Red Corvette delivers a high-energy celebration of Prince\u2019s extraordinary legacy. Get ready to dance, sing along, and take a ride with Red Corvette. Red Corvette \u2014 A Prince Tribute Band \u2014 delivers the music, energy, and electric spirit of Prince in a high-impact live tribute experience.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "94159d7b788ab7ad",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Living Legends Show",
+      "start": "2027-01-01T19:00:00",
+      "end": "2027-01-01T23:00:00",
+      "all_day": false,
+      "venue": "Sevenwinds Casino, Lodge & Conference Center",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "music",
+      "price": "",
+      "description": "Experience the energy, music, and unforgettable hits of the Black Eyed Peas, Britney Spears, Usher, and Snoop Dogg\u2014all on one stage. Living Legends Show brings world-class performers, powerhouse vocals, live musicianship, choreography, and Vegas-style visuals to Seven Winds Casino for a night of nonstop entertainment. Four Icons. One Stage. One Show. Living Legends Show is a high-energy tribute production bringing the music and influence of the Black Eyed Peas, Britney Spears, Usher, and Snoop Dogg to one stage.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
+      }
+    },
+    {
       "key": "c6a7246f4370ddd6",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1340,6 +1228,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "0804c929e878d751",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "46th Annual Freeze Yer Gizzard Blizzard RunTM 5K & 10K",
+      "start": "2027-01-23T09:00:00",
+      "end": "2027-01-23T11:59:00",
+      "all_day": false,
+      "venue": "900 5th St",
+      "city": "International Falls",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "The Freeze Yer Gizzard Blizzard Run is the zaniest winter running event in North America! Only the bold run the cold in this famous little northern border town of International Falls, Minnesota (https://en.wikipedia.org/wiki/International_Falls,_Minnesota) - aka the Icebox of the Nation! Choose between the 5K or the 10K - or if you are really tough....run both. The legendary Gizzard Girls will be on hand to register, assist and cheer on all racers! We hope to see all the runners at the Runner\u2019s Reception after the race!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2488,6 +2404,34 @@
       "category": "other",
       "price": "",
       "description": "America comes together in the music of Martin Sexton. Our hearts mend, our political and philosophical differences melt away, and the various strains of our roots music entangle. Of Sexton, The New York Times says: \u201cHis unpretentious heartiness helps him focus on every soul singer\u2019s goal: to amplify the sound of the ordinary heart.\" Sexton has remained true to his mission of sharing peace and harmony throughout his 10 albums, and in countless incendiary live performances. He has thus built a loyal following of fans, including critics and superstar artists.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "492b4529f5b28de7",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kray Van Kirk",
+      "start": "2027-05-15T19:00:00",
+      "end": "2027-05-15T23:00:00",
+      "all_day": false,
+      "venue": "Open Range Concerts",
+      "city": "International Falls",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "A fine finger-style guitarist with a precise baritone, Kray Van Kirk has a Ph.D. from the University of Alaska, but he set science aside to write songs and tell stories. \u201cThere is a reason for hero stories,\" he says, hidden in plain sight and cloaked in the everyday. The dragons look different, the monsters wear suits, the quest hides behind the mundane and appears utterly futile, but the work is the same. Defeat Empire! Build Utopia!\"",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

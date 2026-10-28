@@ -986,5 +986,24 @@
    "family": 248,
    "education": 190
   }
+ },
+ {
+  "date": "2026-10-28",
+  "raw": 4964,
+  "merged": 4301,
+  "published": 4214,
+  "queued": 87,
+  "active_sources": 151,
+  "categories": {
+   "arts": 330,
+   "sports-rec": 606,
+   "community": 1659,
+   "music": 296,
+   "food-drink": 181,
+   "other": 464,
+   "holiday": 238,
+   "education": 188,
+   "family": 252
+  }
  }
 ]
