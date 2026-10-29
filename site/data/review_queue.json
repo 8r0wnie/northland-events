@@ -1,35 +1,7 @@
 {
-  "generated": "2026-10-28T17:40:10Z",
-  "count": 87,
+  "generated": "2026-10-29T17:57:39Z",
+  "count": 94,
   "events": [
-    {
-      "key": "a78d9e61c469072b",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Story Time with the Lumberjacks",
-      "start": "2026-10-28T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "family",
-      "price": "",
-      "description": "October 28 @ 4:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "6472691be4cd0398",
       "reason": "read from page text",
@@ -84,6 +56,34 @@
       "source": {
         "name": "Mt. Ashwabay",
         "url": "https://www.mtashwabay.org/news.html"
+      }
+    },
+    {
+      "key": "3660cc5df02eb703",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Learn to Play Bridge (opens in new tab)",
+      "start": "2026-10-30T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "education",
+      "price": "",
+      "description": "October 30 @ 1:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -255,6 +255,90 @@
       }
     },
     {
+      "key": "922eaf4871cf69f4",
+      "reason": "read from page text",
+      "source_ids": [
+        "lake-county-fair"
+      ],
+      "sources": [
+        {
+          "name": "Lake County Fair (Two Harbors)",
+          "url": "http://www.thelakecountyfair.com/schedule-of-events.html"
+        }
+      ],
+      "title": "Annual Meeting 7 PM",
+      "start": "2026-11-04T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "community",
+      "price": "",
+      "description": "Wednesday November 4th, Annual Meeting 7 PM",
+      "image": "",
+      "source": {
+        "name": "Lake County Fair (Two Harbors)",
+        "url": "http://www.thelakecountyfair.com/schedule-of-events.html"
+      }
+    },
+    {
+      "key": "df16ea5c53451f59",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
+      "start": "2026-11-05T21:00:00",
+      "end": "2026-11-10T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
+      }
+    },
+    {
+      "key": "b8a34ca5216a03a1",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Event Info",
+      "start": "2026-11-05T21:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
+      }
+    },
+    {
       "key": "bf0fe82a6e9fa3bc",
       "reason": "read from page text",
       "source_ids": [
@@ -392,6 +476,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "0c673f5f4e63bf22",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "DXC Birkie & Korte Training Group",
+      "start": "2026-11-09T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "2940 Seven Bridges Rd",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "education",
+      "price": "",
+      "description": "Are you targeting a specific race this season, and hoping to make skiing a part of your weekly routine this winter? DXC is excited to offer our Birkie / Korte Training Group designed to help skiers build strength, fitness, and community throughout the winter. While registration for American Birkebeiner or the Korteloppet is not required, our training timeline is built to align with the event, as well as other Midwest races \u2014 and it gives our group a great name that focuses on race training!",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -700,6 +812,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "493956c83adf3ba5",
+      "reason": "read from page text",
+      "source_ids": [
+        "bent-paddle"
+      ],
+      "sources": [
+        {
+          "name": "Bent Paddle Brewing",
+          "url": "https://bentpaddlebrewing.com/events/"
+        }
+      ],
+      "title": "Details: \u2022",
+      "start": "2026-11-28T23:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "food-drink",
+      "price": "",
+      "description": "Double Shot Double Black Friday - Taproom Vintage Release 12:00 pm - 11:00 pm Double Shot Double Black Friday \u2013 Vintage Bottle Release! It\u2019s that time of year again! We\u2019ve dug deep into our cellar to bring you some of our most decadent Double Shot Double Black (DSDB) vintages. What\u2019s Available: \u2022 Pick 3 Flights: Choose any combination of DSDB vintages on draft while supplies last. \u2022 750ml Bottles: Rare vintages from 2016\u20132023.",
+      "image": "",
+      "source": {
+        "name": "Bent Paddle Brewing",
+        "url": "https://bentpaddlebrewing.com/events/"
       }
     },
     {
@@ -1487,6 +1627,34 @@
       }
     },
     {
+      "key": "095289efe4b2beef",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "KC and The Sunshine Band",
+      "start": "2027-02-18T19:00:00",
+      "end": "2027-02-18T23:00:00",
+      "all_day": false,
+      "venue": "Black Bear Casino Resort",
+      "city": "Carlton",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "KC and The Sunshine Band formed in 1973 with one single purpose: to create instant happiness through music - and the group has done just that, topping the charts with singles including \u201cGive It Up\u201d, \u201cThat\u2019s the Way (I Like It),\u201d \u201cPlease Don\u2019t Go,\u201d \u201cGet Down Tonight,\u201d \u201cBoogie Shoes\u201d, \u201cI\u2019m Your Boogie Man\u201d and \u201c(Shake, Shake, Shake) Shake Your Booty,\u201d tallying worldwide sales of over 100 million.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "759df04cfdffdca2",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1676,6 +1844,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e0a3767a86b99c74",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kansas",
+      "start": "2027-02-28T19:00:00",
+      "end": "2027-02-28T23:00:00",
+      "all_day": false,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "family",
+      "price": "",
+      "description": "With a legendary career spanning five decades, KANSAS has firmly established itself as one of America\u2019s iconic classic rock bands. This \"garage band\" from Topeka released their debut album in 1974 after being discovered by Wally Gold, who worked for Don Kirshner, and have gone on to sell more than 30 million albums worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

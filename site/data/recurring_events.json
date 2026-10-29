@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T17:40:11",
+  "generated": "2026-10-29T17:57:39",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1280,6 +1280,46 @@
       ],
       "last_date": "2026-12-05",
       "last_url": "https://allevents.in/hayward/camba-annual-meeting/200030849934713",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
+      "key": "grhs a cappella choir madrigal dinner|grand rapids",
+      "title": "The GRHS A Cappella Choir Presents: The Annual Madrigal Dinner",
+      "venue": "Barn in the Woods",
+      "city": "Bovey",
+      "area": "Grand Rapids",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://reifcenter.org/event/the-grhs-a-cappella-choir-presents-the-annual-madrigal-dinner/2026-12-05/",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
+      "key": "gogebic range concert band jack frost concert|ironwood",
+      "title": "Gogebic Range Concert Band Annual Jack Frost Concert",
+      "venue": "Historic Ironwood Theatre",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://felivelife.org/event/30328/",
       "predicted_next": "2027-12-05",
       "owner_decision": ""
     },
