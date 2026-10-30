@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T17:57:39",
+  "generated": "2026-10-30T17:31:55",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1401,6 +1401,26 @@
       "last_date": "2026-12-20",
       "last_url": "https://allevents.in/superior/annual-winter-solstice-hot-cocoa-yoga/200030732453343",
       "predicted_next": "2027-12-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "nlaa s nye gala and concert ft irene hartfield and chickadee dee dees|ely",
+      "title": "NLAA's Annual NYE Gala and Concert ft. Irene Hartfield and the Chickadee-Dee-Dees",
+      "venue": "Ely's Historic State Theater",
+      "city": "Ely",
+      "area": "Ely",
+      "category": "music",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-31",
+      "last_url": "https://allevents.in/ely/nlaas-annual-nye-gala-and-concert-ft-irene-hartfield-and-the-chickadee-dee-dees/200030937446013",
+      "predicted_next": "2027-12-31",
       "owner_decision": ""
     },
     {
