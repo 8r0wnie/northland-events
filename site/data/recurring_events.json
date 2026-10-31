@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T17:31:55",
+  "generated": "2026-10-31T16:37:21",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -744,26 +744,6 @@
       "owner_decision": ""
     },
     {
-      "key": "glow hike|duluth",
-      "title": "Annual Glow Hike",
-      "venue": "Indian Point Campground",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "years_seen": [
-        "2026"
-      ],
-      "occurrence_count": 1,
-      "claimed_annual_number": null,
-      "signal_reasons": [
-        "title says \"annual\""
-      ],
-      "last_date": "2026-10-30",
-      "last_url": "https://allevents.in/duluth/annual-glow-hike/200030734175547",
-      "predicted_next": "2027-10-30",
-      "owner_decision": ""
-    },
-    {
       "key": "wsv harvest party|duluth",
       "title": "WSV Annual Harvest Party",
       "venue": "410 N 78th Ave W , Duluth, MN, United States, Minnesota 55807",
@@ -820,6 +800,26 @@
       ],
       "last_date": "2026-10-31",
       "last_url": "https://allevents.in/hayward/annual-fall-clean-up/200030899495203",
+      "predicted_next": "2027-10-31",
+      "owner_decision": ""
+    },
+    {
+      "key": "halloween extravaganza|grand marais",
+      "title": "3rd Annual Halloween Extravaganza",
+      "venue": "Cook County Community Center Log Cabin",
+      "city": "Grand Marais",
+      "area": "Grand Marais",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-10-31",
+      "last_url": "https://www.visitcookcounty.com/event/3rd-annual-halloween-extravaganza/7919/",
       "predicted_next": "2027-10-31",
       "owner_decision": ""
     },
@@ -1120,6 +1120,26 @@
       ],
       "last_date": "2026-11-20",
       "last_url": "https://www.washburncounty.org/event/3rd-annual-trego-hometown-holiday/3055/",
+      "predicted_next": "2027-11-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "handmade holiday craft show|washburn county",
+      "title": "3rd Annual Handmade Holiday Craft Show",
+      "venue": "Trego Town Hall; 172 Bites & Brews; Round Man Brewing & Smokehouse Weight Room",
+      "city": "",
+      "area": "Washburn County",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-20",
+      "last_url": "https://www.washburncounty.org/event/3rd-annual-handmade-holiday-craft-show/3641/",
       "predicted_next": "2027-11-20",
       "owner_decision": ""
     },

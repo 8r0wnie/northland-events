@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-30T17:31:55Z",
-  "count": 108,
+  "generated": "2026-10-31T16:37:20Z",
+  "count": 103,
   "events": [
     {
-      "key": "3660cc5df02eb703",
+      "key": "69e7936cb9c4db55",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -14,64 +14,8 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Learn to Play Bridge (opens in new tab)",
-      "start": "2026-10-30T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "education",
-      "price": "",
-      "description": "October 30 @ 1:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "b7fc5dbf72d0277e",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Samhain Open House (opens in new tab)",
-      "start": "2026-10-30T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "October 30 @ 4:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "6adc3c169b114e2f",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Halloween Music BINGO (opens in new tab)",
-      "start": "2026-10-30T18:30:00",
+      "title": "Tunes & Treats Halloween Celebration for Kids",
+      "start": "2026-10-31T14:00:00",
       "end": null,
       "all_day": false,
       "venue": "",
@@ -79,7 +23,7 @@
       "area": "Ironwood",
       "category": "holiday",
       "price": "",
-      "description": "October 30 @ 6:30 pm",
+      "description": "October 31 @ 2:00 pm",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -87,115 +31,31 @@
       }
     },
     {
-      "key": "84219ca6f7fbb465",
-      "reason": "single source, not yet corroborated",
+      "key": "e5400c4681ede9c8",
+      "reason": "read from page text",
       "source_ids": [
-        "mesabi-tribune-events"
+        "ironwood-chamber"
       ],
       "sources": [
         {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://evvnt.com/events/?_evDiscoveryPath=/event/3871794-mary-mack-stand-up-comedy-in-superior-wi-october-30"
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Mary Mack Stand Up Comedy in Superior, WI - October 30",
-      "start": "2026-10-30T19:00:00",
-      "end": "2026-10-30T20:30:00",
+      "title": "Halloween Party @ Club 77",
+      "start": "2026-10-31T16:00:00",
+      "end": null,
       "all_day": false,
-      "venue": "1201 Tower Ave",
-      "city": "Superior",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Cheesehead, clean comedians Mack & Harmston's duet stand up show in support of a pro-union election. General public welcome & encouraged! A union member herself, Mack has been seen on The Tonight Show, Dry Bar Comedy, Last Comic Standing, Grand Ole Opry and more. She is one of the most played comics on SiriusXM and currently voices Jesse in the Hulu and Netflix cartoon Solar Opposites. The night features a full show by Mary & Tim and quick word or two from (and maybe some roasting of) the district's political candidates. Much needed levity before the midterms.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://evvnt.com/events/?_evDiscoveryPath=/event/3871794-mary-mack-stand-up-comedy-in-superior-wi-october-30"
-      }
-    },
-    {
-      "key": "c8fbec8b481c203f",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Xpedition Band Mn",
-      "start": "2026-10-30T20:00:00",
-      "end": "2026-10-31T00:00:00",
-      "all_day": false,
-      "venue": "Halloween Bash Xpedition-Two Rivers Event Center - Aitkin, MN",
-      "city": "Aitkin",
-      "area": "Iron Range",
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
       "category": "holiday",
       "price": "",
-      "description": "Wear Your best halloween costume, there will be a costume contest! Xpedition- The Nation's Premier Tribute performing the music of : Kansas, Foreigner, Styx, and Journey. Xpedition authentically performs all the chart topping hits you know and love from the greatest bands in rock and roll history! This group of talented musicians hailing from Florida, Nashville, California, and Minnesota, will deliver a true concert experience to fans of all ages! Xpediton has earned the reputation of being one of the top tribute acts touring the United States.",
+      "description": "October 31 @ 4:00 pm",
       "image": "",
       "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "763dcec49def4236",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Teague Alexy",
-      "start": "2026-10-31T10:30:00",
-      "end": "2026-10-31T14:30:00",
-      "all_day": false,
-      "venue": "Pizza Luce",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Teague Alexy performs a special Pizza Luce brunch set as part of Pizza Luce's 25th anniversary weekend. Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "bdc7a35a8a4858c2",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Minnesota Golden Gophers at Minnesota Duluth Bulldogs Womens Hockey",
-      "start": "2026-10-31T15:00:00",
-      "end": "2026-10-31T19:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -476,62 +336,6 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "df16ea5c53451f59",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Part of the International Crane Foundation\u2019s Minnesota tour",
-      "start": "2026-11-05T21:00:00",
-      "end": "2026-11-10T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
-      "key": "b8a34ca5216a03a1",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Event Info",
-      "start": "2026-11-05T21:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Birds & Brews - All About Cranes! 6:00 pm - 9:00 pm Cranes have captivated people around the world for centuries with their calls, dances, and incredible journeys. Join the International Crane Foundation at Bent Paddle for an evening celebrating these extraordinary birds and learning about the work being done to protect cranes and the wild places where they dance. Event Info: Thursday, NOV. 5th 6-9pm Bent Paddle Taproom Hope is at the heart of conservation. Every wetland restored, every crane chick hatched, and every person who falls in love with these birds helps build a better future.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
       }
     },
     {
@@ -1095,34 +899,6 @@
       }
     },
     {
-      "key": "e982cc4cf50a649f",
-      "reason": "read from page text",
-      "source_ids": [
-        "bent-paddle"
-      ],
-      "sources": [
-        {
-          "name": "Bent Paddle Brewing",
-          "url": "https://bentpaddlebrewing.com/events/"
-        }
-      ],
-      "title": "Details: \u2022",
-      "start": "2026-11-27T23:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "food-drink",
-      "price": "",
-      "description": "Double Shot Double Black Friday - Taproom Vintage Release 12:00 pm - 11:00 pm Double Shot Double Black Friday \u2013 Vintage Bottle Release! It\u2019s that time of year again! We\u2019ve dug deep into our cellar to bring you some of our most decadent Double Shot Double Black (DSDB) vintages. What\u2019s Available: \u2022 Pick 3 Flights: Choose any combination of DSDB vintages on draft while supplies last. \u2022 750ml Bottles: Rare vintages from 2016\u20132023.",
-      "image": "",
-      "source": {
-        "name": "Bent Paddle Brewing",
-        "url": "https://bentpaddlebrewing.com/events/"
-      }
-    },
-    {
       "key": "54e66bcc3ec253bc",
       "reason": "read from page text",
       "source_ids": [
@@ -1228,6 +1004,34 @@
       "category": "holiday",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e921842d84d64177",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Teague Alexy",
+      "start": "2026-12-10T18:00:00",
+      "end": "2026-12-10T22:00:00",
+      "all_day": false,
+      "venue": "Ursa Minor Brewing",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry. The name \u2018Teague\u2019 was once used to describe the storytelling poets who travelled ancient Ireland. New album \"Effervescent\" available 2/14/16.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1599,7 +1403,7 @@
       }
     },
     {
-      "key": "ff638919cb9dc5d4",
+      "key": "4ec008646cf2b44b",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "mesabi-tribune-events"
@@ -1610,16 +1414,16 @@
           "url": "https://www.mesabitribune.com/local-events"
         }
       ],
-      "title": "UMD Men's Hockey v. Colorado College",
-      "start": "2027-01-09T18:00:00",
-      "end": "2027-01-09T22:00:00",
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-08T19:00:00",
+      "end": "2027-01-08T23:00:00",
       "all_day": false,
-      "venue": "AMSOIL Arena",
+      "venue": "DECC Symphony Hall",
       "city": "Duluth",
       "area": "Iron Range",
-      "category": "sports-rec",
+      "category": "arts",
       "price": "",
-      "description": "Any fan over the age of 3 needs a ticket to enter the arena.",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1648,6 +1452,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f253810dcadf910f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-09T19:00:00",
+      "end": "2027-01-09T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2243,6 +2075,34 @@
       }
     },
     {
+      "key": "e0a3767a86b99c74",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kansas",
+      "start": "2027-02-28T19:30:00",
+      "end": "2027-02-28T23:30:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "family",
+      "price": "",
+      "description": "With a legendary career spanning five decades, KANSAS has firmly established itself as one of America\u2019s iconic classic rock bands. This \"garage band\" from Topeka released their debut album in 1974 after being discovered by Wally Gold, who worked for Don Kirshner, and have gone on to sell more than 30 million albums worldwide.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "19b7948fcf6962fe",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2537,34 +2397,6 @@
       "title": "World Championship: Denmark vs. Norway",
       "start": "2027-04-22T15:00:00",
       "end": "2027-04-22T19:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "8a5e7fc35d0e459e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "World Championship: Latvia vs. USA",
-      "start": "2027-04-23T19:00:00",
-      "end": "2027-04-23T23:00:00",
       "all_day": false,
       "venue": "AMSOIL Arena",
       "city": "Duluth",
@@ -3020,6 +2852,34 @@
       "category": "other",
       "price": "",
       "description": "A fine finger-style guitarist with a precise baritone, Kray Van Kirk has a Ph.D. from the University of Alaska, but he set science aside to write songs and tell stories. \u201cThere is a reason for hero stories,\" he says, hidden in plain sight and cloaked in the everyday. The dragons look different, the monsters wear suits, the quest hides behind the mundane and appears utterly futile, but the work is the same. Defeat Empire! Build Utopia!\"",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "82f1e6203caa84b3",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Gabriel Douglas Music",
+      "start": "2027-05-18T18:00:00",
+      "end": "2027-05-18T22:00:00",
+      "all_day": false,
+      "venue": "Sir Benedicts Tavern on the Lake",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "plays & writes music in the 4onthefloor, Gabriel Douglas Music, Silverback Colony, Orca Colony, & other collaborations. writes songs. @gabrieldouglas on the Twitter listen: https://soundcloud.com/gabrieldouglas or\u2026",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
