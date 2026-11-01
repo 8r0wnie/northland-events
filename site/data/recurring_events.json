@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T16:37:21",
+  "generated": "2026-11-01T17:35:33",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -844,6 +844,26 @@
       "owner_decision": ""
     },
     {
+      "key": "hayward area chamber of commerce dinner|hayward",
+      "title": "Hayward Area Chamber of Commerce Annual Dinner",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-05",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
+      "predicted_next": "2027-11-05",
+      "owner_decision": ""
+    },
+    {
       "key": "boutique|hibbing",
       "title": "26th Annual Boutique",
       "venue": "1202 East Howard Street Hibbing MN 55008",
@@ -940,6 +960,26 @@
       ],
       "last_date": "2026-11-11",
       "last_url": "https://allevents.in/duluth/annual-meeting/200030890037800",
+      "predicted_next": "2027-11-11",
+      "owner_decision": ""
+    },
+    {
+      "key": "soiree shopping event|hayward",
+      "title": "15th Annual Soiree Shopping Event",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 15,
+      "signal_reasons": [
+        "title says \"15th Annual\""
+      ],
+      "last_date": "2026-11-11",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
       "predicted_next": "2027-11-11",
       "owner_decision": ""
     },
@@ -1064,6 +1104,26 @@
       "owner_decision": ""
     },
     {
+      "key": "art of north tattoo gathering sevenwinds casino|hayward",
+      "title": "2nd Annual Art of the North Tattoo Gathering @ Sevenwinds Casino",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "other",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-11-15",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
+      "predicted_next": "2027-11-15",
+      "owner_decision": ""
+    },
+    {
       "key": "meeting|hermantown",
       "title": "*Annual Meeting 2026",
       "venue": "",
@@ -1100,6 +1160,26 @@
       ],
       "last_date": "2026-11-19",
       "last_url": "https://visitduluth.com/event/77th-annual-turkey-bingo/2026-11-19/",
+      "predicted_next": "2027-11-19",
+      "owner_decision": ""
+    },
+    {
+      "key": "elders feast and giveaway|hayward",
+      "title": "Annual Elders' Feast and Giveaway",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "other",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-19",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
       "predicted_next": "2027-11-19",
       "owner_decision": ""
     },
@@ -1220,6 +1300,26 @@
       ],
       "last_date": "2026-11-28",
       "last_url": "https://allevents.in/ashland/4th-annual-wreath-making/200030850217224",
+      "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
+      "key": "homespun holidays arts crafts show|hayward",
+      "title": "39th Annual Homespun Holidays Arts & Crafts Show",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 39,
+      "signal_reasons": [
+        "title says \"39th Annual\""
+      ],
+      "last_date": "2026-11-28",
+      "last_url": "https://haywardareachamber.com/calendar-of-events/",
       "predicted_next": "2027-11-28",
       "owner_decision": ""
     },
