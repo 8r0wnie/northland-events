@@ -1,63 +1,7 @@
 {
-  "generated": "2026-11-01T17:35:33Z",
-  "count": 105,
+  "generated": "2026-11-02T21:14:13Z",
+  "count": 103,
   "events": [
-    {
-      "key": "c951a0be06e87c53",
-      "reason": "read from page text",
-      "source_ids": [
-        "hoyt-lakes-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Hoyt Lakes",
-          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-        }
-      ],
-      "title": "CALENDAR PARKING REGULATIONS",
-      "start": "2026-11-01T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Hoyt Lakes",
-      "area": "Hoyt Lakes",
-      "category": "community",
-      "price": "",
-      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
-      "image": "",
-      "source": {
-        "name": "City of Hoyt Lakes",
-        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "3ade3e565f2ef0e8",
-      "reason": "read from page text",
-      "source_ids": [
-        "hoyt-lakes-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Hoyt Lakes",
-          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-        }
-      ],
-      "title": "Even November 8",
-      "start": "2026-11-01T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Hoyt Lakes",
-      "area": "Hoyt Lakes",
-      "category": "community",
-      "price": "",
-      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
-      "image": "",
-      "source": {
-        "name": "City of Hoyt Lakes",
-        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
     {
       "key": "76ff7402aa69a2ca",
       "reason": "read from page text",

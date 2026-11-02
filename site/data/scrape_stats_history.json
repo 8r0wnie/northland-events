@@ -1081,5 +1081,24 @@
    "other": 519,
    "music": 261
   }
+ },
+ {
+  "date": "2026-11-02",
+  "raw": 4980,
+  "merged": 4342,
+  "published": 4239,
+  "queued": 103,
+  "active_sources": 151,
+  "categories": {
+   "community": 1701,
+   "education": 183,
+   "arts": 343,
+   "sports-rec": 613,
+   "music": 268,
+   "family": 253,
+   "other": 528,
+   "food-drink": 187,
+   "holiday": 163
+  }
  }
 ]
