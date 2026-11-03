@@ -1,91 +1,7 @@
 {
-  "generated": "2026-11-02T21:14:13Z",
-  "count": 103,
+  "generated": "2026-11-03T18:53:34Z",
+  "count": 107,
   "events": [
-    {
-      "key": "76ff7402aa69a2ca",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/tags/events-up-north"
-        }
-      ],
-      "title": "Curling open houses in Eveleth",
-      "start": "2026-11-02T00:00:00",
-      "end": "2026-11-08T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Eveleth",
-      "area": "Eveleth",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Conversation Events Up North Nov. 2-8: Curling open houses in Eveleth, clay exhibit in Bemidji Events this week include a book sale in Bemidji, local theater in Gilbert and the First Friday Art Walk in Grand Rapids.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/tags/events-up-north"
-      }
-    },
-    {
-      "key": "30c559e9692ae69f",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Open house",
-      "start": "2026-11-02T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Eveleth",
-      "area": "Eveleth",
-      "category": "community",
-      "price": "",
-      "description": "6-8 p.m. at Curl Mesabi in Eveleth",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "5c1154a9f1ebc99f",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "BINGO Night at VFW Post 3673",
-      "start": "2026-11-02T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 2 @ 6:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "da670fd8263d4270",
       "reason": "read from page text",
@@ -252,6 +168,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
+      }
+    },
+    {
+      "key": "0c844ab8568e5d86",
+      "reason": "read from page text",
+      "source_ids": [
+        "pine-city-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Pine City Area Chamber",
+          "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
+        }
+      ],
+      "title": "Pine Center for the Arts November Gallery: Native American Heritage Month",
+      "start": "2026-11-06T16:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Pine City",
+      "area": "Pine City",
+      "category": "arts",
+      "price": "",
+      "description": "Pine Center for the Arts is honored to present November\u2019s Gallery featuring Native American artists in honor and celebration of Native American Heritage Month. The gallery opens Friday, November 6th, where the public is invited to a free artist\u2019s reception from 4-7pm. Light appetizers and refreshments will be served. The gallery will feature handcrafted beadwork, traditional regalia worn at special events and powwows, photography, and more from regional Native American artists.",
+      "image": "",
+      "source": {
+        "name": "Pine City Area Chamber",
+        "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
       }
     },
     {
@@ -955,6 +899,34 @@
       }
     },
     {
+      "key": "fd65d3ac3f86a14a",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "DXC Wednesday Night Races",
+      "start": "2026-12-09T18:30:00",
+      "end": "2026-12-09T22:30:00",
+      "all_day": false,
+      "venue": "TBD",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Distance + Style Race distance varies week to week. Usually 4k to 6k distance. Race technique will vary between Classic and Skate from week to week, depending on snow conditions and weather. This year, DXC will again offer two classes at each race: Recreational and Competitive. The Recreational class will generally be a bit shorter (usually 3 to 4 kilometers instead of 4 to 6 kilometers), but will otherwise be the same format. Racers may switch between categories throughout the season, and may earn points in either or both.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "e921842d84d64177",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1032,6 +1004,34 @@
       "category": "arts",
       "price": "",
       "description": "Nathan Frazer sings \u201cSongs for the Season\u201d a musical review of winter, darkness, and snow, as well light, warmth, friendship and the holidays.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f72877645b2d77ad",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kalopsya",
+      "start": "2026-12-11T19:00:00",
+      "end": "2026-12-11T23:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "education",
+      "price": "",
+      "description": "Join us on a frozen night in December as we wake the city up from it's hibernation. Hometown hero's Pronoya come back in town and they brought some friends. Shadows of me, Xkwizite, Kalopsya, and Druid are all coming together at the Caddyshack indoor golf course on December 11th. It is a 21+ event with a $5 door fee, doors are at 7PM and music starts at 8PM small-town lads... big metal chads! Kalopsya is a melodic-metal band from St. Peter, MN.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1303,8 +1303,8 @@
         }
       ],
       "title": "Living Legends Show",
-      "start": "2027-01-01T19:00:00",
-      "end": "2027-01-01T23:00:00",
+      "start": "2027-01-01T18:00:00",
+      "end": "2027-01-01T22:00:00",
       "all_day": false,
       "venue": "Sevenwinds Casino, Lodge & Conference Center",
       "city": "Hayward",
@@ -1312,6 +1312,34 @@
       "category": "music",
       "price": "",
       "description": "Experience the energy, music, and unforgettable hits of the Black Eyed Peas, Britney Spears, Usher, and Snoop Dogg\u2014all on one stage. Living Legends Show brings world-class performers, powerhouse vocals, live musicianship, choreography, and Vegas-style visuals to Seven Winds Casino for a night of nonstop entertainment. Four Icons. One Stage. One Show. Living Legends Show is a high-energy tribute production bringing the music and influence of the Black Eyed Peas, Britney Spears, Usher, and Snoop Dogg to one stage.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "f6a7f58718c6745e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Out Rage Us 90s",
+      "start": "2027-01-02T18:00:00",
+      "end": "2027-01-02T22:00:00",
+      "all_day": false,
+      "venue": "Sevenwinds Casino, Lodge & Conference Center",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "music",
+      "price": "",
+      "description": "Out Rage Us is a high-energy five-piece band bringing the unforgettable sound, style, and spirit of the 1990s back to the stage. The band combines dynamic vocals, live musicianship, colorful personalities, and audience interaction with an impressive musical pedigree. Bassist Lauren \u201cTaneil\u201d Robinson performed with Beyonc\u00e9 for 10 years, while guitarist Christopher Lane also tours with KC and the Sunshine Band. The group is also built on family: Lauren and drummer Chyna are sisters and Christopher\u2019s nieces, giving the band a natural chemistry that comes alive onstage.",
       "image": "",
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
@@ -1368,6 +1396,34 @@
       "category": "arts",
       "price": "",
       "description": "One show in Duluth. Please come. Geoffrey Asmus began performing stand-up in 2013 immediately after wasting $143,548 on seven college degrees. Geoffrey is a regular performer at the famous Comedy Cellar in New York City and was featured at Just For Laughs in Montreal as a \u2018New Face.\u2019 Geoffrey has opened for Dave Attell, Mark Normand, Dan Soder, Fortune Feimster, Sam Morrill, and Daniel Sloss among others. He headlines comedy clubs nationwide and sleeps on Greyhounds around the world. In 2021 his debut album \u201cProdigal Little Bitch\u201d went to #1 on iTunes.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "9f395bc4bcc99d5e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "DXC Adult Ski Lessons",
+      "start": "2027-01-05T18:00:00",
+      "end": "2027-02-12T13:00:00",
+      "all_day": false,
+      "venue": "4348 Rice Lake Rd",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "DXC is excited to offer cross-country ski programming for adults again this winter. We will be offering ski programs for both classic and skate skiing. These sessions are in high demand, so be sure to register early!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2876,6 +2932,62 @@
       "all_day": false,
       "venue": "Sir Benedicts Tavern on the Lake",
       "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "plays & writes music in the 4onthefloor, Gabriel Douglas Music, Silverback Colony, Orca Colony, & other collaborations. writes songs. @gabrieldouglas on the Twitter listen: https://soundcloud.com/gabrieldouglas or\u2026",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "6d5939e2379b0759",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Autism Walk - Northland",
+      "start": "2027-05-22T10:00:00",
+      "end": "2027-05-22T15:00:00",
+      "all_day": false,
+      "venue": "350 Harbor Drive",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "The 1st Annual Autism Walk Northland MN is a community-centered event created to celebrate, support, and uplift the autism and neurodivergent community. Taking place Sunday, April 26th at the DECC, this walk brings together families, friends, educators, caregivers, and advocates in a space built on acceptance, connection, and understanding. This event is about more than fundraising. It is about visibility, belonging, and creating a place where every individual feels seen and valued.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "538f87943be55c20",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Gabriel Douglas Music",
+      "start": "2027-05-22T18:00:00",
+      "end": "2027-05-22T22:00:00",
+      "all_day": false,
+      "venue": "Harbor Rail Pub, Loft & Events",
+      "city": "Two Harbors",
       "area": "Iron Range",
       "category": "other",
       "price": "",
