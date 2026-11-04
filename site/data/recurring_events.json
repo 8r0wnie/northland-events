@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T18:53:35",
+  "generated": "2026-11-04T19:07:39",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1320,6 +1320,26 @@
       ],
       "last_date": "2026-11-21",
       "last_url": "https://felivelife.org/event/26th-annual-hurley-craft-fair/",
+      "predicted_next": "2027-11-21",
+      "owner_decision": ""
+    },
+    {
+      "key": "christmas bazaar|ironwood",
+      "title": "Annual Christmas Bazaar",
+      "venue": "Ewen-Trout Creek K-12 School",
+      "city": "Ewen",
+      "area": "Ironwood",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://felivelife.org/event/annual-christmas-bazaar/",
       "predicted_next": "2027-11-21",
       "owner_decision": ""
     },
