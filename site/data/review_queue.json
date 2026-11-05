@@ -1,119 +1,7 @@
 {
-  "generated": "2026-11-04T19:07:39Z",
-  "count": 110,
+  "generated": "2026-11-05T19:18:21Z",
+  "count": 117,
   "events": [
-    {
-      "key": "a26fcbd3322fd5e3",
-      "reason": "read from page text",
-      "source_ids": [
-        "bovey-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Bovey",
-          "url": "https://boveymn.gov"
-        }
-      ],
-      "title": "Council Workshop",
-      "start": "2026-11-04T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Bovey",
-      "area": "Bovey",
-      "category": "education",
-      "price": "",
-      "description": "11/4/2026",
-      "image": "",
-      "source": {
-        "name": "City of Bovey",
-        "url": "https://boveymn.gov"
-      }
-    },
-    {
-      "key": "8bdee0dc3cfa75f1",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Volunteer Fair",
-      "start": "2026-11-04T10:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Hibbing",
-      "area": "Hibbing",
-      "category": "community",
-      "price": "",
-      "description": "10 a.m.-1 p.m. at Minnesota North College in Hibbing",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "e550b541235428e5",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Eveleth Community Connect",
-      "start": "2026-11-04T11:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Eveleth",
-      "area": "Eveleth",
-      "category": "community",
-      "price": "",
-      "description": "11 a.m.-2 p.m. at the Eveleth Community Center",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "a6a4a60f2fea6fa3",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Open house",
-      "start": "2026-11-04T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Eveleth",
-      "area": "Eveleth",
-      "category": "community",
-      "price": "",
-      "description": "6-8 p.m. at Curl Mesabi in Eveleth",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
     {
       "key": "922eaf4871cf69f4",
       "reason": "read from page text",
@@ -140,6 +28,34 @@
       "source": {
         "name": "Lake County Fair (Two Harbors)",
         "url": "http://www.thelakecountyfair.com/schedule-of-events.html"
+      }
+    },
+    {
+      "key": "0ed0d111e45f36d7",
+      "reason": "read from page text",
+      "source_ids": [
+        "bovey-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Bovey",
+          "url": "https://boveymn.gov/recent-news"
+        }
+      ],
+      "title": "Board of Canvassing",
+      "start": "2026-11-05T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Bovey",
+      "area": "Bovey",
+      "category": "community",
+      "price": "",
+      "description": "11/5/2026",
+      "image": "",
+      "source": {
+        "name": "City of Bovey",
+        "url": "https://boveymn.gov/recent-news"
       }
     },
     {
@@ -255,31 +171,31 @@
       }
     },
     {
-      "key": "bf0fe82a6e9fa3bc",
+      "key": "7e0f3f216b3ddfbc",
       "reason": "read from page text",
       "source_ids": [
-        "mt-ashwabay"
+        "ironwood-chamber"
       ],
       "sources": [
         {
-          "name": "Mt. Ashwabay",
-          "url": "https://www.mtashwabay.org/news.html"
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Brother Ali\u2019s",
-      "start": "2026-11-07T00:00:00",
+      "title": "Marshall Star Band LIVE @ Northern Waters Casino Resort",
+      "start": "2026-11-06T20:00:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "venue": "",
-      "city": "Bayfield",
-      "area": "Bayfield",
+      "city": "Ironwood",
+      "area": "Ironwood",
       "category": "community",
       "price": "",
-      "description": "The Alliance will not renew its contract with the owners of StageNorth. Brother Ali\u2019s November 7, 2026, show is the last Alliance production currently planned at the venue.",
+      "description": "November 6 @ 8:00 pm",
       "image": "",
       "source": {
-        "name": "Mt. Ashwabay",
-        "url": "https://www.mtashwabay.org/news.html"
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -387,7 +303,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -420,6 +336,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "c35db77f5803369d",
+      "reason": "read from page text",
+      "source_ids": [
+        "bovey-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Bovey",
+          "url": "https://boveymn.gov/recent-news"
+        }
+      ],
+      "title": "There will be a meeting",
+      "start": "2026-11-09T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Bovey",
+      "area": "Bovey",
+      "category": "community",
+      "price": "",
+      "description": "There will be a meeting on Monday, November 9 th , 2026 at 6:00PM for the Board of Canvassing. The meeting will take place in the Club Room and is open to the public.",
+      "image": "",
+      "source": {
+        "name": "City of Bovey",
+        "url": "https://boveymn.gov/recent-news"
       }
     },
     {
@@ -555,7 +499,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -751,7 +695,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -787,6 +731,34 @@
       }
     },
     {
+      "key": "9e56112b39412071",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Alan Sparhawk: Black Eyed Snakes Black Friday",
+      "start": "2026-11-27T20:00:00",
+      "end": "2026-11-28T00:00:00",
+      "all_day": false,
+      "venue": "Earth Rider Brewery",
+      "city": "Superior",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "with special guest Stella \"With Trampled by Turtles\" is out now on Sub Pop!",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "54e66bcc3ec253bc",
       "reason": "read from page text",
       "source_ids": [
@@ -807,7 +779,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for October & November: October 4 - Even October 11 - Odd October 18 - Even October 25 - Odd November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -843,34 +815,6 @@
       }
     },
     {
-      "key": "f4928171213c83bb",
-      "reason": "read from page text",
-      "source_ids": [
-        "mt-ashwabay"
-      ],
-      "sources": [
-        {
-          "name": "Mt. Ashwabay",
-          "url": "https://www.mtashwabay.org/news.html"
-        }
-      ],
-      "title": "and the Summit Nordic Ski Race on February 6",
-      "start": "2026-12-05T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Bayfield",
-      "area": "Bayfield",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Fall and winter events include Slashwabay Haunted Trails on October 29\u201331, the Ski & Snowboard Swap and early-bird season pass deadline on November 7, the Big Chill Chili Cookoff on December 5, and the Summit Nordic Ski Race on February 6, 2027.",
-      "image": "",
-      "source": {
-        "name": "Mt. Ashwabay",
-        "url": "https://www.mtashwabay.org/news.html"
-      }
-    },
-    {
       "key": "69aeb44dbd7cfa3a",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -896,6 +840,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "3a9f9b25737cdba7",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-12-06T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "f587f5501eb98b40",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Odd December 13",
+      "start": "2026-12-06T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "December 6 - Odd December 13 - Even December 20 - Odd December 27 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
       }
     },
     {
@@ -1123,6 +1123,62 @@
       }
     },
     {
+      "key": "4d41f4a7c301e00f",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-12-13T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "aa87781ce8330fb1",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Even December 20",
+      "start": "2026-12-13T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "December 6 - Odd December 13 - Even December 20 - Odd December 27 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
       "key": "c7dde15143f6cd91",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1207,6 +1263,62 @@
       }
     },
     {
+      "key": "91bda26c1c89676c",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-12-20T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "cc5276db6dacbc2d",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Odd December 27",
+      "start": "2026-12-20T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "December 6 - Odd December 13 - Even December 20 - Odd December 27 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
       "key": "614aa6d946f83081",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1288,6 +1400,62 @@
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
         "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "6d08bc4d8a8ac5ca",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "CALENDAR PARKING REGULATIONS",
+      "start": "2026-12-27T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "bd65f26f31e732ed",
+      "reason": "read from page text",
+      "source_ids": [
+        "hoyt-lakes-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Hoyt Lakes",
+          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+        }
+      ],
+      "title": "Even",
+      "start": "2026-12-27T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Hoyt Lakes",
+      "area": "Hoyt Lakes",
+      "category": "community",
+      "price": "",
+      "description": "December 6 - Odd December 13 - Even December 20 - Odd December 27 - Even",
+      "image": "",
+      "source": {
+        "name": "City of Hoyt Lakes",
+        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
       }
     },
     {
@@ -1431,6 +1599,34 @@
       }
     },
     {
+      "key": "bdbbd4399d077ff6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Geoffrey Asmus",
+      "start": "2027-01-03T20:30:00",
+      "end": "2027-01-04T00:30:00",
+      "all_day": false,
+      "venue": "The West Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Another show in Duluth. Please come. Geoffrey Asmus began performing stand-up in 2013 immediately after wasting $143,548 on seven college degrees. Geoffrey is a regular performer at the famous Comedy Cellar in New York City and was featured at Just For Laughs in Montreal as a \u2018New Face.\u2019 Geoffrey has opened for Dave Attell, Mark Normand, Dan Soder, Fortune Feimster, Sam Morrill, and Daniel Sloss among others. He headlines comedy clubs nationwide and sleeps on Greyhounds around the world. In 2021 his debut album \u201cProdigal Little Bitch\u201d went to #1 on iTunes.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "9f395bc4bcc99d5e",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1536,34 +1732,6 @@
       "category": "arts",
       "price": "",
       "description": "Experience an unforgettable evening of thrilling adventure \u2013 up on the big screen! The Banff Mountain Film Festival features a brand-new collection of short films filled with extreme journeys, untamed characters and captivating cinematography! Join the world\u2019s top adventure filmmakers and thrill-seekers as they climb, ski, paddle and ride into the wildest corners of the planet! With free prize giveaways, this is an unmissable event from the world\u2019s most prestigious mountain festival \u2013 guaranteed to spark your passion for adventure, action and travel! See www.banff-uk.com for more.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "f253810dcadf910f",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-09T19:00:00",
-      "end": "2027-01-09T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1792,6 +1960,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e5e1793dd01bb861",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Hayward Lions Club Pre-Birkie 2026",
+      "start": "2027-02-13T09:30:00",
+      "end": "2027-02-13T13:30:00",
+      "all_day": false,
+      "venue": "PO BOX 306",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "sports-rec",
+      "price": "",
+      "description": "The 42nd Annual Hayward Lions Club Pre-Birkie! On Saturday, February 10th, 2024, skiers will have the choice to race the short (about 25k) or long (about 43k) on the world class American Birkebeiner Trail. All racers will receive a race sweatshirt, brat, beverage and local sweets. All proceeds for the race will benefit the variety of service projects and organizations the Hayward Lions Club supports.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
       }
     },
     {

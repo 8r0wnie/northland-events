@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T19:07:39",
+  "generated": "2026-11-05T19:18:21",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -865,7 +865,7 @@
     },
     {
       "key": "sold out meeting dinner|duluth",
-      "title": "*SOLD OUT*156th Annual Meeting & Dinner Celebration",
+      "title": "*SOLD OUT* 156th Annual Meeting & Dinner Celebration",
       "venue": "Duluth Entertainment Convention Center - DECC",
       "city": "Duluth",
       "area": "Duluth",
@@ -1164,6 +1164,26 @@
       "owner_decision": ""
     },
     {
+      "key": "lutefisk and swedish meatball dinner|bayfield",
+      "title": "42nd Annual Lutefisk and Swedish Meatball Dinner",
+      "venue": "Bethesda Lutheran Church",
+      "city": "Bayfield",
+      "area": "Bayfield",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 42,
+      "signal_reasons": [
+        "title says \"42nd Annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://www.bayfield.org/event/42nd-annual-lutefisk-and-swedish-meatball-dinner/6029/",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
       "key": "meat raffle|ashland",
       "title": "9th Annual Meat Raffle",
       "venue": "Neighborly Bar",
@@ -1300,6 +1320,26 @@
       ],
       "last_date": "2026-11-20",
       "last_url": "https://www.washburncounty.org/event/3rd-annual-handmade-holiday-craft-show/3641/",
+      "predicted_next": "2027-11-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "hunters craft bake sale|washburn county",
+      "title": "5th Annual Hunters Craft & Bake Sale",
+      "venue": "Dove Healthcare Business Center",
+      "city": "",
+      "area": "Washburn County",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 5,
+      "signal_reasons": [
+        "title says \"5th Annual\""
+      ],
+      "last_date": "2026-11-20",
+      "last_url": "https://www.washburncounty.org/event/5th-annual-hunters-craft-%26-bake-sale/3059/",
       "predicted_next": "2027-11-20",
       "owner_decision": ""
     },

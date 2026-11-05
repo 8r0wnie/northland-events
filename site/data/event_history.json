@@ -1308,10 +1308,10 @@
      "url": "https://ely.org/events/ping-pong/"
     },
     "2027": {
-     "date": "2027-01-20",
-     "title": "Ping pong",
+     "date": "2027-01-03",
+     "title": "Ping Pong",
      "source_count": 1,
-     "url": "https://www.ely.org/event/ping-pong/6581/"
+     "url": "https://ely.org/events/ping-pong/"
     }
    },
    "too_frequent": false
@@ -1990,10 +1990,10 @@
      "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2026-12-28/"
     },
     "2027": {
-     "date": "2027-04-05",
+     "date": "2027-01-04",
      "title": "Between Howls | September Residency in The Yard!",
      "source_count": 1,
-     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-04-05/"
+     "url": "https://visitduluth.com/event/between-howls-september-residency-in-the-yard/2027-01-04/"
     }
    },
    "too_frequent": false
@@ -2386,10 +2386,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-11-10",
      "title": "County Board of Commissioners- Regular Meeting",
      "source_count": 2,
-     "url": "https://www.koochiching.gov/Calendar.aspx?EID=2008"
+     "url": "https://www.koochiching.gov/Calendar.aspx?EID=2011"
     }
    },
    "too_frequent": false
@@ -6262,10 +6262,10 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-05-10",
+     "date": "2027-05-24",
      "title": "Committee of the Whole/Agenda",
      "source_count": 1,
-     "url": "https://us02web.zoom.us/j/82477635407?pwd=Y3fkR8YkhT5VPftbA9w0WWMNJENfuq.1"
+     "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
    "too_frequent": false
@@ -6460,10 +6460,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-09",
+     "date": "2026-12-14",
      "title": "City Council Worksession",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-worksession-90"
+     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-worksession-94"
     }
    },
    "too_frequent": false
@@ -6476,10 +6476,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-09",
+     "date": "2026-12-14",
      "title": "City Council Meeting",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-meeting-127"
+     "url": "https://cityofgrandrapidsmn.com/bc-citycouncil/page/city-council-meeting-129"
     }
    },
    "too_frequent": false
@@ -7802,10 +7802,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-17",
+     "date": "2026-11-19",
      "title": "Planning & Zoning Committee Meeting",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12078"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12463"
     }
    },
    "too_frequent": false
@@ -7850,10 +7850,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-15",
+     "date": "2026-11-19",
      "title": "Moose Lake Township Board Meeting 5pm",
      "source_count": 1,
-     "url": "https://www.cityofmooselake.gov/Calendar.aspx?EID=1287"
+     "url": "https://www.cityofmooselake.gov/Calendar.aspx?EID=1288"
     }
    },
    "too_frequent": false
@@ -7914,10 +7914,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-11-19",
      "title": "County Board",
      "source_count": 1,
-     "url": "https://www.douglascountywi.gov/Calendar.aspx?EID=4591"
+     "url": "https://www.douglascountywi.gov/Calendar.aspx?EID=4468"
     }
    },
    "too_frequent": false
@@ -9302,7 +9302,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-21",
+     "date": "2026-11-18",
      "title": "Community Center Board",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -9538,7 +9538,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-11-24",
      "title": "Budget & Facilities Advisory Committee",
      "source_count": 1,
      "url": "https://cookcountymn.gov/calendar.php"
@@ -10912,9 +10912,9 @@
      "url": "https://www.twoharborsmn.gov/calendar.php"
     },
     "2027": {
-     "date": "2027-04-26",
+     "date": "2027-05-24",
      "title": "Regular Council Meeting",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://www.twoharborsmn.gov/calendar.php"
     }
    },
@@ -11628,16 +11628,16 @@
   },
   "uw superior men s soccer vs bethany lutheran|superior": {
    "title": "UW-Superior Men's Soccer vs Bethany Lutheran",
-   "venue": "Superior Choice Credit Union Stadium",
+   "venue": "Superior",
    "city": "Superior",
    "area": "Superior",
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-03",
+     "date": "2026-11-07",
      "title": "UW-Superior Men's Soccer vs Bethany Lutheran",
-     "source_count": 2,
-     "url": "https://allevents.in/superior/uw-superior-mens-soccer-vs-bethany-lutheran/200030361805811"
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11639&sport_id=6"
     }
    },
    "too_frequent": false
@@ -12198,10 +12198,10 @@
      "url": "https://castledangerbrewery.com/event/trivia-night-with-triviamafia/2026-12-01/"
     },
     "2027": {
-     "date": "2027-04-06",
+     "date": "2027-05-04",
      "title": "Trivia Night with TriviaMafia",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/trivia-night-with-triviamafia/2027-04-06/"
+     "url": "https://castledangerbrewery.com/event/trivia-night-with-triviamafia/2027-05-04/"
     }
    },
    "too_frequent": true
@@ -14634,7 +14634,7 @@
   },
   "andreas klein|grand rapids": {
    "title": "Andreas Klein",
-   "venue": "Ive Studio Theater",
+   "venue": "Ives Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -14746,7 +14746,7 @@
   },
   "st scholastica women s basketball vs st norbert college|duluth": {
    "title": "St. Scholastica Women's Basketball vs St. Norbert College",
-   "venue": "",
+   "venue": "The Church of Jesus Christ of Latter-day Saints",
    "city": "Duluth",
    "area": "Duluth",
    "category": "sports-rec",
@@ -14754,7 +14754,7 @@
     "2026": {
      "date": "2026-11-06",
      "title": "St. Scholastica Women's Basketball vs St. Norbert College",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://csssaints.com/calendar.aspx?game_id=17886&sport_id=3"
     }
    },
@@ -15360,7 +15360,7 @@
   },
   "commitment to change diversity equity inclusion workshop|duluth": {
    "title": "Commitment to Change: Diversity, Equity & Inclusion Workshop",
-   "venue": "Lake Superior College",
+   "venue": "Lake Superior College - Room S255",
    "city": "Duluth",
    "area": "Duluth",
    "category": "education",
@@ -15440,7 +15440,7 @@
   },
   "rbc open quarterly meeting|cloquet": {
    "title": "RBC Open Quarterly Meeting",
-   "venue": "Brookston Community Center",
+   "venue": "1720 Big Lake Rd. Cloquet, MN",
    "city": "Cloquet",
    "area": "Cloquet",
    "category": "community",
@@ -15450,9 +15450,15 @@
      "title": "RBC Open Quarterly Meeting",
      "source_count": 1,
      "url": "https://fdlband.org/calendar.php"
+    },
+    "2027": {
+     "date": "2027-05-20",
+     "title": "RBC Open Quarterly Meeting",
+     "source_count": 1,
+     "url": "https://fdlband.org/calendar.php"
     }
    },
-   "too_frequent": false
+   "too_frequent": true
   },
   "umd men s hockey vs arizona state university|duluth": {
    "title": "UMD Men\u2019s Hockey vs Arizona State University",
@@ -15552,7 +15558,7 @@
   },
   "bentleyville tour of lights|duluth": {
    "title": "Bentleyville Tour of Lights",
-   "venue": "",
+   "venue": "Bayfront Festival Park",
    "city": "Duluth",
    "area": "Duluth",
    "category": "holiday",
@@ -17020,7 +17026,7 @@
   },
   "ok factor|grand rapids": {
    "title": "The Ok Factor",
-   "venue": "Ive Studio Theater",
+   "venue": "Ives Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -19260,10 +19266,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-12",
+     "date": "2026-11-19",
      "title": "Xtreme Bar Bingo - Mason Jar Pub",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12442"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12443"
     }
    },
    "too_frequent": false
@@ -21164,10 +21170,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-09-15",
+     "date": "2026-11-09",
      "title": "Committee Meeting - Budget",
      "source_count": 1,
-     "url": "https://www.ci.aitkin.mn.us/index.asp?SEC=15A684B7-3A57-470F-80AB-DFC5C41FBAAE&DE=D8127ACA-4967-468E-AD4A-374D41B833FC"
+     "url": "https://www.ci.aitkin.mn.us/index.asp?SEC=15A684B7-3A57-470F-80AB-DFC5C41FBAAE&DE=3BA04E2D-6C8A-4A5C-88D7-8038B05B59F2"
     }
    },
    "too_frequent": false
@@ -21596,10 +21602,10 @@
    "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-11-18",
      "title": "Bows & Bookmarks Book Club at Hibbing Public Library",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1918"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1959"
     }
    },
    "too_frequent": false
@@ -25454,10 +25460,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-12",
+     "date": "2026-11-19",
      "title": "Wiggles & Giggles at Hibbing Public Library",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1948"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1949"
     }
    },
    "too_frequent": false
@@ -25806,10 +25812,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-05",
+     "date": "2026-11-19",
      "title": "Team Trivia",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12415"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12416"
     }
    },
    "too_frequent": false
@@ -26894,10 +26900,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-16",
+     "date": "2026-11-19",
      "title": "StrongBodies: Port Wing",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12382"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12399"
     }
    },
    "too_frequent": false
@@ -27716,10 +27722,10 @@
    "category": "education",
    "occurrences": {
     "2026": {
-     "date": "2026-10-14",
+     "date": "2026-11-18",
      "title": "Nutrition Class Series",
      "source_count": 1,
-     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1913"
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1960"
     }
    },
    "too_frequent": false
@@ -27818,10 +27824,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-22",
+     "date": "2026-11-05",
      "title": "CORE Food Pantry",
      "source_count": 1,
-     "url": "https://www.bayfield.org/event/core-food-pantry/5956/"
+     "url": "https://www.bayfield.org/event/core-food-pantry/6033/"
     }
    },
    "too_frequent": false
@@ -29108,7 +29114,7 @@
   },
   "third coast chamber collective|grand rapids": {
    "title": "Third Coast Chamber Collective",
-   "venue": "Ive Studio Theater",
+   "venue": "Ives Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -30156,7 +30162,7 @@
     "2026": {
      "date": "2026-11-06",
      "title": "TRUEGRASS WITH FLUTES & LOW",
-     "source_count": 3,
+     "source_count": 2,
      "url": "https://www.bayfield.org/event/truegrass-with-flutes-%26-low/5936/"
     }
    },
@@ -32320,10 +32326,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_202612301400?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-01",
+     "date": "2027-01-04",
      "title": "Babbitt Pickleball",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_202701011400?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_202701041400?calid=g-19"
     }
    },
    "too_frequent": false
@@ -32374,10 +32380,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-16hfjetrsk8eebj8jum9gnv2l8_202612311715?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-01",
+     "date": "2027-01-04",
      "title": "Open Gym",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-16hfjetrsk8eebj8jum9gnv2l8_202701011715?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-16hfjetrsk8eebj8jum9gnv2l8_202701041715?calid=g-19"
     }
    },
    "too_frequent": false
@@ -32470,6 +32476,12 @@
      "title": "Senior Pickleball",
      "source_count": 1,
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-0mr9uu3k85qcnkpf8ut86880qo_202612302200?calid=g-19"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Senior Pickleball",
+     "source_count": 1,
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-0mr9uu3k85qcnkpf8ut86880qo_202701042200?calid=g-19"
     }
    },
    "too_frequent": false
@@ -32562,6 +32574,12 @@
      "title": "YOUTH WRESTLING",
      "source_count": 1,
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-48djrumhafa30ud3a6h9857pgk_202612312330?calid=g-19"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "YOUTH WRESTLING",
+     "source_count": 1,
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-48djrumhafa30ud3a6h9857pgk_202701042330?calid=g-19"
     }
    },
    "too_frequent": false
@@ -34418,6 +34436,12 @@
      "title": "Pickleball",
      "source_count": 1,
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-cfspmpabiq85gj7mdb7s75im8o_R20260304T010000_202701010100?calid=g-19"
+    },
+    "2027": {
+     "date": "2027-01-03",
+     "title": "Pickleball",
+     "source_count": 1,
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-69317cmaefa1d37ijhqdstm7g9_202701040100?calid=g-19"
     }
    },
    "too_frequent": false
@@ -36766,7 +36790,7 @@
     "2026": {
      "date": "2026-11-20",
      "title": "Christmas City of the North Parade Watch Party",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://duluthart.org/event/christmas-city-of-the-north-parade-watch-party/"
     }
    },
@@ -38200,7 +38224,7 @@
     "2026": {
      "date": "2026-11-14",
      "title": "Tennessee Whiskey Revival at the Historic Ironwood Theatre",
-     "source_count": 3,
+     "source_count": 4,
      "url": "https://allevents.in/ironwood/tennessee-whiskey-revival-at-the-historic-ironwood-theatre/200030298116321"
     }
    },
@@ -38512,6 +38536,12 @@
      "title": "Mahjong Mondays",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/mahjong-mondays/5982/"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Mahjong Mondays",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/mahjong-mondays/5982/"
     }
    },
    "too_frequent": false
@@ -38764,7 +38794,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-02",
+     "date": "2026-11-05",
      "title": "Grand Marais Mashup Scavenger Hunt",
      "source_count": 1,
      "url": "https://allevents.in/grand-marais/grand-marais-mashup-scavenger-hunt/10000986858318797"
@@ -38796,7 +38826,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-02",
+     "date": "2026-11-05",
      "title": "Stormy Kromer Factory Tour",
      "source_count": 1,
      "url": "https://allevents.in/ironwood/stormy-kromer-factory-tour/10000294222065117"
@@ -39084,7 +39114,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-10",
+     "date": "2026-11-05",
      "title": "Local History Help",
      "source_count": 1,
      "url": "https://allevents.in/superior/local-history-help/200030853518614"
@@ -39164,7 +39194,7 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-11-11",
      "title": "Pruitt Center Yoga",
      "source_count": 1,
      "url": "https://allevents.in/superior/pruitt-center-yoga/200030853519425"
@@ -39228,10 +39258,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-11-11",
      "title": "Chess & Board Games",
      "source_count": 1,
-     "url": "https://allevents.in/silver-bay/chess-and-board-games/200030933050807"
+     "url": "https://allevents.in/silver-bay/chess-and-board-games/200030973155359"
     }
    },
    "too_frequent": false
@@ -39868,7 +39898,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "title": "Foodies + New Friends: Duluth",
      "source_count": 1,
      "url": "https://allevents.in/duluth/foodies-new-friends-duluth/100001998334455149"
@@ -44504,7 +44534,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-12-02",
      "title": "Jason Owen at Jack's Place",
      "source_count": 1,
      "url": "https://allevents.in/superior/jason-owen-at-jacks-place/200030650819859"
@@ -44520,7 +44550,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-12-02",
      "title": "Monthly Grief Support Group - Spooner/Grantsburg Area",
      "source_count": 1,
      "url": "https://allevents.in/spooner/monthly-grief-support-group-spooner-grantsburg-area/200030650376407"
@@ -49474,7 +49504,7 @@
    "category": "other",
    "occurrences": {
     "2026": {
-     "date": "2026-10-13",
+     "date": "2026-11-10",
      "title": "Airport Mtg - Canceled",
      "source_count": 1,
      "url": "https://calendar.google.com/calendar/ical/ely.mn.us_e8e3c2380hhmm5kgbkcv9ga7qs%40group.calendar.google.com/public/basic.ics"
@@ -50202,7 +50232,7 @@
   },
   "reif cozy concert sarah morris|grand rapids": {
    "title": "Reif Cozy Concert: Sarah Morris",
-   "venue": "Ive Studio Theater",
+   "venue": "Ives Studio Theater",
    "city": "Grand Rapids",
    "area": "Grand Rapids",
    "category": "music",
@@ -56102,7 +56132,7 @@
      "url": ""
     },
     "2027": {
-     "date": "2027-04-26",
+     "date": "2027-05-10",
      "title": "Planning and Zoning Commission",
      "source_count": 1,
      "url": ""
@@ -57448,7 +57478,7 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-11-11",
      "title": "Restorative Yoga on Wednesday Evenings",
      "source_count": 1,
      "url": "https://allevents.in/superior/restorative-yoga-on-wednesday-evenings/200030849187227"
@@ -60128,7 +60158,7 @@
     "2026": {
      "date": "2026-11-05",
      "title": "Trivia Mafia at Pizza Luc\u00e9",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.perfectduluthday.com/the-event/trivia-mafia-at-pizza-luce-2/2026-11-05/"
     }
    },
@@ -64796,7 +64826,7 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-11-27",
+     "date": "2026-12-04",
      "title": "Johnny B's - Food Truck",
      "source_count": 1,
      "url": "https://www.instagram.com/johnnybsfoodtruckduluth/?igshid=YmMyMTA2M2Y%3D"
@@ -65448,7 +65478,7 @@
   },
   "making potato lefse|duluth": {
    "title": "Making Potato Lefse",
-   "venue": "First Lutheran Church, Duluth, MN",
+   "venue": "Duluth Folk School",
    "city": "Duluth",
    "area": "Duluth",
    "category": "education",
@@ -66344,13 +66374,19 @@
   },
   "mason jennings|iron range": {
    "title": "Mason Jennings",
-   "venue": "Sacred Heart Music Center",
-   "city": "Duluth",
+   "venue": "Earth Rider Brewery",
+   "city": "Superior",
    "area": "Iron Range",
    "category": "music",
    "occurrences": {
     "2026": {
      "date": "2026-11-27",
+     "title": "Mason Jennings",
+     "source_count": 2,
+     "url": "https://www.mesabitribune.com/local-events"
+    },
+    "2027": {
+     "date": "2027-04-16",
      "title": "Mason Jennings",
      "source_count": 2,
      "url": "https://www.mesabitribune.com/local-events"
@@ -66404,7 +66440,7 @@
      "url": "https://ely.org/events/every-christmas-story-ever-told-and-then-some/"
     },
     "2027": {
-     "date": "2027-01-02",
+     "date": "2027-01-03",
      "title": "Every Christmas Story Ever Told! (And Then Some)",
      "source_count": 1,
      "url": "https://ely.org/events/every-christmas-story-ever-told-and-then-some/"
@@ -68182,7 +68218,7 @@
     "2026": {
      "date": "2026-11-21",
      "title": "LiveWell Pickleball Tournament",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.superiorchamber.org/events/details/livewell-pickleball-tournament-11-21-2026-22098"
     }
    },
@@ -68500,7 +68536,7 @@
    "category": "food-drink",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-11-07",
      "title": "Dinner with Christians: Duluth | Giving Back Edition",
      "source_count": 1,
      "url": "https://allevents.in/duluth/dinner-with-christians-duluth-giving-back-edition/100001990362943142"
@@ -69334,10 +69370,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-12",
+     "date": "2026-11-19",
      "title": "Xtreme Bar Bingo - Battle Axe Saloon",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12493"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12494"
     }
    },
    "too_frequent": false
@@ -70944,6 +70980,12 @@
      "title": "Monday Playgroup",
      "source_count": 1,
      "url": "https://felivelife.org/event/monday-playgroup/2026-12-28/"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Monday Playgroup",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/monday-playgroup/2027-01-04/"
     }
    },
    "too_frequent": false
@@ -73148,7 +73190,7 @@
   },
   "christmas market|duluth": {
    "title": "Christmas Market",
-   "venue": "",
+   "venue": "14th ave east and 3rd street, Duluth, MN, United States, Minnesota 55805",
    "city": "Duluth",
    "area": "Duluth",
    "category": "holiday",
@@ -73156,7 +73198,7 @@
     "2026": {
      "date": "2026-11-14",
      "title": "Christmas Market",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.perfectduluthday.com/the-event/christmas-market/2026-11-14/"
     }
    },
@@ -73844,7 +73886,7 @@
     "2026": {
      "date": "2026-12-05",
      "title": "Jack Frost Festival of Lights Parade",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://www.hurleywi.com/events/jack-frost-festival-of-lights-parade/"
     }
    },
@@ -75675,7 +75717,7 @@
    "too_frequent": false
   },
   "sold out meeting dinner|duluth": {
-   "title": "*SOLD OUT*156th Annual Meeting & Dinner Celebration",
+   "title": "*SOLD OUT* 156th Annual Meeting & Dinner Celebration",
    "venue": "Duluth Entertainment Convention Center - DECC",
    "city": "Duluth",
    "area": "Duluth",
@@ -75683,7 +75725,7 @@
    "occurrences": {
     "2026": {
      "date": "2026-11-05",
-     "title": "*SOLD OUT*156th Annual Meeting & Dinner Celebration",
+     "title": "*SOLD OUT* 156th Annual Meeting & Dinner Celebration",
      "source_count": 2,
      "url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4578/details"
     }
@@ -75764,7 +75806,7 @@
     "2026": {
      "date": "2026-11-06",
      "title": "Live Music with Nick Kuka",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://allevents.in/hayward/live-music-with-nick-kuka/200030961306329"
     }
    },
@@ -76724,7 +76766,7 @@
     "2027": {
      "date": "2027-01-17",
      "title": "Jim Gaffigan: Everything is Wonderful!",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/jim-gaffigan-everything-is-wonderful/210001067464973"
     }
    },
@@ -76818,9 +76860,9 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-04",
+     "date": "2026-11-07",
      "title": "Shop with a Cop Meat Raffle",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://felivelife.org/event/shop-with-a-cop-meat-raffle/"
     }
    },
@@ -77300,7 +77342,7 @@
     "2026": {
      "date": "2026-11-28",
      "title": "Island Holiday Boutique",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://felivelife.org/event/island-holiday-boutique/"
     }
    },
@@ -77458,10 +77500,10 @@
    "category": "arts",
    "occurrences": {
     "2027": {
-     "date": "2027-01-08",
+     "date": "2027-01-09",
      "title": "Banff Centre Mountain Film Festival World Tour",
      "source_count": 2,
-     "url": "https://allevents.in/duluth/banff-centre-mountain-film-festival-world-tour/210004196181372"
+     "url": "https://allevents.in/duluth/banff-centre-mountain-film-festival-world-tour/210003638524547"
     }
    },
    "too_frequent": false
@@ -77522,10 +77564,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2027": {
-     "date": "2027-04-02",
+     "date": "2027-04-03",
      "title": "UW-Superior Baseball vs Northwestern (Minn.)",
      "source_count": 1,
-     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11812&sport_id=1"
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11814&sport_id=1"
     }
    },
    "too_frequent": false
@@ -77542,6 +77584,1550 @@
      "title": "ISD 318 Jazz Festival",
      "source_count": 1,
      "url": "https://reifcenter.org/event/isd-318-jazz-festival/"
+    }
+   },
+   "too_frequent": false
+  },
+  "pizza pints|two harbors": {
+   "title": "Pizza & Pints",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-31",
+     "title": "Pizza & Pints",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/pizza-pints-3/2026-12-31/"
+    }
+   },
+   "too_frequent": false
+  },
+  "aitkin vs moose lake willow river high school football|moose lake": {
+   "title": "Aitkin vs. Moose Lake/Willow River | High School Football",
+   "venue": "Moose Lake, Minnesota",
+   "city": "Moose Lake",
+   "area": "Moose Lake",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "Aitkin vs. Moose Lake/Willow River | High School Football",
+     "source_count": 1,
+     "url": "https://allevents.in/moose-lake/aitkin-vs-moose-lake-willow-river-high-school-football/200030977021903"
+    }
+   },
+   "too_frequent": false
+  },
+  "winter decor opening day dff|superior": {
+   "title": "Winter Decor Opening Day DFF",
+   "venue": "821 Hammond Ave, Superior, WI",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-05",
+     "title": "Winter Decor Opening Day DFF",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/winter-decor-opening-day-dff/200030973467918"
+    }
+   },
+   "too_frequent": false
+  },
+  "friday flights|two harbors": {
+   "title": "Friday Flights",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-25",
+     "title": "Friday Flights",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/friday-flights-2/2026-12-25/"
+    },
+    "2027": {
+     "date": "2027-01-01",
+     "title": "Friday Flights",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/friday-flights-2/2027-01-01/"
+    }
+   },
+   "too_frequent": false
+  },
+  "happy hour barre will you accept this barre|superior": {
+   "title": "Happy Hour Barre - Will You Accept this Barre?",
+   "venue": "1424 Tower Ave, Superior, WI 54880-1526, United States",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-06",
+     "title": "Happy Hour Barre - Will You Accept this Barre?",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/happy-hour-barre-will-you-accept-this-barre/200030973468019"
+    }
+   },
+   "too_frequent": false
+  },
+  "11 6 barnum vs mountain iron buhl football live cloquet hs|cloquet": {
+   "title": "11/6\ud83c\udfc8Barnum vs. Mountain Iron-Buhl Football Live @Cloquet HS",
+   "venue": "Cloquet High School",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-06",
+     "title": "11/6\ud83c\udfc8Barnum vs. Mountain Iron-Buhl Football Live @Cloquet HS",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/11-6barnum-vs-mountain-iron-buhl-football-live-cloquet-hs/200030977089130"
+    }
+   },
+   "too_frequent": false
+  },
+  "harvest holly|duluth": {
+   "title": "Harvest & Holly",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Harvest & Holly",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/harvest-holly/2026-11-07/"
+    }
+   },
+   "too_frequent": false
+  },
+  "municipal board of canvassers|ashland": {
+   "title": "Municipal Board of Canvassers",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-06",
+     "title": "Municipal Board of Canvassers",
+     "source_count": 1,
+     "url": "https://www.coawi.org/Calendar.aspx?EID=2727"
+    }
+   },
+   "too_frequent": false
+  },
+  "marshall star band live northern waters casino resort|ironwood": {
+   "title": "Marshall Star Band LIVE @ Northern Waters Casino Resort",
+   "venue": "Northern Waters Casino Resort",
+   "city": "Watersmeet",
+   "area": "Ironwood",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-06",
+     "title": "Marshall Star Band LIVE @ Northern Waters Casino Resort",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/marshall-star-band-live-northern-waters-casino-resort/"
+    }
+   },
+   "too_frequent": false
+  },
+  "grand reopening|hibbing": {
+   "title": "Grand Reopening",
+   "venue": "316 East Howard St, Hibbing, MN",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Grand Reopening",
+     "source_count": 1,
+     "url": "https://allevents.in/hibbing/grand-reopening/200030974178032"
+    }
+   },
+   "too_frequent": false
+  },
+  "sip shop|ely": {
+   "title": "Sip & Shop",
+   "venue": "6 E Sheridan St Ely, MN 55731",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Sip & Shop",
+     "source_count": 1,
+     "url": "https://allevents.in/ely/sip-and-shop/200030977858632"
+    }
+   },
+   "too_frequent": false
+  },
+  "twin ports veterans expo|duluth": {
+   "title": "Twin Ports Veterans Expo",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Twin Ports Veterans Expo",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/twin-ports-veterans-expo/"
+    }
+   },
+   "too_frequent": false
+  },
+  "erie s escape|duluth": {
+   "title": "Erie\u2019s Escape",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Erie\u2019s Escape",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/eries-escape/"
+    }
+   },
+   "too_frequent": false
+  },
+  "puzzle race weber s northwoods tavern|hayward": {
+   "title": "Puzzle Race @ Weber's Northwoods Tavern",
+   "venue": "",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Puzzle Race @ Weber's Northwoods Tavern",
+     "source_count": 1,
+     "url": "https://haywardareachamber.com/calendar-of-events/"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior women s soccer vs northwestern minn championship|superior": {
+   "title": "UW-Superior Women's Soccer vs Northwestern (Minn.) - Championship",
+   "venue": "Superior",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "UW-Superior Women's Soccer vs Northwestern (Minn.) - Championship",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=11705&sport_id=13"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music pamela jean|washburn county": {
+   "title": "Live Music: Pamela Jean",
+   "venue": "Tony's Riverside",
+   "city": "",
+   "area": "Washburn County",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Live Music: Pamela Jean",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/live-music%3a-pamela-jean/3648/"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music river s edge saloon 2nd time around|hayward": {
+   "title": "Live Music @ River's Edge Saloon - 2nd Time Around",
+   "venue": "",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Live Music @ River's Edge Saloon - 2nd Time Around",
+     "source_count": 1,
+     "url": "https://haywardareachamber.com/calendar-of-events/"
+    }
+   },
+   "too_frequent": false
+  },
+  "karaoke night|ironwood": {
+   "title": "Karaoke Night",
+   "venue": "Northern Waters Casino Resort",
+   "city": "Watersmeet",
+   "area": "Ironwood",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-07",
+     "title": "Karaoke Night",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/karaoke-night-3/"
+    }
+   },
+   "too_frequent": false
+  },
+  "stock up sunday|two harbors": {
+   "title": "Stock Up Sunday",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-27",
+     "title": "Stock Up Sunday",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/stock-up-sunday-3/2026-12-27/"
+    },
+    "2027": {
+     "date": "2027-01-03",
+     "title": "Stock Up Sunday",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/stock-up-sunday-3/2027-01-03/"
+    }
+   },
+   "too_frequent": false
+  },
+  "new moon in scorpio with tawna|superior": {
+   "title": "New Moon in Scorpio with Tawna",
+   "venue": "820 Tower Ave, Superior, WI",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-08",
+     "title": "New Moon in Scorpio with Tawna",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/new-moon-in-scorpio-with-tawna/200030977714738"
+    }
+   },
+   "too_frequent": false
+  },
+  "happy hour mondays|two harbors": {
+   "title": "Happy Hour Mondays",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-28",
+     "title": "Happy Hour Mondays",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/happy-hour-mondays/2026-12-28/"
+    },
+    "2027": {
+     "date": "2027-01-04",
+     "title": "Happy Hour Mondays",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/happy-hour-mondays/2027-01-04/"
+    }
+   },
+   "too_frequent": false
+  },
+  "who can vote a brief history of voting rights in united states|duluth": {
+   "title": "Who Can Vote? A Brief History of Voting Rights in the United States",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-09",
+     "title": "Who Can Vote? A Brief History of Voting Rights in the United States",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/who-can-vote-a-brief-history-of-voting-rights-in-the-united-states/"
+    }
+   },
+   "too_frequent": false
+  },
+  "planning commission meeting|hibbing": {
+   "title": "Planning Commission Meeting",
+   "venue": "",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-09",
+     "title": "Planning Commission Meeting",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1952"
+    }
+   },
+   "too_frequent": false
+  },
+  "intro to sterling silver jewelry|hibbing": {
+   "title": "Intro to Sterling Silver Jewelry",
+   "venue": "101 E Howard St, Hibbing, MN 55746-1733, United States",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-10",
+     "title": "Intro to Sterling Silver Jewelry",
+     "source_count": 1,
+     "url": "https://allevents.in/hibbing/intro-to-sterling-silver-jewelry/200030973428748"
+    }
+   },
+   "too_frequent": false
+  },
+  "veteran s day concert|duluth": {
+   "title": "Veteran\u2019s Day Concert",
+   "venue": "Denfeld",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-11",
+     "title": "Veteran\u2019s Day Concert",
+     "source_count": 2,
+     "url": "https://allevents.in/duluth/veterans-day-concert/200030970143119"
+    }
+   },
+   "too_frequent": false
+  },
+  "veterans day ceremony on november 11|hibbing": {
+   "title": "Veterans Day Ceremony on November 11",
+   "venue": "Hibbing, MN 55746",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-11",
+     "title": "Veterans Day Ceremony on November 11",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1963"
+    }
+   },
+   "too_frequent": false
+  },
+  "make take digital design to custom creations|superior": {
+   "title": "Make & Take: Digital Design to Custom Creations",
+   "venue": "1320 Tower Avenue, Superior, WI, United States, Wisconsin 54880",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-12",
+     "title": "Make & Take: Digital Design to Custom Creations",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/make-and-take-digital-design-to-custom-creations/200030976818259"
+    }
+   },
+   "too_frequent": false
+  },
+  "giving thanks and veterans feast|cloquet": {
+   "title": "Giving Thanks and Veterans Feast",
+   "venue": "2101 14th St, Cloquet, MN, United States, Minnesota 55720",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-12",
+     "title": "Giving Thanks and Veterans Feast",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/giving-thanks-and-veterans-feast/200030976817046"
+    }
+   },
+   "too_frequent": false
+  },
+  "board of adjustment|cook county": {
+   "title": "Board of Adjustment",
+   "venue": "",
+   "city": "",
+   "area": "Cook County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-12",
+     "title": "Board of Adjustment",
+     "source_count": 1,
+     "url": "https://cookcountymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "ask better questions using ai to turn data into business decisions|duluth": {
+   "title": "Ask Better Questions: Using AI to Turn Data Into Business Decisions",
+   "venue": "Sheraton Duluth Hotel",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-13",
+     "title": "Ask Better Questions: Using AI to Turn Data Into Business Decisions",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/ask-better-questions-using-ai-to-turn-data-into-business-decisions/100002004406917046"
+    }
+   },
+   "too_frequent": false
+  },
+  "meadows potluck|ely": {
+   "title": "The Meadows Potluck!",
+   "venue": "15 E Sheridan St, Ely, MN, United States, Minnesota 55731",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-13",
+     "title": "The Meadows Potluck!",
+     "source_count": 1,
+     "url": "https://allevents.in/ely/the-meadows-potluck/200030976996532"
+    }
+   },
+   "too_frequent": false
+  },
+  "ilona s farewell party|bayfield": {
+   "title": "Ilona's Farewell Party",
+   "venue": "CORE Community Resources",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-13",
+     "title": "Ilona's Farewell Party",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/ilonas-farewell-party/6032/"
+    }
+   },
+   "too_frequent": false
+  },
+  "block print class|duluth": {
+   "title": "Block Print Class",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-13",
+     "title": "Block Print Class",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/diy-block-print-class-at-the-lake-superior-zoo/"
+    }
+   },
+   "too_frequent": false
+  },
+  "free live music northern waters casino resort|ironwood": {
+   "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
+   "venue": "Northern Waters Casino Resort",
+   "city": "Watersmeet",
+   "area": "Ironwood",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/free-live-music-northern-waters-casino-resort/2026-11-28/"
+    }
+   },
+   "too_frequent": false
+  },
+  "livewell fall family fun listening walk and nature play|superior": {
+   "title": "LiveWell Fall Family Fun: Listening Walk and Nature Play",
+   "venue": "Millennium Trail",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "family",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "LiveWell Fall Family Fun: Listening Walk and Nature Play",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/livewell-fall-family-fun-listening-walk-and-nature-play/200030973850236"
+    }
+   },
+   "too_frequent": false
+  },
+  "spooner croptoberfest 2 day crop|spooner": {
+   "title": "Spooner Croptoberfest 2-Day Crop",
+   "venue": "Spooner, Wisconsin",
+   "city": "Spooner",
+   "area": "Spooner",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Spooner Croptoberfest 2-Day Crop",
+     "source_count": 1,
+     "url": "https://allevents.in/spooner/spooner-croptoberfest-2-day-crop/200030973899034"
+    }
+   },
+   "too_frequent": false
+  },
+  "throw n go pottery wheel class|ashland": {
+   "title": "Throw 'N Go Pottery Wheel Class",
+   "venue": "209 Main St East, Ashland, WI, United States, Wisconsin 54806",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Throw 'N Go Pottery Wheel Class",
+     "source_count": 1,
+     "url": "https://allevents.in/ashland/throw-n-go-pottery-wheel-class/200030975976115"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday open house|hurley": {
+   "title": "Holiday Open House",
+   "venue": "Silver Street Books",
+   "city": "Hurley",
+   "area": "Hurley",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Holiday Open House",
+     "source_count": 1,
+     "url": "https://www.hurleywi.com/events/holiday-open-house/"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday open haus|bayfield": {
+   "title": "Holiday Open Haus",
+   "venue": "Benoit Cheese Haus",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Holiday Open Haus",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/holiday-open-haus/6037/"
+    }
+   },
+   "too_frequent": false
+  },
+  "lutefisk and swedish meatball dinner|bayfield": {
+   "title": "42nd Annual Lutefisk and Swedish Meatball Dinner",
+   "venue": "Bethesda Lutheran Church",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "42nd Annual Lutefisk and Swedish Meatball Dinner",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/42nd-annual-lutefisk-and-swedish-meatball-dinner/6029/"
+    }
+   },
+   "too_frequent": false
+  },
+  "gender equity gala|duluth": {
+   "title": "Gender Equity Gala",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-14",
+     "title": "Gender Equity Gala",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/gender-equity-gala/"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday cookie decorating class|hayward": {
+   "title": "Holiday Cookie Decorating Class",
+   "venue": "10320 Greenwood Lane, Hayward, WI, United States, Wisconsin 54843",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-15",
+     "title": "Holiday Cookie Decorating Class",
+     "source_count": 1,
+     "url": "https://allevents.in/hayward/holiday-cookie-decorating-class/200030974450822"
+    }
+   },
+   "too_frequent": false
+  },
+  "turkey bingo aitkin kc 18545|aitkin": {
+   "title": "Turkey Bingo [Aitkin KC 18545]",
+   "venue": "St. James Catholic Church, Aitkin",
+   "city": "Aitkin",
+   "area": "Aitkin",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-15",
+     "title": "Turkey Bingo [Aitkin KC 18545]",
+     "source_count": 1,
+     "url": "https://allevents.in/aitkin/turkey-bingo-aitkin-kc-18545/200030975394648"
+    }
+   },
+   "too_frequent": false
+  },
+  "border battle big game potluck|duluth": {
+   "title": "Border Battle Big Game Potluck",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-15",
+     "title": "Border Battle Big Game Potluck",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/border-battle-big-game-potluck/"
+    }
+   },
+   "too_frequent": false
+  },
+  "teague and feelin at sir ben s monday|duluth": {
+   "title": "Teague and The Feelin at Sir Ben's Monday",
+   "venue": "Sir Benedicts Tavern on the Lake",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-16",
+     "title": "Teague and The Feelin at Sir Ben's Monday",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/teague-and-the-feelin-at-sir-bens-monday/200030977713620"
+    }
+   },
+   "too_frequent": false
+  },
+  "soldiers of american revolution legacy program|hibbing": {
+   "title": "Soldiers of the American Revolution Legacy Program",
+   "venue": "",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-16",
+     "title": "Soldiers of the American Revolution Legacy Program",
+     "source_count": 1,
+     "url": "https://www.hibbingmn.gov/Calendar.aspx?EID=1961"
+    }
+   },
+   "too_frequent": false
+  },
+  "subordinate governmental service district sgsd working group|cook county": {
+   "title": "Subordinate Governmental Service District (SGSD) Working Group",
+   "venue": "",
+   "city": "",
+   "area": "Cook County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-16",
+     "title": "Subordinate Governmental Service District (SGSD) Working Group",
+     "source_count": 1,
+     "url": "https://cookcountymn.gov/calendar.php"
+    }
+   },
+   "too_frequent": false
+  },
+  "spaghetti fundraiser for whitney rasmussen|international falls": {
+   "title": "Spaghetti Fundraiser for Whitney Rasmussen",
+   "venue": "1323 3rd St, International Falls, MN, United States, Minnesota 56649",
+   "city": "International Falls",
+   "area": "International Falls",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "Spaghetti Fundraiser for Whitney Rasmussen",
+     "source_count": 1,
+     "url": "https://allevents.in/international-falls/spaghetti-fundraiser-for-whitney-rasmussen/200030973868117"
+    }
+   },
+   "too_frequent": false
+  },
+  "students research on tribal sovereignty|duluth": {
+   "title": "Students Present Research on Tribal Sovereignty",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "Students Present Research on Tribal Sovereignty",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/students-present-research-on-tribal-sovereignty/"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior recital series steven siegel and rachael kresha|duluth": {
+   "title": "UW-Superior Recital Series: Steven Siegel and Rachael Kresha",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "UW-Superior Recital Series: Steven Siegel and Rachael Kresha",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/uw-superior-recital-series-steven-siegel-and-rachael-kresha/"
+    }
+   },
+   "too_frequent": false
+  },
+  "gather crafters circle by town sage|aitkin": {
+   "title": "Gather: Crafters Circle by The Town Sage",
+   "venue": "Sampaguita, 204 Minnesota Ave N, Aitkin, MN 56431",
+   "city": "Aitkin",
+   "area": "Aitkin",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Gather: Crafters Circle by The Town Sage",
+     "source_count": 1,
+     "url": "https://allevents.in/aitkin/gather-crafters-circle-by-the-town-sage/200030974325108"
+    }
+   },
+   "too_frequent": false
+  },
+  "almost one year anniversary|bayfield county": {
+   "title": "Almost One Year Anniversary",
+   "venue": "",
+   "city": "Cable",
+   "area": "Bayfield County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Almost One Year Anniversary",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12539"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday market|duluth": {
+   "title": "Holiday Market",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Holiday Market",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/holiday-market/2026-11-21/"
+    }
+   },
+   "too_frequent": false
+  },
+  "wine cheese tasting with apostle 22 wine spirits|bayfield": {
+   "title": "Wine & Cheese Tasting with Apostle 22 Wine & Spirits",
+   "venue": "Apostle 22",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Wine & Cheese Tasting with Apostle 22 Wine & Spirits",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/wine-%26-cheese-tasting-with-apostle-22-wine-%26-spirits/6030/"
+    }
+   },
+   "too_frequent": false
+  },
+  "ladies night beads charms besties|cloquet": {
+   "title": "\ud83d\udc8e\ud83d\udc95 LADIES\u2019 NIGHT: BEADS, CHARMS & BESTIES! \ud83d\udc95\ud83d\udc8e",
+   "venue": "907 Cloquet Ave, Cloquet, MN, United States, Minnesota 55720",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-20",
+     "title": "\ud83d\udc8e\ud83d\udc95 LADIES\u2019 NIGHT: BEADS, CHARMS & BESTIES! \ud83d\udc95\ud83d\udc8e",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/ladies-night-beads-charms-and-besties/200030976817856"
+    }
+   },
+   "too_frequent": false
+  },
+  "hunters craft bake sale|washburn county": {
+   "title": "5th Annual Hunters Craft & Bake Sale",
+   "venue": "Dove Healthcare Business Center",
+   "city": "",
+   "area": "Washburn County",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-20",
+     "title": "5th Annual Hunters Craft & Bake Sale",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/5th-annual-hunters-craft-%26-bake-sale/3059/"
+    }
+   },
+   "too_frequent": false
+  },
+  "friday friends luncheon with eric faber|bayfield": {
+   "title": "Friday Friends Luncheon with Eric Faber",
+   "venue": "CORE Community Resources",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-20",
+     "title": "Friday Friends Luncheon with Eric Faber",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/friday-friends-luncheon-with-eric-faber/6031/"
+    }
+   },
+   "too_frequent": false
+  },
+  "book signing with alexandria miller|superior": {
+   "title": "Book signing with Alexandria Miller",
+   "venue": "1401 Tower Avenue, Superior, WI, United States, Wisconsin 54880",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Book signing with Alexandria Miller",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/book-signing-with-alexandria-miller/200030973848228"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday craft fair|ely": {
+   "title": "Holiday Craft Fair",
+   "venue": "400 North Pioneer Road, Ely, MN, United States, Minnesota 55731",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Holiday Craft Fair",
+     "source_count": 1,
+     "url": "https://allevents.in/ely/holiday-craft-fair/200030977858737"
+    }
+   },
+   "too_frequent": false
+  },
+  "thanksgiving cookie class|duluth": {
+   "title": "Thanksgiving Cookie Class",
+   "venue": "Wild State Cider",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-22",
+     "title": "Thanksgiving Cookie Class",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/thanksgiving-cookie-class/200030974534148"
+    }
+   },
+   "too_frequent": false
+  },
+  "fall potluck lunch|hayward": {
+   "title": "Fall Potluck Lunch",
+   "venue": "10655 Nyman Ave, Hayward, WI, United States, Wisconsin 54843",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-22",
+     "title": "Fall Potluck Lunch",
+     "source_count": 1,
+     "url": "https://allevents.in/hayward/fall-potluck-lunch/200030969860937"
+    }
+   },
+   "too_frequent": false
+  },
+  "thanksgiving centerpiece workshop|duluth": {
+   "title": "Thanksgiving Centerpiece Workshop",
+   "venue": "Black Woods Grill & Bar",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-23",
+     "title": "Thanksgiving Centerpiece Workshop",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/thanksgiving-centerpiece-workshop/200030976842152"
+    }
+   },
+   "too_frequent": false
+  },
+  "and a court of thorns and roses trivia|duluth": {
+   "title": "And A Court Of Thorns And Roses Trivia",
+   "venue": "Wild State Cider",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-23",
+     "title": "And A Court Of Thorns And Roses Trivia",
+     "source_count": 1,
+     "url": "https://wildstatecider.com/event/and-a-court-of-thorns-and-roses-trivia/"
+    }
+   },
+   "too_frequent": false
+  },
+  "maco gives free class every wednesday in november billie eilish immersion yoga 11 25 26|virginia": {
+   "title": "Maco Gives Back! Free Class Every Wednesday in November! Billie Eilish Immersion Yoga 11/25/26",
+   "venue": "415 Chestnut St., 55792",
+   "city": "Virginia",
+   "area": "Virginia",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-25",
+     "title": "Maco Gives Back! Free Class Every Wednesday in November! Billie Eilish Immersion Yoga 11/25/26",
+     "source_count": 1,
+     "url": "https://allevents.in/virginia/maco-gives-back-free-class-every-wednesday-in-november-billie-eilish-immersion-yoga-11-25-26/200030975414537"
+    }
+   },
+   "too_frequent": false
+  },
+  "community thanksgiving dinner|ashland": {
+   "title": "Community Thanksgiving Dinner",
+   "venue": "201 Lake Shore Dr E, Ashland, WI, United States, Wisconsin 54806",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-26",
+     "title": "Community Thanksgiving Dinner",
+     "source_count": 1,
+     "url": "https://allevents.in/ashland/community-thanksgiving-dinner/200030976107514"
+    }
+   },
+   "too_frequent": false
+  },
+  "black eyed snakes black friday|duluth": {
+   "title": "Black Eyed Snakes Black Friday",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-27",
+     "title": "Black Eyed Snakes Black Friday",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/black-eyed-snakes-black-friday/"
+    }
+   },
+   "too_frequent": false
+  },
+  "readings with robbie|superior": {
+   "title": "Readings with Robbie",
+   "venue": "820 Tower Ave, Superior, WI, United States, Wisconsin",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "Readings with Robbie",
+     "source_count": 1,
+     "url": "https://allevents.in/superior/readings-with-robbie/200030977715246"
+    }
+   },
+   "too_frequent": false
+  },
+  "rainy rose food trailer pop up|two harbors": {
+   "title": "The Rainy Rose Food Trailer (Pop Up)",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-29",
+     "title": "The Rainy Rose Food Trailer (Pop Up)",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/the-rainy-rose-food-trailer-pop-up/2026-12-29/"
+    }
+   },
+   "too_frequent": false
+  },
+  "mmt play that goes wrong|virginia": {
+   "title": "MMT presents The Play That Goes Wrong",
+   "venue": "Minnesota North College - Virginia Campus - 1001 Chestnut Street West, Virginia MN",
+   "city": "Virginia",
+   "area": "Virginia",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-02",
+     "title": "MMT presents The Play That Goes Wrong",
+     "source_count": 1,
+     "url": "https://allevents.in/virginia/mmt-presents-the-play-that-goes-wrong/200030975413128"
+    }
+   },
+   "too_frequent": false
+  },
+  "bingo night|ironwood": {
+   "title": "BINGO Night",
+   "venue": "Mercer Community Center",
+   "city": "Mercer",
+   "area": "Ironwood",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-02",
+     "title": "BINGO Night",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/bingo-night-3/2026-12-02/"
+    },
+    "2027": {
+     "date": "2027-04-07",
+     "title": "BINGO Night",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/bingo-night-3/2027-04-07/"
+    }
+   },
+   "too_frequent": true
+  },
+  "sock it to me snowman a sock snowman make take workshop|bayfield": {
+   "title": "Sock it to Me, Snowman! A Sock Snowman Make & Take Workshop",
+   "venue": "Island Gateway Gallery & Gathering",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-04",
+     "title": "Sock it to Me, Snowman! A Sock Snowman Make & Take Workshop",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/sock-it-to-me-snowman!-a-sock-snowman-make-%26-take-workshop/6035/"
+    }
+   },
+   "too_frequent": false
+  },
+  "backcountry film festival fundraiser hosted by superior highland backcountry|duluth": {
+   "title": "Backcountry Film Festival & Fundraiser - Hosted by Superior Highland Backcountry",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-04",
+     "title": "Backcountry Film Festival & Fundraiser - Hosted by Superior Highland Backcountry",
+     "source_count": 1,
+     "url": "https://bentpaddlebrewing.com/events/"
+    }
+   },
+   "too_frequent": false
+  },
+  "spread warmth winter gear giveaway|cloquet": {
+   "title": "Spread the Warmth Winter Gear Giveaway!",
+   "venue": "417 Skyline Blvd, Cloquet, MN 55720-1164, United States",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Spread the Warmth Winter Gear Giveaway!",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/spread-the-warmth-winter-gear-giveaway/200030973778353"
+    }
+   },
+   "too_frequent": false
+  },
+  "bayfield holiday boutique|bayfield": {
+   "title": "Bayfield Holiday Boutique",
+   "venue": "Bayfield Pavilion",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Bayfield Holiday Boutique",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/bayfield-holiday-boutique/6038/"
+    }
+   },
+   "too_frequent": false
+  },
+  "holiday bazaar|bayfield": {
+   "title": "Holiday Bazaar",
+   "venue": "Northern Great Lakes Visitor Center",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Holiday Bazaar",
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/holiday-bazaar/6039/"
+    }
+   },
+   "too_frequent": false
+  },
+  "northwoods winter wonderland event|ironwood": {
+   "title": "Northwoods Winter Wonderland Event",
+   "venue": "Downtown Mercer",
+   "city": "Ironwood",
+   "area": "Ironwood",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Northwoods Winter Wonderland Event",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/northwoods-winter-wonderland-event/"
+    }
+   },
+   "too_frequent": false
+  },
+  "big chill chili cookoff|bayfield": {
+   "title": "Big Chill Chili Cookoff",
+   "venue": "Mt. Ashwabay Ski and Recreation Area",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Big Chill Chili Cookoff",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/big-chill-chili-cookoff/6024/"
+    }
+   },
+   "too_frequent": false
+  },
+  "dickens of a christmas dinner theater a dickensian dream an evening of a christmas carol victorian feast|bayfield": {
+   "title": "Dickens of a Christmas Dinner Theater * A Dickensian Dream: An Evening of A Christmas Carol & Victorian Feast",
+   "venue": "White Winter Mead, Cider & Spirits",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Dickens of a Christmas Dinner Theater * A Dickensian Dream: An Evening of A Christmas Carol & Victorian Feast",
+     "source_count": 2,
+     "url": "https://www.bayfield.org/event/dickens-of-a-christmas-dinner-theater-*-a-dickensian-dream%3a-an-evening-of-a-christmas-carol-%26-victorian-feast/3869/"
+    }
+   },
+   "too_frequent": false
+  },
+  "mary mack comedy|bayfield": {
+   "title": "Mary Mack Comedy",
+   "venue": "White Winter Mead, Cider & Spirits",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "arts",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Mary Mack Comedy",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/mary-mack-comedy/5971/"
+    }
+   },
+   "too_frequent": false
+  },
+  "ladies night|moose lake": {
+   "title": "Ladies night",
+   "venue": "40 Arrowhead Lane, Moose Lake, MN",
+   "city": "Moose Lake",
+   "area": "Moose Lake",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-07",
+     "title": "Ladies night",
+     "source_count": 1,
+     "url": "https://allevents.in/moose-lake/ladies-night/200030973196633"
+    }
+   },
+   "too_frequent": false
+  },
+  "elf triva with trivia mafia|two harbors": {
+   "title": "Elf Triva with Trivia Mafia",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-07",
+     "title": "Elf Triva with Trivia Mafia",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/elf-triva-with-trivia-mafia/"
+    }
+   },
+   "too_frequent": false
+  },
+  "guild assembly meeting where they last saw her|duluth": {
+   "title": "Guild Assembly Meeting: Where They last Saw her",
+   "venue": "318 N 18th Ave E, Duluth, MN, United States, Minnesota 55812",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-09",
+     "title": "Guild Assembly Meeting: Where They last Saw her",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/guild-assembly-meeting-where-they-last-saw-her/200030965086324"
+    }
+   },
+   "too_frequent": false
+  },
+  "magnificat holiday traditions and jubilations|duluth": {
+   "title": "Magnificat!: Holiday Traditions and Jubilations",
+   "venue": "First Lutheran Church, Duluth, MN",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-11",
+     "title": "Magnificat!: Holiday Traditions and Jubilations",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/magnificat-holiday-traditions-and-jubilations/200030975947756"
+    }
+   },
+   "too_frequent": false
+  },
+  "needle felted holiday ornament class|washburn": {
+   "title": "Needle Felted Holiday Ornament Class",
+   "venue": "306 W Bayfield St, 54891",
+   "city": "Washburn",
+   "area": "Washburn",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Needle Felted Holiday Ornament Class",
+     "source_count": 1,
+     "url": "https://allevents.in/washburn/needle-felted-holiday-ornament-class/200030976737927"
+    }
+   },
+   "too_frequent": false
+  },
+  "a bell no l ringing in holidays|duluth": {
+   "title": "A Bell No\u00ebl: Ringing in the holidays!",
+   "venue": "First United Methodist Church, Duluth (The Coppertop)",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-18",
+     "title": "A Bell No\u00ebl: Ringing in the holidays!",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/a-bell-no\u00ebl-ringing-in-the-holidays/200030975947455"
+    }
+   },
+   "too_frequent": false
+  },
+  "cloquet winter lights a family winter solstice|cloquet": {
+   "title": "Cloquet Winter Lights - A Family Winter Solstice Celebration",
+   "venue": "Dunlap Island Park, Cloquet Mn",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-21",
+     "title": "Cloquet Winter Lights - A Family Winter Solstice Celebration",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/cloquet-winter-lights-a-family-winter-solstice-celebration/200030976817451"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior men s track field vs twin ports open|superior": {
+   "title": "UW-Superior Men's Track & Field vs Twin Ports Open",
+   "venue": "Superior",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-16",
+     "title": "UW-Superior Men's Track & Field vs Twin Ports Open",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=12009&sport_id=7"
+    }
+   },
+   "too_frequent": false
+  },
+  "baptism river barbecue co pop up|two harbors": {
+   "title": "Baptism River Barbecue Co. (Pop Up)",
+   "venue": "Castle Danger Brewery",
+   "city": "Two Harbors",
+   "area": "Two Harbors",
+   "category": "food-drink",
+   "occurrences": {
+    "2027": {
+     "date": "2027-04-24",
+     "title": "Baptism River Barbecue Co. (Pop Up)",
+     "source_count": 1,
+     "url": "https://castledangerbrewery.com/event/baptism-river-barbecue-co-pop-up-2/2027-04-24/"
+    }
+   },
+   "too_frequent": true
+  },
+  "uw superior men s track field vs maday classic alumni day|superior": {
+   "title": "UW-Superior Men's Track & Field vs Maday Classic - Alumni Day",
+   "venue": "Superior",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-13",
+     "title": "UW-Superior Men's Track & Field vs Maday Classic - Alumni Day",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=12013&sport_id=7"
+    }
+   },
+   "too_frequent": false
+  },
+  "uw superior men s track field vs umac championship|superior": {
+   "title": "UW-Superior Men's Track & Field vs UMAC Championship",
+   "venue": "Superior",
+   "city": "Superior",
+   "area": "Superior",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-27",
+     "title": "UW-Superior Men's Track & Field vs UMAC Championship",
+     "source_count": 1,
+     "url": "https://uwsyellowjackets.com/calendar.aspx?game_id=12015&sport_id=7"
+    }
+   },
+   "too_frequent": false
+  },
+  "dino light|grand rapids": {
+   "title": "Dino-Light",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "arts",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-28",
+     "title": "Dino-Light",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/dino-light/"
+    }
+   },
+   "too_frequent": false
+  },
+  "our house a tribute to music of crosby stills nash and young|grand rapids": {
+   "title": "\u201cOUR HOUSE\u201d a Tribute to the Music of Crosby, Stills, Nash, and Young",
+   "venue": "Wilcox Theater",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-19",
+     "title": "\u201cOUR HOUSE\u201d a Tribute to the Music of Crosby, Stills, Nash, and Young",
+     "source_count": 1,
+     "url": "https://reifcenter.org/event/our-house-a-tribute-to-the-music-of-crosby-stills-nash-and-young/"
+    }
+   },
+   "too_frequent": false
+  },
+  "skate with easter bunny|cloquet": {
+   "title": "Skate with the Easter Bunny",
+   "venue": "Northwoods Credit Union Arena",
+   "city": "Cloquet",
+   "area": "Cloquet",
+   "category": "holiday",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-27",
+     "title": "Skate with the Easter Bunny",
+     "source_count": 1,
+     "url": "https://allevents.in/cloquet/skate-with-the-easter-bunny/200030976817351"
+    }
+   },
+   "too_frequent": false
+  },
+  "food wine tasting benefit washburn county area humane society|washburn county": {
+   "title": "2027 Food & Wine Tasting Benefit: Washburn County Area Humane Society",
+   "venue": "The Burch Barn",
+   "city": "",
+   "area": "Washburn County",
+   "category": "food-drink",
+   "occurrences": {
+    "2027": {
+     "date": "2027-04-29",
+     "title": "2027 Food & Wine Tasting Benefit: Washburn County Area Humane Society",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/2027-food-%26-wine-tasting-benefit%3a-washburn-county-area-humane-society/3176/"
+    }
+   },
+   "too_frequent": false
+  },
+  "courthouse closed memorial day|pine county": {
+   "title": "Courthouse Closed - Memorial Day",
+   "venue": "",
+   "city": "",
+   "area": "Pine County",
+   "category": "community",
+   "occurrences": {
+    "2027": {
+     "date": "2027-05-24",
+     "title": "Courthouse Closed - Memorial Day",
+     "source_count": 1,
+     "url": "https://www.pinecountymn.gov/calendar.php"
     }
    },
    "too_frequent": false
