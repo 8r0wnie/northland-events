@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T19:18:21",
+  "generated": "2026-11-06T18:42:29",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -984,6 +984,26 @@
       "owner_decision": ""
     },
     {
+      "key": "ski swap|hurley",
+      "title": "Annual Ski Swap",
+      "venue": "",
+      "city": "Hurley",
+      "area": "Hurley",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-07",
+      "last_url": "https://www.hurleywi.com/events/annual-ski-swap/",
+      "predicted_next": "2027-11-07",
+      "owner_decision": ""
+    },
+    {
       "key": "meeting|duluth",
       "title": "Annual Meeting",
       "venue": "The Tasting Room at MidCoast",
@@ -1384,6 +1404,26 @@
       "owner_decision": ""
     },
     {
+      "key": "ladies of kaleva holiday bazaar|virginia",
+      "title": "Ladies of Kaleva 57th Annual Holiday Bazaar",
+      "venue": "Kaleva Hall",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 57,
+      "signal_reasons": [
+        "title says \"57th Annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://allevents.in/virginia/ladies-of-kaleva-57th-annual-holiday-bazaar/200030974455215",
+      "predicted_next": "2027-11-21",
+      "owner_decision": ""
+    },
+    {
       "key": "ladies night out|hayward",
       "title": "12th Annual Ladies Night Out",
       "venue": "15570 Highway 63 N, Hayward, WI, United States, Wisconsin 54843",
@@ -1401,6 +1441,26 @@
       "last_date": "2026-11-24",
       "last_url": "https://allevents.in/hayward/12th-annual-ladies-night-out/200030772637416",
       "predicted_next": "2027-11-24",
+      "owner_decision": ""
+    },
+    {
+      "key": "free thanksgiving dinner|ashland",
+      "title": "3rd Annual free Thanksgiving dinner",
+      "venue": "49059 State Hwy 112, Ashland, WI",
+      "city": "Ashland",
+      "area": "Ashland",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-26",
+      "last_url": "https://allevents.in/ashland/3rd-annual-free-thanksgiving-dinner/200030975527217",
+      "predicted_next": "2027-11-26",
       "owner_decision": ""
     },
     {

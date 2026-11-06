@@ -1,119 +1,7 @@
 {
-  "generated": "2026-11-05T19:18:21Z",
-  "count": 117,
+  "generated": "2026-11-06T18:42:28Z",
+  "count": 121,
   "events": [
-    {
-      "key": "922eaf4871cf69f4",
-      "reason": "read from page text",
-      "source_ids": [
-        "lake-county-fair"
-      ],
-      "sources": [
-        {
-          "name": "Lake County Fair (Two Harbors)",
-          "url": "http://www.thelakecountyfair.com/schedule-of-events.html"
-        }
-      ],
-      "title": "Annual Meeting 7 PM",
-      "start": "2026-11-04T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Two Harbors",
-      "area": "Two Harbors",
-      "category": "community",
-      "price": "",
-      "description": "Wednesday November 4th, Annual Meeting 7 PM",
-      "image": "",
-      "source": {
-        "name": "Lake County Fair (Two Harbors)",
-        "url": "http://www.thelakecountyfair.com/schedule-of-events.html"
-      }
-    },
-    {
-      "key": "0ed0d111e45f36d7",
-      "reason": "read from page text",
-      "source_ids": [
-        "bovey-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Bovey",
-          "url": "https://boveymn.gov/recent-news"
-        }
-      ],
-      "title": "Board of Canvassing",
-      "start": "2026-11-05T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Bovey",
-      "area": "Bovey",
-      "category": "community",
-      "price": "",
-      "description": "11/5/2026",
-      "image": "",
-      "source": {
-        "name": "City of Bovey",
-        "url": "https://boveymn.gov/recent-news"
-      }
-    },
-    {
-      "key": "06a07405b6ab6ec9",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Open house",
-      "start": "2026-11-05T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Eveleth",
-      "area": "Eveleth",
-      "category": "community",
-      "price": "",
-      "description": "6-8 p.m. at Curl Mesabi in Eveleth",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "14a2dd05d0fe3c2d",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Learn to Play Bridge",
-      "start": "2026-11-06T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "education",
-      "price": "",
-      "description": "November 6 @ 1:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "0c844ab8568e5d86",
       "reason": "read from page text",
@@ -168,34 +56,6 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "7e0f3f216b3ddfbc",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Marshall Star Band LIVE @ Northern Waters Casino Resort",
-      "start": "2026-11-06T20:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 6 @ 8:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -339,6 +199,62 @@
       }
     },
     {
+      "key": "6ac488f0a9afb745",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Brothers Burn Mountain",
+      "start": "2026-11-08T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 8 @ 1:00 PM \u2013 3:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "30d89012bf4eaf84",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/tags/events-up-north"
+        }
+      ],
+      "title": "Honoring veterans",
+      "start": "2026-11-09T00:00:00",
+      "end": "2026-11-15T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Gilbert",
+      "area": "Gilbert",
+      "category": "arts",
+      "price": "",
+      "description": "Conversation Events Up North Nov. 9-15: Honoring veterans, local theater in Gilbert and Bemidji Events this week include an event for Native American Heritage Month in Chisholm and a holiday decor swap in Pine River.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
       "key": "c35db77f5803369d",
       "reason": "read from page text",
       "source_ids": [
@@ -395,6 +311,62 @@
       }
     },
     {
+      "key": "e4a16a0f12bdc6ed",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Kara Warren",
+      "start": "2026-11-11T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 11 @ 6:00 PM \u2013 8:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "292d12492a2d6927",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Bingo Night!",
+      "start": "2026-11-12T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 12 @ 6:00 PM \u2013 8:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
       "key": "81ad9958405af6d3",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -420,6 +392,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "92fa93a5e3860b34",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Christopher David Hanson",
+      "start": "2026-11-13T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 13 @ 7:00 PM \u2013 9:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "f3842967c85d56c0",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-06/events-up-north-nov-9-15-honoring-veterans-local-theater-in-gilbert-and-bemidji"
+        }
+      ],
+      "title": "Yoga with Kelly",
+      "start": "2026-11-14T10:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "sports-rec",
+      "price": "",
+      "description": "10 a.m. at Klockow Brewing in Grand Rapids. Freewill donations will support KAXE.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-06/events-up-north-nov-9-15-honoring-veterans-local-theater-in-gilbert-and-bemidji"
       }
     },
     {
@@ -584,6 +612,34 @@
       "category": "other",
       "price": "",
       "description": "We make Music That Inspires.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "d93cf336d4bc1bc2",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Adult Chaperone Registration: Jr. High Day 2026 (Diocese of Duluth residents)",
+      "start": "2026-11-21T11:20:00",
+      "end": "2026-11-21T19:30:00",
+      "all_day": false,
+      "venue": "St. Lawrence Church",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Join us for a fun day in Duluth, MN. There are many fun activities planned! Cost and Cancellation Policy: Registration is $75 per student, $75 for Junior Chapeornes, and $60 for Adult Chaperones. Registration is due by November 12th (unless the event fills before then). Payment is due at the time of registration. The non-refundable $20 deposit is due during registration. The final $55 payment will automatically be processed. There are no refunds after November 12th unless you or a family member are ill. You may substitute someone else to fill your place until November 12th.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1064,6 +1120,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "687feb05961032d4",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3909529-tcs-presents-pronoya-druid-kalopsya-xkwizite-shadows-of-me"
+        }
+      ],
+      "title": "TCS Presents: Pronoya, Druid, Kalopsya, Xkwizite, & Shadows Of Me",
+      "start": "2026-12-11T20:00:00",
+      "end": "2026-12-11T23:59:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Come throw down Friday Dec. 11th with Pronoya, Druid, Kalopsya, Xkwizite, & Shadows Of Me \ud83e\udd18",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3909529-tcs-presents-pronoya-druid-kalopsya-xkwizite-shadows-of-me"
       }
     },
     {
@@ -1711,6 +1795,34 @@
       }
     },
     {
+      "key": "f253810dcadf910f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-09T19:00:00",
+      "end": "2027-01-09T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "adb69a9ddf911889",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1760,6 +1872,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "bea0dd875e2bb4fb",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Jim Gaffigan",
+      "start": "2027-01-17T19:00:00",
+      "end": "2027-01-17T23:00:00",
+      "all_day": false,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Jim Gaffigan is a seven-time Grammy nominated comedian, actor, writer, producer, two-time New York Times best-selling author, three-time Emmy winning top touring performer, and multi-platinum-selling recording artist. He is known around the world for his unique brand of humor, which largely revolves around his observations on life. Tickets for his Barely Alive Tour, are currently available at JimGaffigan.com.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1879,34 +2019,6 @@
       }
     },
     {
-      "key": "7ab616af781cbe9d",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Flo Rida",
-      "start": "2027-02-03T20:00:00",
-      "end": "2027-02-04T00:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "f036b9b8f8d04110",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1963,7 +2075,7 @@
       }
     },
     {
-      "key": "e5e1793dd01bb861",
+      "key": "c46187eb787f4936",
       "reason": "single source, not yet corroborated",
       "source_ids": [
         "apg-wisconsin-events"
@@ -1974,7 +2086,7 @@
           "url": "https://www.apg-wi.com"
         }
       ],
-      "title": "Hayward Lions Club Pre-Birkie 2026",
+      "title": "Hayward Lions Club Pre-Birkie 2027",
       "start": "2027-02-13T09:30:00",
       "end": "2027-02-13T13:30:00",
       "all_day": false,
