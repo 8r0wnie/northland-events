@@ -1,35 +1,7 @@
 {
-  "generated": "2026-11-06T18:42:28Z",
-  "count": 121,
+  "generated": "2026-11-07T17:26:11Z",
+  "count": 124,
   "events": [
-    {
-      "key": "0c844ab8568e5d86",
-      "reason": "read from page text",
-      "source_ids": [
-        "pine-city-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Pine City Area Chamber",
-          "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
-        }
-      ],
-      "title": "Pine Center for the Arts November Gallery: Native American Heritage Month",
-      "start": "2026-11-06T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Pine City",
-      "area": "Pine City",
-      "category": "arts",
-      "price": "",
-      "description": "Pine Center for the Arts is honored to present November\u2019s Gallery featuring Native American artists in honor and celebration of Native American Heritage Month. The gallery opens Friday, November 6th, where the public is invited to a free artist\u2019s reception from 4-7pm. Light appetizers and refreshments will be served. The gallery will feature handcrafted beadwork, traditional regalia worn at special events and powwows, photography, and more from regional Native American artists.",
-      "image": "",
-      "source": {
-        "name": "Pine City Area Chamber",
-        "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
-      }
-    },
     {
       "key": "27219597c26a5acb",
       "reason": "read from page text",
@@ -84,6 +56,62 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
+      }
+    },
+    {
+      "key": "f1bb38363aee4404",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Mercer School Holiday Craft Bazaar",
+      "start": "2026-11-07T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 7 @ 9:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "5ef0692624ec096b",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Winter Wonderland Vendor Event",
+      "start": "2026-11-07T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 7 @ 9:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -871,6 +899,62 @@
       }
     },
     {
+      "key": "ceaa41943b755e11",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ladies of the 80s - Tribute to Fabulous Females of the 1980s: A Totally Awesome 80s Christmas Show! @ The West Theatre",
+      "start": "2026-12-03T19:30:00",
+      "end": "2026-12-03T23:30:00",
+      "all_day": false,
+      "venue": "The West Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "It's never too early to book your holiday fun! Especially when it involves big hair, bigger music, and Christmas nostalgia served with a generous helping of 1980s ridiculousness. Remember when your biggest responsibility during the Christmas season was circling everything you wanted in the Toys \"R\" Us catalog and then casually leaving it on the kitchen table where your parents could \"accidentally\" find it? There were no online wish lists. No Amazon. No \"Your package has been delayed.\" You had a catalog, a red crayon, and a dream. \ud83c\udf81 Well, we're bringing that Christmas back!",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "8d082bb6b2cefb06",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3911083-holiday-bazaar-at-the-northern-great-lakes-visitor-center"
+        }
+      ],
+      "title": "Holiday Bazaar at the Northern Great Lakes Visitor Center",
+      "start": "2026-12-05T10:00:00",
+      "end": "2026-12-05T14:00:00",
+      "all_day": false,
+      "venue": "29270 Co Hwy G",
+      "city": "Ashland",
+      "area": "Hayward",
+      "category": "other",
+      "price": "",
+      "description": "There will be a nice selection of jewelry, holiday decor, woodcrafts, scaves, artwork, home baked goods, locally grown garlic, soaps, candles and much more for your holiday gifts.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3911083-holiday-bazaar-at-the-northern-great-lakes-visitor-center"
+      }
+    },
+    {
       "key": "69aeb44dbd7cfa3a",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1032,34 +1116,6 @@
       "category": "arts",
       "price": "",
       "description": "Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry. The name \u2018Teague\u2019 was once used to describe the storytelling poets who travelled ancient Ireland. New album \"Effervescent\" available 2/14/16.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "5ea632bbf5f40aff",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Davina and The Vagabonds: A Vagabond Holiday",
-      "start": "2026-12-10T19:30:00",
-      "end": "2026-12-10T23:30:00",
-      "all_day": false,
-      "venue": "West Theater",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "Davina and the Vagabonds bring a signature high-energy blend of blues, neo-soul, and swing to the winter season with their annual \"A Vagabond Holiday\" shows and festive recordings. Known for frontwoman Davina Sowers' distinctively soulful vocals and a heavy brass presence, the Twin Cities-based group frequently hits the road each winter. New Spin on an Old Sound Davina and the Vagabonds are playing your area soon!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1284,6 +1340,34 @@
       "category": "holiday",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "68f0bca6f38583af",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Davina and The Vagabonds: A Vagabond Holiday",
+      "start": "2026-12-17T19:30:00",
+      "end": "2026-12-17T23:30:00",
+      "all_day": false,
+      "venue": "West Theater",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Davina and the Vagabonds bring a signature high-energy blend of blues, neo-soul, and swing to the winter season with their annual \"A Vagabond Holiday\" shows and festive recordings. Known for frontwoman Davina Sowers' distinctively soulful vocals and a heavy brass presence, the Twin Cities-based group frequently hits the road each winter. New Spin on an Old Sound Davina and the Vagabonds are playing your area soon!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
