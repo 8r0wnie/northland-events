@@ -1,175 +1,7 @@
 {
-  "generated": "2026-11-07T17:26:11Z",
-  "count": 124,
+  "generated": "2026-11-08T17:39:01Z",
+  "count": 122,
   "events": [
-    {
-      "key": "27219597c26a5acb",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Storytelling for Spirit & Courage",
-      "start": "2026-11-06T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "arts",
-      "price": "",
-      "description": "6 p.m. at Klockow Brewing in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "94873b8a45642f32",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-        }
-      ],
-      "title": "Wandering Reindeer Bazaar",
-      "start": "2026-11-07T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "9 a.m.-3 p.m. at Zion Lutheran Church in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-10-29/events-up-north-nov-2-7-curling-open-houses-in-eveleth-clay-exhibit-in-bemidji"
-      }
-    },
-    {
-      "key": "f1bb38363aee4404",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Mercer School Holiday Craft Bazaar",
-      "start": "2026-11-07T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 7 @ 9:00 am",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "5ef0692624ec096b",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Winter Wonderland Vendor Event",
-      "start": "2026-11-07T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 7 @ 9:00 am",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "13452b7584f1d39e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Miami RedHawks at Minnesota Duluth Bulldogs Mens Hockey",
-      "start": "2026-11-07T18:00:00",
-      "end": "2026-11-07T22:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "3772da126ac4b380",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Springfield Jr. Blues at Minnesota Wilderness",
-      "start": "2026-11-07T19:15:00",
-      "end": "2026-11-07T23:15:00",
-      "all_day": false,
-      "venue": "Northwoods Credit Union Arena",
-      "city": "Cloquet",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
     {
       "key": "5505699c61413e9e",
       "reason": "read from page text",
@@ -227,31 +59,59 @@
       }
     },
     {
-      "key": "6ac488f0a9afb745",
+      "key": "6f5a978aae15e808",
       "reason": "read from page text",
       "source_ids": [
-        "ursa-minor"
+        "ironwood-chamber"
       ],
       "sources": [
         {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "Live: Brothers Burn Mountain",
-      "start": "2026-11-08T13:00:00",
+      "title": "Breakfast Buffet",
+      "start": "2026-11-08T07:00:00",
       "end": null,
       "all_day": false,
       "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
+      "city": "Ironwood",
+      "area": "Ironwood",
       "category": "community",
       "price": "",
-      "description": "November 8 @ 1:00 PM \u2013 3:00 PM",
+      "description": "November 8 @ 7:00 am",
       "image": "",
       "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "cf3be16ce94c3c28",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Scholarship Fundraiser",
+      "start": "2026-11-08T11:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 8 @ 11:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -280,6 +140,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
+      "key": "0bf469a6dfee511e",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "BINGO Night at VFW Post 3673",
+      "start": "2026-11-09T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 9 @ 6:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -336,34 +224,6 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "e4a16a0f12bdc6ed",
-      "reason": "read from page text",
-      "source_ids": [
-        "ursa-minor"
-      ],
-      "sources": [
-        {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
-        }
-      ],
-      "title": "Live: Kara Warren",
-      "start": "2026-11-11T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "November 11 @ 6:00 PM \u2013 8:00 PM",
-      "image": "",
-      "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
       }
     },
     {
@@ -644,6 +504,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "eac6a9fb0275c190",
+      "reason": "read from page text",
+      "source_ids": [
+        "pine-city-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Pine City Area Chamber",
+          "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
+        }
+      ],
+      "title": "Pine Center for the Arts November Gallery: Native American Heritage Month",
+      "start": "2026-11-21T10:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Pine City",
+      "area": "Pine City",
+      "category": "arts",
+      "price": "",
+      "description": "orkshops from Native American instructors throughout the month of November. The public is encouraged to check the website at pinecenter.org/classeevents for updates on what is coming up. For example, November 21st Pine Center for the Arts is excited to be hosting a workshop called The Gift of the Nettles, presented by Derek Nicholas, Red Cliff Band of Ojibwe. In this workshop, participants will gain a deeper understanding and appreciation for nettles, gaining key insights on how this plant is used for food, medicine, and utility.",
+      "image": "",
+      "source": {
+        "name": "Pine City Area Chamber",
+        "url": "https://pinecitychamber.com/member-news/pine-center-for-the-arts-november-gallery-native-american-heritage-month/"
       }
     },
     {
@@ -1851,6 +1739,62 @@
       }
     },
     {
+      "key": "bf87858072e0c1f6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Norpine Fat Bike Classic",
+      "start": "2027-01-08T17:30:00",
+      "end": "2027-01-09T17:00:00",
+      "all_day": false,
+      "venue": "3719 West Hwy 61",
+      "city": "Lutsen",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Continue the tradition \u2013 ride the Norpine Fat Bike Classic in 2027! Experience fat biking on the Norpine Trails in Lutsen. Ride through stands of old growth cedars on Pisten Bully groomed trails while overlooking Lake Superior - winter riding doesn\u2019t get better than this! The Norpine Fat Bike Classic is presented by the Superior Cycling Association with the proceeds going to the Norpine Trail Association and the Superior Cycling Association to assist each organization in maintaining the highest quality trails in Cook County.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4ec008646cf2b44b",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-08T19:00:00",
+      "end": "2027-01-08T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "ddea38db337a4df4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1879,34 +1823,6 @@
       }
     },
     {
-      "key": "f253810dcadf910f",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-09T19:00:00",
-      "end": "2027-01-09T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "adb69a9ddf911889",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1928,6 +1844,34 @@
       "category": "arts",
       "price": "",
       "description": "Experience an unforgettable evening of thrilling adventure \u2013 up on the big screen! The Banff Mountain Film Festival features a brand-new collection of short films filled with extreme journeys, untamed characters and captivating cinematography! Join the world\u2019s top adventure filmmakers and thrill-seekers as they climb, ski, paddle and ride into the wildest corners of the planet! With free prize giveaways, this is an unmissable event from the world\u2019s most prestigious mountain festival \u2013 guaranteed to spark your passion for adventure, action and travel! See www.banff-uk.com for more.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f253810dcadf910f",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-09T19:00:00",
+      "end": "2027-01-09T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
