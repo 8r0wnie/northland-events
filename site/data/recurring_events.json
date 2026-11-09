@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T17:39:01",
+  "generated": "2026-11-09T21:57:54",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1384,6 +1384,46 @@
       "owner_decision": ""
     },
     {
+      "key": "hunters craft bake sale in spooner wi|spooner",
+      "title": "5th Annual Hunters Craft & Bake Sale in Spooner, WI",
+      "venue": "819 Ash St, Spooner, WI 54801",
+      "city": "Spooner",
+      "area": "Spooner",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 5,
+      "signal_reasons": [
+        "title says \"5th Annual\""
+      ],
+      "last_date": "2026-11-20",
+      "last_url": "https://allevents.in/spooner/5th-annual-hunters-craft-and-bake-sale-in-spooner-wi/200031009706511",
+      "predicted_next": "2027-11-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "country bumpkins craft fair|bayfield county",
+      "title": "Country Bumpkins Annual Craft Fair",
+      "venue": "",
+      "city": "Iron River",
+      "area": "Bayfield County",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-20",
+      "last_url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12563",
+      "predicted_next": "2027-11-20",
+      "owner_decision": ""
+    },
+    {
       "key": "hurley craft fair|ironwood",
       "title": "26th Annual Hurley Craft Fair",
       "venue": "Hurley K-12 School",
@@ -1440,6 +1480,26 @@
       ],
       "last_date": "2026-11-21",
       "last_url": "https://allevents.in/virginia/ladies-of-kaleva-57th-annual-holiday-bazaar/200030974455215",
+      "predicted_next": "2027-11-21",
+      "owner_decision": ""
+    },
+    {
+      "key": "hbc turkey bowling|hibbing",
+      "title": "1st Annual HBC Turkey \ud83e\udd83 Bowling!! \ud83c\udfb3",
+      "venue": "1929 5th Ave E, Hibbing, MN",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 1,
+      "signal_reasons": [
+        "title says \"1st Annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://allevents.in/hibbing/1st-annual-hbc-turkey-bowling/200031003534756",
       "predicted_next": "2027-11-21",
       "owner_decision": ""
     },
