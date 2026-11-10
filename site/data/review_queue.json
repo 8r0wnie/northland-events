@@ -1,37 +1,9 @@
 {
-  "generated": "2026-11-09T21:57:54Z",
-  "count": 119,
+  "generated": "2026-11-10T19:08:18Z",
+  "count": 120,
   "events": [
     {
-      "key": "30d89012bf4eaf84",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/tags/events-up-north"
-        }
-      ],
-      "title": "Honoring veterans",
-      "start": "2026-11-09T00:00:00",
-      "end": "2026-11-15T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Gilbert",
-      "area": "Gilbert",
-      "category": "arts",
-      "price": "",
-      "description": "Conversation Events Up North Nov. 9-15: Honoring veterans, local theater in Gilbert and Bemidji Events this week include an event for Native American Heritage Month in Chisholm and a holiday decor swap in Pine River.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/tags/events-up-north"
-      }
-    },
-    {
-      "key": "0bf469a6dfee511e",
+      "key": "108ff41779c40613",
       "reason": "read from page text",
       "source_ids": [
         "ironwood-chamber"
@@ -42,76 +14,20 @@
           "url": "https://www.ironwoodchamber.org"
         }
       ],
-      "title": "BINGO Night at VFW Post 3673",
-      "start": "2026-11-09T18:00:00",
+      "title": "Story Time with the Lumberjacks",
+      "start": "2026-11-12T16:00:00",
       "end": null,
       "all_day": false,
       "venue": "",
       "city": "Ironwood",
       "area": "Ironwood",
-      "category": "community",
+      "category": "family",
       "price": "",
-      "description": "November 9 @ 6:00 pm",
+      "description": "November 12 @ 4:00 pm",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
         "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "c35db77f5803369d",
-      "reason": "read from page text",
-      "source_ids": [
-        "bovey-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Bovey",
-          "url": "https://boveymn.gov/recent-news"
-        }
-      ],
-      "title": "There will be a meeting",
-      "start": "2026-11-09T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Bovey",
-      "area": "Bovey",
-      "category": "community",
-      "price": "",
-      "description": "There will be a meeting on Monday, November 9 th , 2026 at 6:00PM for the Board of Canvassing. The meeting will take place in the Club Room and is open to the public.",
-      "image": "",
-      "source": {
-        "name": "City of Bovey",
-        "url": "https://boveymn.gov/recent-news"
-      }
-    },
-    {
-      "key": "0c673f5f4e63bf22",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "DXC Birkie & Korte Training Group",
-      "start": "2026-11-09T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "2940 Seven Bridges Rd",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "education",
-      "price": "",
-      "description": "Are you targeting a specific race this season, and hoping to make skiing a part of your weekly routine this winter? DXC is excited to offer our Birkie / Korte Training Group designed to help skiers build strength, fitness, and community throughout the winter. While registration for American Birkebeiner or the Korteloppet is not required, our training timeline is built to align with the event, as well as other Midwest races \u2014 and it gives our group a great name that focuses on race training!",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -140,6 +56,34 @@
       "source": {
         "name": "Ursa Minor Brewing",
         "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "69761870b1ae5137",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Learn to Play Bridge",
+      "start": "2026-11-13T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "education",
+      "price": "",
+      "description": "November 13 @ 1:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -388,6 +332,34 @@
       "category": "other",
       "price": "",
       "description": "We make Music That Inspires.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "475f5fe6a14cf037",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "2026 Hometown Turkey Trot Virtual 5K - Duluth",
+      "start": "2026-11-21T06:00:00",
+      "end": "2026-11-29T21:00:00",
+      "all_day": false,
+      "venue": "Virtually Anywhere",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "\ud83e\udd83 Hometown Turkey Trot Virtual 5K (with Turkey Raffle) Your Hometown. Your Run. One Nationwide Thanksgiving Celebration! This Thanksgiving, bring the Turkey Trot tradition to YOUR hometown! Run or walk your 5K anywhere you choose \u2014 your neighborhood, favorite trail, beach, park, or treadmill. Bring family and friends along and join runners and walkers from across America for a nationwide Thanksgiving celebration! And yes, we have Thanksgiving raffles \u2014 including a 20-pound turkey delivered to the winner!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -672,34 +644,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "ceaa41943b755e11",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Ladies of the 80s - Tribute to Fabulous Females of the 1980s: A Totally Awesome 80s Christmas Show! @ The West Theatre",
-      "start": "2026-12-03T19:30:00",
-      "end": "2026-12-03T23:30:00",
-      "all_day": false,
-      "venue": "The West Theatre",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "holiday",
-      "price": "",
-      "description": "It's never too early to book your holiday fun! Especially when it involves big hair, bigger music, and Christmas nostalgia served with a generous helping of 1980s ridiculousness. Remember when your biggest responsibility during the Christmas season was circling everything you wanted in the Toys \"R\" Us catalog and then casually leaving it on the kitchen table where your parents could \"accidentally\" find it? There were no online wish lists. No Amazon. No \"Your package has been delayed.\" You had a catalog, a red crayon, and a dream. \ud83c\udf81 Well, we're bringing that Christmas back!",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -1207,6 +1151,34 @@
       }
     },
     {
+      "key": "fdb7eff23c709157",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "onlytime",
+      "start": "2026-12-18T19:00:00",
+      "end": "2026-12-18T23:00:00",
+      "all_day": false,
+      "venue": "Main Club",
+      "city": "Superior",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Melpomene onlytime Shadows Of Me Possessed To Restored Twin Cities power trio onlytime are a new genre bending post-metal group that can both lull with atmospheric melody and punish with sludged out riff worship.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "7683cc1df1ef91ed",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1683,34 +1655,6 @@
       }
     },
     {
-      "key": "4ec008646cf2b44b",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-08T19:00:00",
-      "end": "2027-01-08T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "ddea38db337a4df4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1984,6 +1928,62 @@
       "category": "sports-rec",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "5b0be22698f10732",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Guys On Ice",
+      "start": "2027-02-07T14:00:00",
+      "end": "2027-02-07T18:00:00",
+      "all_day": false,
+      "venue": "West Theater",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Grab your thermos, drill a hole in the ice, and settle in for the hilarious musical comedy about friendship, fishing, and frozen winters. The Quintessential Comedy of the North From the land of ten thousand lakes to the frozen bays of the Great Lakes, Guys on Ice is hitting the road to celebrate the secret language of the North: ice fishing. This beloved musical comedy invites audiences into a world where the beer is cold, the stove is warm, and the wisdom is as thick as the ice on the lake. More than just a play, Guys on Ice is a musical tribute to the stubborn resilience of Midwesterners.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "5b0be22698f10732",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Guys On Ice",
+      "start": "2027-02-07T18:30:00",
+      "end": "2027-02-07T22:30:00",
+      "all_day": false,
+      "venue": "West Theater",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Grab your thermos, drill a hole in the ice, and settle in for the hilarious musical comedy about friendship, fishing, and frozen winters. The Quintessential Comedy of the North From the land of ten thousand lakes to the frozen bays of the Great Lakes, Guys on Ice is hitting the road to celebrate the secret language of the North: ice fishing. This beloved musical comedy invites audiences into a world where the beer is cold, the stove is warm, and the wisdom is as thick as the ice on the lake. More than just a play, Guys on Ice is a musical tribute to the stubborn resilience of Midwesterners.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -3332,6 +3332,34 @@
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
         "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "bcc5e6dd74d4d054",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Pike Lake Races",
+      "start": "2027-05-29T08:00:00",
+      "end": "2027-05-29T11:40:00",
+      "all_day": false,
+      "venue": "Pike Lake Golf & Beach Club",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Get ready for the ultimate summer running experience at the Pike Lake Races presented by Cirrus\u2014where the miles are epic, the party is electric, and the lakeside vibes are totally worth it. Whether you\u2019re lining up for your first 5K, gunning for a PR, or getting a solid tune-up for your marathon goals, this event has it all. Just minutes from Duluth, Pike Lake delivers rolling hills, unbeatable views, and a finish line celebration straight out of your favorite summer memories.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     }
   ]
