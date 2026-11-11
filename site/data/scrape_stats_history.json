@@ -1252,5 +1252,24 @@
    "holiday": 247,
    "music": 285
   }
+ },
+ {
+  "date": "2026-11-11",
+  "raw": 5088,
+  "merged": 4469,
+  "published": 4341,
+  "queued": 128,
+  "active_sources": 151,
+  "categories": {
+   "sports-rec": 615,
+   "food-drink": 231,
+   "other": 502,
+   "arts": 368,
+   "music": 276,
+   "community": 1731,
+   "education": 147,
+   "holiday": 250,
+   "family": 221
+  }
  }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T19:08:18Z",
-  "count": 120,
+  "generated": "2026-11-11T19:12:34Z",
+  "count": 128,
   "events": [
     {
       "key": "108ff41779c40613",
@@ -140,6 +140,34 @@
       "source": {
         "name": "Ursa Minor Brewing",
         "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "bde4b98c1ac225fb",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
+      "start": "2026-11-13T20:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "music",
+      "price": "",
+      "description": "November 13 @ 8:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -283,6 +311,34 @@
       }
     },
     {
+      "key": "3aae8fb43c8912f8",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ian Alexy",
+      "start": "2026-11-15T11:00:00",
+      "end": "2026-11-15T15:00:00",
+      "all_day": false,
+      "venue": "Pizza Luce",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Troubadour 21st Century is the new record by singer-songwriter Ian Alexy. Best known for his work with Americana duo Hobo Nephews Of Uncle Frank, Ian expands the possibilities on Troubadour 21st Century with rock grooves and spine-tingling electric guitar flourishes. This is Ian Alexy\u2019s fifth album as a solo artist, in addition to five albums with Hobo Nephews Of Uncle Frank. Hobo Nephews first earned their live reputation by opening a sold-out national tour for Trampled By Turtles before touring all over the United States as a headliner.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "28b72097e8dc79f2",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -308,6 +364,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "3881ef970ab56750",
+      "reason": "read from page text",
+      "source_ids": [
+        "pine-city-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Pine City Area Chamber",
+          "url": "https://pinecitychamber.com/member-news/pathways-after-high-school-presentation-scheduled/"
+        }
+      ],
+      "title": "Pathways After High School Presentation Scheduled",
+      "start": "2026-11-18T16:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Pine City",
+      "area": "Pine City",
+      "category": "education",
+      "price": "",
+      "description": "resentation You are invited to attend a regional presentation of Pathways After High School , the latest comprehensive research study from the Minnesota Center for Rural Policy and Development. Date: Wednesday, November 18 Time: 4:00 p.m. to 5:30 p.m.",
+      "image": "",
+      "source": {
+        "name": "Pine City Area Chamber",
+        "url": "https://pinecitychamber.com/member-news/pathways-after-high-school-presentation-scheduled/"
       }
     },
     {
@@ -591,6 +675,34 @@
       }
     },
     {
+      "key": "f4988404ea847d40",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ian Alexy: Every Third (4th this month) Saturday at Sir Ben's",
+      "start": "2026-11-28T21:00:00",
+      "end": "2026-11-29T01:00:00",
+      "all_day": false,
+      "venue": "Sir Benedicts Tavern on the Lake",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Ian Alexy plays solo acoustic (with looping and effects, of course) on the third Saturday of every month at Sir Benedict's in Duluth. Troubadour 21st Century is the new record by singer-songwriter Ian Alexy. Best known for his work with Americana duo Hobo Nephews Of Uncle Frank, Ian expands the possibilities on Troubadour 21st Century with rock grooves and spine-tingling electric guitar flourishes. This is Ian Alexy\u2019s fifth album as a solo artist, in addition to five albums with Hobo Nephews Of Uncle Frank.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "54e66bcc3ec253bc",
       "reason": "read from page text",
       "source_ids": [
@@ -644,6 +756,62 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "c004f32a19f012a1",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ian Alexy",
+      "start": "2026-12-03T17:00:00",
+      "end": "2026-12-03T21:00:00",
+      "all_day": false,
+      "venue": "Thirsty Pagan Brewing",
+      "city": "Superior",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Troubadour 21st Century is the new record by singer-songwriter Ian Alexy. Best known for his work with Americana duo Hobo Nephews Of Uncle Frank, Ian expands the possibilities on Troubadour 21st Century with rock grooves and spine-tingling electric guitar flourishes. This is Ian Alexy\u2019s fifth album as a solo artist, in addition to five albums with Hobo Nephews Of Uncle Frank. Hobo Nephews first earned their live reputation by opening a sold-out national tour for Trampled By Turtles before touring all over the United States as a headliner.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "ceaa41943b755e11",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ladies of the 80s - Tribute to Fabulous Females of the 1980s: A Totally Awesome 80s Christmas Show! @ The West Theatre",
+      "start": "2026-12-03T19:30:00",
+      "end": "2026-12-03T23:30:00",
+      "all_day": false,
+      "venue": "The West Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "holiday",
+      "price": "",
+      "description": "It's never too early to book your holiday fun! Especially when it involves big hair, bigger music, and Christmas nostalgia served with a generous helping of 1980s ridiculousness. Remember when your biggest responsibility during the Christmas season was circling everything you wanted in the Toys \"R\" Us catalog and then casually leaving it on the kitchen table where your parents could \"accidentally\" find it? There were no online wish lists. No Amazon. No \"Your package has been delayed.\" You had a catalog, a red crayon, and a dream. \ud83c\udf81 Well, we're bringing that Christmas back!",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -899,34 +1067,6 @@
       }
     },
     {
-      "key": "f72877645b2d77ad",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Kalopsya",
-      "start": "2026-12-11T19:00:00",
-      "end": "2026-12-11T23:00:00",
-      "all_day": false,
-      "venue": "The Caddy Shack Indoor Golf & Pub",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "education",
-      "price": "",
-      "description": "Join us on a frozen night in December as we wake the city up from it's hibernation. Hometown hero's Pronoya come back in town and they brought some friends. Shadows of me, Xkwizite, Kalopsya, and Druid are all coming together at the Caddyshack indoor golf course on December 11th. It is a 21+ event with a $5 door fee, doors are at 7PM and music starts at 8PM small-town lads... big metal chads! Kalopsya is a melodic-metal band from St. Peter, MN.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "687feb05961032d4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1172,6 +1312,34 @@
       "category": "other",
       "price": "",
       "description": "Melpomene onlytime Shadows Of Me Possessed To Restored Twin Cities power trio onlytime are a new genre bending post-metal group that can both lull with atmospheric melody and punish with sludged out riff worship.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "c661c66992e2ac6e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Lefse Run",
+      "start": "2026-12-19T09:00:00",
+      "end": "2026-12-19T10:00:00",
+      "all_day": false,
+      "venue": "1026 E Superior St",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Get ready for the tastiest event of the season\u2014it's the Lefse Run! Join Duluth Running Co. and our neighbors- First Lutheran Church on Saturday, December 19th for a morning of running, community, and LEFSE\u2014all to support a great cause: Fundraising for Safe Haven! This run is FREE! We suggest a donation to Safe Haven, which you can easily make when you sign up. When you do, you get in on the run and a piece of lefse when you finish. Lace up your running shoes, bring your holiday spirit, and let\u2019s make this a morning to remember!",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -1484,6 +1652,34 @@
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
         "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "de9f151da1011ddf",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Andrew Crowley: Private Event",
+      "start": "2027-01-02T19:00:00",
+      "end": "2027-01-02T23:00:00",
+      "all_day": false,
+      "venue": "Private event, Duluth, Minnesota",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Andrew Crowley on the piano Andrew Crowley is a Twin Cities-based musician, composer, and audio engineer with a dynamic career spanning from major label rock stages to the baseball diamond. A certified Hammond Organ artist who studied through the Berklee School of Music, Andrew can often be found during the summer serving as the Musical Director and ballpark organist for the Saint Paul Saints, delivering live musical energy and stadium-sized sound at CHS Field.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -2551,6 +2747,34 @@
       }
     },
     {
+      "key": "ca4bdee3fbcfbc9a",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Will Hoge",
+      "start": "2027-03-14T20:00:00",
+      "end": "2027-03-15T00:00:00",
+      "all_day": false,
+      "venue": "Wussow's Concert Cafe",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "For two decades, Will Hoge has carried the torch for American rock & roll, carving out his own blue-collar sound rooted in amplified guitars, melodic hooks, southern soul, and rootsy stomp. It's a sound that nods to the best moments of the past\u2014the punch of Tom Petty's anthems; the countrified twang of Buck Owens' singing; the raw, greasy cool of the Rolling Stones\u2014while still pushing forward into new territory with Hoge's storytelling and larger-than-life voice leading the charge on his new self-produced album, Tiny Little Movies, which will be released June 26 via Thirty Tigers.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "74d3b6a4baf36ebc",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -3271,7 +3495,7 @@
       "area": "Iron Range",
       "category": "other",
       "price": "",
-      "description": "The 1st Annual Autism Walk Northland MN is a community-centered event created to celebrate, support, and uplift the autism and neurodivergent community. Taking place Sunday, April 26th at the DECC, this walk brings together families, friends, educators, caregivers, and advocates in a space built on acceptance, connection, and understanding. This event is about more than fundraising. It is about visibility, belonging, and creating a place where every individual feels seen and valued.",
+      "description": "The 2nd Annual Autism Walk Northland MN is a community-centered event created to celebrate, support, and uplift the autism and neurodivergent community. Taking place Sunday, May 22nd at the DECC, this walk brings together families, friends, educators, caregivers, and advocates in a space built on acceptance, connection, and understanding. This event is about more than fundraising. It is about visibility, belonging, and creating a place where every individual feels seen and valued.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

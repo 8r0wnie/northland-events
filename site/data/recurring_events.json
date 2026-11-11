@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T19:08:18",
+  "generated": "2026-11-11T19:12:35",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1044,6 +1044,26 @@
       "owner_decision": ""
     },
     {
+      "key": "friends of lakewalk meeting|duluth",
+      "title": "Friends of the Lakewalk Annual Meeting",
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-12",
+      "last_url": "https://www.perfectduluthday.com/the-event/friends-of-the-lakewalk-annual-meeting/",
+      "predicted_next": "2027-11-12",
+      "owner_decision": ""
+    },
+    {
       "key": "john agacki s sea shanties and singalongs|duluth",
       "title": "John Agacki's 6th Annual Sea Shanties and Singalongs!",
       "venue": "Wussow's Concert Cafe",
@@ -1604,6 +1624,26 @@
       "owner_decision": ""
     },
     {
+      "key": "lizzards small business social|duluth",
+      "title": "Lizzards 4th Annual Small Business Social",
+      "venue": "Lizzards Art Gallery and Framing",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 4,
+      "signal_reasons": [
+        "title says \"4th Annual\""
+      ],
+      "last_date": "2026-11-28",
+      "last_url": "https://visitduluth.com/event/lizzards-4th-annual-small-business-social/",
+      "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
       "key": "homespun holidays arts crafts show|hayward",
       "title": "39th Annual Homespun Holidays Arts & Crafts Show",
       "venue": "",
@@ -1981,6 +2021,26 @@
       "last_date": "2027-03-06",
       "last_url": "https://www.mesabitribune.com/local-events",
       "predicted_next": "2028-03-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "fundraiser|hayward",
+      "title": "19th Annual Fundraiser",
+      "venue": "The Steakhouse & Lodge",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "community",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 19,
+      "signal_reasons": [
+        "title says \"19th Annual\""
+      ],
+      "last_date": "2027-04-10",
+      "last_url": "https://allevents.in/hayward/19th-annual-fundraiser/200030002078232",
+      "predicted_next": "2028-04-10",
       "owner_decision": ""
     }
   ],
