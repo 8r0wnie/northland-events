@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T19:12:35",
+  "generated": "2026-11-12T19:29:06",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1264,6 +1264,26 @@
       "owner_decision": ""
     },
     {
+      "key": "christmas craft gift sale|bayfield county",
+      "title": "8th Annual Christmas Craft & Gift Sale",
+      "venue": "Barnes, WI 54873",
+      "city": "Barnes",
+      "area": "Bayfield County",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 8,
+      "signal_reasons": [
+        "title says \"8th Annual\""
+      ],
+      "last_date": "2026-11-14",
+      "last_url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=5149",
+      "predicted_next": "2027-11-14",
+      "owner_decision": ""
+    },
+    {
       "key": "meat raffle|ashland",
       "title": "9th Annual Meat Raffle",
       "venue": "Neighborly Bar",
@@ -1684,6 +1704,26 @@
       "owner_decision": ""
     },
     {
+      "key": "tree lighting christina s y pine|hayward",
+      "title": "2nd Annual Tree Lighting - Christina's Y Pine",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-11-28",
+      "last_url": "https://www.facebook.com/christinaypine/",
+      "predicted_next": "2027-11-28",
+      "owner_decision": ""
+    },
+    {
       "key": "winter wonderland market|superior",
       "title": "The 5th Annual Winter Wonderland Market",
       "venue": "The Superior Elks Lodge #403",
@@ -1761,6 +1801,26 @@
       "last_date": "2026-12-03",
       "last_url": "https://allevents.in/duluth/21st-annual-remembrance-day-dinner-and-silent-auction/200030954235811",
       "predicted_next": "2027-12-03",
+      "owner_decision": ""
+    },
+    {
+      "key": "christmas ukulele jam|spooner",
+      "title": "Annual Christmas Ukulele Jam",
+      "venue": "421 High St, Spooner, WI, United States, Wisconsin 54801",
+      "city": "Spooner",
+      "area": "Spooner",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-04",
+      "last_url": "https://allevents.in/spooner/annual-christmas-ukulele-jam/200031026885516",
+      "predicted_next": "2027-12-04",
       "owner_decision": ""
     },
     {
@@ -2021,6 +2081,26 @@
       "last_date": "2027-03-06",
       "last_url": "https://www.mesabitribune.com/local-events",
       "predicted_next": "2028-03-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "virginia figure skating recital|virginia",
+      "title": "Virginia Figure Skating Annual Recital",
+      "venue": "919 6th Street South, Virginia, MN, United States, Minnesota 55792",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "music",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2027-04-02",
+      "last_url": "https://allevents.in/virginia/virginia-figure-skating-annual-recital/200031029813130",
+      "predicted_next": "2028-04-02",
       "owner_decision": ""
     },
     {

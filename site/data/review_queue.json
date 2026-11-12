@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11T19:12:34Z",
-  "count": 128,
+  "generated": "2026-11-12T19:29:05Z",
+  "count": 132,
   "events": [
     {
       "key": "108ff41779c40613",
@@ -28,34 +28,6 @@
       "source": {
         "name": "Ironwood Area Chamber",
         "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "292d12492a2d6927",
-      "reason": "read from page text",
-      "source_ids": [
-        "ursa-minor"
-      ],
-      "sources": [
-        {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
-        }
-      ],
-      "title": "Bingo Night!",
-      "start": "2026-11-12T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "November 12 @ 6:00 PM \u2013 8:00 PM",
-      "image": "",
-      "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
       }
     },
     {
@@ -164,6 +136,34 @@
       "category": "music",
       "price": "",
       "description": "November 13 @ 8:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "deff856491f8fe06",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Candy Cane Holiday Craft Fair",
+      "start": "2026-11-14T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "price": "",
+      "description": "November 14 @ 9:00 am",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -339,6 +339,34 @@
       }
     },
     {
+      "key": "52b93a1265d79f8e",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/tags/events-up-north"
+        }
+      ],
+      "title": "Conversation Events Up North",
+      "start": "2026-11-16T00:00:00",
+      "end": "2026-11-22T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Chisholm",
+      "area": "Chisholm",
+      "category": "arts",
+      "price": "",
+      "description": "Conversation Events Up North Nov. 16-22: 'How the Birds Got Their Songs' at regional libraries, 'Brain Train' in Chisholm Events this week include a storytelling event in Baxter, a poetry slam in Bemidji and a presentation on the American Revolution in Grand Rapids.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
       "key": "28b72097e8dc79f2",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -364,6 +392,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "f1193c1a6010aca0",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
+        }
+      ],
+      "title": "Iron Range Brain Train",
+      "start": "2026-11-17T10:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Chisholm",
+      "area": "Chisholm",
+      "category": "community",
+      "price": "",
+      "description": "10 a.m.-2 p.m. at Minnesota Discovery Center in Chisholm. Speaker at 11 a.m. with lunch provided.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
+      }
+    },
+    {
+      "key": "3543b38fca1f1b73",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
+        }
+      ],
+      "title": "Soup on the Streets",
+      "start": "2026-11-18T15:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "3 p.m. on the grounds of Old Central School in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
       }
     },
     {
@@ -2100,6 +2184,34 @@
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
         "url": "https://www.apg-wi.com"
+      }
+    },
+    {
+      "key": "a1a6ee6525030e01",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Nathan Frazer-Music",
+      "start": "2027-02-05T18:00:00",
+      "end": "2027-02-05T22:00:00",
+      "all_day": false,
+      "venue": "Cohaus",
+      "city": "Grand Rapids",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Opening for Charlie Wagner at the CoHaus Singing songs old and new",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
