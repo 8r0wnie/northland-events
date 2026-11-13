@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T19:29:06",
+  "generated": "2026-11-13T19:06:36",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1324,6 +1324,26 @@
       "owner_decision": ""
     },
     {
+      "key": "lepc meeting|bayfield county",
+      "title": "2026 LEPC Annual Meeting",
+      "venue": "",
+      "city": "Washburn",
+      "area": "Bayfield County",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-17",
+      "last_url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12575",
+      "predicted_next": "2027-11-17",
+      "owner_decision": ""
+    },
+    {
       "key": "meeting|hermantown",
       "title": "*Annual Meeting 2026",
       "venue": "",
@@ -1964,6 +1984,26 @@
       "owner_decision": ""
     },
     {
+      "key": "old fashioneds holiday party|duluth",
+      "title": "Old Fashioneds Annual Holiday Party 2026",
+      "venue": "Kitchi Gammi Club",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-12",
+      "last_url": "https://allevents.in/duluth/old-fashioneds-annual-holiday-party-2026/100002003505973299",
+      "predicted_next": "2027-12-12",
+      "owner_decision": ""
+    },
+    {
       "key": "messiah singalong|duluth",
       "title": "The 44th Annual Messiah Singalong",
       "venue": "The College of St. Scholastica Mitchell Auditorium",
@@ -2041,6 +2081,26 @@
       "last_date": "2027-02-04",
       "last_url": "https://allevents.in/ely/11th-annual-xc-yoga-retreat-in-ely-mn/200030897136332",
       "predicted_next": "2028-02-04",
+      "owner_decision": ""
+    },
+    {
+      "key": "ojibwe language symposium|cloquet",
+      "title": "7th Annual Ojibwe Language Symposium",
+      "venue": "2101 14th Street , Cloquet, MN, United States, Minnesota 55720",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 7,
+      "signal_reasons": [
+        "title says \"7th Annual\""
+      ],
+      "last_date": "2027-02-05",
+      "last_url": "https://allevents.in/cloquet/7th-annual-ojibwe-language-symposium/200031040103847",
+      "predicted_next": "2028-02-05",
       "owner_decision": ""
     },
     {

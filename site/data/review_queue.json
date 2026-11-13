@@ -1,35 +1,7 @@
 {
-  "generated": "2026-11-12T19:29:05Z",
-  "count": 132,
+  "generated": "2026-11-13T19:06:35Z",
+  "count": 136,
   "events": [
-    {
-      "key": "108ff41779c40613",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Story Time with the Lumberjacks",
-      "start": "2026-11-12T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "family",
-      "price": "",
-      "description": "November 12 @ 4:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "69761870b1ae5137",
       "reason": "read from page text",
@@ -196,6 +168,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-06/events-up-north-nov-9-15-honoring-veterans-local-theater-in-gilbert-and-bemidji"
+      }
+    },
+    {
+      "key": "88477ed5f1a2bd9d",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Turkey Bingo",
+      "start": "2026-11-14T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 14 @ 1:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -1039,34 +1039,6 @@
       }
     },
     {
-      "key": "b64b9dcdc2ad01d8",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "A Christmas Story",
-      "start": "2026-12-06T14:00:00",
-      "end": "2026-12-06T18:00:00",
-      "all_day": false,
-      "venue": "NorShor Theatre",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "fd65d3ac3f86a14a",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1428,6 +1400,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4a7b0baae281efa9",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3920369-twin-ports-comedy-funniest-person-in-the-twin-ports-contest-grand-final"
+        }
+      ],
+      "title": "Twin Ports Comedy: Funniest Person In The Twin Ports Contest | Grand Final",
+      "start": "2026-12-19T19:00:00",
+      "end": "2026-12-19T21:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "It's the third annual Funniest Person in the Twin Ports Contest Grand Final! See which ones of our seven finalists will take home the Golden Microphone! Featuring: \u00b7 Headliner: Brekken Thompson \u00b7 Henry Kneiszel \u00b7 Jackson Johnson \u00b7 Justin Rademacher \u00b7 Atul Patel \u00b7 Anthony Kulisek \u00b7 Scott Brady \u00b7 Erika Bang Tickets available here: https://www.twinportscomedy.com/.../3rd-annual-funniest...",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3920369-twin-ports-comedy-funniest-person-in-the-twin-ports-contest-grand-final"
       }
     },
     {
@@ -1928,6 +1928,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "Continue the tradition \u2013 ride the Norpine Fat Bike Classic in 2027! Experience fat biking on the Norpine Trails in Lutsen. Ride through stands of old growth cedars on Pisten Bully groomed trails while overlooking Lake Superior - winter riding doesn\u2019t get better than this! The Norpine Fat Bike Classic is presented by the Superior Cycling Association with the proceeds going to the Norpine Trail Association and the Superior Cycling Association to assist each organization in maintaining the highest quality trails in Cook County.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4ec008646cf2b44b",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-08T19:00:00",
+      "end": "2027-01-08T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2485,7 +2513,7 @@
       "venue": "Black Bear Casino Resort",
       "city": "Carlton",
       "area": "Iron Range",
-      "category": "other",
+      "category": "music",
       "price": "",
       "description": "KC and The Sunshine Band formed in 1973 with one single purpose: to create instant happiness through music - and the group has done just that, topping the charts with singles including \u201cGive It Up\u201d, \u201cThat\u2019s the Way (I Like It),\u201d \u201cPlease Don\u2019t Go,\u201d \u201cGet Down Tonight,\u201d \u201cBoogie Shoes\u201d, \u201cI\u2019m Your Boogie Man\u201d and \u201c(Shake, Shake, Shake) Shake Your Booty,\u201d tallying worldwide sales of over 100 million.",
       "image": "",
@@ -2628,6 +2656,34 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "9b57d6f3743ef690",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "2027 Engaged Weekend - Eveleth",
+      "start": "2027-02-27T00:00:00",
+      "end": "2027-02-28T23:59:00",
+      "all_day": true,
+      "venue": "Resurrection Catholic Church",
+      "city": "Eveleth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Congratulations on your decision to discern the vocation of married life! The Diocese invites you to participate in one of our Engaged Weekends. These retreats will help you examine your call to married life, prepare you to receive the Sacrament of Holy Matrimony, and provide you with skills for this faithful lifelong covenant. The cost to register is $175 per couple.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2992,6 +3048,62 @@
       "category": "other",
       "price": "",
       "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "628959d2a284f132",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Mishipeshu",
+      "start": "2027-04-09T19:00:00",
+      "end": "2027-04-09T23:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "On Friday, April 9th, four bands will descend upon Caddyshack Duluth to usher in the spring thaw with an unrelenting night of heavy metal. Featuring: Pronoya - Duluth Metalcore https://open.spotify.com/artist/4dJZiXt0CPC7cLYMsgKZOw?si=zgqIPi5dRuKXRxDSMg5Nmw Kalopsya - St. Peter Metalcore https://open.spotify.com/artist/5pxHKXSKv5TY1nAeCTfvoE?si=EaUMOhJARWyO0P9xtDJIdw Witch Syndicate - Minneapolis Melodic Metal https://open.spotify.com/artist/5OrZmd9GJzQ2R4djq9lQ2I?si=odSSElPVTdiSo7fWHvL8ZQ Mishipeshu - Twin Ports Viking Metal\u2026",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "88140c027f415b81",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "2027 Engaged Weekend - Crosby",
+      "start": "2027-04-17T00:00:00",
+      "end": "2027-04-18T23:59:00",
+      "all_day": true,
+      "venue": "St. Joseph's Catholic Church",
+      "city": "Crosby",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Congratulations on your decision to discern the vocation of married life! The Diocese invites you to participate in one of our Engaged Weekends. These retreats will help you examine your call to married life, prepare you to receive the Sacrament of Holy Matrimony, and provide you with skills for this faithful lifelong covenant. The cost to register is $175 per couple.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
