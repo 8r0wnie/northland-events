@@ -1,63 +1,7 @@
 {
-  "generated": "2026-11-13T19:06:35Z",
+  "generated": "2026-11-14T17:38:25Z",
   "count": 136,
   "events": [
-    {
-      "key": "69761870b1ae5137",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Learn to Play Bridge",
-      "start": "2026-11-13T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "education",
-      "price": "",
-      "description": "November 13 @ 1:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "81ad9958405af6d3",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "John Kerns Music: GRAND AVE CHALET at SPIRIT MOUNTAIN",
-      "start": "2026-11-13T17:30:00",
-      "end": "2026-11-13T21:30:00",
-      "all_day": false,
-      "venue": "Spirit Mountain Grand Avenue Chalet",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "John Kerns John Kerns is a dynamic musician who brings a fresh and unique approach to live performance. With a deep catalog of original songs and an extensive repertoire of covers, he crafts engaging and immersive musical experiences that keep audiences hooked from start to finish. Using guitar, percussion stomp boxes, looping pedals and a telephone microphone, John layers sounds to create the energy and depth of a full band\u2014all created live on the spot. Whether playing an intimate venue or a festival, Kerns\u2019 music is always inventive and captivating.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
     {
       "key": "92fa93a5e3860b34",
       "reason": "read from page text",
@@ -84,34 +28,6 @@
       "source": {
         "name": "Ursa Minor Brewing",
         "url": "https://ursaminorbrewing.com/events/"
-      }
-    },
-    {
-      "key": "bde4b98c1ac225fb",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
-      "start": "2026-11-13T20:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "music",
-      "price": "",
-      "description": "November 13 @ 8:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -252,6 +168,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "753a3c3aecc6ee62",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
+      "start": "2026-11-14T20:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "music",
+      "price": "",
+      "description": "November 14 @ 8:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -507,34 +451,6 @@
       }
     },
     {
-      "key": "475f5fe6a14cf037",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "2026 Hometown Turkey Trot Virtual 5K - Duluth",
-      "start": "2026-11-21T06:00:00",
-      "end": "2026-11-29T21:00:00",
-      "all_day": false,
-      "venue": "Virtually Anywhere",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "\ud83e\udd83 Hometown Turkey Trot Virtual 5K (with Turkey Raffle) Your Hometown. Your Run. One Nationwide Thanksgiving Celebration! This Thanksgiving, bring the Turkey Trot tradition to YOUR hometown! Run or walk your 5K anywhere you choose \u2014 your neighborhood, favorite trail, beach, park, or treadmill. Bring family and friends along and join runners and walkers from across America for a nationwide Thanksgiving celebration! And yes, we have Thanksgiving raffles \u2014 including a 20-pound turkey delivered to the winner!",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "eac6a9fb0275c190",
       "reason": "read from page text",
       "source_ids": [
@@ -728,6 +644,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "48b7a6aeccb7cdc9",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3922591-haus-of-queer-family-affair-drag-show"
+        }
+      ],
+      "title": "Haus Of Queer: Family Affair Drag Show",
+      "start": "2026-11-27T20:00:00",
+      "end": "2026-11-27T23:00:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Join us on 11/27 at 8pm for the Haus of Queer\u2019s Family Affair Drag Show!! \ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2\ud83e\udd83\u2728 Hosted by ThatQueerIsa w/ DJ Octavia Fort\u00e9 With Turkey day around the corner, this drag show will feature some of our Haus of Queer Family, Extended Family, and Friends! So make sure to save that date, and join us for a night of local drag, & chosen family! \ud83d\udd25\ud83d\udd25 Cast announcement coming soon!! \ud83e\udd29 **Cash Only** (ATM on site)",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3922591-haus-of-queer-family-affair-drag-show"
       }
     },
     {
@@ -1431,6 +1375,34 @@
       }
     },
     {
+      "key": "80d0e14daba82813",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Shane Martin",
+      "start": "2026-12-19T19:00:00",
+      "end": "2026-12-19T23:00:00",
+      "all_day": false,
+      "venue": "Two Rivers Event Center",
+      "city": "Aitkin",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Songs Of The South - Alabama Tribute Two Rivers Event Center 970 2nd Street NW Aitkin, MN 56431 Doors are at 6 pm Concert: 7 pm https://huff-entertainment.com/ Shane Martin is quickly becoming one of the top draws in the Midwest with a unique blend of modern country rock routinely performing over 200 shows per year as a solo artist and with his full band.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "7683cc1df1ef91ed",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2012,6 +1984,34 @@
       "category": "arts",
       "price": "",
       "description": "Experience an unforgettable evening of thrilling adventure \u2013 up on the big screen! The Banff Mountain Film Festival features a brand-new collection of short films filled with extreme journeys, untamed characters and captivating cinematography! Join the world\u2019s top adventure filmmakers and thrill-seekers as they climb, ski, paddle and ride into the wildest corners of the planet! With free prize giveaways, this is an unmissable event from the world\u2019s most prestigious mountain festival \u2013 guaranteed to spark your passion for adventure, action and travel! See www.banff-uk.com for more.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "79920e42052e13bf",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Kid Dakota",
+      "start": "2027-01-09T19:00:00",
+      "end": "2027-01-09T23:00:00",
+      "all_day": false,
+      "venue": "Bent Paddle Brewing Co.",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Solo acoustic performance. Kid Dakota is the musical moniker of Darren Jackson. Formed in 1999, Kid Dakota has released two albums on LOW's Chairkicker's Union - So Pretty (2002), and The West is the Future (2004) - and four albums on Graveface Records - A Winner's Shadow (2008), Listen to the Crows As They Take Flight (2011), Denervation (2018), and most recently, Age of Roaches (2020). Darren is a multi-instrumentalist, composer, engineer, teacher, and producer. He owns and operates Homesteader Studio in Minneapolis, MN.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
