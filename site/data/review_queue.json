@@ -1,203 +1,7 @@
 {
-  "generated": "2026-11-14T17:38:25Z",
-  "count": 136,
+  "generated": "2026-11-15T18:12:49Z",
+  "count": 129,
   "events": [
-    {
-      "key": "92fa93a5e3860b34",
-      "reason": "read from page text",
-      "source_ids": [
-        "ursa-minor"
-      ],
-      "sources": [
-        {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
-        }
-      ],
-      "title": "Live: Christopher David Hanson",
-      "start": "2026-11-13T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "November 13 @ 7:00 PM \u2013 9:00 PM",
-      "image": "",
-      "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
-      }
-    },
-    {
-      "key": "deff856491f8fe06",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Candy Cane Holiday Craft Fair",
-      "start": "2026-11-14T09:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "arts",
-      "price": "",
-      "description": "November 14 @ 9:00 am",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "f3842967c85d56c0",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-06/events-up-north-nov-9-15-honoring-veterans-local-theater-in-gilbert-and-bemidji"
-        }
-      ],
-      "title": "Yoga with Kelly",
-      "start": "2026-11-14T10:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "sports-rec",
-      "price": "",
-      "description": "10 a.m. at Klockow Brewing in Grand Rapids. Freewill donations will support KAXE.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-06/events-up-north-nov-9-15-honoring-veterans-local-theater-in-gilbert-and-bemidji"
-      }
-    },
-    {
-      "key": "88477ed5f1a2bd9d",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Turkey Bingo",
-      "start": "2026-11-14T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 14 @ 1:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "1254815be806ce41",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Teague Alexy",
-      "start": "2026-11-14T17:00:00",
-      "end": "2026-11-14T21:00:00",
-      "all_day": false,
-      "venue": "Rapids Brewing Company",
-      "city": "Grand Rapids",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Nicholas David and Teague Alexy make their Grand Rapids debut as a duo. Nicholas and Teague aka Teague and The Feelin collaborated on the acclaimed 2006 album The New Folklore. Award-winning Duluth-based musician, author and storyteller Teague Alexy is probably best known for his Americana songwriting in the national touring brothers duo Hobo Nephews of Uncle Frank. Teague\u2019s songwriting is clearly influenced by his home in Minnesota, as well as his childhood in New Jersey, and life as a travelling musical hobo. Teague's storytelling has deeper roots to his Irish ancestry.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "f95399a9b2396e7e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "A Night of Music with Presence Music, Sam Evans, & Jacob Rocky",
-      "start": "2026-11-14T19:00:00",
-      "end": "2026-11-14T23:00:00",
-      "all_day": false,
-      "venue": "New Song Alliance Church",
-      "city": "Grand Rapids",
-      "area": "Iron Range",
-      "category": "music",
-      "price": "",
-      "description": "Three nationally touring Christian artists, one night, no ticket price. \ud83c\udfb6 Presence Music, Sam Evans, and Jacob Rocky are coming to New Song Church in Grand Rapids for a free evening of live music, encouragement, and community. Bring the family, bring a friend, bring someone who could use an uplifting night out. \ud83d\udcc5 Saturday, November 14, 7:00 to 9:00 PM \ud83d\udccd New Song Church, 15 SE 3rd St, Grand Rapids There\u2019s no cost to attend. A free will offering will be taken to help cover the artists\u2019 travel expenses. Tap Going or Interested so you get a reminder, and please hit Share.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "753a3c3aecc6ee62",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
-      "start": "2026-11-14T20:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "music",
-      "price": "",
-      "description": "November 14 @ 8:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "8f6006020be9b4f4",
       "reason": "read from page text",
@@ -219,7 +23,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -283,6 +87,34 @@
       }
     },
     {
+      "key": "70ba48c9d5b64d89",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Theatre North Presents: The Dining Room",
+      "start": "2026-11-15T14:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "price": "",
+      "description": "November 15 @ 2:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
       "key": "52b93a1265d79f8e",
       "reason": "read from page text",
       "source_ids": [
@@ -308,6 +140,34 @@
       "source": {
         "name": "KAXE Events Up North (weekly roundup)",
         "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
+      "key": "30f454c01589a7c0",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "BINGO Night at VFW Post 3673",
+      "start": "2026-11-16T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 16 @ 6:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -611,7 +471,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -644,34 +504,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "48b7a6aeccb7cdc9",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3922591-haus-of-queer-family-affair-drag-show"
-        }
-      ],
-      "title": "Haus Of Queer: Family Affair Drag Show",
-      "start": "2026-11-27T20:00:00",
-      "end": "2026-11-27T23:00:00",
-      "all_day": false,
-      "venue": "The Caddy Shack Indoor Golf & Pub",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "Join us on 11/27 at 8pm for the Haus of Queer\u2019s Family Affair Drag Show!! \ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2\ud83e\udd83\u2728 Hosted by ThatQueerIsa w/ DJ Octavia Fort\u00e9 With Turkey day around the corner, this drag show will feature some of our Haus of Queer Family, Extended Family, and Friends! So make sure to save that date, and join us for a night of local drag, & chosen family! \ud83d\udd25\ud83d\udd25 Cast announcement coming soon!! \ud83e\udd29 **Cash Only** (ATM on site)",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3922591-haus-of-queer-family-affair-drag-show"
       }
     },
     {
@@ -751,7 +583,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -947,7 +779,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -1171,7 +1003,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -1451,7 +1283,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -1591,7 +1423,7 @@
       "area": "Hoyt Lakes",
       "category": "community",
       "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
+      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27...",
       "image": "",
       "source": {
         "name": "City of Hoyt Lakes",
@@ -1900,34 +1732,6 @@
       "category": "sports-rec",
       "price": "",
       "description": "Continue the tradition \u2013 ride the Norpine Fat Bike Classic in 2027! Experience fat biking on the Norpine Trails in Lutsen. Ride through stands of old growth cedars on Pisten Bully groomed trails while overlooking Lake Superior - winter riding doesn\u2019t get better than this! The Norpine Fat Bike Classic is presented by the Superior Cycling Association with the proceeds going to the Norpine Trail Association and the Superior Cycling Association to assist each organization in maintaining the highest quality trails in Cook County.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "4ec008646cf2b44b",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-08T19:00:00",
-      "end": "2027-01-08T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

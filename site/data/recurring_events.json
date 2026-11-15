@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T17:38:26",
+  "generated": "2026-11-15T18:12:50",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1944,6 +1944,26 @@
       "owner_decision": ""
     },
     {
+      "key": "bbtp union suit pajama party|superior",
+      "title": "BBTP Presents: 6th Annual Union Suit/Pajama Party",
+      "venue": "The Main Club",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 6,
+      "signal_reasons": [
+        "title says \"6th Annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://allevents.in/superior/bbtp-presents-6th-annual-union-suit-pajama-party/200031050514300",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
       "key": "wassail bowl|duluth",
       "title": "62nd Annual Wassail Bowl Celebration",
       "venue": "Norton Park United Methodist Church",
@@ -1961,6 +1981,26 @@
       "last_date": "2026-12-06",
       "last_url": "https://allevents.in/duluth/62nd-annual-wassail-bowl-celebration/200030817440927",
       "predicted_next": "2027-12-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "hinckley chamber christmas banquet|hinckley",
+      "title": "Hinckley Chamber Christmas Celebration & Annual Banquet",
+      "venue": "404 Fire Monument Rd, Hinckley, MN 55037-8336, United States",
+      "city": "Hinckley",
+      "area": "Hinckley",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-10",
+      "last_url": "https://allevents.in/hinckley/hinckley-chamber-christmas-celebration-and-annual-banquet/200031049054443",
+      "predicted_next": "2027-12-10",
       "owner_decision": ""
     },
     {
