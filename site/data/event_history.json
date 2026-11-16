@@ -78,7 +78,7 @@
      "url": "https://www.cromwellmn.org/calendar.php"
     },
     "2027": {
-     "date": "2027-01-08",
+     "date": "2027-01-15",
      "title": "Meat Raffle",
      "source_count": 1,
      "url": "https://www.cromwellmn.org/calendar.php"
@@ -1480,7 +1480,7 @@
    "category": "family",
    "occurrences": {
     "2026": {
-     "date": "2026-11-15",
+     "date": "2026-11-22",
      "title": "Similar Sundays at Ritual Marketplace",
      "source_count": 2,
      "url": "https://allevents.in/superior/similar-sundays-at-ritual-marketplace/100001980301487056"
@@ -2268,7 +2268,7 @@
      "url": "https://ely.org/events/community-exercise-tower/"
     },
     "2027": {
-     "date": "2027-01-12",
+     "date": "2027-01-14",
      "title": "Community Exercise Tower",
      "source_count": 1,
      "url": "https://ely.org/events/community-exercise-tower/"
@@ -4072,7 +4072,7 @@
      "url": "https://ely.org/events/makers-morning/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Makers Morning",
      "source_count": 1,
      "url": "https://ely.org/events/makers-morning/"
@@ -4244,7 +4244,7 @@
      "url": "https://ely.org/events/free-medical-clinic/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Free Medical Clinic",
      "source_count": 1,
      "url": "https://ely.org/events/free-medical-clinic/"
@@ -4266,7 +4266,7 @@
      "url": "https://ely.org/events/medical-care-and-fluoride-treatments/"
     },
     "2027": {
-     "date": "2027-01-13",
+     "date": "2027-01-14",
      "title": "Medical Care and Fluoride Treatments",
      "source_count": 1,
      "url": "https://ely.org/events/medical-care-and-fluoride-treatments/"
@@ -4410,10 +4410,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-12",
+     "date": "2026-12-10",
      "title": "Economic Development Authority Meeting",
      "source_count": 1,
-     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-93"
+     "url": "https://cityofgrandrapidsmn.com/bc-eda/page/economic-development-authority-meeting-94"
     }
    },
    "too_frequent": false
@@ -16246,7 +16246,7 @@
     "2026": {
      "date": "2026-12-08",
      "title": "Let's Do Lunch - Steven Witt, CEO & Co - Founder, Anno.Ai",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4557/details"
     }
    },
@@ -17578,7 +17578,7 @@
      "url": "https://www.northwoodspartners.org/"
     },
     "2027": {
-     "date": "2027-01-12",
+     "date": "2027-01-14",
      "title": "SAIL- Stay Active and Independent for life",
      "source_count": 1,
      "url": "https://www.northwoodspartners.org/"
@@ -17600,7 +17600,7 @@
      "url": "https://ely.org/events/outdoor-walking-club/"
     },
     "2027": {
-     "date": "2027-01-12",
+     "date": "2027-01-14",
      "title": "Outdoor Walking Club",
      "source_count": 1,
      "url": "https://ely.org/events/outdoor-walking-club/"
@@ -17832,8 +17832,8 @@
     "2027": {
      "date": "2027-02-04",
      "title": "Cirque Alice",
-     "source_count": 3,
-     "url": "https://allevents.in/duluth/cirque-alice/210003838753885"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/cirque-alice/"
     }
    },
    "too_frequent": false
@@ -18238,7 +18238,7 @@
     "2027": {
      "date": "2027-02-03",
      "title": "St. Scholastica Men's Basketball vs Augsburg University",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://csssaints.com/calendar.aspx?game_id=17947&sport_id=7"
     }
    },
@@ -18678,6 +18678,12 @@
      "title": "StorySLAM: Bayfield",
      "source_count": 1,
      "url": "https://www.bayfield.org/event/storyslam%3a-bayfield/5905/"
+    },
+    "2027": {
+     "date": "2027-01-14",
+     "title": "StorySLAM: Bayfield",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/storyslam%3a-bayfield/5905/"
     }
    },
    "too_frequent": true
@@ -18728,7 +18734,7 @@
      "url": "https://duluthcider.com/events/"
     },
     "2027": {
-     "date": "2027-01-05",
+     "date": "2027-01-12",
      "title": "Bingo!",
      "source_count": 1,
      "url": "https://duluthcider.com/events/"
@@ -18750,7 +18756,7 @@
      "url": "https://ely.org/events/full-body-yoga/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Full Body Yoga",
      "source_count": 1,
      "url": "https://ely.org/events/full-body-yoga/"
@@ -18788,7 +18794,7 @@
      "url": "https://ely.org/events/mah-jongg/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Mah Jongg",
      "source_count": 1,
      "url": "https://ely.org/events/mah-jongg/"
@@ -20100,10 +20106,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-23",
+     "date": "2026-11-30",
      "title": "Maker Monday",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12270"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12271"
     }
    },
    "too_frequent": false
@@ -21588,10 +21594,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-10-21",
+     "date": "2026-11-18",
      "title": "BCDA Meeting",
      "source_count": 1,
-     "url": "https://www.burnettcountywi.gov/Calendar.aspx?EID=4199"
+     "url": "https://www.burnettcountywi.gov/Calendar.aspx?EID=4205"
     }
    },
    "too_frequent": false
@@ -21706,7 +21712,7 @@
      "url": "https://ely.org/events/makers-evening/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Makers Evening",
      "source_count": 1,
      "url": "https://ely.org/events/makers-evening/"
@@ -26918,10 +26924,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-26",
+     "date": "2026-11-30",
      "title": "StrongBodies: Port Wing",
      "source_count": 1,
-     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12400"
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12384"
     }
    },
    "too_frequent": false
@@ -28434,7 +28440,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-11",
+     "date": "2026-11-18",
      "title": "Eveleth-Virginia Airport Authority Meeting",
      "source_count": 1,
      "url": "https://eveleth.gov/index.asp?SEC=462BCD35-C33E-4969-A2A3-9ABB6847CAA0&DE=910E4E23-7ACB-41C7-9F61-F5AC3BF35B2B"
@@ -32350,10 +32356,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_R20261109T140000_202612301400?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-13",
+     "date": "2027-01-15",
      "title": "Babbitt Pickleball",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_R20261109T140000_202701131400?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-sh7d4qp9464jirfiv7u9ckt62b_R20261109T140000_202701151400?calid=g-19"
     }
    },
    "too_frequent": false
@@ -32502,10 +32508,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-rcdvu05audael772dnrsg2m2rt_202612312200?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-14",
+     "date": "2027-01-15",
      "title": "Senior Pickleball",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-rcdvu05audael772dnrsg2m2rt_202701142200?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-7gttgu9vo9js1qtm8dp4lag65v_202701151730?calid=g-19"
     }
    },
    "too_frequent": false
@@ -32638,7 +32644,7 @@
      "url": "https://duluthcider.com/events/"
     },
     "2027": {
-     "date": "2027-01-04",
+     "date": "2027-01-11",
      "title": "Trivia Mafia",
      "source_count": 1,
      "url": "https://duluthcider.com/events/"
@@ -32746,7 +32752,7 @@
    "category": "other",
    "occurrences": {
     "2026": {
-     "date": "2026-10-27",
+     "date": "2026-12-01",
      "title": "Questions about Medicare or Social Security Benefits?",
      "source_count": 1,
      "url": "https://www.hurleywi.com/events/questions-about-medicare-or-social-security-benefits/"
@@ -32926,7 +32932,7 @@
      "url": "https://duluthcider.com/events/"
     },
     "2027": {
-     "date": "2027-01-05",
+     "date": "2027-01-12",
      "title": "Oasis del Norte Taco Delivery",
      "source_count": 1,
      "url": "https://duluthcider.com/events/"
@@ -33582,7 +33588,7 @@
      "url": "https://duluthcider.com/events/"
     },
     "2027": {
-     "date": "2027-01-06",
+     "date": "2027-01-13",
      "title": "The Initials Game Live",
      "source_count": 1,
      "url": "https://duluthcider.com/events/"
@@ -33932,10 +33938,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-74l766sh7i837bl8jg8vmdepkt_202612262300?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-09",
+     "date": "2027-01-15",
      "title": "Teen Center Hours",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-74l766sh7i837bl8jg8vmdepkt_202701092300?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-h9hluefvciav49strffs79pv7u_202701160100?calid=g-19"
     }
    },
    "too_frequent": false
@@ -33954,10 +33960,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-21-oggge1rn8t9jh8ugl84mpb7v23_202612262300?calid=g-21"
     },
     "2027": {
-     "date": "2027-01-09",
+     "date": "2027-01-15",
      "title": "Preteen Hours",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-21-oggge1rn8t9jh8ugl84mpb7v23_202701092300?calid=g-21"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-21-oggge1rn8t9jh8ugl84mpb7v23_202701152300?calid=g-21"
     }
    },
    "too_frequent": false
@@ -34516,10 +34522,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-cfspmpabiq85gj7mdb7s75im8o_R20260304T010000_202701010100?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-12",
+     "date": "2027-01-14",
      "title": "Pickleball",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-cfspmpabiq85gj7mdb7s75im8o_R20260304T010000_202701130100?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-cfspmpabiq85gj7mdb7s75im8o_R20260304T010000_202701150100?calid=g-19"
     }
    },
    "too_frequent": false
@@ -36308,10 +36314,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-23-3amb2pnj5fq4mc9jqessc30g3j_202612031500?calid=g-23"
     },
     "2027": {
-     "date": "2027-05-06",
+     "date": "2027-06-03",
      "title": "Planning Commission Meeting",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-23-3amb2pnj5fq4mc9jqessc30g3j_202705061400?calid=g-23"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-23-3amb2pnj5fq4mc9jqessc30g3j_202706031400?calid=g-23"
     }
    },
    "too_frequent": true
@@ -38884,7 +38890,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-15",
+     "date": "2026-11-16",
      "title": "Grand Marais Mashup Scavenger Hunt",
      "source_count": 1,
      "url": "https://allevents.in/grand-marais/grand-marais-mashup-scavenger-hunt/10000986858318797"
@@ -39383,7 +39389,7 @@
      "date": "2026-11-18",
      "title": "Foodies + New Friends: Duluth (Giving Back Edition)",
      "source_count": 1,
-     "url": "https://allevents.in/duluth/foodies-new-friends-duluth-giving-back-edition/100001988841912699"
+     "url": "https://allevents.in/duluth/foodies-new-friends-duluth-giving-back-edition/100001975608357780"
     }
    },
    "too_frequent": false
@@ -40340,7 +40346,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-14",
+     "date": "2026-11-21",
      "title": "Modern Every Saturday",
      "source_count": 1,
      "url": "https://allevents.in/superior/modern-every-saturday/200030787638044"
@@ -40596,7 +40602,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-14",
+     "date": "2026-11-21",
      "title": "College Football Saturdays @ NLT",
      "source_count": 1,
      "url": "https://allevents.in/duluth/college-football-saturdays-nlt/200030745489051"
@@ -47317,12 +47323,12 @@
    "venue": "113 E Aurora St, Ironwood, MI, United States, Michigan 49938",
    "city": "Ironwood",
    "area": "Ironwood",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-11-28",
      "title": "Warren Miller's DAYS OFF",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://allevents.in/ironwood/warren-millers-days-off/200030816455159"
     }
    },
@@ -48033,7 +48039,7 @@
    "venue": "209 E. Sheridan Street Ely",
    "city": "Ely",
    "area": "Ely",
-   "category": "other",
+   "category": "food-drink",
    "occurrences": {
     "2026": {
      "date": "2026-12-12",
@@ -48142,16 +48148,16 @@
   },
   "christmas spectacular|ironwood": {
    "title": "The Christmas Spectacular",
-   "venue": "113 E Aurora St, Ironwood, MI, United States, Michigan 49938",
+   "venue": "Historic Ironwood Theatre",
    "city": "Ironwood",
    "area": "Ironwood",
-   "category": "holiday",
+   "category": "arts",
    "occurrences": {
     "2026": {
-     "date": "2026-12-12",
+     "date": "2026-12-13",
      "title": "The Christmas Spectacular",
      "source_count": 1,
-     "url": "https://allevents.in/ironwood/the-christmas-spectacular/200030816455505"
+     "url": "https://felivelife.org/event/christmas-spectacular/2026-12-13/"
     }
    },
    "too_frequent": false
@@ -49686,7 +49692,7 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-11-14",
+     "date": "2026-12-04",
      "title": "Northwest Express Jr. Hockey Game",
      "source_count": 1,
      "url": "https://www.washburncounty.org/event/northwest-express-jr-hockey-game/4/"
@@ -53278,7 +53284,7 @@
      "url": "https://www.visitcookcounty.com/event/date-night-in-the-barrel-room/1100/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Date Night in the Barrel Room",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/date-night-in-the-barrel-room/1100/"
@@ -55012,7 +55018,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-11-19",
+     "date": "2026-12-17",
      "title": "Third Thursday Jazz with the North Shore Swing Band!",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/third-thursday-jazz-with-the-north-shore-swing-band!/7151/"
@@ -58126,7 +58132,7 @@
    "category": "music",
    "occurrences": {
     "2026": {
-     "date": "2026-11-12",
+     "date": "2026-11-19",
      "title": "Open Mic Comedy",
      "source_count": 1,
      "url": "https://allevents.in/duluth/open-mic-comedy/200030850784903"
@@ -62994,10 +63000,10 @@
    "category": "sports-rec",
    "occurrences": {
     "2026": {
-     "date": "2026-10-25",
+     "date": "2026-11-22",
      "title": "Full Moon Sound Bath",
      "source_count": 1,
-     "url": "https://www.visitcookcounty.com/event/full-moon-sound-bath/7656/"
+     "url": "https://www.visitcookcounty.com/event/full-moon-sound-bath/7932/"
     }
    },
    "too_frequent": false
@@ -65630,8 +65636,8 @@
     "2026": {
      "date": "2026-12-04",
      "title": "Making Potato Lefse",
-     "source_count": 2,
-     "url": "https://allevents.in/duluth/making-potato-lefse/200030890023306"
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/making-potato-lefse-6/"
     }
    },
    "too_frequent": false
@@ -66584,7 +66590,7 @@
      "url": "https://ely.org/events/every-christmas-story-ever-told-and-then-some/"
     },
     "2027": {
-     "date": "2027-01-13",
+     "date": "2027-01-14",
      "title": "Every Christmas Story Ever Told! (And Then Some)",
      "source_count": 1,
      "url": "https://ely.org/events/every-christmas-story-ever-told-and-then-some/"
@@ -67322,7 +67328,7 @@
     "2026": {
      "date": "2026-12-12",
      "title": "Becky & The High 48s: Bluegrass Christmas",
-     "source_count": 2,
+     "source_count": 3,
      "url": "https://allevents.in/duluth/becky-and-the-high-48s-bluegrass-christmas/100002001889580625"
     }
    },
@@ -70846,8 +70852,8 @@
     "2027": {
      "date": "2027-05-15",
      "title": "DSSO Masterworks 6 \u2013 New Frontiers",
-     "source_count": 1,
-     "url": "https://decc.org/event/masterworks-6-new-frontiers/"
+     "source_count": 2,
+     "url": "https://visitduluth.com/event/dsso-masterworks-6-new-frontiers/"
     }
    },
    "too_frequent": false
@@ -71722,7 +71728,7 @@
     "2026": {
      "date": "2026-12-12",
      "title": "Shelter and Light: Holiday Band Concert",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://allevents.in/duluth/shelter-and-light-holiday-band-concert/200030911579544"
     }
    },
@@ -74270,7 +74276,7 @@
      "url": "https://www.visitcookcounty.com/event/thursday-art-night/7916/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Thursday Art Night",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/thursday-art-night/7916/"
@@ -74292,7 +74298,7 @@
      "url": "https://www.washburncounty.org/event/dj-trivia-%26-pizza-night/3567/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "DJ Trivia & Pizza Night",
      "source_count": 1,
      "url": "https://www.washburncounty.org/event/dj-trivia-%26-pizza-night/3567/"
@@ -75174,7 +75180,7 @@
     "2026": {
      "date": "2026-11-21",
      "title": "Holiday Craft Show @ The American Legion 2026",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://allevents.in/spooner/holiday-craft-show-the-american-legion-2026/200030950115819"
     }
    },
@@ -75286,7 +75292,7 @@
     "2026": {
      "date": "2026-11-24",
      "title": "Free Community Movie - Julie & Julia",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://allevents.in/ely/free-community-movie-julie-and-julia/200030951642947"
     }
    },
@@ -75348,10 +75354,10 @@
    "category": "holiday",
    "occurrences": {
     "2026": {
-     "date": "2026-12-11",
+     "date": "2026-12-12",
      "title": "Glensheen Candlelight Christmas Tours 2026",
      "source_count": 1,
-     "url": "https://www.perfectduluthday.com/the-event/glensheen-candlelight-christmas-tours-2026/2026-12-11/"
+     "url": "https://www.perfectduluthday.com/the-event/glensheen-candlelight-christmas-tours-2026/2026-12-12/"
     }
    },
    "too_frequent": false
@@ -75617,12 +75623,12 @@
    "venue": "113 E Aurora St, Ironwood, MI, United States, Michigan 49938",
    "city": "Ironwood",
    "area": "Ironwood",
-   "category": "community",
+   "category": "arts",
    "occurrences": {
     "2026": {
      "date": "2026-12-20",
      "title": "The Star",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://allevents.in/ironwood/the-star/200030953936320"
     }
    },
@@ -77770,10 +77776,10 @@
      "url": "https://castledangerbrewery.com/event/pizza-pints-3/2026-12-31/"
     },
     "2027": {
-     "date": "2027-01-07",
+     "date": "2027-01-14",
      "title": "Pizza & Pints",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/pizza-pints-3/2027-01-07/"
+     "url": "https://castledangerbrewery.com/event/pizza-pints-3/2027-01-14/"
     }
    },
    "too_frequent": false
@@ -77824,10 +77830,10 @@
      "url": "https://castledangerbrewery.com/event/friday-flights-2/2026-12-25/"
     },
     "2027": {
-     "date": "2027-01-08",
+     "date": "2027-01-15",
      "title": "Friday Flights",
      "source_count": 1,
-     "url": "https://castledangerbrewery.com/event/friday-flights-2/2027-01-08/"
+     "url": "https://castledangerbrewery.com/event/friday-flights-2/2027-01-15/"
     }
    },
    "too_frequent": false
@@ -79400,7 +79406,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-14",
+     "date": "2026-11-21",
      "title": "Family Program: Did an Asteroid REALLY K*ll the Dinosaurs?",
      "source_count": 2,
      "url": "https://allevents.in/duluth/family-program-did-an-asteroid-really-kll-the-dinosaurs/200030981130936"
@@ -81214,10 +81220,10 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-08",
+     "date": "2026-11-22",
      "title": "Disney Lorcana Booster Draft - Hyperia City",
      "source_count": 1,
-     "url": "https://allevents.in/duluth/disney-lorcana-booster-draft-hyperia-city/200030990437203"
+     "url": "https://allevents.in/duluth/disney-lorcana-booster-draft-hyperia-city/200031059132656"
     }
    },
    "too_frequent": false
@@ -84208,7 +84214,7 @@
     "2026": {
      "date": "2026-11-16",
      "title": "Soldiers of the American Rev",
-     "source_count": 2,
+     "source_count": 1,
      "url": "https://allevents.in/hibbing/soldiers-of-the-american-rev/200031003533350"
     }
    },
@@ -85390,7 +85396,7 @@
    "category": "arts",
    "occurrences": {
     "2027": {
-     "date": "2027-05-30",
+     "date": "2027-06-04",
      "title": "A Streetcar Named Desire",
      "source_count": 2,
      "url": "https://www.norshortheatre.com/events"
@@ -85836,7 +85842,7 @@
     "2026": {
      "date": "2026-11-18",
      "title": "Cuddle Bugs Story Time",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://felivelife.org/event/cuddle-bugs-story-time-11/"
     }
    },
@@ -86586,7 +86592,7 @@
   },
   "jim gaffigan still fighting it|duluth": {
    "title": "Jim Gaffigan: Still Fighting It",
-   "venue": "Symphony Hall",
+   "venue": "DECC Symphony Hall",
    "city": "Duluth",
    "area": "Duluth",
    "category": "music",
@@ -86594,8 +86600,8 @@
     "2027": {
      "date": "2027-01-17",
      "title": "Jim Gaffigan: Still Fighting It",
-     "source_count": 3,
-     "url": "https://visitduluth.com/event/jim-gaffigan-still-fighting-it/"
+     "source_count": 4,
+     "url": "https://allevents.in/duluth/jim-gaffigan-still-fighting-it/210001067464973"
     }
    },
    "too_frequent": false
@@ -86700,10 +86706,10 @@
      "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-3j7s93o4b8mvvi9c45ph7pjbqi_202612302300?calid=g-19"
     },
     "2027": {
-     "date": "2027-01-13",
+     "date": "2027-01-15",
      "title": "Volleyball",
      "source_count": 1,
-     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-3j7s93o4b8mvvi9c45ph7pjbqi_202701132300?calid=g-19"
+     "url": "https://www.babbittmn.gov/component/dpcalendar/event/g-19-42g6edpnrdhela8pses7drk2k4_202701152300?calid=g-19"
     }
    },
    "too_frequent": false
@@ -87468,7 +87474,7 @@
    "category": "education",
    "occurrences": {
     "2026": {
-     "date": "2026-11-13",
+     "date": "2026-11-21",
      "title": "Fused Glass Art with Jeri Person",
      "source_count": 1,
      "url": "https://www.visitcookcounty.com/event/fused-glass-art-with-jeri-person/7461/"
@@ -90178,7 +90184,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-15",
+     "date": "2026-11-22",
      "title": "Book Bedazzling AM",
      "source_count": 1,
      "url": "https://allevents.in/superior/book-bedazzling-am/200031044749021"
@@ -91308,7 +91314,7 @@
   },
   "jingle bell bingo fundraiser|duluth": {
    "title": "JINGLE BELL BINGO FUNDRAISER!",
-   "venue": "Clyde Iron Events & Weddings",
+   "venue": "The Caddy Shack Indoor Golf & Pub, West Superior Street, Duluth, MN, USA",
    "city": "Duluth",
    "area": "Duluth",
    "category": "community",
@@ -91586,7 +91592,7 @@
    "category": "community",
    "occurrences": {
     "2026": {
-     "date": "2026-11-15",
+     "date": "2026-11-22",
      "title": "Sunday Football @ NLT",
      "source_count": 1,
      "url": "https://allevents.in/duluth/sunday-football-nlt/200031050172602"
@@ -92420,7 +92426,7 @@
     "2026": {
      "date": "2026-12-30",
      "title": "RESCHEDULED \u2013 A Live Conversation with Chevy Chase following a screening of National Lampoon\u2019s Christmas Vacation",
-     "source_count": 1,
+     "source_count": 2,
      "url": "https://decc.org/event/chevy-chase/"
     }
    },
@@ -92498,10 +92504,986 @@
    "category": "arts",
    "occurrences": {
     "2027": {
-     "date": "2027-05-14",
+     "date": "2027-05-15",
      "title": "Theatre North Presents: Come From Away",
      "source_count": 1,
-     "url": "https://felivelife.org/event/theatre-north-presents-come-from-away/2027-05-14/"
+     "url": "https://felivelife.org/event/theatre-north-presents-come-from-away/2027-05-15/"
+    }
+   },
+   "too_frequent": false
+  },
+  "cancelled parks rec committee meeting|ashland": {
+   "title": "CANCELLED - Parks & Rec Committee Meeting",
+   "venue": "",
+   "city": "Ashland",
+   "area": "Ashland",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-16",
+     "title": "CANCELLED - Parks & Rec Committee Meeting",
+     "source_count": 1,
+     "url": "https://www.coawi.org/Calendar.aspx?EID=2729"
+    }
+   },
+   "too_frequent": false
+  },
+  "creating in community weekly open art time|duluth": {
+   "title": "Creating in Community: Weekly Open Art Time",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-08",
+     "title": "Creating in Community: Weekly Open Art Time",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/creating-in-community-weekly-open-art-time/2026-12-08/"
+    }
+   },
+   "too_frequent": false
+  },
+  "traffic safety committee|burnett county": {
+   "title": "Traffic Safety Committee",
+   "venue": "Siren, WI 54872",
+   "city": "Siren",
+   "area": "Burnett County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "Traffic Safety Committee",
+     "source_count": 1,
+     "url": "https://www.burnettcountywi.gov/Calendar.aspx?EID=4207"
+    }
+   },
+   "too_frequent": false
+  },
+  "blight hearings|gilbert": {
+   "title": "Blight Hearings",
+   "venue": "",
+   "city": "Gilbert",
+   "area": "Gilbert",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-17",
+     "title": "Blight Hearings",
+     "source_count": 1,
+     "url": ""
+    }
+   },
+   "too_frequent": false
+  },
+  "hot club of duluth|duluth": {
+   "title": "The Hot Club of Duluth",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-01",
+     "title": "The Hot Club of Duluth",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/the-hot-club-of-duluth-rathskeller/2026-12-01/"
+    }
+   },
+   "too_frequent": false
+  },
+  "blue water big band|duluth": {
+   "title": "Blue Water Big Band",
+   "venue": "1931 W Michigan St. , Duluth, MN, United States, Minnesota 55806",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-18",
+     "title": "Blue Water Big Band",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/blue-water-big-band/200031054260128"
+    }
+   },
+   "too_frequent": false
+  },
+  "planning commission meeting|international falls": {
+   "title": "Planning Commission Meeting",
+   "venue": "Council Chambers",
+   "city": "International Falls",
+   "area": "International Falls",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-18",
+     "title": "Planning Commission Meeting",
+     "source_count": 1,
+     "url": "https://calendar.google.com/calendar/ical/961uvrgnl35jaq50j9ldd19e8s%40group.calendar.google.com/public/basic.ics"
+    }
+   },
+   "too_frequent": false
+  },
+  "screen time by design|grand marais": {
+   "title": "Screen Time by Design",
+   "venue": "Grand Marais Public Library",
+   "city": "Grand Marais",
+   "area": "Grand Marais",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-18",
+     "title": "Screen Time by Design",
+     "source_count": 1,
+     "url": "https://www.visitcookcounty.com/event/screen-time-by-design/7931/"
+    }
+   },
+   "too_frequent": false
+  },
+  "burnett county board of canvass recount|burnett county": {
+   "title": "Burnett County Board of Canvass Recount",
+   "venue": "Siren, WI 54872",
+   "city": "Siren",
+   "area": "Burnett County",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Burnett County Board of Canvass Recount",
+     "source_count": 1,
+     "url": "https://www.burnettcountywi.gov/Calendar.aspx?EID=4206"
+    }
+   },
+   "too_frequent": false
+  },
+  "intro to needle felting make a gnome|washburn county": {
+   "title": "Intro to Needle Felting: Make a Gnome",
+   "venue": "Chickadee Hills Homestead",
+   "city": "",
+   "area": "Washburn County",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Intro to Needle Felting: Make a Gnome",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/intro-to-needle-felting%3a-make-a-gnome/3656/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs michigan tech pack romano white out theme|duluth": {
+   "title": "UMD Women's Basketball vs Michigan Tech - Pack Romano | White Out Theme",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "UMD Women's Basketball vs Michigan Tech - Pack Romano | White Out Theme",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11064&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "open mic night jester s sports bar|washburn county": {
+   "title": "Open Mic Night - Jester's Sports Bar",
+   "venue": "Jester's Sports Bar",
+   "city": "",
+   "area": "Washburn County",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Open Mic Night - Jester's Sports Bar",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/open-mic-night-jesters-sports-bar/3603/"
+    }
+   },
+   "too_frequent": false
+  },
+  "minnesota and american story cultivating tomorrow|duluth": {
+   "title": "Minnesota and the American Story: Cultivating Tomorrow",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-19",
+     "title": "Minnesota and the American Story: Cultivating Tomorrow",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/minnesota-and-the-american-story-cultivating-tomorrow/"
+    }
+   },
+   "too_frequent": false
+  },
+  "game night|ely": {
+   "title": "Game Night",
+   "venue": "229 E Sheridan St, Ely, MN, United States, Minnesota 55731",
+   "city": "Ely",
+   "area": "Ely",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-20",
+     "title": "Game Night",
+     "source_count": 1,
+     "url": "https://allevents.in/ely/game-night/200031056821730"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs northern michigan university banner reveal lil champs night|duluth": {
+   "title": "UMD Women's Basketball vs Northern Michigan University - Banner Reveal | Lil Champs Night",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "UMD Women's Basketball vs Northern Michigan University - Banner Reveal | Lil Champs Night",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11065&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music with erik mahler|hurley": {
+   "title": "Live Music with Erik Mahler",
+   "venue": "Iron Horse Saloon",
+   "city": "Hurley",
+   "area": "Hurley",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Live Music with Erik Mahler",
+     "source_count": 1,
+     "url": "https://www.hurleywi.com/events/live-music-with-erik-mahler/"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music at sidestreet salon|bayfield county": {
+   "title": "Live Music at Sidestreet Salon",
+   "venue": "",
+   "city": "Iron River",
+   "area": "Bayfield County",
+   "category": "music",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-21",
+     "title": "Live Music at Sidestreet Salon",
+     "source_count": 1,
+     "url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12576"
+    }
+   },
+   "too_frequent": false
+  },
+  "winter market with cuyuna lakes santa|aitkin": {
+   "title": "Winter Market with Cuyuna Lakes Santa",
+   "venue": "Two Rivers Event Center",
+   "city": "Aitkin",
+   "area": "Aitkin",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-27",
+     "title": "Winter Market with Cuyuna Lakes Santa",
+     "source_count": 1,
+     "url": "https://allevents.in/aitkin/winter-market-with-cuyuna-lakes-santa/200031055591231"
+    }
+   },
+   "too_frequent": false
+  },
+  "birch bows burlap a homespun christmas workshop|washburn county": {
+   "title": "Birch, Bows & Burlap: A Homespun Christmas Workshop",
+   "venue": "Chickadee Hills Homestead",
+   "city": "",
+   "area": "Washburn County",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-27",
+     "title": "Birch, Bows & Burlap: A Homespun Christmas Workshop",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/birch-bows-%26-burlap%3a-a-homespun-christmas-workshop/3657/"
+    }
+   },
+   "too_frequent": false
+  },
+  "a little wool christmas needle felted ornaments|washburn county": {
+   "title": "A Little Wool Christmas: Needle-Felted Ornaments",
+   "venue": "Chickadee Hills Homestead",
+   "city": "",
+   "area": "Washburn County",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-27",
+     "title": "A Little Wool Christmas: Needle-Felted Ornaments",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/a-little-wool-christmas%3a-needle-felted-ornaments/3658/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs wisconsin parkside bentleyville in romano|duluth": {
+   "title": "UMD Women's Basketball vs Wisconsin Parkside - Bentleyville in Romano",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "UMD Women's Basketball vs Wisconsin Parkside - Bentleyville in Romano",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11067&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs northern michigan university bentleyville in romano|duluth": {
+   "title": "UMD Men's Basketball vs Northern Michigan University - Bentleyville in Romano",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-28",
+     "title": "UMD Men's Basketball vs Northern Michigan University - Bentleyville in Romano",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11035&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "cozy cat cave|ironwood": {
+   "title": "Cozy Cat Cave",
+   "venue": "125 n lake st",
+   "city": "Ironwood",
+   "area": "Ironwood",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-29",
+     "title": "Cozy Cat Cave",
+     "source_count": 1,
+     "url": "https://allevents.in/ironwood/cozy-cat-cave/200031054637300"
+    }
+   },
+   "too_frequent": false
+  },
+  "international dinner|duluth": {
+   "title": "Annual International Dinner",
+   "venue": "410 N 78th Ave W, Duluth, MN",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "food-drink",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-29",
+     "title": "Annual International Dinner",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/annual-international-dinner/200031056309310"
+    }
+   },
+   "too_frequent": false
+  },
+  "biathlon night watch party kontiolahti finland|hayward": {
+   "title": "Biathlon Night Watch Party -- Kontiolahti, Finland",
+   "venue": "Hayward Curling Club",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-11-29",
+     "title": "Biathlon Night Watch Party -- Kontiolahti, Finland",
+     "source_count": 1,
+     "url": "https://allevents.in/hayward/biathlon-night-watch-party-kontiolahti-finland/200031052030732"
+    }
+   },
+   "too_frequent": false
+  },
+  "taking care of business with santa|grand rapids": {
+   "title": "Taking Care of Business \u2013 with SANTA!",
+   "venue": "",
+   "city": "Grand Rapids",
+   "area": "Grand Rapids",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-02",
+     "title": "Taking Care of Business \u2013 with SANTA!",
+     "source_count": 1,
+     "url": "https://www.grandmn.com/event/taking-care-of-business-2/"
+    }
+   },
+   "too_frequent": false
+  },
+  "still learning 24 estate planning a practical roadmap|hurley": {
+   "title": "Still Learning 24: Estate Planning \u2013 A Practical Roadmap",
+   "venue": "Mercer Community Center",
+   "city": "Hurley",
+   "area": "Hurley",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-03",
+     "title": "Still Learning 24: Estate Planning \u2013 A Practical Roadmap",
+     "source_count": 1,
+     "url": "https://www.hurleywi.com/events/still-learning-24-estate-planning-a-practical-roadmap/"
+    }
+   },
+   "too_frequent": false
+  },
+  "polar express|hurley": {
+   "title": "The Polar Express",
+   "venue": "Historic Ironwood Theatre",
+   "city": "Hurley",
+   "area": "Hurley",
+   "category": "other",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-04",
+     "title": "The Polar Express",
+     "source_count": 1,
+     "url": "https://www.hurleywi.com/events/the-polar-express/"
+    }
+   },
+   "too_frequent": false
+  },
+  "elite card show|duluth": {
+   "title": "Elite Card Show",
+   "venue": "4510 West 1st street, Duluth, MN, United States, Minnesota 55807",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "Elite Card Show",
+     "source_count": 1,
+     "url": "https://allevents.in/duluth/elite-card-show/200031059133659"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of minnesota crookston rba day and camper appreciation|duluth": {
+   "title": "UMD Men's Basketball vs University of Minnesota Crookston - RBA Day and Camper Appreciation",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "UMD Men's Basketball vs University of Minnesota Crookston - RBA Day and Camper Appreciation",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11037&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs university of minnesota crookston rba day and camper appreciation|duluth": {
+   "title": "UMD Women's Basketball vs University of Minnesota Crookston - RBA Day and Camper Appreciation",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-05",
+     "title": "UMD Women's Basketball vs University of Minnesota Crookston - RBA Day and Camper Appreciation",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11069&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "biathlon night watch party hochfilzen austria|hayward": {
+   "title": "Biathlon Night Watch Party -- Hochfilzen, Austria",
+   "venue": "Hayward Curling Club",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-06",
+     "title": "Biathlon Night Watch Party -- Hochfilzen, Austria",
+     "source_count": 1,
+     "url": "https://allevents.in/hayward/biathlon-night-watch-party-hochfilzen-austria/200031052031234"
+    }
+   },
+   "too_frequent": false
+  },
+  "kids christmas open house|ironwood": {
+   "title": "Kids Christmas Open House",
+   "venue": "Ironwood Church",
+   "city": "Ironwood",
+   "area": "Ironwood",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-06",
+     "title": "Kids Christmas Open House",
+     "source_count": 1,
+     "url": "https://felivelife.org/event/kids-christmas-open-house/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs northern state university youth program night|duluth": {
+   "title": "UMD Men's Basketball vs Northern State University - Youth Program Night",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-10",
+     "title": "UMD Men's Basketball vs Northern State University - Youth Program Night",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11038&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs northern state university youth program night|duluth": {
+   "title": "UMD Women's Basketball vs Northern State University - Youth Program Night",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-10",
+     "title": "UMD Women's Basketball vs Northern State University - Youth Program Night",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11070&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "old fashioned christmas|hibbing": {
+   "title": "Old Fashioned Christmas",
+   "venue": "4220 3rd Ave W, Hibbing, MN, United States, Minnesota 55746",
+   "city": "Hibbing",
+   "area": "Hibbing",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Old Fashioned Christmas",
+     "source_count": 1,
+     "url": "https://allevents.in/hibbing/old-fashioned-christmas/200031056970427"
+    }
+   },
+   "too_frequent": false
+  },
+  "biathlon night watch party le grand bornard france|hayward": {
+   "title": "Biathlon Night Watch Party -- Le Grand Bornard, France",
+   "venue": "Hayward Curling Club",
+   "city": "Hayward",
+   "area": "Hayward",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Biathlon Night Watch Party -- Le Grand Bornard, France",
+     "source_count": 1,
+     "url": "https://allevents.in/hayward/biathlon-night-watch-party-le-grand-bornard-france/200031052030328"
+    }
+   },
+   "too_frequent": false
+  },
+  "joy garland workshop|bayfield": {
+   "title": "JOY Garland Workshop",
+   "venue": "Island Gateway Gallery & Gathering",
+   "city": "Bayfield",
+   "area": "Bayfield",
+   "category": "education",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "JOY Garland Workshop",
+     "source_count": 1,
+     "url": "https://www.bayfield.org/event/joy-garland-workshop/6054/"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of jamestown ugly xmas sweater|duluth": {
+   "title": "UMD Men's Basketball vs University of Jamestown - Ugly Xmas Sweater",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "UMD Men's Basketball vs University of Jamestown - Ugly Xmas Sweater",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11039&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs university of jamestown ugly xmas sweater|duluth": {
+   "title": "UMD Women's Basketball vs University of Jamestown - Ugly Xmas Sweater",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "UMD Women's Basketball vs University of Jamestown - Ugly Xmas Sweater",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11071&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "bad fashion apr s party|duluth": {
+   "title": "Bad Fashion Apr\u00e8s Party",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Bad Fashion Apr\u00e8s Party",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/bad-fashion-apres-party/"
+    }
+   },
+   "too_frequent": false
+  },
+  "rhizomes album release show|duluth": {
+   "title": "The Rhizomes Album Release Show",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "The Rhizomes Album Release Show",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/the-rhizomes-album-release-show/"
+    }
+   },
+   "too_frequent": false
+  },
+  "coral collective fire and frostbite|duluth": {
+   "title": "Coral Collective: Fire and Frostbite",
+   "venue": "",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "community",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-12",
+     "title": "Coral Collective: Fire and Frostbite",
+     "source_count": 1,
+     "url": "https://www.perfectduluthday.com/the-event/coral-collective-fire-and-frost-bite/"
+    }
+   },
+   "too_frequent": false
+  },
+  "new year s eve dinner dance|grand rapids": {
+   "title": "New Year's Eve Dinner & Dance",
+   "venue": "Royal Canadian Legion Branch 12 Grand Falls-Windsor, Newfoundland",
+   "city": "Grand Falls-windsor",
+   "area": "Grand Rapids",
+   "category": "holiday",
+   "occurrences": {
+    "2026": {
+     "date": "2026-12-31",
+     "title": "New Year's Eve Dinner & Dance",
+     "source_count": 1,
+     "url": "https://allevents.in/grand-falls-windsor/new-years-eve-dinner-and-dance/200031057291334"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs st cloud state university staff faculty appreciation|duluth": {
+   "title": "UMD Men's Basketball vs St. Cloud State University - Staff & Faculty Appreciation",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-15",
+     "title": "UMD Men's Basketball vs St. Cloud State University - Staff & Faculty Appreciation",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11046&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs st cloud state university staff faculty appreciation|duluth": {
+   "title": "UMD Women's Basketball vs St. Cloud State University - Staff & Faculty Appreciation",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-15",
+     "title": "UMD Women's Basketball vs St. Cloud State University - Staff & Faculty Appreciation",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11077&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "st scholastica men s basketball vs saint john s university|duluth": {
+   "title": "St. Scholastica Men's Basketball vs Saint John's University",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-16",
+     "title": "St. Scholastica Men's Basketball vs Saint John's University",
+     "source_count": 1,
+     "url": "https://csssaints.com/calendar.aspx?game_id=17942&sport_id=7"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs minnesota state university mankato alumni game|duluth": {
+   "title": "UMD Men's Basketball vs Minnesota State University, Mankato - Alumni Game",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-16",
+     "title": "UMD Men's Basketball vs Minnesota State University, Mankato - Alumni Game",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11047&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs minnesota state university mankato alumni game|duluth": {
+   "title": "UMD Women's Basketball vs Minnesota State University, Mankato - Alumni Game",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-16",
+     "title": "UMD Women's Basketball vs Minnesota State University, Mankato - Alumni Game",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11078&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs augustana university sd i hate winter tropical night|duluth": {
+   "title": "UMD Men's Basketball vs Augustana University (SD) - I Hate Winter/Tropical Night",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-22",
+     "title": "UMD Men's Basketball vs Augustana University (SD) - I Hate Winter/Tropical Night",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11048&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs augustana university sd i hate winter tropical night|duluth": {
+   "title": "UMD Women's Basketball vs Augustana University (SD) - I Hate Winter/Tropical Night",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-22",
+     "title": "UMD Women's Basketball vs Augustana University (SD) - I Hate Winter/Tropical Night",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11079&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs wayne state college educator appreciation day|duluth": {
+   "title": "UMD Men's Basketball vs Wayne State College - Educator Appreciation Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-23",
+     "title": "UMD Men's Basketball vs Wayne State College - Educator Appreciation Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11050&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs wayne state college educator appreciation day|duluth": {
+   "title": "UMD Women's Basketball vs Wayne State College - Educator Appreciation Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-01-23",
+     "title": "UMD Women's Basketball vs Wayne State College - Educator Appreciation Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11080&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs university of mary national girls women in sports|duluth": {
+   "title": "UMD Men's Basketball vs University of Mary - National Girls/Women in Sports",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-04",
+     "title": "UMD Men's Basketball vs University of Mary - National Girls/Women in Sports",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11054&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs university of mary national girls women in sports|duluth": {
+   "title": "UMD Women's Basketball vs University of Mary - National Girls/Women in Sports",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-04",
+     "title": "UMD Women's Basketball vs University of Mary - National Girls/Women in Sports",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11083&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs minot state university senior day|duluth": {
+   "title": "UMD Men's Basketball vs Minot State University - Senior Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-06",
+     "title": "UMD Men's Basketball vs Minot State University - Senior Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11055&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs minot state university senior day|duluth": {
+   "title": "UMD Women's Basketball vs Minot State University - Senior Day",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-06",
+     "title": "UMD Women's Basketball vs Minot State University - Senior Day",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11084&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd men s basketball vs minnesota state university moorhead student athlete academic recognition|duluth": {
+   "title": "UMD Men's Basketball vs Minnesota State University Moorhead - Student Athlete Academic Recognition",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-17",
+     "title": "UMD Men's Basketball vs Minnesota State University Moorhead - Student Athlete Academic Recognition",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11060&sport_id=4"
+    }
+   },
+   "too_frequent": false
+  },
+  "umd women s basketball vs minnesota state university moorhead student athlete academic recognition|duluth": {
+   "title": "UMD Women's Basketball vs Minnesota State University Moorhead - Student Athlete Academic Recognition",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-02-17",
+     "title": "UMD Women's Basketball vs Minnesota State University Moorhead - Student Athlete Academic Recognition",
+     "source_count": 1,
+     "url": "https://umdbulldogs.com/calendar.aspx?game_id=11087&sport_id=9"
+    }
+   },
+   "too_frequent": false
+  },
+  "live music 2nd time around band|washburn county": {
+   "title": "Live Music: 2nd Time Around Band",
+   "venue": "Wilson's KI Club",
+   "city": "",
+   "area": "Washburn County",
+   "category": "music",
+   "occurrences": {
+    "2027": {
+     "date": "2027-03-20",
+     "title": "Live Music: 2nd Time Around Band",
+     "source_count": 1,
+     "url": "https://www.washburncounty.org/event/live-music%3a-2nd-time-around-band/3661/"
+    }
+   },
+   "too_frequent": false
+  },
+  "st scholastica baseball vs north central university mn|duluth": {
+   "title": "St. Scholastica Baseball vs North Central University (MN)",
+   "venue": "Duluth",
+   "city": "Duluth",
+   "area": "Duluth",
+   "category": "sports-rec",
+   "occurrences": {
+    "2027": {
+     "date": "2027-04-14",
+     "title": "St. Scholastica Baseball vs North Central University (MN)",
+     "source_count": 1,
+     "url": "https://csssaints.com/calendar.aspx?game_id=18110&sport_id=6"
     }
    },
    "too_frequent": false
