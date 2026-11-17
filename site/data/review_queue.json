@@ -1,63 +1,7 @@
 {
-  "generated": "2026-11-16T21:31:39Z",
-  "count": 129,
+  "generated": "2026-11-17T20:24:07Z",
+  "count": 133,
   "events": [
-    {
-      "key": "52b93a1265d79f8e",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/tags/events-up-north"
-        }
-      ],
-      "title": "Conversation Events Up North",
-      "start": "2026-11-16T00:00:00",
-      "end": "2026-11-22T00:00:00",
-      "all_day": true,
-      "venue": "",
-      "city": "Chisholm",
-      "area": "Chisholm",
-      "category": "arts",
-      "price": "",
-      "description": "Conversation Events Up North Nov. 16-22: 'How the Birds Got Their Songs' at regional libraries, 'Brain Train' in Chisholm Events this week include a storytelling event in Baxter, a poetry slam in Bemidji and a presentation on the American Revolution in Grand Rapids.",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/tags/events-up-north"
-      }
-    },
-    {
-      "key": "30f454c01589a7c0",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "BINGO Night at VFW Post 3673",
-      "start": "2026-11-16T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 16 @ 6:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
     {
       "key": "f1193c1a6010aca0",
       "reason": "read from page text",
@@ -143,6 +87,62 @@
       }
     },
     {
+      "key": "ddfc26857ffc4840",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Gather Together Potluck",
+      "start": "2026-11-19T17:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "food-drink",
+      "price": "",
+      "description": "November 19 @ 5:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "efcd9f5ad3900017",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "John Kerns Music: THE LOCKER ROOM",
+      "start": "2026-11-19T18:00:00",
+      "end": "2026-11-19T22:00:00",
+      "all_day": false,
+      "venue": "Block North's Locker room",
+      "city": "Aitkin",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "John Kerns John Kerns is a dynamic musician who brings a fresh and unique approach to live performance. With a deep catalog of original songs and an extensive repertoire of covers, he crafts engaging and immersive musical experiences that keep audiences hooked from start to finish. Using guitar, percussion stomp boxes, looping pedals and a telephone microphone, John layers sounds to create the energy and depth of a full band\u2014all created live on the spot. Whether playing an intimate venue or a festival, Kerns\u2019 music is always inventive and captivating.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "9317f377d0fe0b70",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -168,6 +168,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "2fc271ef360f30aa",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3927985-tcs-presents-indecent-proposal-shotgun-johnny"
+        }
+      ],
+      "title": "TCS Presents: Indecent Proposal, & Shotgun Johnny",
+      "start": "2026-11-20T20:00:00",
+      "end": "2026-11-20T23:59:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Friday, November 20th, Indecent Proposal is bringing the noise back to The Caddy Shack, and this time they're teaming up with **Shotgun Johnny** for a night of LIVE music, cold drinks, and one hell of a good time! If you've been to an Indecent Proposal show, you know what you're getting into. If you haven't? This is your chance to find out.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3927985-tcs-presents-indecent-proposal-shotgun-johnny"
       }
     },
     {
@@ -367,6 +395,34 @@
       }
     },
     {
+      "key": "d48f091d54ad46d9",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Chase Grant",
+      "start": "2026-11-27T18:00:00",
+      "end": "2026-11-27T22:00:00",
+      "all_day": false,
+      "venue": "14 Lakes Brewery",
+      "city": "Crosslake",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Chase Grant solo",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "9e56112b39412071",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -560,34 +616,6 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "8d082bb6b2cefb06",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "apg-wisconsin-events"
-      ],
-      "sources": [
-        {
-          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
-          "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3911083-holiday-bazaar-at-the-northern-great-lakes-visitor-center"
-        }
-      ],
-      "title": "Holiday Bazaar at the Northern Great Lakes Visitor Center",
-      "start": "2026-12-05T10:00:00",
-      "end": "2026-12-05T14:00:00",
-      "all_day": false,
-      "venue": "29270 Co Hwy G",
-      "city": "Ashland",
-      "area": "Hayward",
-      "category": "other",
-      "price": "",
-      "description": "There will be a nice selection of jewelry, holiday decor, woodcrafts, scaves, artwork, home baked goods, locally grown garlic, soaps, candles and much more for your holiday gifts.",
-      "image": "",
-      "source": {
-        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
-        "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3911083-holiday-bazaar-at-the-northern-great-lakes-visitor-center"
       }
     },
     {
@@ -896,34 +924,6 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "c7dde15143f6cd91",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "A Christmas Story",
-      "start": "2026-12-13T14:00:00",
-      "end": "2026-12-13T18:00:00",
-      "all_day": false,
-      "venue": "NorShor Theatre",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
       }
     },
     {
@@ -1683,34 +1683,6 @@
       }
     },
     {
-      "key": "4ec008646cf2b44b",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-08T19:00:00",
-      "end": "2027-01-08T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "ddea38db337a4df4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1963,6 +1935,62 @@
       }
     },
     {
+      "key": "c9351257e506d2f9",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Ski Du Luth",
+      "start": "2027-01-29T17:00:00",
+      "end": "2027-01-31T12:00:00",
+      "all_day": false,
+      "venue": "2940 Seven Bridges Rd",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "The Nordic Spirit is Back! And it's not alone. It's a whole weekend of racing. Three days of stage racing or one stand alone day.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e45995334fabcdbe",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Men's Retreat 2027",
+      "start": "2027-01-30T00:00:00",
+      "end": "2027-01-31T23:59:00",
+      "all_day": true,
+      "venue": "Trinity Woods Catholic Retreat Center",
+      "city": "Trego",
+      "area": "Hayward",
+      "category": "other",
+      "price": "",
+      "description": "Hello! If you or a roommate has called to book your lodging, you may begin registration. If you'd like to pay by check (and avoid the credit card service fee) you'll need to register by phone: (715) 234-5044.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
+      }
+    },
+    {
       "key": "4b31c64a30aff75c",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2016,6 +2044,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "c24f4c072516219c",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com"
+        }
+      ],
+      "title": "Women's Retreat #1 2027",
+      "start": "2027-02-06T00:00:00",
+      "end": "2027-02-07T23:59:00",
+      "all_day": true,
+      "venue": "Trinity Woods Catholic Retreat Center",
+      "city": "Trego",
+      "area": "Hayward",
+      "category": "other",
+      "price": "",
+      "description": "Hello! If you or a roommate has called to book lodging, you may begin registration. If you'd like to pay by check (and avoid the credit card service fee), you'll need to register by phone: (715) 234-5044.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com"
       }
     },
     {
@@ -2291,7 +2347,7 @@
       "area": "Iron Range",
       "category": "music",
       "price": "",
-      "description": "KC and The Sunshine Band formed in 1973 with one single purpose: to create instant happiness through music - and the group has done just that, topping the charts with singles including \u201cGive It Up\u201d, \u201cThat\u2019s the Way (I Like It),\u201d \u201cPlease Don\u2019t Go,\u201d \u201cGet Down Tonight,\u201d \u201cBoogie Shoes\u201d, \u201cI\u2019m Your Boogie Man\u201d and \u201c(Shake, Shake, Shake) Shake Your Booty,\u201d tallying worldwide sales of over 100 million.",
+      "description": "KC and The Sunshine Band live at Black Bear Casino Resort Get 'Feeling You! The 60s' Today! http://hyperurl.co/g6ucaq - iTunes http://hyperurl.co/l2jfml - Amazon Who's music has been featured at EVERY major sporting event in the world including the Super Bowl, World Series, Conference Championships, The NBA, Collegiate Bowl Games National Championship Games, the NASCAR racing Circuit and Championships, The World Cup, The Indianapolis 500, The Kentucky Derby, EVERY Holiday Parade include the famous Macys Thanksgiving Day parade, and the Tournament of Roses Parade, Political Party Conventions\u2026",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2803,6 +2859,34 @@
       }
     },
     {
+      "key": "292678636606bdd0",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Tyler Herwig at Superior Shores Resort",
+      "start": "2027-03-27T17:00:00",
+      "end": "2027-03-27T21:00:00",
+      "all_day": false,
+      "venue": "Superior Shores Resort",
+      "city": "Two Harbors",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "Tyler Herwig is a \"rom-com country\" artist with a No. 1 radio single, two Gold Artist Awards, and nearly 280 shows a year across the Upper Midwest. Live, Tyler performs solo using a loop station, building full band arrangements on the spot until one voice and six strings fill the room in a way that doesn't seem possible. His debut album Songs About Mae and breakthrough single \"First To Be Last\" (190,000+ streams) earned him a CMA Fan X stage spot and nominations from the Josie Music Awards and ISSA Awards. The crowd sings along by the second chorus. Strangers talk to each other.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "1225d0624b9a8a75",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2907,7 +2991,7 @@
       "area": "Iron Range",
       "category": "sports-rec",
       "price": "",
-      "description": "Victory Christian Academy's Victory 5K (http://vcahibbing.com/5k) , a certified and sanctioned race through USATF (https://www.usatf.org/) , is a family-friendly community event with a great course and uplifting atmosphere. We are proud to hold the certification and sanctioning to be able to offer the best race possible for our participants. The community of Hibbing is excited to host this run/walk event once again in 2026. The Victory 5K race will provide chip timing, and each participant registered by Friday, April 10 will be guaranteed a customized bib, shirt, and medal.",
+      "description": "Victory Christian Academy's Victory 5K (http://vcahibbing.com/5k) , a certified and sanctioned race through USATF (https://www.usatf.org/) , is a family-friendly community event with a great course and uplifting atmosphere. We are proud to hold the certification and sanctioning to be able to offer the best race possible for our participants. The community of Hibbing is excited to host this run/walk event once again in 2027. The Victory 5K race will provide chip timing, and each participant registered by Friday, April 2 will be guaranteed a customized bib, shirt, and medal.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -3608,6 +3692,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "Get ready for the ultimate summer running experience at the Pike Lake Races presented by Cirrus\u2014where the miles are epic, the party is electric, and the lakeside vibes are totally worth it. Whether you\u2019re lining up for your first 5K, gunning for a PR, or getting a solid tune-up for your marathon goals, this event has it all. Just minutes from Duluth, Pike Lake delivers rolling hills, unbeatable views, and a finish line celebration straight out of your favorite summer memories.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "be84b142123711e6",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Going Bananas Run - Duluth",
+      "start": "2027-06-05T10:00:00",
+      "end": "2027-06-05T13:00:00",
+      "all_day": false,
+      "venue": "7210 Fremont St",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Get Ready to Go Bananas, Duluth! This isn\u2019t your normal 5K. Actually, it\u2019s not even a 5K. The Going Bananas Run Duluth is a roughly two-mile fun run where hundreds of people take over the streets of Duluth dressed head to toe as bananas. Yes, bananas. Run it. Walk it. Bring the kids. Get a group of friends together. Try to win the whole thing. We really don\u2019t care how you do it. The whole point is to have a ridiculously fun time while raising money for a great local cause.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
