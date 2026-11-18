@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T20:24:07",
+  "generated": "2026-11-18T19:55:07",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1499,7 +1499,7 @@
         "title says \"annual\""
       ],
       "last_date": "2026-11-20",
-      "last_url": "https://www.bayfieldcounty.wi.gov/Calendar.aspx?EID=12563",
+      "last_url": "https://www.bayfieldcounty.wi.gov/m/calendar/event/detail/12563",
       "predicted_next": "2027-11-20",
       "owner_decision": ""
     },
@@ -2060,6 +2060,26 @@
       ],
       "last_date": "2026-12-12",
       "last_url": "https://allevents.in/duluth/old-fashioneds-annual-holiday-party-2026/100002003505973299",
+      "predicted_next": "2027-12-12",
+      "owner_decision": ""
+    },
+    {
+      "key": "tom jerry party|two harbors",
+      "title": "Annual Tom & Jerry Party",
+      "venue": "614 1st Avenue, Two Harbors, MN, United States, Minnesota 55616",
+      "city": "Two Harbors",
+      "area": "Two Harbors",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-12",
+      "last_url": "https://allevents.in/two-harbors/annual-tom-and-jerry-party/200031071797840",
       "predicted_next": "2027-12-12",
       "owner_decision": ""
     },

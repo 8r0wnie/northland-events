@@ -1,33 +1,33 @@
 {
-  "generated": "2026-11-17T20:24:07Z",
-  "count": 133,
+  "generated": "2026-11-18T19:55:06Z",
+  "count": 132,
   "events": [
     {
-      "key": "f1193c1a6010aca0",
+      "key": "63c7433ea8c7c532",
       "reason": "read from page text",
       "source_ids": [
-        "kaxe-events-up-north"
+        "ironwood-theatre"
       ],
       "sources": [
         {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
+          "name": "Historic Ironwood Theatre",
+          "url": "https://www.ironwoodtheatre.net/about-us/latest-news/"
         }
       ],
-      "title": "Iron Range Brain Train",
-      "start": "2026-11-17T10:00:00",
+      "title": "Our Lighting Upgrade Continues",
+      "start": "2026-11-18T00:00:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "venue": "",
-      "city": "Chisholm",
-      "area": "Chisholm",
+      "city": "Ironwood",
+      "area": "Ironwood",
       "category": "community",
       "price": "",
-      "description": "10 a.m.-2 p.m. at Minnesota Discovery Center in Chisholm. Speaker at 11 a.m. with lunch provided.",
+      "description": "November 18, 2026",
       "image": "",
       "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
+        "name": "Historic Ironwood Theatre",
+        "url": "https://www.ironwoodtheatre.net/about-us/latest-news/"
       }
     },
     {
@@ -140,62 +140,6 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "9317f377d0fe0b70",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Ryan & Ryan",
-      "start": "2026-11-20T19:00:00",
-      "end": "2026-11-20T23:00:00",
-      "all_day": false,
-      "venue": "Rock Ridge High School",
-      "city": "Virginia",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "We make Music That Inspires.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "2fc271ef360f30aa",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3927985-tcs-presents-indecent-proposal-shotgun-johnny"
-        }
-      ],
-      "title": "TCS Presents: Indecent Proposal, & Shotgun Johnny",
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T23:59:00",
-      "all_day": false,
-      "venue": "The Caddy Shack Indoor Golf & Pub",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "music",
-      "price": "",
-      "description": "Friday, November 20th, Indecent Proposal is bringing the noise back to The Caddy Shack, and this time they're teaming up with **Shotgun Johnny** for a night of LIVE music, cold drinks, and one hell of a good time! If you've been to an Indecent Proposal show, you know what you're getting into. If you haven't? This is your chance to find out.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3927985-tcs-presents-indecent-proposal-shotgun-johnny"
       }
     },
     {
@@ -1676,6 +1620,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "Continue the tradition \u2013 ride the Norpine Fat Bike Classic in 2027! Experience fat biking on the Norpine Trails in Lutsen. Ride through stands of old growth cedars on Pisten Bully groomed trails while overlooking Lake Superior - winter riding doesn\u2019t get better than this! The Norpine Fat Bike Classic is presented by the Superior Cycling Association with the proceeds going to the Norpine Trail Association and the Superior Cycling Association to assist each organization in maintaining the highest quality trails in Cook County.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4ec008646cf2b44b",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Banff Centre Mountain Film Festival World Tour",
+      "start": "2027-01-08T19:00:00",
+      "end": "2027-01-08T23:00:00",
+      "all_day": false,
+      "venue": "DECC Symphony Hall",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
