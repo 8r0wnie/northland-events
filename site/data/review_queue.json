@@ -1,91 +1,7 @@
 {
-  "generated": "2026-11-18T19:55:06Z",
-  "count": 132,
+  "generated": "2026-11-19T19:57:13Z",
+  "count": 128,
   "events": [
-    {
-      "key": "63c7433ea8c7c532",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-theatre"
-      ],
-      "sources": [
-        {
-          "name": "Historic Ironwood Theatre",
-          "url": "https://www.ironwoodtheatre.net/about-us/latest-news/"
-        }
-      ],
-      "title": "Our Lighting Upgrade Continues",
-      "start": "2026-11-18T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 18, 2026",
-      "image": "",
-      "source": {
-        "name": "Historic Ironwood Theatre",
-        "url": "https://www.ironwoodtheatre.net/about-us/latest-news/"
-      }
-    },
-    {
-      "key": "3543b38fca1f1b73",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
-        }
-      ],
-      "title": "Soup on the Streets",
-      "start": "2026-11-18T15:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Grand Rapids",
-      "area": "Grand Rapids",
-      "category": "community",
-      "price": "",
-      "description": "3 p.m. on the grounds of Old Central School in Grand Rapids",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-12/events-up-north-nov-16-22-how-the-birds-got-their-songs-at-regional-libraries-brain-train-in-chisholm"
-      }
-    },
-    {
-      "key": "3881ef970ab56750",
-      "reason": "read from page text",
-      "source_ids": [
-        "pine-city-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Pine City Area Chamber",
-          "url": "https://pinecitychamber.com/member-news/pathways-after-high-school-presentation-scheduled/"
-        }
-      ],
-      "title": "Pathways After High School Presentation Scheduled",
-      "start": "2026-11-18T16:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Pine City",
-      "area": "Pine City",
-      "category": "education",
-      "price": "",
-      "description": "resentation You are invited to attend a regional presentation of Pathways After High School , the latest comprehensive research study from the Minnesota Center for Rural Policy and Development. Date: Wednesday, November 18 Time: 4:00 p.m. to 5:30 p.m.",
-      "image": "",
-      "source": {
-        "name": "Pine City Area Chamber",
-        "url": "https://pinecitychamber.com/member-news/pathways-after-high-school-presentation-scheduled/"
-      }
-    },
     {
       "key": "ddfc26857ffc4840",
       "reason": "read from page text",
@@ -140,6 +56,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "5e14dd5aabfffd87",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Learn to Play Bridge",
+      "start": "2026-11-20T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "education",
+      "price": "",
+      "description": "November 20 @ 1:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
       }
     },
     {
@@ -1179,34 +1123,6 @@
       }
     },
     {
-      "key": "614aa6d946f83081",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "A Christmas Story - The Musical",
-      "start": "2026-12-20T14:00:00",
-      "end": "2026-12-20T18:00:00",
-      "all_day": false,
-      "venue": "NorShor Theatre",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "holiday",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "395c0d2c5d2a5591",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -1620,34 +1536,6 @@
       "category": "sports-rec",
       "price": "",
       "description": "Continue the tradition \u2013 ride the Norpine Fat Bike Classic in 2027! Experience fat biking on the Norpine Trails in Lutsen. Ride through stands of old growth cedars on Pisten Bully groomed trails while overlooking Lake Superior - winter riding doesn\u2019t get better than this! The Norpine Fat Bike Classic is presented by the Superior Cycling Association with the proceeds going to the Norpine Trail Association and the Superior Cycling Association to assist each organization in maintaining the highest quality trails in Cook County.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "4ec008646cf2b44b",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Banff Centre Mountain Film Festival World Tour",
-      "start": "2027-01-08T19:00:00",
-      "end": "2027-01-08T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "Duluth Cross-Country Ski ClubBANFF CENTER MOUNTAIN FILM FESTIVAL Friday & Saturday, January 8-9th, 2027 Banff Centre Mountain Film Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",

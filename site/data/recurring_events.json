@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T19:55:07",
+  "generated": "2026-11-19T19:57:13",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1624,6 +1624,26 @@
       "owner_decision": ""
     },
     {
+      "key": "friendsgiving feast river s edge saloon|hayward",
+      "title": "4th Annual Friendsgiving Feast @ River's Edge Saloon",
+      "venue": "",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 4,
+      "signal_reasons": [
+        "title says \"4th Annual\""
+      ],
+      "last_date": "2026-11-26",
+      "last_url": "https://www.facebook.com/theriversedgesaloon",
+      "predicted_next": "2027-11-26",
+      "owner_decision": ""
+    },
+    {
       "key": "stone lake holiday market|washburn county",
       "title": "2nd Annual Stone Lake Holiday Market",
       "venue": "Stone Lake Lions Hall",
@@ -1781,6 +1801,26 @@
       "last_date": "2026-11-29",
       "last_url": "https://allevents.in/duluth/annual-international-dinner/200031056309310",
       "predicted_next": "2027-11-29",
+      "owner_decision": ""
+    },
+    {
+      "key": "drumming feast|virginia",
+      "title": "2nd Annual Drumming Celebration Feast",
+      "venue": "111 south 9th Ave West, Va, MN, 55792",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 2,
+      "signal_reasons": [
+        "title says \"2nd Annual\""
+      ],
+      "last_date": "2026-12-02",
+      "last_url": "https://allevents.in/virginia/2nd-annual-drumming-celebration-feast/200031079035225",
+      "predicted_next": "2027-12-02",
       "owner_decision": ""
     },
     {
@@ -1984,6 +2024,26 @@
       "owner_decision": ""
     },
     {
+      "key": "a cane christmas|hayward",
+      "title": "15th Annual \"A Cane Christmas\"",
+      "venue": "10320 N Greenwood Ln, Hayward, WI 54843-7167, United States",
+      "city": "Hayward",
+      "area": "Hayward",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 15,
+      "signal_reasons": [
+        "title says \"15th Annual\""
+      ],
+      "last_date": "2026-12-05",
+      "last_url": "https://allevents.in/hayward/15th-annual-a-cane-christmas/200031081793825",
+      "predicted_next": "2027-12-05",
+      "owner_decision": ""
+    },
+    {
       "key": "wassail bowl|duluth",
       "title": "62nd Annual Wassail Bowl Celebration",
       "venue": "Norton Park United Methodist Church",
@@ -2000,6 +2060,26 @@
       ],
       "last_date": "2026-12-06",
       "last_url": "https://allevents.in/duluth/62nd-annual-wassail-bowl-celebration/200030817440927",
+      "predicted_next": "2027-12-06",
+      "owner_decision": ""
+    },
+    {
+      "key": "boozy bake off|ironwood",
+      "title": "8th Annual Boozy Bake-Off",
+      "venue": "Yukon 51",
+      "city": "Hurley",
+      "area": "Ironwood",
+      "category": "sports-rec",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 8,
+      "signal_reasons": [
+        "title says \"8th Annual\""
+      ],
+      "last_date": "2026-12-06",
+      "last_url": "https://felivelife.org/event/8th-annual-boozy-bake-off/",
       "predicted_next": "2027-12-06",
       "owner_decision": ""
     },
@@ -2081,6 +2161,46 @@
       "last_date": "2026-12-12",
       "last_url": "https://allevents.in/two-harbors/annual-tom-and-jerry-party/200031071797840",
       "predicted_next": "2027-12-12",
+      "owner_decision": ""
+    },
+    {
+      "key": "spartan hockey pancake breakfast|superior",
+      "title": "30th Annual Spartan Hockey Pancake Breakfast",
+      "venue": "2600 Catlin Avenue, Superior, WI, United States, Wisconsin 54880",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "food-drink",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 30,
+      "signal_reasons": [
+        "title says \"30th Annual\""
+      ],
+      "last_date": "2026-12-13",
+      "last_url": "https://allevents.in/superior/30th-annual-spartan-hockey-pancake-breakfast/200031071800051",
+      "predicted_next": "2027-12-13",
+      "owner_decision": ""
+    },
+    {
+      "key": "iron county fire association christmas for kids toy drive|ironwood",
+      "title": "Iron County Fire Association Annual Christmas for Kids Toy Drive",
+      "venue": "Donation Locations",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "holiday",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-14",
+      "last_url": "https://felivelife.org/event/iron-county-fire-association-annual-christmas-for-kids-toy-drive/2026-12-14/",
+      "predicted_next": "2027-12-14",
       "owner_decision": ""
     },
     {
