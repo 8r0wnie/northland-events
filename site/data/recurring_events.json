@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T19:57:13",
+  "generated": "2026-11-20T19:40:10",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -2264,6 +2264,26 @@
       "owner_decision": ""
     },
     {
+      "key": "duluth st louis county at capitol days grand reception|duluth",
+      "title": "30th Annual Duluth & St. Louis County at the Capitol Days - Grand Reception",
+      "venue": "InterContinental St. Paul Riverfront Hotel - Great River Ballroom",
+      "city": "St. Paul",
+      "area": "Duluth",
+      "category": "other",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 30,
+      "signal_reasons": [
+        "title says \"30th Annual\""
+      ],
+      "last_date": "2027-02-03",
+      "last_url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4609/details",
+      "predicted_next": "2028-02-03",
+      "owner_decision": ""
+    },
+    {
       "key": "xc yoga retreat in ely mn|ely",
       "title": "11th Annual XC + Yoga Retreat in Ely, MN",
       "venue": "YMCA Camp du Nord (3606 N Arm Rd, Ely, MN)",
@@ -2280,6 +2300,26 @@
       ],
       "last_date": "2027-02-04",
       "last_url": "https://allevents.in/ely/11th-annual-xc-yoga-retreat-in-ely-mn/200030897136332",
+      "predicted_next": "2028-02-04",
+      "owner_decision": ""
+    },
+    {
+      "key": "duluth st louis county at capitol days legislative breakfast|duluth",
+      "title": "30th Annual Duluth & St. Louis County at the Capitol Days - Legislative Breakfast",
+      "venue": "InterContinental St. Paul Riverfront Hotel",
+      "city": "St. Paul",
+      "area": "Duluth",
+      "category": "other",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 30,
+      "signal_reasons": [
+        "title says \"30th Annual\""
+      ],
+      "last_date": "2027-02-04",
+      "last_url": "https://duluthmncoc.weblinkconnect.com/atlas/events/4612/details",
       "predicted_next": "2028-02-04",
       "owner_decision": ""
     },

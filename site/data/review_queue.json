@@ -1,63 +1,7 @@
 {
-  "generated": "2026-11-19T19:57:13Z",
-  "count": 128,
+  "generated": "2026-11-20T19:40:09Z",
+  "count": 132,
   "events": [
-    {
-      "key": "ddfc26857ffc4840",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Gather Together Potluck",
-      "start": "2026-11-19T17:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "food-drink",
-      "price": "",
-      "description": "November 19 @ 5:00 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "efcd9f5ad3900017",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "John Kerns Music: THE LOCKER ROOM",
-      "start": "2026-11-19T18:00:00",
-      "end": "2026-11-19T22:00:00",
-      "all_day": false,
-      "venue": "Block North's Locker room",
-      "city": "Aitkin",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "John Kerns John Kerns is a dynamic musician who brings a fresh and unique approach to live performance. With a deep catalog of original songs and an extensive repertoire of covers, he crafts engaging and immersive musical experiences that keep audiences hooked from start to finish. Using guitar, percussion stomp boxes, looping pedals and a telephone microphone, John layers sounds to create the energy and depth of a full band\u2014all created live on the spot. Whether playing an intimate venue or a festival, Kerns\u2019 music is always inventive and captivating.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
     {
       "key": "5e14dd5aabfffd87",
       "reason": "read from page text",
@@ -80,6 +24,90 @@
       "category": "education",
       "price": "",
       "description": "November 20 @ 1:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "bd22d2d408710744",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "FREE LIVE MUSIC @ Northern Waters Casino Resort",
+      "start": "2026-11-20T20:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "music",
+      "price": "",
+      "description": "November 20 @ 8:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "589629d784ba6a91",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "26th Annual Hurley Craft Fair",
+      "start": "2026-11-21T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "arts",
+      "price": "",
+      "description": "November 21 @ 9:00 am",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "8135379eb174eb27",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Craft & Vendor Fair Fundraiser",
+      "start": "2026-11-21T09:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 21 @ 9:00 am",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -143,6 +171,34 @@
       }
     },
     {
+      "key": "541738c500059282",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Ladd Benefit Dinner",
+      "start": "2026-11-21T14:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "food-drink",
+      "price": "",
+      "description": "November 21 @ 2:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
       "key": "2c40fae19ca36151",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -168,6 +224,34 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "e4753eafacb8503a",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: The Hot Club of Duluth",
+      "start": "2026-11-21T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 21 @ 7:00 PM \u2013 9:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
       }
     },
     {
@@ -280,6 +364,90 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "469337abe2407d0f",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/tags/events-up-north"
+        }
+      ],
+      "title": "Holiday lights and parades Events this week include holiday events in Hibbing",
+      "start": "2026-11-23T00:00:00",
+      "end": "2026-11-28T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "price": "",
+      "description": "Conversation Events Up North Nov. 23-28: Holiday lights and parades Events this week include holiday events in Hibbing, Nisswa, Walker, Bemidji, Grand Rapids and Baxter.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
+      "key": "cb907ed9babf58c1",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-19/events-up-north-nov-23-28-holiday-lights-and-parades"
+        }
+      ],
+      "title": "Full moon hike",
+      "start": "2026-11-24T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Cohasset",
+      "area": "Cohasset",
+      "category": "sports-rec",
+      "price": "",
+      "description": "7 p.m. at the Clay Boswell boat landing in Cohasset",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-19/events-up-north-nov-23-28-holiday-lights-and-parades"
+      }
+    },
+    {
+      "key": "8b616df48bfcaeb0",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Hannah Rey",
+      "start": "2026-11-25T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 25 @ 6:00 PM \u2013 8:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
       }
     },
     {
@@ -507,6 +675,34 @@
       }
     },
     {
+      "key": "79d51bcc3ef39329",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3934874-tcs-presents-crimson-soul-foosball-ruckus-the-draco-volans"
+        }
+      ],
+      "title": "TCS Presents: Crimson Soul, Foosball Ruckus, & The Draco Volans",
+      "start": "2026-12-04T20:00:00",
+      "end": "2026-12-04T23:59:00",
+      "all_day": false,
+      "venue": "The Caddy Shack Indoor Golf & Pub",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "music",
+      "price": "",
+      "description": "Crimson Soul takes back over the stage Friday December 4th, joined by Foosball Ruckus & The Draco Volans \ud83c\udfb8",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3934874-tcs-presents-crimson-soul-foosball-ruckus-the-draco-volans"
+      }
+    },
+    {
       "key": "69aeb44dbd7cfa3a",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -722,34 +918,6 @@
       "city": "Duluth",
       "area": "Iron Range",
       "category": "arts",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "184d5288e1b06183",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Kenai River Brown Bears at Minnesota Wilderness",
-      "start": "2026-12-12T19:15:00",
-      "end": "2026-12-12T23:15:00",
-      "all_day": false,
-      "venue": "Northwoods Credit Union Arena",
-      "city": "Cloquet",
-      "area": "Iron Range",
-      "category": "other",
       "price": "",
       "description": "",
       "image": "",
@@ -980,34 +1148,6 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "4a7b0baae281efa9",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3920369-twin-ports-comedy-funniest-person-in-the-twin-ports-contest-grand-final"
-        }
-      ],
-      "title": "Twin Ports Comedy: Funniest Person In The Twin Ports Contest | Grand Final",
-      "start": "2026-12-19T19:00:00",
-      "end": "2026-12-19T21:00:00",
-      "all_day": false,
-      "venue": "The Caddy Shack Indoor Golf & Pub",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "arts",
-      "price": "",
-      "description": "It's the third annual Funniest Person in the Twin Ports Contest Grand Final! See which ones of our seven finalists will take home the Golden Microphone! Featuring: \u00b7 Headliner: Brekken Thompson \u00b7 Henry Kneiszel \u00b7 Jackson Johnson \u00b7 Justin Rademacher \u00b7 Atul Patel \u00b7 Anthony Kulisek \u00b7 Scott Brady \u00b7 Erika Bang Tickets available here: https://www.twinportscomedy.com/.../3rd-annual-funniest...",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events/?_evDiscoveryPath=/event/3920369-twin-ports-comedy-funniest-person-in-the-twin-ports-contest-grand-final"
       }
     },
     {
@@ -1368,34 +1508,6 @@
       "category": "arts",
       "price": "",
       "description": "Andrew Crowley on the piano Andrew Crowley is a Twin Cities-based musician, composer, and audio engineer with a dynamic career spanning from major label rock stages to the baseball diamond. A certified Hammond Organ artist who studied through the Berklee School of Music, Andrew can often be found during the summer serving as the Musical Director and ballpark organist for the Saint Paul Saints, delivering live musical energy and stadium-sized sound at CHS Field.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "c6a7246f4370ddd6",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Kenai River Brown Bears at Minnesota Wilderness",
-      "start": "2027-01-02T19:15:00",
-      "end": "2027-01-02T23:15:00",
-      "all_day": false,
-      "venue": "Northwoods Credit Union Arena",
-      "city": "Cloquet",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
