@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T19:40:10",
+  "generated": "2026-11-21T18:30:23",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1404,46 +1404,6 @@
       "owner_decision": ""
     },
     {
-      "key": "trego hometown holiday|washburn county",
-      "title": "3rd Annual Trego Hometown Holiday",
-      "venue": "Trego Area Businesses",
-      "city": "",
-      "area": "Washburn County",
-      "category": "community",
-      "years_seen": [
-        "2026"
-      ],
-      "occurrence_count": 1,
-      "claimed_annual_number": 3,
-      "signal_reasons": [
-        "title says \"3rd Annual\""
-      ],
-      "last_date": "2026-11-20",
-      "last_url": "https://www.washburncounty.org/event/3rd-annual-trego-hometown-holiday/3055/",
-      "predicted_next": "2027-11-20",
-      "owner_decision": ""
-    },
-    {
-      "key": "handmade holiday craft show|washburn county",
-      "title": "3rd Annual Handmade Holiday Craft Show",
-      "venue": "Trego Town Hall; 172 Bites & Brews; Round Man Brewing & Smokehouse Weight Room",
-      "city": "",
-      "area": "Washburn County",
-      "category": "community",
-      "years_seen": [
-        "2026"
-      ],
-      "occurrence_count": 1,
-      "claimed_annual_number": 3,
-      "signal_reasons": [
-        "title says \"3rd Annual\""
-      ],
-      "last_date": "2026-11-20",
-      "last_url": "https://www.washburncounty.org/event/3rd-annual-handmade-holiday-craft-show/3641/",
-      "predicted_next": "2027-11-20",
-      "owner_decision": ""
-    },
-    {
       "key": "hunters craft bake sale|washburn county",
       "title": "5th Annual Hunters Craft & Bake Sale",
       "venue": "Dove Healthcare Business Center",
@@ -1504,6 +1464,26 @@
       "owner_decision": ""
     },
     {
+      "key": "trego hometown holiday|washburn county",
+      "title": "3rd Annual Trego Hometown Holiday",
+      "venue": "Trego Area Businesses",
+      "city": "",
+      "area": "Washburn County",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://www.washburncounty.org/event/3rd-annual-trego-hometown-holiday/3055/",
+      "predicted_next": "2027-11-21",
+      "owner_decision": ""
+    },
+    {
       "key": "hurley craft fair|ironwood",
       "title": "26th Annual Hurley Craft Fair",
       "venue": "Hurley K-12 School",
@@ -1520,6 +1500,26 @@
       ],
       "last_date": "2026-11-21",
       "last_url": "https://felivelife.org/event/26th-annual-hurley-craft-fair/",
+      "predicted_next": "2027-11-21",
+      "owner_decision": ""
+    },
+    {
+      "key": "handmade holiday craft show|washburn county",
+      "title": "3rd Annual Handmade Holiday Craft Show",
+      "venue": "Trego Town Hall; 172 Bites & Brews; Round Man Brewing & Smokehouse Weight Room",
+      "city": "",
+      "area": "Washburn County",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-11-21",
+      "last_url": "https://www.washburncounty.org/event/3rd-annual-handmade-holiday-craft-show/3641/",
       "predicted_next": "2027-11-21",
       "owner_decision": ""
     },
@@ -2084,6 +2084,26 @@
       "owner_decision": ""
     },
     {
+      "key": "toy drive|cloquet",
+      "title": "Annual Toy Drive",
+      "venue": "FDL Gas & Grocery",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-12-07",
+      "last_url": "https://fdlband.org/calendar.php",
+      "predicted_next": "2027-12-07",
+      "owner_decision": ""
+    },
+    {
       "key": "hinckley chamber christmas banquet|hinckley",
       "title": "Hinckley Chamber Christmas Celebration & Annual Banquet",
       "venue": "404 Fire Monument Rd, Hinckley, MN 55037-8336, United States",
@@ -2120,6 +2140,26 @@
       ],
       "last_date": "2026-12-11",
       "last_url": "https://allevents.in/hayward/christmas-the-park-3rd-annual-holiday-music-show/200030678908835",
+      "predicted_next": "2027-12-11",
+      "owner_decision": ""
+    },
+    {
+      "key": "toys for tots collection party|superior",
+      "title": "10th annual Toys for Tots collection Party",
+      "venue": "Aces On Twentyninth",
+      "city": "Superior",
+      "area": "Superior",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 10,
+      "signal_reasons": [
+        "title says \"10th annual\""
+      ],
+      "last_date": "2026-12-11",
+      "last_url": "https://allevents.in/superior/10th-annual-toys-for-tots-collection-party/200031084981720",
       "predicted_next": "2027-12-11",
       "owner_decision": ""
     },
@@ -2221,6 +2261,26 @@
       "last_date": "2026-12-15",
       "last_url": "https://allevents.in/duluth/the-44th-annual-messiah-singalong/200030746760343",
       "predicted_next": "2027-12-15",
+      "owner_decision": ""
+    },
+    {
+      "key": "cookie buffet|moose lake",
+      "title": "3rd Annual Cookie Buffet",
+      "venue": "The Lakehaus Gifts and Goods",
+      "city": "Moose Lake",
+      "area": "Moose Lake",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 3,
+      "signal_reasons": [
+        "title says \"3rd Annual\""
+      ],
+      "last_date": "2026-12-19",
+      "last_url": "https://allevents.in/moose-lake/3rd-annual-cookie-buffet/200031091943223",
+      "predicted_next": "2027-12-19",
       "owner_decision": ""
     },
     {
