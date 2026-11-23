@@ -1,91 +1,7 @@
 {
-  "generated": "2026-11-22T19:02:11Z",
+  "generated": "2026-11-23T23:09:59Z",
   "count": 124,
   "events": [
-    {
-      "key": "732d66894bf0ce82",
-      "reason": "read from page text",
-      "source_ids": [
-        "hoyt-lakes-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Hoyt Lakes",
-          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-        }
-      ],
-      "title": "CALENDAR PARKING REGULATIONS",
-      "start": "2026-11-22T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Hoyt Lakes",
-      "area": "Hoyt Lakes",
-      "category": "community",
-      "price": "",
-      "description": "Calendar Parking for November & December: November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even December 6 - Odd December 13 - Even December 20 - Odd December 27\u2026",
-      "image": "",
-      "source": {
-        "name": "City of Hoyt Lakes",
-        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "1e75baf8c064a75e",
-      "reason": "read from page text",
-      "source_ids": [
-        "hoyt-lakes-mn"
-      ],
-      "sources": [
-        {
-          "name": "City of Hoyt Lakes",
-          "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-        }
-      ],
-      "title": "Odd November 29",
-      "start": "2026-11-22T00:00:00",
-      "end": null,
-      "all_day": true,
-      "venue": "",
-      "city": "Hoyt Lakes",
-      "area": "Hoyt Lakes",
-      "category": "community",
-      "price": "",
-      "description": "November 1 - Even November 8 - Odd November 15 - Even November 22 - Odd November 29 - Even",
-      "image": "",
-      "source": {
-        "name": "City of Hoyt Lakes",
-        "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
-      }
-    },
-    {
-      "key": "cb6649615d6f0d5a",
-      "reason": "read from page text",
-      "source_ids": [
-        "ursa-minor"
-      ],
-      "sources": [
-        {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
-        }
-      ],
-      "title": "Live: Ross Thorn",
-      "start": "2026-11-22T13:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "November 22 @ 1:00 PM \u2013 3:00 PM",
-      "image": "",
-      "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
-      }
-    },
     {
       "key": "469337abe2407d0f",
       "reason": "read from page text",
@@ -115,6 +31,34 @@
       }
     },
     {
+      "key": "ebd81ce74f3b2f5f",
+      "reason": "read from page text",
+      "source_ids": [
+        "sandstone-mn"
+      ],
+      "sources": [
+        {
+          "name": "City of Sandstone",
+          "url": "https://sandstone.govoffice.com/news"
+        }
+      ],
+      "title": "DEPUTY CLERK/FINANCE - FULL TIME POSITION",
+      "start": "2026-11-23T00:00:00",
+      "end": null,
+      "all_day": true,
+      "venue": "",
+      "city": "Sandstone",
+      "area": "Sandstone",
+      "category": "community",
+      "price": "",
+      "description": "Monday, November 23, 2026",
+      "image": "",
+      "source": {
+        "name": "City of Sandstone",
+        "url": "https://sandstone.govoffice.com/news"
+      }
+    },
+    {
       "key": "db88291cb370d33a",
       "reason": "read from page text",
       "source_ids": [
@@ -136,6 +80,34 @@
       "category": "community",
       "price": "",
       "description": "November 23 @ 6:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "a8efb16acfbdb914",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Music Bingo",
+      "start": "2026-11-24T18:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "price": "",
+      "description": "November 24 @ 6:30 pm",
       "image": "",
       "source": {
         "name": "Ironwood Area Chamber",
@@ -504,6 +476,34 @@
       "source": {
         "name": "City of Hoyt Lakes",
         "url": "https://hoytlakesmn.gov/html/city-departments/calendar-parking.html"
+      }
+    },
+    {
+      "key": "13f024c90afa6114",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3937448-104th-community-christmas-concert"
+        }
+      ],
+      "title": "104th Community Christmas Concert",
+      "start": "2026-12-06T16:00:00",
+      "end": "2026-12-06T17:30:00",
+      "all_day": false,
+      "venue": "Presbyterian Congregational Church",
+      "city": "Ashland",
+      "area": "Hayward",
+      "category": "holiday",
+      "price": "",
+      "description": "This 104th Community Christmas Concert features area choirs and musicians ushering in the Advent Season. Come early and hear the Saron Bells warm up. The mass choir will again conclude the concert with the singing of Beautiful Savior and the Hallelujah Chorus. This concert is free and open to the public.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3937448-104th-community-christmas-concert"
       }
     },
     {
@@ -1487,6 +1487,34 @@
       }
     },
     {
+      "key": "93c26b2fc881af2e",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Nordic North Stars - Winter 2027",
+      "start": "2027-01-11T16:00:00",
+      "end": "2027-03-10T17:30:00",
+      "all_day": false,
+      "venue": "P.O. Box 3315",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Nordic North Stars - Winter 2027 Developing young athletes through fitness and fun. This is our 14th season of Nordic North Stars. Monday Winter 2027 sessions start January 11th and goes until the snow is gone, usually around mid-March. Wednesday sessions start on January 113th. Mondays - Ages 7 to 14 years old and Wednesdays - Ages 10 to 14 years old. More information and minimum requirements can be found on our website: www.nordicnorthstars.com If you have a question about age and ability, please contact us.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "968ada3d2b63d7ed",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2159,34 +2187,6 @@
       }
     },
     {
-      "key": "a0eeda869077925e",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "Conner Smith",
-      "start": "2027-02-21T19:00:00",
-      "end": "2027-02-21T23:00:00",
-      "all_day": false,
-      "venue": "DECC Symphony Hall",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "other",
-      "price": "",
-      "description": "",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
       "key": "2bde129ecec5ebe4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2761,34 +2761,6 @@
       "title": "World Championship: Finland vs. Belarus",
       "start": "2027-04-22T11:00:00",
       "end": "2027-04-22T15:00:00",
-      "all_day": false,
-      "venue": "AMSOIL Arena",
-      "city": "Duluth",
-      "area": "Iron Range",
-      "category": "sports-rec",
-      "price": "",
-      "description": "Ticketing Info: If you are interested in Game Package deals, All Games are General Admission - see map for details on seating. Wednesday, April 21st 2027 - Sweden vs. Latvia 11:00am Belarus vs. Czechia 3:00pm USA vs. Norway 7:00pm Thursday, April 22nd 2027 - Finland vs. Belarus 11:00am Denmark vs. Norway 3:00pm Canada vs. Slovakia 7:00pm Friday, April 23rd 2027 - Czechia vs. Finland 11:00am Sweden vs. Denmark 3:00pm Latvia vs. USA 7:00pm Saturday, April 24th 2027 - Slovakia vs. Czechia 11:00am Canada vs. Belarus 3:00pm USA vs. Sweden 7:00pm Sunday, April 25th 2027 - Norway vs.",
-      "image": "",
-      "source": {
-        "name": "Mesabi Tribune Local Events (evvnt)",
-        "url": "https://www.mesabitribune.com/local-events"
-      }
-    },
-    {
-      "key": "ae7eca51540b647c",
-      "reason": "single source, not yet corroborated",
-      "source_ids": [
-        "mesabi-tribune-events"
-      ],
-      "sources": [
-        {
-          "name": "Mesabi Tribune Local Events (evvnt)",
-          "url": "https://www.mesabitribune.com/local-events"
-        }
-      ],
-      "title": "World Championship: Denmark vs. Norway",
-      "start": "2027-04-22T15:00:00",
-      "end": "2027-04-22T19:00:00",
       "all_day": false,
       "venue": "AMSOIL Arena",
       "city": "Duluth",
@@ -3468,6 +3440,34 @@
       "category": "sports-rec",
       "price": "",
       "description": "Get Ready to Go Bananas, Duluth! This isn\u2019t your normal 5K. Actually, it\u2019s not even a 5K. The Going Bananas Run Duluth is a roughly two-mile fun run where hundreds of people take over the streets of Duluth dressed head to toe as bananas. Yes, bananas. Run it. Walk it. Bring the kids. Get a group of friends together. Try to win the whole thing. We really don\u2019t care how you do it. The whole point is to have a ridiculously fun time while raising money for a great local cause.",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "3f7bd2a7c19370d3",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "2027 Women in Theatre, New Play Festival",
+      "start": "2027-06-11T19:30:00",
+      "end": "2027-06-11T23:30:00",
+      "all_day": false,
+      "venue": "NorShor Theatre",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
+      "price": "",
+      "description": "",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
