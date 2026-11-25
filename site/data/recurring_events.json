@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T21:51:10",
+  "generated": "2026-11-25T20:55:57",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1804,6 +1804,26 @@
       "owner_decision": ""
     },
     {
+      "key": "meeting and natural world trivia|duluth",
+      "title": "Annual meeting and natural world trivia!",
+      "venue": "Dovetail Cafe & Marketplace",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-29",
+      "last_url": "https://allevents.in/duluth/annual-meeting-and-natural-world-trivia/200031112176420",
+      "predicted_next": "2027-11-29",
+      "owner_decision": ""
+    },
+    {
       "key": "drumming feast|virginia",
       "title": "2nd Annual Drumming Celebration Feast",
       "venue": "111 south 9th Ave West, Va, MN, 55792",
@@ -2300,6 +2320,26 @@
       ],
       "last_date": "2026-12-20",
       "last_url": "https://allevents.in/superior/annual-winter-solstice-hot-cocoa-yoga/200030732453343",
+      "predicted_next": "2027-12-20",
+      "owner_decision": ""
+    },
+    {
+      "key": "yuletide drawl ward event at iron house|hibbing",
+      "title": "Yuletide Drawl - 4th Annual WARD Event at The Iron House",
+      "venue": "112 Howard St, Hibbing, MN, United States, Minnesota 55746",
+      "city": "Hibbing",
+      "area": "Hibbing",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 4,
+      "signal_reasons": [
+        "title says \"4th Annual\""
+      ],
+      "last_date": "2026-12-20",
+      "last_url": "https://allevents.in/hibbing/yuletide-drawl-4th-annual-ward-event-at-the-iron-house/200031121029136",
       "predicted_next": "2027-12-20",
       "owner_decision": ""
     },

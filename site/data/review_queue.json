@@ -1,91 +1,7 @@
 {
-  "generated": "2026-11-24T21:51:10Z",
-  "count": 125,
+  "generated": "2026-11-25T20:55:56Z",
+  "count": 141,
   "events": [
-    {
-      "key": "a8efb16acfbdb914",
-      "reason": "read from page text",
-      "source_ids": [
-        "ironwood-chamber"
-      ],
-      "sources": [
-        {
-          "name": "Ironwood Area Chamber",
-          "url": "https://www.ironwoodchamber.org"
-        }
-      ],
-      "title": "Music Bingo",
-      "start": "2026-11-24T18:30:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Ironwood",
-      "area": "Ironwood",
-      "category": "community",
-      "price": "",
-      "description": "November 24 @ 6:30 pm",
-      "image": "",
-      "source": {
-        "name": "Ironwood Area Chamber",
-        "url": "https://www.ironwoodchamber.org"
-      }
-    },
-    {
-      "key": "cb907ed9babf58c1",
-      "reason": "read from page text",
-      "source_ids": [
-        "kaxe-events-up-north"
-      ],
-      "sources": [
-        {
-          "name": "KAXE Events Up North (weekly roundup)",
-          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-19/events-up-north-nov-23-28-holiday-lights-and-parades"
-        }
-      ],
-      "title": "Full moon hike",
-      "start": "2026-11-24T19:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Cohasset",
-      "area": "Cohasset",
-      "category": "sports-rec",
-      "price": "",
-      "description": "7 p.m. at the Clay Boswell boat landing in Cohasset",
-      "image": "",
-      "source": {
-        "name": "KAXE Events Up North (weekly roundup)",
-        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-19/events-up-north-nov-23-28-holiday-lights-and-parades"
-      }
-    },
-    {
-      "key": "8b616df48bfcaeb0",
-      "reason": "read from page text",
-      "source_ids": [
-        "ursa-minor"
-      ],
-      "sources": [
-        {
-          "name": "Ursa Minor Brewing",
-          "url": "https://ursaminorbrewing.com/events/"
-        }
-      ],
-      "title": "Live: Hannah Rey",
-      "start": "2026-11-25T18:00:00",
-      "end": null,
-      "all_day": false,
-      "venue": "",
-      "city": "Duluth",
-      "area": "Duluth",
-      "category": "community",
-      "price": "",
-      "description": "November 25 @ 6:00 PM \u2013 8:00 PM",
-      "image": "",
-      "source": {
-        "name": "Ursa Minor Brewing",
-        "url": "https://ursaminorbrewing.com/events/"
-      }
-    },
     {
       "key": "d1592b7cdf6a6505",
       "reason": "read from page text",
@@ -171,6 +87,34 @@
       }
     },
     {
+      "key": "ecf10d96da5265ba",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Bingo Night!",
+      "start": "2026-11-27T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 27 @ 7:00 PM \u2013 9:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
       "key": "93f88cc64297ae04",
       "reason": "read from page text",
       "source_ids": [
@@ -224,6 +168,90 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "984d4cdbd224c9c8",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Between Howls",
+      "start": "2026-11-28T11:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "November 28 @ 11:00 AM \u2013 4:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "e9f7d59080094b4c",
+      "reason": "read from page text",
+      "source_ids": [
+        "ironwood-chamber"
+      ],
+      "sources": [
+        {
+          "name": "Ironwood Area Chamber",
+          "url": "https://www.ironwoodchamber.org"
+        }
+      ],
+      "title": "Board Game Event",
+      "start": "2026-11-28T12:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "sports-rec",
+      "price": "",
+      "description": "November 28 @ 12:00 pm",
+      "image": "",
+      "source": {
+        "name": "Ironwood Area Chamber",
+        "url": "https://www.ironwoodchamber.org"
+      }
+    },
+    {
+      "key": "d0e44d5abd6443f1",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Christmas Tree Pop-Up with Hoffbauer Tree Farm",
+      "start": "2026-11-28T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "holiday",
+      "price": "",
+      "description": "November 28 @ 7:00 PM \u2013 9:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
       }
     },
     {
@@ -311,6 +339,118 @@
       }
     },
     {
+      "key": "436aa1acca20333a",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/tags/events-up-north"
+        }
+      ],
+      "title": "Conversation Events Up North",
+      "start": "2026-12-01T00:00:00",
+      "end": "2026-12-06T00:00:00",
+      "all_day": true,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "sports-rec",
+      "price": "",
+      "description": "Conversation Events Up North Dec. 1-6: Holiday crafts and 'The Play That Goes Wrong' in Virginia Events this week include a ski swap in Grand Rapids and a grand opening of a new art space in Hibbing.",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/tags/events-up-north"
+      }
+    },
+    {
+      "key": "edc3dd244d1381f5",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "Parkinson's disease support group",
+      "start": "2026-12-01T13:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "community",
+      "price": "",
+      "description": "1 p.m. at Central Square Mall meeting room in Grand Rapids",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
+      "key": "1ff6cde2ce91c6d6",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "Live: Adam Moe",
+      "start": "2026-12-02T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "December 2 @ 6:00 PM \u2013 8:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "727fa520ffc3da23",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "The Play That Goes Wrong",
+      "start": "2026-12-02T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "7 p.m. at Minnesota North College in Virginia. Tickets",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
       "key": "c004f32a19f012a1",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -336,6 +476,62 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "8202bf589e66f187",
+      "reason": "read from page text",
+      "source_ids": [
+        "ursa-minor"
+      ],
+      "sources": [
+        {
+          "name": "Ursa Minor Brewing",
+          "url": "https://ursaminorbrewing.com/events/"
+        }
+      ],
+      "title": "General Knowledge Trivia Night!",
+      "start": "2026-12-03T18:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "community",
+      "price": "",
+      "description": "December 3 @ 6:00 PM \u2013 8:00 PM",
+      "image": "",
+      "source": {
+        "name": "Ursa Minor Brewing",
+        "url": "https://ursaminorbrewing.com/events/"
+      }
+    },
+    {
+      "key": "d04959ecb5e6948d",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "The Play That Goes Wrong",
+      "start": "2026-12-03T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "7 p.m. at Minnesota North College in Virginia. Tickets",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
       }
     },
     {
@@ -367,6 +563,34 @@
       }
     },
     {
+      "key": "42bf0b2bc45a0d9c",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "Cross-country ski swap",
+      "start": "2026-12-04T16:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Grand Rapids",
+      "area": "Grand Rapids",
+      "category": "sports-rec",
+      "price": "",
+      "description": "4-6 p.m. at Ardent Bicycles in Grand Rapids. Hosted by Northern Lights Nordic Ski Club .",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
       "key": "b9b8db74ec13f6e4",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -392,6 +616,118 @@
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
         "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "4f90fc4e76b30038",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "Burger Night",
+      "start": "2026-12-04T17:30:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Eveleth",
+      "area": "Eveleth",
+      "category": "community",
+      "price": "",
+      "description": "5:30-8 p.m. at Curl Mesabi in Eveleth",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
+      "key": "54341b8aab308667",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "The Play That Goes Wrong",
+      "start": "2026-12-04T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "7 p.m. at Minnesota North College in Virginia. Tickets",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
+      "key": "63a241dce5a6b322",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "Santa Paws",
+      "start": "2026-12-05T10:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Cohasset",
+      "area": "Cohasset",
+      "category": "holiday",
+      "price": "",
+      "description": "10 a.m.-2 p.m. at Great Tails Animal Rescue in Cohasset",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
+      "key": "82079cc17e2a1a3e",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "The Play That Goes Wrong",
+      "start": "2026-12-05T19:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "7 p.m. at Minnesota North College in Virginia. Tickets",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
       }
     },
     {
@@ -479,6 +815,34 @@
       }
     },
     {
+      "key": "bbb09ba05aec6b1c",
+      "reason": "read from page text",
+      "source_ids": [
+        "kaxe-events-up-north"
+      ],
+      "sources": [
+        {
+          "name": "KAXE Events Up North (weekly roundup)",
+          "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+        }
+      ],
+      "title": "The Play That Goes Wrong",
+      "start": "2026-12-06T14:00:00",
+      "end": null,
+      "all_day": false,
+      "venue": "",
+      "city": "Virginia",
+      "area": "Virginia",
+      "category": "community",
+      "price": "",
+      "description": "2 p.m. at Minnesota North College in Virginia. Tickets",
+      "image": "",
+      "source": {
+        "name": "KAXE Events Up North (weekly roundup)",
+        "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-11-25/events-up-north-dec-1-6-holiday-crafts-and-the-play-that-goes-wrong-in-virginia"
+      }
+    },
+    {
       "key": "13f024c90afa6114",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -504,6 +868,34 @@
       "source": {
         "name": "Adams Publishing Wisconsin Local Events (evvnt)",
         "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3937448-104th-community-christmas-concert"
+      }
+    },
+    {
+      "key": "6855cceeb1b92985",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "apg-wisconsin-events"
+      ],
+      "sources": [
+        {
+          "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+          "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3941318-winter-day-of-caring-holiday-concert-and-sing-along-with-back-door-band"
+        }
+      ],
+      "title": "Winter Day of Caring Holiday Concert and Sing Along with Back Door Band",
+      "start": "2026-12-09T15:30:00",
+      "end": "2026-12-09T16:30:00",
+      "all_day": false,
+      "venue": "Presbyterian Congregational Church",
+      "city": "Ashland",
+      "area": "Hayward",
+      "category": "holiday",
+      "price": "",
+      "description": "Bring in the holiday season with music and song. Lyric sheets will be provided and and ASL interpreter for part of the program.",
+      "image": "",
+      "source": {
+        "name": "Adams Publishing Wisconsin Local Events (evvnt)",
+        "url": "https://www.apg-wi.com/ashland_daily_press/local-events/?_evDiscoveryPath=/event/3941318-winter-day-of-caring-holiday-concert-and-sing-along-with-back-door-band"
       }
     },
     {
@@ -1767,6 +2159,34 @@
       }
     },
     {
+      "key": "26a6fe6f61389cd7",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "Cirque Alice",
+      "start": "2027-02-04T19:30:00",
+      "end": "2027-02-04T23:30:00",
+      "all_day": false,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "other",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
       "key": "a1a6ee6525030e01",
       "reason": "single source, not yet corroborated",
       "source_ids": [
@@ -2095,7 +2515,7 @@
       "area": "Iron Range",
       "category": "music",
       "price": "",
-      "description": "KC and The Sunshine Band live at Black Bear Casino Resort Get 'Feeling You! The 60s' Today! http://hyperurl.co/g6ucaq - iTunes http://hyperurl.co/l2jfml - Amazon Who's music has been featured at EVERY major sporting event in the world including the Super Bowl, World Series, Conference Championships, The NBA, Collegiate Bowl Games National Championship Games, the NASCAR racing Circuit and Championships, The World Cup, The Indianapolis 500, The Kentucky Derby, EVERY Holiday Parade include the famous Macys Thanksgiving Day parade, and the Tournament of Roses Parade, Political Party Conventions\u2026",
+      "description": "KC and The Sunshine Band formed in 1973 with one single purpose: to create instant happiness through music - and the group has done just that, topping the charts with singles including \u201cGive It Up\u201d, \u201cThat\u2019s the Way (I Like It),\u201d \u201cPlease Don\u2019t Go,\u201d \u201cGet Down Tonight,\u201d \u201cBoogie Shoes\u201d, \u201cI\u2019m Your Boogie Man\u201d and \u201c(Shake, Shake, Shake) Shake Your Booty,\u201d tallying worldwide sales of over 100 million.",
       "image": "",
       "source": {
         "name": "Mesabi Tribune Local Events (evvnt)",
@@ -2766,6 +3186,34 @@
       "city": "Duluth",
       "area": "Iron Range",
       "category": "sports-rec",
+      "price": "",
+      "description": "",
+      "image": "",
+      "source": {
+        "name": "Mesabi Tribune Local Events (evvnt)",
+        "url": "https://www.mesabitribune.com/local-events"
+      }
+    },
+    {
+      "key": "03f75435d9a4a5ed",
+      "reason": "single source, not yet corroborated",
+      "source_ids": [
+        "mesabi-tribune-events"
+      ],
+      "sources": [
+        {
+          "name": "Mesabi Tribune Local Events (evvnt)",
+          "url": "https://www.mesabitribune.com/local-events"
+        }
+      ],
+      "title": "A Beautiful Noise - The Neil Diamond Musical",
+      "start": "2027-04-22T19:30:00",
+      "end": "2027-04-22T23:30:00",
+      "all_day": false,
+      "venue": "Duluth Entertainment Convention Center",
+      "city": "Duluth",
+      "area": "Iron Range",
+      "category": "arts",
       "price": "",
       "description": "",
       "image": "",
