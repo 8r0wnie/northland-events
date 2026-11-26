@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T20:55:57",
+  "generated": "2026-11-26T20:45:44",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -1644,6 +1644,26 @@
       "owner_decision": ""
     },
     {
+      "key": "gift card sale|ironwood",
+      "title": "Annual Gift Card Sale",
+      "venue": "517 E. Cloverland Drive, Ironwood, MI",
+      "city": "Ironwood",
+      "area": "Ironwood",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2026-11-27",
+      "last_url": "https://allevents.in/ironwood/annual-gift-card-sale/200031142323256",
+      "predicted_next": "2027-11-27",
+      "owner_decision": ""
+    },
+    {
       "key": "stone lake holiday market|washburn county",
       "title": "2nd Annual Stone Lake Holiday Market",
       "venue": "Stone Lake Lions Hall",
@@ -2344,6 +2364,26 @@
       "owner_decision": ""
     },
     {
+      "key": "salmela sisters winter cabaret|duluth",
+      "title": "4th Annual Salmela Sisters' Winter Cabaret",
+      "venue": "Zeitgeist Teatro",
+      "city": "Duluth",
+      "area": "Duluth",
+      "category": "arts",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 4,
+      "signal_reasons": [
+        "title says \"4th Annual\""
+      ],
+      "last_date": "2026-12-22",
+      "last_url": "https://tickets.zeitgeistarts.com/websales/pages/info.aspx?evtinfo=978567~0ed0cf19-bf04-4da7-a1c7-b4f88121587d&",
+      "predicted_next": "2027-12-22",
+      "owner_decision": ""
+    },
+    {
       "key": "nlaa s nye gala and concert ft irene hartfield and chickadee dee dees|ely",
       "title": "NLAA's Annual NYE Gala and Concert ft. Irene Hartfield and the Chickadee-Dee-Dees",
       "venue": "Ely's Historic State Theater",
@@ -2521,6 +2561,26 @@
       "last_date": "2027-04-10",
       "last_url": "https://allevents.in/hayward/19th-annual-fundraiser/200030002078232",
       "predicted_next": "2028-04-10",
+      "owner_decision": ""
+    },
+    {
+      "key": "golf outing|cloquet",
+      "title": "Annual Golf Outing",
+      "venue": "Cloquet Country Club",
+      "city": "Cloquet",
+      "area": "Cloquet",
+      "category": "sports-rec",
+      "years_seen": [
+        "2027"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": null,
+      "signal_reasons": [
+        "title says \"annual\""
+      ],
+      "last_date": "2027-06-14",
+      "last_url": "https://www.cloquet.com/event-details/annual-golf-outing",
+      "predicted_next": "2028-06-14",
       "owner_decision": ""
     }
   ],

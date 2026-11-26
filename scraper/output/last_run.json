@@ -1,16 +1,16 @@
 {
-  "when": "2026-11-25T20:55:56Z",
-  "raw": 4736,
-  "merged": 4129,
-  "published": 3988,
-  "queued": 141,
+  "when": "2026-11-26T20:45:44Z",
+  "raw": 4759,
+  "merged": 4157,
+  "published": 4020,
+  "queued": 137,
   "verification": {
-    "confirmed": 3895,
-    "multi_source": 360,
-    "trusted_single": 3535,
-    "reviewed_in": 93,
+    "confirmed": 3929,
+    "multi_source": 355,
+    "trusted_single": 3574,
+    "reviewed_in": 91,
     "reviewed_out": 0,
-    "queued": 141,
+    "queued": 137,
     "corrected": 0,
     "hidden": 0,
     "learned_category": 0
@@ -38,8 +38,8 @@
     },
     {
       "source": "felivelife",
-      "detail": "tribe: 230 events",
-      "events": 196
+      "detail": "tribe: 273 events",
+      "events": 238
     },
     {
       "source": "naturally-better-here",
@@ -58,8 +58,8 @@
     },
     {
       "source": "mesabi-tribune-events",
-      "detail": "evvnt: 429 events (publisher 7093, 439 listings)",
-      "events": 364
+      "detail": "evvnt: 427 events (publisher 7093, 437 listings)",
+      "events": 362
     },
     {
       "source": "apg-wisconsin-events",
@@ -68,7 +68,7 @@
     },
     {
       "source": "kaxe-events-up-north",
-      "detail": "posts: 13 inferred events from 17 docs",
+      "detail": "posts: 12 inferred events from 17 docs",
       "events": 12
     },
     {
@@ -84,12 +84,12 @@
     {
       "source": "cloquet-chamber",
       "detail": "jsonld: 5 events (rendered)",
-      "events": 2
+      "events": 3
     },
     {
       "source": "superior-chamber",
       "detail": "chambermaster: 42 events via https://superiorchamber.org",
-      "events": 21
+      "events": 20
     },
     {
       "source": "laurentian-chamber",
@@ -103,8 +103,8 @@
     },
     {
       "source": "ely-chamber",
-      "detail": "ics: 338 events from https://ely.org/?mec-ical-feed=1",
-      "events": 338
+      "detail": "ics: 333 events from https://ely.org/?mec-ical-feed=1",
+      "events": 333
     },
     {
       "source": "elc-chamber",
@@ -133,8 +133,8 @@
     },
     {
       "source": "bayfield-chamber",
-      "detail": "simpleview: 110 events (2 pages, 43/43 event pages)",
-      "events": 108
+      "detail": "simpleview: 112 events (2 pages, 45/45 event pages)",
+      "events": 110
     },
     {
       "source": "visit-ashland",
@@ -144,7 +144,7 @@
     {
       "source": "hayward-chamber",
       "detail": "simplecalendar: 176 events",
-      "events": 30
+      "events": 26
     },
     {
       "source": "spooner-chamber",
@@ -153,8 +153,8 @@
     },
     {
       "source": "ironwood-chamber",
-      "detail": "posts: 5 inferred events from 26 docs",
-      "events": 5
+      "detail": "posts: 4 inferred events from 26 docs",
+      "events": 3
     },
     {
       "source": "stlouis-county-mn",
@@ -173,7 +173,7 @@
     },
     {
       "source": "proctor-mn",
-      "detail": "tribe: 14 events",
+      "detail": "no adapter produced events  [carried forward from 2026-11-25]",
       "events": 8
     },
     {
@@ -198,8 +198,8 @@
     },
     {
       "source": "ely-mn",
-      "detail": "ics: 158 events from 1 Google calendar(s)",
-      "events": 151
+      "detail": "ics: 156 events from 1 Google calendar(s)",
+      "events": 149
     },
     {
       "source": "mountain-iron-mn",
@@ -218,8 +218,8 @@
     },
     {
       "source": "babbitt-mn",
-      "detail": "dpcalendar: 668 events from 10 calendar(s)",
-      "events": 326
+      "detail": "dpcalendar: 665 events from 10 calendar(s)",
+      "events": 324
     },
     {
       "source": "cook-mn",
@@ -284,12 +284,12 @@
     {
       "source": "two-harbors-mn",
       "detail": "revize: 126 events (webspace twoharborsmn)",
-      "events": 120
+      "events": 122
     },
     {
       "source": "silver-bay-mn",
-      "detail": "revize: 94 events (webspace silverbaymn)",
-      "events": 80
+      "detail": "revize: 90 events (webspace silverbaymn)",
+      "events": 76
     },
     {
       "source": "cook-county-mn",
@@ -323,8 +323,8 @@
     },
     {
       "source": "grand-rapids-city-mn",
-      "detail": "ics: 13 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
-      "events": 13
+      "detail": "ics: 11 events from https://cityofgrandrapidsmn.com/calendar/ical/%2A/calendar.ics",
+      "events": 11
     },
     {
       "source": "deer-river-mn",
@@ -348,8 +348,8 @@
     },
     {
       "source": "aitkin-mn",
-      "detail": "govoffice: 3 events from 2 page(s)",
-      "events": 2
+      "detail": "govoffice: 2 events from 2 page(s)",
+      "events": 1
     },
     {
       "source": "pine-county-mn",
@@ -383,8 +383,8 @@
     },
     {
       "source": "bayfield-county-wi",
-      "detail": "civicplus: 96 events",
-      "events": 96
+      "detail": "civicplus: 99 events",
+      "events": 99
     },
     {
       "source": "bayfield-city-wi",
@@ -413,8 +413,8 @@
     },
     {
       "source": "burnett-county-wi",
-      "detail": "civicplus: 7 events",
-      "events": 6
+      "detail": "civicplus: 8 events",
+      "events": 7
     },
     {
       "source": "siren-wi",
@@ -423,8 +423,8 @@
     },
     {
       "source": "washburn-county-wi",
-      "detail": "simpleview: 56 events (3 pages, 33/33 event pages)",
-      "events": 55
+      "detail": "simpleview: 39 events (3 pages, 31/31 event pages)",
+      "events": 38
     },
     {
       "source": "spooner-wi",
@@ -433,8 +433,8 @@
     },
     {
       "source": "sawyer-county-wi",
-      "detail": "no adapter produced events",
-      "events": 0
+      "detail": "civicplus: 2 events",
+      "events": 2
     },
     {
       "source": "hayward-wi",
@@ -453,38 +453,38 @@
     },
     {
       "source": "allevents-duluth",
-      "detail": "allevents: 241 events",
-      "events": 241
+      "detail": "allevents: 229 events",
+      "events": 229
     },
     {
       "source": "allevents-superior",
-      "detail": "allevents: 169 events",
-      "events": 168
+      "detail": "allevents: 179 events",
+      "events": 178
     },
     {
       "source": "allevents-cloquet",
-      "detail": "allevents: 44 events",
-      "events": 44
+      "detail": "allevents: 42 events",
+      "events": 42
     },
     {
       "source": "allevents-hibbing",
-      "detail": "allevents: 39 events",
-      "events": 39
+      "detail": "allevents: 38 events",
+      "events": 38
     },
     {
       "source": "allevents-grand-rapids",
-      "detail": "allevents: 14 events",
-      "events": 14
+      "detail": "allevents: 15 events",
+      "events": 15
     },
     {
       "source": "allevents-two-harbors",
-      "detail": "allevents: 30 events",
-      "events": 30
+      "detail": "allevents: 34 events",
+      "events": 34
     },
     {
       "source": "allevents-ashland",
-      "detail": "allevents: 12 events",
-      "events": 12
+      "detail": "allevents: 17 events",
+      "events": 17
     },
     {
       "source": "allevents-intl-falls",
@@ -493,48 +493,48 @@
     },
     {
       "source": "allevents-virginia",
-      "detail": "allevents: 21 events",
-      "events": 21
+      "detail": "allevents: 19 events",
+      "events": 19
     },
     {
       "source": "allevents-ely",
-      "detail": "allevents: 68 events",
-      "events": 68
+      "detail": "allevents: 70 events",
+      "events": 70
     },
     {
       "source": "allevents-grand-marais",
-      "detail": "allevents: 5 events",
-      "events": 5
+      "detail": "allevents: 6 events",
+      "events": 6
     },
     {
       "source": "allevents-hayward",
-      "detail": "allevents: 40 events",
-      "events": 40
+      "detail": "allevents: 41 events",
+      "events": 41
     },
     {
       "source": "allevents-ironwood",
-      "detail": "allevents: 22 events",
-      "events": 22
+      "detail": "allevents: 23 events",
+      "events": 23
     },
     {
       "source": "allevents-spooner",
-      "detail": "allevents: 38 events",
-      "events": 38
+      "detail": "allevents: 37 events",
+      "events": 37
     },
     {
       "source": "allevents-silver-bay",
-      "detail": "allevents: 15 events",
-      "events": 15
+      "detail": "allevents: 14 events",
+      "events": 14
     },
     {
       "source": "allevents-moose-lake",
-      "detail": "allevents: 15 events",
-      "events": 15
+      "detail": "allevents: 14 events",
+      "events": 14
     },
     {
       "source": "allevents-aitkin",
-      "detail": "allevents: 25 events",
-      "events": 25
+      "detail": "allevents: 24 events",
+      "events": 24
     },
     {
       "source": "allevents-hinckley",
@@ -553,13 +553,13 @@
     },
     {
       "source": "uws-yellowjackets",
-      "detail": "sidearm: 92 home/neutral events",
-      "events": 90
+      "detail": "sidearm: 94 home/neutral events",
+      "events": 94
     },
     {
       "source": "css-saints",
-      "detail": "sidearm: 74 home/neutral events",
-      "events": 74
+      "detail": "sidearm: 80 home/neutral events",
+      "events": 80
     },
     {
       "source": "norshor-playhouse",
@@ -568,8 +568,8 @@
     },
     {
       "source": "reif-center",
-      "detail": "tribe: 63 events",
-      "events": 63
+      "detail": "tribe: 65 events",
+      "events": 65
     },
     {
       "source": "sacred-heart",
@@ -588,7 +588,7 @@
     },
     {
       "source": "ls-railroad-museum",
-      "detail": "tribe: 7 events",
+      "detail": "no adapter produced events  [carried forward from 2026-11-25]",
       "events": 7
     },
     {
@@ -598,13 +598,13 @@
     },
     {
       "source": "wild-state-cider",
-      "detail": "tribe: 9 events",
-      "events": 9
+      "detail": "tribe: 8 events",
+      "events": 8
     },
     {
       "source": "castle-danger",
-      "detail": "tribe: 238 events",
-      "events": 112
+      "detail": "tribe: 240 events",
+      "events": 115
     },
     {
       "source": "zeitgeist",
@@ -628,13 +628,13 @@
     },
     {
       "source": "bent-paddle",
-      "detail": "simplecalendar: 52 events",
-      "events": 52
+      "detail": "simplecalendar: 51 events",
+      "events": 51
     },
     {
       "source": "ursa-minor",
-      "detail": "posts: 6 inferred events from 7 docs",
-      "events": 6
+      "detail": "posts: 5 inferred events from 7 docs",
+      "events": 5
     },
     {
       "source": "duluth-cider",
@@ -649,7 +649,7 @@
     {
       "source": "earth-rider",
       "detail": "eventbrite: 15 events (organizer 42879398303)",
-      "events": 15
+      "events": 14
     },
     {
       "source": "arrowhead-arts",
@@ -723,8 +723,8 @@
     },
     {
       "source": "hurley-area-chamber",
-      "detail": "jsonld: 23 events",
-      "events": 23
+      "detail": "jsonld: 21 events",
+      "events": 21
     },
     {
       "source": "spirit-mountain",
@@ -768,8 +768,8 @@
     },
     {
       "source": "fond-du-lac-band",
-      "detail": "revize: 58 events (webspace fonddulac)",
-      "events": 34
+      "detail": "revize: 57 events (webspace fonddulac)",
+      "events": 33
     }
   ]
 }
