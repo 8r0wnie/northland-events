@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T20:45:44",
+  "generated": "2026-11-27T20:28:14",
   "confirmed": [
     {
       "key": "northshore inline marathon|duluth",
@@ -2260,6 +2260,26 @@
       ],
       "last_date": "2026-12-13",
       "last_url": "https://allevents.in/superior/30th-annual-spartan-hockey-pancake-breakfast/200031071800051",
+      "predicted_next": "2027-12-13",
+      "owner_decision": ""
+    },
+    {
+      "key": "ssd holiday extravaganza|spooner",
+      "title": "SSD 1st Annual Holiday Extravaganza",
+      "venue": "Spooner High School",
+      "city": "Spooner",
+      "area": "Spooner",
+      "category": "community",
+      "years_seen": [
+        "2026"
+      ],
+      "occurrence_count": 1,
+      "claimed_annual_number": 1,
+      "signal_reasons": [
+        "title says \"1st Annual\""
+      ],
+      "last_date": "2026-12-13",
+      "last_url": "https://allevents.in/spooner/ssd-1st-annual-holiday-extravaganza/200031149388041",
       "predicted_next": "2027-12-13",
       "owner_decision": ""
     },
